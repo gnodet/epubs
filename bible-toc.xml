@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items xmlns:html="http://www.w3.org/1999/xhtml">
+	<item text="Ancien Testament">
+		<item href="Genese.htm" text="Livre de la Genèse"/>
+		<item href="Exode.htm" text="Livre de l'Exode"/>
+		<item href="Levitique.htm" text="Livre du Lévitique"/>
+		<item href="Nombres.htm" text="Livre des Nombres"/>
+		<item href="Deuteronome.htm" text="Livre du Deutéronome"/>
+		<item href="Josue.htm" text="Livre de Josué"/>
+		<item href="Juges.htm" text="Livre des Juges"/>
+		<item href="Ruth.htm" text="Livre de Ruth"/>
+		<item href="1Samuel.htm" text="Premier livre de Samuel"/>
+		<item href="2Samuel.htm" text="Deuxième livre de Samuel"/>
+		<item href="1Rois.htm" text="Premier livre des Rois"/>
+		<item href="2Rois.htm" text="Deuxième livre des Rois"/>
+		<item href="1Chroniques.htm" text="Premier livre des Chroniques"/>
+		<item href="2Chroniques.htm" text="Deuxième livre des Chroniques"/>
+		<item href="Esdras.htm" text="Livre d'Esdras"/>
+		<item href="Nehemie.htm" text="Livre de Néhémie"/>
+		<item href="Esther.htm" text="Livre d'Esther"/>
+		<item href="Job.htm" text="Livre de Job"/>
+		<item href="Psaumes.htm" text="Livre des Psaumes"/>
+		<item href="Proverbes.htm" text="Livre des Proverbes"/>
+		<item href="Ecclesiaste.htm" text="Livre de l'Ecclésiaste"/>
+		<item href="Cantique.htm" text="Le Cantique des Cantiques"/>
+		<item href="Esaie.htm" text="Livre du prophète Esaïe"/>
+		<item href="Jeremie.htm" text="Livre du prophète Jérémie"/>
+		<item href="Lamentations.htm" text="Les lamentations de Jérémie"/>
+		<item href="Ezechiel.htm" text="Livre du prophète Ezéchiel"/>
+		<item href="Daniel.htm" text="Livre du prophète Daniel"/>
+		<item href="Osee.htm" text="Livre du prophète Osée"/>
+		<item href="Joel.htm" text="Livre du prophète Joël"/>
+		<item href="Amos.htm" text="Livre du prophète Amos"/>
+		<item href="Abdias.htm" text="Livre du prophète Abdias"/>
+		<item href="Jonas.htm" text="Livre du prophète Jonas"/>
+		<item href="Michee.htm" text="Livre du prophète Michée"/>
+		<item href="Nahum.htm" text="Livre du prophète Nahum"/>
+		<item href="Habacuc.htm" text="Livre du prophète Habacuc"/>
+		<item href="Sophonie.htm" text="Livre du prophète Sophonie"/>
+		<item href="Aggee.htm" text="Livre du prophète Aggée"/>
+		<item href="Zacharie.htm" text="Livre du prophète Zacharie"/>
+		<item href="Malachie.htm" text="Livre du prophète Malachie"/>
+	</item>
+	<item text="Nouveau Testament">
+		<item href="Matthieu.htm" text="Évangile selon Matthieu"/>
+		<item href="Marc.htm" text="Évangile selon Marc"/>
+		<item href="Luc.htm" text="Évangile selon Luc"/>
+		<item href="Jean.htm" text="Évangile selon Jean"/>
+		<item href="Actes.htm" text="Les Actes des Apôtres"/>
+		<item href="Romains.htm" text="Épître de Paul aux Romains"/>
+		<item href="1Corinthiens.htm" text="Première épître de Paul aux Corinthiens"/>
+		<item href="2Corinthiens.htm" text="Deuxième épître de Paul aux Corinthiens"/>
+		<item href="Galates.htm" text="Épître de Paul aux Galates"/>
+		<item href="Ephesiens.htm" text="Épître de Paul aux Ephésiens"/>
+		<item href="Philippiens.htm" text="Épître de Paul aux Philippiens"/>
+		<item href="Colossiens.htm" text="Épître de Paul aux Colossiens"/>
+		<item href="1Thessaloniciens.htm" text="Première épître de Paul aux Thessaloniciens"/>
+		<item href="2Thessaloniciens.htm" text="Deuxième épître de Paul aux Thessaloniciens"/>
+		<item href="1Timothee.htm" text="Première épître de Paul à Timothée"/>
+		<item href="2Timothee.htm" text="Deuxième épître de Paul à Timothée"/>
+		<item href="Tite.htm" text="Épître de Paul à Tite"/>
+		<item href="Philemon.htm" text="Épître de Paul à Philémon"/>
+		<item href="Hebreux.htm" text="Épître aux Hébreux"/>
+		<item href="Jacques.htm" text="Épître de Jacques"/>
+		<item href="1Pierre.htm" text="Première épître de Pierre"/>
+		<item href="2Pierre.htm" text="Deuxième épître de Pierre"/>
+		<item href="1Jean.htm" text="Première épître de Jean"/>
+		<item href="2Jean.htm" text="Deuxième épître de Jean"/>
+		<item href="3Jean.htm" text="Troisième épître de Jean"/>
+		<item href="Jude.htm" text="Épître de Jude"/>
+		<item href="Apocalypse.htm" text="Apocalypse de Jean"/>
+	</item>
+</items>
