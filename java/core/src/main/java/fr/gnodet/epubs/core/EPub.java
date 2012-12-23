@@ -10,6 +10,10 @@ import java.util.zip.ZipOutputStream;
 public class EPub {
 
     public static void createEpub(File input, File output, String title, String creator) throws Exception {
+        createEpub(new File[] { input }, output, title, creator, null);
+    }
+
+    public static void createEpub(File[] inputs, File output, String title, String creator, String tocNcx) throws Exception {
         output.getParentFile().mkdirs();
         ZipOutputStream zos = new ZipOutputStream(new FileOutputStream(output));
         // mimetype
@@ -33,7 +37,8 @@ public class EPub {
         zos.closeEntry();
         // content.opf
         zos.putNextEntry(new ZipEntry("content.opf"));
-        zos.write(("<?xml version='1.0' encoding='utf-8'?>\n" +
+        String contentOpf =
+                "<?xml version='1.0' encoding='utf-8'?>\n" +
                 "<package xmlns=\"http://www.idpf.org/2007/opf\" version=\"2.0\" unique-identifier=\"uuid_id\">\n" +
                 "  <metadata xmlns:opf=\"http://www.idpf.org/2007/opf\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\n" +
                 "    <dc:title>" + title + "</dc:title>\n" +
@@ -42,49 +47,68 @@ public class EPub {
                 "    <meta name=\"cover\" content=\"cover\"/>\n" +
                 "    <dc:identifier id=\"uuid_id\" opf:scheme=\"uuid\">" + UUID.randomUUID() + "</dc:identifier>\n" +
                 "  </metadata>\n" +
-                "  <manifest>\n" +
-                "    <item id=\"s01\" media-type=\"application/xhtml+xml\" href=\"OEBPS/" + input.getName() + "\" />\n" +
+                "  <manifest>\n";
+        for (int i = 0; i < inputs.length; i++) {
+            contentOpf +=
+                    "    <item id=\"s" + Integer.toString(i) + "\" media-type=\"application/xhtml+xml\" href=\"OEBPS/" + inputs[i].getName() + "\" />\n";
+        }
+        contentOpf +=
                 "    <item href=\"toc.ncx\" media-type=\"application/x-dtbncx+xml\" id=\"ncx\"/>\n" +
                 "  </manifest>\n" +
-                "  <spine toc=\"ncx\"> \n" +
-                "    <itemref idref=\"s01\"/>\n" +
+                "  <spine toc=\"ncx\"> \n";
+        for (int i = 0; i < inputs.length; i++) {
+            contentOpf +=
+                "    <itemref idref=\"s" + Integer.toString(i) + "\"/>\n";
+        }
+        contentOpf +=
                 "  </spine>\n" +
-                "</package>\n").getBytes());
+                "</package>\n";
+        zos.write(contentOpf.getBytes());
         zos.closeEntry();
         // toc.ncx
         zos.putNextEntry(new ZipEntry("toc.ncx"));
-        zos.write(("<?xml version='1.0' encoding='utf-8'?>\n" +
-                "<ncx xmlns=\"http://www.daisy.org/z3986/2005/ncx/\" version=\"2005-1\" xml:lang=\"eng\">\n" +
-                "  <head>\n" +
-                "    <meta content=\"1\" name=\"dtb:depth\"/>\n" +
-                "  </head>\n" +
-                "  <docTitle>\n" +
-                "    <text>" + title + "</text>\n" +
-                "  </docTitle>\n" +
-                "  <navMap>\n" +
-                "    <navPoint id=\"1\" playOrder=\"1\">\n" +
-                "      <navLabel>\n" +
-                "        <text>" + title + "</text>\n" +
-                "      </navLabel>\n" +
-                "      <content src=\"OEBPS/" + input.getName() + "\"/>\n" +
-                "    </navPoint>\n" +
-                "  </navMap>\n" +
-                "</ncx>\n").getBytes());
+        if (tocNcx == null) {
+            tocNcx =
+                    "<?xml version='1.0' encoding='utf-8'?>\n" +
+                    "<ncx xmlns=\"http://www.daisy.org/z3986/2005/ncx/\" version=\"2005-1\" xml:lang=\"eng\">\n" +
+                    "  <head>\n" +
+                    "    <meta content=\"1\" name=\"dtb:depth\"/>\n" +
+                    "  </head>\n" +
+                    "  <docTitle>\n" +
+                    "    <text>" + title + "</text>\n" +
+                    "  </docTitle>\n" +
+                    "  <navMap>\n" +
+                    "    <navPoint id=\"1\" playOrder=\"1\">\n" +
+                    "      <navLabel>\n" +
+                    "        <text>" + title + "</text>\n" +
+                    "      </navLabel>\n";
+            for (int i = 0; i < 1; i++) {
+                tocNcx +=
+                        "      <content src=\"OEBPS/" + inputs[i].getName() + "\"/>\n";
+            }
+            tocNcx +=
+                    "    </navPoint>\n" +
+                    "  </navMap>\n" +
+                    "</ncx>\n";
+        }
+        zos.write(tocNcx.getBytes());
         zos.closeEntry();
         // OEBPS/
         zos.putNextEntry(new ZipEntry("OEBPS/"));
         // OEBPS/ main file
-        zos.putNextEntry(new ZipEntry("OEBPS/" + input.getName()));
-        {
-            InputStream fis = new BufferedInputStream(new FileInputStream(input));
-            byte[] buf = new byte[4096];
-            int len;
-            while ((len = fis.read(buf)) > 0) {
-                zos.write(buf, 0, len);
+        for (int i = 0; i < inputs.length; i++) {
+            zos.putNextEntry(new ZipEntry("OEBPS/" + inputs[i].getName()));
+            {
+                InputStream fis = new BufferedInputStream(new FileInputStream(inputs[i]));
+                byte[] buf = new byte[4096];
+                int len;
+                while ((len = fis.read(buf)) > 0) {
+                    zos.write(buf, 0, len);
+                }
+                fis.close();
             }
-            fis.close();
+            zos.closeEntry();
         }
-        zos.closeEntry();
         // close zip
         zos.close();
 
