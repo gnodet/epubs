@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <books>
+    <book file='papa-francesco_20130629_enciclica-lumen-fidei_fr.html' title="Lumen Fidei" creator="Francesco" date="2013-06-29" />
     <book file='hf_ben-xvi_enc_20090629_caritas-in-veritate_fr.html' title="Caritas in veritate" creator="Benoît XVI" date="2009-06-29" />
     <book file='hf_ben-xvi_enc_20071130_spe-salvi_fr.html' title="Spe Salvi" creator="Benoît XVI" date="2007-11-30" />
     <book file='hf_ben-xvi_enc_20051225_deus-caritas-est_fr.html' title="Deus Caritas Est" creator="Benoît XVI" date="2005-12-25" />

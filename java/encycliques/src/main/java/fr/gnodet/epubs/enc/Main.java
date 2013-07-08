@@ -38,7 +38,7 @@ public class Main {
         NodeList books = enclist.getDocumentElement().getElementsByTagName("book");
         for (int i = 0; i < books.getLength(); i++) {
 //        for (int i = 17; i < books.getLength(); i++) {
-//        int i = 19; {
+//        int i = 0; {
             Element book = (Element) books.item(i);
             String file = book.getAttribute("file");
             String title = book.getAttribute("title");
@@ -137,8 +137,20 @@ public class Main {
         // Distribute <center> tags
         document = distribute(document, "center", "p");
 
+        // Fix missing paragraphs
+        document = replaceAllFull(document, "(<blockquote>.*?)<p>(.*?</blockquote>)", "$1$2");
+        document = replaceAllFull(document, "(<blockquote>.*?)</p>(.*?</blockquote>)", "$1<br />$2");
+        document = document.replaceAll("</p>\\s*([^<\\s]+?.*?|\\s*<[^p].*?)\\s*<p", "</p><p>$1</p><p");
+        document = document.replaceAll("<p><p>", "<p>");
+        document = document.replaceAll("</p></p>", "</p>");
+
+        writeToFile(document, output);
+
         String head = extract(document, "<head>.*?</head>", 0);
-        String title = extract(document, ".*<td[^>]*>(.*?LETTRE ENCYCLIQUE.*?)(<p><i>|<p><em>|<p><b>|<p[^>]*>(<center>)?\u00a0|</td>|<[^>]*>\\s*INTRO)", 1);
+        String title = url.toExternalForm().contains("papa-francesco")
+                ? extract(document, "(<p[^>]*>.*?LETTRE ENCYCLIQUE.*?)<p>1\\. ", 1)
+                : extract(document, ".*<td[^>]*>(.*?LETTRE ENCYCLIQUE.*?)(<p><i>|<p><em>|<p><b>|<p[^>]*>(<center>)?\u00a0|</td>|<[^>]*>\\s*INTRO)", 1);
+
         String bened = extractFollowingParaContaining(document, ".*[Bb]énédiction.*", document.indexOf(title) + title.length());
         String footnotes = extract(document, "<hr[^>]*>(.*?<p.*?)(<p[^>]*>[\\s\u00a0]*</p>|<p><br />|</td>)", 1);
         String copyright = extract(document, ">\\s*(©[^<]*?)\\s*<", 1);
@@ -156,6 +168,17 @@ public class Main {
                 "</body></html>";
 
         writeToFile(document, output);
+    }
+
+    private static String replaceAllFull(String document, String regexp, String repl) {
+        for (;;) {
+            String doc = document.replaceAll(regexp, repl);
+            if (doc.equals(document)) {
+                return doc;
+            } else {
+                document = doc;
+            }
+        }
     }
 
     private static String distribute(String document, String outer, String inner) {
@@ -210,7 +233,7 @@ public class Main {
         document = document.replaceAll("VOLONTÉ<br />", "VOLONTÉ<br /><br />");
         document = document.replaceAll("<br />À L’OCCASION", "<br /><br />À L’OCCASION");
         document = document.replaceAll("PAUL VI", "<br />PAUL VI");
-        document = document.replaceAll("(BENOÎT XVI|JEAN-PAUL II|PAUL VI)", "<span class=\"author\">$1</span><br />");
+        document = document.replaceAll("(BENOÎT XVI|JEAN-PAUL II|PAUL VI|FRANÇOIS)", "<span class=\"author\">$1</span><br />");
         if (document.indexOf("LETTRE ENCYCLIQUE") > 4) {
             document = document.replaceAll("<p>(.*?)<br />", "<p><span class=\"title\">$1</span><br />");
         } else {
@@ -681,6 +704,8 @@ public class Main {
             return "john_paul_ii";
         } else if ("Paul VI".equals(name)) {
             return "paul_vi";
+        } else if ("Francesco".equals(name)) {
+            return "francesco";
         }
         throw new IllegalStateException("Unknown: " + name);
     }
