@@ -55,8 +55,24 @@ public class IOUtil {
         copy(reader, writer);
     }
 
+    public static void writeToFile(byte[] document, String file) throws IOException {
+        new File(file).getParentFile().mkdirs();
+        OutputStream writer = new FileOutputStream(file);
+        copy(new ByteArrayInputStream(document), writer);
+    }
+
     public static void copy(Reader reader, Writer writer) throws IOException {
         char[] buf = new char[4096];
+        int len;
+        while ((len = reader.read(buf)) > 0) {
+            writer.write(buf, 0, len);
+        }
+        reader.close();
+        writer.close();
+    }
+
+    public static void copy(InputStream reader, OutputStream writer) throws IOException {
+        byte[] buf = new byte[4096];
         int len;
         while ((len = reader.read(buf)) > 0) {
             writer.write(buf, 0, len);

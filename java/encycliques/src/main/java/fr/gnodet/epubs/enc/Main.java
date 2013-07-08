@@ -1,21 +1,19 @@
 package fr.gnodet.epubs.enc;
 
-import com.adobe.epubcheck.api.EpubCheck;
+import org.apache.batik.transcoder.TranscoderException;
+import org.apache.batik.transcoder.TranscoderInput;
+import org.apache.batik.transcoder.TranscoderOutput;
+import org.apache.batik.transcoder.image.PNGTranscoder;
 import org.w3c.dom.*;
-import org.w3c.tidy.Tidy;
 
-import javax.xml.namespace.NamespaceContext;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.xpath.XPathFactory;
+import java.awt.*;
 import java.io.*;
 import java.net.URL;
-import java.net.URLConnection;
 import java.util.*;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipOutputStream;
 
 import static fr.gnodet.epubs.core.EPub.createEpub;
 import static fr.gnodet.epubs.core.IOUtil.loadTextContent;
@@ -38,24 +36,198 @@ public class Main {
         NodeList books = enclist.getDocumentElement().getElementsByTagName("book");
         for (int i = 0; i < books.getLength(); i++) {
 //        for (int i = 17; i < books.getLength(); i++) {
-//        int i = 0; {
+//        int i = 19; {
             Element book = (Element) books.item(i);
             String file = book.getAttribute("file");
             String title = book.getAttribute("title");
+            String titlefr = book.getAttribute("title-fr");
             String creator = book.getAttribute("creator");
             String date = book.getAttribute("date");
             String full = getFull(creator);
+
             URL url = new URL("http://www.vatican.va/holy_father/" + full + "/encyclicals/documents/" + file);
+            String output = "enc_" + date + "_hf_" + full + "_" + title.toLowerCase().replaceAll("\\s", "-").replaceAll("æ", "ae");
             try {
-                process(url, "target/cache/" + file, "target/html/" + file);
-                createEpub(new File("target/html/" + file), new File("target/epub/" + file.substring(0, file.lastIndexOf('.')) + ".epub"), title, creator);
+                process(url, "target/cache/" + file, "target/html/" + output + ".html", full);
+                Map<String, byte[]> resources = new HashMap<String, byte[]>();
+                resources.put("OEBPS/img/" + full + "-bw.svg", readFully(Main.class.getResource("coa/" + full + "-bw.svg")));
+                resources.put("OEBPS/img/cover.png", generateCoverPng((i * 1.0 / books.getLength()), creator, title, titlefr, full));
+                resources.put("OEBPS/cover.html", generateCoverHtml(creator, titlefr, title, full).getBytes());
+                createEpub(new File[] { new File("target/html/" + output + ".html") },
+                           resources,
+                           new File("target/epub/" + output + ".epub"),
+                           title, creator, null);
             } catch (Throwable t) {
                 t.printStackTrace();
             }
         }
     }
 
-    private static void process(URL url, String cache, String output) throws Exception {
+    private static String generateCoverHtml(String creator, String titlefr, String title, String full) {
+        return "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">\n" +
+                "<html xmlns=\"http://www.w3.org/1999/xhtml\">\n" +
+                "  <head>\n" +
+                "    <title>Cover</title>\n" +
+                "    <style type=\"text/css\"> img { max-width: 100%; } </style>\n" +
+                "  </head>\n" +
+                "  <body>\n" +
+                "    <div id=\"cover-image\">\n" +
+                "      <img src=\"img/cover.png\" alt=\"" + titlefr + "\"/>\n" +
+                "    </div>\n" +
+                "  </body>\n" +
+                "</html>";
+    }
+
+    private static byte[] generateCoverPng(double hue, String creator, String title, String subtitle, String full) throws IOException, TranscoderException {
+
+        int width = 711;
+        int height = 1084;
+
+        String backColor =   hsl2rgb(hue, 0.9, 0.5);
+        String borderColor = hsl2rgb(hue, 0.9, 0.85);
+        String titleColor =  hsl2rgb(hue, 0.9, 0.25);
+
+        StringBuilder sb = new StringBuilder();
+        sb.append("<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 711 1084\" id=\"svg2\">\n");
+        sb.append("<rect width=\"711\" height=\"1084\" style=\"fill:").append(backColor).append(";stroke-width:0;stroke:rgb(0,0,0)\"/>\n");
+        sb.append("<rect x=\"50\" y=\"50\" width=\"611\" height=\"984\" style=\"fill:white;stroke-width:10;stroke:").append(borderColor).append("\"/>\n");
+
+        sb.append("<text fill=\"black\" font-family=\"serif\" font-size=\"58\" y=\"118\" x=\"355.5\" style=\"text-anchor: middle;\">")
+                .append(creator.toUpperCase())
+                .append("</text>\n");
+
+        List<String> titleParts = minLines(title.toUpperCase(), title.length() / 10 + 1);
+        int top = 108 + 75 + ((608 - 108) - 100 * titleParts.size()) / 2;
+        sb.append("<g transform=\"translate(0, -100) scale(0.8, 1.1) translate(444.375, ").append(313 + 50*(3 - titleParts.size())).append(")\">\n");
+        for (int i = 0; i < titleParts.size(); i++) {
+            sb.append("<text fill=\"").append(titleColor).append("\" font-family=\"serif\" font-size=\"96\" y=\"").append(i*100).append("\" x=\"0\" style=\"text-anchor: middle\">")
+                    .append(titleParts.get(i))
+                    .append("</text>\n");
+        }
+        sb.append("</g>\n");
+
+        List<String> subtitleParts = minLines(subtitle, subtitle.length() / 15 + 1);
+        top = 558 + (100 - 50 * subtitleParts.size()) / 2;
+        for (int i = 0; i < subtitleParts.size(); i++) {
+            sb.append("<text fill=\"black\" font-family=\"serif\" font-size=\"58\" font-style=\"italic\" y=\"").append(top + i*60).append("\" x=\"355.5\" style=\"text-anchor: middle\">")
+                    .append(subtitleParts.get(i))
+                    .append("</text>");
+        }
+
+        String innerSvg = new String(readFully(Main.class.getResource("coa/" + full + ".svg")));
+        if (innerSvg.startsWith("<?")) {
+            innerSvg = innerSvg.substring(innerSvg.indexOf("?>") + 2);
+        }
+        int vbi = innerSvg.indexOf("viewBox=");
+        String[] viewBox = innerSvg.substring(vbi + 9, innerSvg.indexOf("\"", vbi+9)).split(" ");
+        double iw = new Double(viewBox[2]);
+        double ih = new Double(viewBox[3]);
+
+        double rw = 324.0 * iw / ih;
+        double x = (width - rw) / 2;
+
+
+        sb.append("<svg y=\"658\" x=\"").append((int) x).append("\" height=\"324\" >")
+                .append(innerSvg)
+                .append("</svg>");
+
+        sb.append("</svg>");
+
+
+        new File("target/svgs").mkdirs();
+        writeToFile(sb.toString(), "target/svgs/" + pad(Long.toString((long) (hue * 100)), 2, "0") + " - " + title + ".svg");
+
+        // Create a JPEG transcoder
+        PNGTranscoder t = new PNGTranscoder();
+        // Set the transcoding hints.
+        t.addTranscodingHint(PNGTranscoder.KEY_HEIGHT, new Float(height));
+        t.addTranscodingHint(PNGTranscoder.KEY_WIDTH, new Float(width));
+        t.addTranscodingHint(PNGTranscoder.KEY_AOI, new Rectangle(width, height));
+        // Create the transcoder input.
+        TranscoderInput input = new TranscoderInput(new StringReader(sb.toString()));
+        // Create the transcoder output.
+        ByteArrayOutputStream ostream = new ByteArrayOutputStream();
+        TranscoderOutput output = new TranscoderOutput(ostream);
+
+        // Save the image.
+        t.transcode(input, output);
+
+        // Flush and close the stream.
+        ostream.flush();
+        ostream.close();
+
+        writeToFile(ostream.toByteArray(), "target/pngs/" + pad(Long.toString((long) (hue * 100)), 2, "0") + " - " + title + ".png");
+
+        return ostream.toByteArray();
+    }
+
+    private static String pad(String str, int length, String chr) {
+        while (str.length() < length) {
+            str = chr + str;
+        }
+        return str;
+    }
+
+    private static double hue2rgb(double p, double q, double t) {
+        if(t < 0.0) t += 1.0;
+        if(t > 1.0) t -= 1.0;
+        if(t < 1.0/6.0) return p + (q - p) * 6.0 * t;
+        if(t < 1.0/2.0) return q;
+        if(t < 2.0/3.0) return p + (q - p) * (2.0/3.0 - t) * 6.0;
+        return p;
+    }
+    private static String hsl2rgb(double h, double s, double l) {
+        double r, g, b;
+        if (s == 0.0) {
+            r = g = b = l; // achromatic
+        } else {
+            double q = l < 0.5 ? l * (1.0 + s) : l + s - l * s;
+            double p = 2.0 * l - q;
+            r = hue2rgb(p, q, h + 1.0/3.0);
+            g = hue2rgb(p, q, h);
+            b = hue2rgb(p, q, h - 1.0/3.0);
+        }
+
+        return toRGB(r, g, b);
+    }
+
+    private static String toRGB(double r, double g, double b) {
+        int lr = (int)(r * 255.0);
+        int lg = (int)(g * 255.0);
+        int lb = (int)(b * 255.0);
+        StringBuilder sb = new StringBuilder();
+        sb.append("#");
+        if (lr < 16) {
+            sb.append("0");
+        }
+        sb.append(Integer.toHexString(lr));
+        if (lg < 16) {
+            sb.append("0");
+        }
+        sb.append(Integer.toHexString(lg));
+        if (lb < 16) {
+            sb.append("0");
+        }
+        sb.append(Integer.toHexString(lb));
+        return sb.toString();
+    }
+
+    private static byte[] readFully(URL url) throws IOException {
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        byte[] buf = new byte[4096];
+        int l;
+        InputStream is = url.openStream();
+        try {
+            while ((l = is.read(buf)) >= 0) {
+                baos.write(buf, 0, l);
+            }
+        } finally {
+            is.close();
+        }
+        return baos.toByteArray();
+    }
+
+    private static void process(URL url, String cache, String output, String creator) throws Exception {
         System.out.println("Processing: " + url);
 
         //
@@ -144,8 +316,6 @@ public class Main {
         document = document.replaceAll("<p><p>", "<p>");
         document = document.replaceAll("</p></p>", "</p>");
 
-        writeToFile(document, output);
-
         String head = extract(document, "<head>.*?</head>", 0);
         String title = url.toExternalForm().contains("papa-francesco")
                 ? extract(document, "(<p[^>]*>.*?LETTRE ENCYCLIQUE.*?)<p>1\\. ", 1)
@@ -160,7 +330,7 @@ public class Main {
         document = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">" +
                 "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr\">" +
                 cleanHead(head) + "<body>" +
-                "<div id=\"title\">" + cleanTitle(title) + "</div>" +
+                "<div id=\"title\">" + cleanTitle(title, creator) + "</div>" +
                 (bened != null ? "<div id=\"bened\">" + cleanBened(bened) + "</div>" : "") +
                 "<div id=\"main\">" + cleanMain(main) + "</div>" +
                 (footnotes != null ? "<div id=\"notes\">" + cleanNotes(footnotes) + "</div>" : "") +
@@ -217,7 +387,7 @@ public class Main {
         return document;
     }
 
-    private static String cleanTitle(String document) {
+    private static String cleanTitle(String document, String creator) {
         document = document.trim();
         document = fixTypos(document);
         document = fixQuotesInParagraph(document);
@@ -250,6 +420,7 @@ public class Main {
         if (!document.startsWith("<p>")) {
             document = "<p>" + document;
         }
+        document = "<object width=\"200em\" data=\"img/" + creator + "-bw.svg\" type=\"image/svg+xml\"></object>" + document;
         return document;
     }
 
@@ -704,10 +875,51 @@ public class Main {
             return "john_paul_ii";
         } else if ("Paul VI".equals(name)) {
             return "paul_vi";
-        } else if ("Francesco".equals(name)) {
+        } else if ("François".equals(name)) {
             return "francesco";
         }
         throw new IllegalStateException("Unknown: " + name);
+    }
+
+
+    private static List<String> wrapMinWidth(String[] words, int n) {
+        List<String> r = new ArrayList<String>();
+        String l = "";
+        for (String w : words) {
+            if (l.length() > 0 && w.length() + l.length() > n) {
+                r.add(l);
+                l = "";
+            }
+            if (l.length() > 0) {
+                l = l + " " + w;
+            } else {
+                l = w;
+            }
+        }
+        if (l.length() > 0) {
+            r.add(l);
+        }
+        return r;
+    }
+
+    public static List<String> minLines(String phrase, int lines) {
+        String[] words = phrase.split(" ");
+        int hi = 0;
+        int lo = Integer.MAX_VALUE;
+        for (String word : words) {
+            hi += word.length();
+            lo = Math.min(lo, word.length());
+        }
+        while (lo < hi) {
+            int mid = lo + (hi - lo) / 2;
+            List<String> v = wrapMinWidth(words, mid);
+            if (v.size() > lines) {
+                lo = mid + 1;
+            } else {
+                hi = mid;
+            }
+        }
+        return wrapMinWidth(words, lo);
     }
 
 }

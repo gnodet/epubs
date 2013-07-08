@@ -3,6 +3,9 @@ package fr.gnodet.epubs.core;
 import com.adobe.epubcheck.api.EpubCheck;
 
 import java.io.*;
+import java.net.URL;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.UUID;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
@@ -10,10 +13,10 @@ import java.util.zip.ZipOutputStream;
 public class EPub {
 
     public static void createEpub(File input, File output, String title, String creator) throws Exception {
-        createEpub(new File[] { input }, output, title, creator, null);
+        createEpub(new File[] { input }, new HashMap<String, byte[]>(), output, title, creator, null);
     }
 
-    public static void createEpub(File[] inputs, File output, String title, String creator, String tocNcx) throws Exception {
+    public static void createEpub(File[] inputs, Map<String, byte[]> resources, File output, String title, String creator, String tocNcx) throws Exception {
         output.getParentFile().mkdirs();
         ZipOutputStream zos = new ZipOutputStream(new FileOutputStream(output));
         // mimetype
@@ -44,7 +47,7 @@ public class EPub {
                 "    <dc:title>" + title + "</dc:title>\n" +
                 "    <dc:language>fr</dc:language>\n" +
                 "    <dc:creator opf:file-as=\"" + creator + "\" opf:role=\"aut\">" + creator + "</dc:creator>\n" +
-                "    <meta name=\"cover\" content=\"cover\"/>\n" +
+                "    <meta name=\"cover\" content=\"cover-image\"/>\n" +
                 "    <dc:identifier id=\"uuid_id\" opf:scheme=\"uuid\">" + UUID.randomUUID() + "</dc:identifier>\n" +
                 "  </metadata>\n" +
                 "  <manifest>\n";
@@ -52,10 +55,43 @@ public class EPub {
             contentOpf +=
                     "    <item id=\"s" + Integer.toString(i) + "\" media-type=\"application/xhtml+xml\" href=\"OEBPS/" + inputs[i].getName() + "\" />\n";
         }
+        boolean hasCover = false;
+        {
+            int i = 0;
+            for (Map.Entry<String, byte[]> resource : resources.entrySet()) {
+                String type;
+                if (resource.getKey().endsWith(".svg")) {
+                    type = "image/svg+xml";
+                } else if (resource.getKey().endsWith(".jpg")) {
+                    type = "image/jpeg";
+                } else if (resource.getKey().endsWith(".png")) {
+                    type = "image/png";
+                } else if (resource.getKey().endsWith(".html")) {
+                    type = "application/xhtml+xml";
+                } else {
+                    type = "binary";
+                }
+                String id;
+                if (resource.getKey().endsWith("cover.jpg") || resource.getKey().endsWith("cover.png")) {
+                    id = "cover-image";
+                } else if (resource.getKey().endsWith("cover.html")) {
+                    id = "cover";
+                    hasCover = true;
+                } else {
+                    id = "r" + Integer.toString(i++);
+                }
+                contentOpf +=
+                        "   <item id=\"" + id + "\" media-type=\"" + type + "\" href=\"" + resource.getKey() + "\" />\n";
+            }
+        }
         contentOpf +=
                 "    <item href=\"toc.ncx\" media-type=\"application/x-dtbncx+xml\" id=\"ncx\"/>\n" +
                 "  </manifest>\n" +
                 "  <spine toc=\"ncx\"> \n";
+        if (hasCover && false) {
+            contentOpf +=
+                "    <itemref idref=\"cover\"/>\n";
+        }
         for (int i = 0; i < inputs.length; i++) {
             contentOpf +=
                 "    <itemref idref=\"s" + Integer.toString(i) + "\"/>\n";
@@ -82,6 +118,10 @@ public class EPub {
                     "      <navLabel>\n" +
                     "        <text>" + title + "</text>\n" +
                     "      </navLabel>\n";
+            if (resources.containsKey("OEBPS/cover.html")) {
+                tocNcx +=
+                        "      <content src=\"OEBPS/cover.html\"/>\n";
+            }
             for (int i = 0; i < 1; i++) {
                 tocNcx +=
                         "      <content src=\"OEBPS/" + inputs[i].getName() + "\"/>\n";
@@ -107,6 +147,12 @@ public class EPub {
                 }
                 fis.close();
             }
+            zos.closeEntry();
+        }
+        // Additional resources
+        for (Map.Entry<String, byte[]> resource : resources.entrySet()) {
+            zos.putNextEntry(new ZipEntry(resource.getKey()));
+            zos.write(resource.getValue());
             zos.closeEntry();
         }
         // close zip
