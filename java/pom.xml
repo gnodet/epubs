@@ -12,6 +12,7 @@
         <module>core</module>
         <module>encycliques</module>
         <module>cds</module>
+        <module>vatican-ii</module>
     </modules>
 
 
