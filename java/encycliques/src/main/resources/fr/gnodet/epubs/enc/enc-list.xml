@@ -2,22 +2,22 @@
 <books>
     <book file='papa-francesco_20130629_enciclica-lumen-fidei_fr.html' title="Lumen Fidei" title-fr="La lumière de la foi" creator="François" date="2013-06-29" />
     <book file='hf_ben-xvi_enc_20090629_caritas-in-veritate_fr.html' title="Caritas in veritate" title-fr="L’amour dans la vérité" creator="Benoît XVI" date="2009-06-29" />
-    <book file='hf_ben-xvi_enc_20071130_spe-salvi_fr.html' title="Spe Salvi" title-fr="Dans l’espérance" creator="Benoît XVI" date="2007-11-30" />
+    <book file='hf_ben-xvi_enc_20071130_spe-salvi_fr.html' title="Spe Salvi" title-fr="Sauvés dans l’espérance" creator="Benoît XVI" date="2007-11-30" />
     <book file='hf_ben-xvi_enc_20051225_deus-caritas-est_fr.html' title="Deus Caritas Est" title-fr="Dieu est amour" creator="Benoît XVI" date="2005-12-25" />
     <book file='hf_jp-ii_enc_20030417_eccl-de-euch_fr.html' title="Ecclesia de Eucharistia" title-fr="L’Église vit de l’Eucharistie" creator="Jean-Paul II" date="2003-04-17" />
     <book file='hf_jp-ii_enc_15101998_fides-et-ratio_fr.html' title="Fides et ratio" title-fr="La foi et la raison" creator="Jean-Paul II" date="1998-09-14" />
     <book file='hf_jp-ii_enc_25051995_ut-unum-sint_fr.html' title="Ut unum sint" title-fr="Qu’ils soient un" creator="Jean-Paul II" date="1995-05-25" />
     <book file='hf_jp-ii_enc_25031995_evangelium-vitae_fr.html' title="Evangelium vitæ" title-fr="L’Évangile de la vie" creator="Jean-Paul II" date="1995-03-25" />
     <book file='hf_jp-ii_enc_06081993_veritatis-splendor_fr.html' title="Veritatis splendor" title-fr="La splendeur de la vérité" creator="Jean-Paul II" date="1993-08-06" />
-    <book file='hf_jp-ii_enc_01051991_centesimus-annus_fr.html' title="Centesimus Annus" title-fr="Le centenaire" creator="Jean-Paul II" date="1991-05-01" />
-    <book file='hf_jp-ii_enc_07121990_redemptoris-missio_fr.html' title="Redemptoris missio" title-fr="La mission rédemptrice" creator="Jean-Paul II" date="1990-12-07" />
+    <book file='hf_jp-ii_enc_01051991_centesimus-annus_fr.html' title="Centesimus Annus" title-fr="La centième année" creator="Jean-Paul II" date="1991-05-01" />
+    <book file='hf_jp-ii_enc_07121990_redemptoris-missio_fr.html' title="Redemptoris missio" title-fr="La mission du Rédempteur" creator="Jean-Paul II" date="1990-12-07" />
     <book file='hf_jp-ii_enc_30121987_sollicitudo-rei-socialis_fr.html' title="Sollicitudo rei socialis" title-fr="La prise en charge du social" creator="Jean-Paul II" date="1987-12-30" />
     <book file='hf_jp-ii_enc_25031987_redemptoris-mater_fr.html' title="Redemptoris Mater" title-fr="La mère du Rédempteur" creator="Jean-Paul II" date="1987-03-25" />
-    <book file='hf_jp-ii_enc_18051986_dominum-et-vivificantem_fr.html' title="Dominum et vivificantem" title-fr="Seigneur et qui donne la vie" creator="Jean-Paul II" date="1986-05-18" />
-    <book file='hf_jp-ii_enc_19850602_slavorum-apostoli_fr.html' title="Slavorum Apostoli" title-fr="Apôtres des slaves" creator="Jean-Paul II" date="1985-06-02" />
-    <book file='hf_jp-ii_enc_14091981_laborem-exercens_fr.html' title="Laborem exercens" title-fr="Par le travail" creator="Jean-Paul II" date="1981-09-14" />
-    <book file='hf_jp-ii_enc_30111980_dives-in-misericordia_fr.html' title="Dives in misericordia" title-fr="Riche en miséricorde" creator="Jean-Paul II" date="1980-11-30" />
-    <book file='hf_jp-ii_enc_04031979_redemptor-hominis_fr.html' title="Redemptor hominis" title-fr="Rédempteur de l’homme" creator="Jean-Paul II" date="1979-03-04" />
+    <book file='hf_jp-ii_enc_18051986_dominum-et-vivificantem_fr.html' title="Dominum et vivificantem" title-fr="Il est Seigneur et il donne la vie" creator="Jean-Paul II" date="1986-05-18" />
+    <book file='hf_jp-ii_enc_19850602_slavorum-apostoli_fr.html' title="Slavorum Apostoli" title-fr="Apôtres des Slaves" creator="Jean-Paul II" date="1985-06-02" />
+    <book file='hf_jp-ii_enc_14091981_laborem-exercens_fr.html' title="Laborem exercens" title-fr="En travaillant" creator="Jean-Paul II" date="1981-09-14" />
+    <book file='hf_jp-ii_enc_30111980_dives-in-misericordia_fr.html' title="Dives in misericordia" title-fr="Dieu riche en miséricorde" creator="Jean-Paul II" date="1980-11-30" />
+    <book file='hf_jp-ii_enc_04031979_redemptor-hominis_fr.html' title="Redemptor hominis" title-fr="Le Rédempteur de l’homme" creator="Jean-Paul II" date="1979-03-04" />
     <book file='hf_p-vi_enc_25071968_humanae-vitae_fr.html' title="Humanæ vitæ" title-fr="La vie humaine" creator="Paul VI" date="1968-07-25" />
     <book file='hf_p-vi_enc_24061967_sacerdotalis_fr.html' title="Sacerdotalis Cælibatus" title-fr="Le célibat sacerdotal" creator="Paul VI" date="1967-06-24"  />
     <book file='hf_p-vi_enc_26031967_populorum_fr.html' title="Populorum Progressio" title-fr="Le développement des peuples" creator="Paul VI" date="1967-03-26"  />
