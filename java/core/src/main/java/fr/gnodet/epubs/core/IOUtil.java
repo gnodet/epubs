@@ -81,4 +81,10 @@ public class IOUtil {
         writer.close();
     }
 
+    public static byte[] readFully(URL url) throws IOException {
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        copy(url.openStream(), baos);
+        return baos.toByteArray();
+    }
+
 }

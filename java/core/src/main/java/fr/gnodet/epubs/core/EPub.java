@@ -16,6 +16,10 @@ public class EPub {
         createEpub(new File[] { input }, new HashMap<String, byte[]>(), output, title, creator, null);
     }
 
+    public static void createEpub(File[] inputs, File output, String title, String creator, String tocNcx) throws Exception {
+        createEpub(inputs, new HashMap<String, byte[]>(), output, title, creator, tocNcx);
+    }
+
     public static void createEpub(File[] inputs, Map<String, byte[]> resources, File output, String title, String creator, String tocNcx) throws Exception {
         output.getParentFile().mkdirs();
         ZipOutputStream zos = new ZipOutputStream(new FileOutputStream(output));

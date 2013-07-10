@@ -1,11 +1,13 @@
 package fr.gnodet.epubs.cds;
 
+import fr.gnodet.epubs.core.Cover;
 import fr.gnodet.epubs.core.Tidy;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 
 import javax.xml.parsers.DocumentBuilderFactory;
+import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -15,6 +17,7 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.text.Normalizer;
 import java.util.*;
+import java.util.List;
 import java.util.concurrent.Callable;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
@@ -37,8 +40,18 @@ public class Main {
         String cache = "target/cache/" + file;
         String output = "target/html/" + file;
         String epub = "target/epub/" + file.substring(0, file.lastIndexOf('.')) + ".epub";
-        String title = "Compendium de la Doctrine Sociale de l'Église";
+        String title = "Compendium de la Doctrine Sociale de l’Église";
         String creator = "Conseil Pontifical « Justice et Paix »";
+
+        byte[] coverPng = Cover.generateCoverPng(Math.random(),
+                title,
+                new Object[] {
+                        new Cover.Text(creator, new Font(Font.SERIF, Font.PLAIN, 58), 1.0, 1.2, 0.0),
+                        new Cover.Break(),
+                        new Cover.Text("Compendium de la", new Font(Font.SERIF, Font.ITALIC, 58), 1.2, 1.3, 0.25),
+                        new Cover.Text("DOCTRINE SOCIALE DE L’ÉGLISE", new Font(Font.SERIF, Font.PLAIN, 96), 1.2, 1.3, 0.25),
+                },
+                Main.class.getResource("papacy.svg"));
 
         // Load URL text content
         String document = loadTextContent(new URL(burl + file), cache);
@@ -92,20 +105,22 @@ public class Main {
         // Clean things a bit
         //
         document = document.replaceAll("<i><br />", "<br /><i>");
-        document = document.replaceAll("<font face=\"Times New Roman\">(.*?)</font>", "$1");
-        document = document.replaceAll("<font color=\"#663300\">(.*?)</font>", "$1");
-        document = document.replaceAll("<font size=\"3\">(.*?)</font>", "$1");
-        document = document.replaceAll("<font face=\"Times New Roman\" color=\"#663300\">(.*?)</font>", "$1");
+        document = document.replaceAll(" color=\"#663300\"| face=\"Times New Roman\"| size=\"3\"", "");
         document = document.replaceAll("align=\"center\"", "class=\"center\"");
+        document = document.replaceAll("align=\"right\"", "class=\"right\"");
 
         // Fix stuff
         document = document.replaceAll("\\.\\.\\.", "…");
         document = document.replaceAll("come", "comme");
+        document = document.replaceAll("la pratique\\s*</i>\\s*</p>\\s*<p>\\s*<i>\\s*du pouvoir", "la pratique du pouvoir");
         document = document.replaceAll(":\\s*</i>", "</i> : ");
 //        document = document.replaceAll("<a href=\"#autonomie-et-independance\">", "<a href=\"#autonomie-et-independances\">");
         document = fixQuotes(document);
         document = fixFootNotes(document);
         document = fixWhitespaces(document);
+
+        document = document.replaceAll("<font\\s*>(.*?)</font>", "$1");
+        document = document.replaceAll("<a[^>]*></a>", "");
 
         // Add our style
         document = document.replaceAll("</head>",
@@ -117,9 +132,9 @@ public class Main {
                         " #main .numpara { font-family: Verdana; font-size: smaller; font-weight: bold; }\n" +
                         " .footnote { vertical-align: super; font-size: 70%; line-height: 80%; }\n" +
                         " .center { text-align: center; }\n" +
+                        " .right { text-align: right; }\n" +
                         " p .ref { margin: 0; padding: 0; font-size: smaller; }\n" +
                         " p a .ref { font-family: Verdana; font-size: smaller; font-weight: bold; }\n" +
-                        " #copyright { color: #663300; text-align: center; font-size: smaller; }\n" +
                         "</style>" +
                         "</head>");
 
@@ -143,7 +158,11 @@ public class Main {
         String tocNcx = createToc(docs, output);
 
         // Create epub
-        createEpub(files, new File(epub), title, creator, tocNcx);
+        Map<String, byte[]> resources = new HashMap<String, byte[]>();
+        resources.put("OEBPS/img/cover.png", coverPng);
+        resources.put("OEBPS/cover.html",
+                Cover.generateCoverHtml(creator, title, "", creator).getBytes());
+        createEpub(files, resources, new File(epub), title, creator, tocNcx);
     }
 
     private static String createToc(String[] docs, String fileBase) throws Exception {

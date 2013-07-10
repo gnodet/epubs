@@ -376,6 +376,8 @@ public class Tidy {
         ENTITIES.put(Pattern.compile("&para;"), "¶");
         ENTITIES.put(Pattern.compile("&deg;"), "°");
         ENTITIES.put(Pattern.compile("&ordm;"), "º");
+        ENTITIES.put(Pattern.compile("&Scaron;"), "Š");
+        ENTITIES.put(Pattern.compile("&scaron;"), "š");
     }
 
 }
