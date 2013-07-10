@@ -319,7 +319,7 @@ Full-Width Styles
 
 #downloads {
   position: absolute;
-  width: 210px;
+  width: 120px;
   z-index: 10;
   bottom: -40px;
   right: 0;
@@ -370,7 +370,12 @@ Full-Width Styles
   background: #212121;
 }
 
-
+#main_content table tr td a img {
+	width: 150px;            
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
 
 /*******************************************************************************
 Small Device Styles
