@@ -19,6 +19,7 @@ import java.util.regex.Pattern;
 
 import static fr.gnodet.epubs.core.EPub.createEpub;
 import static fr.gnodet.epubs.core.IOUtil.loadTextContent;
+import static fr.gnodet.epubs.core.IOUtil.readFully;
 import static fr.gnodet.epubs.core.IOUtil.writeToFile;
 import static fr.gnodet.epubs.core.Quotes.fixQuotes;
 import static fr.gnodet.epubs.core.Quotes.fixQuotesInParagraph;
@@ -32,7 +33,13 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
+        int nbColumns = 5;
+
         dbf.setNamespaceAware(true);
+
+        StringBuilder indexHtml = new StringBuilder();
+        indexHtml.append("<h3>Lettres encycliques</h3>");
+        indexHtml.append("<table>");
 
         Document enclist = dbf.newDocumentBuilder().parse(Main.class.getResourceAsStream("enc-list.xml"));
         NodeList books = enclist.getDocumentElement().getElementsByTagName("book");
@@ -46,31 +53,46 @@ public class Main {
             String creator = book.getAttribute("creator");
             String date = book.getAttribute("date");
             String full = getFull(creator);
+            String output = "enc_" + date + "_hf_" + full + "_" + title.toLowerCase().replaceAll("\\s", "-").replaceAll("æ", "ae");
+
+            byte[] coverPngData = Cover.generateCoverPng((i * 1.0 / books.getLength()),
+                    creator,
+                    title,
+                    titlefr,
+                    full,
+                    Main.class.getResource("coa/" + full + ".svg"));
+            new File("target/site/images").mkdirs();
+            writeToFile(coverPngData, "target/site/images/" + output + ".png");
+            if (i % nbColumns == 0) {
+                indexHtml.append("<tr>");
+            }
+            indexHtml.append("<td><a href='epub/").append(output).append(".epub'><img src='images/").append(output).append(".png'/></a></td>");
+            if ((i + 1) % nbColumns == 0 || i == books.getLength() - 1) {
+                indexHtml.append("</tr>");
+            }
 
             URL url = new URL("http://www.vatican.va/holy_father/" + full + "/encyclicals/documents/" + file);
-            String output = "enc_" + date + "_hf_" + full + "_" + title.toLowerCase().replaceAll("\\s", "-").replaceAll("æ", "ae");
             try {
                 process(url, "target/cache/" + file, "target/html/" + output + ".html", full);
                 Map<String, byte[]> resources = new HashMap<String, byte[]>();
                 resources.put("OEBPS/img/" + full + "-bw.svg",
-                              IOUtil.readFully(Main.class.getResource("coa/" + full + "-bw.svg")));
-                resources.put("OEBPS/img/cover.png",
-                              Cover.generateCoverPng((i * 1.0 / books.getLength()),
-                              creator,
-                              title,
-                              titlefr,
-                              full,
-                              Main.class.getResource("coa/" + full + ".svg")));
-                resources.put("OEBPS/cover.html",
-                              Cover.generateCoverHtml(creator, titlefr, title, full).getBytes());
+                              readFully(Main.class.getResource("coa/" + full + "-bw.svg")));
+                resources.put("OEBPS/img/cover.png", coverPngData);
+                resources.put("OEBPS/cover.html", Cover.generateCoverHtml(creator, titlefr, title, full).getBytes());
                 createEpub(new File[] { new File("target/html/" + output + ".html") },
                            resources,
-                           new File("target/epub/" + output + ".epub"),
+                           new File("target/site/epub/" + output + ".epub"),
                            title, creator, null);
             } catch (Throwable t) {
                 t.printStackTrace();
             }
         }
+
+        indexHtml.append("</table>");
+        String template = new String(readFully(Main.class.getResource("template.html")));
+        template = template.replace("${TITLE}", "Lettres encycliques");
+        template = template.replace("${CONTENT}", indexHtml.toString());
+        writeToFile(template, "target/site/encycliques.html");
     }
 
     private static void process(URL url, String cache, String output, String creator) throws Exception {
