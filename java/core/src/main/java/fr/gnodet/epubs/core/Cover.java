@@ -39,14 +39,12 @@ public class Cover {
         String text;
         Font font;
         double scale;
-        double maxScale;
         double color;
 
-        public Text(String text, Font font, double scale, double maxScale, double color) {
+        public Text(String text, Font font, double scale, double color) {
             this.text = text;
             this.font = font;
             this.scale = scale;
-            this.maxScale = maxScale;
             this.color = color;
         }
     }
@@ -69,11 +67,11 @@ public class Cover {
                                           String full,
                                           URL svg) throws IOException, TranscoderException {
         Object[] textParts = new Object[] {
-                new Text(creator.toUpperCase(), new Font(Font.SERIF, Font.PLAIN, 58), 1.0, 1.2, 0.0),
+                new Text(creator.toUpperCase(), new Font(Font.SERIF, Font.PLAIN, 58), 1.0, 0.0),
                 new Break(),
-                new Text(title.toUpperCase(), new Font(Font.SERIF, Font.PLAIN, 96), 1.2, 1.3, 0.25),
+                new Text(title.toUpperCase(), new Font(Font.SERIF, Font.PLAIN, 96), 1.2, 0.25),
                 new Break(),
-                new Text(subtitle, new Font(Font.SERIF, Font.ITALIC, 58), 1.0, 1.2, 0.0),
+                new Text(subtitle, new Font(Font.SERIF, Font.ITALIC, 58), 1.0, 0.0),
         };
         return generateCoverPng(hue, title, textParts, svg);
     }
@@ -152,23 +150,44 @@ public class Cover {
 
         Graphics graphics = new BufferedImage(5, 5, BufferedImage.TYPE_INT_RGB).getGraphics();
         {
-            int[] heights = new int[textParts.length];
+            class TextInfo {
+                int height;
+                List<String> parts;
+                double scale;
+            }
+            TextInfo[] infos = new TextInfo[textParts.length];
             int curUsed = 0;
             double totBreak = 0.0;
             for (int i = 0; i < textParts.length; i++) {
                 if (textParts[i] instanceof Text) {
                     Text text = (Text) textParts[i];
                     FontMetrics fm = graphics.getFontMetrics(text.font);
-                    List<String> parts = wrap(text.text, fm, (int) ((textBox.getWidth() - textMargin * 2) * text.scale));
-                    heights[i] = parts.size() * text.font.getSize();
-                    curUsed += heights[i];
+                    TextInfo info = new TextInfo();
+                    info.scale = text.scale;
+                    List<String> p0 = wrap(text.text, fm, (int) ((textBox.getWidth() - textMargin * 0) * info.scale));
+                    List<String> p1 = wrap(text.text, fm, (int) ((textBox.getWidth() - textMargin * 2) * info.scale));
+                    boolean useMargin = p1.size() == 2;
+                    info.parts = useMargin ? p1 : p0;
+                    for (String str : info.parts) {
+                        int tw = fm.stringWidth(str);
+                        if (tw / text.scale > (textBox.getWidth() - textMargin * 2)) {
+                            double s = tw / (textBox.getWidth() - textMargin * 2);
+                            info.scale = Math.max(info.scale, s);
+                        }
+                    }
+                    info.parts = wrap(text.text, fm, (int) ((textBox.getWidth() - textMargin * (useMargin ? 2 : 0)) * info.scale));
+                    info.height = info.parts.size() * text.font.getSize();
+                    infos[i] = info;
+                    curUsed += info.height;
                 } else if (textParts[i] instanceof Break) {
                     totBreak += ((Break) textParts[i]).factor;
                 }
             }
             for (int i = 0; i < textParts.length; i++) {
                 if (textParts[i] instanceof Break) {
-                    heights[i] = (int) Math.round((textBox.getHeight() - curUsed) / totBreak * ((Break) textParts[i]).factor);
+                    TextInfo info = new TextInfo();
+                    info.height = (int) Math.round((textBox.getHeight() - curUsed) / totBreak * ((Break) textParts[i]).factor);
+                    infos[i] = info;
                 }
             }
             double minY = textBox.getMinY();
@@ -176,25 +195,17 @@ public class Cover {
                 if (textParts[i] instanceof Text) {
                     Text text = (Text) textParts[i];
                     FontMetrics fm = graphics.getFontMetrics(text.font);
-                    List<String> parts = wrap(text.text, fm, (int) ((textBox.getWidth() - textMargin * 2) * text.scale));
-                    double scaleX = 1.0;
-                    for (String str : parts) {
-                        int tw = fm.stringWidth(str);
-                        if (tw > textBox.getWidth()) {
-                            scaleX = Math.min(scaleX, textBox.getWidth() / tw);
-                        }
-                    }
                     sb.append("<g font-family=\"serif\" font-size=\"" + text.font.getSize() + "\" fill=\"" + hsl2rgb(hue, 0.9, text.color) + "\" text-anchor=\"middle\" " +
                             ((text.font.getStyle() & Font.ITALIC) == Font.ITALIC ? "font-style=\"italic\" " : "") +
-                            "transform=\"scale(" + scaleX + " 1.0) translate(" + (textBox.getCenterX() / scaleX) + ", " + (minY + text.font.getSize()) + ")\">");
-                    for (int j = 0; j < parts.size(); j++) {
+                            "transform=\"scale(" + (1.0/infos[i].scale) + " 1.0) translate(" + (textBox.getCenterX() * infos[i].scale) + ", " + (minY + text.font.getSize()) + ")\">");
+                    for (int j = 0; j < infos[i].parts.size(); j++) {
                         sb.append("<text x=\"0\" y=\"").append(j * text.font.getSize()).append("\">")
-                                .append(parts.get(j))
+                                .append(infos[i].parts.get(j))
                                 .append("</text>\n");
                     }
                     sb.append("</g>");
                 }
-                minY += heights[i];
+                minY += infos[i].height;
             }
         }
 

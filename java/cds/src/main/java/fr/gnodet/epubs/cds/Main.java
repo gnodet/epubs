@@ -46,10 +46,10 @@ public class Main {
         byte[] coverPng = Cover.generateCoverPng(Math.random(),
                 title,
                 new Object[] {
-                        new Cover.Text(creator, new Font(Font.SERIF, Font.PLAIN, 58), 1.0, 1.2, 0.0),
+                        new Cover.Text(creator, new Font(Font.SERIF, Font.PLAIN, 58), 1.0, 0.0),
                         new Cover.Break(),
-                        new Cover.Text("Compendium de la", new Font(Font.SERIF, Font.ITALIC, 58), 1.2, 1.3, 0.25),
-                        new Cover.Text("DOCTRINE SOCIALE DE L’ÉGLISE", new Font(Font.SERIF, Font.PLAIN, 96), 1.2, 1.3, 0.25),
+                        new Cover.Text("Compendium de la", new Font(Font.SERIF, Font.ITALIC, 58), 1.2, 0.25),
+                        new Cover.Text("DOCTRINE SOCIALE DE L’ÉGLISE", new Font(Font.SERIF, Font.PLAIN, 96), 1.2, 0.25),
                 },
                 Main.class.getResource("papacy.svg"));
 

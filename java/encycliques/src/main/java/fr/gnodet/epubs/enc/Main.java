@@ -45,7 +45,7 @@ public class Main {
         NodeList books = enclist.getDocumentElement().getElementsByTagName("book");
         for (int i = 0; i < books.getLength(); i++) {
 //        for (int i = 17; i < books.getLength(); i++) {
-//        int i = 23; {
+//        int i = 0; {
             Element book = (Element) books.item(i);
             String file = book.getAttribute("file");
             String title = book.getAttribute("title");
@@ -55,11 +55,16 @@ public class Main {
             String full = getFull(creator);
             String output = "enc_" + date + "_hf_" + full + "_" + title.toLowerCase().replaceAll("\\s", "-").replaceAll("æ", "ae");
 
-            byte[] coverPngData = Cover.generateCoverPng((i * 1.0 / books.getLength()),
-                    creator,
+            byte[] coverPngData = Cover.generateCoverPng(
+                    (i * 1.0 / books.getLength()),
                     title,
-                    titlefr,
-                    full,
+                    new Object[] {
+                            new Cover.Text(creator.toUpperCase(), new Font(Font.SERIF, Font.PLAIN, 58), 1.0, 0.0),
+                            new Cover.Break(),
+                            new Cover.Text(title.toUpperCase(), new Font(Font.SERIF, Font.PLAIN, 96), 1.2, 0.25),
+                            new Cover.Break(),
+                            new Cover.Text(titlefr, new Font(Font.SERIF, Font.ITALIC, 58), 1.0, 0.0)
+                    },
                     Main.class.getResource("coa/" + full + ".svg"));
             new File("target/site/images").mkdirs();
             writeToFile(coverPngData, "target/site/images/" + output + ".png");
