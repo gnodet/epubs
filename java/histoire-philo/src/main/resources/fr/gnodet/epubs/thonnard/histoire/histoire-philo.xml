@@ -1,0 +1,1113 @@
+<items>
+    <item text="Préface" ref="h03_preface.htm"/>
+    <item text="Introduction" ref="h04_p0001a0025.htm#s1p1">
+        <item text="1. Définition" ref="h04_p0001a0025.htm#s1p2"/>
+        <item text="2. Vue d'ensemble et division" ref="h04_p0001a0025.htm#s3p1"/>
+    </item>
+    <item text="Première partie. Époque grecque et romaine. Philosophie païenne.  (Du VIe siècle avant J.-C. au VIe siècle après J.-C.)" ref="h04_p0001a0025.htm#s4p1">
+        <item text="Première période. Aurore de l'hellénisme philosophique.  (VIe et Ve siècles avant Jésus-Christ.)" ref="h04_p0001a0025.htm#s5p1">
+            <item text="Article 1. - Solution sensualiste: les Ioniens" ref="h04_p0001a0025.htm#s6p2">
+                <item text="1. - Les anciens Ioniens: Thalès (vers 640-550) Anaximandre (611-546), Anaximène (588-524)" ref="h04_p0001a0025.htm#s6p1"/>
+                <item text="2. - Héraclite d'Éphèse (entre 540 et 475)" ref="h04_p0001a0025.htm#s8p1"/>
+            </item>
+            <item text="Article 2. - Solution rationaliste: les Éléates" ref="h04_p0001a0025.htm#s11p1">
+                <item text="1. - Précurseurs: Pythagore de Samos (entre 580 et 500); Xénophane (vers 570-478)." ref="h04_p0001a0025.htm#s11p2"/>
+                <item text="2. - Parménide d'Élée (entre 530 et 444)" ref="h04_p0001a0025.htm#s14p1"/>
+                <item text="3. - Zénon d'Élée (vers 490)" ref="h04_p0001a0025.htm#s16p1"/>
+            </item>
+            <item text="Article 3. - Conciliation physique: les Atomistes." ref="h04_p0001a0025.htm#s18p1">
+                <item text="Leucippe d'Abdère (vers 500)"/>
+                <item text="Démocrite (vers 520-440)"/>
+                <item text="Empédocle d'Agrigente (vers 445)"/>
+                <item text="Anaxagore de Clazomène (entre 500 et 428)"/>
+            </item>
+            <item text="Article 4. - Conciliation psychologique: les Sophistes." ref="h04_p0001a0025.htm#s23p1">
+                <item text="Protagoras d'Abdère (entre 480 et 410)"/>
+                <item text="Gorgias de Léontini (vers 425)"/>
+            </item>
+        </item>
+        <item text="Deuxième période. Apogée de l'hellénisme philosophique.  De 470, Naissance de Socrate, à 322: Mort d'Aristote (Ve-IVe siècles av. J.-C.)" ref="h05_p0026a0050.htm#s26p1">
+            <item text="Chapitre 1. - Socrate (470-399)." ref="h05_p0026a0050.htm#s27p1">
+                <item text="1. - Objet de la philosophie socratique." ref="h05_p0026a0050.htm#s28p1"/>
+                <item text="2. - La méthode socratique." ref="h05_p0026a0050.htm#s29p1"/>
+                <item text="3. - La science morale." ref="h05_p0026a0050.htm#s31p1"/>
+                <item text="4. - Essai de psychologie et de théodicée." ref="h05_p0026a0050.htm#s86p1"/>
+            </item>
+            <item text="Chapitre 2. - Platon (429-348)." ref="h05_p0026a0050.htm#s39p1">
+                <item text="Article 1. La dialectique: science des idées." ref="h05_p0026a0050.htm#s41p1">
+                    <item text="1. Existence du monde idéal." ref="h05_p0026a0050.htm#s41p2">
+                        <item text="A) L'argumentation" ref="h05_p0026a0050.htm#s41p3"/>
+                        <item text="B) Pluralité des idées" ref="h05_p0026a0050.htm#s42p1"/>
+                        <item text="C) Nature des idées" ref="h05_p0026a0050.htm#s43"/>
+                    </item>
+                    <item text="2. Méthode platonicienne." ref="h05_p0026a0050.htm#s44p1">
+                        <item text="A) Aspect logique" ref="h05_p0026a0050.htm#s44p2"/>
+                        <item text="B) Aspect psychologique" ref="h05_p0026a0050.htm#s45p1"/>
+                        <item text="C) Réalisme et innéisme platoniciens" ref="h05_p0026a0050.htm#s46"/>
+                    </item>
+                    <item text="3. Rapport mutuel des Idées." ref="h05_p0026a0050.htm#s47p1">
+                        <item text="A) Théorie de la participation" ref="h05_p0026a0050.htm#s47p2"/>
+                        <item text="B) Essai d'explication par les cinq genres" ref="h05_p0026a0050.htm#s48p1"/>
+                        <item text="C) Le bien, dernière raison de tout" ref="h05_p0026a0050.htm#s49p1"/>
+                    </item>
+                </item>
+                <item text="Article 2. - Le monde sensible: domaine de l'opinion." ref="h05_p0026a0050.htm#s51p1">
+                    <item text="1. Physique générale." ref="h06_p0051a0073.htm#s52p1">
+                        <item text="A) Le principe infini: la matière." ref="h06_p0051a0073.htm#s52p2"/>
+                        <item text="B) Le principe fini: participation aux Idées." ref="h06_p0051a0073.htm#s53p1"/>
+                        <item text="C) L'ordre du monde." ref="h06_p0051a0073.htm#s54p1"/>
+                    </item>
+                    <item text="2. Théodicée." ref="h06_p0051a0073.htm#s55p1">
+                        <item text="A) Preuves de l'existence de Dieu." ref="h06_p0051a0073.htm#s55p2"/>
+                        <item text="B) Attributs de Dieu" ref="h06_p0051a0073.htm#s56p1"/>
+                        <item text="C) Valeur de la Théodicée platonicienne." ref="h06_p0051a0073.htm#s57p1"/>
+                    </item>
+                    <item text="3. Psychologie." ref="h06_p0051a0073.htm#s58p1">
+                        <item text="A) Nature de l'âme." ref="h06_p0051a0073.htm#s58p2"/>
+                        <item text="B) Facultés de l'âme." ref="h06_p0051a0073.htm#s60p1"/>
+                    </item>
+                    <item text="4. Morale." ref="h06_p0051a0073.htm#s61p1">
+                        <item text="A) Le bonheur." ref="h06_p0051a0073.htm#s61p2"/>
+                        <item text="B) La vertu." ref="h06_p0051a0073.htm#s62p1"/>
+                        <item text="C) L'obligation." ref="h06_p0051a0073.htm#s63p1"/>
+                        <item text="D) l'État." ref="h06_p0051a0073.htm#s64p1"/>
+                        <item text="E) Les sanctions." ref="h06_p0051a0073.htm#s65p1"/>
+                    </item>
+                </item>
+            </item>
+            <item text="Chapitre 3. - Aristote (384-322)." ref="h06_p0051a0073.htm#s67p1">
+                <item text="1. - La théorie fondamentale (ontologie)." ref="h06_p0051a0073.htm#s69p1">
+                    <item text="A) Origine historique." ref="h06_p0051a0073.htm#s69p2"/>
+                    <item text="B) Double précision." ref="h06_p0051a0073.htm#s70p1"/>
+                </item>
+                <item text="2. - L'ordre logique." ref="h06_p0051a0073.htm#s71p1">
+                    <item text="A) Logique formelle." ref="h06_p0051a0073.htm#s72p1"/>
+                    <item text="B) Logique matérielle." ref="h06_p0051a0073.htm#s73p1"/>
+                </item>
+                <item text="3. - La physique générale." ref="h07_p0074a0095.htm#s74p1">
+                    <item text="A) Les quatre causes" ref="h07_p0074a0095.htm#s75p1"/>
+                    <item text="B) Substance et accidents" ref="h07_p0074a0095.htm#s76p1"/>
+                </item>
+                <item text="4. - Les corps ou sciences physiques." ref="h07_p0074a0095.htm#s77p1">
+                    <item text="A) Matière et forme" ref="h07_p0074a0095.htm#s77p2"/>
+                    <item text="B) Les dix prédicaments" ref="h07_p0074a0095.htm#s78p1"/>
+                    <item text="C) L'éternité du monde" ref="h07_p0074a0095.htm#s79p1"/>
+                </item>
+                <item text="5. - Les plantes ou sciences biologiques." ref="h07_p0074a0095.htm#s80p1"/>
+                <item text="6. - Les animaux ou sciences zoologiques." ref="h07_p0074a0095.htm#s81p1"/>
+                <item text="7. - L'âme subsistante ou psychologie." ref="h07_p0074a0095.htm#s83p1">
+                    <item text="A) L'intellect passif" ref="h07_p0074a0095.htm#s83p2"/>
+                    <item text="B) L'intellect agent" ref="h07_p0074a0095.htm#s84p1"/>
+                    <item text="C) L'âme spirituelle" ref="h07_p0074a0095.htm#s85p1"/>
+                </item>
+                <item text="8. - L'activité humaine ou morale." ref="h07_p0074a0095.htm#s87p1">
+                    <item text="A) Théorie de l'appétit" ref="h07_p0074a0095.htm#s87p2"/>
+                    <item text="B) Morale individuelle" ref="h07_p0074a0095.htm#s88p1"/>
+                    <item text="C) Morale sociale" ref="h07_p0074a0095.htm#s89p1"/>
+                </item>
+                <item text="9. - L'oeuvre humaine ou l'art." ref="h07_p0074a0095.htm#s91p1"/>
+                <item text="10. - La métaphysique ou théologie." ref="h07_p0074a0095.htm#s92p1">
+                    <item text="A) Existence de Dieu" ref="h07_p0074a0095.htm#s92p2"/>
+                    <item text="B) Attributs de Dieu" ref="h07_p0074a0095.htm#s93p1"/>
+                </item>
+            </item>
+        </item>
+        <item text="Troisième période. Décadence et Transition.  (De 322: mort d'Aristote (IIIe siècle avant J.-C.) à 270: mort de Plotin (III siècle après J.-C.;  529: Fermeture de l'école d'Athènes.)" ref="h08_p0096a0119.htm#s96p1">
+            <item text="Chapitre 1: Transition morale. (d'Aristote à Marc-Aurèle)" ref="h08_p0096a0119.htm#s97p1">
+                <item text="Article 1: Le Stoïcisme." ref="h08_p0096a0119.htm#s98p1">
+                    <item text="Zénon de Cittium, Cléanthe, Chrysippe, Posidonius, Sénèque, Epictète, Marc-Aurèle"/>
+                    <item text="1. Source du principe stoïcien: Conception panthéiste et matérialiste de la vie selon la raison, ou la Physique." ref="h08_p0096a0119.htm#s99p1">
+                        <item text="A) Le Logos divin." ref="h08_p0096a0119.htm#s99p2"/>
+                        <item text="B) La Hiérarchie des êtres" ref="h08_p0096a0119.htm#s100p1"/>
+                    </item>
+                    <item text="2. Conséquence spéculative: Logique et science." ref="h08_p0096a0119.htm#s101p1"/>
+                    <item text="3. Conséquence pratique: Morale." ref="h08_p0096a0119.htm#s103p1"/>
+                </item>
+                <item text="Article 2: L'Épicurisme." ref="h08_p0096a0119.htm#s106p1">
+                    <item text="Épicure, Lucrèce"/>
+                    <item text="1. Source du principe épicurien: Conception rationnelle du plaisir sensible." ref="h08_p0096a0119.htm#s107p1"/>
+                    <item text="2. Conséquences spéculatives: Logique et physique." ref="h08_p0096a0119.htm#s108p1"/>
+                    <item text="3. Conséquences pratiques: Morale." ref="h08_p0096a0119.htm#s111p1"/>
+                </item>
+                <item text="Article 3: Le scepticisme." ref="h08_p0096a0119.htm#s113p1">
+                    <item text="1. - Le scepticisme philosophique." ref="h08_p0096a0119.htm#s113p2">
+                        <item text="Pyrrhon, Arcésilas, Carnéade, Aenésidème de Crète, Sextus Empiricus, Agrippa, Favorinus d'Arles"/>
+                    </item>
+                    <item text="2. - Les Éclectiques" ref="h08_p0096a0119.htm#s117p1">
+                        <item text="A) Les Romains." ref="h08_p0096a0119.htm#s117p2">
+                            <item text="Cicéron"/>
+                        </item>
+                        <item text="B) Les Commentateurs." ref="h08_p0096a0119.htm#s118p1">
+                            <item text="Théophraste, Andronicus de Rhodes, Alexandre d'Aphrodisias"/>
+                        </item>
+                    </item>
+                </item>
+            </item>
+            <item text="Chapitre 2: Transition mystique. De Philon à Proclus." ref="h09_p0120a0141.htm#s120p1">
+                <item text="Aperçu historique" ref="h09_p0120a0141.htm#s121p2">
+                    <item text="A) Préparation" ref="h09_p0120a0141.htm#s121p1">
+                        <item text="Philon (40 avant J.-C. - 40 après J.-C.); Plutarque (50-120 après J.-C.); Le Gnosticisme (Ier et IIe siècle après J.-C.)."/>
+                    </item>
+                    <item text="B) L'Apogée ou le Néoplatonisme" ref="h09_p0120a0141.htm#s122p1">
+                        <item text="Ammonius Saccas (décédé vers 245); Porphyre (232-305); Jamblique (mort vers 330); Proclus (411-485)."/>
+                    </item>
+                </item>
+                <item text="Plotin" ref="h09_p0120a0141.htm#s123p1">
+                    <item text="Article 1. Métaphysique: Descente des êtres venant de Dieu" ref="h09_p0120a0141.htm#s124p1">
+                        <item text="1) L'UN." ref="h09_p0120a0141.htm#s125p1">
+                            <item text="A) Théologie positive." ref="h09_p0120a0141.htm#s125p2"/>
+                            <item text="B) Théologie négative." ref="h09_p0120a0141.htm#s126p1"/>
+                            <item text="C) L'émanation." ref="h09_p0120a0141.htm#s128p1"/>
+                        </item>
+                        <item text="2) L'Intelligence." ref="h09_p0120a0141.htm#s129p1">
+                            <item text="A) Dégradation." ref="h09_p0120a0141.htm#s129p2"/>
+                            <item text="B) Ressemblance." ref="h09_p0120a0141.htm#s129p3"/>
+                        </item>
+                        <item text="3) L'Âme." ref="h09_p0120a0141.htm#s131p1">
+                            <item text="A) Dégradation." ref="h09_p0120a0141.htm#s131p2"/>
+                            <item text="B) Ressemblance." ref="h09_p0120a0141.htm#s131p3"/>
+                            <item text="C) La Trinité de Plotin." ref="h09_p0120a0141.htm#s132p1"/>
+                        </item>
+                        <item text="4) La Matière." ref="h09_p0120a0141.htm#s133p1">
+                            <item text="A) Dégradation." ref="h09_p0120a0141.htm#s133p2"/>
+                            <item text="B) Ressemblance." ref="h09_p0120a0141.htm#s133p3"/>
+                            <item text="C) Le Monde et Dieu: Plotin est-il panthéiste?" ref="h09_p0120a0141.htm#s134p1"/>
+                        </item>
+                    </item>
+                    <item text="Article 2. Morale: Ascension de l'âme vers Dieu" ref="h09_p0120a0141.htm#s135p1">
+                        <item text="1. Conclusions psychologiques." ref="h09_p0120a0141.htm#s136p1">
+                            <item text="A) Définition de l'homme." ref="h09_p0120a0141.htm#s136p2"/>
+                            <item text="B) Immortalité et facultés de l'âme." ref="h09_p0120a0141.htm#s136p3"/>
+                        </item>
+                        <item text="2. Principe du retour: le désir." ref="h09_p0120a0141.htm#s137p1">
+                            <item text="A) Notion du désir." ref="h09_p0120a0141.htm#s137p2"/>
+                            <item text="B) Lois du désir." ref="h09_p0120a0141.htm#s137p3"/>
+                        </item>
+                        <item text="3. Les degrés de la purification." ref="h09_p0120a0141.htm#s139p1">
+                            <item text="1er degré) Effort d'ABSTRACTION pour redevenir âme." ref="h09_p0120a0141.htm#s139p2"/>
+                            <item text="2e degré) Effort d'INTUITION pour redevenir esprit." ref="h09_p0120a0141.htm#s139p3"/>
+                            <item text="3e degré) Effort d'EXTASE pour redevenir l'Un." ref="h09_p0120a0141.htm#s139p4"/>
+                        </item>
+                    </item>
+                </item>
+            </item>
+        </item>
+        <item text="Conclusion générale de la première partie" ref="h09_p0120a0141.htm#s141p1"/>
+    </item>
+    <item text="Deuxième partie. Époque patristique et médiévale. Philosophie chrétienne.  (Du IIe siècle au XVIe siècle)" ref="h10_p0142a0160.htm#s142p1">
+        <item text="Première période. Préparation Patristique. (IIe - VIIe siècle)" ref="h10_p0142a0160.htm#s5p1">
+            <item text="Saint Augustin (354-430)." ref="h10_p0142a0160.htm#s144p1">
+                <item text="Formation de saint Augustin" ref="h10_p0142a0160.htm#s144"/>
+                <item text="Oeuvre et principe fondamental" ref="h10_p0142a0160.htm#s145"/>
+                <item text="Article 1. L'existence de la Vérité." ref="h10_p0142a0160.htm#s147p1">
+                    <item text="1) Le monde intelligible." ref="h10_p0142a0160.htm#s148p1">
+                        <item text="A) Preuve indirecte (contre les Académiciens." ref="h10_p0142a0160.htm#s148p2"/>
+                        <item text="B) Preuve directe." ref="h10_p0142a0160.htm#s149p1"/>
+                    </item>
+                    <item text="2) Existence de Dieu." ref="h10_p0142a0160.htm#s150p1">
+                        <item text="A) Preuve complète." ref="h10_p0142a0160.htm#s151p1"/>
+                        <item text="B) Formes abrégées." ref="h10_p0142a0160.htm#s152p1"/>
+                        <item text="C) Sens et valeur de la preuve." ref="h10_p0142a0160.htm#s153p1"/>
+                    </item>
+                    <item text="3) Nature de Dieu." ref="h10_p0142a0160.htm#s154p1">
+                        <item text="A) Dieu. Vérité subsistante." ref="h10_p0142a0160.htm#s154p2"/>
+                        <item text="B) Attributs de Dieu." ref="h10_p0142a0160.htm#s154p3"/>
+                        <item text="C) Valeur de notre connaissance de Dieu." ref="h10_p0142a0160.htm#s155"/>
+                    </item>
+                </item>
+                <item text="Article 2. L'oeuvre de la Vérité." ref="h10_p0142a0160.htm#s156p1">
+                    <item text="1) L'émanation en général." ref="h10_p0142a0160.htm#s157p1">
+                        <item text="A) La Création." ref="h10_p0142a0160.htm#s158p1"/>
+                        <item text="B) L'Exemplarisme." ref="h10_p0142a0160.htm#s159p1"/>
+                        <item text="C) La Providence." ref="h11_p0161a0177.htm#s160p1"/>
+                    </item>
+                    <item text="2) Le monde spirituel: l'homme." ref="h11_p0161a0177.htm#s161p1">
+                        <item text="A) La Vie." ref="h11_p0161a0177.htm#s162p1"/>
+                        <item text="B) La Sensation." ref="h11_p0161a0177.htm#s163p1"/>
+                        <item text="C) L'Intellection." ref="h11_p0161a0177.htm#s164p1"/>
+                        <item text="D) La Liberté." ref="h11_p0161a0177.htm#s168p1"/>
+                        <item text="E) L'Immortalité." ref="h11_p0161a0177.htm#s169p1"/>
+                    </item>
+                    <item text="3) Le monde matériel." ref="h11_p0161a0177.htm#s170p1">
+                        <item text="A) La Matière." ref="h11_p0161a0177.htm#s170p2"/>
+                        <item text="B) Les Raisons séminales." ref="h11_p0161a0177.htm#s171p1"/>
+                    </item>
+                </item>
+                <item text="Article 3. La possession de la Vérité." ref="h11_p0161a0177.htm#s172p1">
+                    <item text="A) Principe du retour." ref="h11_p0161a0177.htm#s172p2"/>
+                    <item text="B) La Béatitude." ref="h11_p0161a0177.htm#s173p1"/>
+                    <item text="C) La Vertu." ref="h11_p0161a0177.htm#s174p1"/>
+                    <item text="D) La Loi." ref="h11_p0161a0177.htm#s175p1"/>
+                    <item text="E) La Société." ref="h11_p0161a0177.htm#s176p1"/>
+                </item>
+            </item>
+            <item text="Conclusion" ref="h11_p0161a0177.htm#s177"/>
+        </item>
+        <item text="2e PÉRIODE: Synthèse Scolastique. (VIIIe - XIIIe siècle)" ref="h12_p0178a0196.htm#s178p1">
+            <item text="Chapitre 1. La Formation (VIIe-XIIe siècle)." ref="h12_p0178a0196.htm#s179p1">
+                <item text="Article 1: Les Infidèles." ref="h12_p0178a0196.htm#s180p1">
+                    <item text="1) Les Arabes." ref="h12_p0178a0196.htm#s181p1">
+                        <item text="Al-Kindi (décédé 873), Al-Farabi (décédé 950)"/>
+                        <item text="Avicenne (980-1036)." ref="h12_p0178a0196.htm#s182p1">
+                            <item text="A) Le monde terrestre; l'âme humaine." ref="h12_p0178a0196.htm#s183p1"/>
+                            <item text="B) Le monde céleste: Le Premier Causé." ref="h12_p0178a0196.htm#s184p1"/>
+                            <item text="C) Dieu." ref="h12_p0178a0196.htm#s185p1"/>
+                        </item>
+                        <item text="Gazali (1058-1111)." ref="h12_p0178a0196.htm#s187p1"/>
+                        <item text="Averroès (1126-1198)." ref="h12_p0178a0196.htm#s190p1">
+                            <item text="A) Système philosophique." ref="h12_p0178a0196.htm#s190p2"/>
+                            <item text="B) Théorie des trois ordres." ref="h12_p0178a0196.htm#s191p1"/>
+                        </item>
+                    </item>
+                    <item text="2) Les juifs." ref="h12_p0178a0196.htm#s192p1">
+                        <item text="Avicebron (vers 1021-1070)"/>
+                        <item text="Maïmonide (1135-1204)." ref="h12_p0178a0196.htm#s193p1">
+                            <item text="A) Théodicée." ref="h12_p0178a0196.htm#s194p1"/>
+                            <item text="B) Morale." ref="h12_p0178a0196.htm#s196p1"/>
+                        </item>
+                    </item>
+                </item>
+                <item text="Article 2: Les Chrétiens" ref="h13_p0197a0227.htm#s197p1">
+                    <item text="A) Denys l'Aréopagite." ref="h13_p0197a0227.htm#s197p2"/>
+                    <item text="B) Boèce (470-525)." ref="h13_p0197a0227.htm#s198p1"/>
+                    <item text="1) Les premiers scolastiques (VIIe-Xe siècle)." ref="h13_p0197a0227.htm#s199p1">
+                        <item text="Caractère général." ref="h13_p0197a0227.htm#s199p2"/>
+                            <item text="Alcuin (vers 730-804); Rhaban Maur (vers 776-856)."/>
+                        </item>
+                    <item text="Jean Scot Érigène (Entre 800 et 870)." ref="h13_p0197a0227.htm#s200p1">
+                        <item text="A) Principe fondamental." ref="h13_p0197a0227.htm#s201p1"/>
+                        <item text="B) Applications métaphysiques." ref="h13_p0197a0227.htm#s201p2"/>
+                        <item text="C) Applications psychologiques." ref="h13_p0197a0227.htm#s202p1"/>
+                        <item text="D) La Foi et la raison." ref="h13_p0197a0227.htm#s203p1"/>
+                    </item>
+                    <item text="2) La querelle des universaux (XIe-XIIe siècle)." ref="h13_p0197a0227.htm#s205p1">
+                        <item text="2.1) Les réalistes: aspect métaphysique." ref="h13_p0197a0227.htm#s207p1">
+                            <item text="A) Guillaume de Champeaux (1070-1120)." ref="h13_p0197a0227.htm#s208p1"/>
+                            <item text="B) L'école de Chartres." ref="h13_p0197a0227.htm#s209p1"/>
+                            <item text="C) Les panthéistes." ref="h13_p0197a0227.htm#s210p1"/>
+                        </item>
+                        <item text="2.2) Les anti-réalistes: aspect psychologique." ref="h13_p0197a0227.htm#s211p1">
+                            <item text="A) Roscelin (vers 1050-1120)." ref="h13_p0197a0227.htm#s211p2"/>
+                            <item text="B) Pierre Abélard (1079-1142)." ref="h13_p0197a0227.htm#s213p1"/>
+                            <item text="C) Le réalisme modéré." ref="h13_p0197a0227.htm#s214p1"/>
+                        </item>
+                    </item>
+                    <item text="3) Saint Anselme (1033-1109)." ref="h13_p0197a0227.htm#s199p1">
+                        <item text="A) Théorie fondamentale." ref="h13_p0197a0227.htm#s216p1"/>
+                        <item text="B) Recherches fragmentaires." ref="h13_p0197a0227.htm#s218p1"/>
+                        <item text="C) Théodicée constituée." ref="h13_p0197a0227.htm#s222p1"/>
+                    </item>
+                    <item text="L'école mystique de Saint Victor.  Les sommistes: Pierre Lombard (vers 1100-1160)." ref="h13_p0197a0227.htm#s227"/>
+                </item>
+            </item>
+            <item text="Chapitre 2. L'Apogée (XIIIe siècle)." ref="h14_p0228a0245.htm#s228p1">
+                <item text="Article 1. Les précurseurs de saint Thomas." ref="h14_p0228a0245.htm#s229p1">
+                    <item text="1) Les Circonstances." ref="h14_p0228a0245.htm#s230p1">
+                        <item text="A) Les Universités." ref="h14_p0228a0245.htm#s230p2"/>
+                        <item text="B) Les Ordres mendiants." ref="h14_p0228a0245.htm#s231p1"/>
+                        <item text="C) Traductions d'Aristote." ref="h14_p0228a0245.htm#s232p1"/>
+                    </item>
+                    <item text="2) Les premiers Maîtres aristotéliciens." ref="h14_p0228a0245.htm#s232bisp1">
+                        <item text="A) Doctrine (éclectisme aristotélicien platonisant)." ref="h14_p0228a0245.htm#s232bisp2"/>
+                        <item text="B) Principaux représentants." ref="h14_p0228a0245.htm#s232bisp3">
+                            <item text="1) Les séculiers:" ref="h14_p0228a0245.htm#s232bisp4">
+                                <item text="Guillaume D'Auxerre (décédé 1231); Guillaume D'Auvergne (décédé 1249); etc."/>
+                            </item>
+                            <item text="2) Les dominicains:" ref="h14_p0228a0245.htm#s232bisp5">
+                                <item text="Roland De Crémone (décédé après 1244); Pierre De Tarentaise (1225-1276); etc."/>
+                            </item>
+                            <item text="3) Les franciscains:" ref="h14_p0228a0245.htm#s232bisp6">
+                                <item text="Alexandre De Halès (1180-1245); Jean De La Rochelle (1200-1245); etc."/>
+                            </item>
+                        </item>
+                    </item>
+                    <item text="3) Saint ALBERT LE GRAND (1206-1280)." ref="h14_p0228a0245.htm#s233p1">
+                        <item text="A) Méthode." ref="h14_p0228a0245.htm#s234p1"/>
+                        <item text="B) Doctrine." ref="h14_p0228a0245.htm#s235p1"/>
+                        <item text="C) Influence." ref="h14_p0228a0245.htm#s236p1"/>
+                    </item>
+                </item>
+                <item text="Article 2. Saint Thomas d'Aquin  (1225-1274)." ref="h14_p0228a0245.htm#s237p1">
+                    <item text="Section 1) Réalisation historique." ref="h14_p0228a0245.htm#s238p1">
+                        <item text="1. Période de fondation: Premier séjour à Paris (1252-1260)." ref="h14_p0228a0245.htm#s239p1">
+                            <item text="A) Le Philosophe." ref="h14_p0228a0245.htm#s239p1"/>
+                            <item text="B) Le Théologien." ref="h14_p0228a0245.htm#s240p1"/>
+                            <item text="C) Le Polémiste." ref="h14_p0228a0245.htm#s241p1">
+                        </item>
+                        <item text="2. Période d'extension: Séjour à la cour romaine (1260-1268)." ref="h14_p0228a0245.htm#s242p1"/>
+                            <item text="A) Domaine philosophique." ref="h14_p0228a0245.htm#s242p2"/>
+                            <item text="B) Domaine théologique (les deux Sommes)." ref="h14_p0228a0245.htm#s243p1">
+                                <item text="Foi et Raison; Théologie et Philosophie chrétienne" ref="h14_p0228a0245.htm#s244p1"/>
+                            </item>
+                            <item text="C) Domaine mixte (politique et question juive)." ref="h15_p0246a0270.htm#s245p1">
+                        </item>
+                        <item text="3. Période de combat: Deuxième séjour à Paris (1268-1272)." ref="h15_p0246a0270.htm#s246p1"/>
+                            <item text="A) Les Séculiers." ref="h15_p0246a0270.htm#s246p2"/>
+                            <item text="B) L'averroïsme." ref="h15_p0246a0270.htm#s247p1">
+                                <item text="1) Synthèse doctrinale de Siger de Brabant." ref="h15_p0246a0270.htm#s248p1"/>
+                                <item text="2) La lutte. Évolution doctrinale de Siger de Brabant." ref="h15_p0246a0270.htm#s249p1"/>
+                            </item>
+                            <item text="C) Les augustiniens." ref="h15_p0246a0270.htm#s250p1">
+                                <item text="a) Séculiers: Henri De Gand (décédé 1293); Godefroid De Fontaines (décédé vers 1303); etc."/>
+                                <item text="b) Religieux: Robert Kilwardby (décédé 1279); John Peckam (vers 1240-1292); etc."/>
+                            </item>
+                        </item>
+                        <item text="Dernières années et mort de saint Thomas." ref="h15_p0246a0270.htm#s251p1"/>
+                        <item text="Liste des oeuvres authentiques de s. Thomas." ref="h15_p0246a0270.htm#s252"/>
+                    </item>
+                    <item text="Section 2) La synthèse thomiste." ref="h15_p0246a0270.htm#s253p1">
+                        <item text="1. La création du thomisme." ref="h15_p0246a0270.htm#s254p1">
+                            <item text="A) Conservation: les Matériaux." ref="h15_p0246a0270.htm#s255p0"/>
+                            <item text="B) Nouveauté: l'effort intellectuel." ref="h15_p0246a0270.htm#s256p1"/>
+                            <item text="C) Progrès: Principe directeur." ref="h15_p0246a0270.htm#s257p1"/>
+                        </item>
+                        <item text="2. Le principe fondamental du thomisme." ref="h15_p0246a0270.htm#s258p1">
+                            <item text="A) La formule." ref="h15_p0246a0270.htm#s258p2"/>
+                            <item text="B) Place du «Principe» en Philosophie." ref="h15_p0246a0270.htm#s259p1"/>
+                        </item>
+                        <item text="3. L'universalité du thomisme." ref="h15_p0246a0270.htm#s261p1">
+                            <item text="Première étape: l'Intuition." ref="h15_p0246a0270.htm#s262p1"/>
+                            <item text="Deuxième étape: l'Induction." ref="h15_p0246a0270.htm#s263p1"/>
+                            <item text="Troisième étape: la Déduction." ref="h15_p0246a0270.htm#s264p1"/>
+                            <item text="Quatrième étape: la Systématisation." ref="h15_p0246a0270.htm#s265p1"/>
+                        </item>
+                        <item text="4. L'unité du thomisme." ref="h15_p0246a0270.htm#s268p1">
+                            <item text="A) Métaphysique." ref="h15_p0246a0270.htm#s267p1"/>
+                            <item text="B) Physique." ref="h15_p0246a0270.htm#s268p1"/>
+                            <item text="C) Morale." ref="h15_p0246a0270.htm#s269p1"/>
+                        </item>
+                    </item>
+                </item>
+                <item text="Article 3. Les synthèses non thomistes." ref="h16_p0271a0298.htm#s271p1">
+                    <item text="1) Roger Bacon (vers 1210-1292)." ref="h16_p0271a0298.htm#s272p1">
+                        <item text="A) Caractère général." ref="h16_p0271a0298.htm#s272p2"/>
+                        <item text="B) Doctrines philosophiques." ref="h16_p0271a0298.htm#s273p1"/>
+                    </item>
+                    <item text="2) Saint Bonaventure (1221-1274)." ref="h16_p0271a0298.htm#s274p1">
+                        <item text="Caractère général." ref="h16_p0271a0298.htm#s275"/>
+                        <item text="1) L'exemplarisme." ref="h16_p0271a0298.htm#s275p1">
+                            <item text="A) Existence de Dieu." ref="h16_p0271a0298.htm#s275p2"/>
+                            <item text="B) Nature des Idées exemplaires." ref="h16_p0271a0298.htm#s275p4"/>
+                            <item text="C) Rayonnement des Idées exemplaires." ref="h16_p0271a0298.htm#s275p6"/>
+                        </item>
+                        <item text="2) Les Natures." ref="h16_p0271a0298.htm#s276p1"/>
+                        <item text="3) Les opérations." ref="h16_p0271a0298.htm#s277p1">
+                            <item text="A) La connaissance; Foi et raison." ref="h16_p0271a0298.htm#s278p1"/>
+                            <item text="B) Volonté et morale." ref="h16_p0271a0298.htm#s280p1"/>
+                        </item>
+                        <item text="Conclusion." ref="h16_p0271a0298.htm#s281"/>
+                        <item text="Disciples de saint Bonaventure et de saint Thomas d'Aquin." ref="h16_p0271a0298.htm#s282"/>
+                        <item text="Raymond Lulle (1232 ou 1235-1316)." ref="h16_p0271a0298.htm#s282p1"/>
+                    </item>
+                    <item text="3) Jean Duns Scot (1266 - 1308)." ref="h16_p0271a0298.htm#s283p1">
+                        <item text="A) Théorie fondamentale." ref="h16_p0271a0298.htm#s285p1">
+                            <item text="Première Partie: Volontarisme." ref="h16_p0271a0298.htm#s285p2"/>
+                            <item text="Deuxième partie: Formalisme." ref="h16_p0271a0298.htm#s286p1"/>
+                        </item>
+                        <item text="B) La substance individuelle." ref="h16_p0271a0298.htm#s288p1"/>
+                        <item text="C) L'âme humaine." ref="h16_p0271a0298.htm#s291p1"/>
+                        <item text="D) Dieu et la morale." ref="h16_p0271a0298.htm#s295p1"/>
+                    </item>
+                </item>
+            </item>
+        </item>
+    </item>
+    <item text="3e PÉRIODE: Décadence. XIVe - XVIIe siècle." ref="h17_p0299a0311.htm#s299p1">
+        <item text="Article 1. Guillaume d'Occam et le terminisme (1280-1349 ou 1350)." ref="h17_p0299a0311.htm#s300p1">
+            <item text="1) Principe fondamental." ref="h17_p0299a0311.htm#s301"/>
+            <item text="2) Le Terminisme." ref="h17_p0299a0311.htm#s302"/>
+            <item text="3) Corollaires et influence." ref="h17_p0299a0311.htm#s303">
+                <item text="Les occamistes: Jean Buridan (décédé vers 1358), etc.; Les thomistes: Jean Capréolus (1380-1444), etc."/>
+            </item>
+        </item>
+        <item text="Article 1. Guillaume d'Occam et le terminisme (1280-1349 ou 1350)." ref="h17_p0299a0311.htm#s300p1">
+            <item text="François De Vittoria (1480-1546)." ref="h17_p0299a0311.htm#s305p1"/>
+            <item text="1) Caractère général du suarézisme." ref="h17_p0299a0311.htm#s306"/>
+            <item text="2) Positions anti-thomistes." ref="h17_p0299a0311.htm#s307">
+                <item text="1) En métaphysique." ref="h17_p0299a0311.htm#s308p1"/>
+                <item text="2) En psychologie." ref="h17_p0299a0311.htm#s309p1"/>
+                <item text="3) Morale sociale." ref="h17_p0299a0311.htm#s309bisp1"/>
+            </item>
+            <item text="Conclusion." ref="h17_p0299a0311.htm#s310">
+                <item text="Les Occamistes: Gabriel Biel (vers 1425-1495); les Scotistes: Trombeta (décédé 1518)."/>
+                <item text="Les Thomistes: Le Ferrarais (1474-1526), Cajetan (1469-1534), Jean De Saint-Thomas (1589-1644), Goudin (1639-1695)."/>
+            </item>
+            <item text="La philosophie non-scolastique de la Renaissance." ref="h17_p0299a0311.htm#s311">
+                <item text="1. Le Platonisme; 2. L'Averroïsme; 3. Le Scientisme et le Scepticisme; 4. Les Moralistes et les Politiques."/>
+            </item>
+        </item>
+    </item>
+    <item text="Troisième partie. Époque moderne. Philosophie moderne et néothomiste.  (Du XVIIe au XXIe siècle)" ref="h18_p0312a0336.htm#s312p1">
+        <item text="Origine de la philosophie moderne." ref="h18_p0312a0336.htm#s312"/>
+        <item text="Caractères généraux de la philosophie moderne." ref="h18_p0312a0336.htm#s313"/>
+        <item text="Première Période: L'esprit cartésien (XVII-XVIIIe siècle)." ref="h18_p0312a0336.htm#s314p1">
+            <item text="Chapitre 1. Les Maîtres: François Bacon et René Descartes." ref="h18_p0312a0336.htm#s315p1">
+                <item text="1) François Bacon (1561-1626)." ref="h18_p0312a0336.htm#s315p2">
+                    <item text="1) La nouvelle logique." ref="h18_p0312a0336.htm#s315bisp1">
+                        <item text="A) La science positive." ref="h18_p0312a0336.htm#s315bisp2"/>
+                        <item text="B) La logique inductive." ref="h18_p0312a0336.htm#s315bisp3"/>
+                        <item text="C) Classification des sciences." ref="h18_p0312a0336.htm#s315bisp4"/>
+                    </item>
+                    <item text="2) Corollaires doctrinaux." ref="h18_p0312a0336.htm#s316p1">
+                        <item text="A) La connaissance. Tendance à l'empirisme." ref="h18_p0312a0336.htm#s316p2"/>
+                        <item text="B) Les formes. Tendance au positivisme." ref="h18_p0312a0336.htm#s316p3"/>
+                        <item text="C) Dieu. Tendance agnostique." ref="h18_p0312a0336.htm#s316p4"/>
+                        <item text="D) Morale. Tendance à l'utilitarisme." ref="h18_p0312a0336.htm#s316p5"/>
+                    </item>
+                    <item text="Conclusion." ref="h18_p0312a0336.htm#s316bis"/>
+                </item>
+                <item text="2) René Descartes (1596-1650)." ref="h18_p0312a0336.htm#s317p1">
+                    <item text="Article 1: La méthode cartésienne." ref="h18_p0312a0336.htm#s318p1">
+                        <item text="Première étape: Le doute universel." ref="h18_p0312a0336.htm#s318p2"/>
+                        <item text="Deuxième étape: La vérité fondamentale." ref="h18_p0312a0336.htm#s319p1"/>
+                        <item text="Troisième étape: Le critère suprême de l'idée claire." ref="h18_p0312a0336.htm#s320p1">
+                            <item text="Valeur de la méthode cartésienne." ref="h18_p0312a0336.htm#s321p1"/>
+                        </item>
+                        <item text="Quatrième étape: Les règles de la méthode universelle." ref="h18_p0312a0336.htm#s322p1">
+                            <item text="La science cartésienne." ref="h18_p0312a0336.htm#s323"/>
+                        </item>
+                    </item>
+                    <item text="Article 2: Le monde spirituel." ref="h18_p0312a0336.htm#s324p1">
+                        <item text="1. - Point de vue subjectif: la psychologie" ref="h18_p0312a0336.htm#s324p2">
+                            <item text="A) L'objet de la psychologie." ref="h18_p0312a0336.htm#s324p3"/>
+                            <item text="B) Rapports de la pensée et de l'âme." ref="h18_p0312a0336.htm#s325p1"/>
+                            <item text="C) Valeur de la psychologie cartésienne." ref="h18_p0312a0336.htm#s327p1"/>
+                        </item>
+                        <item text="2. - Point de vue objectif: la théodicée" ref="h18_p0312a0336.htm#s328p1">
+                            <item text="A) Classification des pensées." ref="h18_p0312a0336.htm#s328p2"/>
+                            <item text="B) L'existence de Dieu." ref="h18_p0312a0336.htm#s329p1"/>
+                            <item text="C) Valeur de ces preuves." ref="h18_p0312a0336.htm#s330p1"/>
+                            <item text="D) L'objectivité du monde externe." ref="h18_p0312a0336.htm#s331p1"/>
+                            <item text="E) Idéalisme cartésien." ref="h18_p0312a0336.htm#s332p1"/>
+                        </item>
+                    </item>
+                    <item text="Article 3: Le monde corporel." ref="h18_p0312a0336.htm#s333p1">
+                        <item text="A) Le mécanisme." ref="h18_p0312a0336.htm#s333p2"/>
+                        <item text="B) Le dualisme." ref="h18_p0312a0336.htm#s334p1"/>
+                        <item text="C) La morale." ref="h18_p0312a0336.htm#s335p1"/>
+                    </item>
+                </item>
+            </item>
+            <item text="Chapitre 2. Vers le panthéisme." ref="h19_p0337a0356.htm#s337p1">
+                <item text="Cartésiens réservés." ref="h19_p0337a0356.htm#s337p2">
+                    <item text="Fénelon (1651-1715), Bossuet (1627-1704), D. Huet (1630-1721), P. Gassendi (1592-1655)"/>
+                </item>
+                <item text="Cartésiens fervents." ref="h19_p0337a0356.htm#s337p3">
+                    <item text="A. Geulincx (1625-1669), etc."/>
+                </item>
+                <item text="Blaise Pascal (1623-1662)." ref="h19_p0337a0356.htm#s338"/>
+                <item text="Article 1: Malebranche (1638-1715)." ref="h19_p0337a0356.htm#s339p1">
+                    <item text="1) Dieu et l'ontologisme." ref="h19_p0337a0356.htm#s340p1">
+                        <item text="A) Existence de Dieu." ref="h19_p0337a0356.htm#s340p2"/>
+                        <item text="B) Vision en Dieu." ref="h19_p0337a0356.htm#s341p1"/>
+                    </item>
+                    <item text="2) Le monde et l'occasionalisme." ref="h19_p0337a0356.htm#s342p1">
+                        <item text="A) Existence et création du monde." ref="h19_p0337a0356.htm#s342p2"/>
+                        <item text="B) L'occasionalisme." ref="h19_p0337a0356.htm#s343p1"/>
+                        <item text="C) Loi de simplicité." ref="h19_p0337a0356.htm#s343p2"/>
+                    </item>
+                    <item text="3) L'homme et la morale." ref="h19_p0337a0356.htm#s344p1"/>
+                </item>
+                <item text="Article 2: Spinoza (1632-1677)." ref="h19_p0337a0356.htm#s347p1">
+                    <item text="1) Dieu connu par ses attributs." ref="h19_p0337a0356.htm#s348p1">
+                        <item text="A) Réalité de Dieu." ref="h19_p0337a0356.htm#s348p2"/>
+                        <item text="B) Connaissance de Dieu." ref="h19_p0337a0356.htm#s349p1"/>
+                    </item>
+                    <item text="2) Coexistence du monde et de Dieu." ref="h19_p0337a0356.htm#s350p1">
+                        <item text="A) Distinction du monde et de Dieu." ref="h19_p0337a0356.htm#s350p2"/>
+                        <item text="B) Émanation ou création du monde." ref="h19_p0337a0356.htm#s350p3"/>
+                        <item text="C) Conséquences psychologiques." ref="h19_p0337a0356.htm#s352p1"/>
+                    </item>
+                    <item text="3) Morale transposée." ref="h19_p0337a0356.htm#s353p1">
+                        <item text="A) Morale indicative." ref="h19_p0337a0356.htm#s353p2"/>
+                        <item text="B) Morale de la joie." ref="h19_p0337a0356.htm#s354p1"/>
+                    </item>
+                </item>
+            </item>
+            <item text="Chapitre 3. Réaction et Transition (XVIIIe siècle)." ref="h19_p0337a0356.htm#s356p1">
+                <item text="Définition de l'idéalisme" ref="h19_p0337a0356.htm#s356p2"/>
+                <item text="Définition du positivisme (sensualisme; empirisme)" ref="h19_p0337a0356.htm#s356p3"/>
+                <item text="Article 1. Courant idéaliste: Leibniz (1646-1716)." ref="h20_p0357a0368.htm#s357p1">
+                    <item text="1) Théorie fondamentale." ref="h20_p0357a0368.htm#s359p1">
+                        <item text="A) Synthèse logique." ref="h20_p0357a0368.htm#s359p2"/>
+                        <item text="B) Synthèse métaphysique." ref="h20_p0357a0368.htm#s360p1"/>
+                    </item>
+                    <item text="2) L'ordre des possibles." ref="h20_p0357a0368.htm#s361p1">
+                        <item text="A) Nombre de monades." ref="h20_p0357a0368.htm#s361p2"/>
+                        <item text="B) Nature des monades." ref="h20_p0357a0368.htm#s362p1"/>
+                        <item text="C) Rapports mutuels des monades." ref="h20_p0357a0368.htm#s363p1"/>
+                    </item>
+                    <item text="3) L'ordre réel." ref="h20_p0357a0368.htm#s364p1">
+                        <item text="A) Existence de Dieu." ref="h20_p0357a0368.htm#s364p2"/>
+                        <item text="B) La création." ref="h20_p0357a0368.htm#s365p1"/>
+                        <item text="C) Liberté humaine." ref="h20_p0357a0368.htm#s366p1"/>
+                    </item>
+                </item>
+                <item text="Article 2. Courant positiviste." ref="h20_p0357a0368.htm#s368p1">
+                    <item text="1) Le système de Hobbes (1588-1679)." ref="h20_p0357a0368.htm#s368bisp1">
+                        <item text="A) Principe fondamental; mécanisme universel." ref="h20_p0357a0368.htm#s368bisp2"/>
+                        <item text="B) Logique nominaliste." ref="h20_p0357a0368.htm#s368bisp3"/>
+                        <item text="C) Physique et psychologie mécaniste." ref="h20_p0357a0368.htm#s368bisp4"/>
+                        <item text="D) Morale égoïste et politique absolutiste." ref="h20_p0357a0368.htm#s368bisp5"/>
+                    </item>
+                    <item text="2) Tendances positivistes en Angleterre au XVIIIe siècle." ref="h21_p0369a0375.htm#s369p9">
+                        <item text="A) L'influence de Newton (1642-1727)." ref="h21_p0369a0375.htm#s369p8"/>
+                        <item text="B) Déistes et libres penseurs." ref="h21_p0369a0375.htm#s369p7">
+                            <item text="John Toland (1670-1722), Anthony Collins (1676-1729), etc."/>
+                        </item>
+                        <item text="C) Moralistes et Économistes." ref="h21_p0369a0375.htm#s369p6">
+                            <item text="Bernard De Mandeville (1670-1733), Adam Smith (1723-1790), etc."/>
+                            <item text="Les physiocrates: Quesnay (1694-1774)."/>
+                        </item>
+                    </item>
+                    <item text="3) Les «philosophes» français du XVIIIe siècle." ref="h21_p0369a0375.htm#s370p1">
+                        <item text="D'Alembert (1717-1783) et Diderot (1713-1784)"/>
+                        <item text="La Mettrie (1709-1751)"/>
+                        <item text="Helvétius (1715-1771) et Cabanis (1757-1808)"/>
+                        <item text="CONDORCET (1743-1794), d'HOLBACH (1723-1789), VOLTAIRE (1694-1778)"/>
+                    </item>
+                </item>
+                <item text="Article 3. Courant mixte." ref="h21_p0369a0375.htm#s371p1">
+                    <item text="1) Premier degré. Locke (1632-1704)." ref="h21_p0369a0375.htm#s372p1">
+                        <item text="A) But et méthode de l'Essai." ref="h21_p0369a0375.htm#s373p1"/>
+                        <item text="B) Origine et classification des idées." ref="h21_p0369a0375.htm#s374p1"/>
+                        <item text="C) Valeur des idées et de la connaissance." ref="h21_p0369a0375.htm#s375p1"/>
+                        <item text="D) Applications et corollaires." ref="h21_p0369a0375.htm#s375bisp1"/>
+                    </item>
+                    <item text="2) Deuxième degré. Berkeley (1685-1753)." ref="h22_p0376a0386.htm#s376p1">
+                        <item text="A) Point de départ empirique." ref="h22_p0376a0386.htm#s376bisp1"/>
+                        <item text="B) Idéalisme radical." ref="h22_p0376a0386.htm#s377p1"/>
+                        <item text="C) Réalisme spirituel." ref="h22_p0376a0386.htm#s378p1"/>
+                        <item text="D) Couronnement platonicien." ref="h22_p0376a0386.htm#s378bisp1">
+                            <item text="Condillac (1715-1780)." ref="h22_p0376a0386.htm#s379p1"/>
+                        </item>
+                    </item>
+                    <item text="3) Troisième degré. Hume (1711-1776)." ref="h22_p0376a0386.htm#s380p1">
+                        <item text="A) Classification." ref="h22_p0376a0386.htm#s381p1"/>
+                        <item text="B) L'abstraction." ref="h22_p0376a0386.htm#s382p1"/>
+                        <item text="C) Critique des sciences." ref="h22_p0376a0386.htm#s383p1"/>
+                        <item text="D) Critique de la causalité." ref="h22_p0376a0386.htm#s384p1"/>
+                        <item text="E) Applications. Scepticisme et phénoménisme." ref="h22_p0376a0386.htm#s384bisp1">
+                            <item text="Conclusion: Domination de l'idéalisme." ref="h22_p0376a0386.htm#s385"/>
+                        </item>
+                    </item>
+                    <item text="4) Réaction sentimentale. L'école écossaise." ref="h22_p0376a0386.htm#s386p1">
+                        <item text="A) Les précurseurs." ref="h22_p0376a0386.htm#s386p2"/>
+                        <item text="B) L'apogée. Thomas Reid (1710-1796), etc." ref="h22_p0376a0386.htm#s386p3"/>
+                    </item>
+                </item>
+            </item>
+        </item>
+        <item text="Deuxième Période: L'esprit kantien (XIX-XXe siècle)" ref="h23_p0387a0404.htm#s387p1">
+            <item text="Chapitre 1. Kant. (1724-1804)." ref="h23_p0387a0404.htm#s388p1">
+                <item text="Article 1. Position du problème critique." ref="h23_p0387a0404.htm#s390p1">
+                    <item text="1) Objet du problème critique." ref="h23_p0387a0404.htm#s391p1">
+                        <item text="A) Classification du savoir." ref="h23_p0387a0404.htm#s391p2"/>
+                        <item text="B) Classification des jugements." ref="h23_p0387a0404.htm#s392p1"/>
+                        <item text="C) Valeur des classifications kantiennes." ref="h23_p0387a0404.htm#s393p1"/>
+                    </item>
+                    <item text="2) Méthode de la critique." ref="h23_p0387a0404.htm#s394p1"/>
+                    <item text="3) Vue d'ensemble." ref="h23_p0387a0404.htm#s396p1"/>
+                </item>
+                <item text="Article 2. La Science kantienne." ref="h23_p0387a0404.htm#s397p1">
+                    <item text="1) Valeur objective de l'expérience sensible." ref="h23_p0387a0404.htm#s398p1">
+                        <item text="A) Solution." ref="h23_p0387a0404.htm#s398p2"/>
+                        <item text="B) Corollaires: Géométrie et Monde extérieur." ref="h23_p0387a0404.htm#s399p1"/>
+                    </item>
+                    <item text="2) Valeur objective des universaux." ref="h23_p0387a0404.htm#s400p1">
+                        <item text="A) Démonstration." ref="h23_p0387a0404.htm#s401p1"/>
+                        <item text="B) Divers points de vues: Critique; - Psychologique." ref="h23_p0387a0404.htm#s402p1"/>
+                        <item text="C) Valeur de la science kantienne." ref="h23_p0387a0404.htm#s404p1"/>
+                    </item>
+                </item>
+                <item text="Article 3. La métaphysique morale." ref="h24_p0405a0424.htm#s405p1">
+                    <item text="1) Valeur du raisonnement: Métaphysique spéculative." ref="h24_p0405a0424.htm#s406p1">
+                        <item text="A) Solution générale." ref="h24_p0405a0424.htm#s406p2"/>
+                        <item text="B) Rôle légitime des Idées." ref="h24_p0405a0424.htm#s407p1"/>
+                        <item text="C) Usage illégitime des Idées." ref="h24_p0405a0424.htm#s408p1"/>
+                        <item text="D) Agnosticisme kantien et réalisme modéré." ref="h24_p0405a0424.htm#s409p1"/>
+                    </item>
+                    <item text="2) Valeur de la foi: Métaphysique morale." ref="h24_p0405a0424.htm#s410p1">
+                        <item text="A) Le fait moral: l'impératif catégorique." ref="h24_p0405a0424.htm#s411p1"/>
+                        <item text="B) Les postulats de la Raison pratique." ref="h24_p0405a0424.htm#s412p1"/>
+                        <item text="C) Corollaires." ref="h24_p0405a0424.htm#s416p1"/>
+                        <item text="D) Valeur de la métaphysique kantienne." ref="h24_p0405a0424.htm#s419p1"/>
+                    </item>
+                </item>
+            </item>
+            <item text="Chapitre 2. L'Idéalisme." ref="h24_p0405a0424.htm#s421p1">
+                <item text="1) Le panthéisme idéaliste." ref="h24_p0405a0424.htm#s422p1">
+                    <item text="A) Position du problème." ref="h24_p0405a0424.htm#s422p2"/>
+                    <item text="B) Principe de solution." ref="h24_p0405a0424.htm#s423p1"/>
+                </item>
+                <item text="2) Les systèmes." ref="h25_p0425a0443.htm#s425p1">
+                    <item text="A) J.-G. Fichte (1762-1814)." ref="h25_p0425a0443.htm#s425p2"/>
+                    <item text="B) F.-W.-J. Schelling (1775-1854)." ref="h25_p0425a0443.htm#s426p1"/>
+                    <item text="C) G.-W.-H. Hegel  (1770-1831)." ref="h25_p0425a0443.htm#s427p1">
+                        <item text="1) Principe fondamental." ref="h25_p0425a0443.htm#s427p2"/>
+                        <item text="2) Domaine de la logique et de l'ontologie." ref="h25_p0425a0443.htm#s428p9"/>
+                        <item text="3) Domaine de la Nature." ref="h25_p0425a0443.htm#s428p8"/>
+                        <item text="4) Domaine moral et religieux. Philosophie de l'Esprit." ref="h25_p0425a0443.htm#s428p7"/>
+                        <item text="Conclusion." ref="h25_p0425a0443.htm#s428p6"/>
+                    </item>
+                    <item text="D) Les Continuateurs." ref="h25_p0425a0443.htm#s429p1">
+                        <item text="Krause (1781-1832), Arthur Schopenhauer (1788-1860), E. Hartmann (1842-1906)."/>
+                    </item>
+                </item>
+            </item>
+            <item text="Chapitre 3. Le Traditionalisme." ref="h25_p0425a0443.htm#s432p1">
+                <item text="Le traditionalisme catholique." ref="h25_p0425a0443.htm#s433p1">
+                    <item text="A) De Bonald (1754-1840)." ref="h25_p0425a0443.htm#s434p1"/>
+                    <item text="B) De Lamennais (1782-1854)." ref="h25_p0425a0443.htm#s435p1"/>
+                    <item text="C) Écoles secondaires." ref="h25_p0425a0443.htm#s437p1">
+                        <item text="Semi-traditionalistes et ontologistes. Rosmini (1797-1855)."/>
+                    </item>
+                </item>
+                <item text="L'éclectisme rationaliste." ref="h25_p0425a0443.htm#s440p1">
+                    <item text="A) Maine de Biran (1766-1824)." ref="h25_p0425a0443.htm#s441p1"/>
+                    <item text="B) Victor Cousin (1792-1867)." ref="h25_p0425a0443.htm#s442p1"/>
+                    <item text="Royer Collard (1763-1845), Th. Jouffroy (1796-1842)"/>
+                </item>
+            </item>
+            <item text="Chapitre 4. Le Positivisme." ref="h26_p0444a0473.htm#s444p1">
+                <item text="Article 1. Les origines prékantiennes." ref="h26_p0444a0473.htm#s445p1">
+                    <item text="1) Le précurseur: Montesquieu (1689-1755)." ref="h26_p0444a0473.htm#s446p1"/>
+                    <item text="2) Le théoricien de la Révolution: J.-J. Rousseau (1712-1778)." ref="h26_p0444a0473.htm#s448p1">
+                        <item text="A) Théorie fondamentale." ref="h26_p0444a0473.htm#s449p1"/>
+                        <item text="B) L'éducation ou plan de réforme pour l'individu." ref="h26_p0444a0473.htm#s451p1"/>
+                        <item text="C) La politique ou plan de réforme pour la société." ref="h26_p0444a0473.htm#s453p1"/>
+                    </item>
+                </item>
+                <item text="Article 2. La synthèse d'Auguste Comte (1798-1857)." ref="h26_p0444a0473.htm#s456p1">
+                    <item text="1) Théorie directrice." ref="h26_p0444a0473.htm#s457p1">
+                        <item text="A) La loi des trois états." ref="h26_p0444a0473.htm#s457p2"/>
+                        <item text="B) Preuves." ref="h26_p0444a0473.htm#s458p1"/>
+                    </item>
+                    <item text="2) La philosophie positive." ref="h26_p0444a0473.htm#s459p1">
+                        <item text="A) Définition." ref="h26_p0444a0473.htm#s459p2"/>
+                        <item text="B) Méthode positive." ref="h26_p0444a0473.htm#s460p1"/>
+                        <item text="C) Le Contenu de la Philosophie." ref="h26_p0444a0473.htm#s461p1"/>
+                        <item text="D) La science unificatrice." ref="h26_p0444a0473.htm#s462p1"/>
+                    </item>
+                    <item text="3) La sociologie." ref="h26_p0444a0473.htm#s463p1">
+                        <item text="A) Sociologie statique." ref="h26_p0444a0473.htm#s464p1"/>
+                        <item text="B) Sociologie dynamique." ref="h26_p0444a0473.htm#s466p1"/>
+                        <item text="C) La religion positive." ref="h26_p0444a0473.htm#s468p1"/>
+                        <item text="D) Valeur de la Sociologie comtiste." ref="h26_p0444a0473.htm#s469p1"/>
+                    </item>
+                    <item text="4) Conclusion: l'essence du Positivisme." ref="h26_p0444a0473.htm#s470p1">
+                        <item text="A) Influence et disciples d'A. Comte." ref="h26_p0444a0473.htm#s470p2"/>
+                        <item text="B) Principes fondamentaux du positivisme." ref="h26_p0444a0473.htm#s471p0"/>
+                    </item>
+                </item>
+                <item text="Article 3. Positivismes dérivés." ref="h27_p0474a0480.htm#s474p1">
+                    <item text="Section 1. Courant scientifique." ref="h27_p0474a0480.htm#s475p1">
+                        <item text="1. Le Darwinisme." ref="h27_p0474a0480.htm#s475p2">
+                            <item text="A) Origine." ref="h27_p0474a0480.htm#s475p3">
+                                <item text="Buffon (1707-1788), Lamarck (1744-1829), DARWIN (1809-1882)."/>
+                            </item>
+                            <item text="B) Les Lois." ref="h27_p0474a0480.htm#s476p1"/>
+                            <item text="C) Les preuves." ref="h27_p0474a0480.htm#s476bisp1"/>
+                            <item text="D) Conclusion et Influence." ref="h27_p0474a0480.htm#s477p1">
+                                <item text="HAECKEL (1834-1919), etc."/>
+                            </item>
+                        </item>
+                        <item text="2. La Synthèse d'Herbert Spencer (1820-1903)." ref="h27_p0474a0480.htm#s479p1">
+                            <item text="A) La loi universelle de l'Évolution." ref="h27_p0474a0480.htm#s480p1p1"/>
+                            <item text="B) L'Évolution physique et biologique." ref="h27_p0474a0480.htm#s480p2p1"/>
+                            <item text="C) L'Évolution psychologique." ref="h27_p0474a0480.htm#s480p3p1"/>
+                            <item text="D) L'Évolution sociale et morale." ref="h27_p0474a0480.htm#s480p4p1"/>
+                            <item text="E) L'Évolution métaphysique et religieuse: l'INCONNAISSABLE." ref="h28_p0481a0484.htm#s481p1"/>
+                            <item text="Conclusion." ref="h28_p0481a0484.htm#s482p1p1"/>
+                            <item text="Continuateurs: HUXLEY (1825-1895), CLIFFORD († 1879), ROMANÈS († 1894), etc."/>
+                        </item>
+                        <item text="3. Le Socialisme." ref="h28_p0481a0484.htm#s482p2p1">
+                            <item text="A) Principes directeurs du socialisme." ref="h28_p0481a0484.htm#s482p2p2"/>
+                            <item text="B) Les premiers théoriciens." ref="h28_p0481a0484.htm#s482p3p0"/>
+                            <item text="C) Karl Marx (1818-1883) et le communisme." ref="h28_p0481a0484.htm#s482p4p0">
+                                <item text="1) Théorie fondamentale: le Matérialisme historique et dialectique." ref="h28_p0481a0484.htm#s482p4p1"/>
+                                <item text="2) La vie économique: le capital et le travail." ref="h28_p0481a0484.htm#s482p4p2"/>
+                                <item text="3) Valeur de l'économie marxiste." ref="h28_p0481a0484.htm#s482p4p3"/>
+                                <item text="4) La vie culturelle: l'individu pour la société." ref="h28_p0481a0484.htm#s482p4p4"/>
+                                <item text="5) La vie morale: Égoïsme de classe." ref="h28_p0481a0484.htm#s482p4p5"/>
+                                <item text="6) La vie religieuse: Athéisme militant." ref="h28_p0481a0484.htm#s482p4p6"/>
+                            </item>
+                        </item>
+                    </item>
+                    <item text="Section 2. Courant psychologique." ref="h28_p0481a0484.htm#s483p1p1">
+                        <item text="1. L'école anglaise: Stuart Mill." ref="h28_p0481a0484.htm#s483p2p1">
+                            <item text="1) Inspirateurs et Précurseurs." ref="h28_p0481a0484.htm#s484p1">
+                                <item text="A) William Hamilton (1788-1856)." ref="h28_p0481a0484.htm#s484p3"/>
+                                <item text="B) L'utilitarisme de J. Bentham (1748-1832)." ref="h28_p0481a0484.htm#s484p4"/>
+                                <item text="C) L'associationnisme de James Mill (1773-1836)." ref="h28_p0481a0484.htm#s484p5"/>
+                            </item>
+                            <item text="2) John Stuart Mill (1806-1873)." ref="h29_p0485a0489.htm#s485p1p1">
+                                <item text="A) Caractère général et Théorie fondamentale." ref="h29_p0485a0489.htm#s485p2p1"/>
+                                <item text="B) La Logique. Applications psychologiques." ref="h29_p0485a0489.htm#s486p0"/>
+                                <item text="C) Application morale. L'Utilitarisme." ref="h29_p0485a0489.htm#s487p2p1"/>
+                                <item text="D) Applications sociales et religieuses." ref="h29_p0485a0489.htm#s488p1"/>
+                            </item>
+                            <item text="3) Continuateurs en psychologie expérimentale." ref="h29_p0485a0489.htm#s489p1">
+                                <item text="Alexandre Bain (1818-1903), etc."/>
+                            </item>
+                        </item>
+                        <item text="2. La Synthèse de Taine" ref="h30_p0490a0508.htm#s490p1">
+                            <item text="Théorie fondamentale" ref="h30_p0490a0508.htm#s491p1"/>
+                            <item text="1. Dieu" ref="h30_p0490a0508.htm#s492p1"/>
+                            <item text="2. La nature" ref="h30_p0490a0508.htm#s493p1"/>
+                            <item text="3. L'homme" ref="h30_p0490a0508.htm#s494p1">
+                                <item text="A) L'Intelligence." ref="h30_p0490a0508.htm#s494p2">
+                                    <item text="1) Définition de l'intelligence: Rôle de la sensation" ref="h30_p0490a0508.htm#s494p3"/>
+                                    <item text="2) L'idée universelle: Théorie du nom commun." ref="h30_p0490a0508.htm#s495p1"/>
+                                    <item text="3) Jugement et raisonnement: Théorie de l'abstraction." ref="h30_p0490a0508.htm#s497p1"/>
+                                    <item text="4) Valeur de la science: Théorie de l'hallucination vraie." ref="h30_p0490a0508.htm#s498p1"/>
+                                </item>
+                                <item text="B) La Volonté." ref="h30_p0490a0508.htm#s499p1">
+                                    <item text="1) Définition et lois: La liberté." ref="h30_p0490a0508.htm#s499p2"/>
+                                    <item text="2) La Morale." ref="h30_p0490a0508.htm#s500p1"/>
+                                    <item text="3) Le Moi: Théorie de la faculté maîtresse." ref="h30_p0490a0508.htm#s501p1"/>
+                                    <item text="4) L'esthétique." ref="h30_p0490a0508.htm#s502p1"/>
+                                </item>
+                            </item>
+                            <item text="4. La société" ref="h30_p0490a0508.htm#s503p1"/>
+                            <item text="Résumé et conclusion" ref="h30_p0490a0508.htm#s504p1"/>
+                        </item>
+                        <item text="3. L'École allemande ou mathématique. (Wundt)." ref="h30_p0490a0508.htm#s505p1">
+                            <item text="A) J.-F. Herbart (1776-1841)." ref="h30_p0490a0508.htm#s505p2"/>
+                            <item text="B) Lotze (1817-1881)." ref="h30_p0490a0508.htm#s505bisp1"/>
+                            <item text="C) Fechner (1801-1887)." ref="h30_p0490a0508.htm#s506p1"/>
+                            <item text="D) Wilhelm Wundt (1832-1920)." ref="h30_p0490a0508.htm#s507p1">
+                                <item text="A) Principe fondamental." ref="h30_p0490a0508.htm#s507p2"/>
+                                <item text="B) La psychologie positive de Wundt." ref="h30_p0490a0508.htm#s508p0"/>
+                            </item>
+                        </item>
+                        <item text="4. L'École française ou dynamiste." ref="h31_p0509a0521.htm#s509p1">
+                            <item text="A) Théodule Ribot (1839-1916)." ref="h31_p0509a0521.htm#s509p2"/>
+                            <item text="B) L'École de Paris." ref="h31_p0509a0521.htm#s510">
+                                <item text="Alfred Binet (1857-1911); Pierre Janet; Paulhan; Freud, etc."/>
+                                <item text="Alfred Fouillée (1838-1912)"/>
+                            </item>
+                        </item>
+                        <item text="Conclusion: La Psychologie expérimentale actuelle" ref="h31_p0509a0521.htm#s511p1p1"/>
+                    </item>
+                    <item text="Section 3. Courant sociologique." ref="h31_p0509a0521.htm#s512p1">
+                        <item text="Émile Durkheim (1858-1917)" ref="h31_p0509a0521.htm#s512p2">
+                            <item text="1) Thèse fondamentale." ref="h31_p0509a0521.htm#s513p1"/>
+                            <item text="2) La sociologie." ref="h31_p0509a0521.htm#s514p1">
+                                <item text="A) Méthode de sociologie." ref="h31_p0509a0521.htm#s514p2"/>
+                                <item text="B) Essai d'application." ref="h31_p0509a0521.htm#s515p1"/>
+                            </item>
+                            <item text="3) La morale." ref="h31_p0509a0521.htm#s516p1">
+                                <item text="A) La Méthode." ref="h31_p0509a0521.htm#s516p2"/>
+                                <item text="B) Les caractères de la moralité." ref="h31_p0509a0521.htm#s517p1"/>
+                                <item text="C) Le rôle de la société." ref="h31_p0509a0521.htm#s518p1"/>
+                                <item text="D) L'art moral." ref="h31_p0509a0521.htm#s518p2"/>
+                            </item>
+                        </item>
+                        <item text="La morale de la solidarité: L. Bourgeois." ref="h31_p0509a0521.htm#s520"/>
+                        <item text="Conclusion: la sociologie catholique." ref="h31_p0509a0521.htm#s521p1"/>
+                        <item text="Le Play (1806-1882); La Tour Du Pin († 1924)"/>
+                    </item>
+                </item>
+            </item>
+            <item text="Chapitre 5. Réaction métaphysique. XXe Siècle" ref="h32_p0522a0546.htm#s522p1">
+                <item text="Article 1. Survivances et transition." ref="h32_p0522a0546.htm#s523p1">
+                    <item text="1. L'Idéalisme du XXe siècle." ref="h32_p0522a0546.htm#s524p1">
+                        <item text="A) L'Idéalisme hégélien." ref="h32_p0522a0546.htm#s525p1"/>
+                        <item text="B) L'Idéalisme critique." ref="h32_p0522a0546.htm#s526p1">
+                            <item text="Renouvier (1815-1903); L'école de Marbourg; Brunschvicg (1869-1944); etc."/>
+                        </item>
+                    </item>
+                    <item text="2. La Critique des sciences." ref="h32_p0522a0546.htm#s527p1">
+                        <item text="A) Précurseurs." ref="h32_p0522a0546.htm#s528p1">
+                            <item text="A. Cournot (1801-1877); Emile Boutroux (1845-1921)."/>
+                        </item>
+                        <item text="B) Savants philosophes." ref="h32_p0522a0546.htm#s529p1">
+                            <item text="Henri Poincaré (1854-1912); Émile Meyerson (1859-1933)."/>
+                        </item>
+                    </item>
+                    <item text="3. Le Néo-positivisme de Vienne." ref="h32_p0522a0546.htm#s530p1">
+                        <item text="A) Thèse fondamentale." ref="h32_p0522a0546.htm#s531"/>
+                        <item text="B) Conséquences critiques." ref="h32_p0522a0546.htm#s532p1"/>
+                        <item text="C) Tendances réalistes et métaphysiques." ref="h32_p0522a0546.htm#s533p1"/>
+                    </item>
+                    <item text="4. Le Néo-réalisme anglais." ref="h32_p0522a0546.htm#s534p1">
+                        <item text="1) Le Réalisme de Bertrand Russell (1872-1970)." ref="h32_p0522a0546.htm#s535p1">
+                            <item text="A) Caractère général." ref="h32_p0522a0546.htm#s535p2"/>
+                            <item text="B) Réalisme pluraliste." ref="h32_p0522a0546.htm#s536p1"/>
+                            <item text="C) Théorie neutraliste." ref="h32_p0522a0546.htm#s537p1"/>
+                        </item>
+                        <item text="2) Le mouvement réaliste américain." ref="h32_p0522a0546.htm#s538p1">
+                            <item text="A) Le Néo-Réalisme. R. B. Perry." ref="h32_p0522a0546.htm#s538p2"/>
+                            <item text="B) Le réalisme critique. O. Lovejoy." ref="h32_p0522a0546.htm#s539p1"/>
+                        </item>
+                    </item>
+                </item>
+                <item text="Article 2. Philosophie de la vie." ref="h32_p0522a0546.htm#s540p1">
+                    <item text="Section 1. Vie et Vérité: Le Pragmatisme américain." ref="h32_p0522a0546.htm#s541p1">
+                        <item text="1. Les Origines de la Philosophie américaine." ref="h32_p0522a0546.htm#s542p1">
+                            <item text="A) Les premiers Essais et le Transcendantalisme d'Emerson." ref="h32_p0522a0546.htm#s542p2"/>
+                            <item text="B) L'Idéalisme et le «Mouvement de Saint-Louis»." ref="h32_p0522a0546.htm#s543p1"/>
+                            <item text="C) Les Précurseurs du Pragmatisme. Le «Metaphysical Club»." ref="h32_p0522a0546.htm#s544p1"/>
+                        </item>
+                        <item text="2. Le Pragmatisme de William JAMES." ref="h32_p0522a0546.htm#s545p1">
+                            <item text="1) Vue d'ensemble." ref="h32_p0522a0546.htm#s545p2"/>
+                            <item text="2) William James (1842-1910): L'homme et l'oeuvre." ref="h32_p0522a0546.htm#s546p1"/>
+                            <item text="3) Théorie du Pragmatisme." ref="h33_p0547a0564.htm#s547p1"/>
+                            <item text="4) Psychologie expérimentale et Métaphysique immanentiste." ref="h33_p0547a0564.htm#s549p1">
+                                <item text="A) La vie consciente." ref="h33_p0547a0564.htm#s549p2"/>
+                                <item text="B) La Subconscience." ref="h33_p0547a0564.htm#s550p1"/>
+                                <item text="C) Métaphysique immanentiste." ref="h33_p0547a0564.htm#s551p1"/>
+                            </item>
+                        </item>
+                        <item text="3. Les pragmatismes dérivés." ref="h33_p0547a0564.htm#s553p1">
+                            <item text="1. Le Pragmatisme logique. C. S. Peirce (1839-1914)." ref="h33_p0547a0564.htm#s554p1">
+                                <item text="A) Ordre logique du signe." ref="h33_p0547a0564.htm#s555p1"/>
+                                <item text="B) Ordre psychologique de la croyance." ref="h33_p0547a0564.htm#s556p1"/>
+                                <item text="C) Ordre physique des degrés d'abstraction." ref="h33_p0547a0564.htm#s557p1"/>
+                                <item text="D) Ordre métaphysique de la Vérité totale." ref="h33_p0547a0564.htm#s558p1"/>
+                            </item>
+                            <item text="2. Le pragmatisme idéaliste. J. Royce (1855-1916)." ref="h33_p0547a0564.htm#s560p1">
+                                <item text="A) Existence de l'Esprit absolu." ref="h33_p0547a0564.htm#s561p1"/>
+                                <item text="B) Le Pragmatisme absolu." ref="h33_p0547a0564.htm#s562p1"/>
+                                <item text="C) L'idéalisme communautaire." ref="h33_p0547a0564.htm#s563p1"/>
+                            </item>
+                            <item text="3. Le pragmatisme de vérification ou Instrumentalisme. J. Dewey." ref="h34_p0565a0584.htm#s565p1">
+                                <item text="A) Principe fondamental." ref="h34_p0565a0584.htm#s566p1"/>
+                                <item text="B) L'Enquête: Pragmatisme de vérification." ref="h34_p0565a0584.htm#s567p1"/>
+                                <item text="C) Vues métaphysiques et morales." ref="h34_p0565a0584.htm#s570p1"/>
+                            </item>
+                            <item text="4. Le pragmatisme social. G. H. Mead." ref="h34_p0565a0584.htm#s574p1">
+                                <item text="A) Vie et oeuvres de Georges Herbert Mead." ref="h34_p0565a0584.htm#s574p2"/>
+                                <item text="B) Pragmatisme et société." ref="h34_p0565a0584.htm#s575p1"/>
+                                <item text="C) L'explication par le temps." ref="h34_p0565a0584.htm#s576p1"/>
+                                <item text="D) Courants secondaires." ref="h34_p0565a0584.htm#s577p1">
+                                    <item text="1) Courant naturaliste." ref="h34_p0565a0584.htm#s578p1">
+                                        <item text="Georges Santayana (1863-1952) et Roy Wood Sellars (né en 1880)"/>
+                                    </item>
+                                    <item text="2) Courant Idéaliste." ref="h34_p0565a0584.htm#s580">
+                                        <item text="James Edwin Creighton (1861-1924)"/>
+                                    </item>
+                                </item>
+                            </item>
+                        </item>
+                        <item text="4. Le Modernisme." ref="h34_p0565a0584.htm#s581p1">
+                            <item text="A) Connaissance sentimentale de Dieu." ref="h34_p0565a0584.htm#s582p1"/>
+                            <item text="B) Dogmatique pragmatiste." ref="h34_p0565a0584.htm#s584p1"/>
+                        </item>
+                    </item>
+                    <item text="Section 2. L'Élan vital: Henri Bergson." ref="h35_p0585a0604.htm#s585p1">
+                        <item text="1. La méthode: Intelligence et intuition." ref="h35_p0585a0604.htm#s587p1">
+                            <item text="A) Critique de l'intelligence." ref="h35_p0585a0604.htm#s587p2"/>
+                            <item text="B) L'intuition." ref="h35_p0585a0604.htm#s588p1"/>
+                            <item text="C) Valeur de la méthode intuitive." ref="h35_p0585a0604.htm#s589p1"/>
+                        </item>
+                        <item text="2. L'intuition biologique: l'univers." ref="h35_p0585a0604.htm#s590p1">
+                            <item text="A) Le problème." ref="h35_p0585a0604.htm#s590p2"/>
+                            <item text="B) Signification de l'Élan vital." ref="h35_p0585a0604.htm#s591p1"/>
+                            <item text="C) La matière." ref="h35_p0585a0604.htm#s592p1"/>
+                            <item text="D) Monisme ou Pluralisme." ref="h35_p0585a0604.htm#s593p1"/>
+                        </item>
+                        <item text="3. L'intuition psychologique: le moi." ref="h35_p0585a0604.htm#s594p1">
+                            <item text="A) Le Problème." ref="h35_p0585a0604.htm#s594p2"/>
+                            <item text="B) Solution." ref="h35_p0585a0604.htm#s595p1"/>
+                            <item text="C) La double interprétation." ref="h35_p0585a0604.htm#s598p1"/>
+                        </item>
+                        <item text="4. L'intuition mystique: Dieu." ref="h35_p0585a0604.htm#s599p1">
+                            <item text="1) Le problème et la méthode." ref="h35_p0585a0604.htm#s599p2"/>
+                            <item text="2) La double morale." ref="h35_p0585a0604.htm#s600p1">
+                                <item text="A) La morale close." ref="h35_p0585a0604.htm#s600p2"/>
+                                <item text="B) La morale ouverte." ref="h35_p0585a0604.htm#s600p3"/>
+                                <item text="C) Unification." ref="h35_p0585a0604.htm#s600p4"/>
+                            </item>
+                            <item text="3) La double religion." ref="h35_p0585a0604.htm#s601p1">
+                                <item text="A) Religion statique." ref="h35_p0585a0604.htm#s601p2"/>
+                                <item text="B) Religion dynamique." ref="h35_p0585a0604.htm#s601p3"/>
+                            </item>
+                            <item text="4) Dieu." ref="h35_p0585a0604.htm#s602p1">
+                                <item text="A) Existence de Dieu." ref="h35_p0585a0604.htm#s602p2"/>
+                                <item text="B) Attributs de Dieu." ref="h35_p0585a0604.htm#s602p3"/>
+                            </item>
+                        </item>
+                    </item>
+                    <item text="Section 3. Valeur et Histoire." ref="h36_p0605a0613.htm#s605p1">
+                        <item text="1. - La Philosophie des valeurs." ref="h36_p0605a0613.htm#s605p2">
+                            <item text="A) Un précurseur: F. Nietzsche (1844-1900)." ref="h36_p0605a0613.htm#s606p0"/>
+                            <item text="B) L'École badoise: La Philosophie des valeurs." ref="h36_p0605a0613.htm#s607p1"/>
+                            <item text="C) Le Racisme." ref="h36_p0605a0613.htm#s608p1"/>
+                        </item>
+                        <item text="2. - L'Historisme de Wilhelm Dilthey (1833-1911)." ref="h36_p0605a0613.htm#s609p1">
+                            <item text="A) Le Fondateur." ref="h36_p0605a0613.htm#s610p1"/>
+                            <item text="B) Positions dominantes." ref="h36_p0605a0613.htm#s611p1"/>
+                            <item text="C) Conclusion et influence." ref="h36_p0605a0613.htm#s612p1"/>
+                        </item>
+                    </item>
+                </item>
+                <item text="Article 3. Phénoménologie et Existentialisme." ref="h37_p0614a0631.htm#s614p1">
+                    <item text="Section 1. Phénoménologie." ref="h37_p0614a0631.htm#s615p1">
+                        <item text="1) Précurseur: Franz Brentano (1838-1917)." ref="h37_p0614a0631.htm#s615p2"/>
+                        <item text="2) Le fondateur: Edmund Husserl (1859-1938)." ref="h37_p0614a0631.htm#s616p1">
+                            <item text="1. - Vue d'ensemble." ref="h37_p0614a0631.htm#s617p1"/>
+                            <item text="2. - Principe fondamental de la philosophie phénoménologique." ref="h37_p0614a0631.htm#s618p1">
+                                <item text="A) Sens précis du principe." ref="h37_p0614a0631.htm#s619p1"/>
+                                <item text="B) Définition de l'évidence." ref="h37_p0614a0631.htm#s620p1"/>
+                                <item text="C) Être et Vérité." ref="h37_p0614a0631.htm#s621p1"/>
+                                <item text="D) Rôle constitutif de l'Intentionnalité." ref="h37_p0614a0631.htm#s622p1"/>
+                            </item>
+                            <item text="3. - La méthode phénoménologique." ref="h37_p0614a0631.htm#s625p1">
+                                <item text="A) Le Phénomène selon Husserl." ref="h37_p0614a0631.htm#s625p2"/>
+                                <item text="B) La technique de la Réduction." ref="h37_p0614a0631.htm#s626p1"/>
+                            </item>
+                            <item text="4. - La métaphysique de Husserl." ref="h37_p0614a0631.htm#s627p1">
+                                <item text="A) Métaphysique du «moi pensant»." ref="h37_p0614a0631.htm#s628p1"/>
+                                <item text="B) Métaphysique du monde." ref="h37_p0614a0631.htm#s629p1"/>
+                                <item text="C) Métaphysique de l'Être absolu." ref="h37_p0614a0631.htm#s630p1"/>
+                            </item>
+                            <item text="Conclusion." ref="h37_p0614a0631.htm#s631"/>
+                        </item>
+                        <item text="3) Les disciples. Max Scheler (1874-1928)." ref="h38_p0632a0650.htm#s632p1">
+                            <item text="1) La connaissance." ref="h38_p0632a0650.htm#s634"/>
+                            <item text="2) Amour et Personne." ref="h38_p0632a0650.htm#s635"/>
+                        </item>
+                    </item>
+                    <item text="Section 2. Existentialisme." ref="h38_p0632a0650.htm#s637p1">
+                        <item text="1. Le Précurseur: S. Kierkegaard (1813-1855)." ref="h38_p0632a0650.htm#s638p1">
+                            <item text="A) Caractère général." ref="h38_p0632a0650.htm#s639p1"/>
+                            <item text="B) Thèmes spéciaux." ref="h38_p0632a0650.htm#s640p1"/>
+                        </item>
+                        <item text="2. L'existentialisme du XXe siècle." ref="h38_p0632a0650.htm#s641p1">
+                            <item text="A) Aperçu historique." ref="h38_p0632a0650.htm#s641p2"/>
+                            <item text="B) Définition de l'existentialisme." ref="h38_p0632a0650.htm#sp642p1"/>
+                        </item>
+                        <item text="3. Les formes athées de l'existentialisme." ref="h38_p0632a0650.htm#s643p1">
+                            <item text="A) Doctrines communes." ref="h38_p0632a0650.htm#s643p2"/>
+                            <item text="B) L'existence humaine selon Heidegger." ref="h38_p0632a0650.htm#s644p1"/>
+                            <item text="C) L'ontologie athée de J.-P. Sartre." ref="h38_p0632a0650.htm#s645p1"/>
+                        </item>
+                        <item text="4. L'existentialisme chrétien." ref="h38_p0632a0650.htm#s649p1">
+                            <item text="A) Karl Jaspers." ref="h38_p0632a0650.htm#s649p2">
+                                <item text="Les trois sphères de l'être." ref="h38_p0632a0650.htm#s649"/>
+                                <item text="Théologie et méthode du «chiffre»." ref="h38_p0632a0650.htm#s650"/>
+                            </item>
+                            <item text="B) Gabriel Marcel." ref="h39_p0651a0663.htm#s651p0">
+                                <item text="1) Point de départ: Mystère et Problème." ref="h39_p0651a0663.htm#s651p1"/>
+                                <item text="2) La Méthode du recueillement." ref="h39_p0651a0663.htm#s652"/>
+                                <item text="3) Triple application: le «moi», Dieu, le monde." ref="h39_p0651a0663.htm#s653"/>
+                                <item text="4) La Foi surnaturelle et l'Existentialisme chrétien." ref="h39_p0651a0663.htm#s654"/>
+                            </item>
+                            <item text="Conclusion generale sur l'existentialisme." ref="h39_p0651a0663.htm#s655"/>
+                        </item>
+                        <item text="5. Le Personnalisme." ref="h39_p0651a0663.htm#s656p1">
+                            <item text="A) En Amérique." ref="h39_p0651a0663.htm#s656p2">
+                                <item text="Bordon Parker Bowne (1847-1916) et George Holme Howison (1834-1916)"/>
+                            </item>
+                            <item text="B) En France." ref="h39_p0651a0663.htm#s657p1">
+                                <item text="Emmanuel Mounier (1905-1950)"/>
+                            </item>
+                        </item>
+                    </item>
+                </item>
+                <item text="Article 4. Réveil métaphysique." ref="h39_p0651a0663.htm#s658p1">
+                    <item text="1. Métaphysique des sciences: Philosophie organique de Whitehead (1861-1948)." ref="h39_p0651a0663.htm#s659p1">
+                        <item text="1) La méthode scientifique de cohérence." ref="h39_p0651a0663.htm#s660p0"/>
+                        <item text="2) Le monde physique." ref="h39_p0651a0663.htm#s661p1">
+                            <item text="A) Définitions fondamentales." ref="h39_p0651a0663.htm#s661p2"/>
+                            <item text="B) Théorie monadique." ref="h39_p0651a0663.htm#s662p1"/>
+                        </item>
+                        <item text="3) Le monde de l'homme." ref="h40_p0664a0681.htm#s664p1"/>
+                        <item text="4) Dieu et la Métaphysique." ref="h40_p0664a0681.htm#s665p1">
+                            <item text="A) Le Monde intelligible." ref="h40_p0664a0681.htm#s666p1"/>
+                            <item text="B) Dieu: son existence et sa nature." ref="h40_p0664a0681.htm#s667p1"/>
+                            <item text="C) Dieu et son Oeuvre." ref="h40_p0664a0681.htm#s668p1"/>
+                        </item>
+                        <item text="5) La Morale et la Religion." ref="h40_p0664a0681.htm#s669p1">
+                            <item text="A) Immortalité de l'âme et fin dernière." ref="h40_p0664a0681.htm#s669p2"/>
+                            <item text="B) Le Bien et le Mal." ref="h40_p0664a0681.htm#s670p1"/>
+                            <item text="C) Moralité sociale." ref="h40_p0664a0681.htm#s671p1"/>
+                            <item text="D) Moralité de l'Importance." ref="h40_p0664a0681.htm#s672p1"/>
+                            <item text="E) La Religion." ref="h40_p0664a0681.htm#s673p1"/>
+                        </item>
+                        <item text="Conclusion." ref="h40_p0664a0681.htm#s674"/>
+                        <item text="Pierre Teilhard de Chardin." ref="h40_p0664a0681.htm#s674bis"/>
+                    </item>
+                    <item text="2. Métaphysique de la connaissance: Philosophie ontologique de N. Hartman (1882-1950)." ref="h40_p0664a0681.htm#s675p1">
+                        <item text="A) Point de départ et Méthode." ref="h40_p0664a0681.htm#s676p1"/>
+                        <item text="B) L'être et la Connaissance. Ontologie et Métaphysique." ref="h40_p0664a0681.htm#s677p1"/>
+                        <item text="C) L'être en général: la Philosophie ontologique." ref="h40_p0664a0681.htm#s678p0">
+                            <item text="1) Grandes divisions de l'être." ref="h40_p0664a0681.htm#s678p1"/>
+                            <item text="2) L'être de l'esprit: Morale et liberté." ref="h40_p0664a0681.htm#s679"/>
+                            <item text="3) Théodicée et Conclusion." ref="h40_p0664a0681.htm#s680"/>
+                        </item>
+                    </item>
+                    <item text="3. Métaphysique de l'action: Philosophie religieuse de M. Blondel (1861-1948)." ref="h41_p0682a0694.htm#s682p1">
+                        <item text="A) Précurseurs au XIXe siècle." ref="h41_p0682a0694.htm#s683p1">
+                            <item text="Charles Secrétan (1815-1895), Rudolf Eucken (1846-1926), J.-H. NEWMAN (1801-1890)"/>
+                        </item>
+                        <item text="B) L'itinéraire philosophique de M. Blondel." ref="h41_p0682a0694.htm#s684p1"/>
+                        <item text="C) Méthode d'immanence blondélienne: Dialectique d'implication et d'intégration." ref="h41_p0682a0694.htm#s687p1"/>
+                        <item text="D) Philosophie spéculative: La Pensée et l'Être." ref="h41_p0682a0694.htm#s688p1"/>
+                        <item text="E) Philosophie pratique: L'Action." ref="h41_p0682a0694.htm#s691p1">
+                            <item text="Théodicée" ref="h41_p0682a0694.htm#s692"/>
+                            <item text="La Normative" ref="h41_p0682a0694.htm#s693"/>
+                        </item>
+                        <item text="Conclusion: la philosophie catholique" ref="h41_p0682a0694.htm#s694"/>
+                    </item>
+                    <item text="4. Métaphysique augustinienne: Philosophie de l'esprit de L. Lavelle." ref="h42_p0695a0706.htm#s695p1">
+                        <item text="1) Le Spiritualisme augustinien." ref="h42_p0695a0706.htm#s695p2">
+                            <item text="A) Le Spiritualisme naturaliste de Louis Lavelle (1883-1951)." ref="h42_p0695a0706.htm#s695p3"/>
+                            <item text="B) Le Spiritualisme Chrétien." ref="h42_p0695a0706.htm#s700p1"/>
+                        </item>
+                        <item text="2) Philosophie augustinienne de l'Histoire." ref="h42_p0695a0706.htm#s701p1">
+                            <item text="A) En Amérique." ref="h42_p0695a0706.htm#s701p2">
+                                <item text="Reinhold Neibuhr et P. Tillich"/>
+                            </item>
+                            <item text="B) En Europe." ref="h42_p0695a0706.htm#s702p1">
+                                <item text="Arquillère, Marrou, Bardy, Courcelle, Turienzo, Ratzinger, Brezzi, etc."/>
+                            </item>
+                        </item>
+                        <item text="3) Le Néo-augustinisme." ref="h42_p0695a0706.htm#s703p1">
+                            <item text="A) L'oeuvre de Fulbert Cayré." ref="h42_p0695a0706.htm#s704p1"/>
+                            <item text="B) La «Philosophie» augustinienne." ref="h42_p0695a0706.htm#s705p1">
+                                <item text="C. Boyer, E. Gilson, F. Cayré."/>
+                            </item>
+                        </item>
+                        <item text="Conclusion." ref="h42_p0695a0706.htm#s706"/>
+                    </item>
+                </item>
+            </item>
+            <item text="Chapitre 6. Le Néothomisme." ref="h43_p0707a0717.htm#s707p1">
+                <item text="1. L'initiation: Encyclique «Aeterni Patris»." ref="h43_p0707a0717.htm#s708p1"/>
+                <item text="2. Courant traditionnel." ref="h43_p0707a0717.htm#s709p1">
+                    <item text="A) Les précurseurs." ref="h43_p0707a0717.htm#s709p2">
+                        <item text="Balmès (1810-1848), etc."/>
+                    </item>
+                    <item text="B) Les premiers ouvriers." ref="h43_p0707a0717.htm#s710p1">
+                        <item text="Zigliara (1833-1893), etc."/>
+                    </item>
+                    <item text="C) Caractère traditionnel." ref="h43_p0707a0717.htm#s711p1"/>
+                </item>
+                <item text="3. Courant progressiste: Cardinal Mercier (1851-1926)." ref="h43_p0707a0717.htm#s712p1">
+                    <item text="A) Thomisme et science." ref="h43_p0707a0717.htm#s713p1"/>
+                    <item text="B) La critériologie." ref="h43_p0707a0717.htm#s714p1"/>
+                    <item text="C) La langue vulgaire." ref="h43_p0707a0717.htm#s715p1"/>
+                    <item text="D) Luttes et Victoires." ref="h43_p0707a0717.htm#s716p1"/>
+                </item>
+                <item text="Diverses écoles de thomisme: historique, critique, progressiste." ref="h43_p0707a0717.htm#s716p2"/>
+            </item>
+        </item>
+    </item>
+    <item text="Conclusion générale." ref="h43_p0707a0717.htm#s717"/>
+    <item text="Notes de bas de page">
+        <item text="°1 à °399" ref="h90_n0001a0399.htm"/>
+        <item text="°400 à °799" ref="h91_n00400a0799.htm"/>
+        <item text="°800 à °1199" ref="h92_n00800a1199.htm"/>
+        <item text="°1200 à °1599" ref="h93_n01200a1599.htm"/>
+        <item text="°1600 à °1999" ref="h94_n01600a1999.htm"/>
+        <item text="°2000 à °2399" ref="h95_n02000a2399.htm"/>
+    </item>
+    <item text="Bibliographies">
+        <item text="b1 à b56" ref="h97_biblios.htm"/>
+        <item text="b57 à b124" ref="h98_biblios.htm"/>
+        <item text="b125 à b194" ref="h99_biblios.htm"/>
+    </item>
+</items>

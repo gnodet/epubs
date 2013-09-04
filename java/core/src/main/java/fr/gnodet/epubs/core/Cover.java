@@ -136,7 +136,7 @@ public class Cover {
         }
 
         double svgMargin = 47.0;
-        double svgHeight = 324.0;
+        double svgHeight = svg != null ? 324.0 : 0.0;
         Rectangle2D svgBox = new Rectangle2D.Double(borderInRect.getMinX() + svgMargin,
                 borderInRect.getMaxY() - svgMargin - svgHeight,
                 borderInRect.getWidth() - svgMargin * 2,
@@ -146,7 +146,7 @@ public class Cover {
         Rectangle2D textBox = new Rectangle2D.Double(borderInRect.getMinX() + textMargin,
                 borderInRect.getMinY() + textMargin,
                 borderInRect.getWidth() - 2 * textMargin,
-                svgBox.getMaxX() - borderInRect.getMinX() - 2 * textMargin);
+                svgBox.getMaxY() - borderInRect.getMinY() - 2 * textMargin);
 
         Graphics graphics = new BufferedImage(5, 5, BufferedImage.TYPE_INT_RGB).getGraphics();
         {
@@ -209,19 +209,21 @@ public class Cover {
             }
         }
 
-        String innerSvg = new String(IOUtil.readFully(svg));
-        if (innerSvg.startsWith("<?")) {
-            innerSvg = innerSvg.substring(innerSvg.indexOf("?>") + 2);
+        if (svg != null) {
+            String innerSvg = new String(IOUtil.readFully(svg));
+            if (innerSvg.startsWith("<?")) {
+                innerSvg = innerSvg.substring(innerSvg.indexOf("?>") + 2);
+            }
+            int vbi = innerSvg.indexOf("viewBox=");
+            String[] viewBox = innerSvg.substring(vbi + 9, innerSvg.indexOf("\"", vbi+9)).split(" ");
+            double iw = new Double(viewBox[2]);
+            double ih = new Double(viewBox[3]);
+            double rw = svgHeight * iw / ih;
+            double x = (width - rw) / 2;
+            sb.append("<svg y=\"" + svgBox.getMinY() + "\" x=\"").append(x).append("\" height=\"" + svgHeight + "\" >")
+                    .append(innerSvg)
+                    .append("</svg>");
         }
-        int vbi = innerSvg.indexOf("viewBox=");
-        String[] viewBox = innerSvg.substring(vbi + 9, innerSvg.indexOf("\"", vbi+9)).split(" ");
-        double iw = new Double(viewBox[2]);
-        double ih = new Double(viewBox[3]);
-        double rw = svgHeight * iw / ih;
-        double x = (width - rw) / 2;
-        sb.append("<svg y=\"" + svgBox.getMinY() + "\" x=\"").append(x).append("\" height=\"" + svgHeight + "\" >")
-                .append(innerSvg)
-                .append("</svg>");
         sb.append("</svg>");
 
 

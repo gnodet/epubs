@@ -33,7 +33,7 @@ public class Whitespaces {
         text = text.replaceAll("“\\s*", "“");
         text = text.replaceAll("\\s*”", "”");
         text = text.replaceAll("\\s*:\\s*", "\u00A0: ");
-        text = text.replaceAll("\\s*;\\s*", "\u00A0; ");
+        text = text.replaceAll("\\s*(?<!&#[0-9]{1,4}|&[A-Za-z0-9]{1,10});\\s*", "\u00A0; ");
         text = text.replaceAll("\\s*!\\s*", "\u00A0! ");
         text = text.replaceAll("\\s*\\?\\s*", "\u00A0? ");
         text = text.replaceAll("\\(\\s*", "(");
@@ -46,6 +46,8 @@ public class Whitespaces {
 
         // Fix back broken entities
         text = text.replaceAll("&([A-Za-z]+)\u00a0;", "&$1;");
+        // Fix back broken paragraph numeration
+        text = text.replaceAll("([0-9])\\. ([0-9])\\)", "$1.$2)");
         return text;
     }
 
