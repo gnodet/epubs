@@ -8,10 +8,7 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.text.Normalizer;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
@@ -217,6 +214,57 @@ public class Main {
                     "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">");
 
             document = document.replace("&agrave; ('infini", "&agrave; l'infini");
+            document = document.replace(
+                    "influence chr&eacute;tienne:</p>\n<p class=\"list\">1. r&ocirc;le",
+                    "influence chr&eacute;tienne:<br />1. r&ocirc;le");
+            document = document.replace(
+                    "astrologie&raquo; \" (",
+                    "astrologie&raquo; (");
+            document = document.replace("r&eacute;alit&eacute;&raquo;\"", "r&eacute;alit&eacute;&raquo;");
+
+            document = document.replace("href=\"#s1p2\"",                        "href=\"h04_p0001a0025.htm#s1p2\"");
+            document = document.replace("href=\"h04_p0001a0025.htm#p24\"",       "href=\"h04_p0001a0025.htm#s24\"");
+            document = document.replace("href=\"h05_p0026a0050.htm#p32\"",       "href=\"h05_p0026a0050.htm#s32\"");
+            document = document.replace("href=\"h05_p0026a0050.htm#p47\"",       "href=\"h05_p0026a0050.htm#s47\"");
+            document = document.replace("href=\"h05_p0026a0050.htm#s51p1\"",     "href=\"h06_p0051a0073.htm#s51p1\"");
+            document = document.replace("href=\"h06_p0051a0073.htm#p58\"",       "href=\"h06_p0051a0073.htm#s58\"");
+            document = document.replace("href=\"h07_p0074a0095.htm#p84\"",       "href=\"h07_p0074a0095.htm#s84\"");
+            document = document.replace("href=\"h08_p0096a0119.htm#p114\"",      "href=\"h08_p0096a0119.htm#s114\"");
+            document = document.replace("href=\"h10_p0142a0160.htm#s5p1\"",      "href=\"h10_p0142a0160.htm#s143p1\"");
+            document = document.replace("href=\"h10_p0142a0160.htm#s160\"",      "href=\"h11_p0161a0177.htm#s160\"");
+            document = document.replace("href=\"h12_p0178a0196.htm#s199\"",      "href=\"h13_p0197a0227.htm#s199\"");
+            document = document.replace("href=\"h13_p0197a0227.htm#s233\"",      "href=\"h14_p0228a0245.htm#s233\"");
+            document = document.replace("href=\"h15_p0246a0270.htm#s245p1\"",    "href=\"h14_p0228a0245.htm#s245p1\"");
+            document = document.replace("href=\"h14_p0228a0245.htm#p270\"",      "href=\"h15_p0246a0270.htm#s270\"");
+            document = document.replace("href=\"h15_p0246a0270.htm#p270\"",      "href=\"h15_p0246a0270.htm#s270\"");
+            document = document.replace("href=\"h20_p0357a0375.htm#s371\"",      "href=\"h21_p0369a0375.htm#s371\"");
+            document = document.replace("href=\"h20_p0357a0375.htm#s374\"",      "href=\"h21_p0369a0375.htm#s374\"");
+            document = document.replace("href=\"h23_p0387a0404.htm#s379\"",      "href=\"h22_p0376a0386.htm#s379\"");
+            document = document.replace("href=\"h25_p0425a0443.htm#s428\"",      "href=\"h25_p0425a0443.htm#s428p9\"");
+            document = document.replace("href=\"h27_p0474a0480.htm#s480\"",      "href=\"h27_p0474a0480.htm#s480p1p1\"");
+            document = document.replace("href=\"h28_p0481a0484.htm#s483\"",      "href=\"h28_p0481a0484.htm#s483p1p1\"");
+            document = document.replace("href=\"h28_p0481a0484.htm#s484\"",      "href=\"h28_p0481a0484.htm#s484p1\"");
+            document = document.replace("href=\"h28_p0481a0484.htm#s482\"",      "href=\"h28_p0481a0484.htm#s482p1p1\"");
+            document = document.replace("href=\"h28_p0481a0484.htm#s484\"",      "href=\"h28_p0481a0484.htm#s484p2\"");
+            document = document.replace("href=\"h28_p0481a0484.htm#s486\"",      "href=\"h29_p0485a0489.htm#s486\"");
+            document = document.replace("href=\"h91_n00400a0799.htm#459\"",      "href=\"h91_n00400a0799.htm#n459\"");
+            document = document.replace("href=\"h94_n01600a1999.htm#n%201747\"", "href=\"h94_n01600a1999.htm#n1747\"");
+            document = document.replace("href=\"\"", "href=\"\"");
+            document = document.replaceAll("h97_biblios#", "h97_biblios.htm#");
+            document = document.replaceAll("h31_p0509a0521#", "h31_p0509a0521.htm#");
+            document = document.replaceAll("h20_p0357a0375\\.htm", "h20_p0357a0368.htm");
+            document = document.replaceAll("#1870", "#n1870");
+            document = changeOccurrence(document, "id=\"s199p1\"", "id=\"s215p1\"", 2);
+            document = changeOccurrence(document, "#s199p1\"", "#s215p1\"", 2);
+            document = changeOccurrence(document, "id=\"s239p1\"", "id=\"s239p2\"", 1);
+            document = changeOccurrence(document, "#s239p1\"", "#s239p2\"", 1);
+            document = changeOccurrence(document, "id=\"s268p1\"", "id=\"s266p1\"", 1);
+            document = changeOccurrence(document, "#s268p1\"", "#s266p1\"", 1);
+            document = changeOccurrence(document, "id=\"s268\"", "id=\"s266\"", 1);
+            document = changeOccurrence(document, "&sect;268)", "&sect;266)", 1);
+            document = changeOccurrence(document, "id=\"s648\"", "id=\"s646\"", 1);
+            document = changeOccurrence(document, "#s648\"", "#s646\"", 1);
+            document = changeOccurrence(document, "id=\"n1925\"", "id=\"n1926\"", 2);
 
             // Remove new lines to simplify
             {
@@ -237,8 +285,8 @@ public class Main {
             document = translateEntities(document);
 
             // Delete header and footer
-            document = document.replaceAll("<p class=\"poucethaut\">.*?</p>\\s*<p[^>]*>\\s*\\[.*?\\]\\s*</p>", "");
-            document = document.replaceAll("<p[^>]*>\\s*\\[.*?\\]\\s*</p>\\s*<p class=\"poucetbas\">.*?</p>", "");
+            document = document.replaceAll("<p class=\"poucethaut\">([^<]|<[^p])*</p>\\s*<p[^>]*>\\s*\\[([^<]|<[^p])*\\]\\s*</p>", "");
+            document = document.replaceAll("<p[^>]*>\\s*\\[([^<]|<[^p])*\\]\\s*</p>\\s*<p class=\"poucetbas\">([^<]|<[^p])*</p>", "");
             document = document.replaceAll("<p[^>]*>Note: Si le grec classique.*?</p>", "");
             document = document.replaceAll("<p[^>]*>Table alphabétique.*?</p>\\s*<p[^>]*>Je pense que Google.*?</p>.*?<form.*?</form>.*?-->", "");
             // Delete unwanted attributes
@@ -296,6 +344,20 @@ public class Main {
         resources.put("OEBPS/img/cover.png", coverPng);
         resources.put("OEBPS/cover.html", Cover.generateCoverHtml(creator, title, "", creator).getBytes());
         createEpub(files.toArray(new File[files.size()]), resources, new File(epub), title, creator, tocNcx);
+    }
+
+    private static String changeOccurrence(String document, String id, String newId, int num) {
+        int idx = 0;
+        for (int o = 0; o < num; o++) {
+            idx = document.indexOf(id, idx);
+            if (idx < 0) {
+                break;
+            }
+        }
+        if (idx > 0) {
+            document = document.substring(0, idx) + newId + document.substring(idx + id.length());
+        }
+        return document;
     }
 
     private static String createToc(String fileBase) throws Exception {

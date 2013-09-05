@@ -51,7 +51,7 @@
                         <item text="C) Le bien, dernière raison de tout" ref="h05_p0026a0050.htm#s49p1"/>
                     </item>
                 </item>
-                <item text="Article 2. - Le monde sensible: domaine de l'opinion." ref="h05_p0026a0050.htm#s51p1">
+                <item text="Article 2. - Le monde sensible: domaine de l'opinion." ref="h06_p0051a0073.htm#s51p1">
                     <item text="1. Physique générale." ref="h06_p0051a0073.htm#s52p1">
                         <item text="A) Le principe infini: la matière." ref="h06_p0051a0073.htm#s52p2"/>
                         <item text="B) Le principe fini: participation aux Idées." ref="h06_p0051a0073.htm#s53p1"/>
@@ -195,7 +195,7 @@
         <item text="Conclusion générale de la première partie" ref="h09_p0120a0141.htm#s141p1"/>
     </item>
     <item text="Deuxième partie. Époque patristique et médiévale. Philosophie chrétienne.  (Du IIe siècle au XVIe siècle)" ref="h10_p0142a0160.htm#s142p1">
-        <item text="Première période. Préparation Patristique. (IIe - VIIe siècle)" ref="h10_p0142a0160.htm#s5p1">
+        <item text="Première période. Préparation Patristique. (IIe - VIIe siècle)" ref="h10_p0142a0160.htm#s143p1">
             <item text="Saint Augustin (354-430)." ref="h10_p0142a0160.htm#s144p1">
                 <item text="Formation de saint Augustin" ref="h10_p0142a0160.htm#s144"/>
                 <item text="Oeuvre et principe fondamental" ref="h10_p0142a0160.htm#s145"/>
@@ -243,7 +243,7 @@
             </item>
             <item text="Conclusion" ref="h11_p0161a0177.htm#s177"/>
         </item>
-        <item text="2e PÉRIODE: Synthèse Scolastique. (VIIIe - XIIIe siècle)" ref="h12_p0178a0196.htm#s178p1">
+        <item text="Deuxième période. Synthèse Scolastique. (VIIIe - XIIIe siècle)" ref="h12_p0178a0196.htm#s178p1">
             <item text="Chapitre 1. La Formation (VIIe-XIIe siècle)." ref="h12_p0178a0196.htm#s179p1">
                 <item text="Article 1: Les Infidèles." ref="h12_p0178a0196.htm#s180p1">
                     <item text="1) Les Arabes." ref="h12_p0178a0196.htm#s181p1">
@@ -292,7 +292,7 @@
                             <item text="C) Le réalisme modéré." ref="h13_p0197a0227.htm#s214p1"/>
                         </item>
                     </item>
-                    <item text="3) Saint Anselme (1033-1109)." ref="h13_p0197a0227.htm#s199p1">
+                    <item text="3) Saint Anselme (1033-1109)." ref="h13_p0197a0227.htm#s215p1">
                         <item text="A) Théorie fondamentale." ref="h13_p0197a0227.htm#s216p1"/>
                         <item text="B) Recherches fragmentaires." ref="h13_p0197a0227.htm#s218p1"/>
                         <item text="C) Théodicée constituée." ref="h13_p0197a0227.htm#s222p1"/>
@@ -339,7 +339,7 @@
                             <item text="B) Domaine théologique (les deux Sommes)." ref="h14_p0228a0245.htm#s243p1">
                                 <item text="Foi et Raison; Théologie et Philosophie chrétienne" ref="h14_p0228a0245.htm#s244p1"/>
                             </item>
-                            <item text="C) Domaine mixte (politique et question juive)." ref="h15_p0246a0270.htm#s245p1">
+                            <item text="C) Domaine mixte (politique et question juive)." ref="h14_p0228a0245.htm#s245p1">
                         </item>
                         <item text="3. Période de combat: Deuxième séjour à Paris (1268-1272)." ref="h15_p0246a0270.htm#s246p1"/>
                             <item text="A) Les Séculiers." ref="h15_p0246a0270.htm#s246p2"/>
@@ -371,7 +371,7 @@
                             <item text="Troisième étape: la Déduction." ref="h15_p0246a0270.htm#s264p1"/>
                             <item text="Quatrième étape: la Systématisation." ref="h15_p0246a0270.htm#s265p1"/>
                         </item>
-                        <item text="4. L'unité du thomisme." ref="h15_p0246a0270.htm#s268p1">
+                        <item text="4. L'unité du thomisme." ref="h15_p0246a0270.htm#s266p1">
                             <item text="A) Métaphysique." ref="h15_p0246a0270.htm#s267p1"/>
                             <item text="B) Physique." ref="h15_p0246a0270.htm#s268p1"/>
                             <item text="C) Morale." ref="h15_p0246a0270.htm#s269p1"/>
@@ -411,36 +411,36 @@
                 </item>
             </item>
         </item>
-    </item>
-    <item text="3e PÉRIODE: Décadence. XIVe - XVIIe siècle." ref="h17_p0299a0311.htm#s299p1">
-        <item text="Article 1. Guillaume d'Occam et le terminisme (1280-1349 ou 1350)." ref="h17_p0299a0311.htm#s300p1">
-            <item text="1) Principe fondamental." ref="h17_p0299a0311.htm#s301"/>
-            <item text="2) Le Terminisme." ref="h17_p0299a0311.htm#s302"/>
-            <item text="3) Corollaires et influence." ref="h17_p0299a0311.htm#s303">
-                <item text="Les occamistes: Jean Buridan (décédé vers 1358), etc.; Les thomistes: Jean Capréolus (1380-1444), etc."/>
+        <item text="Troisième période. Décadence. XIVe - XVIIe siècle." ref="h17_p0299a0311.htm#s299p1">
+            <item text="Article 1. Guillaume d'Occam et le terminisme (1280-1349 ou 1350)." ref="h17_p0299a0311.htm#s300p1">
+                <item text="1) Principe fondamental." ref="h17_p0299a0311.htm#s301"/>
+                <item text="2) Le Terminisme." ref="h17_p0299a0311.htm#s302"/>
+                <item text="3) Corollaires et influence." ref="h17_p0299a0311.htm#s303">
+                    <item text="Les occamistes: Jean Buridan (décédé vers 1358), etc.; Les thomistes: Jean Capréolus (1380-1444), etc."/>
+                </item>
             </item>
-        </item>
-        <item text="Article 1. Guillaume d'Occam et le terminisme (1280-1349 ou 1350)." ref="h17_p0299a0311.htm#s300p1">
-            <item text="François De Vittoria (1480-1546)." ref="h17_p0299a0311.htm#s305p1"/>
-            <item text="1) Caractère général du suarézisme." ref="h17_p0299a0311.htm#s306"/>
-            <item text="2) Positions anti-thomistes." ref="h17_p0299a0311.htm#s307">
-                <item text="1) En métaphysique." ref="h17_p0299a0311.htm#s308p1"/>
-                <item text="2) En psychologie." ref="h17_p0299a0311.htm#s309p1"/>
-                <item text="3) Morale sociale." ref="h17_p0299a0311.htm#s309bisp1"/>
-            </item>
-            <item text="Conclusion." ref="h17_p0299a0311.htm#s310">
-                <item text="Les Occamistes: Gabriel Biel (vers 1425-1495); les Scotistes: Trombeta (décédé 1518)."/>
-                <item text="Les Thomistes: Le Ferrarais (1474-1526), Cajetan (1469-1534), Jean De Saint-Thomas (1589-1644), Goudin (1639-1695)."/>
-            </item>
-            <item text="La philosophie non-scolastique de la Renaissance." ref="h17_p0299a0311.htm#s311">
-                <item text="1. Le Platonisme; 2. L'Averroïsme; 3. Le Scientisme et le Scepticisme; 4. Les Moralistes et les Politiques."/>
+            <item text="Article 1. Guillaume d'Occam et le terminisme (1280-1349 ou 1350)." ref="h17_p0299a0311.htm#s300p1">
+                <item text="François De Vittoria (1480-1546)." ref="h17_p0299a0311.htm#s305p1"/>
+                <item text="1) Caractère général du suarézisme." ref="h17_p0299a0311.htm#s306"/>
+                <item text="2) Positions anti-thomistes." ref="h17_p0299a0311.htm#s307">
+                    <item text="1) En métaphysique." ref="h17_p0299a0311.htm#s308p1"/>
+                    <item text="2) En psychologie." ref="h17_p0299a0311.htm#s309p1"/>
+                    <item text="3) Morale sociale." ref="h17_p0299a0311.htm#s309bisp1"/>
+                </item>
+                <item text="Conclusion." ref="h17_p0299a0311.htm#s310">
+                    <item text="Les Occamistes: Gabriel Biel (vers 1425-1495); les Scotistes: Trombeta (décédé 1518)."/>
+                    <item text="Les Thomistes: Le Ferrarais (1474-1526), Cajetan (1469-1534), Jean De Saint-Thomas (1589-1644), Goudin (1639-1695)."/>
+                </item>
+                <item text="La philosophie non-scolastique de la Renaissance." ref="h17_p0299a0311.htm#s311">
+                    <item text="1. Le Platonisme; 2. L'Averroïsme; 3. Le Scientisme et le Scepticisme; 4. Les Moralistes et les Politiques."/>
+                </item>
             </item>
         </item>
     </item>
     <item text="Troisième partie. Époque moderne. Philosophie moderne et néothomiste.  (Du XVIIe au XXIe siècle)" ref="h18_p0312a0336.htm#s312p1">
         <item text="Origine de la philosophie moderne." ref="h18_p0312a0336.htm#s312"/>
         <item text="Caractères généraux de la philosophie moderne." ref="h18_p0312a0336.htm#s313"/>
-        <item text="Première Période: L'esprit cartésien (XVII-XVIIIe siècle)." ref="h18_p0312a0336.htm#s314p1">
+        <item text="Première période: L'esprit cartésien (XVII-XVIIIe siècle)." ref="h18_p0312a0336.htm#s314p1">
             <item text="Chapitre 1. Les Maîtres: François Bacon et René Descartes." ref="h18_p0312a0336.htm#s315p1">
                 <item text="1) François Bacon (1561-1626)." ref="h18_p0312a0336.htm#s315p2">
                     <item text="1) La nouvelle logique." ref="h18_p0312a0336.htm#s315bisp1">
@@ -598,7 +598,7 @@
                 </item>
             </item>
         </item>
-        <item text="Deuxième Période: L'esprit kantien (XIX-XXe siècle)" ref="h23_p0387a0404.htm#s387p1">
+        <item text="Deuxième période: L'esprit kantien (XIX-XXe siècle)" ref="h23_p0387a0404.htm#s387p1">
             <item text="Chapitre 1. Kant. (1724-1804)." ref="h23_p0387a0404.htm#s388p1">
                 <item text="Article 1. Position du problème critique." ref="h23_p0387a0404.htm#s390p1">
                     <item text="1) Objet du problème critique." ref="h23_p0387a0404.htm#s391p1">
