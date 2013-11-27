@@ -25,6 +25,26 @@ public class Whitespaces {
         return document;
     }
 
+    public static String fixWhitespacesInList(String document) {
+        Matcher paragraph = Pattern.compile("<li[\\s\\S]*?</li>").matcher(document);
+        StringBuilder newDoc = new StringBuilder();
+        int start = 0;
+        while (paragraph.find(start)) {
+            newDoc.append(document.substring(start, paragraph.start()));
+            newDoc.append(fixWhitespacesInParagraph(paragraph.group()));
+            start = paragraph.end();
+        }
+        newDoc.append(document.substring(start, document.length()));
+        document = newDoc.toString();
+        // Clean hrefs
+        int len;
+        do {
+            len = document.length();
+            document = document.replaceAll("(href=\"[^\"\\s\u00a0]*)[\\s\u00a0]*", "$1");
+        } while (document.length() != len);
+        return document;
+    }
+
     public static String fixWhitespacesInParagraph(String text) {
         text = text.replaceAll("\n", " ");
         text = text.replaceAll("(\\s+)(</[^>]*>)", "$2$1");

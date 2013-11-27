@@ -50,6 +50,7 @@ public class Main {
                         new Cover.Break(),
                         new Cover.Text("Compendium de la", new Font(Font.SERIF, Font.ITALIC, 58), 1.2, 0.25),
                         new Cover.Text("DOCTRINE SOCIALE DE L’ÉGLISE", new Font(Font.SERIF, Font.PLAIN, 96), 1.2, 0.25),
+                        new Cover.Break(),
                 },
                 Main.class.getResource("papacy.svg"));
 

@@ -22,6 +22,19 @@ public class Quotes {
         return newDoc.toString();
     }
 
+    public static String fixQuotesInList(String document) {
+        Matcher paragraph = Pattern.compile("<li[\\s\\S]*?</li>").matcher(document);
+        StringBuilder newDoc = new StringBuilder();
+        int start = 0;
+        while (paragraph.find(start)) {
+            newDoc.append(document.substring(start, paragraph.start()));
+            newDoc.append(fixQuotesInParagraph(paragraph.group()));
+            start = paragraph.end();
+        }
+        newDoc.append(document.substring(start, document.length()));
+        return newDoc.toString();
+    }
+
     public static String fixQuotesInParagraph(String text) {
         // Double quotes
         if (text.contains("\"")) {

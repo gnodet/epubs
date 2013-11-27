@@ -146,7 +146,7 @@ public class Cover {
         Rectangle2D textBox = new Rectangle2D.Double(borderInRect.getMinX() + textMargin,
                 borderInRect.getMinY() + textMargin,
                 borderInRect.getWidth() - 2 * textMargin,
-                svgBox.getMaxY() - borderInRect.getMinY() - 2 * textMargin);
+                svgBox.getMinY() - borderInRect.getMinY() - 2 * textMargin);
 
         Graphics graphics = new BufferedImage(5, 5, BufferedImage.TYPE_INT_RGB).getGraphics();
         {

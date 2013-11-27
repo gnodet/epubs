@@ -1,0 +1,49 @@
+<items>
+    <item text="Table des matières" ref="s002_TDM.htm" />
+    <item text="Préface" ref="s003_preface.htm" />
+    <item text="Introduction" ref="s004_p0001a0020.htm" />
+    <item text="Premier traité : Logique" ref="s005_p0021a0047.htm">
+        <item text="Première partie : Logique formelle" ref="s005_p0021a0047.htm#s24p1">
+            <item text="Chapitre 1 : Le concept" ref="s005_p0021a0047.htm#s25p1" />
+            <item text="Chapitre 2 : Le jugement" ref="s005_p0021a0047.htm#s38p1" />
+            <item text="Chapitre 3 : Le raisonnement" ref="s006_p0048a0071.htm#s48p1" />
+        </item>
+        <item text="Deuxième partie : Logique matérielle" ref="s007_p0072a0094.htm#s79p1">
+            <item text="Chapitre 1 : La matière des concepts" ref="s007_p0072a0094.htm#s80p1" />
+            <item text="Chapitre 2 : La matière des raisonnements" ref="s007_p0072a0094.htm#s87p1" />
+            <item text="Chapitre 3 : La matière des sciences ou Méthodologie" ref="s008_p0095a0109.htm#s95p1" />
+        </item>
+    </item>
+    <item text="Deuxième traité : Physique" ref="s011_p0154a0185.htm">
+        <item text="Chapitre 1 : L’être et les causes" ref="s011_p0154a0185.htm#s157p1" />
+        <item text="Chapitre 2 : L’être corporel" ref="s015_p0250a0273.htm#s250p1" />
+        <item text="Chapitre 3 : La vie" ref="s022_p0379a0398.htm#s379p1" />
+        <item text="Chapitre 4 : La connaissance" ref="s023_p0399a0419.htm#s414p1" />
+        <item text="Chapitre 5 : L’intelligence" ref="s029_p0532a0547.htm#s538p1" />
+        <item text="Chapitre 6 : L’appétit" ref="s036_p0667a0692.htm#s679p1" />
+        <item text="Chapitre 7 : L’ordre du monde" ref="s043_p0845a0867.htm#s845p1" />
+    </item>
+    <item text="Troisième traité : Métaphysique" ref="s044_p0868a0887.htm">
+        <item text="Chapitre 1 : La Critique" ref="s044_p0868a0887.htm#s871p1" />
+        <item text="Chapitre 2 : L’Ontologie" ref="s046_p0912a0932.htm#s926p1" />
+        <item text="Chapitre 3 : La Théodicée" ref="s048_p0958a0977.htm#s958p1" />
+    </item>
+    <item text="Quatrième traité : Éthique" ref="s052_p1060a1093.htm">
+        <item text="Première partie : Morale générale" ref="s052_p1060a1093.htm#s1063p1">
+            <item text="Chapitre 1: Les grands principes moraux" ref="s052_p1060a1093.htm#s1064p1" />
+            <item text="Chapitre 2: Le droit naturel" ref="s053_p1094a1116.htm#s1099p1" />
+        </item>
+        <item text="Deuxième partie : Morale spéciale" ref="s055_p1146a1173.htm#s1148p1">
+            <item text="Section 1: La vie économique" ref="s055_p1146a1173.htm#s1147p1">
+                <item text="Chapitre 1: L'économie, science positive" ref="s055_p1146a1173.htm#s1149p1" />
+                <item text="Chapitre 2: Problèmes de morale économique" ref="s058_p1230a1261.htm#s1230p1" />
+            </item>
+            <item text="Section 2: La vie politique" ref="s061_p1313a1340.htm#s1313p1">
+                <item text="Chapitre 3: La sociologie, science positive" ref="s061_p1313a1340.htm#s1314p1" />
+                <item text="Chapitre 4: Problèmes de morale politique" ref="s062_p1341a1365.htm#s1341p1" />
+            </item>
+        </item>
+    </item>
+    <item text="Annexes" ref="s900_n00001a00399.htm" />
+    <item text="Bibliographies" ref="s990_biblios.htm" />
+</items>
