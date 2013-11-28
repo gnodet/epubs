@@ -13,6 +13,8 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import javax.xml.parsers.DocumentBuilderFactory;
 
@@ -115,6 +117,12 @@ public class Main {
                 document = document.replaceAll("</div>", "");
                 document = document.replaceAll("<ul type=square>", "<ul>");
                 document = tidyHtml(document);
+
+                // Use xhtml 1.1
+                document = document.replaceAll(
+                        "<!DOCTYPE[^>]*>",
+                        "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">");
+
                 document = translateEntities(document);
                 document = document.replaceAll("\\.\\.\\.", "…");
                 document = fixQuotesInList(document);
@@ -130,14 +138,38 @@ public class Main {
                 int idx1 = document.indexOf(str1);
                 int idx2 = document.indexOf(str2);
                 if (0 < idx1 && idx1 < idx2) {
-                    document = "<html><head><meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\" /></meta><body>" + document.substring(idx1 + str1.length(), idx2) + "</body></html>";
+                    document = "<html>\n" +
+                               "  <head>\n" +
+                               "    <style type=\"text/css\">\n" +
+                               "      table tbody tr td p { margin: 0 1em 0 1em }\n" +
+                               "      .numpara { font-family: Verdana; font-size: smaller; font-weight: bold; }\n" +
+                               "    </style>\n" +
+                               "    <meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\" />\n" +
+                               "  </head>\n" +
+                               "  <body>\n" +
+                               document.substring(idx1 + str1.length(), idx2) +
+                               "  </body>\n" +
+                               "</html>\n";
                 }
 
                 document = document.replaceAll(" style='mso-bidi-font-weight:normal'", "");
+                document = document.replaceAll(" class=MsoNormal", "");
+
+                document = document.replaceAll("<table[^>]*>", "<table>");
+                document = document.replaceAll("<tr[^>]*>", "<tr>");
+                document = document.replaceAll("<td[^>]*>", "<td>");
+
                 document = tidyHtml(document);
+
+                // Use xhtml 1.1
+                document = document.replaceAll(
+                        "<!DOCTYPE[^>]*>",
+                        "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">");
+
                 document = translateEntities(document);
                 document = document.replaceAll("\\.\\.\\.", "…");
                 document = fixQuotes(document);
+                document = fixNumberedParagraphs(document);
                 document = fixWhitespaces(document);
 
             }
@@ -280,4 +312,11 @@ public class Main {
             buildToc(node.getNextSibling(), tocNcx, counter, lastHref, baseName);
         }
     }
+
+    private static String fixNumberedParagraphs(String document) {
+        document = document.replaceAll("<p>([1-9][0-9]*) ", "<p><a class=\"numpara\" id=\"p$1\">$1.</a> ");
+        document = document.replaceAll("<p>([1-9][0-9]*)<i>", "<p><a class=\"numpara\" id=\"p$1\">$1.</a> <i>");
+        return document;
+    }
+
 }
