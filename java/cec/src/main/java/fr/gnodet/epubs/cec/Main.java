@@ -38,7 +38,8 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-        String epub = "target/epub/catechisme_de_l_eglise_catholique.epub";
+        String filename = "catechisme_de_l_eglise_catholique";
+        String epub = "target/site/epub/" + filename + ".epub";
         String title = "Catéchisme de l'Église Catholique";
         String creator = "Église Catholique";
         String burl = "http://www.vatican.va/archive/FRA0013/";
@@ -53,6 +54,7 @@ public class Main {
                         new Cover.Break(),
                 },
                 Main.class.getResource("papacy.svg"));
+        writeToFile(coverPng, "target/site/images/" + filename + ".png");
 
         Set<String> toDownload = new LinkedHashSet<String>();
         Set<String> downloaded = new LinkedHashSet<String>();

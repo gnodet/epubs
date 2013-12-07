@@ -36,10 +36,11 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         String file = "rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.html";
+        String filename = file.substring(0, file.lastIndexOf('.'));
         String burl = "http://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/";
         String cache = "target/cache/" + file;
         String output = "target/html/" + file;
-        String epub = "target/epub/" + file.substring(0, file.lastIndexOf('.')) + ".epub";
+        String epub = "target/site/epub/" + filename + ".epub";
         String title = "Compendium de la Doctrine Sociale de l’Église";
         String creator = "Conseil Pontifical « Justice et Paix »";
 
@@ -53,6 +54,7 @@ public class Main {
                         new Cover.Break(),
                 },
                 Main.class.getResource("papacy.svg"));
+        writeToFile(coverPng, "target/site/images/" + filename + ".png");
 
         // Load URL text content
         String document = loadTextContent(new URL(burl + file), cache);

@@ -39,6 +39,7 @@ public class Main {
 //        int i = 19; {
             Element book = (Element) books.item(i);
             String file = book.getAttribute("file");
+            String filename = file.substring(0, file.lastIndexOf('.'));
             String title = book.getAttribute("title");
             String creator = book.getAttribute("creator");
             String date = book.getAttribute("date");
@@ -47,18 +48,19 @@ public class Main {
             try {
                 process(url, "target/cache/" + file, "target/html/" + file);
                 Map<String, byte[]> resources = new HashMap<String, byte[]>();
-                resources.put("OEBPS/img/cover.png",
-                        Cover.generateCoverPng((i * 1.0 / books.getLength()),
-                                "Concile Vatican II",
-                                title,
-                                type,
-                                null,
-                                Main.class.getResource("papacy.svg")));
+                byte[] coverData = Cover.generateCoverPng((i * 1.0 / books.getLength()),
+                        "Concile Vatican II",
+                        title,
+                        type,
+                        null,
+                        Main.class.getResource("papacy.svg"));
+                writeToFile(coverData, "target/site/images/" + filename + ".png");
+                resources.put("OEBPS/img/cover.png", coverData);
                 resources.put("OEBPS/cover.html",
                         Cover.generateCoverHtml(creator, title, type, "Concile Vatican II").getBytes());
                 createEpub(new File[] { new File("target/html/" + file) },
                            resources,
-                           new File("target/epub/" + file.substring(0, file.lastIndexOf('.')) + ".epub"),
+                           new File("target/site/epub/" + filename + ".epub"),
                            title,
                            creator,
                            null);

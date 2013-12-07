@@ -37,7 +37,8 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-        String epub = "target/epub/precis_d_histoire_de_la_philosophie.epub";
+        String filename = "precis_d_histoire_de_la_philosophie";
+        String epub = "target/site/epub/" + filename + ".epub";
         String title = "Précis d’histoire de la philosophie";
         String creator = "François-Joseph THONNARD";
         String burl = "http://inquisition.ca/fr/livre/thonnard/histo/";
@@ -140,6 +141,7 @@ public class Main {
                         new Cover.Break(),
                 },
                 null);
+        writeToFile(coverPng, "target/site/images/" + filename + ".png");
 
 
         Set<String> toDownload = new LinkedHashSet<String>();
