@@ -200,7 +200,7 @@ public class Main {
                 : extract(document, ".*<td[^>]*>(.*?LETTRE ENCYCLIQUE.*?)(<p><i>|<p><em>|<p><b>|<p[^>]*>(<center>)?\u00a0|</td>|<[^>]*>\\s*INTRO)", 1);
 
         String bened = extractFollowingParaContaining(document, ".*[Bb]énédiction.*", document.indexOf(title) + title.length());
-        String footnotes = extract(document, "<hr[^>]*>(.*?<p.*?)(<p[^>]*>[\\s\u00a0]*</p>|<p><br />|</td>)", 1);
+        String footnotes = extract(document, "<hr[^>]*>(?:</p>)?(.*?<p.*?)(<p[^>]*>[\\s\u00a0]*</p>|<p><br />|</td>)", 1);
         String copyright = extract(document, ">\\s*(©[^<]*?)\\s*<", 1);
         String main = document.substring(document.indexOf(bened != null ? bened : title) + (bened != null ? bened : title).length(),
                                          document.indexOf(footnotes != null ? footnotes : (copyright != null ? copyright : "</body>")));
@@ -329,6 +329,7 @@ public class Main {
         document = document.replaceAll("</p></b><p>", "</b></p><p>");
         document = document.replaceAll("<blockquote>\\s*</blockquote>", "");
         document = document.replaceAll("<table[^>]*>|</table>|<tr[^>]*>|</tr>|<td[^>]*>|</td>", "");
+        document = document.replaceAll("<p>\\s*<div>\\s*<div id=\"edn1\">\\s*<hr />\\s*</p>", "<p><hr /></p>");
 
         // Simplify tags
         document = document.replaceAll("<strong>(.*?)</strong>", "<b>$1</b>");
@@ -491,6 +492,7 @@ public class Main {
         document = document.replaceAll(" +", " ");
         document = document.replaceAll("pp\\. 959- 960", "pp. 959-960");
         document = document.replaceAll("p\\. 674- 675", "p. 674-675");
+        document = document.replaceAll("<p><b></p><p></b></p>", "");
         return document.trim();
     }
 

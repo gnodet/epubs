@@ -10,6 +10,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
 import java.net.URL;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -18,6 +19,7 @@ import static fr.gnodet.epubs.core.EPub.createEpub;
 import static fr.gnodet.epubs.core.IOUtil.loadTextContent;
 import static fr.gnodet.epubs.core.IOUtil.writeToFile;
 import static fr.gnodet.epubs.core.Quotes.fixQuotes;
+import static fr.gnodet.epubs.core.Quotes.fixQuotesInParagraph;
 import static fr.gnodet.epubs.core.Tidy.tidyHtml;
 import static fr.gnodet.epubs.core.Tidy.translateEntities;
 import static fr.gnodet.epubs.core.Whitespaces.fixWhitespaces;
@@ -138,17 +140,79 @@ public class Main {
         document = document.replaceAll("\\.\\.\\.", "…");
         document = document.replaceAll(":\\s*</i>", "</i> : ");
 
-        document = cleanHead(document);
-        document = fixQuotes(document);
-        document = fixBibleRefs(document);
-        document = fixFootNotes(document);
-        document = fixWhitespaces(document);
+        // Inline second table, first row, second column
+        document = document.replaceFirst("<body>\\s*<table>.*?</table>\\s*<table>\\s*<tr>\\s*<td>\\s*</td>\\s*<td>(.*?)</td>.*</body>", "<body>$1</body>");
+
+        String head = extract(document, "<head>.*?</head>", 0);
+        String title = extract(document, "<body>.*?(<p.*?</p>\\s*<p.*?</p>)", 1);
+        String main = document.substring(document.indexOf(title) + title.length(), document.indexOf("</body>"));
+
+
+        document = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">" +
+                "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr\">" +
+                cleanHead(head) + "<body>" +
+                "<div id=\"title\">" + cleanTitle(title) + "</div>" +
+                "<div id=\"main\">" + cleanMain(main) + "</div>" +
+                "</body></html>";
 
         document = document.replaceAll("<font\\s*>(.*?)</font>", "$1");
         document = document.replaceAll("<a[^>]*></a>", "");
 
         // Write file
         writeToFile(document, output);
+    }
+
+    private static String cleanTitle(String document) {
+        document = document.trim();
+        document = fixTypos(document);
+        document = fixQuotesInParagraph(document);
+        document = document.replaceAll("<center>|</center>|<span[^>]*>|<font[^>]*>|</span>|</font>| align=\"center\"|" +
+                "<strong>|</strong>|<em>|</em>|<b>|</b>|<i>|</i>|" +
+                "<td>|</td>|<tr>|</tr>|<table>|</table>", "");
+        document = document.replaceAll("</p>\\s*<p>", "<br /><br />");
+        document = document.replaceAll("<p[^>]*>", "<p>");
+        document = document.replaceAll("[\u00a0\\s]*<br />[\u00a0\\s]*", "<br />");
+        document = document.replaceAll("<p><br />", "<p>");
+        document = document.replaceAll("<p>\\s*</p>", "<br />");
+        document = document.replaceAll("(<br />)+</p>", "<p>");
+        document = document.replaceAll("([^>])<br />SUR", "$1<br /><br />SUR");
+        document = document.replaceAll("VOLONTÉ<br />", "VOLONTÉ<br /><br />");
+        document = document.replaceAll("<br />À L’OCCASION", "<br /><br />À L’OCCASION");
+        document = document.replaceAll("PAUL VI", "<br />PAUL VI");
+        document = document.replaceAll("(BENOÎT XVI|JEAN-PAUL II|PAUL VI|FRANÇOIS)", "<span class=\"author\">$1</span><br />");
+        document = document.replaceAll("<p>(.*)<br />(.*?)</p>", "<p><span class=\"title\">$2</span><br /><br />$1</p>");
+        document = document.replaceAll("</p>\\s*</p>", "</p>");
+        document = document.replaceAll("<br />\\s*(<br /><br />|</p>)", "$1");
+        while (document.endsWith("<p>")) {
+            document = document.substring(0, document.length() - 3);
+        }
+        while (document.startsWith("<br />")) {
+            document = document.substring(6).trim();
+        }
+        while (document.endsWith("<br />")) {
+            document = document.substring(0, document.length() - 6).trim();
+        }
+        if (!document.endsWith("</p>")) {
+            document = document + "</p>";
+        }
+        if (!document.startsWith("<p>")) {
+            document = "<p>" + document;
+        }
+        return document;
+    }
+
+    private static String cleanMain(String document) {
+        int i1 = document.indexOf("</center>");
+        int i2 = document.indexOf("<center>");
+        if (i1 >= 0 && (i1 < i2 || i2 < 0)) {
+            document = document.substring(i1 + "</center>".length());
+        }
+        document = fixQuotes(document);
+        document = fixBibleRefs(document);
+        document = fixFootNotes(document);
+        document = fixWhitespaces(document);
+        document = fixTypos(document);
+        return document;
     }
 
     private static String cleanHead(String document) {
@@ -159,6 +223,16 @@ public class Main {
         // Add our style
         document = document.replaceAll("</head>",
                 "<style type=\"text/css\">\n" +
+                        " #title { color: #663300; text-align: center; }\n" +
+                        " #title .title { font-style:italic; font-size: larger; font-weight:bold; }\n" +
+                        " #title .author { font-weight:bold; }\n" +
+                        " #bened { font-style:italic; } \n" +
+                        " #main .numpara { font-family: Verdana; font-size: smaller; font-weight: bold; }\n" +
+                        " #main .footnote { vertical-align: super; font-size: 70%; line-height: 80%; }\n" +
+                        " #main .center { text-align: center; }\n" +
+                        " #notes p { margin: 0; padding: 0; font-size: smaller; }\n" +
+                        " #notes .ref { font-family: Verdana; font-size: smaller; font-weight: bold; }\n" +
+                        " #copyright { color: #663300; text-align: center; font-size: smaller; }\n" +
                         "  .numpara { font-family: Verdana; font-size: smaller; font-weight: bold; }\n" +
                         "  .footnote { vertical-align: super; font-size: 70%; line-height: 80%; }\n" +
                         "  .center { text-align: center; }\n" +
@@ -243,6 +317,32 @@ public class Main {
             start = matcher.end();
         }
         return false;
+    }
+
+    static final Map<Pattern, String> TYPOS;
+
+    static {
+        TYPOS = new LinkedHashMap<Pattern, String>();
+
+        TYPOS.put(Pattern.compile("AETATE"), "ÆTATE");
+        TYPOS.put(Pattern.compile("HUMANAE"), "HUMANÆ");
+        TYPOS.put(Pattern.compile("PERFECTAE"), "PERFECTÆ");
+    }
+
+    private static String fixTypos(String document) {
+        for (Map.Entry<Pattern, String> typo : TYPOS.entrySet()) {
+            document = typo.getKey().matcher(document).replaceAll(typo.getValue());
+        }
+        return document;
+    }
+
+    private static String extract(String document, String pattern, int group) {
+        return extract(document, pattern, group, 0);
+    }
+
+    private static String extract(String document, String pattern, int group, int start) {
+        Matcher matcher = Pattern.compile(pattern).matcher(document);
+        return matcher.find(start) ? matcher.group(group) : null;
     }
 
 }
