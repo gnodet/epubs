@@ -1,34 +1,43 @@
 package fr.gnodet.epubs.cds;
 
-import fr.gnodet.epubs.core.Cover;
-import fr.gnodet.epubs.core.Tidy;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-
-import javax.xml.parsers.DocumentBuilderFactory;
 import java.awt.*;
 import java.io.File;
-import java.io.IOException;
-import java.io.UnsupportedEncodingException;
+import java.io.StringReader;
+import java.io.StringWriter;
 import java.net.URI;
-import java.net.URISyntaxException;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.text.Normalizer;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
-import java.util.concurrent.Callable;
+import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.transform.OutputKeys;
+import javax.xml.transform.Source;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.stream.StreamResult;
+import javax.xml.transform.stream.StreamSource;
+
+import fr.gnodet.epubs.core.Cover;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+
 import static fr.gnodet.epubs.core.EPub.createEpub;
 import static fr.gnodet.epubs.core.IOUtil.loadTextContent;
 import static fr.gnodet.epubs.core.IOUtil.writeToFile;
 import static fr.gnodet.epubs.core.Quotes.fixQuotes;
-import static fr.gnodet.epubs.core.Tidy.*;
+import static fr.gnodet.epubs.core.Tidy.tidyHtml;
+import static fr.gnodet.epubs.core.Tidy.translateEntities;
 import static fr.gnodet.epubs.core.Whitespaces.fixWhitespaces;
 
 public class Main {
@@ -108,9 +117,10 @@ public class Main {
         // Clean things a bit
         //
         document = document.replaceAll("<i><br />", "<br /><i>");
-        document = document.replaceAll(" color=\"#663300\"| face=\"Times New Roman\"| size=\"3\"", "");
+        document = document.replaceAll(" color=\"#663300\"| face=\"Times New Roman\"", "");
         document = document.replaceAll("align=\"center\"", "class=\"center\"");
         document = document.replaceAll("align=\"right\"", "class=\"right\"");
+        document = document.replaceAll("<sup>([0-9]+)<br\\s*/>\\s*</sup>", "<sup>$1</sup><br/>");
 
         // Fix stuff
         document = document.replaceAll("\\.\\.\\.", "…");
@@ -122,7 +132,20 @@ public class Main {
         document = fixFootNotes(document);
         document = fixWhitespaces(document);
 
-        document = document.replaceAll("<font\\s*>(.*?)</font>", "$1");
+        document = document.replaceAll("<font\\s+>", "<font>");
+        int index = 0;
+        while ((index = document.indexOf("<font>", index)) > 0) {
+            int index2 = document.indexOf("</font>", index);
+            document = document.substring(0, index) + document.substring(index + "<font>".length(), index2)
+                    + document.substring(index2 + "</font>".length());
+        }
+        document = document.replaceAll("<font size=\"3\">", "<span class=\"fmedium\">");
+        document = document.replaceAll("<font size=\"4\">", "<span class=\"flarge\">");
+        document = document.replaceAll("<font size=\"5\">", "<span class=\"fxlarge\">");
+        document = document.replaceAll("</font>", "</span>");
+
+        document = document.replaceAll("<a href=\"rc_pc_justpeace_doc_20060526_analytical-index_fr.html\">Index analytique</a>", "");
+
         document = document.replaceAll("<a[^>]*></a>", "");
 
         // Add our style
@@ -136,6 +159,9 @@ public class Main {
                         " .footnote { vertical-align: super; font-size: 70%; line-height: 80%; }\n" +
                         " .center { text-align: center; }\n" +
                         " .right { text-align: right; }\n" +
+                        " .fmedium { font-size: medium; }\n" +
+                        " .flarge { font-size: large; }\n" +
+                        " .fxlarge { font-size: x-large; }\n" +
                         " p .ref { margin: 0; padding: 0; font-size: smaller; }\n" +
                         " p a .ref { font-family: Verdana; font-size: smaller; font-weight: bold; }\n" +
                         "</style>" +
@@ -159,6 +185,8 @@ public class Main {
         writeToFile(document, output);
 
         String tocNcx = createToc(docs, output);
+        tocNcx = formatXml(tocNcx);
+        writeToFile(tocNcx, "target/toc.ncx");
 
         // Create epub
         Map<String, byte[]> resources = new HashMap<String, byte[]>();
@@ -166,6 +194,19 @@ public class Main {
         resources.put("OEBPS/cover.html",
                 Cover.generateCoverHtml(creator, title, "", creator).getBytes());
         createEpub(files, resources, new File(epub), title, creator, tocNcx);
+    }
+
+    private static String formatXml(String input) throws Exception {
+        Source xmlInput = new StreamSource(new StringReader(input));
+        StreamResult xmlOutput = new StreamResult(new StringWriter());
+
+        // Configure transformer
+        Transformer transformer = TransformerFactory.newInstance().newTransformer(); // An identity transformer
+        transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+        transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
+        transformer.transform(xmlInput, xmlOutput);
+
+        return xmlOutput.getWriter().toString();
     }
 
     private static String createToc(String[] docs, String fileBase) throws Exception {
@@ -194,21 +235,21 @@ public class Main {
 
         String baseName = new File(fileBase).getName();
         baseName = baseName.substring(0, baseName.lastIndexOf('.'));
-        buildToc(tocDoc.getDocumentElement(), tocNcx, refs, new AtomicInteger(0), new AtomicReference<String>(""), baseName);
+        buildToc(tocDoc.getDocumentElement(), tocNcx, refs, new AtomicInteger(0), new AtomicInteger(0), new AtomicReference<String>(""), baseName);
         tocNcx.append("  </navMap>\n" +
                       "</ncx>\n");
         return tocNcx.toString();
     }
 
-    private static void buildToc(Node node, StringBuilder tocNcx, Map<String, Integer> refs, AtomicInteger counter, AtomicReference<String> lastHref, String baseName) {
+    private static void buildToc(Node node, StringBuilder tocNcx, Map<String, Integer> refs, AtomicInteger id, AtomicInteger po, AtomicReference<String> lastHref, String baseName) {
         if (node != null) {
             if (node.getNodeType() == Node.ELEMENT_NODE) {
                 if (node.getNodeName().equals("item")) {
                     String text = ((Element) node).getAttribute("text");
-                    tocNcx.append("<navPoint id=\"").append(counter.get()).append("\" playOrder=\"").append(counter.get()).append("\">");
-                    tocNcx.append("<navLabel><text>").append(text).append("</text></navLabel>");
-                    counter.incrementAndGet();
-                    String href = getHref(refs, text);
+                    String href = ((Element) node).getAttribute("href");
+                    if (href == null || href.isEmpty()) {
+                        href = getHref(refs, text);
+                    }
                     Integer docIndex = refs.get(href);
                     if (docIndex == null) {
                         if (node.getFirstChild() != null) {
@@ -217,27 +258,31 @@ public class Main {
                                 ch = ch.getNextSibling();
                             }
                             if (ch != null) {
-                                href = getHref(refs, ((Element) ch).getAttribute("text"));
+                                href = ((Element) ch).getAttribute("href");
+                                if (href == null || href.isEmpty()) {
+                                    href = getHref(refs, ((Element) ch).getAttribute("text"));
+                                }
                                 if (href != null) {
                                     docIndex = refs.get(href);
                                 }
                             }
                         }
                     }
-                    if (docIndex != null) {
-                        tocNcx.append("<content src=\"OEBPS/" + baseName + ".p" + toDigits(docIndex) + ".html#" + href + "\"/>");
-                        lastHref.set("OEBPS/" + baseName + ".p" + toDigits(docIndex) + ".html#" + href);
-                        buildToc(node.getFirstChild(), tocNcx, refs, counter, lastHref, baseName);
-                    } else {
-                        tocNcx.append("<content src=\"" + lastHref.get() + "\"/>");
-                        buildToc(node.getFirstChild(), tocNcx, refs, counter, lastHref, baseName);
-                    }
+                    String sid = "id-" + Integer.toString(id.incrementAndGet());
+                    String shr = (docIndex != null) ? "OEBPS/" + baseName + ".p" + toDigits(docIndex) + ".html#" + href : lastHref.get();
+                    int    spo = lastHref.get().equals(shr) ? po.get() : po.incrementAndGet();
+                    lastHref.set(shr);
+
+                    tocNcx.append("<navPoint id=\"").append(sid).append("\" playOrder=\"").append(spo).append("\">");
+                    tocNcx.append("<navLabel><text>").append(text).append("</text></navLabel>");
+                    tocNcx.append("<content src=\"" + shr + "\"/>");
+                    buildToc(node.getFirstChild(), tocNcx, refs, id, po, lastHref, baseName);
                     tocNcx.append("</navPoint>");
                 } else {
-                    buildToc(node.getFirstChild(), tocNcx,  refs, counter, lastHref, baseName);
+                    buildToc(node.getFirstChild(), tocNcx,  refs, id, po, lastHref, baseName);
                 }
             }
-            buildToc(node.getNextSibling(), tocNcx,  refs, counter, lastHref, baseName);
+            buildToc(node.getNextSibling(), tocNcx,  refs, id, po, lastHref, baseName);
         }
     }
 

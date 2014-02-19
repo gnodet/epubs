@@ -92,15 +92,15 @@
 				<item text="Destination universelle des biens et option préférentielle pour les pauvres"/>
 			</item>
 			<item text="IV. LE PRINCIPE DE SUBSIDIARITÉ">
-				<item text="Origine et signification"/>
+				<item text="L’origine et la signification"/>
 				<item text="Indications concrètes"/>
 			</item>
-			<item text="V. LA PARTICIPATION">
-				<item text="Signification et valeur"/>
+			<item text="V. LA PARTICIPATION" href="a-signification-et-valeur">
+				<item text="Signification et valeur" href="a-signification-et-valeur"/>
 				<item text="Participation et démocratie"/>
 			</item>
-			<item text="VI. LE PRINCIPE DE SOLIDARITÉ">
-				<item text="Signification et valeur"/>
+			<item text="VI. LE PRINCIPE DE SOLIDARITÉ" href="signification-et-valeur">
+				<item text="Signification et valeur" href="signification-et-valeur"/>
 				<item text="La solidarité comme principe social et comme vertu morale"/>
 				<item text="Solidarité et croissance commune des hommes"/>
 				<item text="La solidarité dans la vie et dans le message de Jésus-Christ"/>
@@ -137,7 +137,7 @@
 			</item>
 		</item>
 		<item text="SIXIÈME CHAPITRE : LE TRAVAIL HUMAIN">
-			<item text="I. ASPECTS BIBLIQUES">
+			<item text="I. ASPECTS BIBLIQUES" href="le-devoir-de-cultiver-et-de-conserver-la-terre">
 				<item text="Le devoir de cultiver et de conserver la terre"/>
 				<item text="Jésus, homme du travail"/>
 				<item text="Le devoir de travailler"/>
@@ -174,7 +174,7 @@
 			</item>
 		</item>
 		<item text="SEPTIÈME CHAPITRE : LA VIE ÉCONOMIQUE">
-			<item text="I. ASPECTS BIBLIQUE">
+			<item text="I. ASPECTS BIBLIQUE" href="lhomme-pauvrete-et-richesse">
 				<item text="L’homme, pauvreté et richesse"/>
 				<item text="La richesse existe pour être partagée"/>
 			</item>
@@ -198,7 +198,7 @@
 			</item>
 		</item>
 		<item text="HUITIÈME CHAPITRE : LA COMMUNAUTÉ POLITIQUE">
-			<item text="I. ASPECTS BIBLIQUES">
+			<item text="I. ASPECTS BIBLIQUES" href="la-seigneurie-de-dieu">
 				<item text="La seigneurie de Dieu"/>
 				<item text="Jésus et l’autorité politique"/>
 				<item text="Les premières communautés chrétiennes"/>
@@ -235,8 +235,8 @@
 				</item>
 			</item>
 		</item>
-		<item text="NEUVIÈME CHAPITRE">
-			<item text="I. ASPECTS BIBLIQUES">
+		<item text="NEUVIÈME CHAPITRE : LA COMMUNAUTÉ INTERNATIONALE">
+			<item text="I. ASPECTS BIBLIQUES" href="lunite-de-la-famille-humaine">
 				<item text="L’unité de la famille humaine"/>
 				<item text="Jésus-Christ, prototype et fondement de la nouvelle humanité"/>
 				<item text="La vocation universelle du christianisme"/>
@@ -255,7 +255,7 @@
 				<item text="La dette extérieure"/>
 			</item>
 		</item>
-		<item text="DIXIÈME CHAPITRE">
+		<item text="DIXIÈME CHAPITRE : SAUVEGARDER L'ENVIRONNEMENT">
 			<item text="I. ASPECTS BIBLIQUE"/>
 			<item text="II. L’HOMME ET L’UNIVERS DES CHOSES"/>
 			<item text="III. LA CRISE DANS LE RAPPORT ENTRE L’HOMME ET L’ENVIRONNEMENT">
