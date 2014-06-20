@@ -9,6 +9,10 @@ import java.net.URLConnection;
 public class IOUtil {
 
     public static String loadTextContent(URL url, String cache) throws IOException {
+        return loadTextContent(url, cache, "ISO-8859-1");
+    }
+
+    public static String loadTextContent(URL url, String cache, String defaultEncoding) throws IOException {
         File file = new File(cache);
         file.getParentFile().mkdirs();
 
@@ -24,7 +28,7 @@ public class IOUtil {
                 }
             }
             if (encoding == null) {
-                encoding = "ISO-8859-1";
+                encoding = defaultEncoding;
             }
             Reader reader;
             {

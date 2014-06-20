@@ -12,6 +12,7 @@
         <module>core</module>
         <module>cec</module>
         <module>encycliques</module>
+        <module>exhortations</module>
         <module>cds</module>
         <module>vatican-ii</module>
         <module>histoire-philo</module>

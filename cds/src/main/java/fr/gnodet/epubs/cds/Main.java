@@ -14,6 +14,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.UUID;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.regex.Matcher;
@@ -28,6 +29,7 @@ import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 
 import fr.gnodet.epubs.core.Cover;
+import fr.gnodet.epubs.core.Processors;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -80,9 +82,9 @@ public class Main {
         document = document.replaceAll("<img[^>]*>", "");
         document = document.replaceAll("<IMG[^>]*>", "");
         // Fix id and href attributes
-        document = process(document, "href=\"#([^\"]*)\"", 1, new URIProcessor());
-        document = process(document, "name=\"([^\"]*)\"", 1, new URIProcessor());
-        document = process(document, "href=\"(\\.\\./[^\"]*)\"", 1, new RelativeURIProcessor(burl));
+        document = Processors.process(document, "href=\"#([^\"]*)\"", 1, new URIProcessor());
+        document = Processors.process(document, "name=\"([^\"]*)\"", 1, new URIProcessor());
+        document = Processors.process(document, "href=\"(\\.\\./[^\"]*)\"", 1, new Processors.RelativeURIProcessor(burl));
         // Delete empty elements
         document = document.replaceAll("<font[^>]*>\\s*</font>", "");
         document = document.replaceAll("<b[^>]*>\\s*</b>", "");
@@ -149,7 +151,7 @@ public class Main {
         document = document.replaceAll("<a[^>]*></a>", "");
 
         // Add our style
-        document = document.replaceAll("</head>",
+        document = document.replaceAll("<style type=\"text/css\">.*</head>",
                         "<style type=\"text/css\">\n" +
                         " #title { color: #663300; text-align: center; }\n" +
                         " #title .title { font-style:italic; font-size: larger; font-weight:bold; }\n" +
@@ -159,13 +161,17 @@ public class Main {
                         " .footnote { vertical-align: super; font-size: 70%; line-height: 80%; }\n" +
                         " .center { text-align: center; }\n" +
                         " .right { text-align: right; }\n" +
-                        " .fmedium { font-size: medium; }\n" +
-                        " .flarge { font-size: large; }\n" +
-                        " .fxlarge { font-size: x-large; }\n" +
+                        " .fmedium { font-size: 120%; }\n" +
+                        " .flarge { font-size: 140%; }\n" +
+                        " .fxlarge { font-size: 160%; }\n" +
+                        " h6 { font-size: 100% }\n" +
                         " p .ref { margin: 0; padding: 0; font-size: smaller; }\n" +
                         " p a .ref { font-family: Verdana; font-size: smaller; font-weight: bold; }\n" +
                         "</style>" +
                         "</head>");
+
+        document = document.replaceAll("<table>\\s*<tr>\\s*<td>\\s*</td>\\s*<td>", "");
+        document = document.replaceAll("</td>\\s*</tr>\\s*<tr>\\s*<td.*?>\\s*</td>\\s*</tr>\\s*</table>", "");
 
         // Possible breaks
         String[] docs = split(document,
@@ -184,7 +190,9 @@ public class Main {
         // Write file
         writeToFile(document, output);
 
-        String tocNcx = createToc(docs, output);
+        String uuid = UUID.randomUUID().toString();
+
+        String tocNcx = createToc(docs, output, uuid);
         tocNcx = formatXml(tocNcx);
         writeToFile(tocNcx, "target/toc.ncx");
 
@@ -193,7 +201,7 @@ public class Main {
         resources.put("OEBPS/img/cover.png", coverPng);
         resources.put("OEBPS/cover.html",
                 Cover.generateCoverHtml(creator, title, "", creator).getBytes());
-        createEpub(files, resources, new File(epub), title, creator, tocNcx);
+        createEpub(files, resources, new File(epub), title, creator, tocNcx, uuid);
     }
 
     private static String formatXml(String input) throws Exception {
@@ -209,7 +217,7 @@ public class Main {
         return xmlOutput.getWriter().toString();
     }
 
-    private static String createToc(String[] docs, String fileBase) throws Exception {
+    private static String createToc(String[] docs, String fileBase, String uid) throws Exception {
         Map<String, Integer> refs = new HashMap<String, Integer>();
         for (int i = 0; i < docs.length; i++) {
             String doc = docs[i];
@@ -227,6 +235,7 @@ public class Main {
                       "<ncx xmlns=\"http://www.daisy.org/z3986/2005/ncx/\" version=\"2005-1\" xml:lang=\"eng\">\n" +
                       "  <head>\n" +
                       "    <meta content=\"1\" name=\"dtb:depth\"/>\n" +
+                      "    <meta content=\"" + uid + "\" name=\"dtb:uid\"/>\n" +
                       "  </head>\n" +
                       "  <docTitle>\n" +
                       "    <text>Compendium de la Doctrine Sociale de l'Église</text>\n" +
@@ -425,36 +434,7 @@ public class Main {
         }
     }
 
-    interface Processor {
-        String process(String text);
-    }
-
-    private static String process(String document, String regexp, int group, Processor processor) {
-        Matcher paragraph = Pattern.compile(regexp).matcher(document);
-        StringBuilder newDoc = new StringBuilder();
-        int start = 0;
-        while (paragraph.find(start)) {
-            newDoc.append(document.substring(start, paragraph.start(group)));
-            newDoc.append(processor.process(paragraph.group(group)));
-            start = paragraph.end(group);
-        }
-        newDoc.append(document.substring(start, document.length()));
-        return newDoc.toString();
-    }
-
-    static class RelativeURIProcessor implements Processor {
-        final URI buri;
-        RelativeURIProcessor(String buri) {
-            this.buri = URI.create(buri);
-        }
-        @Override
-        public String process(String text) {
-            String r = buri.resolve(text).toString();
-            return r;
-        }
-    }
-
-    static class URIProcessor implements Processor {
+    static class URIProcessor implements Processors.Processor {
         @Override
         public String process(String text) {
             try {

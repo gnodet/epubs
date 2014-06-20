@@ -23,6 +23,7 @@ import java.util.regex.Pattern;
 import javax.xml.parsers.DocumentBuilderFactory;
 
 import fr.gnodet.epubs.core.Cover;
+import fr.gnodet.epubs.core.Processors;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -30,6 +31,7 @@ import org.w3c.dom.Node;
 import static fr.gnodet.epubs.core.EPub.createEpub;
 import static fr.gnodet.epubs.core.IOUtil.loadTextContent;
 import static fr.gnodet.epubs.core.IOUtil.writeToFile;
+import static fr.gnodet.epubs.core.Processors.process;
 import static fr.gnodet.epubs.core.Quotes.fixQuotes;
 import static fr.gnodet.epubs.core.Tidy.tidyHtml;
 import static fr.gnodet.epubs.core.Tidy.translateEntities;
@@ -100,7 +102,7 @@ public class Main {
             // Fix id and href attributes
             document = process(document, "href=\"#([^\"]*)\"", 1, new URIProcessor());
             document = process(document, "name=\"([^\"]*)\"", 1, new URIProcessor());
-            document = process(document, "href=\"(\\.\\./[^\"]*)\"", 1, new RelativeURIProcessor(burl));
+            document = process(document, "href=\"(\\.\\./[^\"]*)\"", 1, new Processors.RelativeURIProcessor(burl));
             // Delete empty elements
             document = document.replaceAll("<font[^>]*>\\s*</font>", "");
             document = document.replaceAll("<b[^>]*>\\s*</b>", "");
@@ -402,36 +404,7 @@ public class Main {
         }
     }
 
-    interface Processor {
-        String process(String text);
-    }
-
-    private static String process(String document, String regexp, int group, Processor processor) {
-        Matcher paragraph = Pattern.compile(regexp).matcher(document);
-        StringBuilder newDoc = new StringBuilder();
-        int start = 0;
-        while (paragraph.find(start)) {
-            newDoc.append(document.substring(start, paragraph.start(group)));
-            newDoc.append(processor.process(paragraph.group(group)));
-            start = paragraph.end(group);
-        }
-        newDoc.append(document.substring(start, document.length()));
-        return newDoc.toString();
-    }
-
-    static class RelativeURIProcessor implements Processor {
-        final URI buri;
-        RelativeURIProcessor(String buri) {
-            this.buri = URI.create(buri);
-        }
-        @Override
-        public String process(String text) {
-            String r = buri.resolve(text).toString();
-            return r;
-        }
-    }
-
-    static class URIProcessor implements Processor {
+    static class URIProcessor implements Processors.Processor {
         @Override
         public String process(String text) {
             try {

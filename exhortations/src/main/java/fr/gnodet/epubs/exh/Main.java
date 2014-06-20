@@ -1,4 +1,4 @@
-package fr.gnodet.epubs.enc;
+package fr.gnodet.epubs.exh;
 
 import fr.gnodet.epubs.core.Cover;
 import fr.gnodet.epubs.core.IOUtil;
@@ -13,6 +13,9 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import java.awt.*;
 import java.io.*;
 import java.net.URL;
+import java.net.URLDecoder;
+import java.net.URLEncoder;
+import java.text.Normalizer;
 import java.util.*;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -40,15 +43,14 @@ public class Main {
         dbf.setNamespaceAware(true);
 
         StringBuilder indexHtml = new StringBuilder();
-        indexHtml.append("<h3>Lettres encycliques</h3>");
+        indexHtml.append("<h3>Exhortations apostoliques</h3>");
         indexHtml.append("<table>");
 
-        Document enclist = dbf.newDocumentBuilder().parse(Main.class.getResourceAsStream("enc-list.xml"));
+        Document enclist = dbf.newDocumentBuilder().parse(Main.class.getResourceAsStream("exh-list.xml"));
         NodeList books = enclist.getDocumentElement().getElementsByTagName("book");
         for (int i = 0; i < books.getLength(); i++) {
 //        for (int i = 17; i < books.getLength(); i++) {
-//        int i = 1; {
-
+//        int i = 24; {
             Element book = (Element) books.item(i);
             String file = book.getAttribute("file");
             String title = book.getAttribute("title");
@@ -56,10 +58,9 @@ public class Main {
             String creator = book.getAttribute("creator");
             String date = book.getAttribute("date");
             String full = getFull(creator);
-            String output = "enc_" + date + "_hf_" + full + "_" + title.toLowerCase().replaceAll("\\s", "-").replaceAll("æ", "ae");
+            String output = "exh_" + date + "_hf_" + full + "_" + title.toLowerCase().replaceAll("\\s", "-").replaceAll("æ", "ae");
 
-//            if (!file.contains("francesco")) continue;
-//            if (!file.contains("_evangelium-vitae_")) continue;
+//            if (!title.contains("Evangelii Gaudium")) continue;
 
             byte[] coverPngData = Cover.generateCoverPng(
                     (i * 1.0 / books.getLength()),
@@ -82,7 +83,14 @@ public class Main {
                 indexHtml.append("</tr>");
             }
 
-            URL url = new URL("http://www.vatican.va/holy_father/" + full + "/encyclicals/documents/" + file);
+            String base;
+            // Avoid redirects
+            if (full.contains("francesco")) {
+                base = "http://w2.vatican.va/content/francesco/fr/apost_exhortations/documents/";
+            } else {
+                base = "http://www.vatican.va/holy_father/" + full + "/apost_exhortations/documents/";
+            }
+            URL url = new URL(base + file);
             try {
                 process(url, "target/cache/" + file, "target/html/" + output + ".html", full);
                 Map<String, byte[]> resources = new HashMap<String, byte[]>();
@@ -101,9 +109,9 @@ public class Main {
 
         indexHtml.append("</table>");
         String template = new String(readFully(Main.class.getResource("template.html")));
-        template = template.replace("${TITLE}", "Lettres encycliques");
+        template = template.replace("${TITLE}", "Exhortations apostoliques");
         template = template.replace("${CONTENT}", indexHtml.toString());
-        writeToFile(template, "target/site/encycliques.html");
+        writeToFile(template, "target/site/exhortations.html");
     }
 
     private static void process(URL url, String cache, String output, String creator) throws Exception {
@@ -135,57 +143,20 @@ public class Main {
         document = document.replace("<head>", "<head><meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\" />");
         // Delete bad attributes
         document = document.replaceAll("<a title ", "<a ");
-
         // Fix footnotes with missing paragraph and missing closing div tag
-
-        // humanae vitae
-        document = document.replace("n. 47-52. 5.", "n. 47-52.</FONT></p><p><font>5.");
-        document = document.replace("10<i>. </i>Cf. Const. pastorale <i>", "10. <i>Cf. Const. pastorale <i>");
-        document = document.replace("8. L'amour conjugal révèle sa vraie nature et sa vraie\n" +
-                "  noblesse quand on le considère dans sa source suprême, Dieu qui est amour, &quot; le\n" +
-                "  Père de qui toute paternité tire son nom, au ciel et sur la terre (7) &quot;.\n",
-                "8. L'amour conjugal révèle sa vraie nature et sa vraie\n" +
-                        "  noblesse quand on le considère dans sa source suprême, Dieu qui &quot; est amour (6) &quot;, le\n" +
-                        "  Père &quot; de qui toute paternité tire son nom, au ciel et sur la terre (7) &quot;.\n");
-        document = document.replace("  justifier ces dépravations par de prétendues exigences artistiques ou\n" +
-                "scientifiques,\n", "  justifier ces dépravations par de prétendues exigences artistiques ou\n" +
-                "scientifiques (25),\n");
-        document = document.replace(
-                "24. Nous voulons maintenant exprimer Nos encouragements aux\n" +
-                "  hommes de science, qui &quot; peuvent beaucoup pour la cause du mariage et de la famille\n" +
-                "  et pour la paix des consciences si, par l'apport convergent de leurs études, ils\n" +
-                "  s'appliquent à tirer davantage au clair les diverses conditions favorisant une saine\n" +
-                "  régulation de la procréation humaine&quot;. Il est souhaitable, en particulier, que,\n" +
-                "  selon le v&#339;u déjà formulé par Pie XII, la science médicale réussisse à donner une\n" +
-                "  base suffisamment sûre à une régulation des naissances fondée sur l'observation\n" +
-                "  des rythmes naturels. Ainsi les hommes de science et, en particulier les chercheurs\n" +
-                "  catholiques, contribueront à démontrer par les faits que, comme l'église l'enseigne,\n" +
-                "  &quot; il ne peut y avoir de véritable contradiction entre les lois divines qui règlent\n" +
-                "  la transmission de la vie et celles qui favorisent un authentique amour conjugal (30)\n" +
-                "  &quot;.\n",
-
-                "24. Nous voulons maintenant exprimer Nos encouragements aux\n" +
-                "  hommes de science, qui &quot; peuvent beaucoup pour la cause du mariage et de la famille\n" +
-                "  et pour la paix des consciences si, par l'apport convergent de leurs études, ils\n" +
-                "  s'appliquent à tirer davantage au clair les diverses conditions favorisant une saine\n" +
-                "  régulation de la procréation humaine (28) &quot;. Il est souhaitable, en particulier, que,\n" +
-                "  selon le v&#339;u déjà formulé par Pie XII, la science médicale réussisse à donner une\n" +
-                "  base suffisamment sûre à une régulation des naissances fondée sur l'observation\n" +
-                "  des rythmes naturels (29). Ainsi les hommes de science et, en particulier les chercheurs\n" +
-                "  catholiques, contribueront à démontrer par les faits que, comme l'église l'enseigne,\n" +
-                "  &quot; il ne peut y avoir de véritable contradiction entre les lois divines qui règlent\n" +
-                "  la transmission de la vie et celles qui favorisent un authentique amour conjugal (30)\n" +
-                "  &quot;.\n");
-
         // Tidy Html
         document = tidyHtml(document);
         // Fix encoding
         document = document.replaceAll("<meta[^>]*http-equiv=\"Content-Type\"[^>]*/>", "");
         document = document.replace("<head>", "<head><meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\" />");
         // Translate entities
+        document = document.replaceAll("&#8197;", " ");
         document = translateEntities(document);
         // Fix links
+        document = document.replaceAll("francesco/en/apost_exhortations", "francesco/fr/apost_exhortations");
         document = Processors.process(document, "href=\"([^#\"][^\"]*)\"", 1, new Processors.RelativeURIProcessor(url.toURI()));
+        document = Processors.process(document, "href=\"#([^\"]*)\"", 1, new URIProcessor());
+        document = Processors.process(document, "id=\"([^\"]*)\"", 1, new URIProcessor());
 
         writeToFile(document, output);
 
@@ -214,35 +185,19 @@ public class Main {
         // Remove unwanted meta tags
         document = document.replaceAll("<meta name=\"generator\".*?/>", "");
         // Remove unwanted anchor attributes
-        document = document.replaceAll("(<a[^>]*?)\\s*name=\"[^\"]*\"\\s*([^>]*?>)", "$1$2");
-        document = document.replaceAll("(<a[^>]*?)\\s*title=\"\"\\s*([^>]*?>)", "$1$2");
-        document = document.replaceAll("(<a[^>]*\\s)\\s+([^>]*>)", "$1$2");
+        document = document.replaceAll("(<a[^>]*?)\\s*name=\"[^\"]*\"\\s*([^>]*?>)", "$1 $2");
+        document = document.replaceAll("(<a[^>]*?)\\s*title=\"\"\\s*([^>]*?>)", "$1 $2");
+        document = document.replaceAll("(<a[^>]*\\s)\\s+([^>]*>)", "$1 $2");
         document = document.replaceAll("<a id=\"top\"></a>", "");
         document = document.replaceAll("<a href=\"#top\"></a>", "");
         document = document.replaceAll("<basefont.*?/>", "");
         document = document.replaceAll("<tbody>|</tbody>", "");
         // Remove font styling
-        document = document.replaceAll("<font (?:face=\"[^\"]*\" )?size=\"3\">([\\s\\S]*?)</font>", "$1");
-
-        document = document.replaceAll("face=\"[^\"]*\"|color=\"[^\"]*\"|size=\"[0-9]\"", "");
-        document = document.replaceAll("<font\\s+>", "<font>");
-        int index = 0;
-        while ((index = document.indexOf("<font>", index)) > 0) {
-            int index2 = document.indexOf("</font>", index);
-            document = document.substring(0, index) + document.substring(index + "<font>".length(), index2)
-                    + document.substring(index2 + "</font>".length());
-        }
-//        document = document.replaceAll("<font size=\"3\">", "<span class=\"fmedium\">");
-//        document = document.replaceAll("<font size=\"4\">", "<span class=\"flarge\">");
-//        document = document.replaceAll("<font size=\"5\">", "<span class=\"fxlarge\">");
-//        document = document.replaceAll("</font>", "</span>");
-
+        document = document.replaceAll("<font[^>]*>|</font>", "");
         // Clean unneeded span
         document = document.replaceAll("<p><span>([\\s\\S]*?)</span>([\\s\\S]*?)</p>", "<p>$1 $2</p>");
         // Clean paragraphs
-        document = document.replaceAll("(<center><b><i><br /> RERUM NOVARUM</i></b></center>\\s*<center>[\\s\\S]*?<br />[\\s\\S]*?</center>)",
-                                       "<p>$1</p>");
-        document = document.replaceAll("<i><b><br /> <br /> </b> <br /> <br />", "<br /><br /><i>");
+        document = document.replaceAll("<i><b><br /> <br /> </b> <font color=\"#000000\"><br /> <br />", "<br /><br /><i><font>");
         document = document.replaceAll("\\s*<br />\\s*<br />\\s*", "</p><p>");
 
         // Delete first table
@@ -264,10 +219,6 @@ public class Main {
         document = document.replaceAll("</p></p>", "</p>");
         document = document.replaceAll("</p>\\s*<p>\\s*</i>", "</i></p><p>");
 
-        // Fix blockquote
-        document = document.replaceAll("<p><blockquote>", "<blockquote><p>");
-        document = document.replaceAll("</blockquote></p>", "</p></blockquote>");
-
         // Remove first <hr> in lumen fidei
         document = document.replace("<div id=\"corpo\">  <hr />", "<div id=\"corpo\"> ");
         // Remove table containing DOWNLOAD PDF
@@ -277,44 +228,21 @@ public class Main {
 
         String head = extract(document, "<head>.*?</head>", 0);
         String title = url.toExternalForm().contains("papa-francesco")
-                ? extract(document, "(<p[^>]*>.*?LETTRE ENCYCLIQUE.*?)<p>1\\. ", 1)
-                : extract(document, ".*<td[^>]*>(.*?LETTRE ENCYCLIQUE.*?)(<p><i>|<p><em>|<p><b>|<p[^>]*>(<center>)?\u00a0|</td>|<[^>]*>\\s*INTRO)", 1);
-
+                ? extract(document, "(<p[^>]*>.*?EXHORTATION APOSTOLIQUE.*?)(<p><b>TABLE DES MATIÈRES|<p>1\\. )", 1)
+                : extract(document, ".*<td[^>]*>(.*?EXHORTATION APOSTOLIQUE.*?)(<p><i>|<p><em>|<p><b>|<p[^>]*>(<center>)?\u00a0|</td>|<[^>]*>\\s*INTRO)", 1);
+        String tdm = extract(document, "(<p><b>TABLE DES MATIÈRES.*?<p><hr[^>]*/></p>)", 1);
         String bened = extractFollowingParaContaining(document, ".*[Bb]énédiction.*", document.indexOf(title) + title.length());
-        String footnotes = extract(document, "<hr[^>]*>(?:</p>)?(.*?<p.*?)(<p[^>]*>[\\s\u00a0]*</p>|<p><br />|</td>)", 1);
+        String footnotes = extract(document.substring(document.indexOf(bened != null ? bened : tdm != null ? tdm : title) + (bened != null ? bened : tdm != null ? tdm : title).length()),
+                        "<hr[^>]*>(?:</p>)?(.*?<p.*?)(<p[^>]*>[\\s\u00a0]*</p>|<p><br />|</td>)", 1);
         String copyright = extract(document, ">\\s*(©[^<]*?)\\s*<", 1);
-        String main = document.substring(document.indexOf(bened != null ? bened : title) + (bened != null ? bened : title).length(),
+        String main = document.substring(document.indexOf(bened != null ? bened : tdm != null ? tdm : title) + (bened != null ? bened : tdm != null ? tdm : title).length(),
                                          document.indexOf(footnotes != null ? footnotes : (copyright != null ? copyright : "</body>")));
 
-        if (url.toExternalForm().contains("_evangelium-vitae_")) {
-            URL notesUrl = Main.class.getResource("evangelium-vitae-notes.html");
+        if (url.toExternalForm().contains("evangelii-gaudium")) {
+            URL notesUrl = Main.class.getResource("evangelii-gaudium-notes.html");
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             copy(notesUrl.openStream(), baos);
             footnotes = baos.toString();
-
-            main = main.replace("la vie au monde ».102</p>", "la vie au monde ». (102)</p>");
-        }
-        else if (url.toExternalForm().contains("_mysterium_")) {
-            URL notesUrl = Main.class.getResource("mysterium-notes.html");
-            ByteArrayOutputStream baos = new ByteArrayOutputStream();
-            copy(notesUrl.openStream(), baos);
-            footnotes = baos.toString();
-
-            writeToFile(main, output);
-
-            for (int i = 39; i <= 83; i++) {
-                main = main.replace("(" + i + ")", "(" + (i-1) + ")");
-                main = main.replace("(<i>" + i + "</i>)", "(" + (i-1) + ")");
-            }
-
-            main = main.replace("ne ment pas \"", "ne ment pas \" (6)");
-            main = main.replace("d'intelligence plus profonde \".\"", "d'intelligence plus profonde (11)\".");
-            main = main.replace("appris du Seigneur", "appris du Seigneur (17)");
-            main = main.replace("sacerdoce hiérarchiques", "sacerdoce hiérarchiques (27)");
-            main = main.replace("de ton âme", "de ton âme (52)");
-            main = main.replace("transforme les choses offertes", "transforme les choses offertes (53)");
-        } else {
-            main = main.replace("le Seigneur l’a choisi", "le Seigneur l’a choisi (36)");
         }
 
         document = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">" +
@@ -322,10 +250,26 @@ public class Main {
                 cleanHead(head) + "<body>" +
                 "<div id=\"title\">" + cleanTitle(title, creator) + "</div>" +
                 (bened != null ? "<div id=\"bened\">" + cleanBened(bened) + "</div>" : "") +
+                (tdm != null ? "<div id=\"tdm\">" + cleanTdm(tdm) + "</div>" : "") +
                 "<div id=\"main\">" + cleanMain(main) + "</div>" +
                 (footnotes != null ? "<div id=\"notes\">" + cleanNotes(footnotes) + "</div>" : "") +
                 (copyright != null ? "<div id=\"copyright\">" + cleanCopyright(copyright) + "</div>" : "") +
                 "</body></html>";
+
+        writeToFile(document, output);
+
+        String[] docs = split(document,
+                "<p class=\"center\"><span><b><a id=\"Chapitre[^\"]*\">Chapitre|" +
+                "<p class=\"center\"><b>[^<]* PARTIE</b></p>|" +
+                "<hr",
+                output);
+
+        File[] files = new File[docs.length];
+        for (int i = 0; i < docs.length; i++) {
+            String name = output.substring(0, output.lastIndexOf('.')) + ".p" + toDigits(i) + ".html";
+            files[i] = new File(name);
+            writeToFile(docs[i], name);
+        }
 
         writeToFile(document, output);
     }
@@ -359,8 +303,6 @@ public class Main {
         document = document.replaceAll("<meta[^>]*name=\"[^\"]* [^\"]*\"[^>]*/>", "");
         // Remove style elements
         document = document.replaceAll("<style.*?</style>", "");
-        // Remove link elements
-        document = document.replaceAll("<link.*?/>", "");
         // Add our style
         document = document.replaceAll("</head>",
                 "<style type=\"text/css\">\n" +
@@ -371,13 +313,11 @@ public class Main {
                         " #main .numpara { font-family: Verdana; font-size: smaller; font-weight: bold; }\n" +
                         " #main .footnote { vertical-align: super; font-size: 70%; line-height: 80%; }\n" +
                         " #main .center { text-align: center; }\n" +
-//                        " #main .fmedium { font-size: medium; }\n" +
-//                        " #main .flarge { font-size: large; }\n" +
-//                        " #main .fxlarge { font-size: x-large; }\n" +
                         " #notes p { margin: 0; padding: 0; font-size: smaller; }\n" +
                         " #notes .ref { font-family: Verdana; font-size: smaller; font-weight: bold; }\n" +
                         " #copyright { color: #663300; text-align: center; font-size: smaller; }\n" +
-                        " .hr { background-color: #FFFFFF; border: 1px solid #000000; height: 0px; margin: 10px 10%; width: 80%; }\n" +
+                        " .hr { background-color: #FFFFFF; border: 1px solid #000000; height: 0px; margin: 10px 30%; width: 40%; }\n" +
+                        " .bullet { display:list-item; list-style-type: disc; list-style-type: inside; }\n" +
                         "</style>" +
                         "</head>");
         return document;
@@ -437,14 +377,21 @@ public class Main {
         return document;
     }
 
-    private static String cleanMain(String document) {
-        document = document.replaceAll("&lt;</p>", "</p>");
+    private static String cleanTdm(String document) {
+        document = fixTypos(document);
+        // Replace hr
+        document = document.replaceAll("<p>\\s*<hr[^>]*/?>\\s*</p>", "<div class=\"hr\"></div>");
+        return document;
+    }
 
+    private static String cleanMain(String document) {
         document = document.substring(document.indexOf("<p"), document.lastIndexOf("</p>") + 4);
         document = document.replaceAll("<font[^>]*>(.*?)</font>", "$1");
+        document = document.replaceAll("<center>[\\s\u00a0]*</center>", "");
         document = document.replaceAll("<p[^>]*>[\\s\u00a0]*</p>", "");
         document = document.replaceAll("<p align=\"center\">", "<p class=\"center\">");
         document = document.replaceAll("<p>\\s*<center>(.*?)</center>\\s*</p>", "<p class=\"center\">$1</p>");
+        document = document.replaceAll("<p class=\"center\">\\s*<center>(.*?)</center>\\s*</p>", "<p class=\"center\">$1</p>");
         document = document.replaceAll("</p><p></b>", "</b></p><p>");
         document = document.replaceAll("</p></b><p>", "</b></p><p>");
         document = document.replaceAll("<blockquote>\\s*</blockquote>", "");
@@ -510,7 +457,13 @@ public class Main {
         document = document.replaceAll("Abel et le tua.</i></p>\\s*<p><i>Le Seigneur", "Abel et le tua.<br/><br/>Le Seigneur");
         document = document.replaceAll("6, 28\\.35", "6, 28-35");
         document = document.replaceAll("Mettez\\. vous", "Mettez-vous");
-        document = document.replaceAll("\\( 66 \\)", "(66)");
+        document = document.replaceAll("».79", "». (79)");
+        document = document.replaceAll("»,83</p>", "». (83)</p>");
+        document = document.replaceAll("<a id=\"([^\"]*)\" >", "<a id=\"$1\">");
+        document = document.replaceAll("<a id=\"chapitre2\">Dans la crise de l’engagement communautaire</a>", "Dans la crise de l’engagement communautaire");
+        document = document.replaceAll("<a id=\"chapitre3\">L’annonce de l’Évangile</a>", "L’annonce de l’Évangile");
+        document = document.replaceAll("<a id=\"chapitre4\">La dimension sociale de l’évangélisation</a>", "La dimension sociale de l’évangélisation");
+        document = document.replaceAll("<a id=\"chapitre5\">Évangélisateurs avec esprit</a>", "Évangélisateurs avec esprit");
 
         // Clean up spaces / tags
         document = document.replaceAll("<b>[\\s\u00a0]*\"[\\s\u00a0]*</b>", "\"");
@@ -535,8 +488,13 @@ public class Main {
         document = document.replaceAll("cf<i>\\.", "cf.<i>");
         document = document.replaceAll("<i>(\\s+)", "$1<i>");
         document = document.replaceAll("(\\s+)</i>", "</i>$1");
-        document = document.replaceAll("([.;:,?!])</i>", "</i>$1");
+        document = document.replaceAll("([.:,?!])</i>", "</i>$1");
+        document = document.replaceAll("(?<!&#[0-9]{1,4}|&[A-Za-z0-9]{1,10});</i>", "</i>;");
+        document = document.replaceAll("<i></i>", "");
 
+        // Fix ul/li
+//        document = document.replaceAll("<li>(.*?)</li>", "<div class=\"bullet\">$1</div>");
+        document = document.replaceAll("<p>\\s*<ul>([\\s\\S]*?)</ul>\\s*</p>", "<ul>$1</ul>");
 
         // Process
         document = fixTypos(document);
@@ -595,6 +553,7 @@ public class Main {
         document = document.replaceAll("[\\s\u00a0]+</p>", "</p>");
         document = document.replaceAll("<p>\\s*</p>", "");
         document = document.replaceAll("<p>\\(([0-9]+)\\) ", "<p><a>[$1]</a> ");
+        document = document.replaceAll("<p>([1-9][0-9]*) ", "<p><a>[$1]</a> ");
         document = document.replaceAll("<p><a[^>]*>\\[([0-9]+)\\]</a>", "<p id=\"fn$1\"><a class=\"ref\" href=\"#fnr$1\">[$1]</a>");
         document = document.replaceAll("(href=\"[^\"\\s]*)\\s*([^\"\\s]*)\\s*([^\"\\s]*)\\s*", "$1$2$3");
         document = document.replaceAll("(href=\"[^\"\\s]*)\\s*([^\"\\s]*)\\s*", "$1$2");
@@ -618,6 +577,7 @@ public class Main {
         document = document.replaceAll("pp\\. 959- 960", "pp. 959-960");
         document = document.replaceAll("p\\. 674- 675", "p. 674-675");
         document = document.replaceAll("<p><b></p><p></b></p>", "");
+        document = document.replaceAll("<i></i>", "");
 
         // Replace hr
         document = document.replaceAll("<p>\\s*<hr\\s*/?>\\s*</p>", "<div class=\"hr\"></div>");
@@ -722,11 +682,10 @@ public class Main {
                 start = matcher.end();
             }
             newDoc.append(document.substring(appstart, document.length()));
-            if (nb > 4) {
-                document = newDoc.toString();
-            }
+            document = newDoc.toString();
         }
         // Fix foot notes
+        document = document.replaceAll("(<a [^>]*>)<sup><sup>\\[([1-9][0-9]*)\\]</sup></sup>(</a>)", "$1$2$3");
         document = document.replaceAll("\\(([12][0-9][0-9]|[1-9][0-9]|[1-9])\\)(?!([^<]*<br />[^<]*)*</span>)", "<a id=\"fnr$1\" href=\"#fn$1\">$1</a>");
         document = document.replaceAll("(<a [^>]*>)\\[([1-9][0-9]*)\\](</a>)", "$1$2$3");
         document = document.replaceAll("<font[^>]*><sup>(<a[^>]*>[1-9][0-9]*</a>)</sup></font>", "$1");
@@ -764,6 +723,119 @@ public class Main {
             return -1;
         }
     }
+
+    private static String[] split(String document, String regex, String fileName) {
+        int min = 50 * 1024;
+        int max = 50 * 1024;
+        int bodyStart = document.indexOf("<body>") + "<body>".length();
+        int bodyEnd = document.indexOf("</body>");
+        List<Integer> breaks = new ArrayList<Integer>();
+        Matcher matcher = Pattern.compile(regex).matcher(document);
+        int start = bodyStart;
+        breaks.add(bodyStart);
+        while (matcher.find(start)) {
+            int prev = breaks.get(breaks.size() - 1);
+            int cur = matcher.start();
+            if (cur - prev > min) {
+                breaks.add(matcher.start());
+            }
+            start = matcher.end();
+        }
+        breaks.add(bodyEnd);
+        List<String> docs = new ArrayList<String>();
+        int currStart = bodyStart;
+        int numBreak = 0;
+        List<String> opened = new ArrayList<String>();
+        while (numBreak < breaks.size()) {
+            int nextBreak = breaks.get(numBreak);
+            if (nextBreak - currStart >= max) {
+                String doc = document.substring(currStart, nextBreak);
+                if (doc.startsWith("<hr />")) {
+                    doc = doc.substring("<hr />".length());
+                }
+                String open = "";
+                for (String tag : opened) {
+                    if (open.length() == 0 && tag.equals("div")) {
+                        open += "<div id=\"main\">";
+                    } else {
+                        open += "<" + tag + ">";
+                    }
+                }
+                doc = open + doc;
+                opened.clear();
+                computeTags(doc, opened);
+                List<String> rev = new ArrayList<String>(opened);
+                Collections.reverse(rev);
+                for (String tag : rev) {
+                    doc += "</" + tag + ">";
+                }
+                doc = document.substring(0, bodyStart) + doc + "</body></html>";
+                docs.add(doc);
+                currStart = nextBreak;
+            }
+            numBreak++;
+        }
+        Map<String, Integer> refs = new HashMap<String, Integer>();
+        for (int i = 0; i < docs.size(); i++) {
+            String doc = docs.get(i);
+            Matcher idMatcher = Pattern.compile(" id=\"([^\"]*)\"").matcher(doc);
+            int idStart = 0;
+            while (idMatcher.find(idStart)) {
+                String name = idMatcher.group(1);
+                refs.put(name, i);
+                idStart = idMatcher.end();
+            }
+        }
+        String baseName = new File(fileName).getName();
+        baseName = baseName.substring(0, baseName.lastIndexOf('.'));
+        for (int i = 0; i < docs.size(); i++) {
+            String doc = docs.get(i);
+            StringBuilder newDoc = new StringBuilder();
+            Matcher idMatcher = Pattern.compile(" href=\"(#([^\"]*))\"").matcher(doc);
+            int idStart = 0;
+            while (idMatcher.find(idStart)) {
+                newDoc.append(doc.substring(idStart, idMatcher.start(1)));
+                Integer docIndex = refs.get(idMatcher.group(2));
+                if (docIndex != null && docIndex.intValue() != i) {
+                    newDoc.append(baseName + ".p" + toDigits(docIndex) + ".html#" + idMatcher.group(2));
+                } else {
+                    newDoc.append("#" + idMatcher.group(2));
+                }
+                idStart = idMatcher.end(1);
+            }
+            newDoc.append(doc.substring(idStart, doc.length()));
+            docs.set(i, newDoc.toString());
+        }
+
+        return docs.toArray(new String[docs.size()]);
+    }
+
+    private static void computeTags(String document, List<String> opened) {
+        Matcher matcher = Pattern.compile("</?([a-z]+)\\b[^>]*>").matcher(document);
+        int start = 0;
+        while (matcher.find(start)) {
+            String tag = matcher.group();
+            String name = matcher.group(1);
+            if (tag.startsWith("</")) {
+                String old = opened.isEmpty() ? null : opened.remove(opened.size() - 1);
+                if (!name.equals(old)) {
+                    System.err.println("Tag mismatch: found </" + name + "> but expected </" + old + ">");
+                }
+            } else if (!tag.endsWith("/>")) {
+                opened.add(name);
+            }
+            start = matcher.end();
+        }
+    }
+
+    private static String toDigits(int nb) {
+        if (nb < 10) {
+            return "0" + Integer.toString(nb);
+        } else {
+            return Integer.toString(nb);
+        }
+    }
+
 
     static final Map<Pattern, String> TYPOS;
 
@@ -808,6 +880,19 @@ public class Main {
         TYPOS.put(Pattern.compile("CAELIBATUS"), "CÆLIBATUS");
         TYPOS.put(Pattern.compile("OEUVRE"), "ŒUVRE");
         TYPOS.put(Pattern.compile("PRAESTANTISSIMUM"), "PRÆSTANTISSIMUM");
+        TYPOS.put(Pattern.compile("LUMIERE"), "LUMIÈRE");
+        TYPOS.put(Pattern.compile("PREMIERE"), "PREMIÈRE");
+        TYPOS.put(Pattern.compile("COMMUNAUTE"), "COMMUNAUTÉ");
+        TYPOS.put(Pattern.compile("SOCIETE"), "SOCIETÉ");
+        TYPOS.put(Pattern.compile("DEVELOPPEMENT"), "DÉVELOPPEMENT");
+        TYPOS.put(Pattern.compile("ETAPES"), "ÉTAPES");
+        TYPOS.put(Pattern.compile("SAINTETE"), "SAINTETÉ");
+        TYPOS.put(Pattern.compile("EPISCOPAT"), "ÉPISCOPAT");
+        TYPOS.put(Pattern.compile("CLERGE"), "CLERGÉ");
+        TYPOS.put(Pattern.compile("FIDELE"), "FIDÈLE");
+        TYPOS.put(Pattern.compile("TACHES"), "TÂCHES");
+        TYPOS.put(Pattern.compile("Redempteur"), "Rédempteur");
+        TYPOS.put(Pattern.compile("Theologiae"), "Theologiæ");
 
         TYPOS.put(Pattern.compile("Incarnation ed la"), "Incarnation de la");
         TYPOS.put(Pattern.compile("\\baue\\b"), "que");
@@ -903,5 +988,33 @@ public class Main {
         throw new IllegalStateException("Unknown: " + name);
     }
 
+    static class URIProcessor implements Processors.Processor {
+        @Override
+        public String process(String text) {
+            try {
+                text = URLDecoder.decode(text, "UTF-8");
+                text = Normalizer.normalize(text.toLowerCase(), Normalizer.Form.NFD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
+                text = text.replaceAll("[^\\p{Alnum}\\p{Space}]", "");
+                String encoded = URLEncoder.encode(text, "UTF-8");
+                if (encoded.equals("b+eglise+catholique+et+communaute+politique")) {
+                    encoded = "eglise+catholique+et+communaute+politique";
+                }
+                encoded = encoded.replace('+', '-');
+                encoded = encoded.replaceAll("--", "-");
+                while (!encoded.isEmpty() && "-0123456789".indexOf(encoded.charAt(0)) >= 0) {
+                    encoded = encoded.substring(1);
+                }
+                if (encoded.startsWith("-")) {
+                    encoded = encoded.substring(1);
+                }
+                if (encoded.endsWith("-")) {
+                    encoded = encoded.substring(0, encoded.length() - 1);
+                }
+                return encoded;
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
 
 }

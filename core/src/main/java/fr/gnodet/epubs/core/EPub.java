@@ -21,6 +21,10 @@ public class EPub {
     }
 
     public static void createEpub(File[] inputs, Map<String, byte[]> resources, File output, String title, String creator, String tocNcx) throws Exception {
+        createEpub(inputs, resources, output, title, creator, tocNcx, null);
+    }
+
+    public static void createEpub(File[] inputs, Map<String, byte[]> resources, File output, String title, String creator, String tocNcx, String uuid) throws Exception {
         output.getParentFile().mkdirs();
         ZipOutputStream zos = new ZipOutputStream(new FileOutputStream(output));
         // mimetype
@@ -52,13 +56,14 @@ public class EPub {
                 "    <dc:language>fr</dc:language>\n" +
                 "    <dc:creator opf:file-as=\"" + creator + "\" opf:role=\"aut\">" + creator + "</dc:creator>\n" +
                 "    <meta name=\"cover\" content=\"cover-image\"/>\n" +
-                "    <dc:identifier id=\"uuid_id\" opf:scheme=\"uuid\">" + UUID.randomUUID() + "</dc:identifier>\n" +
+                "    <dc:identifier id=\"uuid_id\" opf:scheme=\"uuid\">" + (uuid != null ? uuid : UUID.randomUUID()) + "</dc:identifier>\n" +
                 "  </metadata>\n" +
                 "  <manifest>\n";
         for (int i = 0; i < inputs.length; i++) {
             contentOpf +=
                     "    <item id=\"s" + Integer.toString(i) + "\" media-type=\"application/xhtml+xml\" href=\"OEBPS/" + inputs[i].getName() + "\" />\n";
         }
+        boolean includeCover = false;
         boolean hasCover = false;
         {
             int i = 0;
@@ -92,7 +97,7 @@ public class EPub {
                 "    <item href=\"toc.ncx\" media-type=\"application/x-dtbncx+xml\" id=\"ncx\"/>\n" +
                 "  </manifest>\n" +
                 "  <spine toc=\"ncx\"> \n";
-        if (hasCover && false) {
+        if (hasCover && includeCover) {
             contentOpf +=
                 "    <itemref idref=\"cover\"/>\n";
         }
@@ -118,18 +123,22 @@ public class EPub {
                     "    <text>" + title + "</text>\n" +
                     "  </docTitle>\n" +
                     "  <navMap>\n" +
-                    "    <navPoint id=\"1\" playOrder=\"1\">\n" +
+                    "    <navPoint id=\"id-1\" playOrder=\"1\">\n" +
                     "      <navLabel>\n" +
                     "        <text>" + title + "</text>\n" +
                     "      </navLabel>\n";
-            if (resources.containsKey("OEBPS/cover.html")) {
+            if (hasCover && includeCover) {
                 tocNcx +=
                         "      <content src=\"OEBPS/cover.html\"/>\n";
             }
-            for (int i = 0; i < 1; i++) {
+            else {
                 tocNcx +=
-                        "      <content src=\"OEBPS/" + inputs[i].getName() + "\"/>\n";
+                        "      <content src=\"OEBPS/" + inputs[0].getName() + "\"/>\n";
             }
+//            for (int i = 0; i < 1; i++) {
+//                tocNcx +=
+//                        "      <content src=\"OEBPS/" + inputs[i].getName() + "\"/>\n";
+//            }
             tocNcx +=
                     "    </navPoint>\n" +
                     "  </navMap>\n" +

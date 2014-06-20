@@ -35,7 +35,8 @@ cd org
 if [ ! -e bible_lsg_complete.zip ]
 then
   echo "Downloading"
-  wget http://www.europepourchrist.org/bible/iso_album/bible_lsg_complete.zip
+  cp ../../../bible_lsg_complete.zip .
+#  wget http://www.europepourchrist.org/bible/iso_album/bible_lsg_complete.zip
 fi
 cd ..
 if [ ! -d out ]

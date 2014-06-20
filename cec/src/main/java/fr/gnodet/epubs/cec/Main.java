@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.StringReader;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -144,6 +145,7 @@ public class Main {
                                "  <head>\n" +
                                "    <style type=\"text/css\">\n" +
                                "      table tbody tr td p { margin: 0 1em 0 1em }\n" +
+                               "      .center { text-align: center; }\n" +
                                "      .numpara { font-family: Verdana; font-size: smaller; font-weight: bold; }\n" +
                                "    </style>\n" +
                                "    <meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\" />\n" +
@@ -154,14 +156,21 @@ public class Main {
                                "</html>\n";
                 }
 
-                document = document.replaceAll(" style='mso-bidi-font-weight:normal'", "");
-                document = document.replaceAll(" class=MsoNormal", "");
+                document = document.replaceAll("\\sstyle='mso-bidi-font-weight\\s*:\\s*normal'", "");
+                document = document.replaceAll("\\sclass=MsoNormal", "");
+                document = document.replaceAll("<p style='margin-left:72.0pt'>([\\s\\S]*?)</p>", "<blockquote><p>$1</p></blockquote>");
+                document = document.replaceAll("align=center style='text-align:center'", "class=\"center\"");
 
                 document = document.replaceAll("<table[^>]*>", "<table>");
                 document = document.replaceAll("<tr[^>]*>", "<tr>");
                 document = document.replaceAll("<td[^>]*>", "<td>");
+                document = document.replaceAll("<i>\\s+</i>", " ");
 
                 document = tidyHtml(document);
+
+                // Fix head section
+                document = document.replaceAll("<meta\\s+name=\"generator\"\\s+content=\".*?\"\\s*/>", "");
+                document = document.replaceAll("<title></title>", "<title>Catéchisme de l'Église Catholique</title>");
 
                 // Use xhtml 1.1
                 document = document.replaceAll(
@@ -283,38 +292,49 @@ public class Main {
 
         String baseName = new File(fileBase).getName();
         baseName = baseName.substring(0, baseName.lastIndexOf('.'));
-        buildToc(tocDoc.getDocumentElement(), tocNcx, new AtomicInteger(0), new AtomicReference<String>(""), baseName);
+        buildToc(tocDoc.getDocumentElement(), tocNcx, new AtomicInteger(0), new AtomicInteger(0), new AtomicReference<String>(""), new HashMap<String, Integer>());
         tocNcx.append("  </navMap>\n" +
                 "</ncx>\n");
         return tocNcx.toString();
     }
 
-    private static void buildToc(Node node, StringBuilder tocNcx, AtomicInteger counter, AtomicReference<String> lastHref, String baseName) {
+    private static void buildToc(Node node, StringBuilder tocNcx, AtomicInteger counter, AtomicInteger playOrder, AtomicReference<String> lastHref, Map<String, Integer> playOrders) {
         if (node != null) {
             if (node.getNodeType() == Node.ELEMENT_NODE) {
                 if (node.getNodeName().equals("item")) {
                     String text = ((Element) node).getAttribute("text");
                     String href = ((Element) node).getAttribute("ref");
-                    tocNcx.append("<navPoint id=\"").append(counter.get()).append("\" playOrder=\"").append(counter.get()).append("\">\n");
+                    if (href == null || href.isEmpty()) {
+                        href = lastHref.get();
+                    } else {
+                        lastHref.set(href);
+                    }
+                    int order;
+                    if (playOrders.containsKey(href)) {
+                        order = playOrders.get(href);
+                    } else {
+                        order = playOrder.getAndIncrement();
+                        playOrders.put(href, order);
+                    }
+                    tocNcx.append("<navPoint id=\"id-").append(counter.get()).append("\" playOrder=\"").append(order).append("\">\n");
                     tocNcx.append("<navLabel><text>").append(text).append("</text></navLabel>\n");
                     counter.incrementAndGet();
-                    if (href != null) {
+                    if (href != null && !href.isEmpty()) {
                         tocNcx.append("<content src=\"OEBPS/" + href + "\"/>\n");
                         lastHref.set(href);
-                        buildToc(node.getFirstChild(), tocNcx, counter, lastHref, baseName);
+                        buildToc(node.getFirstChild(), tocNcx, counter, playOrder, lastHref, playOrders);
                     } else {
                         tocNcx.append("<content src=\"OEBPS/" + lastHref.get() + "\"/>\n");
-                        buildToc(node.getFirstChild(), tocNcx, counter, lastHref, baseName);
+                        buildToc(node.getFirstChild(), tocNcx, counter, playOrder, lastHref, playOrders);
                     }
                     tocNcx.append("</navPoint>\n");
                 } else {
-                    buildToc(node.getFirstChild(), tocNcx, counter, lastHref, baseName);
+                    buildToc(node.getFirstChild(), tocNcx, counter, playOrder, lastHref, playOrders);
                 }
             }
-            buildToc(node.getNextSibling(), tocNcx, counter, lastHref, baseName);
+            buildToc(node.getNextSibling(), tocNcx, counter, playOrder, lastHref, playOrders);
         }
     }
-
     private static String fixNumberedParagraphs(String document) {
         document = document.replaceAll("<p>([1-9][0-9]*) ", "<p><a class=\"numpara\" id=\"p$1\">$1.</a> ");
         document = document.replaceAll("<p>([1-9][0-9]*)<i>", "<p><a class=\"numpara\" id=\"p$1\">$1.</a> <i>");
