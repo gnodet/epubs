@@ -1,14 +1,22 @@
 package fr.gnodet.epubs.core;
 
 import com.adobe.epubcheck.api.EpubCheck;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.xml.sax.InputSource;
 
 import java.io.*;
 import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicReference;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
+
+import javax.xml.parsers.DocumentBuilderFactory;
 
 public class EPub {
 
@@ -61,7 +69,7 @@ public class EPub {
                 "  <manifest>\n";
         for (int i = 0; i < inputs.length; i++) {
             contentOpf +=
-                    "    <item id=\"s" + Integer.toString(i) + "\" media-type=\"application/xhtml+xml\" href=\"OEBPS/" + inputs[i].getName() + "\" />\n";
+                    "    <item id=\"s" + Integer.toString(i) + "\" media-type=\"application/xhtml+xml\" href=\"OEBPS/" + getPath(inputs[i]) + "\" />\n";
         }
         boolean includeCover = false;
         boolean hasCover = false;
@@ -133,7 +141,7 @@ public class EPub {
             }
             else {
                 tocNcx +=
-                        "      <content src=\"OEBPS/" + inputs[0].getName() + "\"/>\n";
+                        "      <content src=\"OEBPS/" + getPath(inputs[0]) + "\"/>\n";
             }
 //            for (int i = 0; i < 1; i++) {
 //                tocNcx +=
@@ -150,7 +158,7 @@ public class EPub {
         zos.putNextEntry(new ZipEntry("OEBPS/"));
         // OEBPS/ main file
         for (int i = 0; i < inputs.length; i++) {
-            zos.putNextEntry(new ZipEntry("OEBPS/" + inputs[i].getName()));
+            zos.putNextEntry(new ZipEntry("OEBPS/" + getPath(inputs[i])));
             {
                 InputStream fis = new BufferedInputStream(new FileInputStream(inputs[i]));
                 byte[] buf = new byte[4096];
@@ -176,6 +184,72 @@ public class EPub {
         EpubCheck checker = new EpubCheck(output, writer);
         checker.validate();
         writer.flush();
+    }
+
+    public static String createToc(String title, String toc) throws Exception {
+        Document tocDoc = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(new InputSource(new StringReader(toc)));
+        StringBuilder tocNcx = new StringBuilder();
+        tocNcx.append("<?xml version='1.0' encoding='utf-8'?>\n" +
+                "<ncx xmlns=\"http://www.daisy.org/z3986/2005/ncx/\" version=\"2005-1\" xml:lang=\"eng\">\n" +
+                "  <head>\n" +
+                "    <meta content=\"1\" name=\"dtb:depth\"/>\n" +
+                "  </head>\n" +
+                "  <docTitle>\n" +
+                "    <text>" + title + "</text>\n" +
+                "  </docTitle>\n" +
+                "  <navMap>\n");
+
+        buildToc(tocDoc.getDocumentElement(), tocNcx, new AtomicInteger(0), new AtomicInteger(0), new AtomicReference<String>(""), new HashMap<String, Integer>());
+        tocNcx.append("  </navMap>\n" +
+                "</ncx>\n");
+        return tocNcx.toString();
+    }
+
+    private static void buildToc(Node node, StringBuilder tocNcx, AtomicInteger counter, AtomicInteger playOrder, AtomicReference<String> lastHref, Map<String, Integer> playOrders) {
+        if (node != null) {
+            if (node.getNodeType() == Node.ELEMENT_NODE) {
+                if (node.getNodeName().equals("item")) {
+                    String text = ((Element) node).getAttribute("text");
+                    String href = ((Element) node).getAttribute("ref");
+                    if (href == null || href.isEmpty()) {
+                        href = lastHref.get();
+                    } else {
+                        lastHref.set(href);
+                    }
+                    int order;
+                    if (playOrders.containsKey(href)) {
+                        order = playOrders.get(href);
+                    } else {
+                        order = playOrder.getAndIncrement();
+                        playOrders.put(href, order);
+                    }
+                    tocNcx.append("<navPoint id=\"id-").append(counter.get()).append("\" playOrder=\"").append(order).append("\">\n");
+                    tocNcx.append("<navLabel><text>").append(text).append("</text></navLabel>\n");
+                    counter.incrementAndGet();
+                    if (href != null && !href.isEmpty()) {
+                        tocNcx.append("<content src=\"OEBPS/" + href + "\"/>\n");
+                        lastHref.set(href);
+                        buildToc(node.getFirstChild(), tocNcx, counter, playOrder, lastHref, playOrders);
+                    } else {
+                        tocNcx.append("<content src=\"OEBPS/" + lastHref.get() + "\"/>\n");
+                        buildToc(node.getFirstChild(), tocNcx, counter, playOrder, lastHref, playOrders);
+                    }
+                    tocNcx.append("</navPoint>\n");
+                } else {
+                    buildToc(node.getFirstChild(), tocNcx, counter, playOrder, lastHref, playOrders);
+                }
+            }
+            buildToc(node.getNextSibling(), tocNcx, counter, playOrder, lastHref, playOrders);
+        }
+    }
+
+
+    private static String getPath(File file) {
+        String str = file.toString();
+        if (str.startsWith("target/html/")) {
+            str = str.substring("target/html/".length());
+        }
+        return str;
     }
 
 }

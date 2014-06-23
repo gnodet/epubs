@@ -77,7 +77,10 @@ public class Main {
             if (i % nbColumns == 0) {
                 indexHtml.append("<tr>");
             }
-            indexHtml.append("<td><a href='epub/").append(output).append(".epub'><img src='images/").append(output).append(".png'/></a></td>");
+            indexHtml.append("<td><center>")
+                    .append("<a href='epub/").append(output).append(".epub'><img src='images/").append(output).append(".png'/></a>")
+                    .append("<br/><a href='readium-js-viewer/index.html?epub=../library/").append(output).append("'>Lecture</a>")
+                    .append("</center></td>");
             if ((i + 1) % nbColumns == 0 || i == books.getLength() - 1) {
                 indexHtml.append("</tr>");
             }

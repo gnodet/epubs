@@ -1,0 +1,81 @@
+<items>
+    <item text="Table des matières" ref="index.html" />
+    <item text="Ancien testament">
+        <item text="Livre de la Genèse" ref="Gn/index.html"/>
+        <item text="Livre de l'Exode" ref="Ex/index.html"/>
+        <item text="Livre du Lévitique" ref="Lv/index.html"/>
+        <item text="Livre des Nombres" ref="Nb/index.html"/>
+        <item text="Livre du Deutéronome" ref="Dt/index.html"/>
+        <item text="Livre de Josué" ref="Jos/index.html"/>
+        <item text="Livre des Juges" ref="Jg/index.html"/>
+        <item text="Livre de Ruth" ref="Rt/index.html"/>
+        <item text="Premier livre de Samuel" ref="1S/index.html"/>
+        <item text="Deuxième livre de Samuel" ref="2S/index.html"/>
+        <item text="Premier livre des Rois" ref="1R/index.html"/>
+        <item text="Deuxième livre des Rois" ref="2R/index.html"/>
+        <item text="Premier livre des Chroniques" ref="1Ch/index.html"/>
+        <item text="Deuxième livre des Chroniques" ref="2Ch/index.html"/>
+        <item text="Livre d'Esdras" ref="Esd/index.html"/>
+        <item text="Livre de Néhémie" ref="Ne/index.html"/>
+        <item text="Livre de Tobie" ref="Tb/index.html"/>
+        <item text="Livre de Judith" ref="Jdt/index.html"/>
+        <item text="Livre d'Esther" ref="Est/index.html"/>
+        <item text="Premier Livre des Martyrs d'Israël" ref="1M/index.html"/>
+        <item text="Deuxième Livre des Martyrs d'Israël" ref="2M/index.html"/>
+        <item text="Livre de Job" ref="Jb/index.html"/>
+        <item text="Psaumes" ref="Ps/index.html"/>
+        <item text="Livre des Proverbes" ref="Pr/index.html"/>
+        <item text="L'écclésiaste" ref="Qo/index.html"/>
+        <item text="Cantique des cantiques" ref="Ct/index.html"/>
+        <item text="Livre de la Sagesse" ref="Sg/index.html"/>
+        <item text="Livre de Ben Sirac le Sage" ref="Si/index.html"/>
+        <item text="Livre d'Isaïe" ref="Is/index.html"/>
+        <item text="Livre de Jérémie" ref="Jr/index.html"/>
+        <item text="Livre des lamentations de Jérémie" ref="Lm/index.html"/>
+        <item text="Livre de Baruch" ref="Ba/index.html"/>
+        <item text="Lettre de Jérémie" ref="XXX/index.html"/>
+        <item text="Livre d'Ezekiel" ref="Ez/index.html"/>
+        <item text="Livre de Daniel" ref="Dn/index.html"/>
+        <item text="Livre d'Osée" ref="Os/index.html"/>
+        <item text="Livre de Joël" ref="Jl/index.html"/>
+        <item text="Livre d'Amos" ref="Am/index.html"/>
+        <item text="Livre d'Abdias" ref="Ab/index.html"/>
+        <item text="Livre de Jonas" ref="Jon/index.html"/>
+        <item text="Livre de Michée" ref="Mi/index.html"/>
+        <item text="Livre de Nahum" ref="Na/index.html"/>
+        <item text="Livre d'Habaquc" ref="Ha/index.html"/>
+        <item text="Livre de Sophonie" ref="So/index.html"/>
+        <item text="Livre d'Aggée" ref="Ag/index.html"/>
+        <item text="Livre de Zacharie" ref="Za/index.html"/>
+        <item text="Livre de Malachie" ref="Ml/index.html"/>
+    </item>
+    <item text="Nouveau testament">
+        <item text="Évangile de Jésus-Christ selon saint Matthieu" ref="Mt/index.html"/>
+        <item text="Évangile de Jésus-Christ selon saint Marc" ref="Mc/index.html"/>
+        <item text="Évangile de Jésus-Christ selon saint Luc" ref="Lc/index.html"/>
+        <item text="Évangile de Jésus-Christ selon saint Jean" ref="Jn/index.html"/>
+        <item text="Livre des Actes des Apôtres" ref="Ac/index.html"/>
+        <item text="Lettre de saint Paul Apôtre aux Romains" ref="Rm/index.html"/>
+        <item text="Première lettre de saint Paul Apôtre aux Corinthiens" ref="1Co/index.html"/>
+        <item text="Deuxième lettre de saint Paul Apôtre aux Corinthiens" ref="2Co/index.html"/>
+        <item text="Lettre de saint Paul Apôtre aux Galates" ref="Ga/index.html"/>
+        <item text="Lettre de saint Paul Apôtre aux Ephésiens" ref="Ep/index.html"/>
+        <item text="Lettre de saint Paul Apôtre aux Philippiens" ref="Ph/index.html"/>
+        <item text="Lettre de saint Paul Apôtre aux Colossiens" ref="Col/index.html"/>
+        <item text="Première lettre de saint Paul Apôtre aux Thessaloniciens" ref="1Th/index.html"/>
+        <item text="Deuxième lettre de saint Paul Apôtre aux Thessaloniciens" ref="2Th/index.html"/>
+        <item text="Première lettre de saint Paul Apôtre à Timothée" ref="1Tm/index.html"/>
+        <item text="Deuxième lettre de saint Paul Apôtre à Timothée" ref="2Tm/index.html"/>
+        <item text="Lettre de saint Paul Apôtre à Tite" ref="Tt/index.html"/>
+        <item text="Lettre de saint Paul Apôtre à Philémon" ref="Phm/index.html"/>
+        <item text="Lettre aux Hébreux" ref="He/index.html"/>
+        <item text="Lettre de saint Jacques Apôtre" ref="Jc/index.html"/>
+        <item text="Première lettre de saint Pierre Apôtre" ref="1P/index.html"/>
+        <item text="Deuxième lettre de saint Pierre Apôtre" ref="2P/index.html"/>
+        <item text="Première lettre de saint Jean" ref="1Jn/index.html"/>
+        <item text="Deuxième lettre de saint Jean" ref="2Jn/index.html"/>
+        <item text="Troisième lettre de saint Jean" ref="3Jn/index.html"/>
+        <item text="Lettre de saint Jude" ref="Jude/index.html"/>
+        <item text="Livre de l'Apocalypse" ref="Ap/index.html"/>
+    </item>
+</items>

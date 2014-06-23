@@ -192,7 +192,7 @@ public class Main {
 
         String uuid = UUID.randomUUID().toString();
 
-        String tocNcx = createToc(docs, output, uuid);
+        String tocNcx = createToc(title, docs, output, uuid);
         tocNcx = formatXml(tocNcx);
         writeToFile(tocNcx, "target/toc.ncx");
 
@@ -217,7 +217,7 @@ public class Main {
         return xmlOutput.getWriter().toString();
     }
 
-    private static String createToc(String[] docs, String fileBase, String uid) throws Exception {
+    private static String createToc(String title, String[] docs, String fileBase, String uid) throws Exception {
         Map<String, Integer> refs = new HashMap<String, Integer>();
         for (int i = 0; i < docs.length; i++) {
             String doc = docs[i];
@@ -238,7 +238,7 @@ public class Main {
                       "    <meta content=\"" + uid + "\" name=\"dtb:uid\"/>\n" +
                       "  </head>\n" +
                       "  <docTitle>\n" +
-                      "    <text>Compendium de la Doctrine Sociale de l'Église</text>\n" +
+                      "    <text>" + title + "</text>\n" +
                       "  </docTitle>\n" +
                       "  <navMap>\n");
 
@@ -282,7 +282,7 @@ public class Main {
                     int    spo = lastHref.get().equals(shr) ? po.get() : po.incrementAndGet();
                     lastHref.set(shr);
 
-                    tocNcx.append("<navPoint id=\"").append(sid).append("\" playOrder=\"").append(spo).append("\">");
+                    tocNcx.append("<navPoint id=\"id-").append(sid).append("\" playOrder=\"").append(spo).append("\">");
                     tocNcx.append("<navLabel><text>").append(text).append("</text></navLabel>");
                     tocNcx.append("<content src=\"" + shr + "\"/>");
                     buildToc(node.getFirstChild(), tocNcx, refs, id, po, lastHref, baseName);

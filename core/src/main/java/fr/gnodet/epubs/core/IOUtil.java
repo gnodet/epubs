@@ -3,6 +3,7 @@ package fr.gnodet.epubs.core;
 import org.w3c.tidy.Tidy;
 
 import java.io.*;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
 
@@ -18,6 +19,7 @@ public class IOUtil {
 
         if (!file.exists()) {
             URLConnection connection = url.openConnection();
+            connection.setRequestProperty("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36");
             InputStream is = connection.getInputStream();
             String encoding = connection.getContentEncoding();
             if (encoding == null) {
@@ -45,7 +47,18 @@ public class IOUtil {
             Writer writer = new OutputStreamWriter(new BufferedOutputStream(new FileOutputStream(file)), "UTF-8");
             copy(reader, writer);
         }
-        Reader reader = new InputStreamReader(new BufferedInputStream(new FileInputStream(file)), "UTF-8");
+        return readFile(file, "UTF-8");
+    }
+
+    public static String readFile(File file, String encoding) throws IOException {
+        Reader reader = new InputStreamReader(new BufferedInputStream(new FileInputStream(file)), encoding);
+        Writer writer = new StringWriter();
+        copy(reader, writer);
+        return writer.toString();
+    }
+
+    public static String readUrl(URL url, String encoding) throws IOException {
+        Reader reader = new InputStreamReader(new BufferedInputStream(url.openStream()), encoding);
         Writer writer = new StringWriter();
         copy(reader, writer);
         return writer.toString();

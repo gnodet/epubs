@@ -21,12 +21,14 @@ import java.util.regex.Pattern;
 import javax.xml.parsers.DocumentBuilderFactory;
 
 import fr.gnodet.epubs.core.Cover;
+import fr.gnodet.epubs.core.IOUtil;
 import fr.gnodet.epubs.core.Processors;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 
 import static fr.gnodet.epubs.core.EPub.createEpub;
+import static fr.gnodet.epubs.core.EPub.createToc;
 import static fr.gnodet.epubs.core.IOUtil.loadTextContent;
 import static fr.gnodet.epubs.core.IOUtil.writeToFile;
 import static fr.gnodet.epubs.core.Processors.process;
@@ -132,7 +134,7 @@ public class Main {
             parents.add(pattern);
         }
         */
-        String tocNcx = createToc(epub);
+        String tocNcx = createToc(title, IOUtil.readUrl(Main.class.getResource("histoire-philo.xml"), "UTF-8"));
         byte[] coverPng = Cover.generateCoverPng(Math.random(),
                 title,
                 new Object[] {
@@ -362,53 +364,6 @@ public class Main {
             document = document.substring(0, idx) + newId + document.substring(idx + id.length());
         }
         return document;
-    }
-
-    private static String createToc(String fileBase) throws Exception {
-        Document tocDoc = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(Main.class.getResourceAsStream("histoire-philo.xml"));
-        StringBuilder tocNcx = new StringBuilder();
-        tocNcx.append("<?xml version='1.0' encoding='utf-8'?>\n" +
-                      "<ncx xmlns=\"http://www.daisy.org/z3986/2005/ncx/\" version=\"2005-1\" xml:lang=\"eng\">\n" +
-                      "  <head>\n" +
-                      "    <meta content=\"1\" name=\"dtb:depth\"/>\n" +
-                      "  </head>\n" +
-                      "  <docTitle>\n" +
-                      "    <text>Précis d'histoire de la philosophie</text>\n" +
-                      "  </docTitle>\n" +
-                      "  <navMap>\n");
-
-        String baseName = new File(fileBase).getName();
-        baseName = baseName.substring(0, baseName.lastIndexOf('.'));
-        buildToc(tocDoc.getDocumentElement(), tocNcx, new AtomicInteger(0), new AtomicReference<String>(""), baseName);
-        tocNcx.append("  </navMap>\n" +
-                      "</ncx>\n");
-        return tocNcx.toString();
-    }
-
-    private static void buildToc(Node node, StringBuilder tocNcx, AtomicInteger counter, AtomicReference<String> lastHref, String baseName) {
-        if (node != null) {
-            if (node.getNodeType() == Node.ELEMENT_NODE) {
-                if (node.getNodeName().equals("item")) {
-                    String text = ((Element) node).getAttribute("text");
-                    String href = ((Element) node).getAttribute("ref");
-                    tocNcx.append("<navPoint id=\"").append(counter.get()).append("\" playOrder=\"").append(counter.get()).append("\">\n");
-                    tocNcx.append("<navLabel><text>").append(text).append("</text></navLabel>\n");
-                    counter.incrementAndGet();
-                    if (href != null) {
-                        tocNcx.append("<content src=\"OEBPS/" + href + "\"/>\n");
-                        lastHref.set(href);
-                        buildToc(node.getFirstChild(), tocNcx, counter, lastHref, baseName);
-                    } else {
-                        tocNcx.append("<content src=\"OEBPS/" + lastHref.get() + "\"/>\n");
-                        buildToc(node.getFirstChild(), tocNcx, counter, lastHref, baseName);
-                    }
-                    tocNcx.append("</navPoint>\n");
-                } else {
-                    buildToc(node.getFirstChild(), tocNcx, counter, lastHref, baseName);
-                }
-            }
-            buildToc(node.getNextSibling(), tocNcx, counter, lastHref, baseName);
-        }
     }
 
     private static String toDigits(int nb) {
