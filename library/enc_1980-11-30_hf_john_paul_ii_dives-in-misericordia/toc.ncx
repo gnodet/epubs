@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta content="1" name="dtb:depth"/>
+  </head>
+  <docTitle>
+    <text>Dives in misericordia</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="id-1" playOrder="1">
+      <navLabel>
+        <text>Dives in misericordia</text>
+      </navLabel>
+      <content src="OEBPS/enc_1980-11-30_hf_john_paul_ii_dives-in-misericordia.html"/>
+    </navPoint>
+  </navMap>
+</ncx>

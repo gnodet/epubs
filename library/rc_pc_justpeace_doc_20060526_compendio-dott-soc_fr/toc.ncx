@@ -1,0 +1,1472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/"
+     version="2005-1"
+     xml:lang="eng">
+  <head>
+      <meta content="1" name="dtb:depth"/>
+      <meta content="6bd7545e-28e2-4147-9a8e-727bb9f416f2" name="dtb:uid"/>
+  </head>
+  <docTitle>
+      <text>Compendium de la Doctrine Sociale de l’Église</text>
+  </docTitle>
+  <navMap>
+      <navPoint id="id-id-1" playOrder="1">
+         <navLabel>
+            <text>INTRODUCTION : UN HUMANISME INTÉGRAL ET SOLIDAIRE</text>
+         </navLabel>
+         <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p00.html#introduction"/>
+         <navPoint id="id-id-2" playOrder="2">
+            <navLabel>
+               <text>À l’aube du troisième millénaire</text>
+            </navLabel>
+            <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p00.html#a-laube-du-troisieme-millenaire"/>
+         </navPoint>
+         <navPoint id="id-id-3" playOrder="3">
+            <navLabel>
+               <text>La signification de ce document</text>
+            </navLabel>
+            <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p00.html#la-signification-de-ce-document"/>
+         </navPoint>
+         <navPoint id="id-id-4" playOrder="4">
+            <navLabel>
+               <text>Au service de l’entière vérité de l’homme</text>
+            </navLabel>
+            <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p00.html#au-service-de-lentiere-verite-de-lhomme"/>
+         </navPoint>
+         <navPoint id="id-id-5" playOrder="5">
+            <navLabel>
+               <text>Sous le signe de la solidarité, du respect et de l’amour</text>
+            </navLabel>
+            <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p00.html#sous-le-signe-de-la-solidarite-du-respect-et-de-lamour"/>
+         </navPoint>
+      </navPoint>
+      <navPoint id="id-id-6" playOrder="6">
+         <navLabel>
+            <text>PREMIÈRE PARTIE</text>
+         </navLabel>
+         <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#premiere-partie"/>
+         <navPoint id="id-id-7" playOrder="7">
+            <navLabel>
+               <text>PREMIER CHAPITRE : LE DESSEIN D’AMOUR DE DIEU POUR L’HUMANITÉ</text>
+            </navLabel>
+            <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#premier-chapitre"/>
+            <navPoint id="id-id-8" playOrder="8">
+               <navLabel>
+                  <text>I. L’ACTION LIBÉRATRICE DE DIEU DANS L’HISTOIRE D’ISRAËL</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#la-proximite-gratuite-de-dieu"/>
+               <navPoint id="id-id-9" playOrder="8">
+                  <navLabel>
+                     <text>La proximité gratuite de Dieu</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#la-proximite-gratuite-de-dieu"/>
+               </navPoint>
+               <navPoint id="id-id-10" playOrder="9">
+                  <navLabel>
+                     <text>Principe de la création et action gratuite de Dieu</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#principe-de-la-creation-et-action-gratuite-de-dieu"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-11" playOrder="10">
+               <navLabel>
+                  <text>II. JÉSUS-CHRIST ACCOMPLISSEMENT DU DESSEIN D’AMOUR DU PÈRE</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#en-jesuschrist-saccomplit-levenement-decisif-de-lhistoire-de-dieu-avec-les-hommes"/>
+               <navPoint id="id-id-12" playOrder="10">
+                  <navLabel>
+                     <text>En Jésus-Christ s’accomplit l’événement décisif de l’histoire de Dieu avec les hommes</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#en-jesuschrist-saccomplit-levenement-decisif-de-lhistoire-de-dieu-avec-les-hommes"/>
+               </navPoint>
+               <navPoint id="id-id-13" playOrder="11">
+                  <navLabel>
+                     <text>La révélation de l’Amour trinitaire</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#la-revelation-de-lamour-trinitaire"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-14" playOrder="12">
+               <navLabel>
+                  <text>III. LA PERSONNE HUMAINE DANS LE DESSEIN D’AMOUR DE DIEU</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#lamour-trinitaire-origine-et-fin-de-la-personne-humaine"/>
+               <navPoint id="id-id-15" playOrder="12">
+                  <navLabel>
+                     <text>L’Amour trinitaire, origine et fin de la personne humaine</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#lamour-trinitaire-origine-et-fin-de-la-personne-humaine"/>
+               </navPoint>
+               <navPoint id="id-id-16" playOrder="13">
+                  <navLabel>
+                     <text>Le salut chrétien : pour tous les hommes et de tout l’homme</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#le-salut-chretien-pour-tous-les-hommes-et-de-tout-lhomme"/>
+               </navPoint>
+               <navPoint id="id-id-17" playOrder="14">
+                  <navLabel>
+                     <text>Le disciple du Christ comme créature nouvelle</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#le-disciple-du-christ-comme-creature-nouvelle"/>
+               </navPoint>
+               <navPoint id="id-id-18" playOrder="15">
+                  <navLabel>
+                     <text>Transcendance du salut et autonomie des réalités terrestres</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#transcendance-du-salut-et-autonomie-des-realites-terrestres"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-19" playOrder="16">
+               <navLabel>
+                  <text>IV. DESSEIN DE DIEU ET MISSION DE L’ÉGLISE</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#leglise-signe-et-sauvegarde-de-la-transcendance-de-la-personne-humaine"/>
+               <navPoint id="id-id-20" playOrder="16">
+                  <navLabel>
+                     <text>L’Église, signe et sauvegarde de la transcendance de la personne humaine</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#leglise-signe-et-sauvegarde-de-la-transcendance-de-la-personne-humaine"/>
+               </navPoint>
+               <navPoint id="id-id-21" playOrder="17">
+                  <navLabel>
+                     <text>Église, Royaume de Dieu et renouveau des rapports sociaux</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#eglise-royaume-de-dieu-et-renouveau-des-rapports-sociaux"/>
+               </navPoint>
+               <navPoint id="id-id-22" playOrder="18">
+                  <navLabel>
+                     <text>Cieux nouveaux et terre nouvelle</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#cieux-nouveaux-et-terre-nouvelle"/>
+               </navPoint>
+               <navPoint id="id-id-23" playOrder="19">
+                  <navLabel>
+                     <text>Marie et son « fiat » au dessein d’amour de Dieu</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#marie-et-son-fiat-au-dessein-damour-de-dieu"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+         <navPoint id="id-id-24" playOrder="20">
+            <navLabel>
+               <text>DEUXIÈME CHAPITRE : MISSION DE L’ÉGLISE ET DOCTRINE SOCIALE</text>
+            </navLabel>
+            <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#deuxieme-chapitre"/>
+            <navPoint id="id-id-25" playOrder="21">
+               <navLabel>
+                  <text>I. ÉVANGÉLISATION ET DOCTRINE SOCIALE</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#leglise-demeure-de-dieu-avec-les-hommes"/>
+               <navPoint id="id-id-26" playOrder="21">
+                  <navLabel>
+                     <text>L’Église, demeure de Dieu avec les hommes</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#leglise-demeure-de-dieu-avec-les-hommes"/>
+               </navPoint>
+               <navPoint id="id-id-27" playOrder="22">
+                  <navLabel>
+                     <text>Féconder et fermenter la société grâce à l’Évangile</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#feconder-et-fermenter-la-societe-grace-a-levangile"/>
+               </navPoint>
+               <navPoint id="id-id-28" playOrder="23">
+                  <navLabel>
+                     <text>Doctrine sociale, évangélisation et promotion humaine</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#doctrine-sociale-evangelisation-et-promotion-humaine"/>
+               </navPoint>
+               <navPoint id="id-id-29" playOrder="24">
+                  <navLabel>
+                     <text>Droit et devoir de l’Église</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#droit-et-devoir-de-leglise"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-30" playOrder="25">
+               <navLabel>
+                  <text>II. LA NATURE DE LA DOCTRINE SOCIALE</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#une-connaissance-eclairee-par-la-foi"/>
+               <navPoint id="id-id-31" playOrder="25">
+                  <navLabel>
+                     <text>Une connaissance éclairée par la foi</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#une-connaissance-eclairee-par-la-foi"/>
+               </navPoint>
+               <navPoint id="id-id-32" playOrder="26">
+                  <navLabel>
+                     <text>En dialogue cordial avec chaque savoir</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#en-dialogue-cordial-avec-chaque-savoir"/>
+               </navPoint>
+               <navPoint id="id-id-33" playOrder="27">
+                  <navLabel>
+                     <text>Expression du ministère d’enseignement de l’Église</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#expression-du-ministere-denseignement-de-leglise"/>
+               </navPoint>
+               <navPoint id="id-id-34" playOrder="28">
+                  <navLabel>
+                     <text>Pour une société réconciliée dans la justice et dans l’amour</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#pour-une-societe-reconciliee-dans-la-justice-et-dans-lamour"/>
+               </navPoint>
+               <navPoint id="id-id-35" playOrder="29">
+                  <navLabel>
+                     <text>Un message pour les enfants de l’Église et pour l’humanité</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#un-message-pour-les-enfants-de-leglise-et-pour-lhumanite"/>
+               </navPoint>
+               <navPoint id="id-id-36" playOrder="30">
+                  <navLabel>
+                     <text>Sous le signe de la continuité et du renouvellement</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#sous-le-signe-de-la-continuite-et-du-renouvellement"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-37" playOrder="31">
+               <navLabel>
+                  <text>III. LA DOCTRINE SOCIALE À NOTRE ÉPOQUE : ÉVOCATION HISTORIQUE</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#le-commencement-dun-nouveau-chemin"/>
+               <navPoint id="id-id-38" playOrder="31">
+                  <navLabel>
+                     <text>Le commencement d’un nouveau chemin</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#le-commencement-dun-nouveau-chemin"/>
+               </navPoint>
+               <navPoint id="id-id-39" playOrder="32">
+                  <navLabel>
+                     <text>De « Rerum novarum » à nos jours</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#de-rerum-novarum-a-nos-jours"/>
+               </navPoint>
+               <navPoint id="id-id-40" playOrder="33">
+                  <navLabel>
+                     <text>À la lumière et sous l’impulsion de l’Évangile</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#a-la-lumiere-et-sous-limpulsion-de-levangile"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+         <navPoint id="id-id-41" playOrder="34">
+            <navLabel>
+               <text>TROISIÈME CHAPITRE : LA PERSONNE HUMAINE ET SES DROITS</text>
+            </navLabel>
+            <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#troisieme-chapitre"/>
+            <navPoint id="id-id-42" playOrder="35">
+               <navLabel>
+                  <text>I. DOCTRINE SOCIALE ET PRINCIPE PERSONNALISTE</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#i-doctrine-sociale-et-principe-personnaliste"/>
+            </navPoint>
+            <navPoint id="id-id-43" playOrder="36">
+               <navLabel>
+                  <text>II. LA PERSONNE HUMAINE « IMAGO DEI »</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#a-creature-a-limage-de-dieu"/>
+               <navPoint id="id-id-44" playOrder="36">
+                  <navLabel>
+                     <text>Créature à l’image de Dieu</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#a-creature-a-limage-de-dieu"/>
+               </navPoint>
+               <navPoint id="id-id-45" playOrder="37">
+                  <navLabel>
+                     <text>Le drame du péché</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#b-le-drame-du-peche"/>
+               </navPoint>
+               <navPoint id="id-id-46" playOrder="38">
+                  <navLabel>
+                     <text>Universalité du péché et universalité du salut</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#c-universalite-du-peche-et-universalite-du-salut"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-47" playOrder="39">
+               <navLabel>
+                  <text>III. LA PERSONNE HUMAINE ET SES MULTIPLES PROFILS</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#iii-la-personne-humaine-et-ses-multiples-profils"/>
+               <navPoint id="id-id-48" playOrder="40">
+                  <navLabel>
+                     <text>L’unité de la personne</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#lunite-de-la-personne"/>
+               </navPoint>
+               <navPoint id="id-id-49" playOrder="41">
+                  <navLabel>
+                     <text>Ouverture à la transcendance et unicité de la personne</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#ouverture-a-la-transcendance-et-unicite-de-la-personne"/>
+                  <navPoint id="id-id-50" playOrder="42">
+                     <navLabel>
+                        <text>Ouverture à la transcendance</text>
+                     </navLabel>
+                     <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#ouverture-a-la-transcendance"/>
+                  </navPoint>
+                  <navPoint id="id-id-51" playOrder="43">
+                     <navLabel>
+                        <text>Etre unique et inimitable</text>
+                     </navLabel>
+                     <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#etre-unique-et-inimitable"/>
+                  </navPoint>
+                  <navPoint id="id-id-52" playOrder="44">
+                     <navLabel>
+                        <text>Le respect de la dignité humaine</text>
+                     </navLabel>
+                     <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#le-respect-de-la-dignite-humaine"/>
+                  </navPoint>
+               </navPoint>
+               <navPoint id="id-id-53" playOrder="45">
+                  <navLabel>
+                     <text>La liberté de la personne</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#la-liberte-de-la-personne"/>
+                  <navPoint id="id-id-54" playOrder="46">
+                     <navLabel>
+                        <text>Valeur et limites de la liberté</text>
+                     </navLabel>
+                     <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#valeur-et-limites-de-la-liberte"/>
+                  </navPoint>
+                  <navPoint id="id-id-55" playOrder="47">
+                     <navLabel>
+                        <text>Le lien de la liberté avec la verité et la loi naturelle</text>
+                     </navLabel>
+                     <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#le-lien-de-la-liberte-avec-la-verite-et-la-loi-naturelle"/>
+                  </navPoint>
+               </navPoint>
+               <navPoint id="id-id-56" playOrder="48">
+                  <navLabel>
+                     <text>L’égale dignité de toutes les personnes</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#legale-dignite-de-toutes-les-personnes"/>
+               </navPoint>
+               <navPoint id="id-id-57" playOrder="49">
+                  <navLabel>
+                     <text>La socialité humaine</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#la-socialite-humaine"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-58" playOrder="50">
+               <navLabel>
+                  <text>IV. LES DROITS DE L'HOMME</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#la-valeur-des-droits-de-lhomme"/>
+               <navPoint id="id-id-59" playOrder="50">
+                  <navLabel>
+                     <text>La valeur des droits de l’homme</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#la-valeur-des-droits-de-lhomme"/>
+               </navPoint>
+               <navPoint id="id-id-60" playOrder="51">
+                  <navLabel>
+                     <text>La spécification des droits de l’homme</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#la-specification-des-droits-de-lhomme"/>
+               </navPoint>
+               <navPoint id="id-id-61" playOrder="52">
+                  <navLabel>
+                     <text>Droits et devoirs</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#droits-et-devoirs"/>
+               </navPoint>
+               <navPoint id="id-id-62" playOrder="53">
+                  <navLabel>
+                     <text>Droits des peuples et des nations</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#droits-des-peuples-et-des-nations"/>
+               </navPoint>
+               <navPoint id="id-id-63" playOrder="54">
+                  <navLabel>
+                     <text>Combler l’écart entre la lettre et l’esprit</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#combler-lecart-entre-la-lettre-et-lesprit"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+         <navPoint id="id-id-64" playOrder="55">
+            <navLabel>
+               <text>QUATRIÈME CHAPITRE : LES PRINCIPES DE LA DOCTRINE SOCIALE DE L’ÉGLISE</text>
+            </navLabel>
+            <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#quatrieme-chapitre"/>
+            <navPoint id="id-id-65" playOrder="56">
+               <navLabel>
+                  <text>I. SIGNIFICATION ET UNITÉ</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#i-signification-et-unite"/>
+            </navPoint>
+            <navPoint id="id-id-66" playOrder="57">
+               <navLabel>
+                  <text>II. LE PRINCIPE DU BIEN COMMUN</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#a-signification-et-principales-implications"/>
+               <navPoint id="id-id-67" playOrder="57">
+                  <navLabel>
+                     <text>Signification et principales implications</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#a-signification-et-principales-implications"/>
+               </navPoint>
+               <navPoint id="id-id-68" playOrder="58">
+                  <navLabel>
+                     <text>La responsabilité de tous à l’égard du bien commun</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#b-la-responsabilite-de-tous-a-legard-du-bien-commun"/>
+               </navPoint>
+               <navPoint id="id-id-69" playOrder="59">
+                  <navLabel>
+                     <text>Les devoirs de la communauté politique</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#c-les-devoirs-de-la-communaute-politique"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-70" playOrder="60">
+               <navLabel>
+                  <text>III. LA DESTINATION UNIVERSELLE DES BIENS</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#a-origine-et-signification"/>
+               <navPoint id="id-id-71" playOrder="60">
+                  <navLabel>
+                     <text>Origine et signification</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#a-origine-et-signification"/>
+               </navPoint>
+               <navPoint id="id-id-72" playOrder="61">
+                  <navLabel>
+                     <text>Destination universelle des biens et propriété privée</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#b-destination-universelle-des-biens-et-propriete-privee"/>
+               </navPoint>
+               <navPoint id="id-id-73" playOrder="62">
+                  <navLabel>
+                     <text>Destination universelle des biens et option préférentielle pour les pauvres</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#c-destination-universelle-des-biens-et-option-preferentielle-pour-les-pauvres"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-74" playOrder="63">
+               <navLabel>
+                  <text>IV. LE PRINCIPE DE SUBSIDIARITÉ</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#a-lorigine-et-la-signification"/>
+               <navPoint id="id-id-75" playOrder="63">
+                  <navLabel>
+                     <text>L’origine et la signification</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#a-lorigine-et-la-signification"/>
+               </navPoint>
+               <navPoint id="id-id-76" playOrder="64">
+                  <navLabel>
+                     <text>Indications concrètes</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#b-indications-concretes"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-77" playOrder="65">
+               <navLabel>
+                  <text>V. LA PARTICIPATION</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#a-signification-et-valeur"/>
+               <navPoint id="id-id-78" playOrder="65">
+                  <navLabel>
+                     <text>Signification et valeur</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#a-signification-et-valeur"/>
+               </navPoint>
+               <navPoint id="id-id-79" playOrder="66">
+                  <navLabel>
+                     <text>Participation et démocratie</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#b-participation-et-democratie"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-80" playOrder="67">
+               <navLabel>
+                  <text>VI. LE PRINCIPE DE SOLIDARITÉ</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#signification-et-valeur"/>
+               <navPoint id="id-id-81" playOrder="67">
+                  <navLabel>
+                     <text>Signification et valeur</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#signification-et-valeur"/>
+               </navPoint>
+               <navPoint id="id-id-82" playOrder="68">
+                  <navLabel>
+                     <text>La solidarité comme principe social et comme vertu morale</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#b-la-solidarite-comme-principe-social-et-comme-vertu-morale"/>
+               </navPoint>
+               <navPoint id="id-id-83" playOrder="69">
+                  <navLabel>
+                     <text>Solidarité et croissance commune des hommes</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#c-solidarite-et-croissance-commune-des-hommes"/>
+               </navPoint>
+               <navPoint id="id-id-84" playOrder="70">
+                  <navLabel>
+                     <text>La solidarité dans la vie et dans le message de Jésus-Christ</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#d-la-solidarite-dans-la-vie-et-dans-le-message-de-jesuschrist"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-85" playOrder="71">
+               <navLabel>
+                  <text>VII. LES VALEURS FONDAMENTALES DE LA VIE SOCIALE</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#a-rapport-entre-principes-et-valeurs"/>
+               <navPoint id="id-id-86" playOrder="71">
+                  <navLabel>
+                     <text>Rapport entre principes et valeurs</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#a-rapport-entre-principes-et-valeurs"/>
+               </navPoint>
+               <navPoint id="id-id-87" playOrder="72">
+                  <navLabel>
+                     <text>La vérité</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#b-la-verite"/>
+               </navPoint>
+               <navPoint id="id-id-88" playOrder="73">
+                  <navLabel>
+                     <text>La liberté</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#c-la-liberte"/>
+               </navPoint>
+               <navPoint id="id-id-89" playOrder="74">
+                  <navLabel>
+                     <text>La justice</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#d-la-justice"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-90" playOrder="75">
+               <navLabel>
+                  <text>VIII. LA VOIE DE LA CHARITÉ</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p01.html#viii-la-voie-de-la-charite"/>
+            </navPoint>
+         </navPoint>
+      </navPoint>
+      <navPoint id="id-id-91" playOrder="76">
+         <navLabel>
+            <text>DEUXIÈME PARTIE</text>
+         </navLabel>
+         <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#deuxieme-partie"/>
+         <navPoint id="id-id-92" playOrder="77">
+            <navLabel>
+               <text>CINQUIÈME CHAPITRE LA FAMILLE, CELLULE VITALE DE LA SOCIÉTÉ</text>
+            </navLabel>
+            <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#cinquieme-chapitre"/>
+            <navPoint id="id-id-93" playOrder="78">
+               <navLabel>
+                  <text>I. LA FAMILLE, PREMIÈRE SOCIÉTÉ NATURELLE</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#i-la-famille-premiere-societe-naturelle"/>
+               <navPoint id="id-id-94" playOrder="79">
+                  <navLabel>
+                     <text>L’importance de la famille pour la personne</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#limportance-de-la-famille-pour-la-personne"/>
+               </navPoint>
+               <navPoint id="id-id-95" playOrder="80">
+                  <navLabel>
+                     <text>L’importance de la famille pour la société</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#limportance-de-la-famille-pour-la-societe"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-96" playOrder="81">
+               <navLabel>
+                  <text>II. LE MARIAGE, FONDEMENT DE LA FAMILLE</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-valeur-du-mariage"/>
+               <navPoint id="id-id-97" playOrder="81">
+                  <navLabel>
+                     <text>La valeur du mariage</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-valeur-du-mariage"/>
+               </navPoint>
+               <navPoint id="id-id-98" playOrder="82">
+                  <navLabel>
+                     <text>Le sacrement du mariage</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#le-sacrement-du-mariage"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-99" playOrder="83">
+               <navLabel>
+                  <text>III. LA SUBJECTIVITÉ SOCIALE DE LA FAMILLE</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#lamour-et-la-formation-dune-communaute-de-personnes"/>
+               <navPoint id="id-id-100" playOrder="83">
+                  <navLabel>
+                     <text>L’amour et la formation d’une communauté de personnes</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#lamour-et-la-formation-dune-communaute-de-personnes"/>
+               </navPoint>
+               <navPoint id="id-id-101" playOrder="84">
+                  <navLabel>
+                     <text>La famille est le sanctuaire de la vie</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-famille-est-le-sanctuaire-de-la-vie"/>
+               </navPoint>
+               <navPoint id="id-id-102" playOrder="85">
+                  <navLabel>
+                     <text>Le devoir d’éducation</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#le-devoir-deducation"/>
+               </navPoint>
+               <navPoint id="id-id-103" playOrder="86">
+                  <navLabel>
+                     <text>Dignité et droits des enfants</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#dignite-et-droits-des-enfants"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-104" playOrder="87">
+               <navLabel>
+                  <text>IV. LA FAMILLE, PROTAGONISTE DE LA VIE SOCIALE</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#solidarite-familiale"/>
+               <navPoint id="id-id-105" playOrder="87">
+                  <navLabel>
+                     <text>Solidarité familiale</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#solidarite-familiale"/>
+               </navPoint>
+               <navPoint id="id-id-106" playOrder="88">
+                  <navLabel>
+                     <text>Famille, vie économique et travail</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#famille-vie-economique-et-travail"/>
+               </navPoint>
+               <navPoint id="id-id-107" playOrder="89">
+                  <navLabel>
+                     <text>LA SOCIÉTÉ AU SERVICE DE LA FAMILLE</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-societe-au-service-de-la-famille"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+         <navPoint id="id-id-108" playOrder="90">
+            <navLabel>
+               <text>SIXIÈME CHAPITRE : LE TRAVAIL HUMAIN</text>
+            </navLabel>
+            <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#sixieme-chapitre"/>
+            <navPoint id="id-id-109" playOrder="91">
+               <navLabel>
+                  <text>I. ASPECTS BIBLIQUES</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#le-devoir-de-cultiver-et-de-conserver-la-terre"/>
+               <navPoint id="id-id-110" playOrder="91">
+                  <navLabel>
+                     <text>Le devoir de cultiver et de conserver la terre</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#le-devoir-de-cultiver-et-de-conserver-la-terre"/>
+               </navPoint>
+               <navPoint id="id-id-111" playOrder="92">
+                  <navLabel>
+                     <text>Jésus, homme du travail</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#jesus-homme-du-travail"/>
+               </navPoint>
+               <navPoint id="id-id-112" playOrder="93">
+                  <navLabel>
+                     <text>Le devoir de travailler</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#le-devoir-de-travailler"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-113" playOrder="94">
+               <navLabel>
+                  <text>II. LA VALEUR PROPHÉTIQUE DE « RERUM NOVARUM »</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#ii-la-valeur-prophetique-de-rerum-novarum"/>
+            </navPoint>
+            <navPoint id="id-id-114" playOrder="95">
+               <navLabel>
+                  <text>III. LA DIGNITÉ DU TRAVAIL</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-dimension-subjective-et-objective-du-travail"/>
+               <navPoint id="id-id-115" playOrder="95">
+                  <navLabel>
+                     <text>La dimension subjective et objective du travail</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-dimension-subjective-et-objective-du-travail"/>
+               </navPoint>
+               <navPoint id="id-id-116" playOrder="96">
+                  <navLabel>
+                     <text>Les rapports entre travail et capital</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#les-rapports-entre-travail-et-capital"/>
+               </navPoint>
+               <navPoint id="id-id-117" playOrder="97">
+                  <navLabel>
+                     <text>Le travail, titre de participation</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#le-travail-titre-de-participation"/>
+               </navPoint>
+               <navPoint id="id-id-118" playOrder="98">
+                  <navLabel>
+                     <text>Rapport entre travail et propriété privée</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#rapport-entre-travail-et-propriete-privee"/>
+               </navPoint>
+               <navPoint id="id-id-119" playOrder="99">
+                  <navLabel>
+                     <text>Le repos des jours fériés</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#le-repos-des-jours-feries"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-120" playOrder="100">
+               <navLabel>
+                  <text>IV. LE DROIT DU TRAVAIL</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#le-travail-est-necessaire"/>
+               <navPoint id="id-id-121" playOrder="100">
+                  <navLabel>
+                     <text>Le travail est nécessaire</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#le-travail-est-necessaire"/>
+               </navPoint>
+               <navPoint id="id-id-122" playOrder="101">
+                  <navLabel>
+                     <text>Le rôle de l’État et de la société civile dans la promotion du droit au travail</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#le-role-de-letat-et-de-la-societe-civile-dans-la-promotion-du-droit-au-travail"/>
+               </navPoint>
+               <navPoint id="id-id-123" playOrder="102">
+                  <navLabel>
+                     <text>La famille et le droit au travail</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-famille-et-le-droit-au-travail"/>
+               </navPoint>
+               <navPoint id="id-id-124" playOrder="103">
+                  <navLabel>
+                     <text>Les femmes et le droit au travail</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#les-femmes-et-le-droit-au-travail"/>
+               </navPoint>
+               <navPoint id="id-id-125" playOrder="104">
+                  <navLabel>
+                     <text>Travail des enfants</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#travail-des-enfants"/>
+               </navPoint>
+               <navPoint id="id-id-126" playOrder="105">
+                  <navLabel>
+                     <text>Migrations et travail</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#migrations-et-travail"/>
+               </navPoint>
+               <navPoint id="id-id-127" playOrder="106">
+                  <navLabel>
+                     <text>Le monde agricole et le droit au travail</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#le-monde-agricole-et-le-droit-au-travail"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-128" playOrder="107">
+               <navLabel>
+                  <text>V. LES DROITS DES TRAVAILLEURS</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#dignite-des-travailleurs-et-respect-de-leurs-droits"/>
+               <navPoint id="id-id-129" playOrder="107">
+                  <navLabel>
+                     <text>Dignité des travailleurs et respect de leurs droits</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#dignite-des-travailleurs-et-respect-de-leurs-droits"/>
+               </navPoint>
+               <navPoint id="id-id-130" playOrder="108">
+                  <navLabel>
+                     <text>Le droit à une juste rémunération et distribution du revenu</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#le-droit-a-une-juste-remuneration-et-distribution-du-revenu"/>
+               </navPoint>
+               <navPoint id="id-id-131" playOrder="109">
+                  <navLabel>
+                     <text>Le droit de grève</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#le-droit-de-greve"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-132" playOrder="110">
+               <navLabel>
+                  <text>VI. SOLIDARITÉ ENTRE LES TRAVAILLEURS</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#limportance-des-syndicats"/>
+               <navPoint id="id-id-133" playOrder="110">
+                  <navLabel>
+                     <text>L’importance des syndicats</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#limportance-des-syndicats"/>
+               </navPoint>
+               <navPoint id="id-id-134" playOrder="111">
+                  <navLabel>
+                     <text>Nouvelles formes de solidarité</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#nouvelles-formes-de-solidarite"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-135" playOrder="112">
+               <navLabel>
+                  <text>VII. LES « RES NOVAE » DU MONDE DU TRAVAIL</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#une-phase-de-transition-historique"/>
+               <navPoint id="id-id-136" playOrder="112">
+                  <navLabel>
+                     <text>Une phase de transition historique</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#une-phase-de-transition-historique"/>
+               </navPoint>
+               <navPoint id="id-id-137" playOrder="113">
+                  <navLabel>
+                     <text>Doctrine sociale et « res novae »</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#doctrine-sociale-et-res-novae"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+         <navPoint id="id-id-138" playOrder="114">
+            <navLabel>
+               <text>SEPTIÈME CHAPITRE : LA VIE ÉCONOMIQUE</text>
+            </navLabel>
+            <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#septieme-chapitre"/>
+            <navPoint id="id-id-139" playOrder="115">
+               <navLabel>
+                  <text>I. ASPECTS BIBLIQUE</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#lhomme-pauvrete-et-richesse"/>
+               <navPoint id="id-id-140" playOrder="115">
+                  <navLabel>
+                     <text>L’homme, pauvreté et richesse</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#lhomme-pauvrete-et-richesse"/>
+               </navPoint>
+               <navPoint id="id-id-141" playOrder="116">
+                  <navLabel>
+                     <text>La richesse existe pour être partagée</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-richesse-existe-pour-etre-partagee"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-142" playOrder="117">
+               <navLabel>
+                  <text>II. MORALE ET ÉCONOMIE</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#ii-morale-et-economie"/>
+            </navPoint>
+            <navPoint id="id-id-143" playOrder="118">
+               <navLabel>
+                  <text>III. INITIATIVE PRIVÉE ET ENTREPRISE</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#lentreprise-et-ses-fins"/>
+               <navPoint id="id-id-144" playOrder="118">
+                  <navLabel>
+                     <text>L’entreprise et ses fins</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#lentreprise-et-ses-fins"/>
+               </navPoint>
+               <navPoint id="id-id-145" playOrder="119">
+                  <navLabel>
+                     <text>Le rôle de l’entrepreneur et du dirigeant d’entreprise</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#le-role-de-lentrepreneur-et-du-dirigeant-dentreprise"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-146" playOrder="120">
+               <navLabel>
+                  <text>IV. INSTITUTIONS ÉCONOMIQUES AU SERVICE DE L’HOMME</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#role-du-marche-libre"/>
+               <navPoint id="id-id-147" playOrder="120">
+                  <navLabel>
+                     <text>Rôle du marché libre</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#role-du-marche-libre"/>
+               </navPoint>
+               <navPoint id="id-id-148" playOrder="121">
+                  <navLabel>
+                     <text>L’action de l’État</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#laction-de-letat"/>
+               </navPoint>
+               <navPoint id="id-id-149" playOrder="122">
+                  <navLabel>
+                     <text>Le rôle des corps intermédiaires</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#le-role-des-corps-intermediaires"/>
+               </navPoint>
+               <navPoint id="id-id-150" playOrder="123">
+                  <navLabel>
+                     <text>Épargne et consommation</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#epargne-et-consommation"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-151" playOrder="124">
+               <navLabel>
+                  <text/>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-mondialisation-les-opportunites-et-les-risques"/>
+               <navPoint id="id-id-152" playOrder="124">
+                  <navLabel>
+                     <text>La mondialisation : les opportunités et les risques</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-mondialisation-les-opportunites-et-les-risques"/>
+               </navPoint>
+               <navPoint id="id-id-153" playOrder="125">
+                  <navLabel>
+                     <text>Le système financier international</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#le-systeme-financier-international"/>
+               </navPoint>
+               <navPoint id="id-id-154" playOrder="126">
+                  <navLabel>
+                     <text>Le rôle de la communauté internationale à l’ère de l’économie globale</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#le-role-de-la-communaute-internationale-a-lere-de-leconomie-globale"/>
+               </navPoint>
+               <navPoint id="id-id-155" playOrder="127">
+                  <navLabel>
+                     <text>Un développement intégral et solidaire</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#un-developpement-integral-et-solidaire"/>
+               </navPoint>
+               <navPoint id="id-id-156" playOrder="128">
+                  <navLabel>
+                     <text>La nécessité d’une grande œuvre éducative et culturelle</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-necessite-dune-grande-339uvre-educative-et-culturelle"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+         <navPoint id="id-id-157" playOrder="129">
+            <navLabel>
+               <text>HUITIÈME CHAPITRE : LA COMMUNAUTÉ POLITIQUE</text>
+            </navLabel>
+            <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#huitieme-chapitre"/>
+            <navPoint id="id-id-158" playOrder="130">
+               <navLabel>
+                  <text>I. ASPECTS BIBLIQUES</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-seigneurie-de-dieu"/>
+               <navPoint id="id-id-159" playOrder="130">
+                  <navLabel>
+                     <text>La seigneurie de Dieu</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-seigneurie-de-dieu"/>
+               </navPoint>
+               <navPoint id="id-id-160" playOrder="131">
+                  <navLabel>
+                     <text>Jésus et l’autorité politique</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#jesus-et-lautorite-politique"/>
+               </navPoint>
+               <navPoint id="id-id-161" playOrder="132">
+                  <navLabel>
+                     <text>Les premières communautés chrétiennes</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#les-premieres-communautes-chretiennes"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-162" playOrder="133">
+               <navLabel>
+                  <text>II. LES FONDEMENTS ET LA FIN DE LA COMMUNAUTÉ POLITIQUE</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#communaute-politique-personne-humaine-et-peuple"/>
+               <navPoint id="id-id-163" playOrder="133">
+                  <navLabel>
+                     <text>Communauté politique, personne humaine et peuple</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#communaute-politique-personne-humaine-et-peuple"/>
+               </navPoint>
+               <navPoint id="id-id-164" playOrder="134">
+                  <navLabel>
+                     <text>Protéger et promouvoir les droits de l’homme</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#proteger-et-promouvoir-les-droits-de-lhomme"/>
+               </navPoint>
+               <navPoint id="id-id-165" playOrder="135">
+                  <navLabel>
+                     <text>La vie en société basée sur l’amitié civile</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-vie-en-societe-basee-sur-lamitie-civile"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-166" playOrder="136">
+               <navLabel>
+                  <text>III. AUTORITÉ POLITIQUE</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#le-fondement-de-lautorite-politique"/>
+               <navPoint id="id-id-167" playOrder="136">
+                  <navLabel>
+                     <text>Le fondement de l’autorité politique</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#le-fondement-de-lautorite-politique"/>
+               </navPoint>
+               <navPoint id="id-id-168" playOrder="137">
+                  <navLabel>
+                     <text>L’autorité comme force morale</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#lautorite-comme-force-morale"/>
+               </navPoint>
+               <navPoint id="id-id-169" playOrder="138">
+                  <navLabel>
+                     <text>Le droit à l’objection de conscience</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#le-droit-a-lobjection-de-conscience"/>
+               </navPoint>
+               <navPoint id="id-id-170" playOrder="139">
+                  <navLabel>
+                     <text>Le droit de résister</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#le-droit-de-resister"/>
+               </navPoint>
+               <navPoint id="id-id-171" playOrder="140">
+                  <navLabel>
+                     <text>Infliger les peines</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#infliger-les-peines"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-172" playOrder="141">
+               <navLabel>
+                  <text>IV. LE SYSTÈME DE LA DÉMOCRATIE</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#iv-le-systeme-de-la-democratie"/>
+               <navPoint id="id-id-173" playOrder="142">
+                  <navLabel>
+                     <text>Les valeurs de la démocratie</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#les-valeurs-de-la-democratie"/>
+               </navPoint>
+               <navPoint id="id-id-174" playOrder="143">
+                  <navLabel>
+                     <text>Institutions et démocratie</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#institutions-et-democratie"/>
+               </navPoint>
+               <navPoint id="id-id-175" playOrder="144">
+                  <navLabel>
+                     <text>Les éléments moraux de la représentation politique</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#les-elements-moraux-de-la-representation-politique"/>
+               </navPoint>
+               <navPoint id="id-id-176" playOrder="145">
+                  <navLabel>
+                     <text>Instruments de participation politique</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#instruments-de-participation-politique"/>
+               </navPoint>
+               <navPoint id="id-id-177" playOrder="146">
+                  <navLabel>
+                     <text>Information et démocratie</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#information-et-democratie"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-178" playOrder="147">
+               <navLabel>
+                  <text>V. LA COMMUNAUTÉ POLITIQUE AU SERVICE DE LA SOCIÉTÉ CIVILE</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-valeur-de-la-societe-civile"/>
+               <navPoint id="id-id-179" playOrder="147">
+                  <navLabel>
+                     <text>La valeur de la société civile</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-valeur-de-la-societe-civile"/>
+               </navPoint>
+               <navPoint id="id-id-180" playOrder="148">
+                  <navLabel>
+                     <text>La primauté de la société civile</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-primaute-de-la-societe-civile"/>
+               </navPoint>
+               <navPoint id="id-id-181" playOrder="149">
+                  <navLabel>
+                     <text>L’application du principe de subsidiarité</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#lapplication-du-principe-de-subsidiarite"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-182" playOrder="150">
+               <navLabel>
+                  <text>VI. L'ÉTAT ET LES COMMUNAUTÉS RELIGIEUSES</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-liberte-religieuse-un-droit-humain-fondamental"/>
+               <navPoint id="id-id-183" playOrder="150">
+                  <navLabel>
+                     <text>LA LIBERTÉ RELIGIEUSE, UN DROIT HUMAIN FONDAMENTAL</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-liberte-religieuse-un-droit-humain-fondamental"/>
+               </navPoint>
+               <navPoint id="id-id-184" playOrder="151">
+                  <navLabel>
+                     <text>ÉGLISE CATHOLIQUE ET COMMUNAUTÉ POLITIQUE</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#eglise-catholique-et-communaute-politique"/>
+                  <navPoint id="id-id-185" playOrder="152">
+                     <navLabel>
+                        <text>Autonomie et indépendance</text>
+                     </navLabel>
+                     <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#autonomie-et-independance"/>
+                  </navPoint>
+                  <navPoint id="id-id-186" playOrder="153">
+                     <navLabel>
+                        <text>Collaboration</text>
+                     </navLabel>
+                     <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#collaboration"/>
+                  </navPoint>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+         <navPoint id="id-id-187" playOrder="154">
+            <navLabel>
+               <text>NEUVIÈME CHAPITRE : LA COMMUNAUTÉ INTERNATIONALE</text>
+            </navLabel>
+            <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#neuvieme-chapitre"/>
+            <navPoint id="id-id-188" playOrder="155">
+               <navLabel>
+                  <text>I. ASPECTS BIBLIQUES</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#lunite-de-la-famille-humaine"/>
+               <navPoint id="id-id-189" playOrder="155">
+                  <navLabel>
+                     <text>L’unité de la famille humaine</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#lunite-de-la-famille-humaine"/>
+               </navPoint>
+               <navPoint id="id-id-190" playOrder="156">
+                  <navLabel>
+                     <text>Jésus-Christ, prototype et fondement de la nouvelle humanité</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#jesuschrist-prototype-et-fondement-de-la-nouvelle-humanite"/>
+               </navPoint>
+               <navPoint id="id-id-191" playOrder="157">
+                  <navLabel>
+                     <text>La vocation universelle du christianisme</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-vocation-universelle-du-christianisme"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-192" playOrder="158">
+               <navLabel>
+                  <text>II. LES RÈGLES FONDAMENTALES DE LA COMMUNAUTÉ INTERNATIONALE</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#communaute-internationale-et-valeurs"/>
+               <navPoint id="id-id-193" playOrder="158">
+                  <navLabel>
+                     <text>Communauté internationale et valeurs</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#communaute-internationale-et-valeurs"/>
+               </navPoint>
+               <navPoint id="id-id-194" playOrder="159">
+                  <navLabel>
+                     <text>Relations fondées sur l’harmonie entre ordre juridique et ordre moral</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#relations-fondees-sur-lharmonie-entre-ordre-juridique-et-ordre-moral"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-195" playOrder="160">
+               <navLabel>
+                  <text>III. LES RÈGLES FONDAMENTALES DE LA COMMUNAUTÉ INTERNATIONALE</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-valeur-des-organisations-internationales"/>
+               <navPoint id="id-id-196" playOrder="160">
+                  <navLabel>
+                     <text>La valeur des Organisations internationales</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-valeur-des-organisations-internationales"/>
+               </navPoint>
+               <navPoint id="id-id-197" playOrder="161">
+                  <navLabel>
+                     <text>La personnalité juridique du Saint-Siège</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-personnalite-juridique-du-saintsiege"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-198" playOrder="162">
+               <navLabel>
+                  <text>IV. LA COOPÉRATION INTERNATIONALE POUR LE DÉVELOPPEMENT</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#collaboration-pour-garantir-le-droit-au-developpement"/>
+               <navPoint id="id-id-199" playOrder="162">
+                  <navLabel>
+                     <text>Collaboration pour garantir le droit au développement</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#collaboration-pour-garantir-le-droit-au-developpement"/>
+               </navPoint>
+               <navPoint id="id-id-200" playOrder="163">
+                  <navLabel>
+                     <text>Lutte contre la pauvreté</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#lutte-contre-la-pauvrete"/>
+               </navPoint>
+               <navPoint id="id-id-201" playOrder="164">
+                  <navLabel>
+                     <text>La dette extérieure</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-dette-exterieure"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+         <navPoint id="id-id-202" playOrder="165">
+            <navLabel>
+               <text>DIXIÈME CHAPITRE : SAUVEGARDER L'ENVIRONNEMENT</text>
+            </navLabel>
+            <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#dixieme-chapitre"/>
+            <navPoint id="id-id-203" playOrder="165">
+               <navLabel>
+                  <text>I. ASPECTS BIBLIQUE</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#dixieme-chapitre"/>
+            </navPoint>
+            <navPoint id="id-id-204" playOrder="166">
+               <navLabel>
+                  <text>II. L’HOMME ET L’UNIVERS DES CHOSES</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#ii-lhomme-et-lunivers-des-choses"/>
+            </navPoint>
+            <navPoint id="id-id-205" playOrder="167">
+               <navLabel>
+                  <text>III. LA CRISE DANS LE RAPPORT ENTRE L’HOMME ET L’ENVIRONNEMENT</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#iii-la-crise-dans-le-rapport-entre-lhomme-et-lenvironnement"/>
+               <navPoint id="id-id-206" playOrder="168">
+                  <navLabel>
+                     <text>L’environnement, un bien collectif</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#lenvironnement-un-bien-collectif"/>
+               </navPoint>
+               <navPoint id="id-id-207" playOrder="169">
+                  <navLabel>
+                     <text>L’usage des biotechnologies</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#lusage-des-biotechnologies"/>
+               </navPoint>
+               <navPoint id="id-id-208" playOrder="170">
+                  <navLabel>
+                     <text>Environnement et partage des biens</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#environnement-et-partage-des-biens"/>
+               </navPoint>
+               <navPoint id="id-id-209" playOrder="171">
+                  <navLabel>
+                     <text>Nouveaux styles de vie</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#nouveaux-styles-de-vie"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+         <navPoint id="id-id-210" playOrder="172">
+            <navLabel>
+               <text>ONZIÈME CHAPITRE : LA PROMOTION DE LA PAIX</text>
+            </navLabel>
+            <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#onzieme-chapitre"/>
+            <navPoint id="id-id-211" playOrder="172">
+               <navLabel>
+                  <text>I. ASPECTS BIBLIQUE</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#onzieme-chapitre"/>
+            </navPoint>
+            <navPoint id="id-id-212" playOrder="173">
+               <navLabel>
+                  <text>II. LA PAIX : FRUIT DE LA JUSTICE ET DE LA CHARITÉ</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#ii-la-paix-fruit-de-la-justice-et-de-la-charite"/>
+            </navPoint>
+            <navPoint id="id-id-213" playOrder="174">
+               <navLabel>
+                  <text>III. L’ÉCHEC DE LA PAIX : LA GUERRE</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#iii-lechec-de-la-paix-la-guerre"/>
+               <navPoint id="id-id-214" playOrder="175">
+                  <navLabel>
+                     <text>La légitime défense</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-legitime-defense"/>
+               </navPoint>
+               <navPoint id="id-id-215" playOrder="176">
+                  <navLabel>
+                     <text>Défendre la paix</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#defendre-la-paix"/>
+               </navPoint>
+               <navPoint id="id-id-216" playOrder="177">
+                  <navLabel>
+                     <text>Le devoir de protéger les innocents</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#le-devoir-de-proteger-les-innocents"/>
+               </navPoint>
+               <navPoint id="id-id-217" playOrder="178">
+                  <navLabel>
+                     <text>Mesures contre ceux qui menacent la paix</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#mesures-contre-ceux-qui-menacent-la-paix"/>
+               </navPoint>
+               <navPoint id="id-id-218" playOrder="179">
+                  <navLabel>
+                     <text>Le désarmement</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#le-desarmement"/>
+               </navPoint>
+               <navPoint id="id-id-219" playOrder="180">
+                  <navLabel>
+                     <text>La condamnation du terrorisme</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#la-condamnation-du-terrorisme"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-220" playOrder="181">
+               <navLabel>
+                  <text>IV. LA CONTRIBUTION DE L’ÉGLISE À LA PAIX</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p02.html#iv-la-contribution-de-leglise-a-la-paix"/>
+            </navPoint>
+         </navPoint>
+      </navPoint>
+      <navPoint id="id-id-221" playOrder="182">
+         <navLabel>
+            <text>TROISIÈME PARTIE</text>
+         </navLabel>
+         <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p03.html#troisieme-partie"/>
+         <navPoint id="id-id-222" playOrder="183">
+            <navLabel>
+               <text>DOUZIÈME CHAPITRE DOCTRINE SOCIALE ET ACTION ECCLÉSIALE</text>
+            </navLabel>
+            <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p03.html#douzieme-chapitre"/>
+            <navPoint id="id-id-223" playOrder="184">
+               <navLabel>
+                  <text>I. L'ACTION PASTORALE DANS LE DOMAINE SOCIAL</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p03.html#doctrine-sociale-et-inculturation-de-la-foi"/>
+               <navPoint id="id-id-224" playOrder="184">
+                  <navLabel>
+                     <text>Doctrine sociale et inculturation de la foi</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p03.html#doctrine-sociale-et-inculturation-de-la-foi"/>
+               </navPoint>
+               <navPoint id="id-id-225" playOrder="185">
+                  <navLabel>
+                     <text>Doctrine sociale et pastorale sociale</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p03.html#doctrine-sociale-et-pastorale-sociale"/>
+               </navPoint>
+               <navPoint id="id-id-226" playOrder="186">
+                  <navLabel>
+                     <text>Doctrine sociale et formation</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p03.html#doctrine-sociale-et-formation"/>
+               </navPoint>
+               <navPoint id="id-id-227" playOrder="187">
+                  <navLabel>
+                     <text>Promouvoir le dialogue</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p03.html#promouvoir-le-dialogue"/>
+               </navPoint>
+               <navPoint id="id-id-228" playOrder="188">
+                  <navLabel>
+                     <text>Les sujets de la pastorale sociale</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p03.html#les-sujets-de-la-pastorale-sociale"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="id-id-229" playOrder="189">
+               <navLabel>
+                  <text>II. DOCTRINE SOCIALE ET ENGAGEMENT DES FIDÈLES LAÏCS</text>
+               </navLabel>
+               <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p03.html#le-fidele-laic"/>
+               <navPoint id="id-id-230" playOrder="189">
+                  <navLabel>
+                     <text>Le fidèle laïc</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p03.html#le-fidele-laic"/>
+               </navPoint>
+               <navPoint id="id-id-231" playOrder="190">
+                  <navLabel>
+                     <text>La spiritualité du fidèle laïc</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p03.html#la-spiritualite-du-fidele-laic"/>
+               </navPoint>
+               <navPoint id="id-id-232" playOrder="191">
+                  <navLabel>
+                     <text>Agir avec prudence</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p03.html#agir-avec-prudence"/>
+               </navPoint>
+               <navPoint id="id-id-233" playOrder="192">
+                  <navLabel>
+                     <text>Doctrine sociale et expérience associative</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p03.html#doctrine-sociale-et-experience-associative"/>
+               </navPoint>
+               <navPoint id="id-id-234" playOrder="193">
+                  <navLabel>
+                     <text>Le service dans les différents milieux de la vie sociale</text>
+                  </navLabel>
+                  <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p03.html#le-service-dans-les-differents-milieux-de-la-vie-sociale"/>
+                  <navPoint id="id-id-235" playOrder="194">
+                     <navLabel>
+                        <text>Le service à la personne humaine</text>
+                     </navLabel>
+                     <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p03.html#le-service-a-la-personne-humaine"/>
+                  </navPoint>
+                  <navPoint id="id-id-236" playOrder="195">
+                     <navLabel>
+                        <text>Le service à la culture</text>
+                     </navLabel>
+                     <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p03.html#le-service-a-la-culture"/>
+                  </navPoint>
+                  <navPoint id="id-id-237" playOrder="196">
+                     <navLabel>
+                        <text>Le service à l’économie</text>
+                     </navLabel>
+                     <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p03.html#le-service-a-leconomie"/>
+                  </navPoint>
+                  <navPoint id="id-id-238" playOrder="197">
+                     <navLabel>
+                        <text>Le service à la politique</text>
+                     </navLabel>
+                     <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p03.html#le-service-a-la-politique"/>
+                  </navPoint>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+      </navPoint>
+      <navPoint id="id-id-239" playOrder="198">
+         <navLabel>
+            <text>CONCLUSION : POUR UNE CIVILISATION DE L’AMOUR</text>
+         </navLabel>
+         <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p03.html#laide-de-leglise-a-lhomme-contemporain"/>
+         <navPoint id="id-id-240" playOrder="198">
+            <navLabel>
+               <text>L’aide de l’Église à l’homme contemporain</text>
+            </navLabel>
+            <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p03.html#laide-de-leglise-a-lhomme-contemporain"/>
+         </navPoint>
+         <navPoint id="id-id-241" playOrder="199">
+            <navLabel>
+               <text>Repartir de la foi au Christ</text>
+            </navLabel>
+            <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p03.html#repartir-de-la-foi-au-christ"/>
+         </navPoint>
+         <navPoint id="id-id-242" playOrder="200">
+            <navLabel>
+               <text>Une ferme espérance</text>
+            </navLabel>
+            <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p03.html#une-ferme-esperance"/>
+         </navPoint>
+         <navPoint id="id-id-243" playOrder="201">
+            <navLabel>
+               <text>Construire la « civilisation de l’amour »</text>
+            </navLabel>
+            <content src="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p03.html#construire-la-civilisation-de-lamour"/>
+         </navPoint>
+      </navPoint>  
+   </navMap>
+</ncx>

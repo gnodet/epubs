@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="uuid_id">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>Christus Dominus</dc:title>
+    <dc:language>fr</dc:language>
+    <dc:creator opf:file-as="" opf:role="aut"></dc:creator>
+    <meta name="cover" content="cover-image"/>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">0a8fea2e-2190-4bfc-a992-ca3f26621d4b</dc:identifier>
+  </metadata>
+  <manifest>
+    <item id="s0" media-type="application/xhtml+xml" href="OEBPS/vat-ii_decree_19651028_christus-dominus_fr.html" />
+   <item id="cover" media-type="application/xhtml+xml" href="OEBPS/cover.html" />
+   <item id="cover-image" media-type="image/png" href="OEBPS/img/cover.png" />
+    <item href="toc.ncx" media-type="application/x-dtbncx+xml" id="ncx"/>
+  </manifest>
+  <spine toc="ncx"> 
+    <itemref idref="s0"/>
+  </spine>
+</package>

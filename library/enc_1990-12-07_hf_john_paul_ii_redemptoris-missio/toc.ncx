@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta content="1" name="dtb:depth"/>
+  </head>
+  <docTitle>
+    <text>Redemptoris missio</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="id-1" playOrder="1">
+      <navLabel>
+        <text>Redemptoris missio</text>
+      </navLabel>
+      <content src="OEBPS/enc_1990-12-07_hf_john_paul_ii_redemptoris-missio.html"/>
+    </navPoint>
+  </navMap>
+</ncx>

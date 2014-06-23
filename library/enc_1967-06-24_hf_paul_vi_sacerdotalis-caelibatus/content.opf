@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="uuid_id">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>Sacerdotalis Cælibatus</dc:title>
+    <dc:language>fr</dc:language>
+    <dc:creator opf:file-as="Paul VI" opf:role="aut">Paul VI</dc:creator>
+    <meta name="cover" content="cover-image"/>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">bb06ccac-bd9f-4ed2-a7ca-d669f7168e36</dc:identifier>
+  </metadata>
+  <manifest>
+    <item id="s0" media-type="application/xhtml+xml" href="OEBPS/enc_1967-06-24_hf_paul_vi_sacerdotalis-caelibatus.html" />
+   <item id="r0" media-type="image/svg+xml" href="OEBPS/img/paul_vi-bw.svg" />
+   <item id="cover" media-type="application/xhtml+xml" href="OEBPS/cover.html" />
+   <item id="cover-image" media-type="image/png" href="OEBPS/img/cover.png" />
+    <item href="toc.ncx" media-type="application/x-dtbncx+xml" id="ncx"/>
+  </manifest>
+  <spine toc="ncx"> 
+    <itemref idref="s0"/>
+  </spine>
+</package>

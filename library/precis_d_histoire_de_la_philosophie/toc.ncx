@@ -1,0 +1,3315 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta content="1" name="dtb:depth"/>
+  </head>
+  <docTitle>
+    <text>Précis d’histoire de la philosophie</text>
+  </docTitle>
+  <navMap>
+<navPoint id="id-0" playOrder="0">
+<navLabel><text>Préface</text></navLabel>
+<content src="OEBPS/h03_preface.htm"/>
+</navPoint>
+<navPoint id="id-1" playOrder="1">
+<navLabel><text>Introduction</text></navLabel>
+<content src="OEBPS/h04_p0001a0025.htm#s1p1"/>
+<navPoint id="id-2" playOrder="2">
+<navLabel><text>1. Définition</text></navLabel>
+<content src="OEBPS/h04_p0001a0025.htm#s1p2"/>
+</navPoint>
+<navPoint id="id-3" playOrder="3">
+<navLabel><text>2. Vue d'ensemble et division</text></navLabel>
+<content src="OEBPS/h04_p0001a0025.htm#s3p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-4" playOrder="4">
+<navLabel><text>Première partie. Époque grecque et romaine. Philosophie païenne.  (Du VIe siècle avant J.-C. au VIe siècle après J.-C.)</text></navLabel>
+<content src="OEBPS/h04_p0001a0025.htm#s4p1"/>
+<navPoint id="id-5" playOrder="5">
+<navLabel><text>Première période. Aurore de l'hellénisme philosophique.  (VIe et Ve siècles avant Jésus-Christ.)</text></navLabel>
+<content src="OEBPS/h04_p0001a0025.htm#s5p1"/>
+<navPoint id="id-6" playOrder="6">
+<navLabel><text>Article 1. - Solution sensualiste: les Ioniens</text></navLabel>
+<content src="OEBPS/h04_p0001a0025.htm#s6p2"/>
+<navPoint id="id-7" playOrder="7">
+<navLabel><text>1. - Les anciens Ioniens: Thalès (vers 640-550) Anaximandre (611-546), Anaximène (588-524)</text></navLabel>
+<content src="OEBPS/h04_p0001a0025.htm#s6p1"/>
+</navPoint>
+<navPoint id="id-8" playOrder="8">
+<navLabel><text>2. - Héraclite d'Éphèse (entre 540 et 475)</text></navLabel>
+<content src="OEBPS/h04_p0001a0025.htm#s8p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-9" playOrder="9">
+<navLabel><text>Article 2. - Solution rationaliste: les Éléates</text></navLabel>
+<content src="OEBPS/h04_p0001a0025.htm#s11p1"/>
+<navPoint id="id-10" playOrder="10">
+<navLabel><text>1. - Précurseurs: Pythagore de Samos (entre 580 et 500); Xénophane (vers 570-478).</text></navLabel>
+<content src="OEBPS/h04_p0001a0025.htm#s11p2"/>
+</navPoint>
+<navPoint id="id-11" playOrder="11">
+<navLabel><text>2. - Parménide d'Élée (entre 530 et 444)</text></navLabel>
+<content src="OEBPS/h04_p0001a0025.htm#s14p1"/>
+</navPoint>
+<navPoint id="id-12" playOrder="12">
+<navLabel><text>3. - Zénon d'Élée (vers 490)</text></navLabel>
+<content src="OEBPS/h04_p0001a0025.htm#s16p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-13" playOrder="13">
+<navLabel><text>Article 3. - Conciliation physique: les Atomistes.</text></navLabel>
+<content src="OEBPS/h04_p0001a0025.htm#s18p1"/>
+<navPoint id="id-14" playOrder="13">
+<navLabel><text>Leucippe d'Abdère (vers 500)</text></navLabel>
+<content src="OEBPS/h04_p0001a0025.htm#s18p1"/>
+</navPoint>
+<navPoint id="id-15" playOrder="13">
+<navLabel><text>Démocrite (vers 520-440)</text></navLabel>
+<content src="OEBPS/h04_p0001a0025.htm#s18p1"/>
+</navPoint>
+<navPoint id="id-16" playOrder="13">
+<navLabel><text>Empédocle d'Agrigente (vers 445)</text></navLabel>
+<content src="OEBPS/h04_p0001a0025.htm#s18p1"/>
+</navPoint>
+<navPoint id="id-17" playOrder="13">
+<navLabel><text>Anaxagore de Clazomène (entre 500 et 428)</text></navLabel>
+<content src="OEBPS/h04_p0001a0025.htm#s18p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-18" playOrder="14">
+<navLabel><text>Article 4. - Conciliation psychologique: les Sophistes.</text></navLabel>
+<content src="OEBPS/h04_p0001a0025.htm#s23p1"/>
+<navPoint id="id-19" playOrder="14">
+<navLabel><text>Protagoras d'Abdère (entre 480 et 410)</text></navLabel>
+<content src="OEBPS/h04_p0001a0025.htm#s23p1"/>
+</navPoint>
+<navPoint id="id-20" playOrder="14">
+<navLabel><text>Gorgias de Léontini (vers 425)</text></navLabel>
+<content src="OEBPS/h04_p0001a0025.htm#s23p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-21" playOrder="15">
+<navLabel><text>Deuxième période. Apogée de l'hellénisme philosophique.  De 470, Naissance de Socrate, à 322: Mort d'Aristote (Ve-IVe siècles av. J.-C.)</text></navLabel>
+<content src="OEBPS/h05_p0026a0050.htm#s26p1"/>
+<navPoint id="id-22" playOrder="16">
+<navLabel><text>Chapitre 1. - Socrate (470-399).</text></navLabel>
+<content src="OEBPS/h05_p0026a0050.htm#s27p1"/>
+<navPoint id="id-23" playOrder="17">
+<navLabel><text>1. - Objet de la philosophie socratique.</text></navLabel>
+<content src="OEBPS/h05_p0026a0050.htm#s28p1"/>
+</navPoint>
+<navPoint id="id-24" playOrder="18">
+<navLabel><text>2. - La méthode socratique.</text></navLabel>
+<content src="OEBPS/h05_p0026a0050.htm#s29p1"/>
+</navPoint>
+<navPoint id="id-25" playOrder="19">
+<navLabel><text>3. - La science morale.</text></navLabel>
+<content src="OEBPS/h05_p0026a0050.htm#s31p1"/>
+</navPoint>
+<navPoint id="id-26" playOrder="20">
+<navLabel><text>4. - Essai de psychologie et de théodicée.</text></navLabel>
+<content src="OEBPS/h05_p0026a0050.htm#s86p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-27" playOrder="21">
+<navLabel><text>Chapitre 2. - Platon (429-348).</text></navLabel>
+<content src="OEBPS/h05_p0026a0050.htm#s39p1"/>
+<navPoint id="id-28" playOrder="22">
+<navLabel><text>Article 1. La dialectique: science des idées.</text></navLabel>
+<content src="OEBPS/h05_p0026a0050.htm#s41p1"/>
+<navPoint id="id-29" playOrder="23">
+<navLabel><text>1. Existence du monde idéal.</text></navLabel>
+<content src="OEBPS/h05_p0026a0050.htm#s41p2"/>
+<navPoint id="id-30" playOrder="24">
+<navLabel><text>A) L'argumentation</text></navLabel>
+<content src="OEBPS/h05_p0026a0050.htm#s41p3"/>
+</navPoint>
+<navPoint id="id-31" playOrder="25">
+<navLabel><text>B) Pluralité des idées</text></navLabel>
+<content src="OEBPS/h05_p0026a0050.htm#s42p1"/>
+</navPoint>
+<navPoint id="id-32" playOrder="26">
+<navLabel><text>C) Nature des idées</text></navLabel>
+<content src="OEBPS/h05_p0026a0050.htm#s43"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-33" playOrder="27">
+<navLabel><text>2. Méthode platonicienne.</text></navLabel>
+<content src="OEBPS/h05_p0026a0050.htm#s44p1"/>
+<navPoint id="id-34" playOrder="28">
+<navLabel><text>A) Aspect logique</text></navLabel>
+<content src="OEBPS/h05_p0026a0050.htm#s44p2"/>
+</navPoint>
+<navPoint id="id-35" playOrder="29">
+<navLabel><text>B) Aspect psychologique</text></navLabel>
+<content src="OEBPS/h05_p0026a0050.htm#s45p1"/>
+</navPoint>
+<navPoint id="id-36" playOrder="30">
+<navLabel><text>C) Réalisme et innéisme platoniciens</text></navLabel>
+<content src="OEBPS/h05_p0026a0050.htm#s46"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-37" playOrder="31">
+<navLabel><text>3. Rapport mutuel des Idées.</text></navLabel>
+<content src="OEBPS/h05_p0026a0050.htm#s47p1"/>
+<navPoint id="id-38" playOrder="32">
+<navLabel><text>A) Théorie de la participation</text></navLabel>
+<content src="OEBPS/h05_p0026a0050.htm#s47p2"/>
+</navPoint>
+<navPoint id="id-39" playOrder="33">
+<navLabel><text>B) Essai d'explication par les cinq genres</text></navLabel>
+<content src="OEBPS/h05_p0026a0050.htm#s48p1"/>
+</navPoint>
+<navPoint id="id-40" playOrder="34">
+<navLabel><text>C) Le bien, dernière raison de tout</text></navLabel>
+<content src="OEBPS/h05_p0026a0050.htm#s49p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-41" playOrder="35">
+<navLabel><text>Article 2. - Le monde sensible: domaine de l'opinion.</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s51p1"/>
+<navPoint id="id-42" playOrder="36">
+<navLabel><text>1. Physique générale.</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s52p1"/>
+<navPoint id="id-43" playOrder="37">
+<navLabel><text>A) Le principe infini: la matière.</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s52p2"/>
+</navPoint>
+<navPoint id="id-44" playOrder="38">
+<navLabel><text>B) Le principe fini: participation aux Idées.</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s53p1"/>
+</navPoint>
+<navPoint id="id-45" playOrder="39">
+<navLabel><text>C) L'ordre du monde.</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s54p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-46" playOrder="40">
+<navLabel><text>2. Théodicée.</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s55p1"/>
+<navPoint id="id-47" playOrder="41">
+<navLabel><text>A) Preuves de l'existence de Dieu.</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s55p2"/>
+</navPoint>
+<navPoint id="id-48" playOrder="42">
+<navLabel><text>B) Attributs de Dieu</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s56p1"/>
+</navPoint>
+<navPoint id="id-49" playOrder="43">
+<navLabel><text>C) Valeur de la Théodicée platonicienne.</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s57p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-50" playOrder="44">
+<navLabel><text>3. Psychologie.</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s58p1"/>
+<navPoint id="id-51" playOrder="45">
+<navLabel><text>A) Nature de l'âme.</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s58p2"/>
+</navPoint>
+<navPoint id="id-52" playOrder="46">
+<navLabel><text>B) Facultés de l'âme.</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s60p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-53" playOrder="47">
+<navLabel><text>4. Morale.</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s61p1"/>
+<navPoint id="id-54" playOrder="48">
+<navLabel><text>A) Le bonheur.</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s61p2"/>
+</navPoint>
+<navPoint id="id-55" playOrder="49">
+<navLabel><text>B) La vertu.</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s62p1"/>
+</navPoint>
+<navPoint id="id-56" playOrder="50">
+<navLabel><text>C) L'obligation.</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s63p1"/>
+</navPoint>
+<navPoint id="id-57" playOrder="51">
+<navLabel><text>D) l'État.</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s64p1"/>
+</navPoint>
+<navPoint id="id-58" playOrder="52">
+<navLabel><text>E) Les sanctions.</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s65p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-59" playOrder="53">
+<navLabel><text>Chapitre 3. - Aristote (384-322).</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s67p1"/>
+<navPoint id="id-60" playOrder="54">
+<navLabel><text>1. - La théorie fondamentale (ontologie).</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s69p1"/>
+<navPoint id="id-61" playOrder="55">
+<navLabel><text>A) Origine historique.</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s69p2"/>
+</navPoint>
+<navPoint id="id-62" playOrder="56">
+<navLabel><text>B) Double précision.</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s70p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-63" playOrder="57">
+<navLabel><text>2. - L'ordre logique.</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s71p1"/>
+<navPoint id="id-64" playOrder="58">
+<navLabel><text>A) Logique formelle.</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s72p1"/>
+</navPoint>
+<navPoint id="id-65" playOrder="59">
+<navLabel><text>B) Logique matérielle.</text></navLabel>
+<content src="OEBPS/h06_p0051a0073.htm#s73p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-66" playOrder="60">
+<navLabel><text>3. - La physique générale.</text></navLabel>
+<content src="OEBPS/h07_p0074a0095.htm#s74p1"/>
+<navPoint id="id-67" playOrder="61">
+<navLabel><text>A) Les quatre causes</text></navLabel>
+<content src="OEBPS/h07_p0074a0095.htm#s75p1"/>
+</navPoint>
+<navPoint id="id-68" playOrder="62">
+<navLabel><text>B) Substance et accidents</text></navLabel>
+<content src="OEBPS/h07_p0074a0095.htm#s76p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-69" playOrder="63">
+<navLabel><text>4. - Les corps ou sciences physiques.</text></navLabel>
+<content src="OEBPS/h07_p0074a0095.htm#s77p1"/>
+<navPoint id="id-70" playOrder="64">
+<navLabel><text>A) Matière et forme</text></navLabel>
+<content src="OEBPS/h07_p0074a0095.htm#s77p2"/>
+</navPoint>
+<navPoint id="id-71" playOrder="65">
+<navLabel><text>B) Les dix prédicaments</text></navLabel>
+<content src="OEBPS/h07_p0074a0095.htm#s78p1"/>
+</navPoint>
+<navPoint id="id-72" playOrder="66">
+<navLabel><text>C) L'éternité du monde</text></navLabel>
+<content src="OEBPS/h07_p0074a0095.htm#s79p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-73" playOrder="67">
+<navLabel><text>5. - Les plantes ou sciences biologiques.</text></navLabel>
+<content src="OEBPS/h07_p0074a0095.htm#s80p1"/>
+</navPoint>
+<navPoint id="id-74" playOrder="68">
+<navLabel><text>6. - Les animaux ou sciences zoologiques.</text></navLabel>
+<content src="OEBPS/h07_p0074a0095.htm#s81p1"/>
+</navPoint>
+<navPoint id="id-75" playOrder="69">
+<navLabel><text>7. - L'âme subsistante ou psychologie.</text></navLabel>
+<content src="OEBPS/h07_p0074a0095.htm#s83p1"/>
+<navPoint id="id-76" playOrder="70">
+<navLabel><text>A) L'intellect passif</text></navLabel>
+<content src="OEBPS/h07_p0074a0095.htm#s83p2"/>
+</navPoint>
+<navPoint id="id-77" playOrder="71">
+<navLabel><text>B) L'intellect agent</text></navLabel>
+<content src="OEBPS/h07_p0074a0095.htm#s84p1"/>
+</navPoint>
+<navPoint id="id-78" playOrder="72">
+<navLabel><text>C) L'âme spirituelle</text></navLabel>
+<content src="OEBPS/h07_p0074a0095.htm#s85p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-79" playOrder="73">
+<navLabel><text>8. - L'activité humaine ou morale.</text></navLabel>
+<content src="OEBPS/h07_p0074a0095.htm#s87p1"/>
+<navPoint id="id-80" playOrder="74">
+<navLabel><text>A) Théorie de l'appétit</text></navLabel>
+<content src="OEBPS/h07_p0074a0095.htm#s87p2"/>
+</navPoint>
+<navPoint id="id-81" playOrder="75">
+<navLabel><text>B) Morale individuelle</text></navLabel>
+<content src="OEBPS/h07_p0074a0095.htm#s88p1"/>
+</navPoint>
+<navPoint id="id-82" playOrder="76">
+<navLabel><text>C) Morale sociale</text></navLabel>
+<content src="OEBPS/h07_p0074a0095.htm#s89p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-83" playOrder="77">
+<navLabel><text>9. - L'oeuvre humaine ou l'art.</text></navLabel>
+<content src="OEBPS/h07_p0074a0095.htm#s91p1"/>
+</navPoint>
+<navPoint id="id-84" playOrder="78">
+<navLabel><text>10. - La métaphysique ou théologie.</text></navLabel>
+<content src="OEBPS/h07_p0074a0095.htm#s92p1"/>
+<navPoint id="id-85" playOrder="79">
+<navLabel><text>A) Existence de Dieu</text></navLabel>
+<content src="OEBPS/h07_p0074a0095.htm#s92p2"/>
+</navPoint>
+<navPoint id="id-86" playOrder="80">
+<navLabel><text>B) Attributs de Dieu</text></navLabel>
+<content src="OEBPS/h07_p0074a0095.htm#s93p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-87" playOrder="81">
+<navLabel><text>Troisième période. Décadence et Transition.  (De 322: mort d'Aristote (IIIe siècle avant J.-C.) à 270: mort de Plotin (III siècle après J.-C.;  529: Fermeture de l'école d'Athènes.)</text></navLabel>
+<content src="OEBPS/h08_p0096a0119.htm#s96p1"/>
+<navPoint id="id-88" playOrder="82">
+<navLabel><text>Chapitre 1: Transition morale. (d'Aristote à Marc-Aurèle)</text></navLabel>
+<content src="OEBPS/h08_p0096a0119.htm#s97p1"/>
+<navPoint id="id-89" playOrder="83">
+<navLabel><text>Article 1: Le Stoïcisme.</text></navLabel>
+<content src="OEBPS/h08_p0096a0119.htm#s98p1"/>
+<navPoint id="id-90" playOrder="83">
+<navLabel><text>Zénon de Cittium, Cléanthe, Chrysippe, Posidonius, Sénèque, Epictète, Marc-Aurèle</text></navLabel>
+<content src="OEBPS/h08_p0096a0119.htm#s98p1"/>
+</navPoint>
+<navPoint id="id-91" playOrder="84">
+<navLabel><text>1. Source du principe stoïcien: Conception panthéiste et matérialiste de la vie selon la raison, ou la Physique.</text></navLabel>
+<content src="OEBPS/h08_p0096a0119.htm#s99p1"/>
+<navPoint id="id-92" playOrder="85">
+<navLabel><text>A) Le Logos divin.</text></navLabel>
+<content src="OEBPS/h08_p0096a0119.htm#s99p2"/>
+</navPoint>
+<navPoint id="id-93" playOrder="86">
+<navLabel><text>B) La Hiérarchie des êtres</text></navLabel>
+<content src="OEBPS/h08_p0096a0119.htm#s100p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-94" playOrder="87">
+<navLabel><text>2. Conséquence spéculative: Logique et science.</text></navLabel>
+<content src="OEBPS/h08_p0096a0119.htm#s101p1"/>
+</navPoint>
+<navPoint id="id-95" playOrder="88">
+<navLabel><text>3. Conséquence pratique: Morale.</text></navLabel>
+<content src="OEBPS/h08_p0096a0119.htm#s103p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-96" playOrder="89">
+<navLabel><text>Article 2: L'Épicurisme.</text></navLabel>
+<content src="OEBPS/h08_p0096a0119.htm#s106p1"/>
+<navPoint id="id-97" playOrder="89">
+<navLabel><text>Épicure, Lucrèce</text></navLabel>
+<content src="OEBPS/h08_p0096a0119.htm#s106p1"/>
+</navPoint>
+<navPoint id="id-98" playOrder="90">
+<navLabel><text>1. Source du principe épicurien: Conception rationnelle du plaisir sensible.</text></navLabel>
+<content src="OEBPS/h08_p0096a0119.htm#s107p1"/>
+</navPoint>
+<navPoint id="id-99" playOrder="91">
+<navLabel><text>2. Conséquences spéculatives: Logique et physique.</text></navLabel>
+<content src="OEBPS/h08_p0096a0119.htm#s108p1"/>
+</navPoint>
+<navPoint id="id-100" playOrder="92">
+<navLabel><text>3. Conséquences pratiques: Morale.</text></navLabel>
+<content src="OEBPS/h08_p0096a0119.htm#s111p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-101" playOrder="93">
+<navLabel><text>Article 3: Le scepticisme.</text></navLabel>
+<content src="OEBPS/h08_p0096a0119.htm#s113p1"/>
+<navPoint id="id-102" playOrder="94">
+<navLabel><text>1. - Le scepticisme philosophique.</text></navLabel>
+<content src="OEBPS/h08_p0096a0119.htm#s113p2"/>
+<navPoint id="id-103" playOrder="94">
+<navLabel><text>Pyrrhon, Arcésilas, Carnéade, Aenésidème de Crète, Sextus Empiricus, Agrippa, Favorinus d'Arles</text></navLabel>
+<content src="OEBPS/h08_p0096a0119.htm#s113p2"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-104" playOrder="95">
+<navLabel><text>2. - Les Éclectiques</text></navLabel>
+<content src="OEBPS/h08_p0096a0119.htm#s117p1"/>
+<navPoint id="id-105" playOrder="96">
+<navLabel><text>A) Les Romains.</text></navLabel>
+<content src="OEBPS/h08_p0096a0119.htm#s117p2"/>
+<navPoint id="id-106" playOrder="96">
+<navLabel><text>Cicéron</text></navLabel>
+<content src="OEBPS/h08_p0096a0119.htm#s117p2"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-107" playOrder="97">
+<navLabel><text>B) Les Commentateurs.</text></navLabel>
+<content src="OEBPS/h08_p0096a0119.htm#s118p1"/>
+<navPoint id="id-108" playOrder="97">
+<navLabel><text>Théophraste, Andronicus de Rhodes, Alexandre d'Aphrodisias</text></navLabel>
+<content src="OEBPS/h08_p0096a0119.htm#s118p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-109" playOrder="98">
+<navLabel><text>Chapitre 2: Transition mystique. De Philon à Proclus.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s120p1"/>
+<navPoint id="id-110" playOrder="99">
+<navLabel><text>Aperçu historique</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s121p2"/>
+<navPoint id="id-111" playOrder="100">
+<navLabel><text>A) Préparation</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s121p1"/>
+<navPoint id="id-112" playOrder="100">
+<navLabel><text>Philon (40 avant J.-C. - 40 après J.-C.); Plutarque (50-120 après J.-C.); Le Gnosticisme (Ier et IIe siècle après J.-C.).</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s121p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-113" playOrder="101">
+<navLabel><text>B) L'Apogée ou le Néoplatonisme</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s122p1"/>
+<navPoint id="id-114" playOrder="101">
+<navLabel><text>Ammonius Saccas (décédé vers 245); Porphyre (232-305); Jamblique (mort vers 330); Proclus (411-485).</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s122p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-115" playOrder="102">
+<navLabel><text>Plotin</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s123p1"/>
+<navPoint id="id-116" playOrder="103">
+<navLabel><text>Article 1. Métaphysique: Descente des êtres venant de Dieu</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s124p1"/>
+<navPoint id="id-117" playOrder="104">
+<navLabel><text>1) L'UN.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s125p1"/>
+<navPoint id="id-118" playOrder="105">
+<navLabel><text>A) Théologie positive.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s125p2"/>
+</navPoint>
+<navPoint id="id-119" playOrder="106">
+<navLabel><text>B) Théologie négative.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s126p1"/>
+</navPoint>
+<navPoint id="id-120" playOrder="107">
+<navLabel><text>C) L'émanation.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s128p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-121" playOrder="108">
+<navLabel><text>2) L'Intelligence.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s129p1"/>
+<navPoint id="id-122" playOrder="109">
+<navLabel><text>A) Dégradation.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s129p2"/>
+</navPoint>
+<navPoint id="id-123" playOrder="110">
+<navLabel><text>B) Ressemblance.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s129p3"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-124" playOrder="111">
+<navLabel><text>3) L'Âme.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s131p1"/>
+<navPoint id="id-125" playOrder="112">
+<navLabel><text>A) Dégradation.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s131p2"/>
+</navPoint>
+<navPoint id="id-126" playOrder="113">
+<navLabel><text>B) Ressemblance.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s131p3"/>
+</navPoint>
+<navPoint id="id-127" playOrder="114">
+<navLabel><text>C) La Trinité de Plotin.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s132p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-128" playOrder="115">
+<navLabel><text>4) La Matière.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s133p1"/>
+<navPoint id="id-129" playOrder="116">
+<navLabel><text>A) Dégradation.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s133p2"/>
+</navPoint>
+<navPoint id="id-130" playOrder="117">
+<navLabel><text>B) Ressemblance.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s133p3"/>
+</navPoint>
+<navPoint id="id-131" playOrder="118">
+<navLabel><text>C) Le Monde et Dieu: Plotin est-il panthéiste?</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s134p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-132" playOrder="119">
+<navLabel><text>Article 2. Morale: Ascension de l'âme vers Dieu</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s135p1"/>
+<navPoint id="id-133" playOrder="120">
+<navLabel><text>1. Conclusions psychologiques.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s136p1"/>
+<navPoint id="id-134" playOrder="121">
+<navLabel><text>A) Définition de l'homme.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s136p2"/>
+</navPoint>
+<navPoint id="id-135" playOrder="122">
+<navLabel><text>B) Immortalité et facultés de l'âme.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s136p3"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-136" playOrder="123">
+<navLabel><text>2. Principe du retour: le désir.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s137p1"/>
+<navPoint id="id-137" playOrder="124">
+<navLabel><text>A) Notion du désir.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s137p2"/>
+</navPoint>
+<navPoint id="id-138" playOrder="125">
+<navLabel><text>B) Lois du désir.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s137p3"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-139" playOrder="126">
+<navLabel><text>3. Les degrés de la purification.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s139p1"/>
+<navPoint id="id-140" playOrder="127">
+<navLabel><text>1er degré) Effort d'ABSTRACTION pour redevenir âme.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s139p2"/>
+</navPoint>
+<navPoint id="id-141" playOrder="128">
+<navLabel><text>2e degré) Effort d'INTUITION pour redevenir esprit.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s139p3"/>
+</navPoint>
+<navPoint id="id-142" playOrder="129">
+<navLabel><text>3e degré) Effort d'EXTASE pour redevenir l'Un.</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s139p4"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-143" playOrder="130">
+<navLabel><text>Conclusion générale de la première partie</text></navLabel>
+<content src="OEBPS/h09_p0120a0141.htm#s141p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-144" playOrder="131">
+<navLabel><text>Deuxième partie. Époque patristique et médiévale. Philosophie chrétienne.  (Du IIe siècle au XVIe siècle)</text></navLabel>
+<content src="OEBPS/h10_p0142a0160.htm#s142p1"/>
+<navPoint id="id-145" playOrder="132">
+<navLabel><text>Première période. Préparation Patristique. (IIe - VIIe siècle)</text></navLabel>
+<content src="OEBPS/h10_p0142a0160.htm#s143p1"/>
+<navPoint id="id-146" playOrder="133">
+<navLabel><text>Saint Augustin (354-430).</text></navLabel>
+<content src="OEBPS/h10_p0142a0160.htm#s144p1"/>
+<navPoint id="id-147" playOrder="134">
+<navLabel><text>Formation de saint Augustin</text></navLabel>
+<content src="OEBPS/h10_p0142a0160.htm#s144"/>
+</navPoint>
+<navPoint id="id-148" playOrder="135">
+<navLabel><text>Oeuvre et principe fondamental</text></navLabel>
+<content src="OEBPS/h10_p0142a0160.htm#s145"/>
+</navPoint>
+<navPoint id="id-149" playOrder="136">
+<navLabel><text>Article 1. L'existence de la Vérité.</text></navLabel>
+<content src="OEBPS/h10_p0142a0160.htm#s147p1"/>
+<navPoint id="id-150" playOrder="137">
+<navLabel><text>1) Le monde intelligible.</text></navLabel>
+<content src="OEBPS/h10_p0142a0160.htm#s148p1"/>
+<navPoint id="id-151" playOrder="138">
+<navLabel><text>A) Preuve indirecte (contre les Académiciens.</text></navLabel>
+<content src="OEBPS/h10_p0142a0160.htm#s148p2"/>
+</navPoint>
+<navPoint id="id-152" playOrder="139">
+<navLabel><text>B) Preuve directe.</text></navLabel>
+<content src="OEBPS/h10_p0142a0160.htm#s149p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-153" playOrder="140">
+<navLabel><text>2) Existence de Dieu.</text></navLabel>
+<content src="OEBPS/h10_p0142a0160.htm#s150p1"/>
+<navPoint id="id-154" playOrder="141">
+<navLabel><text>A) Preuve complète.</text></navLabel>
+<content src="OEBPS/h10_p0142a0160.htm#s151p1"/>
+</navPoint>
+<navPoint id="id-155" playOrder="142">
+<navLabel><text>B) Formes abrégées.</text></navLabel>
+<content src="OEBPS/h10_p0142a0160.htm#s152p1"/>
+</navPoint>
+<navPoint id="id-156" playOrder="143">
+<navLabel><text>C) Sens et valeur de la preuve.</text></navLabel>
+<content src="OEBPS/h10_p0142a0160.htm#s153p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-157" playOrder="144">
+<navLabel><text>3) Nature de Dieu.</text></navLabel>
+<content src="OEBPS/h10_p0142a0160.htm#s154p1"/>
+<navPoint id="id-158" playOrder="145">
+<navLabel><text>A) Dieu. Vérité subsistante.</text></navLabel>
+<content src="OEBPS/h10_p0142a0160.htm#s154p2"/>
+</navPoint>
+<navPoint id="id-159" playOrder="146">
+<navLabel><text>B) Attributs de Dieu.</text></navLabel>
+<content src="OEBPS/h10_p0142a0160.htm#s154p3"/>
+</navPoint>
+<navPoint id="id-160" playOrder="147">
+<navLabel><text>C) Valeur de notre connaissance de Dieu.</text></navLabel>
+<content src="OEBPS/h10_p0142a0160.htm#s155"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-161" playOrder="148">
+<navLabel><text>Article 2. L'oeuvre de la Vérité.</text></navLabel>
+<content src="OEBPS/h10_p0142a0160.htm#s156p1"/>
+<navPoint id="id-162" playOrder="149">
+<navLabel><text>1) L'émanation en général.</text></navLabel>
+<content src="OEBPS/h10_p0142a0160.htm#s157p1"/>
+<navPoint id="id-163" playOrder="150">
+<navLabel><text>A) La Création.</text></navLabel>
+<content src="OEBPS/h10_p0142a0160.htm#s158p1"/>
+</navPoint>
+<navPoint id="id-164" playOrder="151">
+<navLabel><text>B) L'Exemplarisme.</text></navLabel>
+<content src="OEBPS/h10_p0142a0160.htm#s159p1"/>
+</navPoint>
+<navPoint id="id-165" playOrder="152">
+<navLabel><text>C) La Providence.</text></navLabel>
+<content src="OEBPS/h11_p0161a0177.htm#s160p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-166" playOrder="153">
+<navLabel><text>2) Le monde spirituel: l'homme.</text></navLabel>
+<content src="OEBPS/h11_p0161a0177.htm#s161p1"/>
+<navPoint id="id-167" playOrder="154">
+<navLabel><text>A) La Vie.</text></navLabel>
+<content src="OEBPS/h11_p0161a0177.htm#s162p1"/>
+</navPoint>
+<navPoint id="id-168" playOrder="155">
+<navLabel><text>B) La Sensation.</text></navLabel>
+<content src="OEBPS/h11_p0161a0177.htm#s163p1"/>
+</navPoint>
+<navPoint id="id-169" playOrder="156">
+<navLabel><text>C) L'Intellection.</text></navLabel>
+<content src="OEBPS/h11_p0161a0177.htm#s164p1"/>
+</navPoint>
+<navPoint id="id-170" playOrder="157">
+<navLabel><text>D) La Liberté.</text></navLabel>
+<content src="OEBPS/h11_p0161a0177.htm#s168p1"/>
+</navPoint>
+<navPoint id="id-171" playOrder="158">
+<navLabel><text>E) L'Immortalité.</text></navLabel>
+<content src="OEBPS/h11_p0161a0177.htm#s169p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-172" playOrder="159">
+<navLabel><text>3) Le monde matériel.</text></navLabel>
+<content src="OEBPS/h11_p0161a0177.htm#s170p1"/>
+<navPoint id="id-173" playOrder="160">
+<navLabel><text>A) La Matière.</text></navLabel>
+<content src="OEBPS/h11_p0161a0177.htm#s170p2"/>
+</navPoint>
+<navPoint id="id-174" playOrder="161">
+<navLabel><text>B) Les Raisons séminales.</text></navLabel>
+<content src="OEBPS/h11_p0161a0177.htm#s171p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-175" playOrder="162">
+<navLabel><text>Article 3. La possession de la Vérité.</text></navLabel>
+<content src="OEBPS/h11_p0161a0177.htm#s172p1"/>
+<navPoint id="id-176" playOrder="163">
+<navLabel><text>A) Principe du retour.</text></navLabel>
+<content src="OEBPS/h11_p0161a0177.htm#s172p2"/>
+</navPoint>
+<navPoint id="id-177" playOrder="164">
+<navLabel><text>B) La Béatitude.</text></navLabel>
+<content src="OEBPS/h11_p0161a0177.htm#s173p1"/>
+</navPoint>
+<navPoint id="id-178" playOrder="165">
+<navLabel><text>C) La Vertu.</text></navLabel>
+<content src="OEBPS/h11_p0161a0177.htm#s174p1"/>
+</navPoint>
+<navPoint id="id-179" playOrder="166">
+<navLabel><text>D) La Loi.</text></navLabel>
+<content src="OEBPS/h11_p0161a0177.htm#s175p1"/>
+</navPoint>
+<navPoint id="id-180" playOrder="167">
+<navLabel><text>E) La Société.</text></navLabel>
+<content src="OEBPS/h11_p0161a0177.htm#s176p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-181" playOrder="168">
+<navLabel><text>Conclusion</text></navLabel>
+<content src="OEBPS/h11_p0161a0177.htm#s177"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-182" playOrder="169">
+<navLabel><text>Deuxième période. Synthèse Scolastique. (VIIIe - XIIIe siècle)</text></navLabel>
+<content src="OEBPS/h12_p0178a0196.htm#s178p1"/>
+<navPoint id="id-183" playOrder="170">
+<navLabel><text>Chapitre 1. La Formation (VIIe-XIIe siècle).</text></navLabel>
+<content src="OEBPS/h12_p0178a0196.htm#s179p1"/>
+<navPoint id="id-184" playOrder="171">
+<navLabel><text>Article 1: Les Infidèles.</text></navLabel>
+<content src="OEBPS/h12_p0178a0196.htm#s180p1"/>
+<navPoint id="id-185" playOrder="172">
+<navLabel><text>1) Les Arabes.</text></navLabel>
+<content src="OEBPS/h12_p0178a0196.htm#s181p1"/>
+<navPoint id="id-186" playOrder="172">
+<navLabel><text>Al-Kindi (décédé 873), Al-Farabi (décédé 950)</text></navLabel>
+<content src="OEBPS/h12_p0178a0196.htm#s181p1"/>
+</navPoint>
+<navPoint id="id-187" playOrder="173">
+<navLabel><text>Avicenne (980-1036).</text></navLabel>
+<content src="OEBPS/h12_p0178a0196.htm#s182p1"/>
+<navPoint id="id-188" playOrder="174">
+<navLabel><text>A) Le monde terrestre; l'âme humaine.</text></navLabel>
+<content src="OEBPS/h12_p0178a0196.htm#s183p1"/>
+</navPoint>
+<navPoint id="id-189" playOrder="175">
+<navLabel><text>B) Le monde céleste: Le Premier Causé.</text></navLabel>
+<content src="OEBPS/h12_p0178a0196.htm#s184p1"/>
+</navPoint>
+<navPoint id="id-190" playOrder="176">
+<navLabel><text>C) Dieu.</text></navLabel>
+<content src="OEBPS/h12_p0178a0196.htm#s185p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-191" playOrder="177">
+<navLabel><text>Gazali (1058-1111).</text></navLabel>
+<content src="OEBPS/h12_p0178a0196.htm#s187p1"/>
+</navPoint>
+<navPoint id="id-192" playOrder="178">
+<navLabel><text>Averroès (1126-1198).</text></navLabel>
+<content src="OEBPS/h12_p0178a0196.htm#s190p1"/>
+<navPoint id="id-193" playOrder="179">
+<navLabel><text>A) Système philosophique.</text></navLabel>
+<content src="OEBPS/h12_p0178a0196.htm#s190p2"/>
+</navPoint>
+<navPoint id="id-194" playOrder="180">
+<navLabel><text>B) Théorie des trois ordres.</text></navLabel>
+<content src="OEBPS/h12_p0178a0196.htm#s191p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-195" playOrder="181">
+<navLabel><text>2) Les juifs.</text></navLabel>
+<content src="OEBPS/h12_p0178a0196.htm#s192p1"/>
+<navPoint id="id-196" playOrder="181">
+<navLabel><text>Avicebron (vers 1021-1070)</text></navLabel>
+<content src="OEBPS/h12_p0178a0196.htm#s192p1"/>
+</navPoint>
+<navPoint id="id-197" playOrder="182">
+<navLabel><text>Maïmonide (1135-1204).</text></navLabel>
+<content src="OEBPS/h12_p0178a0196.htm#s193p1"/>
+<navPoint id="id-198" playOrder="183">
+<navLabel><text>A) Théodicée.</text></navLabel>
+<content src="OEBPS/h12_p0178a0196.htm#s194p1"/>
+</navPoint>
+<navPoint id="id-199" playOrder="184">
+<navLabel><text>B) Morale.</text></navLabel>
+<content src="OEBPS/h12_p0178a0196.htm#s196p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-200" playOrder="185">
+<navLabel><text>Article 2: Les Chrétiens</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s197p1"/>
+<navPoint id="id-201" playOrder="186">
+<navLabel><text>A) Denys l'Aréopagite.</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s197p2"/>
+</navPoint>
+<navPoint id="id-202" playOrder="187">
+<navLabel><text>B) Boèce (470-525).</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s198p1"/>
+</navPoint>
+<navPoint id="id-203" playOrder="188">
+<navLabel><text>1) Les premiers scolastiques (VIIe-Xe siècle).</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s199p1"/>
+<navPoint id="id-204" playOrder="189">
+<navLabel><text>Caractère général.</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s199p2"/>
+</navPoint>
+<navPoint id="id-205" playOrder="189">
+<navLabel><text>Alcuin (vers 730-804); Rhaban Maur (vers 776-856).</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s199p2"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-206" playOrder="190">
+<navLabel><text>Jean Scot Érigène (Entre 800 et 870).</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s200p1"/>
+<navPoint id="id-207" playOrder="191">
+<navLabel><text>A) Principe fondamental.</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s201p1"/>
+</navPoint>
+<navPoint id="id-208" playOrder="192">
+<navLabel><text>B) Applications métaphysiques.</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s201p2"/>
+</navPoint>
+<navPoint id="id-209" playOrder="193">
+<navLabel><text>C) Applications psychologiques.</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s202p1"/>
+</navPoint>
+<navPoint id="id-210" playOrder="194">
+<navLabel><text>D) La Foi et la raison.</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s203p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-211" playOrder="195">
+<navLabel><text>2) La querelle des universaux (XIe-XIIe siècle).</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s205p1"/>
+<navPoint id="id-212" playOrder="196">
+<navLabel><text>2.1) Les réalistes: aspect métaphysique.</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s207p1"/>
+<navPoint id="id-213" playOrder="197">
+<navLabel><text>A) Guillaume de Champeaux (1070-1120).</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s208p1"/>
+</navPoint>
+<navPoint id="id-214" playOrder="198">
+<navLabel><text>B) L'école de Chartres.</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s209p1"/>
+</navPoint>
+<navPoint id="id-215" playOrder="199">
+<navLabel><text>C) Les panthéistes.</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s210p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-216" playOrder="200">
+<navLabel><text>2.2) Les anti-réalistes: aspect psychologique.</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s211p1"/>
+<navPoint id="id-217" playOrder="201">
+<navLabel><text>A) Roscelin (vers 1050-1120).</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s211p2"/>
+</navPoint>
+<navPoint id="id-218" playOrder="202">
+<navLabel><text>B) Pierre Abélard (1079-1142).</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s213p1"/>
+</navPoint>
+<navPoint id="id-219" playOrder="203">
+<navLabel><text>C) Le réalisme modéré.</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s214p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-220" playOrder="204">
+<navLabel><text>3) Saint Anselme (1033-1109).</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s215p1"/>
+<navPoint id="id-221" playOrder="205">
+<navLabel><text>A) Théorie fondamentale.</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s216p1"/>
+</navPoint>
+<navPoint id="id-222" playOrder="206">
+<navLabel><text>B) Recherches fragmentaires.</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s218p1"/>
+</navPoint>
+<navPoint id="id-223" playOrder="207">
+<navLabel><text>C) Théodicée constituée.</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s222p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-224" playOrder="208">
+<navLabel><text>L'école mystique de Saint Victor.  Les sommistes: Pierre Lombard (vers 1100-1160).</text></navLabel>
+<content src="OEBPS/h13_p0197a0227.htm#s227"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-225" playOrder="209">
+<navLabel><text>Chapitre 2. L'Apogée (XIIIe siècle).</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s228p1"/>
+<navPoint id="id-226" playOrder="210">
+<navLabel><text>Article 1. Les précurseurs de saint Thomas.</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s229p1"/>
+<navPoint id="id-227" playOrder="211">
+<navLabel><text>1) Les Circonstances.</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s230p1"/>
+<navPoint id="id-228" playOrder="212">
+<navLabel><text>A) Les Universités.</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s230p2"/>
+</navPoint>
+<navPoint id="id-229" playOrder="213">
+<navLabel><text>B) Les Ordres mendiants.</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s231p1"/>
+</navPoint>
+<navPoint id="id-230" playOrder="214">
+<navLabel><text>C) Traductions d'Aristote.</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s232p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-231" playOrder="215">
+<navLabel><text>2) Les premiers Maîtres aristotéliciens.</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s232bisp1"/>
+<navPoint id="id-232" playOrder="216">
+<navLabel><text>A) Doctrine (éclectisme aristotélicien platonisant).</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s232bisp2"/>
+</navPoint>
+<navPoint id="id-233" playOrder="217">
+<navLabel><text>B) Principaux représentants.</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s232bisp3"/>
+<navPoint id="id-234" playOrder="218">
+<navLabel><text>1) Les séculiers:</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s232bisp4"/>
+<navPoint id="id-235" playOrder="218">
+<navLabel><text>Guillaume D'Auxerre (décédé 1231); Guillaume D'Auvergne (décédé 1249); etc.</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s232bisp4"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-236" playOrder="219">
+<navLabel><text>2) Les dominicains:</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s232bisp5"/>
+<navPoint id="id-237" playOrder="219">
+<navLabel><text>Roland De Crémone (décédé après 1244); Pierre De Tarentaise (1225-1276); etc.</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s232bisp5"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-238" playOrder="220">
+<navLabel><text>3) Les franciscains:</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s232bisp6"/>
+<navPoint id="id-239" playOrder="220">
+<navLabel><text>Alexandre De Halès (1180-1245); Jean De La Rochelle (1200-1245); etc.</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s232bisp6"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-240" playOrder="221">
+<navLabel><text>3) Saint ALBERT LE GRAND (1206-1280).</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s233p1"/>
+<navPoint id="id-241" playOrder="222">
+<navLabel><text>A) Méthode.</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s234p1"/>
+</navPoint>
+<navPoint id="id-242" playOrder="223">
+<navLabel><text>B) Doctrine.</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s235p1"/>
+</navPoint>
+<navPoint id="id-243" playOrder="224">
+<navLabel><text>C) Influence.</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s236p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-244" playOrder="225">
+<navLabel><text>Article 2. Saint Thomas d'Aquin  (1225-1274).</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s237p1"/>
+<navPoint id="id-245" playOrder="226">
+<navLabel><text>Section 1) Réalisation historique.</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s238p1"/>
+<navPoint id="id-246" playOrder="227">
+<navLabel><text>1. Période de fondation: Premier séjour à Paris (1252-1260).</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s239p1"/>
+<navPoint id="id-247" playOrder="227">
+<navLabel><text>A) Le Philosophe.</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s239p1"/>
+</navPoint>
+<navPoint id="id-248" playOrder="228">
+<navLabel><text>B) Le Théologien.</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s240p1"/>
+</navPoint>
+<navPoint id="id-249" playOrder="229">
+<navLabel><text>C) Le Polémiste.</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s241p1"/>
+</navPoint>
+<navPoint id="id-250" playOrder="230">
+<navLabel><text>2. Période d'extension: Séjour à la cour romaine (1260-1268).</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s242p1"/>
+</navPoint>
+<navPoint id="id-251" playOrder="231">
+<navLabel><text>A) Domaine philosophique.</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s242p2"/>
+</navPoint>
+<navPoint id="id-252" playOrder="232">
+<navLabel><text>B) Domaine théologique (les deux Sommes).</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s243p1"/>
+<navPoint id="id-253" playOrder="233">
+<navLabel><text>Foi et Raison; Théologie et Philosophie chrétienne</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s244p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-254" playOrder="234">
+<navLabel><text>C) Domaine mixte (politique et question juive).</text></navLabel>
+<content src="OEBPS/h14_p0228a0245.htm#s245p1"/>
+</navPoint>
+<navPoint id="id-255" playOrder="235">
+<navLabel><text>3. Période de combat: Deuxième séjour à Paris (1268-1272).</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s246p1"/>
+</navPoint>
+<navPoint id="id-256" playOrder="236">
+<navLabel><text>A) Les Séculiers.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s246p2"/>
+</navPoint>
+<navPoint id="id-257" playOrder="237">
+<navLabel><text>B) L'averroïsme.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s247p1"/>
+<navPoint id="id-258" playOrder="238">
+<navLabel><text>1) Synthèse doctrinale de Siger de Brabant.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s248p1"/>
+</navPoint>
+<navPoint id="id-259" playOrder="239">
+<navLabel><text>2) La lutte. Évolution doctrinale de Siger de Brabant.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s249p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-260" playOrder="240">
+<navLabel><text>C) Les augustiniens.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s250p1"/>
+<navPoint id="id-261" playOrder="240">
+<navLabel><text>a) Séculiers: Henri De Gand (décédé 1293); Godefroid De Fontaines (décédé vers 1303); etc.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s250p1"/>
+</navPoint>
+<navPoint id="id-262" playOrder="240">
+<navLabel><text>b) Religieux: Robert Kilwardby (décédé 1279); John Peckam (vers 1240-1292); etc.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s250p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-263" playOrder="241">
+<navLabel><text>Dernières années et mort de saint Thomas.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s251p1"/>
+</navPoint>
+<navPoint id="id-264" playOrder="242">
+<navLabel><text>Liste des oeuvres authentiques de s. Thomas.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s252"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-265" playOrder="243">
+<navLabel><text>Section 2) La synthèse thomiste.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s253p1"/>
+<navPoint id="id-266" playOrder="244">
+<navLabel><text>1. La création du thomisme.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s254p1"/>
+<navPoint id="id-267" playOrder="245">
+<navLabel><text>A) Conservation: les Matériaux.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s255p0"/>
+</navPoint>
+<navPoint id="id-268" playOrder="246">
+<navLabel><text>B) Nouveauté: l'effort intellectuel.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s256p1"/>
+</navPoint>
+<navPoint id="id-269" playOrder="247">
+<navLabel><text>C) Progrès: Principe directeur.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s257p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-270" playOrder="248">
+<navLabel><text>2. Le principe fondamental du thomisme.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s258p1"/>
+<navPoint id="id-271" playOrder="249">
+<navLabel><text>A) La formule.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s258p2"/>
+</navPoint>
+<navPoint id="id-272" playOrder="250">
+<navLabel><text>B) Place du «Principe» en Philosophie.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s259p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-273" playOrder="251">
+<navLabel><text>3. L'universalité du thomisme.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s261p1"/>
+<navPoint id="id-274" playOrder="252">
+<navLabel><text>Première étape: l'Intuition.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s262p1"/>
+</navPoint>
+<navPoint id="id-275" playOrder="253">
+<navLabel><text>Deuxième étape: l'Induction.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s263p1"/>
+</navPoint>
+<navPoint id="id-276" playOrder="254">
+<navLabel><text>Troisième étape: la Déduction.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s264p1"/>
+</navPoint>
+<navPoint id="id-277" playOrder="255">
+<navLabel><text>Quatrième étape: la Systématisation.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s265p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-278" playOrder="256">
+<navLabel><text>4. L'unité du thomisme.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s266p1"/>
+<navPoint id="id-279" playOrder="257">
+<navLabel><text>A) Métaphysique.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s267p1"/>
+</navPoint>
+<navPoint id="id-280" playOrder="258">
+<navLabel><text>B) Physique.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s268p1"/>
+</navPoint>
+<navPoint id="id-281" playOrder="259">
+<navLabel><text>C) Morale.</text></navLabel>
+<content src="OEBPS/h15_p0246a0270.htm#s269p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-282" playOrder="260">
+<navLabel><text>Article 3. Les synthèses non thomistes.</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s271p1"/>
+<navPoint id="id-283" playOrder="261">
+<navLabel><text>1) Roger Bacon (vers 1210-1292).</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s272p1"/>
+<navPoint id="id-284" playOrder="262">
+<navLabel><text>A) Caractère général.</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s272p2"/>
+</navPoint>
+<navPoint id="id-285" playOrder="263">
+<navLabel><text>B) Doctrines philosophiques.</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s273p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-286" playOrder="264">
+<navLabel><text>2) Saint Bonaventure (1221-1274).</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s274p1"/>
+<navPoint id="id-287" playOrder="265">
+<navLabel><text>Caractère général.</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s275"/>
+</navPoint>
+<navPoint id="id-288" playOrder="266">
+<navLabel><text>1) L'exemplarisme.</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s275p1"/>
+<navPoint id="id-289" playOrder="267">
+<navLabel><text>A) Existence de Dieu.</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s275p2"/>
+</navPoint>
+<navPoint id="id-290" playOrder="268">
+<navLabel><text>B) Nature des Idées exemplaires.</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s275p4"/>
+</navPoint>
+<navPoint id="id-291" playOrder="269">
+<navLabel><text>C) Rayonnement des Idées exemplaires.</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s275p6"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-292" playOrder="270">
+<navLabel><text>2) Les Natures.</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s276p1"/>
+</navPoint>
+<navPoint id="id-293" playOrder="271">
+<navLabel><text>3) Les opérations.</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s277p1"/>
+<navPoint id="id-294" playOrder="272">
+<navLabel><text>A) La connaissance; Foi et raison.</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s278p1"/>
+</navPoint>
+<navPoint id="id-295" playOrder="273">
+<navLabel><text>B) Volonté et morale.</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s280p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-296" playOrder="274">
+<navLabel><text>Conclusion.</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s281"/>
+</navPoint>
+<navPoint id="id-297" playOrder="275">
+<navLabel><text>Disciples de saint Bonaventure et de saint Thomas d'Aquin.</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s282"/>
+</navPoint>
+<navPoint id="id-298" playOrder="276">
+<navLabel><text>Raymond Lulle (1232 ou 1235-1316).</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s282p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-299" playOrder="277">
+<navLabel><text>3) Jean Duns Scot (1266 - 1308).</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s283p1"/>
+<navPoint id="id-300" playOrder="278">
+<navLabel><text>A) Théorie fondamentale.</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s285p1"/>
+<navPoint id="id-301" playOrder="279">
+<navLabel><text>Première Partie: Volontarisme.</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s285p2"/>
+</navPoint>
+<navPoint id="id-302" playOrder="280">
+<navLabel><text>Deuxième partie: Formalisme.</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s286p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-303" playOrder="281">
+<navLabel><text>B) La substance individuelle.</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s288p1"/>
+</navPoint>
+<navPoint id="id-304" playOrder="282">
+<navLabel><text>C) L'âme humaine.</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s291p1"/>
+</navPoint>
+<navPoint id="id-305" playOrder="283">
+<navLabel><text>D) Dieu et la morale.</text></navLabel>
+<content src="OEBPS/h16_p0271a0298.htm#s295p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-306" playOrder="284">
+<navLabel><text>Troisième période. Décadence. XIVe - XVIIe siècle.</text></navLabel>
+<content src="OEBPS/h17_p0299a0311.htm#s299p1"/>
+<navPoint id="id-307" playOrder="285">
+<navLabel><text>Article 1. Guillaume d'Occam et le terminisme (1280-1349 ou 1350).</text></navLabel>
+<content src="OEBPS/h17_p0299a0311.htm#s300p1"/>
+<navPoint id="id-308" playOrder="286">
+<navLabel><text>1) Principe fondamental.</text></navLabel>
+<content src="OEBPS/h17_p0299a0311.htm#s301"/>
+</navPoint>
+<navPoint id="id-309" playOrder="287">
+<navLabel><text>2) Le Terminisme.</text></navLabel>
+<content src="OEBPS/h17_p0299a0311.htm#s302"/>
+</navPoint>
+<navPoint id="id-310" playOrder="288">
+<navLabel><text>3) Corollaires et influence.</text></navLabel>
+<content src="OEBPS/h17_p0299a0311.htm#s303"/>
+<navPoint id="id-311" playOrder="288">
+<navLabel><text>Les occamistes: Jean Buridan (décédé vers 1358), etc.; Les thomistes: Jean Capréolus (1380-1444), etc.</text></navLabel>
+<content src="OEBPS/h17_p0299a0311.htm#s303"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-312" playOrder="285">
+<navLabel><text>Article 1. Guillaume d'Occam et le terminisme (1280-1349 ou 1350).</text></navLabel>
+<content src="OEBPS/h17_p0299a0311.htm#s300p1"/>
+<navPoint id="id-313" playOrder="289">
+<navLabel><text>François De Vittoria (1480-1546).</text></navLabel>
+<content src="OEBPS/h17_p0299a0311.htm#s305p1"/>
+</navPoint>
+<navPoint id="id-314" playOrder="290">
+<navLabel><text>1) Caractère général du suarézisme.</text></navLabel>
+<content src="OEBPS/h17_p0299a0311.htm#s306"/>
+</navPoint>
+<navPoint id="id-315" playOrder="291">
+<navLabel><text>2) Positions anti-thomistes.</text></navLabel>
+<content src="OEBPS/h17_p0299a0311.htm#s307"/>
+<navPoint id="id-316" playOrder="292">
+<navLabel><text>1) En métaphysique.</text></navLabel>
+<content src="OEBPS/h17_p0299a0311.htm#s308p1"/>
+</navPoint>
+<navPoint id="id-317" playOrder="293">
+<navLabel><text>2) En psychologie.</text></navLabel>
+<content src="OEBPS/h17_p0299a0311.htm#s309p1"/>
+</navPoint>
+<navPoint id="id-318" playOrder="294">
+<navLabel><text>3) Morale sociale.</text></navLabel>
+<content src="OEBPS/h17_p0299a0311.htm#s309bisp1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-319" playOrder="295">
+<navLabel><text>Conclusion.</text></navLabel>
+<content src="OEBPS/h17_p0299a0311.htm#s310"/>
+<navPoint id="id-320" playOrder="295">
+<navLabel><text>Les Occamistes: Gabriel Biel (vers 1425-1495); les Scotistes: Trombeta (décédé 1518).</text></navLabel>
+<content src="OEBPS/h17_p0299a0311.htm#s310"/>
+</navPoint>
+<navPoint id="id-321" playOrder="295">
+<navLabel><text>Les Thomistes: Le Ferrarais (1474-1526), Cajetan (1469-1534), Jean De Saint-Thomas (1589-1644), Goudin (1639-1695).</text></navLabel>
+<content src="OEBPS/h17_p0299a0311.htm#s310"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-322" playOrder="296">
+<navLabel><text>La philosophie non-scolastique de la Renaissance.</text></navLabel>
+<content src="OEBPS/h17_p0299a0311.htm#s311"/>
+<navPoint id="id-323" playOrder="296">
+<navLabel><text>1. Le Platonisme; 2. L'Averroïsme; 3. Le Scientisme et le Scepticisme; 4. Les Moralistes et les Politiques.</text></navLabel>
+<content src="OEBPS/h17_p0299a0311.htm#s311"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-324" playOrder="297">
+<navLabel><text>Troisième partie. Époque moderne. Philosophie moderne et néothomiste.  (Du XVIIe au XXIe siècle)</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s312p1"/>
+<navPoint id="id-325" playOrder="298">
+<navLabel><text>Origine de la philosophie moderne.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s312"/>
+</navPoint>
+<navPoint id="id-326" playOrder="299">
+<navLabel><text>Caractères généraux de la philosophie moderne.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s313"/>
+</navPoint>
+<navPoint id="id-327" playOrder="300">
+<navLabel><text>Première période: L'esprit cartésien (XVII-XVIIIe siècle).</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s314p1"/>
+<navPoint id="id-328" playOrder="301">
+<navLabel><text>Chapitre 1. Les Maîtres: François Bacon et René Descartes.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s315p1"/>
+<navPoint id="id-329" playOrder="302">
+<navLabel><text>1) François Bacon (1561-1626).</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s315p2"/>
+<navPoint id="id-330" playOrder="303">
+<navLabel><text>1) La nouvelle logique.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s315bisp1"/>
+<navPoint id="id-331" playOrder="304">
+<navLabel><text>A) La science positive.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s315bisp2"/>
+</navPoint>
+<navPoint id="id-332" playOrder="305">
+<navLabel><text>B) La logique inductive.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s315bisp3"/>
+</navPoint>
+<navPoint id="id-333" playOrder="306">
+<navLabel><text>C) Classification des sciences.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s315bisp4"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-334" playOrder="307">
+<navLabel><text>2) Corollaires doctrinaux.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s316p1"/>
+<navPoint id="id-335" playOrder="308">
+<navLabel><text>A) La connaissance. Tendance à l'empirisme.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s316p2"/>
+</navPoint>
+<navPoint id="id-336" playOrder="309">
+<navLabel><text>B) Les formes. Tendance au positivisme.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s316p3"/>
+</navPoint>
+<navPoint id="id-337" playOrder="310">
+<navLabel><text>C) Dieu. Tendance agnostique.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s316p4"/>
+</navPoint>
+<navPoint id="id-338" playOrder="311">
+<navLabel><text>D) Morale. Tendance à l'utilitarisme.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s316p5"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-339" playOrder="312">
+<navLabel><text>Conclusion.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s316bis"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-340" playOrder="313">
+<navLabel><text>2) René Descartes (1596-1650).</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s317p1"/>
+<navPoint id="id-341" playOrder="314">
+<navLabel><text>Article 1: La méthode cartésienne.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s318p1"/>
+<navPoint id="id-342" playOrder="315">
+<navLabel><text>Première étape: Le doute universel.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s318p2"/>
+</navPoint>
+<navPoint id="id-343" playOrder="316">
+<navLabel><text>Deuxième étape: La vérité fondamentale.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s319p1"/>
+</navPoint>
+<navPoint id="id-344" playOrder="317">
+<navLabel><text>Troisième étape: Le critère suprême de l'idée claire.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s320p1"/>
+<navPoint id="id-345" playOrder="318">
+<navLabel><text>Valeur de la méthode cartésienne.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s321p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-346" playOrder="319">
+<navLabel><text>Quatrième étape: Les règles de la méthode universelle.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s322p1"/>
+<navPoint id="id-347" playOrder="320">
+<navLabel><text>La science cartésienne.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s323"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-348" playOrder="321">
+<navLabel><text>Article 2: Le monde spirituel.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s324p1"/>
+<navPoint id="id-349" playOrder="322">
+<navLabel><text>1. - Point de vue subjectif: la psychologie</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s324p2"/>
+<navPoint id="id-350" playOrder="323">
+<navLabel><text>A) L'objet de la psychologie.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s324p3"/>
+</navPoint>
+<navPoint id="id-351" playOrder="324">
+<navLabel><text>B) Rapports de la pensée et de l'âme.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s325p1"/>
+</navPoint>
+<navPoint id="id-352" playOrder="325">
+<navLabel><text>C) Valeur de la psychologie cartésienne.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s327p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-353" playOrder="326">
+<navLabel><text>2. - Point de vue objectif: la théodicée</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s328p1"/>
+<navPoint id="id-354" playOrder="327">
+<navLabel><text>A) Classification des pensées.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s328p2"/>
+</navPoint>
+<navPoint id="id-355" playOrder="328">
+<navLabel><text>B) L'existence de Dieu.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s329p1"/>
+</navPoint>
+<navPoint id="id-356" playOrder="329">
+<navLabel><text>C) Valeur de ces preuves.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s330p1"/>
+</navPoint>
+<navPoint id="id-357" playOrder="330">
+<navLabel><text>D) L'objectivité du monde externe.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s331p1"/>
+</navPoint>
+<navPoint id="id-358" playOrder="331">
+<navLabel><text>E) Idéalisme cartésien.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s332p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-359" playOrder="332">
+<navLabel><text>Article 3: Le monde corporel.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s333p1"/>
+<navPoint id="id-360" playOrder="333">
+<navLabel><text>A) Le mécanisme.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s333p2"/>
+</navPoint>
+<navPoint id="id-361" playOrder="334">
+<navLabel><text>B) Le dualisme.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s334p1"/>
+</navPoint>
+<navPoint id="id-362" playOrder="335">
+<navLabel><text>C) La morale.</text></navLabel>
+<content src="OEBPS/h18_p0312a0336.htm#s335p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-363" playOrder="336">
+<navLabel><text>Chapitre 2. Vers le panthéisme.</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s337p1"/>
+<navPoint id="id-364" playOrder="337">
+<navLabel><text>Cartésiens réservés.</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s337p2"/>
+<navPoint id="id-365" playOrder="337">
+<navLabel><text>Fénelon (1651-1715), Bossuet (1627-1704), D. Huet (1630-1721), P. Gassendi (1592-1655)</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s337p2"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-366" playOrder="338">
+<navLabel><text>Cartésiens fervents.</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s337p3"/>
+<navPoint id="id-367" playOrder="338">
+<navLabel><text>A. Geulincx (1625-1669), etc.</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s337p3"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-368" playOrder="339">
+<navLabel><text>Blaise Pascal (1623-1662).</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s338"/>
+</navPoint>
+<navPoint id="id-369" playOrder="340">
+<navLabel><text>Article 1: Malebranche (1638-1715).</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s339p1"/>
+<navPoint id="id-370" playOrder="341">
+<navLabel><text>1) Dieu et l'ontologisme.</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s340p1"/>
+<navPoint id="id-371" playOrder="342">
+<navLabel><text>A) Existence de Dieu.</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s340p2"/>
+</navPoint>
+<navPoint id="id-372" playOrder="343">
+<navLabel><text>B) Vision en Dieu.</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s341p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-373" playOrder="344">
+<navLabel><text>2) Le monde et l'occasionalisme.</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s342p1"/>
+<navPoint id="id-374" playOrder="345">
+<navLabel><text>A) Existence et création du monde.</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s342p2"/>
+</navPoint>
+<navPoint id="id-375" playOrder="346">
+<navLabel><text>B) L'occasionalisme.</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s343p1"/>
+</navPoint>
+<navPoint id="id-376" playOrder="347">
+<navLabel><text>C) Loi de simplicité.</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s343p2"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-377" playOrder="348">
+<navLabel><text>3) L'homme et la morale.</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s344p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-378" playOrder="349">
+<navLabel><text>Article 2: Spinoza (1632-1677).</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s347p1"/>
+<navPoint id="id-379" playOrder="350">
+<navLabel><text>1) Dieu connu par ses attributs.</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s348p1"/>
+<navPoint id="id-380" playOrder="351">
+<navLabel><text>A) Réalité de Dieu.</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s348p2"/>
+</navPoint>
+<navPoint id="id-381" playOrder="352">
+<navLabel><text>B) Connaissance de Dieu.</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s349p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-382" playOrder="353">
+<navLabel><text>2) Coexistence du monde et de Dieu.</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s350p1"/>
+<navPoint id="id-383" playOrder="354">
+<navLabel><text>A) Distinction du monde et de Dieu.</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s350p2"/>
+</navPoint>
+<navPoint id="id-384" playOrder="355">
+<navLabel><text>B) Émanation ou création du monde.</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s350p3"/>
+</navPoint>
+<navPoint id="id-385" playOrder="356">
+<navLabel><text>C) Conséquences psychologiques.</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s352p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-386" playOrder="357">
+<navLabel><text>3) Morale transposée.</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s353p1"/>
+<navPoint id="id-387" playOrder="358">
+<navLabel><text>A) Morale indicative.</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s353p2"/>
+</navPoint>
+<navPoint id="id-388" playOrder="359">
+<navLabel><text>B) Morale de la joie.</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s354p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-389" playOrder="360">
+<navLabel><text>Chapitre 3. Réaction et Transition (XVIIIe siècle).</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s356p1"/>
+<navPoint id="id-390" playOrder="361">
+<navLabel><text>Définition de l'idéalisme</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s356p2"/>
+</navPoint>
+<navPoint id="id-391" playOrder="362">
+<navLabel><text>Définition du positivisme (sensualisme; empirisme)</text></navLabel>
+<content src="OEBPS/h19_p0337a0356.htm#s356p3"/>
+</navPoint>
+<navPoint id="id-392" playOrder="363">
+<navLabel><text>Article 1. Courant idéaliste: Leibniz (1646-1716).</text></navLabel>
+<content src="OEBPS/h20_p0357a0368.htm#s357p1"/>
+<navPoint id="id-393" playOrder="364">
+<navLabel><text>1) Théorie fondamentale.</text></navLabel>
+<content src="OEBPS/h20_p0357a0368.htm#s359p1"/>
+<navPoint id="id-394" playOrder="365">
+<navLabel><text>A) Synthèse logique.</text></navLabel>
+<content src="OEBPS/h20_p0357a0368.htm#s359p2"/>
+</navPoint>
+<navPoint id="id-395" playOrder="366">
+<navLabel><text>B) Synthèse métaphysique.</text></navLabel>
+<content src="OEBPS/h20_p0357a0368.htm#s360p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-396" playOrder="367">
+<navLabel><text>2) L'ordre des possibles.</text></navLabel>
+<content src="OEBPS/h20_p0357a0368.htm#s361p1"/>
+<navPoint id="id-397" playOrder="368">
+<navLabel><text>A) Nombre de monades.</text></navLabel>
+<content src="OEBPS/h20_p0357a0368.htm#s361p2"/>
+</navPoint>
+<navPoint id="id-398" playOrder="369">
+<navLabel><text>B) Nature des monades.</text></navLabel>
+<content src="OEBPS/h20_p0357a0368.htm#s362p1"/>
+</navPoint>
+<navPoint id="id-399" playOrder="370">
+<navLabel><text>C) Rapports mutuels des monades.</text></navLabel>
+<content src="OEBPS/h20_p0357a0368.htm#s363p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-400" playOrder="371">
+<navLabel><text>3) L'ordre réel.</text></navLabel>
+<content src="OEBPS/h20_p0357a0368.htm#s364p1"/>
+<navPoint id="id-401" playOrder="372">
+<navLabel><text>A) Existence de Dieu.</text></navLabel>
+<content src="OEBPS/h20_p0357a0368.htm#s364p2"/>
+</navPoint>
+<navPoint id="id-402" playOrder="373">
+<navLabel><text>B) La création.</text></navLabel>
+<content src="OEBPS/h20_p0357a0368.htm#s365p1"/>
+</navPoint>
+<navPoint id="id-403" playOrder="374">
+<navLabel><text>C) Liberté humaine.</text></navLabel>
+<content src="OEBPS/h20_p0357a0368.htm#s366p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-404" playOrder="375">
+<navLabel><text>Article 2. Courant positiviste.</text></navLabel>
+<content src="OEBPS/h20_p0357a0368.htm#s368p1"/>
+<navPoint id="id-405" playOrder="376">
+<navLabel><text>1) Le système de Hobbes (1588-1679).</text></navLabel>
+<content src="OEBPS/h20_p0357a0368.htm#s368bisp1"/>
+<navPoint id="id-406" playOrder="377">
+<navLabel><text>A) Principe fondamental; mécanisme universel.</text></navLabel>
+<content src="OEBPS/h20_p0357a0368.htm#s368bisp2"/>
+</navPoint>
+<navPoint id="id-407" playOrder="378">
+<navLabel><text>B) Logique nominaliste.</text></navLabel>
+<content src="OEBPS/h20_p0357a0368.htm#s368bisp3"/>
+</navPoint>
+<navPoint id="id-408" playOrder="379">
+<navLabel><text>C) Physique et psychologie mécaniste.</text></navLabel>
+<content src="OEBPS/h20_p0357a0368.htm#s368bisp4"/>
+</navPoint>
+<navPoint id="id-409" playOrder="380">
+<navLabel><text>D) Morale égoïste et politique absolutiste.</text></navLabel>
+<content src="OEBPS/h20_p0357a0368.htm#s368bisp5"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-410" playOrder="381">
+<navLabel><text>2) Tendances positivistes en Angleterre au XVIIIe siècle.</text></navLabel>
+<content src="OEBPS/h21_p0369a0375.htm#s369p9"/>
+<navPoint id="id-411" playOrder="382">
+<navLabel><text>A) L'influence de Newton (1642-1727).</text></navLabel>
+<content src="OEBPS/h21_p0369a0375.htm#s369p8"/>
+</navPoint>
+<navPoint id="id-412" playOrder="383">
+<navLabel><text>B) Déistes et libres penseurs.</text></navLabel>
+<content src="OEBPS/h21_p0369a0375.htm#s369p7"/>
+<navPoint id="id-413" playOrder="383">
+<navLabel><text>John Toland (1670-1722), Anthony Collins (1676-1729), etc.</text></navLabel>
+<content src="OEBPS/h21_p0369a0375.htm#s369p7"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-414" playOrder="384">
+<navLabel><text>C) Moralistes et Économistes.</text></navLabel>
+<content src="OEBPS/h21_p0369a0375.htm#s369p6"/>
+<navPoint id="id-415" playOrder="384">
+<navLabel><text>Bernard De Mandeville (1670-1733), Adam Smith (1723-1790), etc.</text></navLabel>
+<content src="OEBPS/h21_p0369a0375.htm#s369p6"/>
+</navPoint>
+<navPoint id="id-416" playOrder="384">
+<navLabel><text>Les physiocrates: Quesnay (1694-1774).</text></navLabel>
+<content src="OEBPS/h21_p0369a0375.htm#s369p6"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-417" playOrder="385">
+<navLabel><text>3) Les «philosophes» français du XVIIIe siècle.</text></navLabel>
+<content src="OEBPS/h21_p0369a0375.htm#s370p1"/>
+<navPoint id="id-418" playOrder="385">
+<navLabel><text>D'Alembert (1717-1783) et Diderot (1713-1784)</text></navLabel>
+<content src="OEBPS/h21_p0369a0375.htm#s370p1"/>
+</navPoint>
+<navPoint id="id-419" playOrder="385">
+<navLabel><text>La Mettrie (1709-1751)</text></navLabel>
+<content src="OEBPS/h21_p0369a0375.htm#s370p1"/>
+</navPoint>
+<navPoint id="id-420" playOrder="385">
+<navLabel><text>Helvétius (1715-1771) et Cabanis (1757-1808)</text></navLabel>
+<content src="OEBPS/h21_p0369a0375.htm#s370p1"/>
+</navPoint>
+<navPoint id="id-421" playOrder="385">
+<navLabel><text>CONDORCET (1743-1794), d'HOLBACH (1723-1789), VOLTAIRE (1694-1778)</text></navLabel>
+<content src="OEBPS/h21_p0369a0375.htm#s370p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-422" playOrder="386">
+<navLabel><text>Article 3. Courant mixte.</text></navLabel>
+<content src="OEBPS/h21_p0369a0375.htm#s371p1"/>
+<navPoint id="id-423" playOrder="387">
+<navLabel><text>1) Premier degré. Locke (1632-1704).</text></navLabel>
+<content src="OEBPS/h21_p0369a0375.htm#s372p1"/>
+<navPoint id="id-424" playOrder="388">
+<navLabel><text>A) But et méthode de l'Essai.</text></navLabel>
+<content src="OEBPS/h21_p0369a0375.htm#s373p1"/>
+</navPoint>
+<navPoint id="id-425" playOrder="389">
+<navLabel><text>B) Origine et classification des idées.</text></navLabel>
+<content src="OEBPS/h21_p0369a0375.htm#s374p1"/>
+</navPoint>
+<navPoint id="id-426" playOrder="390">
+<navLabel><text>C) Valeur des idées et de la connaissance.</text></navLabel>
+<content src="OEBPS/h21_p0369a0375.htm#s375p1"/>
+</navPoint>
+<navPoint id="id-427" playOrder="391">
+<navLabel><text>D) Applications et corollaires.</text></navLabel>
+<content src="OEBPS/h21_p0369a0375.htm#s375bisp1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-428" playOrder="392">
+<navLabel><text>2) Deuxième degré. Berkeley (1685-1753).</text></navLabel>
+<content src="OEBPS/h22_p0376a0386.htm#s376p1"/>
+<navPoint id="id-429" playOrder="393">
+<navLabel><text>A) Point de départ empirique.</text></navLabel>
+<content src="OEBPS/h22_p0376a0386.htm#s376bisp1"/>
+</navPoint>
+<navPoint id="id-430" playOrder="394">
+<navLabel><text>B) Idéalisme radical.</text></navLabel>
+<content src="OEBPS/h22_p0376a0386.htm#s377p1"/>
+</navPoint>
+<navPoint id="id-431" playOrder="395">
+<navLabel><text>C) Réalisme spirituel.</text></navLabel>
+<content src="OEBPS/h22_p0376a0386.htm#s378p1"/>
+</navPoint>
+<navPoint id="id-432" playOrder="396">
+<navLabel><text>D) Couronnement platonicien.</text></navLabel>
+<content src="OEBPS/h22_p0376a0386.htm#s378bisp1"/>
+<navPoint id="id-433" playOrder="397">
+<navLabel><text>Condillac (1715-1780).</text></navLabel>
+<content src="OEBPS/h22_p0376a0386.htm#s379p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-434" playOrder="398">
+<navLabel><text>3) Troisième degré. Hume (1711-1776).</text></navLabel>
+<content src="OEBPS/h22_p0376a0386.htm#s380p1"/>
+<navPoint id="id-435" playOrder="399">
+<navLabel><text>A) Classification.</text></navLabel>
+<content src="OEBPS/h22_p0376a0386.htm#s381p1"/>
+</navPoint>
+<navPoint id="id-436" playOrder="400">
+<navLabel><text>B) L'abstraction.</text></navLabel>
+<content src="OEBPS/h22_p0376a0386.htm#s382p1"/>
+</navPoint>
+<navPoint id="id-437" playOrder="401">
+<navLabel><text>C) Critique des sciences.</text></navLabel>
+<content src="OEBPS/h22_p0376a0386.htm#s383p1"/>
+</navPoint>
+<navPoint id="id-438" playOrder="402">
+<navLabel><text>D) Critique de la causalité.</text></navLabel>
+<content src="OEBPS/h22_p0376a0386.htm#s384p1"/>
+</navPoint>
+<navPoint id="id-439" playOrder="403">
+<navLabel><text>E) Applications. Scepticisme et phénoménisme.</text></navLabel>
+<content src="OEBPS/h22_p0376a0386.htm#s384bisp1"/>
+<navPoint id="id-440" playOrder="404">
+<navLabel><text>Conclusion: Domination de l'idéalisme.</text></navLabel>
+<content src="OEBPS/h22_p0376a0386.htm#s385"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-441" playOrder="405">
+<navLabel><text>4) Réaction sentimentale. L'école écossaise.</text></navLabel>
+<content src="OEBPS/h22_p0376a0386.htm#s386p1"/>
+<navPoint id="id-442" playOrder="406">
+<navLabel><text>A) Les précurseurs.</text></navLabel>
+<content src="OEBPS/h22_p0376a0386.htm#s386p2"/>
+</navPoint>
+<navPoint id="id-443" playOrder="407">
+<navLabel><text>B) L'apogée. Thomas Reid (1710-1796), etc.</text></navLabel>
+<content src="OEBPS/h22_p0376a0386.htm#s386p3"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-444" playOrder="408">
+<navLabel><text>Deuxième période: L'esprit kantien (XIX-XXe siècle)</text></navLabel>
+<content src="OEBPS/h23_p0387a0404.htm#s387p1"/>
+<navPoint id="id-445" playOrder="409">
+<navLabel><text>Chapitre 1. Kant. (1724-1804).</text></navLabel>
+<content src="OEBPS/h23_p0387a0404.htm#s388p1"/>
+<navPoint id="id-446" playOrder="410">
+<navLabel><text>Article 1. Position du problème critique.</text></navLabel>
+<content src="OEBPS/h23_p0387a0404.htm#s390p1"/>
+<navPoint id="id-447" playOrder="411">
+<navLabel><text>1) Objet du problème critique.</text></navLabel>
+<content src="OEBPS/h23_p0387a0404.htm#s391p1"/>
+<navPoint id="id-448" playOrder="412">
+<navLabel><text>A) Classification du savoir.</text></navLabel>
+<content src="OEBPS/h23_p0387a0404.htm#s391p2"/>
+</navPoint>
+<navPoint id="id-449" playOrder="413">
+<navLabel><text>B) Classification des jugements.</text></navLabel>
+<content src="OEBPS/h23_p0387a0404.htm#s392p1"/>
+</navPoint>
+<navPoint id="id-450" playOrder="414">
+<navLabel><text>C) Valeur des classifications kantiennes.</text></navLabel>
+<content src="OEBPS/h23_p0387a0404.htm#s393p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-451" playOrder="415">
+<navLabel><text>2) Méthode de la critique.</text></navLabel>
+<content src="OEBPS/h23_p0387a0404.htm#s394p1"/>
+</navPoint>
+<navPoint id="id-452" playOrder="416">
+<navLabel><text>3) Vue d'ensemble.</text></navLabel>
+<content src="OEBPS/h23_p0387a0404.htm#s396p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-453" playOrder="417">
+<navLabel><text>Article 2. La Science kantienne.</text></navLabel>
+<content src="OEBPS/h23_p0387a0404.htm#s397p1"/>
+<navPoint id="id-454" playOrder="418">
+<navLabel><text>1) Valeur objective de l'expérience sensible.</text></navLabel>
+<content src="OEBPS/h23_p0387a0404.htm#s398p1"/>
+<navPoint id="id-455" playOrder="419">
+<navLabel><text>A) Solution.</text></navLabel>
+<content src="OEBPS/h23_p0387a0404.htm#s398p2"/>
+</navPoint>
+<navPoint id="id-456" playOrder="420">
+<navLabel><text>B) Corollaires: Géométrie et Monde extérieur.</text></navLabel>
+<content src="OEBPS/h23_p0387a0404.htm#s399p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-457" playOrder="421">
+<navLabel><text>2) Valeur objective des universaux.</text></navLabel>
+<content src="OEBPS/h23_p0387a0404.htm#s400p1"/>
+<navPoint id="id-458" playOrder="422">
+<navLabel><text>A) Démonstration.</text></navLabel>
+<content src="OEBPS/h23_p0387a0404.htm#s401p1"/>
+</navPoint>
+<navPoint id="id-459" playOrder="423">
+<navLabel><text>B) Divers points de vues: Critique; - Psychologique.</text></navLabel>
+<content src="OEBPS/h23_p0387a0404.htm#s402p1"/>
+</navPoint>
+<navPoint id="id-460" playOrder="424">
+<navLabel><text>C) Valeur de la science kantienne.</text></navLabel>
+<content src="OEBPS/h23_p0387a0404.htm#s404p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-461" playOrder="425">
+<navLabel><text>Article 3. La métaphysique morale.</text></navLabel>
+<content src="OEBPS/h24_p0405a0424.htm#s405p1"/>
+<navPoint id="id-462" playOrder="426">
+<navLabel><text>1) Valeur du raisonnement: Métaphysique spéculative.</text></navLabel>
+<content src="OEBPS/h24_p0405a0424.htm#s406p1"/>
+<navPoint id="id-463" playOrder="427">
+<navLabel><text>A) Solution générale.</text></navLabel>
+<content src="OEBPS/h24_p0405a0424.htm#s406p2"/>
+</navPoint>
+<navPoint id="id-464" playOrder="428">
+<navLabel><text>B) Rôle légitime des Idées.</text></navLabel>
+<content src="OEBPS/h24_p0405a0424.htm#s407p1"/>
+</navPoint>
+<navPoint id="id-465" playOrder="429">
+<navLabel><text>C) Usage illégitime des Idées.</text></navLabel>
+<content src="OEBPS/h24_p0405a0424.htm#s408p1"/>
+</navPoint>
+<navPoint id="id-466" playOrder="430">
+<navLabel><text>D) Agnosticisme kantien et réalisme modéré.</text></navLabel>
+<content src="OEBPS/h24_p0405a0424.htm#s409p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-467" playOrder="431">
+<navLabel><text>2) Valeur de la foi: Métaphysique morale.</text></navLabel>
+<content src="OEBPS/h24_p0405a0424.htm#s410p1"/>
+<navPoint id="id-468" playOrder="432">
+<navLabel><text>A) Le fait moral: l'impératif catégorique.</text></navLabel>
+<content src="OEBPS/h24_p0405a0424.htm#s411p1"/>
+</navPoint>
+<navPoint id="id-469" playOrder="433">
+<navLabel><text>B) Les postulats de la Raison pratique.</text></navLabel>
+<content src="OEBPS/h24_p0405a0424.htm#s412p1"/>
+</navPoint>
+<navPoint id="id-470" playOrder="434">
+<navLabel><text>C) Corollaires.</text></navLabel>
+<content src="OEBPS/h24_p0405a0424.htm#s416p1"/>
+</navPoint>
+<navPoint id="id-471" playOrder="435">
+<navLabel><text>D) Valeur de la métaphysique kantienne.</text></navLabel>
+<content src="OEBPS/h24_p0405a0424.htm#s419p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-472" playOrder="436">
+<navLabel><text>Chapitre 2. L'Idéalisme.</text></navLabel>
+<content src="OEBPS/h24_p0405a0424.htm#s421p1"/>
+<navPoint id="id-473" playOrder="437">
+<navLabel><text>1) Le panthéisme idéaliste.</text></navLabel>
+<content src="OEBPS/h24_p0405a0424.htm#s422p1"/>
+<navPoint id="id-474" playOrder="438">
+<navLabel><text>A) Position du problème.</text></navLabel>
+<content src="OEBPS/h24_p0405a0424.htm#s422p2"/>
+</navPoint>
+<navPoint id="id-475" playOrder="439">
+<navLabel><text>B) Principe de solution.</text></navLabel>
+<content src="OEBPS/h24_p0405a0424.htm#s423p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-476" playOrder="440">
+<navLabel><text>2) Les systèmes.</text></navLabel>
+<content src="OEBPS/h25_p0425a0443.htm#s425p1"/>
+<navPoint id="id-477" playOrder="441">
+<navLabel><text>A) J.-G. Fichte (1762-1814).</text></navLabel>
+<content src="OEBPS/h25_p0425a0443.htm#s425p2"/>
+</navPoint>
+<navPoint id="id-478" playOrder="442">
+<navLabel><text>B) F.-W.-J. Schelling (1775-1854).</text></navLabel>
+<content src="OEBPS/h25_p0425a0443.htm#s426p1"/>
+</navPoint>
+<navPoint id="id-479" playOrder="443">
+<navLabel><text>C) G.-W.-H. Hegel  (1770-1831).</text></navLabel>
+<content src="OEBPS/h25_p0425a0443.htm#s427p1"/>
+<navPoint id="id-480" playOrder="444">
+<navLabel><text>1) Principe fondamental.</text></navLabel>
+<content src="OEBPS/h25_p0425a0443.htm#s427p2"/>
+</navPoint>
+<navPoint id="id-481" playOrder="445">
+<navLabel><text>2) Domaine de la logique et de l'ontologie.</text></navLabel>
+<content src="OEBPS/h25_p0425a0443.htm#s428p9"/>
+</navPoint>
+<navPoint id="id-482" playOrder="446">
+<navLabel><text>3) Domaine de la Nature.</text></navLabel>
+<content src="OEBPS/h25_p0425a0443.htm#s428p8"/>
+</navPoint>
+<navPoint id="id-483" playOrder="447">
+<navLabel><text>4) Domaine moral et religieux. Philosophie de l'Esprit.</text></navLabel>
+<content src="OEBPS/h25_p0425a0443.htm#s428p7"/>
+</navPoint>
+<navPoint id="id-484" playOrder="448">
+<navLabel><text>Conclusion.</text></navLabel>
+<content src="OEBPS/h25_p0425a0443.htm#s428p6"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-485" playOrder="449">
+<navLabel><text>D) Les Continuateurs.</text></navLabel>
+<content src="OEBPS/h25_p0425a0443.htm#s429p1"/>
+<navPoint id="id-486" playOrder="449">
+<navLabel><text>Krause (1781-1832), Arthur Schopenhauer (1788-1860), E. Hartmann (1842-1906).</text></navLabel>
+<content src="OEBPS/h25_p0425a0443.htm#s429p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-487" playOrder="450">
+<navLabel><text>Chapitre 3. Le Traditionalisme.</text></navLabel>
+<content src="OEBPS/h25_p0425a0443.htm#s432p1"/>
+<navPoint id="id-488" playOrder="451">
+<navLabel><text>Le traditionalisme catholique.</text></navLabel>
+<content src="OEBPS/h25_p0425a0443.htm#s433p1"/>
+<navPoint id="id-489" playOrder="452">
+<navLabel><text>A) De Bonald (1754-1840).</text></navLabel>
+<content src="OEBPS/h25_p0425a0443.htm#s434p1"/>
+</navPoint>
+<navPoint id="id-490" playOrder="453">
+<navLabel><text>B) De Lamennais (1782-1854).</text></navLabel>
+<content src="OEBPS/h25_p0425a0443.htm#s435p1"/>
+</navPoint>
+<navPoint id="id-491" playOrder="454">
+<navLabel><text>C) Écoles secondaires.</text></navLabel>
+<content src="OEBPS/h25_p0425a0443.htm#s437p1"/>
+<navPoint id="id-492" playOrder="454">
+<navLabel><text>Semi-traditionalistes et ontologistes. Rosmini (1797-1855).</text></navLabel>
+<content src="OEBPS/h25_p0425a0443.htm#s437p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-493" playOrder="455">
+<navLabel><text>L'éclectisme rationaliste.</text></navLabel>
+<content src="OEBPS/h25_p0425a0443.htm#s440p1"/>
+<navPoint id="id-494" playOrder="456">
+<navLabel><text>A) Maine de Biran (1766-1824).</text></navLabel>
+<content src="OEBPS/h25_p0425a0443.htm#s441p1"/>
+</navPoint>
+<navPoint id="id-495" playOrder="457">
+<navLabel><text>B) Victor Cousin (1792-1867).</text></navLabel>
+<content src="OEBPS/h25_p0425a0443.htm#s442p1"/>
+</navPoint>
+<navPoint id="id-496" playOrder="457">
+<navLabel><text>Royer Collard (1763-1845), Th. Jouffroy (1796-1842)</text></navLabel>
+<content src="OEBPS/h25_p0425a0443.htm#s442p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-497" playOrder="458">
+<navLabel><text>Chapitre 4. Le Positivisme.</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s444p1"/>
+<navPoint id="id-498" playOrder="459">
+<navLabel><text>Article 1. Les origines prékantiennes.</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s445p1"/>
+<navPoint id="id-499" playOrder="460">
+<navLabel><text>1) Le précurseur: Montesquieu (1689-1755).</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s446p1"/>
+</navPoint>
+<navPoint id="id-500" playOrder="461">
+<navLabel><text>2) Le théoricien de la Révolution: J.-J. Rousseau (1712-1778).</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s448p1"/>
+<navPoint id="id-501" playOrder="462">
+<navLabel><text>A) Théorie fondamentale.</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s449p1"/>
+</navPoint>
+<navPoint id="id-502" playOrder="463">
+<navLabel><text>B) L'éducation ou plan de réforme pour l'individu.</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s451p1"/>
+</navPoint>
+<navPoint id="id-503" playOrder="464">
+<navLabel><text>C) La politique ou plan de réforme pour la société.</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s453p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-504" playOrder="465">
+<navLabel><text>Article 2. La synthèse d'Auguste Comte (1798-1857).</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s456p1"/>
+<navPoint id="id-505" playOrder="466">
+<navLabel><text>1) Théorie directrice.</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s457p1"/>
+<navPoint id="id-506" playOrder="467">
+<navLabel><text>A) La loi des trois états.</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s457p2"/>
+</navPoint>
+<navPoint id="id-507" playOrder="468">
+<navLabel><text>B) Preuves.</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s458p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-508" playOrder="469">
+<navLabel><text>2) La philosophie positive.</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s459p1"/>
+<navPoint id="id-509" playOrder="470">
+<navLabel><text>A) Définition.</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s459p2"/>
+</navPoint>
+<navPoint id="id-510" playOrder="471">
+<navLabel><text>B) Méthode positive.</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s460p1"/>
+</navPoint>
+<navPoint id="id-511" playOrder="472">
+<navLabel><text>C) Le Contenu de la Philosophie.</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s461p1"/>
+</navPoint>
+<navPoint id="id-512" playOrder="473">
+<navLabel><text>D) La science unificatrice.</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s462p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-513" playOrder="474">
+<navLabel><text>3) La sociologie.</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s463p1"/>
+<navPoint id="id-514" playOrder="475">
+<navLabel><text>A) Sociologie statique.</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s464p1"/>
+</navPoint>
+<navPoint id="id-515" playOrder="476">
+<navLabel><text>B) Sociologie dynamique.</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s466p1"/>
+</navPoint>
+<navPoint id="id-516" playOrder="477">
+<navLabel><text>C) La religion positive.</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s468p1"/>
+</navPoint>
+<navPoint id="id-517" playOrder="478">
+<navLabel><text>D) Valeur de la Sociologie comtiste.</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s469p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-518" playOrder="479">
+<navLabel><text>4) Conclusion: l'essence du Positivisme.</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s470p1"/>
+<navPoint id="id-519" playOrder="480">
+<navLabel><text>A) Influence et disciples d'A. Comte.</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s470p2"/>
+</navPoint>
+<navPoint id="id-520" playOrder="481">
+<navLabel><text>B) Principes fondamentaux du positivisme.</text></navLabel>
+<content src="OEBPS/h26_p0444a0473.htm#s471p0"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-521" playOrder="482">
+<navLabel><text>Article 3. Positivismes dérivés.</text></navLabel>
+<content src="OEBPS/h27_p0474a0480.htm#s474p1"/>
+<navPoint id="id-522" playOrder="483">
+<navLabel><text>Section 1. Courant scientifique.</text></navLabel>
+<content src="OEBPS/h27_p0474a0480.htm#s475p1"/>
+<navPoint id="id-523" playOrder="484">
+<navLabel><text>1. Le Darwinisme.</text></navLabel>
+<content src="OEBPS/h27_p0474a0480.htm#s475p2"/>
+<navPoint id="id-524" playOrder="485">
+<navLabel><text>A) Origine.</text></navLabel>
+<content src="OEBPS/h27_p0474a0480.htm#s475p3"/>
+<navPoint id="id-525" playOrder="485">
+<navLabel><text>Buffon (1707-1788), Lamarck (1744-1829), DARWIN (1809-1882).</text></navLabel>
+<content src="OEBPS/h27_p0474a0480.htm#s475p3"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-526" playOrder="486">
+<navLabel><text>B) Les Lois.</text></navLabel>
+<content src="OEBPS/h27_p0474a0480.htm#s476p1"/>
+</navPoint>
+<navPoint id="id-527" playOrder="487">
+<navLabel><text>C) Les preuves.</text></navLabel>
+<content src="OEBPS/h27_p0474a0480.htm#s476bisp1"/>
+</navPoint>
+<navPoint id="id-528" playOrder="488">
+<navLabel><text>D) Conclusion et Influence.</text></navLabel>
+<content src="OEBPS/h27_p0474a0480.htm#s477p1"/>
+<navPoint id="id-529" playOrder="488">
+<navLabel><text>HAECKEL (1834-1919), etc.</text></navLabel>
+<content src="OEBPS/h27_p0474a0480.htm#s477p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-530" playOrder="489">
+<navLabel><text>2. La Synthèse d'Herbert Spencer (1820-1903).</text></navLabel>
+<content src="OEBPS/h27_p0474a0480.htm#s479p1"/>
+<navPoint id="id-531" playOrder="490">
+<navLabel><text>A) La loi universelle de l'Évolution.</text></navLabel>
+<content src="OEBPS/h27_p0474a0480.htm#s480p1p1"/>
+</navPoint>
+<navPoint id="id-532" playOrder="491">
+<navLabel><text>B) L'Évolution physique et biologique.</text></navLabel>
+<content src="OEBPS/h27_p0474a0480.htm#s480p2p1"/>
+</navPoint>
+<navPoint id="id-533" playOrder="492">
+<navLabel><text>C) L'Évolution psychologique.</text></navLabel>
+<content src="OEBPS/h27_p0474a0480.htm#s480p3p1"/>
+</navPoint>
+<navPoint id="id-534" playOrder="493">
+<navLabel><text>D) L'Évolution sociale et morale.</text></navLabel>
+<content src="OEBPS/h27_p0474a0480.htm#s480p4p1"/>
+</navPoint>
+<navPoint id="id-535" playOrder="494">
+<navLabel><text>E) L'Évolution métaphysique et religieuse: l'INCONNAISSABLE.</text></navLabel>
+<content src="OEBPS/h28_p0481a0484.htm#s481p1"/>
+</navPoint>
+<navPoint id="id-536" playOrder="495">
+<navLabel><text>Conclusion.</text></navLabel>
+<content src="OEBPS/h28_p0481a0484.htm#s482p1p1"/>
+</navPoint>
+<navPoint id="id-537" playOrder="495">
+<navLabel><text>Continuateurs: HUXLEY (1825-1895), CLIFFORD († 1879), ROMANÈS († 1894), etc.</text></navLabel>
+<content src="OEBPS/h28_p0481a0484.htm#s482p1p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-538" playOrder="496">
+<navLabel><text>3. Le Socialisme.</text></navLabel>
+<content src="OEBPS/h28_p0481a0484.htm#s482p2p1"/>
+<navPoint id="id-539" playOrder="497">
+<navLabel><text>A) Principes directeurs du socialisme.</text></navLabel>
+<content src="OEBPS/h28_p0481a0484.htm#s482p2p2"/>
+</navPoint>
+<navPoint id="id-540" playOrder="498">
+<navLabel><text>B) Les premiers théoriciens.</text></navLabel>
+<content src="OEBPS/h28_p0481a0484.htm#s482p3p0"/>
+</navPoint>
+<navPoint id="id-541" playOrder="499">
+<navLabel><text>C) Karl Marx (1818-1883) et le communisme.</text></navLabel>
+<content src="OEBPS/h28_p0481a0484.htm#s482p4p0"/>
+<navPoint id="id-542" playOrder="500">
+<navLabel><text>1) Théorie fondamentale: le Matérialisme historique et dialectique.</text></navLabel>
+<content src="OEBPS/h28_p0481a0484.htm#s482p4p1"/>
+</navPoint>
+<navPoint id="id-543" playOrder="501">
+<navLabel><text>2) La vie économique: le capital et le travail.</text></navLabel>
+<content src="OEBPS/h28_p0481a0484.htm#s482p4p2"/>
+</navPoint>
+<navPoint id="id-544" playOrder="502">
+<navLabel><text>3) Valeur de l'économie marxiste.</text></navLabel>
+<content src="OEBPS/h28_p0481a0484.htm#s482p4p3"/>
+</navPoint>
+<navPoint id="id-545" playOrder="503">
+<navLabel><text>4) La vie culturelle: l'individu pour la société.</text></navLabel>
+<content src="OEBPS/h28_p0481a0484.htm#s482p4p4"/>
+</navPoint>
+<navPoint id="id-546" playOrder="504">
+<navLabel><text>5) La vie morale: Égoïsme de classe.</text></navLabel>
+<content src="OEBPS/h28_p0481a0484.htm#s482p4p5"/>
+</navPoint>
+<navPoint id="id-547" playOrder="505">
+<navLabel><text>6) La vie religieuse: Athéisme militant.</text></navLabel>
+<content src="OEBPS/h28_p0481a0484.htm#s482p4p6"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-548" playOrder="506">
+<navLabel><text>Section 2. Courant psychologique.</text></navLabel>
+<content src="OEBPS/h28_p0481a0484.htm#s483p1p1"/>
+<navPoint id="id-549" playOrder="507">
+<navLabel><text>1. L'école anglaise: Stuart Mill.</text></navLabel>
+<content src="OEBPS/h28_p0481a0484.htm#s483p2p1"/>
+<navPoint id="id-550" playOrder="508">
+<navLabel><text>1) Inspirateurs et Précurseurs.</text></navLabel>
+<content src="OEBPS/h28_p0481a0484.htm#s484p1"/>
+<navPoint id="id-551" playOrder="509">
+<navLabel><text>A) William Hamilton (1788-1856).</text></navLabel>
+<content src="OEBPS/h28_p0481a0484.htm#s484p3"/>
+</navPoint>
+<navPoint id="id-552" playOrder="510">
+<navLabel><text>B) L'utilitarisme de J. Bentham (1748-1832).</text></navLabel>
+<content src="OEBPS/h28_p0481a0484.htm#s484p4"/>
+</navPoint>
+<navPoint id="id-553" playOrder="511">
+<navLabel><text>C) L'associationnisme de James Mill (1773-1836).</text></navLabel>
+<content src="OEBPS/h28_p0481a0484.htm#s484p5"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-554" playOrder="512">
+<navLabel><text>2) John Stuart Mill (1806-1873).</text></navLabel>
+<content src="OEBPS/h29_p0485a0489.htm#s485p1p1"/>
+<navPoint id="id-555" playOrder="513">
+<navLabel><text>A) Caractère général et Théorie fondamentale.</text></navLabel>
+<content src="OEBPS/h29_p0485a0489.htm#s485p2p1"/>
+</navPoint>
+<navPoint id="id-556" playOrder="514">
+<navLabel><text>B) La Logique. Applications psychologiques.</text></navLabel>
+<content src="OEBPS/h29_p0485a0489.htm#s486p0"/>
+</navPoint>
+<navPoint id="id-557" playOrder="515">
+<navLabel><text>C) Application morale. L'Utilitarisme.</text></navLabel>
+<content src="OEBPS/h29_p0485a0489.htm#s487p2p1"/>
+</navPoint>
+<navPoint id="id-558" playOrder="516">
+<navLabel><text>D) Applications sociales et religieuses.</text></navLabel>
+<content src="OEBPS/h29_p0485a0489.htm#s488p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-559" playOrder="517">
+<navLabel><text>3) Continuateurs en psychologie expérimentale.</text></navLabel>
+<content src="OEBPS/h29_p0485a0489.htm#s489p1"/>
+<navPoint id="id-560" playOrder="517">
+<navLabel><text>Alexandre Bain (1818-1903), etc.</text></navLabel>
+<content src="OEBPS/h29_p0485a0489.htm#s489p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-561" playOrder="518">
+<navLabel><text>2. La Synthèse de Taine</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s490p1"/>
+<navPoint id="id-562" playOrder="519">
+<navLabel><text>Théorie fondamentale</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s491p1"/>
+</navPoint>
+<navPoint id="id-563" playOrder="520">
+<navLabel><text>1. Dieu</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s492p1"/>
+</navPoint>
+<navPoint id="id-564" playOrder="521">
+<navLabel><text>2. La nature</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s493p1"/>
+</navPoint>
+<navPoint id="id-565" playOrder="522">
+<navLabel><text>3. L'homme</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s494p1"/>
+<navPoint id="id-566" playOrder="523">
+<navLabel><text>A) L'Intelligence.</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s494p2"/>
+<navPoint id="id-567" playOrder="524">
+<navLabel><text>1) Définition de l'intelligence: Rôle de la sensation</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s494p3"/>
+</navPoint>
+<navPoint id="id-568" playOrder="525">
+<navLabel><text>2) L'idée universelle: Théorie du nom commun.</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s495p1"/>
+</navPoint>
+<navPoint id="id-569" playOrder="526">
+<navLabel><text>3) Jugement et raisonnement: Théorie de l'abstraction.</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s497p1"/>
+</navPoint>
+<navPoint id="id-570" playOrder="527">
+<navLabel><text>4) Valeur de la science: Théorie de l'hallucination vraie.</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s498p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-571" playOrder="528">
+<navLabel><text>B) La Volonté.</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s499p1"/>
+<navPoint id="id-572" playOrder="529">
+<navLabel><text>1) Définition et lois: La liberté.</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s499p2"/>
+</navPoint>
+<navPoint id="id-573" playOrder="530">
+<navLabel><text>2) La Morale.</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s500p1"/>
+</navPoint>
+<navPoint id="id-574" playOrder="531">
+<navLabel><text>3) Le Moi: Théorie de la faculté maîtresse.</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s501p1"/>
+</navPoint>
+<navPoint id="id-575" playOrder="532">
+<navLabel><text>4) L'esthétique.</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s502p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-576" playOrder="533">
+<navLabel><text>4. La société</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s503p1"/>
+</navPoint>
+<navPoint id="id-577" playOrder="534">
+<navLabel><text>Résumé et conclusion</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s504p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-578" playOrder="535">
+<navLabel><text>3. L'École allemande ou mathématique. (Wundt).</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s505p1"/>
+<navPoint id="id-579" playOrder="536">
+<navLabel><text>A) J.-F. Herbart (1776-1841).</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s505p2"/>
+</navPoint>
+<navPoint id="id-580" playOrder="537">
+<navLabel><text>B) Lotze (1817-1881).</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s505bisp1"/>
+</navPoint>
+<navPoint id="id-581" playOrder="538">
+<navLabel><text>C) Fechner (1801-1887).</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s506p1"/>
+</navPoint>
+<navPoint id="id-582" playOrder="539">
+<navLabel><text>D) Wilhelm Wundt (1832-1920).</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s507p1"/>
+<navPoint id="id-583" playOrder="540">
+<navLabel><text>A) Principe fondamental.</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s507p2"/>
+</navPoint>
+<navPoint id="id-584" playOrder="541">
+<navLabel><text>B) La psychologie positive de Wundt.</text></navLabel>
+<content src="OEBPS/h30_p0490a0508.htm#s508p0"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-585" playOrder="542">
+<navLabel><text>4. L'École française ou dynamiste.</text></navLabel>
+<content src="OEBPS/h31_p0509a0521.htm#s509p1"/>
+<navPoint id="id-586" playOrder="543">
+<navLabel><text>A) Théodule Ribot (1839-1916).</text></navLabel>
+<content src="OEBPS/h31_p0509a0521.htm#s509p2"/>
+</navPoint>
+<navPoint id="id-587" playOrder="544">
+<navLabel><text>B) L'École de Paris.</text></navLabel>
+<content src="OEBPS/h31_p0509a0521.htm#s510"/>
+<navPoint id="id-588" playOrder="544">
+<navLabel><text>Alfred Binet (1857-1911); Pierre Janet; Paulhan; Freud, etc.</text></navLabel>
+<content src="OEBPS/h31_p0509a0521.htm#s510"/>
+</navPoint>
+<navPoint id="id-589" playOrder="544">
+<navLabel><text>Alfred Fouillée (1838-1912)</text></navLabel>
+<content src="OEBPS/h31_p0509a0521.htm#s510"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-590" playOrder="545">
+<navLabel><text>Conclusion: La Psychologie expérimentale actuelle</text></navLabel>
+<content src="OEBPS/h31_p0509a0521.htm#s511p1p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-591" playOrder="546">
+<navLabel><text>Section 3. Courant sociologique.</text></navLabel>
+<content src="OEBPS/h31_p0509a0521.htm#s512p1"/>
+<navPoint id="id-592" playOrder="547">
+<navLabel><text>Émile Durkheim (1858-1917)</text></navLabel>
+<content src="OEBPS/h31_p0509a0521.htm#s512p2"/>
+<navPoint id="id-593" playOrder="548">
+<navLabel><text>1) Thèse fondamentale.</text></navLabel>
+<content src="OEBPS/h31_p0509a0521.htm#s513p1"/>
+</navPoint>
+<navPoint id="id-594" playOrder="549">
+<navLabel><text>2) La sociologie.</text></navLabel>
+<content src="OEBPS/h31_p0509a0521.htm#s514p1"/>
+<navPoint id="id-595" playOrder="550">
+<navLabel><text>A) Méthode de sociologie.</text></navLabel>
+<content src="OEBPS/h31_p0509a0521.htm#s514p2"/>
+</navPoint>
+<navPoint id="id-596" playOrder="551">
+<navLabel><text>B) Essai d'application.</text></navLabel>
+<content src="OEBPS/h31_p0509a0521.htm#s515p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-597" playOrder="552">
+<navLabel><text>3) La morale.</text></navLabel>
+<content src="OEBPS/h31_p0509a0521.htm#s516p1"/>
+<navPoint id="id-598" playOrder="553">
+<navLabel><text>A) La Méthode.</text></navLabel>
+<content src="OEBPS/h31_p0509a0521.htm#s516p2"/>
+</navPoint>
+<navPoint id="id-599" playOrder="554">
+<navLabel><text>B) Les caractères de la moralité.</text></navLabel>
+<content src="OEBPS/h31_p0509a0521.htm#s517p1"/>
+</navPoint>
+<navPoint id="id-600" playOrder="555">
+<navLabel><text>C) Le rôle de la société.</text></navLabel>
+<content src="OEBPS/h31_p0509a0521.htm#s518p1"/>
+</navPoint>
+<navPoint id="id-601" playOrder="556">
+<navLabel><text>D) L'art moral.</text></navLabel>
+<content src="OEBPS/h31_p0509a0521.htm#s518p2"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-602" playOrder="557">
+<navLabel><text>La morale de la solidarité: L. Bourgeois.</text></navLabel>
+<content src="OEBPS/h31_p0509a0521.htm#s520"/>
+</navPoint>
+<navPoint id="id-603" playOrder="558">
+<navLabel><text>Conclusion: la sociologie catholique.</text></navLabel>
+<content src="OEBPS/h31_p0509a0521.htm#s521p1"/>
+</navPoint>
+<navPoint id="id-604" playOrder="558">
+<navLabel><text>Le Play (1806-1882); La Tour Du Pin († 1924)</text></navLabel>
+<content src="OEBPS/h31_p0509a0521.htm#s521p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-605" playOrder="559">
+<navLabel><text>Chapitre 5. Réaction métaphysique. XXe Siècle</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s522p1"/>
+<navPoint id="id-606" playOrder="560">
+<navLabel><text>Article 1. Survivances et transition.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s523p1"/>
+<navPoint id="id-607" playOrder="561">
+<navLabel><text>1. L'Idéalisme du XXe siècle.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s524p1"/>
+<navPoint id="id-608" playOrder="562">
+<navLabel><text>A) L'Idéalisme hégélien.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s525p1"/>
+</navPoint>
+<navPoint id="id-609" playOrder="563">
+<navLabel><text>B) L'Idéalisme critique.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s526p1"/>
+<navPoint id="id-610" playOrder="563">
+<navLabel><text>Renouvier (1815-1903); L'école de Marbourg; Brunschvicg (1869-1944); etc.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s526p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-611" playOrder="564">
+<navLabel><text>2. La Critique des sciences.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s527p1"/>
+<navPoint id="id-612" playOrder="565">
+<navLabel><text>A) Précurseurs.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s528p1"/>
+<navPoint id="id-613" playOrder="565">
+<navLabel><text>A. Cournot (1801-1877); Emile Boutroux (1845-1921).</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s528p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-614" playOrder="566">
+<navLabel><text>B) Savants philosophes.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s529p1"/>
+<navPoint id="id-615" playOrder="566">
+<navLabel><text>Henri Poincaré (1854-1912); Émile Meyerson (1859-1933).</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s529p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-616" playOrder="567">
+<navLabel><text>3. Le Néo-positivisme de Vienne.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s530p1"/>
+<navPoint id="id-617" playOrder="568">
+<navLabel><text>A) Thèse fondamentale.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s531"/>
+</navPoint>
+<navPoint id="id-618" playOrder="569">
+<navLabel><text>B) Conséquences critiques.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s532p1"/>
+</navPoint>
+<navPoint id="id-619" playOrder="570">
+<navLabel><text>C) Tendances réalistes et métaphysiques.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s533p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-620" playOrder="571">
+<navLabel><text>4. Le Néo-réalisme anglais.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s534p1"/>
+<navPoint id="id-621" playOrder="572">
+<navLabel><text>1) Le Réalisme de Bertrand Russell (1872-1970).</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s535p1"/>
+<navPoint id="id-622" playOrder="573">
+<navLabel><text>A) Caractère général.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s535p2"/>
+</navPoint>
+<navPoint id="id-623" playOrder="574">
+<navLabel><text>B) Réalisme pluraliste.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s536p1"/>
+</navPoint>
+<navPoint id="id-624" playOrder="575">
+<navLabel><text>C) Théorie neutraliste.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s537p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-625" playOrder="576">
+<navLabel><text>2) Le mouvement réaliste américain.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s538p1"/>
+<navPoint id="id-626" playOrder="577">
+<navLabel><text>A) Le Néo-Réalisme. R. B. Perry.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s538p2"/>
+</navPoint>
+<navPoint id="id-627" playOrder="578">
+<navLabel><text>B) Le réalisme critique. O. Lovejoy.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s539p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-628" playOrder="579">
+<navLabel><text>Article 2. Philosophie de la vie.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s540p1"/>
+<navPoint id="id-629" playOrder="580">
+<navLabel><text>Section 1. Vie et Vérité: Le Pragmatisme américain.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s541p1"/>
+<navPoint id="id-630" playOrder="581">
+<navLabel><text>1. Les Origines de la Philosophie américaine.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s542p1"/>
+<navPoint id="id-631" playOrder="582">
+<navLabel><text>A) Les premiers Essais et le Transcendantalisme d'Emerson.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s542p2"/>
+</navPoint>
+<navPoint id="id-632" playOrder="583">
+<navLabel><text>B) L'Idéalisme et le «Mouvement de Saint-Louis».</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s543p1"/>
+</navPoint>
+<navPoint id="id-633" playOrder="584">
+<navLabel><text>C) Les Précurseurs du Pragmatisme. Le «Metaphysical Club».</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s544p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-634" playOrder="585">
+<navLabel><text>2. Le Pragmatisme de William JAMES.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s545p1"/>
+<navPoint id="id-635" playOrder="586">
+<navLabel><text>1) Vue d'ensemble.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s545p2"/>
+</navPoint>
+<navPoint id="id-636" playOrder="587">
+<navLabel><text>2) William James (1842-1910): L'homme et l'oeuvre.</text></navLabel>
+<content src="OEBPS/h32_p0522a0546.htm#s546p1"/>
+</navPoint>
+<navPoint id="id-637" playOrder="588">
+<navLabel><text>3) Théorie du Pragmatisme.</text></navLabel>
+<content src="OEBPS/h33_p0547a0564.htm#s547p1"/>
+</navPoint>
+<navPoint id="id-638" playOrder="589">
+<navLabel><text>4) Psychologie expérimentale et Métaphysique immanentiste.</text></navLabel>
+<content src="OEBPS/h33_p0547a0564.htm#s549p1"/>
+<navPoint id="id-639" playOrder="590">
+<navLabel><text>A) La vie consciente.</text></navLabel>
+<content src="OEBPS/h33_p0547a0564.htm#s549p2"/>
+</navPoint>
+<navPoint id="id-640" playOrder="591">
+<navLabel><text>B) La Subconscience.</text></navLabel>
+<content src="OEBPS/h33_p0547a0564.htm#s550p1"/>
+</navPoint>
+<navPoint id="id-641" playOrder="592">
+<navLabel><text>C) Métaphysique immanentiste.</text></navLabel>
+<content src="OEBPS/h33_p0547a0564.htm#s551p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-642" playOrder="593">
+<navLabel><text>3. Les pragmatismes dérivés.</text></navLabel>
+<content src="OEBPS/h33_p0547a0564.htm#s553p1"/>
+<navPoint id="id-643" playOrder="594">
+<navLabel><text>1. Le Pragmatisme logique. C. S. Peirce (1839-1914).</text></navLabel>
+<content src="OEBPS/h33_p0547a0564.htm#s554p1"/>
+<navPoint id="id-644" playOrder="595">
+<navLabel><text>A) Ordre logique du signe.</text></navLabel>
+<content src="OEBPS/h33_p0547a0564.htm#s555p1"/>
+</navPoint>
+<navPoint id="id-645" playOrder="596">
+<navLabel><text>B) Ordre psychologique de la croyance.</text></navLabel>
+<content src="OEBPS/h33_p0547a0564.htm#s556p1"/>
+</navPoint>
+<navPoint id="id-646" playOrder="597">
+<navLabel><text>C) Ordre physique des degrés d'abstraction.</text></navLabel>
+<content src="OEBPS/h33_p0547a0564.htm#s557p1"/>
+</navPoint>
+<navPoint id="id-647" playOrder="598">
+<navLabel><text>D) Ordre métaphysique de la Vérité totale.</text></navLabel>
+<content src="OEBPS/h33_p0547a0564.htm#s558p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-648" playOrder="599">
+<navLabel><text>2. Le pragmatisme idéaliste. J. Royce (1855-1916).</text></navLabel>
+<content src="OEBPS/h33_p0547a0564.htm#s560p1"/>
+<navPoint id="id-649" playOrder="600">
+<navLabel><text>A) Existence de l'Esprit absolu.</text></navLabel>
+<content src="OEBPS/h33_p0547a0564.htm#s561p1"/>
+</navPoint>
+<navPoint id="id-650" playOrder="601">
+<navLabel><text>B) Le Pragmatisme absolu.</text></navLabel>
+<content src="OEBPS/h33_p0547a0564.htm#s562p1"/>
+</navPoint>
+<navPoint id="id-651" playOrder="602">
+<navLabel><text>C) L'idéalisme communautaire.</text></navLabel>
+<content src="OEBPS/h33_p0547a0564.htm#s563p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-652" playOrder="603">
+<navLabel><text>3. Le pragmatisme de vérification ou Instrumentalisme. J. Dewey.</text></navLabel>
+<content src="OEBPS/h34_p0565a0584.htm#s565p1"/>
+<navPoint id="id-653" playOrder="604">
+<navLabel><text>A) Principe fondamental.</text></navLabel>
+<content src="OEBPS/h34_p0565a0584.htm#s566p1"/>
+</navPoint>
+<navPoint id="id-654" playOrder="605">
+<navLabel><text>B) L'Enquête: Pragmatisme de vérification.</text></navLabel>
+<content src="OEBPS/h34_p0565a0584.htm#s567p1"/>
+</navPoint>
+<navPoint id="id-655" playOrder="606">
+<navLabel><text>C) Vues métaphysiques et morales.</text></navLabel>
+<content src="OEBPS/h34_p0565a0584.htm#s570p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-656" playOrder="607">
+<navLabel><text>4. Le pragmatisme social. G. H. Mead.</text></navLabel>
+<content src="OEBPS/h34_p0565a0584.htm#s574p1"/>
+<navPoint id="id-657" playOrder="608">
+<navLabel><text>A) Vie et oeuvres de Georges Herbert Mead.</text></navLabel>
+<content src="OEBPS/h34_p0565a0584.htm#s574p2"/>
+</navPoint>
+<navPoint id="id-658" playOrder="609">
+<navLabel><text>B) Pragmatisme et société.</text></navLabel>
+<content src="OEBPS/h34_p0565a0584.htm#s575p1"/>
+</navPoint>
+<navPoint id="id-659" playOrder="610">
+<navLabel><text>C) L'explication par le temps.</text></navLabel>
+<content src="OEBPS/h34_p0565a0584.htm#s576p1"/>
+</navPoint>
+<navPoint id="id-660" playOrder="611">
+<navLabel><text>D) Courants secondaires.</text></navLabel>
+<content src="OEBPS/h34_p0565a0584.htm#s577p1"/>
+<navPoint id="id-661" playOrder="612">
+<navLabel><text>1) Courant naturaliste.</text></navLabel>
+<content src="OEBPS/h34_p0565a0584.htm#s578p1"/>
+<navPoint id="id-662" playOrder="612">
+<navLabel><text>Georges Santayana (1863-1952) et Roy Wood Sellars (né en 1880)</text></navLabel>
+<content src="OEBPS/h34_p0565a0584.htm#s578p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-663" playOrder="613">
+<navLabel><text>2) Courant Idéaliste.</text></navLabel>
+<content src="OEBPS/h34_p0565a0584.htm#s580"/>
+<navPoint id="id-664" playOrder="613">
+<navLabel><text>James Edwin Creighton (1861-1924)</text></navLabel>
+<content src="OEBPS/h34_p0565a0584.htm#s580"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-665" playOrder="614">
+<navLabel><text>4. Le Modernisme.</text></navLabel>
+<content src="OEBPS/h34_p0565a0584.htm#s581p1"/>
+<navPoint id="id-666" playOrder="615">
+<navLabel><text>A) Connaissance sentimentale de Dieu.</text></navLabel>
+<content src="OEBPS/h34_p0565a0584.htm#s582p1"/>
+</navPoint>
+<navPoint id="id-667" playOrder="616">
+<navLabel><text>B) Dogmatique pragmatiste.</text></navLabel>
+<content src="OEBPS/h34_p0565a0584.htm#s584p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-668" playOrder="617">
+<navLabel><text>Section 2. L'Élan vital: Henri Bergson.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s585p1"/>
+<navPoint id="id-669" playOrder="618">
+<navLabel><text>1. La méthode: Intelligence et intuition.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s587p1"/>
+<navPoint id="id-670" playOrder="619">
+<navLabel><text>A) Critique de l'intelligence.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s587p2"/>
+</navPoint>
+<navPoint id="id-671" playOrder="620">
+<navLabel><text>B) L'intuition.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s588p1"/>
+</navPoint>
+<navPoint id="id-672" playOrder="621">
+<navLabel><text>C) Valeur de la méthode intuitive.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s589p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-673" playOrder="622">
+<navLabel><text>2. L'intuition biologique: l'univers.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s590p1"/>
+<navPoint id="id-674" playOrder="623">
+<navLabel><text>A) Le problème.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s590p2"/>
+</navPoint>
+<navPoint id="id-675" playOrder="624">
+<navLabel><text>B) Signification de l'Élan vital.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s591p1"/>
+</navPoint>
+<navPoint id="id-676" playOrder="625">
+<navLabel><text>C) La matière.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s592p1"/>
+</navPoint>
+<navPoint id="id-677" playOrder="626">
+<navLabel><text>D) Monisme ou Pluralisme.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s593p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-678" playOrder="627">
+<navLabel><text>3. L'intuition psychologique: le moi.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s594p1"/>
+<navPoint id="id-679" playOrder="628">
+<navLabel><text>A) Le Problème.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s594p2"/>
+</navPoint>
+<navPoint id="id-680" playOrder="629">
+<navLabel><text>B) Solution.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s595p1"/>
+</navPoint>
+<navPoint id="id-681" playOrder="630">
+<navLabel><text>C) La double interprétation.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s598p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-682" playOrder="631">
+<navLabel><text>4. L'intuition mystique: Dieu.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s599p1"/>
+<navPoint id="id-683" playOrder="632">
+<navLabel><text>1) Le problème et la méthode.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s599p2"/>
+</navPoint>
+<navPoint id="id-684" playOrder="633">
+<navLabel><text>2) La double morale.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s600p1"/>
+<navPoint id="id-685" playOrder="634">
+<navLabel><text>A) La morale close.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s600p2"/>
+</navPoint>
+<navPoint id="id-686" playOrder="635">
+<navLabel><text>B) La morale ouverte.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s600p3"/>
+</navPoint>
+<navPoint id="id-687" playOrder="636">
+<navLabel><text>C) Unification.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s600p4"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-688" playOrder="637">
+<navLabel><text>3) La double religion.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s601p1"/>
+<navPoint id="id-689" playOrder="638">
+<navLabel><text>A) Religion statique.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s601p2"/>
+</navPoint>
+<navPoint id="id-690" playOrder="639">
+<navLabel><text>B) Religion dynamique.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s601p3"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-691" playOrder="640">
+<navLabel><text>4) Dieu.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s602p1"/>
+<navPoint id="id-692" playOrder="641">
+<navLabel><text>A) Existence de Dieu.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s602p2"/>
+</navPoint>
+<navPoint id="id-693" playOrder="642">
+<navLabel><text>B) Attributs de Dieu.</text></navLabel>
+<content src="OEBPS/h35_p0585a0604.htm#s602p3"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-694" playOrder="643">
+<navLabel><text>Section 3. Valeur et Histoire.</text></navLabel>
+<content src="OEBPS/h36_p0605a0613.htm#s605p1"/>
+<navPoint id="id-695" playOrder="644">
+<navLabel><text>1. - La Philosophie des valeurs.</text></navLabel>
+<content src="OEBPS/h36_p0605a0613.htm#s605p2"/>
+<navPoint id="id-696" playOrder="645">
+<navLabel><text>A) Un précurseur: F. Nietzsche (1844-1900).</text></navLabel>
+<content src="OEBPS/h36_p0605a0613.htm#s606p0"/>
+</navPoint>
+<navPoint id="id-697" playOrder="646">
+<navLabel><text>B) L'École badoise: La Philosophie des valeurs.</text></navLabel>
+<content src="OEBPS/h36_p0605a0613.htm#s607p1"/>
+</navPoint>
+<navPoint id="id-698" playOrder="647">
+<navLabel><text>C) Le Racisme.</text></navLabel>
+<content src="OEBPS/h36_p0605a0613.htm#s608p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-699" playOrder="648">
+<navLabel><text>2. - L'Historisme de Wilhelm Dilthey (1833-1911).</text></navLabel>
+<content src="OEBPS/h36_p0605a0613.htm#s609p1"/>
+<navPoint id="id-700" playOrder="649">
+<navLabel><text>A) Le Fondateur.</text></navLabel>
+<content src="OEBPS/h36_p0605a0613.htm#s610p1"/>
+</navPoint>
+<navPoint id="id-701" playOrder="650">
+<navLabel><text>B) Positions dominantes.</text></navLabel>
+<content src="OEBPS/h36_p0605a0613.htm#s611p1"/>
+</navPoint>
+<navPoint id="id-702" playOrder="651">
+<navLabel><text>C) Conclusion et influence.</text></navLabel>
+<content src="OEBPS/h36_p0605a0613.htm#s612p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-703" playOrder="652">
+<navLabel><text>Article 3. Phénoménologie et Existentialisme.</text></navLabel>
+<content src="OEBPS/h37_p0614a0631.htm#s614p1"/>
+<navPoint id="id-704" playOrder="653">
+<navLabel><text>Section 1. Phénoménologie.</text></navLabel>
+<content src="OEBPS/h37_p0614a0631.htm#s615p1"/>
+<navPoint id="id-705" playOrder="654">
+<navLabel><text>1) Précurseur: Franz Brentano (1838-1917).</text></navLabel>
+<content src="OEBPS/h37_p0614a0631.htm#s615p2"/>
+</navPoint>
+<navPoint id="id-706" playOrder="655">
+<navLabel><text>2) Le fondateur: Edmund Husserl (1859-1938).</text></navLabel>
+<content src="OEBPS/h37_p0614a0631.htm#s616p1"/>
+<navPoint id="id-707" playOrder="656">
+<navLabel><text>1. - Vue d'ensemble.</text></navLabel>
+<content src="OEBPS/h37_p0614a0631.htm#s617p1"/>
+</navPoint>
+<navPoint id="id-708" playOrder="657">
+<navLabel><text>2. - Principe fondamental de la philosophie phénoménologique.</text></navLabel>
+<content src="OEBPS/h37_p0614a0631.htm#s618p1"/>
+<navPoint id="id-709" playOrder="658">
+<navLabel><text>A) Sens précis du principe.</text></navLabel>
+<content src="OEBPS/h37_p0614a0631.htm#s619p1"/>
+</navPoint>
+<navPoint id="id-710" playOrder="659">
+<navLabel><text>B) Définition de l'évidence.</text></navLabel>
+<content src="OEBPS/h37_p0614a0631.htm#s620p1"/>
+</navPoint>
+<navPoint id="id-711" playOrder="660">
+<navLabel><text>C) Être et Vérité.</text></navLabel>
+<content src="OEBPS/h37_p0614a0631.htm#s621p1"/>
+</navPoint>
+<navPoint id="id-712" playOrder="661">
+<navLabel><text>D) Rôle constitutif de l'Intentionnalité.</text></navLabel>
+<content src="OEBPS/h37_p0614a0631.htm#s622p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-713" playOrder="662">
+<navLabel><text>3. - La méthode phénoménologique.</text></navLabel>
+<content src="OEBPS/h37_p0614a0631.htm#s625p1"/>
+<navPoint id="id-714" playOrder="663">
+<navLabel><text>A) Le Phénomène selon Husserl.</text></navLabel>
+<content src="OEBPS/h37_p0614a0631.htm#s625p2"/>
+</navPoint>
+<navPoint id="id-715" playOrder="664">
+<navLabel><text>B) La technique de la Réduction.</text></navLabel>
+<content src="OEBPS/h37_p0614a0631.htm#s626p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-716" playOrder="665">
+<navLabel><text>4. - La métaphysique de Husserl.</text></navLabel>
+<content src="OEBPS/h37_p0614a0631.htm#s627p1"/>
+<navPoint id="id-717" playOrder="666">
+<navLabel><text>A) Métaphysique du «moi pensant».</text></navLabel>
+<content src="OEBPS/h37_p0614a0631.htm#s628p1"/>
+</navPoint>
+<navPoint id="id-718" playOrder="667">
+<navLabel><text>B) Métaphysique du monde.</text></navLabel>
+<content src="OEBPS/h37_p0614a0631.htm#s629p1"/>
+</navPoint>
+<navPoint id="id-719" playOrder="668">
+<navLabel><text>C) Métaphysique de l'Être absolu.</text></navLabel>
+<content src="OEBPS/h37_p0614a0631.htm#s630p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-720" playOrder="669">
+<navLabel><text>Conclusion.</text></navLabel>
+<content src="OEBPS/h37_p0614a0631.htm#s631"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-721" playOrder="670">
+<navLabel><text>3) Les disciples. Max Scheler (1874-1928).</text></navLabel>
+<content src="OEBPS/h38_p0632a0650.htm#s632p1"/>
+<navPoint id="id-722" playOrder="671">
+<navLabel><text>1) La connaissance.</text></navLabel>
+<content src="OEBPS/h38_p0632a0650.htm#s634"/>
+</navPoint>
+<navPoint id="id-723" playOrder="672">
+<navLabel><text>2) Amour et Personne.</text></navLabel>
+<content src="OEBPS/h38_p0632a0650.htm#s635"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-724" playOrder="673">
+<navLabel><text>Section 2. Existentialisme.</text></navLabel>
+<content src="OEBPS/h38_p0632a0650.htm#s637p1"/>
+<navPoint id="id-725" playOrder="674">
+<navLabel><text>1. Le Précurseur: S. Kierkegaard (1813-1855).</text></navLabel>
+<content src="OEBPS/h38_p0632a0650.htm#s638p1"/>
+<navPoint id="id-726" playOrder="675">
+<navLabel><text>A) Caractère général.</text></navLabel>
+<content src="OEBPS/h38_p0632a0650.htm#s639p1"/>
+</navPoint>
+<navPoint id="id-727" playOrder="676">
+<navLabel><text>B) Thèmes spéciaux.</text></navLabel>
+<content src="OEBPS/h38_p0632a0650.htm#s640p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-728" playOrder="677">
+<navLabel><text>2. L'existentialisme du XXe siècle.</text></navLabel>
+<content src="OEBPS/h38_p0632a0650.htm#s641p1"/>
+<navPoint id="id-729" playOrder="678">
+<navLabel><text>A) Aperçu historique.</text></navLabel>
+<content src="OEBPS/h38_p0632a0650.htm#s641p2"/>
+</navPoint>
+<navPoint id="id-730" playOrder="679">
+<navLabel><text>B) Définition de l'existentialisme.</text></navLabel>
+<content src="OEBPS/h38_p0632a0650.htm#sp642p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-731" playOrder="680">
+<navLabel><text>3. Les formes athées de l'existentialisme.</text></navLabel>
+<content src="OEBPS/h38_p0632a0650.htm#s643p1"/>
+<navPoint id="id-732" playOrder="681">
+<navLabel><text>A) Doctrines communes.</text></navLabel>
+<content src="OEBPS/h38_p0632a0650.htm#s643p2"/>
+</navPoint>
+<navPoint id="id-733" playOrder="682">
+<navLabel><text>B) L'existence humaine selon Heidegger.</text></navLabel>
+<content src="OEBPS/h38_p0632a0650.htm#s644p1"/>
+</navPoint>
+<navPoint id="id-734" playOrder="683">
+<navLabel><text>C) L'ontologie athée de J.-P. Sartre.</text></navLabel>
+<content src="OEBPS/h38_p0632a0650.htm#s645p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-735" playOrder="684">
+<navLabel><text>4. L'existentialisme chrétien.</text></navLabel>
+<content src="OEBPS/h38_p0632a0650.htm#s649p1"/>
+<navPoint id="id-736" playOrder="685">
+<navLabel><text>A) Karl Jaspers.</text></navLabel>
+<content src="OEBPS/h38_p0632a0650.htm#s649p2"/>
+<navPoint id="id-737" playOrder="686">
+<navLabel><text>Les trois sphères de l'être.</text></navLabel>
+<content src="OEBPS/h38_p0632a0650.htm#s649"/>
+</navPoint>
+<navPoint id="id-738" playOrder="687">
+<navLabel><text>Théologie et méthode du «chiffre».</text></navLabel>
+<content src="OEBPS/h38_p0632a0650.htm#s650"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-739" playOrder="688">
+<navLabel><text>B) Gabriel Marcel.</text></navLabel>
+<content src="OEBPS/h39_p0651a0663.htm#s651p0"/>
+<navPoint id="id-740" playOrder="689">
+<navLabel><text>1) Point de départ: Mystère et Problème.</text></navLabel>
+<content src="OEBPS/h39_p0651a0663.htm#s651p1"/>
+</navPoint>
+<navPoint id="id-741" playOrder="690">
+<navLabel><text>2) La Méthode du recueillement.</text></navLabel>
+<content src="OEBPS/h39_p0651a0663.htm#s652"/>
+</navPoint>
+<navPoint id="id-742" playOrder="691">
+<navLabel><text>3) Triple application: le «moi», Dieu, le monde.</text></navLabel>
+<content src="OEBPS/h39_p0651a0663.htm#s653"/>
+</navPoint>
+<navPoint id="id-743" playOrder="692">
+<navLabel><text>4) La Foi surnaturelle et l'Existentialisme chrétien.</text></navLabel>
+<content src="OEBPS/h39_p0651a0663.htm#s654"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-744" playOrder="693">
+<navLabel><text>Conclusion generale sur l'existentialisme.</text></navLabel>
+<content src="OEBPS/h39_p0651a0663.htm#s655"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-745" playOrder="694">
+<navLabel><text>5. Le Personnalisme.</text></navLabel>
+<content src="OEBPS/h39_p0651a0663.htm#s656p1"/>
+<navPoint id="id-746" playOrder="695">
+<navLabel><text>A) En Amérique.</text></navLabel>
+<content src="OEBPS/h39_p0651a0663.htm#s656p2"/>
+<navPoint id="id-747" playOrder="695">
+<navLabel><text>Bordon Parker Bowne (1847-1916) et George Holme Howison (1834-1916)</text></navLabel>
+<content src="OEBPS/h39_p0651a0663.htm#s656p2"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-748" playOrder="696">
+<navLabel><text>B) En France.</text></navLabel>
+<content src="OEBPS/h39_p0651a0663.htm#s657p1"/>
+<navPoint id="id-749" playOrder="696">
+<navLabel><text>Emmanuel Mounier (1905-1950)</text></navLabel>
+<content src="OEBPS/h39_p0651a0663.htm#s657p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-750" playOrder="697">
+<navLabel><text>Article 4. Réveil métaphysique.</text></navLabel>
+<content src="OEBPS/h39_p0651a0663.htm#s658p1"/>
+<navPoint id="id-751" playOrder="698">
+<navLabel><text>1. Métaphysique des sciences: Philosophie organique de Whitehead (1861-1948).</text></navLabel>
+<content src="OEBPS/h39_p0651a0663.htm#s659p1"/>
+<navPoint id="id-752" playOrder="699">
+<navLabel><text>1) La méthode scientifique de cohérence.</text></navLabel>
+<content src="OEBPS/h39_p0651a0663.htm#s660p0"/>
+</navPoint>
+<navPoint id="id-753" playOrder="700">
+<navLabel><text>2) Le monde physique.</text></navLabel>
+<content src="OEBPS/h39_p0651a0663.htm#s661p1"/>
+<navPoint id="id-754" playOrder="701">
+<navLabel><text>A) Définitions fondamentales.</text></navLabel>
+<content src="OEBPS/h39_p0651a0663.htm#s661p2"/>
+</navPoint>
+<navPoint id="id-755" playOrder="702">
+<navLabel><text>B) Théorie monadique.</text></navLabel>
+<content src="OEBPS/h39_p0651a0663.htm#s662p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-756" playOrder="703">
+<navLabel><text>3) Le monde de l'homme.</text></navLabel>
+<content src="OEBPS/h40_p0664a0681.htm#s664p1"/>
+</navPoint>
+<navPoint id="id-757" playOrder="704">
+<navLabel><text>4) Dieu et la Métaphysique.</text></navLabel>
+<content src="OEBPS/h40_p0664a0681.htm#s665p1"/>
+<navPoint id="id-758" playOrder="705">
+<navLabel><text>A) Le Monde intelligible.</text></navLabel>
+<content src="OEBPS/h40_p0664a0681.htm#s666p1"/>
+</navPoint>
+<navPoint id="id-759" playOrder="706">
+<navLabel><text>B) Dieu: son existence et sa nature.</text></navLabel>
+<content src="OEBPS/h40_p0664a0681.htm#s667p1"/>
+</navPoint>
+<navPoint id="id-760" playOrder="707">
+<navLabel><text>C) Dieu et son Oeuvre.</text></navLabel>
+<content src="OEBPS/h40_p0664a0681.htm#s668p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-761" playOrder="708">
+<navLabel><text>5) La Morale et la Religion.</text></navLabel>
+<content src="OEBPS/h40_p0664a0681.htm#s669p1"/>
+<navPoint id="id-762" playOrder="709">
+<navLabel><text>A) Immortalité de l'âme et fin dernière.</text></navLabel>
+<content src="OEBPS/h40_p0664a0681.htm#s669p2"/>
+</navPoint>
+<navPoint id="id-763" playOrder="710">
+<navLabel><text>B) Le Bien et le Mal.</text></navLabel>
+<content src="OEBPS/h40_p0664a0681.htm#s670p1"/>
+</navPoint>
+<navPoint id="id-764" playOrder="711">
+<navLabel><text>C) Moralité sociale.</text></navLabel>
+<content src="OEBPS/h40_p0664a0681.htm#s671p1"/>
+</navPoint>
+<navPoint id="id-765" playOrder="712">
+<navLabel><text>D) Moralité de l'Importance.</text></navLabel>
+<content src="OEBPS/h40_p0664a0681.htm#s672p1"/>
+</navPoint>
+<navPoint id="id-766" playOrder="713">
+<navLabel><text>E) La Religion.</text></navLabel>
+<content src="OEBPS/h40_p0664a0681.htm#s673p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-767" playOrder="714">
+<navLabel><text>Conclusion.</text></navLabel>
+<content src="OEBPS/h40_p0664a0681.htm#s674"/>
+</navPoint>
+<navPoint id="id-768" playOrder="715">
+<navLabel><text>Pierre Teilhard de Chardin.</text></navLabel>
+<content src="OEBPS/h40_p0664a0681.htm#s674bis"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-769" playOrder="716">
+<navLabel><text>2. Métaphysique de la connaissance: Philosophie ontologique de N. Hartman (1882-1950).</text></navLabel>
+<content src="OEBPS/h40_p0664a0681.htm#s675p1"/>
+<navPoint id="id-770" playOrder="717">
+<navLabel><text>A) Point de départ et Méthode.</text></navLabel>
+<content src="OEBPS/h40_p0664a0681.htm#s676p1"/>
+</navPoint>
+<navPoint id="id-771" playOrder="718">
+<navLabel><text>B) L'être et la Connaissance. Ontologie et Métaphysique.</text></navLabel>
+<content src="OEBPS/h40_p0664a0681.htm#s677p1"/>
+</navPoint>
+<navPoint id="id-772" playOrder="719">
+<navLabel><text>C) L'être en général: la Philosophie ontologique.</text></navLabel>
+<content src="OEBPS/h40_p0664a0681.htm#s678p0"/>
+<navPoint id="id-773" playOrder="720">
+<navLabel><text>1) Grandes divisions de l'être.</text></navLabel>
+<content src="OEBPS/h40_p0664a0681.htm#s678p1"/>
+</navPoint>
+<navPoint id="id-774" playOrder="721">
+<navLabel><text>2) L'être de l'esprit: Morale et liberté.</text></navLabel>
+<content src="OEBPS/h40_p0664a0681.htm#s679"/>
+</navPoint>
+<navPoint id="id-775" playOrder="722">
+<navLabel><text>3) Théodicée et Conclusion.</text></navLabel>
+<content src="OEBPS/h40_p0664a0681.htm#s680"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-776" playOrder="723">
+<navLabel><text>3. Métaphysique de l'action: Philosophie religieuse de M. Blondel (1861-1948).</text></navLabel>
+<content src="OEBPS/h41_p0682a0694.htm#s682p1"/>
+<navPoint id="id-777" playOrder="724">
+<navLabel><text>A) Précurseurs au XIXe siècle.</text></navLabel>
+<content src="OEBPS/h41_p0682a0694.htm#s683p1"/>
+<navPoint id="id-778" playOrder="724">
+<navLabel><text>Charles Secrétan (1815-1895), Rudolf Eucken (1846-1926), J.-H. NEWMAN (1801-1890)</text></navLabel>
+<content src="OEBPS/h41_p0682a0694.htm#s683p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-779" playOrder="725">
+<navLabel><text>B) L'itinéraire philosophique de M. Blondel.</text></navLabel>
+<content src="OEBPS/h41_p0682a0694.htm#s684p1"/>
+</navPoint>
+<navPoint id="id-780" playOrder="726">
+<navLabel><text>C) Méthode d'immanence blondélienne: Dialectique d'implication et d'intégration.</text></navLabel>
+<content src="OEBPS/h41_p0682a0694.htm#s687p1"/>
+</navPoint>
+<navPoint id="id-781" playOrder="727">
+<navLabel><text>D) Philosophie spéculative: La Pensée et l'Être.</text></navLabel>
+<content src="OEBPS/h41_p0682a0694.htm#s688p1"/>
+</navPoint>
+<navPoint id="id-782" playOrder="728">
+<navLabel><text>E) Philosophie pratique: L'Action.</text></navLabel>
+<content src="OEBPS/h41_p0682a0694.htm#s691p1"/>
+<navPoint id="id-783" playOrder="729">
+<navLabel><text>Théodicée</text></navLabel>
+<content src="OEBPS/h41_p0682a0694.htm#s692"/>
+</navPoint>
+<navPoint id="id-784" playOrder="730">
+<navLabel><text>La Normative</text></navLabel>
+<content src="OEBPS/h41_p0682a0694.htm#s693"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-785" playOrder="731">
+<navLabel><text>Conclusion: la philosophie catholique</text></navLabel>
+<content src="OEBPS/h41_p0682a0694.htm#s694"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-786" playOrder="732">
+<navLabel><text>4. Métaphysique augustinienne: Philosophie de l'esprit de L. Lavelle.</text></navLabel>
+<content src="OEBPS/h42_p0695a0706.htm#s695p1"/>
+<navPoint id="id-787" playOrder="733">
+<navLabel><text>1) Le Spiritualisme augustinien.</text></navLabel>
+<content src="OEBPS/h42_p0695a0706.htm#s695p2"/>
+<navPoint id="id-788" playOrder="734">
+<navLabel><text>A) Le Spiritualisme naturaliste de Louis Lavelle (1883-1951).</text></navLabel>
+<content src="OEBPS/h42_p0695a0706.htm#s695p3"/>
+</navPoint>
+<navPoint id="id-789" playOrder="735">
+<navLabel><text>B) Le Spiritualisme Chrétien.</text></navLabel>
+<content src="OEBPS/h42_p0695a0706.htm#s700p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-790" playOrder="736">
+<navLabel><text>2) Philosophie augustinienne de l'Histoire.</text></navLabel>
+<content src="OEBPS/h42_p0695a0706.htm#s701p1"/>
+<navPoint id="id-791" playOrder="737">
+<navLabel><text>A) En Amérique.</text></navLabel>
+<content src="OEBPS/h42_p0695a0706.htm#s701p2"/>
+<navPoint id="id-792" playOrder="737">
+<navLabel><text>Reinhold Neibuhr et P. Tillich</text></navLabel>
+<content src="OEBPS/h42_p0695a0706.htm#s701p2"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-793" playOrder="738">
+<navLabel><text>B) En Europe.</text></navLabel>
+<content src="OEBPS/h42_p0695a0706.htm#s702p1"/>
+<navPoint id="id-794" playOrder="738">
+<navLabel><text>Arquillère, Marrou, Bardy, Courcelle, Turienzo, Ratzinger, Brezzi, etc.</text></navLabel>
+<content src="OEBPS/h42_p0695a0706.htm#s702p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-795" playOrder="739">
+<navLabel><text>3) Le Néo-augustinisme.</text></navLabel>
+<content src="OEBPS/h42_p0695a0706.htm#s703p1"/>
+<navPoint id="id-796" playOrder="740">
+<navLabel><text>A) L'oeuvre de Fulbert Cayré.</text></navLabel>
+<content src="OEBPS/h42_p0695a0706.htm#s704p1"/>
+</navPoint>
+<navPoint id="id-797" playOrder="741">
+<navLabel><text>B) La «Philosophie» augustinienne.</text></navLabel>
+<content src="OEBPS/h42_p0695a0706.htm#s705p1"/>
+<navPoint id="id-798" playOrder="741">
+<navLabel><text>C. Boyer, E. Gilson, F. Cayré.</text></navLabel>
+<content src="OEBPS/h42_p0695a0706.htm#s705p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-799" playOrder="742">
+<navLabel><text>Conclusion.</text></navLabel>
+<content src="OEBPS/h42_p0695a0706.htm#s706"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-800" playOrder="743">
+<navLabel><text>Chapitre 6. Le Néothomisme.</text></navLabel>
+<content src="OEBPS/h43_p0707a0717.htm#s707p1"/>
+<navPoint id="id-801" playOrder="744">
+<navLabel><text>1. L'initiation: Encyclique «Aeterni Patris».</text></navLabel>
+<content src="OEBPS/h43_p0707a0717.htm#s708p1"/>
+</navPoint>
+<navPoint id="id-802" playOrder="745">
+<navLabel><text>2. Courant traditionnel.</text></navLabel>
+<content src="OEBPS/h43_p0707a0717.htm#s709p1"/>
+<navPoint id="id-803" playOrder="746">
+<navLabel><text>A) Les précurseurs.</text></navLabel>
+<content src="OEBPS/h43_p0707a0717.htm#s709p2"/>
+<navPoint id="id-804" playOrder="746">
+<navLabel><text>Balmès (1810-1848), etc.</text></navLabel>
+<content src="OEBPS/h43_p0707a0717.htm#s709p2"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-805" playOrder="747">
+<navLabel><text>B) Les premiers ouvriers.</text></navLabel>
+<content src="OEBPS/h43_p0707a0717.htm#s710p1"/>
+<navPoint id="id-806" playOrder="747">
+<navLabel><text>Zigliara (1833-1893), etc.</text></navLabel>
+<content src="OEBPS/h43_p0707a0717.htm#s710p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-807" playOrder="748">
+<navLabel><text>C) Caractère traditionnel.</text></navLabel>
+<content src="OEBPS/h43_p0707a0717.htm#s711p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-808" playOrder="749">
+<navLabel><text>3. Courant progressiste: Cardinal Mercier (1851-1926).</text></navLabel>
+<content src="OEBPS/h43_p0707a0717.htm#s712p1"/>
+<navPoint id="id-809" playOrder="750">
+<navLabel><text>A) Thomisme et science.</text></navLabel>
+<content src="OEBPS/h43_p0707a0717.htm#s713p1"/>
+</navPoint>
+<navPoint id="id-810" playOrder="751">
+<navLabel><text>B) La critériologie.</text></navLabel>
+<content src="OEBPS/h43_p0707a0717.htm#s714p1"/>
+</navPoint>
+<navPoint id="id-811" playOrder="752">
+<navLabel><text>C) La langue vulgaire.</text></navLabel>
+<content src="OEBPS/h43_p0707a0717.htm#s715p1"/>
+</navPoint>
+<navPoint id="id-812" playOrder="753">
+<navLabel><text>D) Luttes et Victoires.</text></navLabel>
+<content src="OEBPS/h43_p0707a0717.htm#s716p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-813" playOrder="754">
+<navLabel><text>Diverses écoles de thomisme: historique, critique, progressiste.</text></navLabel>
+<content src="OEBPS/h43_p0707a0717.htm#s716p2"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-814" playOrder="755">
+<navLabel><text>Conclusion générale.</text></navLabel>
+<content src="OEBPS/h43_p0707a0717.htm#s717"/>
+</navPoint>
+<navPoint id="id-815" playOrder="755">
+<navLabel><text>Notes de bas de page</text></navLabel>
+<content src="OEBPS/h43_p0707a0717.htm#s717"/>
+<navPoint id="id-816" playOrder="756">
+<navLabel><text>°1 à °399</text></navLabel>
+<content src="OEBPS/h90_n0001a0399.htm"/>
+</navPoint>
+<navPoint id="id-817" playOrder="757">
+<navLabel><text>°400 à °799</text></navLabel>
+<content src="OEBPS/h91_n00400a0799.htm"/>
+</navPoint>
+<navPoint id="id-818" playOrder="758">
+<navLabel><text>°800 à °1199</text></navLabel>
+<content src="OEBPS/h92_n00800a1199.htm"/>
+</navPoint>
+<navPoint id="id-819" playOrder="759">
+<navLabel><text>°1200 à °1599</text></navLabel>
+<content src="OEBPS/h93_n01200a1599.htm"/>
+</navPoint>
+<navPoint id="id-820" playOrder="760">
+<navLabel><text>°1600 à °1999</text></navLabel>
+<content src="OEBPS/h94_n01600a1999.htm"/>
+</navPoint>
+<navPoint id="id-821" playOrder="761">
+<navLabel><text>°2000 à °2399</text></navLabel>
+<content src="OEBPS/h95_n02000a2399.htm"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-822" playOrder="761">
+<navLabel><text>Bibliographies</text></navLabel>
+<content src="OEBPS/h95_n02000a2399.htm"/>
+<navPoint id="id-823" playOrder="762">
+<navLabel><text>b1 à b56</text></navLabel>
+<content src="OEBPS/h97_biblios.htm"/>
+</navPoint>
+<navPoint id="id-824" playOrder="763">
+<navLabel><text>b57 à b124</text></navLabel>
+<content src="OEBPS/h98_biblios.htm"/>
+</navPoint>
+<navPoint id="id-825" playOrder="764">
+<navLabel><text>b125 à b194</text></navLabel>
+<content src="OEBPS/h99_biblios.htm"/>
+</navPoint>
+</navPoint>
+  </navMap>
+</ncx>

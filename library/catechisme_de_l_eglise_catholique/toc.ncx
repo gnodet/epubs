@@ -1,0 +1,1567 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta content="1" name="dtb:depth"/>
+  </head>
+  <docTitle>
+    <text>Catéchisme de l'Église Catholique</text>
+  </docTitle>
+  <navMap>
+<navPoint id="id-0" playOrder="0">
+<navLabel><text>LISTE DES SIGLES</text></navLabel>
+<content src="OEBPS/__P1.HTM"/>
+</navPoint>
+<navPoint id="id-1" playOrder="1">
+<navLabel><text>PROLOGUE</text></navLabel>
+<content src="OEBPS/__P2.HTM"/>
+<navPoint id="id-2" playOrder="2">
+<navLabel><text>I. La vie de l’homme – connaître et aimer Dieu</text></navLabel>
+<content src="OEBPS/__P3.HTM"/>
+</navPoint>
+<navPoint id="id-3" playOrder="3">
+<navLabel><text>II. Transmettre la foi – la catéchèse</text></navLabel>
+<content src="OEBPS/__P4.HTM"/>
+</navPoint>
+<navPoint id="id-4" playOrder="4">
+<navLabel><text>III. Le but et les destinataires de ce Catéchisme</text></navLabel>
+<content src="OEBPS/__P5.HTM"/>
+</navPoint>
+<navPoint id="id-5" playOrder="5">
+<navLabel><text>IV. La structure de ce Catéchisme</text></navLabel>
+<content src="OEBPS/__P6.HTM"/>
+</navPoint>
+<navPoint id="id-6" playOrder="6">
+<navLabel><text>V. Indications pratiques pour l’usage de ce Catéchisme</text></navLabel>
+<content src="OEBPS/__P7.HTM"/>
+</navPoint>
+<navPoint id="id-7" playOrder="7">
+<navLabel><text>VI. Les adaptations nécessaires</text></navLabel>
+<content src="OEBPS/__P8.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-8" playOrder="7">
+<navLabel><text>PREMIÈRE PARTIE LA PROFESSION DE LA FOI   </text></navLabel>
+<content src="OEBPS/__P8.HTM"/>
+<navPoint id="id-9" playOrder="8">
+<navLabel><text>PREMIÈRE SECTION « JE CROIS » – « NOUS CROYONS »</text></navLabel>
+<content src="OEBPS/__P9.HTM"/>
+<navPoint id="id-10" playOrder="8">
+<navLabel><text>CHAPITRE PREMIER L’HOMME EST « CAPABLE » DE DIEU   </text></navLabel>
+<content src="OEBPS/__P9.HTM"/>
+<navPoint id="id-11" playOrder="9">
+<navLabel><text>I. Le désir de Dieu</text></navLabel>
+<content src="OEBPS/__PA.HTM"/>
+</navPoint>
+<navPoint id="id-12" playOrder="10">
+<navLabel><text>II. Les voies d’accès à la connaissance de Dieu</text></navLabel>
+<content src="OEBPS/__PB.HTM"/>
+</navPoint>
+<navPoint id="id-13" playOrder="11">
+<navLabel><text>III. La connaissance de Dieu selon l’Église</text></navLabel>
+<content src="OEBPS/__PC.HTM"/>
+</navPoint>
+<navPoint id="id-14" playOrder="12">
+<navLabel><text>IV. Comment parler de Dieu ? </text></navLabel>
+<content src="OEBPS/__PD.HTM"/>
+</navPoint>
+<navPoint id="id-15" playOrder="13">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__PE.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-16" playOrder="14">
+<navLabel><text>CHAPITRE DEUXIÈME DIEU À LA RENCONTRE DE L’HOMME</text></navLabel>
+<content src="OEBPS/__PF.HTM"/>
+<navPoint id="id-17" playOrder="14">
+<navLabel><text>Article 1 La Révélation de Dieu   </text></navLabel>
+<content src="OEBPS/__PF.HTM"/>
+<navPoint id="id-18" playOrder="15">
+<navLabel><text>I. Dieu révèle son « dessein bienveillant »</text></navLabel>
+<content src="OEBPS/__PG.HTM"/>
+</navPoint>
+<navPoint id="id-19" playOrder="16">
+<navLabel><text>II. Les étapes de la Révélation</text></navLabel>
+<content src="OEBPS/__PH.HTM"/>
+</navPoint>
+<navPoint id="id-20" playOrder="17">
+<navLabel><text>III Le Christ Jésus « Médiateur et Plénitude de toute la Révélation » (DV 2)</text></navLabel>
+<content src="OEBPS/__PI.HTM"/>
+</navPoint>
+<navPoint id="id-21" playOrder="18">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__PJ.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-22" playOrder="19">
+<navLabel><text>Article 2 La transmission de la Révélation divine</text></navLabel>
+<content src="OEBPS/__PK.HTM"/>
+<navPoint id="id-23" playOrder="20">
+<navLabel><text>I. La Tradition apostolique</text></navLabel>
+<content src="OEBPS/__PL.HTM"/>
+</navPoint>
+<navPoint id="id-24" playOrder="21">
+<navLabel><text>II. Le rapport entre la Tradition et l’Écriture Sainte</text></navLabel>
+<content src="OEBPS/__PM.HTM"/>
+</navPoint>
+<navPoint id="id-25" playOrder="22">
+<navLabel><text>III. L’interprétation de l’héritage de la foi</text></navLabel>
+<content src="OEBPS/__PN.HTM"/>
+</navPoint>
+<navPoint id="id-26" playOrder="23">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__PO.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-27" playOrder="23">
+<navLabel><text>Article 3 La Sainte ÉCRITURE   </text></navLabel>
+<content src="OEBPS/__PO.HTM"/>
+<navPoint id="id-28" playOrder="24">
+<navLabel><text>I. Le Christ – Parole unique de l’Écriture Sainte</text></navLabel>
+<content src="OEBPS/__PP.HTM"/>
+</navPoint>
+<navPoint id="id-29" playOrder="25">
+<navLabel><text>II. Inspiration et vérité de la Sainte Écriture</text></navLabel>
+<content src="OEBPS/__PQ.HTM"/>
+</navPoint>
+<navPoint id="id-30" playOrder="26">
+<navLabel><text>III. L’Esprit Saint, interprète de l’Écriture</text></navLabel>
+<content src="OEBPS/__PR.HTM"/>
+</navPoint>
+<navPoint id="id-31" playOrder="27">
+<navLabel><text>IV. Le Canon des Écritures</text></navLabel>
+<content src="OEBPS/__PS.HTM"/>
+</navPoint>
+<navPoint id="id-32" playOrder="28">
+<navLabel><text>V. La Sainte Écriture dans la vie de l’Église</text></navLabel>
+<content src="OEBPS/__PT.HTM"/>
+</navPoint>
+<navPoint id="id-33" playOrder="29">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__PU.HTM"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-34" playOrder="30">
+<navLabel><text>CHAPITRE TROISIÈME LA RÉPONSE DE L’HOMME A DIEU</text></navLabel>
+<content src="OEBPS/__PV.HTM"/>
+<navPoint id="id-35" playOrder="30">
+<navLabel><text>Article 1 JE CROIS   </text></navLabel>
+<content src="OEBPS/__PV.HTM"/>
+<navPoint id="id-36" playOrder="31">
+<navLabel><text>I. L’obéissance de la foi</text></navLabel>
+<content src="OEBPS/__PW.HTM"/>
+</navPoint>
+<navPoint id="id-37" playOrder="32">
+<navLabel><text>II. « Je sais en qui j’ai mis ma foi » (2 Tm 1, 12)</text></navLabel>
+<content src="OEBPS/__PX.HTM"/>
+</navPoint>
+<navPoint id="id-38" playOrder="33">
+<navLabel><text>III. Les caractéristiques de la foi</text></navLabel>
+<content src="OEBPS/__PY.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-39" playOrder="34">
+<navLabel><text>Article 2 NOUS CROYONS</text></navLabel>
+<content src="OEBPS/__PZ.HTM"/>
+<navPoint id="id-40" playOrder="35">
+<navLabel><text>I. « Regarde, Seigneur, la foi de ton Église »</text></navLabel>
+<content src="OEBPS/__P10.HTM"/>
+</navPoint>
+<navPoint id="id-41" playOrder="36">
+<navLabel><text>II. Le langage de la foi</text></navLabel>
+<content src="OEBPS/__P11.HTM"/>
+</navPoint>
+<navPoint id="id-42" playOrder="37">
+<navLabel><text>III. Une seule foi</text></navLabel>
+<content src="OEBPS/__P12.HTM"/>
+</navPoint>
+<navPoint id="id-43" playOrder="38">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P13.HTM"/>
+</navPoint>
+<navPoint id="id-44" playOrder="39">
+<navLabel><text>Le Credo</text></navLabel>
+<content src="OEBPS/__P14.HTM"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-45" playOrder="39">
+<navLabel><text>DEUXIÈME SECTION LA PROFESSION DE LA FOI CHRÉTIENNE  </text></navLabel>
+<content src="OEBPS/__P14.HTM"/>
+<navPoint id="id-46" playOrder="40">
+<navLabel><text>Les symboles de la foi</text></navLabel>
+<content src="OEBPS/__P15.HTM"/>
+</navPoint>
+<navPoint id="id-47" playOrder="41">
+<navLabel><text>CHAPITRE PREMIER JE CROIS EN DIEU LE PÈRE</text></navLabel>
+<content src="OEBPS/__P16.HTM"/>
+<navPoint id="id-48" playOrder="41">
+<navLabel><text>Article 1 « JE CROIS EN DIEU LE PÈRE TOUT-PUISSANT CRÉATEUR DU CIEL ET DE LA TERRE »   </text></navLabel>
+<content src="OEBPS/__P16.HTM"/>
+<navPoint id="id-49" playOrder="42">
+<navLabel><text>Paragraphe 1. JE CROIS EN DIEU</text></navLabel>
+<content src="OEBPS/__P17.HTM"/>
+</navPoint>
+<navPoint id="id-50" playOrder="43">
+<navLabel><text>Paragraphe 2. LE PÈRE</text></navLabel>
+<content src="OEBPS/__P18.HTM"/>
+</navPoint>
+<navPoint id="id-51" playOrder="44">
+<navLabel><text>Paragraphe 3. LE TOUT-PUISSANT</text></navLabel>
+<content src="OEBPS/__P19.HTM"/>
+</navPoint>
+<navPoint id="id-52" playOrder="45">
+<navLabel><text>Paragraphe 4. LE CRÉATEUR</text></navLabel>
+<content src="OEBPS/__P1A.HTM"/>
+</navPoint>
+<navPoint id="id-53" playOrder="46">
+<navLabel><text>Paragraphe 5. LE CIEL ET LA TERRE</text></navLabel>
+<content src="OEBPS/__P1B.HTM"/>
+</navPoint>
+<navPoint id="id-54" playOrder="47">
+<navLabel><text>Paragraphe 6. L’HOMME</text></navLabel>
+<content src="OEBPS/__P1C.HTM"/>
+</navPoint>
+<navPoint id="id-55" playOrder="48">
+<navLabel><text>Paragraphe 7. LA CHUTE</text></navLabel>
+<content src="OEBPS/__P1D.HTM"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-56" playOrder="49">
+<navLabel><text>CHAPITRE DEUXIÈME JE CROIS EN JÉSUS-CHRIST, LE FILS UNIQUE DE DIEU</text></navLabel>
+<content src="OEBPS/__P1E.HTM"/>
+<navPoint id="id-57" playOrder="50">
+<navLabel><text>Article 2 « ET EN JÉSUS-CHRIST, SON FILS UNIQUE, NOTRE SEIGNEUR »</text></navLabel>
+<content src="OEBPS/__P1F.HTM"/>
+</navPoint>
+<navPoint id="id-58" playOrder="50">
+<navLabel><text>Article 3 « JÉSUS-CHRIST A ÉTÉ CONÇU DU SAINT-ESPRIT, IL EST NÉ DE LA VIERGE MARIE »   </text></navLabel>
+<content src="OEBPS/__P1F.HTM"/>
+<navPoint id="id-59" playOrder="51">
+<navLabel><text>Paragraphe 1. LE FILS DE DIEU S’EST FAIT HOMME</text></navLabel>
+<content src="OEBPS/__P1G.HTM"/>
+</navPoint>
+<navPoint id="id-60" playOrder="52">
+<navLabel><text>Paragraphe 2. « … CONÇU DU SAINT-ESPRIT, NÉ DE LA VIERGE MARIE »</text></navLabel>
+<content src="OEBPS/__P1H.HTM"/>
+</navPoint>
+<navPoint id="id-61" playOrder="53">
+<navLabel><text>Paragraphe 3. LES MYSTÈRES DE LA VIE DU CHRIST</text></navLabel>
+<content src="OEBPS/__P1I.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-62" playOrder="54">
+<navLabel><text>Article 4 « JÉSUS-CHRIST A SOUFFERT SOUS PONCE PILATE, IL A ÉTÉ CRUCIFIÉ, IL EST MORT, IL A ÉTÉ ENSEVELI »</text></navLabel>
+<content src="OEBPS/__P1J.HTM"/>
+<navPoint id="id-63" playOrder="55">
+<navLabel><text>Paragraphe 1. JÉSUS ET ISRAËL</text></navLabel>
+<content src="OEBPS/__P1K.HTM"/>
+</navPoint>
+<navPoint id="id-64" playOrder="56">
+<navLabel><text>Paragraphe 2. JÉSUS EST MORT CRUCIFIÉ</text></navLabel>
+<content src="OEBPS/__P1L.HTM"/>
+</navPoint>
+<navPoint id="id-65" playOrder="57">
+<navLabel><text>Paragraphe 3. JÉSUS-CHRIST A ÉTÉ ENSEVELI</text></navLabel>
+<content src="OEBPS/__P1M.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-66" playOrder="58">
+<navLabel><text>Article 5 « JÉSUS-CHRIST EST DESCENDU AUX ENFERS, EST RESSUSCITÉ DES MORTS LE TROISIÈME JOUR »</text></navLabel>
+<content src="OEBPS/__P1N.HTM"/>
+<navPoint id="id-67" playOrder="59">
+<navLabel><text>Paragraphe 1. LE CHRIST EST DESCENDU AUX ENFERS</text></navLabel>
+<content src="OEBPS/__P1O.HTM"/>
+</navPoint>
+<navPoint id="id-68" playOrder="60">
+<navLabel><text>Paragraphe 2. LE TROISIÈME JOUR IL EST RESSUSCITÉ DES MORTS</text></navLabel>
+<content src="OEBPS/__P1P.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-69" playOrder="61">
+<navLabel><text>Article 6 « JÉSUS EST MONTÉ AUX CIEUX, IL SIÈGE À LA DROITE DE DIEU, LE PÈRE TOUT-PUISSANT »</text></navLabel>
+<content src="OEBPS/__P1Q.HTM"/>
+</navPoint>
+<navPoint id="id-70" playOrder="62">
+<navLabel><text>Article 7 « D’OÙ IL VIENDRA JUGER LES VIVANTS ET LES MORTS »</text></navLabel>
+<content src="OEBPS/__P1R.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-71" playOrder="63">
+<navLabel><text>CHAPITRE TROISIÈME JE CROIS EN L’ESPRIT SAINT</text></navLabel>
+<content src="OEBPS/__P1S.HTM"/>
+<navPoint id="id-72" playOrder="64">
+<navLabel><text>Article 8 « JE CROIS EN L’ESPRIT SAINT »</text></navLabel>
+<content src="OEBPS/__P1T.HTM"/>
+<navPoint id="id-73" playOrder="65">
+<navLabel><text>I. La mission conjointe du Fils et de l’Esprit</text></navLabel>
+<content src="OEBPS/__P1U.HTM"/>
+</navPoint>
+<navPoint id="id-74" playOrder="66">
+<navLabel><text>II. Le nom, les appellations et les symboles de l’Esprit Saint</text></navLabel>
+<content src="OEBPS/__P1V.HTM"/>
+</navPoint>
+<navPoint id="id-75" playOrder="67">
+<navLabel><text>III. L’Esprit et la Parole de Dieu dans le temps des promesses</text></navLabel>
+<content src="OEBPS/__P1W.HTM"/>
+</navPoint>
+<navPoint id="id-76" playOrder="68">
+<navLabel><text>IV. L’Esprit du Christ dans la plénitude du temps</text></navLabel>
+<content src="OEBPS/__P1X.HTM"/>
+</navPoint>
+<navPoint id="id-77" playOrder="69">
+<navLabel><text>V. L’Esprit et l’Église dans les derniers temps</text></navLabel>
+<content src="OEBPS/__P1Y.HTM"/>
+</navPoint>
+<navPoint id="id-78" playOrder="70">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P1Z.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-79" playOrder="71">
+<navLabel><text>Article 9 « JE CROIS À LA SAINTE ÉGLISE CATHOLIQUE »</text></navLabel>
+<content src="OEBPS/__P20.HTM"/>
+<navPoint id="id-80" playOrder="72">
+<navLabel><text>Paragraphe 1. L’ÉGLISE DANS LE DESSEIN DE DIEU</text></navLabel>
+<content src="OEBPS/__P21.HTM"/>
+</navPoint>
+<navPoint id="id-81" playOrder="73">
+<navLabel><text>Paragraphe 2. L’ÉGLISE – PEUPLE DE DIEU, CORPS DU CHRIST, TEMPLE DE L’ESPRIT SAINT</text></navLabel>
+<content src="OEBPS/__P22.HTM"/>
+</navPoint>
+<navPoint id="id-82" playOrder="74">
+<navLabel><text>Paragraphe 3. L’ÉGLISE EST UNE, SAINTE, CATHOLIQUE ET APOSTOLIQUE</text></navLabel>
+<content src="OEBPS/__P23.HTM"/>
+</navPoint>
+<navPoint id="id-83" playOrder="75">
+<navLabel><text>Paragraphe 4. LES FIDÈLES DU CHRIST – HIÉRARCHIE, LAÏCS, VIE CONSACRÉE</text></navLabel>
+<content src="OEBPS/__P24.HTM"/>
+</navPoint>
+<navPoint id="id-84" playOrder="76">
+<navLabel><text>Paragraphe 5. LA COMMUNION DES SAINTS</text></navLabel>
+<content src="OEBPS/__P25.HTM"/>
+</navPoint>
+<navPoint id="id-85" playOrder="77">
+<navLabel><text>Paragraphe 6. MARIE – MÈRE DU CHRIST, MÈRE DE L’ÉGLISE</text></navLabel>
+<content src="OEBPS/__P26.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-86" playOrder="78">
+<navLabel><text>Article 10 « JE CROIS AU PARDON DES PÉCHÉS »</text></navLabel>
+<content src="OEBPS/__P27.HTM"/>
+<navPoint id="id-87" playOrder="79">
+<navLabel><text>I. Un seul baptême pour le pardon des péchés</text></navLabel>
+<content src="OEBPS/__P28.HTM"/>
+</navPoint>
+<navPoint id="id-88" playOrder="80">
+<navLabel><text>II. Le pouvoir des clefs</text></navLabel>
+<content src="OEBPS/__P29.HTM"/>
+</navPoint>
+<navPoint id="id-89" playOrder="81">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P2A.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-90" playOrder="82">
+<navLabel><text>Article 11 « JE CROIS À LA RÉSURRECTION DE LA CHAIR »</text></navLabel>
+<content src="OEBPS/__P2B.HTM"/>
+<navPoint id="id-91" playOrder="83">
+<navLabel><text>I. La résurrection du Christ et la nôtre RÉVÉLATION PROGRESSIVE DE LA RÉSURRECTION</text></navLabel>
+<content src="OEBPS/__P2C.HTM"/>
+</navPoint>
+<navPoint id="id-92" playOrder="84">
+<navLabel><text>II. Mourir dans le Christ Jésus</text></navLabel>
+<content src="OEBPS/__P2D.HTM"/>
+</navPoint>
+<navPoint id="id-93" playOrder="85">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P2E.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-94" playOrder="86">
+<navLabel><text>Article 12 « JE CROIS À LA VIE ÉTERNELLE »</text></navLabel>
+<content src="OEBPS/__P2F.HTM"/>
+<navPoint id="id-95" playOrder="87">
+<navLabel><text>I. Le jugement particulier</text></navLabel>
+<content src="OEBPS/__P2G.HTM"/>
+</navPoint>
+<navPoint id="id-96" playOrder="88">
+<navLabel><text>II. Le Ciel</text></navLabel>
+<content src="OEBPS/__P2H.HTM"/>
+</navPoint>
+<navPoint id="id-97" playOrder="89">
+<navLabel><text>III. La purification finale ou Purgatoire</text></navLabel>
+<content src="OEBPS/__P2I.HTM"/>
+</navPoint>
+<navPoint id="id-98" playOrder="90">
+<navLabel><text>IV. L’enfer</text></navLabel>
+<content src="OEBPS/__P2J.HTM"/>
+</navPoint>
+<navPoint id="id-99" playOrder="91">
+<navLabel><text>V. Le Jugement dernier</text></navLabel>
+<content src="OEBPS/__P2K.HTM"/>
+</navPoint>
+<navPoint id="id-100" playOrder="92">
+<navLabel><text>VI. L’espérance des cieux nouveaux et de la terre nouvelle</text></navLabel>
+<content src="OEBPS/__P2L.HTM"/>
+</navPoint>
+<navPoint id="id-101" playOrder="93">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P2M.HTM"/>
+</navPoint>
+<navPoint id="id-102" playOrder="94">
+<navLabel><text>« Amen »</text></navLabel>
+<content src="OEBPS/__P2N.HTM"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-103" playOrder="95">
+<navLabel><text>DEUXIÈME PARTIE LA CÉLÉBRATION DU MYSTÈRE CHRÉTIEN</text></navLabel>
+<content src="OEBPS/__P2O.HTM"/>
+<navPoint id="id-104" playOrder="96">
+<navLabel><text>PREMIÈRE SECTION L’ÉCONOMIE SACRAMENTELLE</text></navLabel>
+<content src="OEBPS/__P2P.HTM"/>
+<navPoint id="id-105" playOrder="96">
+<navLabel><text>CHAPITRE PREMIER LE MYSTÈRE PASCAL DANS LE TEMPS DE L’ÉGLISE   </text></navLabel>
+<content src="OEBPS/__P2P.HTM"/>
+<navPoint id="id-106" playOrder="96">
+<navLabel><text>Article 1 LA LITURGIE – ŒUVRE DE LA SAINTE TRINITÉ   </text></navLabel>
+<content src="OEBPS/__P2P.HTM"/>
+<navPoint id="id-107" playOrder="97">
+<navLabel><text>I. Le Père, Source et Fin de la Liturgie</text></navLabel>
+<content src="OEBPS/__P2Q.HTM"/>
+</navPoint>
+<navPoint id="id-108" playOrder="98">
+<navLabel><text>II. L’œuvre du Christ dans la liturgie</text></navLabel>
+<content src="OEBPS/__P2R.HTM"/>
+</navPoint>
+<navPoint id="id-109" playOrder="99">
+<navLabel><text>III. L’Esprit Saint et l’Église dans la liturgie</text></navLabel>
+<content src="OEBPS/__P2S.HTM"/>
+</navPoint>
+<navPoint id="id-110" playOrder="100">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P2T.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-111" playOrder="101">
+<navLabel><text>Article 2 LE MYSTÈRE PASCAL DANS LES SACREMENTS DE L’ÉGLISE</text></navLabel>
+<content src="OEBPS/__P2U.HTM"/>
+<navPoint id="id-112" playOrder="102">
+<navLabel><text>I. Les sacrements du Christ</text></navLabel>
+<content src="OEBPS/__P2V.HTM"/>
+</navPoint>
+<navPoint id="id-113" playOrder="103">
+<navLabel><text>II. Les sacrements de l’Église</text></navLabel>
+<content src="OEBPS/__P2W.HTM"/>
+</navPoint>
+<navPoint id="id-114" playOrder="104">
+<navLabel><text>III. Les sacrements de la foi</text></navLabel>
+<content src="OEBPS/__P2X.HTM"/>
+</navPoint>
+<navPoint id="id-115" playOrder="105">
+<navLabel><text>IV. Sacrements du salut</text></navLabel>
+<content src="OEBPS/__P2Y.HTM"/>
+</navPoint>
+<navPoint id="id-116" playOrder="106">
+<navLabel><text>V. Les sacrements de la vie éternelle</text></navLabel>
+<content src="OEBPS/__P2Z.HTM"/>
+</navPoint>
+<navPoint id="id-117" playOrder="107">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P30.HTM"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-118" playOrder="108">
+<navLabel><text>CHAPITRE DEUXIÈME LA CÉLÉBRATION SACRAMENTELLE DU MYSTÈRE PASCAL</text></navLabel>
+<content src="OEBPS/__P31.HTM"/>
+<navPoint id="id-119" playOrder="108">
+<navLabel><text>Article 1 CÉLÉBRER LA LITURGIE DE L’ÉGLISE   </text></navLabel>
+<content src="OEBPS/__P31.HTM"/>
+<navPoint id="id-120" playOrder="109">
+<navLabel><text>I. Qui célèbre ? </text></navLabel>
+<content src="OEBPS/__P32.HTM"/>
+</navPoint>
+<navPoint id="id-121" playOrder="110">
+<navLabel><text>II Comment célébrer ? </text></navLabel>
+<content src="OEBPS/__P33.HTM"/>
+</navPoint>
+<navPoint id="id-122" playOrder="111">
+<navLabel><text>III Quand célébrer ? </text></navLabel>
+<content src="OEBPS/__P34.HTM"/>
+</navPoint>
+<navPoint id="id-123" playOrder="112">
+<navLabel><text>IV. Où célébrer ? </text></navLabel>
+<content src="OEBPS/__P35.HTM"/>
+</navPoint>
+<navPoint id="id-124" playOrder="113">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P36.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-125" playOrder="114">
+<navLabel><text>Article 2 DIVERSITÉ LITURGIQUE ET UNITÉ DU MYSTÈRE</text></navLabel>
+<content src="OEBPS/__P37.HTM"/>
+<navPoint id="id-126" playOrder="115">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P38.HTM"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-127" playOrder="116">
+<navLabel><text>DEUXIÈME SECTION LES SEPT SACREMENTS DE L’ÉGLISE</text></navLabel>
+<content src="OEBPS/__P39.HTM"/>
+<navPoint id="id-128" playOrder="117">
+<navLabel><text>CHAPITRE PREMIER LES SACREMENTS DE L’INITIATION CHRÉTIENNE</text></navLabel>
+<content src="OEBPS/__P3A.HTM"/>
+<navPoint id="id-129" playOrder="118">
+<navLabel><text>Article 1 LE SACREMENT DU BAPTÊME</text></navLabel>
+<content src="OEBPS/__P3B.HTM"/>
+<navPoint id="id-130" playOrder="119">
+<navLabel><text>I. Comment est appelé ce sacrement ? </text></navLabel>
+<content src="OEBPS/__P3C.HTM"/>
+</navPoint>
+<navPoint id="id-131" playOrder="120">
+<navLabel><text>II. Le Baptême dans l’économie du salut</text></navLabel>
+<content src="OEBPS/__P3D.HTM"/>
+</navPoint>
+<navPoint id="id-132" playOrder="121">
+<navLabel><text>III. Comment est célébré le sacrement du baptême ? </text></navLabel>
+<content src="OEBPS/__P3E.HTM"/>
+</navPoint>
+<navPoint id="id-133" playOrder="122">
+<navLabel><text>IV. Qui peut recevoir le baptême ? </text></navLabel>
+<content src="OEBPS/__P3F.HTM"/>
+</navPoint>
+<navPoint id="id-134" playOrder="123">
+<navLabel><text>V. Qui peut baptiser ? </text></navLabel>
+<content src="OEBPS/__P3G.HTM"/>
+</navPoint>
+<navPoint id="id-135" playOrder="124">
+<navLabel><text>VI. La nécessité du baptême</text></navLabel>
+<content src="OEBPS/__P3H.HTM"/>
+</navPoint>
+<navPoint id="id-136" playOrder="125">
+<navLabel><text>VII. La grâce du baptême</text></navLabel>
+<content src="OEBPS/__P3I.HTM"/>
+</navPoint>
+<navPoint id="id-137" playOrder="126">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P3J.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-138" playOrder="127">
+<navLabel><text>Article 2 LE SACREMENT DE LA CONFIRMATION</text></navLabel>
+<content src="OEBPS/__P3K.HTM"/>
+<navPoint id="id-139" playOrder="128">
+<navLabel><text>I. La confirmation dans l’économie du salut</text></navLabel>
+<content src="OEBPS/__P3L.HTM"/>
+</navPoint>
+<navPoint id="id-140" playOrder="129">
+<navLabel><text>II. Les signes et le rite de la Confirmation</text></navLabel>
+<content src="OEBPS/__P3M.HTM"/>
+</navPoint>
+<navPoint id="id-141" playOrder="130">
+<navLabel><text>III. Les effets de la Confirmation</text></navLabel>
+<content src="OEBPS/__P3N.HTM"/>
+</navPoint>
+<navPoint id="id-142" playOrder="131">
+<navLabel><text>IV. Qui peut recevoir ce sacrement ? </text></navLabel>
+<content src="OEBPS/__P3O.HTM"/>
+</navPoint>
+<navPoint id="id-143" playOrder="132">
+<navLabel><text>V. Le ministre de la Confirmation</text></navLabel>
+<content src="OEBPS/__P3P.HTM"/>
+</navPoint>
+<navPoint id="id-144" playOrder="133">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P3Q.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-145" playOrder="134">
+<navLabel><text>Article 3 LE SACREMENT DE L’EUCHARISTIE</text></navLabel>
+<content src="OEBPS/__P3R.HTM"/>
+<navPoint id="id-146" playOrder="135">
+<navLabel><text>I. L’Eucharistie – source et sommet de la vie ecclésiale</text></navLabel>
+<content src="OEBPS/__P3S.HTM"/>
+</navPoint>
+<navPoint id="id-147" playOrder="136">
+<navLabel><text>II. Comment est appelé ce sacrement ? </text></navLabel>
+<content src="OEBPS/__P3T.HTM"/>
+</navPoint>
+<navPoint id="id-148" playOrder="137">
+<navLabel><text>III. L’eucharistie dans l’économie du salut</text></navLabel>
+<content src="OEBPS/__P3U.HTM"/>
+</navPoint>
+<navPoint id="id-149" playOrder="138">
+<navLabel><text>IV. La célébration liturgique de l’eucharistie</text></navLabel>
+<content src="OEBPS/__P3V.HTM"/>
+</navPoint>
+<navPoint id="id-150" playOrder="139">
+<navLabel><text>V. Le sacrifice sacramentel : action de grâce, mémorial, présence</text></navLabel>
+<content src="OEBPS/__P3W.HTM"/>
+</navPoint>
+<navPoint id="id-151" playOrder="140">
+<navLabel><text>VI. Le banquet pascal</text></navLabel>
+<content src="OEBPS/__P3X.HTM"/>
+</navPoint>
+<navPoint id="id-152" playOrder="141">
+<navLabel><text>VII. L’eucharistie – « pignus futurae gloriae »</text></navLabel>
+<content src="OEBPS/__P3Y.HTM"/>
+</navPoint>
+<navPoint id="id-153" playOrder="142">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P3Z.HTM"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-154" playOrder="143">
+<navLabel><text>CHAPITRE DEUXIÈME LES SACREMENTS DE GUÉRISON</text></navLabel>
+<content src="OEBPS/__P40.HTM"/>
+<navPoint id="id-155" playOrder="144">
+<navLabel><text>Article 4 Le sacrement de Pénitence et de Réconciliation</text></navLabel>
+<content src="OEBPS/__P41.HTM"/>
+<navPoint id="id-156" playOrder="145">
+<navLabel><text>I. Comment est appelé ce sacrement ? </text></navLabel>
+<content src="OEBPS/__P42.HTM"/>
+</navPoint>
+<navPoint id="id-157" playOrder="146">
+<navLabel><text>II. Pourquoi un sacrement de la réconciliation après le Baptême ? </text></navLabel>
+<content src="OEBPS/__P43.HTM"/>
+</navPoint>
+<navPoint id="id-158" playOrder="147">
+<navLabel><text>III. La conversion des baptisés</text></navLabel>
+<content src="OEBPS/__P44.HTM"/>
+</navPoint>
+<navPoint id="id-159" playOrder="148">
+<navLabel><text>IV. La pénitence intérieure</text></navLabel>
+<content src="OEBPS/__P45.HTM"/>
+</navPoint>
+<navPoint id="id-160" playOrder="149">
+<navLabel><text>V. Les multiples formes de la pénitence dans la vie chrétienne</text></navLabel>
+<content src="OEBPS/__P46.HTM"/>
+</navPoint>
+<navPoint id="id-161" playOrder="150">
+<navLabel><text>VI. Le sacrement de la pénitence et de la réconciliation</text></navLabel>
+<content src="OEBPS/__P47.HTM"/>
+</navPoint>
+<navPoint id="id-162" playOrder="151">
+<navLabel><text>VII. Les actes du pénitent</text></navLabel>
+<content src="OEBPS/__P48.HTM"/>
+</navPoint>
+<navPoint id="id-163" playOrder="152">
+<navLabel><text>VIII. Le ministre de ce sacrement</text></navLabel>
+<content src="OEBPS/__P49.HTM"/>
+</navPoint>
+<navPoint id="id-164" playOrder="153">
+<navLabel><text>IX. Les effets de ce sacrement</text></navLabel>
+<content src="OEBPS/__P4A.HTM"/>
+</navPoint>
+<navPoint id="id-165" playOrder="154">
+<navLabel><text>X. Les indulgences</text></navLabel>
+<content src="OEBPS/__P4B.HTM"/>
+</navPoint>
+<navPoint id="id-166" playOrder="155">
+<navLabel><text>XI. La célébration du sacrement de pénitence</text></navLabel>
+<content src="OEBPS/__P4C.HTM"/>
+</navPoint>
+<navPoint id="id-167" playOrder="156">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P4D.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-168" playOrder="157">
+<navLabel><text>Article 5 L’Onction des malades</text></navLabel>
+<content src="OEBPS/__P4E.HTM"/>
+<navPoint id="id-169" playOrder="158">
+<navLabel><text>I. Ses fondements dans l’Economie du Salut</text></navLabel>
+<content src="OEBPS/__P4F.HTM"/>
+</navPoint>
+<navPoint id="id-170" playOrder="159">
+<navLabel><text>II. Qui reçoit et qui administre ce sacrement ? </text></navLabel>
+<content src="OEBPS/__P4G.HTM"/>
+</navPoint>
+<navPoint id="id-171" playOrder="160">
+<navLabel><text>IV. Les effets de la célébration de ce sacrement</text></navLabel>
+<content src="OEBPS/__P4H.HTM"/>
+</navPoint>
+<navPoint id="id-172" playOrder="161">
+<navLabel><text>V. Le Viatique, dernier sacrement du chrétien</text></navLabel>
+<content src="OEBPS/__P4I.HTM"/>
+</navPoint>
+<navPoint id="id-173" playOrder="162">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P4J.HTM"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-174" playOrder="163">
+<navLabel><text>CHAPITRE TROISIÈME LES SACREMENTS DU SERVICE DE LA COMMUNION</text></navLabel>
+<content src="OEBPS/__P4K.HTM"/>
+<navPoint id="id-175" playOrder="164">
+<navLabel><text>Article 6 LE SACREMENT DE L’ORDRE</text></navLabel>
+<content src="OEBPS/__P4L.HTM"/>
+<navPoint id="id-176" playOrder="165">
+<navLabel><text>I. Pourquoi ce nom de sacrement de l’ordre ? </text></navLabel>
+<content src="OEBPS/__P4M.HTM"/>
+</navPoint>
+<navPoint id="id-177" playOrder="166">
+<navLabel><text>II. Le sacrement de l’Ordre dans l’économie du salut</text></navLabel>
+<content src="OEBPS/__P4N.HTM"/>
+</navPoint>
+<navPoint id="id-178" playOrder="167">
+<navLabel><text>III. Les trois degrés du sacrement de l’ordre</text></navLabel>
+<content src="OEBPS/__P4O.HTM"/>
+</navPoint>
+<navPoint id="id-179" playOrder="168">
+<navLabel><text>IV. La célébration de ce sacrement</text></navLabel>
+<content src="OEBPS/__P4P.HTM"/>
+</navPoint>
+<navPoint id="id-180" playOrder="169">
+<navLabel><text>V. Qui peut conférer ce sacrement ? </text></navLabel>
+<content src="OEBPS/__P4Q.HTM"/>
+</navPoint>
+<navPoint id="id-181" playOrder="170">
+<navLabel><text>VI. Qui peut recevoir ce sacrement ? </text></navLabel>
+<content src="OEBPS/__P4R.HTM"/>
+</navPoint>
+<navPoint id="id-182" playOrder="171">
+<navLabel><text>VII. Les effets du sacrement de l’Ordre</text></navLabel>
+<content src="OEBPS/__P4S.HTM"/>
+</navPoint>
+<navPoint id="id-183" playOrder="172">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P4T.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-184" playOrder="173">
+<navLabel><text>Article 7 LE SACREMENT DU MARIAGE</text></navLabel>
+<content src="OEBPS/__P4U.HTM"/>
+<navPoint id="id-185" playOrder="174">
+<navLabel><text>I. Le Mariage dans le dessein de Dieu</text></navLabel>
+<content src="OEBPS/__P4V.HTM"/>
+</navPoint>
+<navPoint id="id-186" playOrder="175">
+<navLabel><text>II. La célébration du mariage</text></navLabel>
+<content src="OEBPS/__P4W.HTM"/>
+</navPoint>
+<navPoint id="id-187" playOrder="176">
+<navLabel><text>III. Le consentement matrimonial</text></navLabel>
+<content src="OEBPS/__P4X.HTM"/>
+</navPoint>
+<navPoint id="id-188" playOrder="177">
+<navLabel><text>IV. Les effets du sacrement du Mariage</text></navLabel>
+<content src="OEBPS/__P4Y.HTM"/>
+</navPoint>
+<navPoint id="id-189" playOrder="178">
+<navLabel><text>V. Les biens et les exigences de l’amour conjugal</text></navLabel>
+<content src="OEBPS/__P4Z.HTM"/>
+</navPoint>
+<navPoint id="id-190" playOrder="179">
+<navLabel><text>VI. L’Église domestique</text></navLabel>
+<content src="OEBPS/__P50.HTM"/>
+</navPoint>
+<navPoint id="id-191" playOrder="180">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P51.HTM"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-192" playOrder="180">
+<navLabel><text>CHAPITRE QUATRIÈME LES AUTRES CÉLÉBRATIONS LITURGIQUES   </text></navLabel>
+<content src="OEBPS/__P51.HTM"/>
+<navPoint id="id-193" playOrder="181">
+<navLabel><text>Article 1 LES SACRÂMENTAUX</text></navLabel>
+<content src="OEBPS/__P52.HTM"/>
+<navPoint id="id-194" playOrder="182">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P53.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-195" playOrder="183">
+<navLabel><text>Article 2 LES FUNÉRAILLES CHRÉTIENNES</text></navLabel>
+<content src="OEBPS/__P54.HTM"/>
+<navPoint id="id-196" playOrder="184">
+<navLabel><text>I. La dernière Pâque du Chrétien</text></navLabel>
+<content src="OEBPS/__P55.HTM"/>
+</navPoint>
+<navPoint id="id-197" playOrder="185">
+<navLabel><text>II. La célébration des funérailles</text></navLabel>
+<content src="OEBPS/__P56.HTM"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-198" playOrder="186">
+<navLabel><text>TROISIÈME PARTIE LA VIE DANS LE CHRIST</text></navLabel>
+<content src="OEBPS/__P57.HTM"/>
+<navPoint id="id-199" playOrder="187">
+<navLabel><text>PREMIÈRE SECTION LA VOCATION DE L’HOMME : LA VIE DANS L’ESPRIT</text></navLabel>
+<content src="OEBPS/__P58.HTM"/>
+<navPoint id="id-200" playOrder="188">
+<navLabel><text>CHAPITRE PREMIER LA DIGNITÉ DE LA PERSONNE HUMAINE</text></navLabel>
+<content src="OEBPS/__P59.HTM"/>
+<navPoint id="id-201" playOrder="189">
+<navLabel><text>Article 1 L’homme image de Dieu</text></navLabel>
+<content src="OEBPS/__P5A.HTM"/>
+<navPoint id="id-202" playOrder="190">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P5B.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-203" playOrder="190">
+<navLabel><text>Article 2 Notre vocation à la béatitude   </text></navLabel>
+<content src="OEBPS/__P5B.HTM"/>
+<navPoint id="id-204" playOrder="191">
+<navLabel><text>I. Les béatitudes</text></navLabel>
+<content src="OEBPS/__P5C.HTM"/>
+</navPoint>
+<navPoint id="id-205" playOrder="192">
+<navLabel><text>II. Le désir de bonheur</text></navLabel>
+<content src="OEBPS/__P5D.HTM"/>
+</navPoint>
+<navPoint id="id-206" playOrder="193">
+<navLabel><text>III. La béatitude chrétienne</text></navLabel>
+<content src="OEBPS/__P5E.HTM"/>
+</navPoint>
+<navPoint id="id-207" playOrder="194">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P5F.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-208" playOrder="195">
+<navLabel><text>Article 3 La liberté de l’homme</text></navLabel>
+<content src="OEBPS/__P5G.HTM"/>
+<navPoint id="id-209" playOrder="196">
+<navLabel><text>I. Liberté et responsabilité</text></navLabel>
+<content src="OEBPS/__P5H.HTM"/>
+</navPoint>
+<navPoint id="id-210" playOrder="197">
+<navLabel><text>II. La liberté humaine dans l’économie du salut</text></navLabel>
+<content src="OEBPS/__P5I.HTM"/>
+</navPoint>
+<navPoint id="id-211" playOrder="198">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P5J.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-212" playOrder="199">
+<navLabel><text>Article 4 La moralité des actes humains</text></navLabel>
+<content src="OEBPS/__P5K.HTM"/>
+<navPoint id="id-213" playOrder="200">
+<navLabel><text>I. Les sources de la moralité</text></navLabel>
+<content src="OEBPS/__P5L.HTM"/>
+</navPoint>
+<navPoint id="id-214" playOrder="201">
+<navLabel><text>II. Les actes bons et les actes mauvais</text></navLabel>
+<content src="OEBPS/__P5M.HTM"/>
+</navPoint>
+<navPoint id="id-215" playOrder="202">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P5N.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-216" playOrder="203">
+<navLabel><text>Article 5 La moralité des passions</text></navLabel>
+<content src="OEBPS/__P5O.HTM"/>
+<navPoint id="id-217" playOrder="204">
+<navLabel><text>I. Les Passions</text></navLabel>
+<content src="OEBPS/__P5P.HTM"/>
+</navPoint>
+<navPoint id="id-218" playOrder="205">
+<navLabel><text>II. Passions et vie morale</text></navLabel>
+<content src="OEBPS/__P5Q.HTM"/>
+</navPoint>
+<navPoint id="id-219" playOrder="206">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P5R.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-220" playOrder="207">
+<navLabel><text>Article 6 La conscience morale</text></navLabel>
+<content src="OEBPS/__P5S.HTM"/>
+<navPoint id="id-221" playOrder="208">
+<navLabel><text>I. Le jugement de conscience</text></navLabel>
+<content src="OEBPS/__P5T.HTM"/>
+</navPoint>
+<navPoint id="id-222" playOrder="209">
+<navLabel><text>II. La formation de la conscience</text></navLabel>
+<content src="OEBPS/__P5U.HTM"/>
+</navPoint>
+<navPoint id="id-223" playOrder="210">
+<navLabel><text>III. Les choix de la conscience</text></navLabel>
+<content src="OEBPS/__P5V.HTM"/>
+</navPoint>
+<navPoint id="id-224" playOrder="211">
+<navLabel><text>IV. le jugement erroné</text></navLabel>
+<content src="OEBPS/__P5W.HTM"/>
+</navPoint>
+<navPoint id="id-225" playOrder="212">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P5X.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-226" playOrder="213">
+<navLabel><text>Article 7 Les vertus</text></navLabel>
+<content src="OEBPS/__P5Y.HTM"/>
+<navPoint id="id-227" playOrder="214">
+<navLabel><text>I. Les vertus humaines</text></navLabel>
+<content src="OEBPS/__P5Z.HTM"/>
+</navPoint>
+<navPoint id="id-228" playOrder="215">
+<navLabel><text>II. Les vertus théologales</text></navLabel>
+<content src="OEBPS/__P60.HTM"/>
+</navPoint>
+<navPoint id="id-229" playOrder="216">
+<navLabel><text>III. Les dons et les Fruits du Saint-Esprit</text></navLabel>
+<content src="OEBPS/__P61.HTM"/>
+</navPoint>
+<navPoint id="id-230" playOrder="217">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P62.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-231" playOrder="217">
+<navLabel><text>Article 8 Le péché   </text></navLabel>
+<content src="OEBPS/__P62.HTM"/>
+<navPoint id="id-232" playOrder="218">
+<navLabel><text>I. La miséricorde et le péché</text></navLabel>
+<content src="OEBPS/__P63.HTM"/>
+</navPoint>
+<navPoint id="id-233" playOrder="219">
+<navLabel><text>II. La définition du péché</text></navLabel>
+<content src="OEBPS/__P64.HTM"/>
+</navPoint>
+<navPoint id="id-234" playOrder="220">
+<navLabel><text>III. La diversité des péchés</text></navLabel>
+<content src="OEBPS/__P65.HTM"/>
+</navPoint>
+<navPoint id="id-235" playOrder="221">
+<navLabel><text>IV. La gravité du péché : péché mortel et véniel</text></navLabel>
+<content src="OEBPS/__P66.HTM"/>
+</navPoint>
+<navPoint id="id-236" playOrder="222">
+<navLabel><text>V. La prolifération du péché</text></navLabel>
+<content src="OEBPS/__P67.HTM"/>
+</navPoint>
+<navPoint id="id-237" playOrder="223">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P68.HTM"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-238" playOrder="224">
+<navLabel><text>CHAPITRE DEUXIÈME LA COMMUNAUTÉ HUMAINE</text></navLabel>
+<content src="OEBPS/__P69.HTM"/>
+<navPoint id="id-239" playOrder="224">
+<navLabel><text>Article 1 La Personne et la Société   </text></navLabel>
+<content src="OEBPS/__P69.HTM"/>
+<navPoint id="id-240" playOrder="225">
+<navLabel><text>I. Le caractère communautaire de la vocation humaine</text></navLabel>
+<content src="OEBPS/__P6A.HTM"/>
+</navPoint>
+<navPoint id="id-241" playOrder="226">
+<navLabel><text>II. La Conversion et la Société</text></navLabel>
+<content src="OEBPS/__P6B.HTM"/>
+</navPoint>
+<navPoint id="id-242" playOrder="227">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P6C.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-243" playOrder="227">
+<navLabel><text>Article 2 La participation à la vie sociale   </text></navLabel>
+<content src="OEBPS/__P6C.HTM"/>
+<navPoint id="id-244" playOrder="228">
+<navLabel><text>I. L’autorité</text></navLabel>
+<content src="OEBPS/__P6D.HTM"/>
+</navPoint>
+<navPoint id="id-245" playOrder="229">
+<navLabel><text>II. Le Bien Commun</text></navLabel>
+<content src="OEBPS/__P6E.HTM"/>
+</navPoint>
+<navPoint id="id-246" playOrder="230">
+<navLabel><text>III. Responsabilité et Participation</text></navLabel>
+<content src="OEBPS/__P6F.HTM"/>
+</navPoint>
+<navPoint id="id-247" playOrder="231">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P6G.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-248" playOrder="232">
+<navLabel><text>Article 3 La Justice Sociale</text></navLabel>
+<content src="OEBPS/__P6H.HTM"/>
+<navPoint id="id-249" playOrder="233">
+<navLabel><text>I. Le respect de la personne humaine</text></navLabel>
+<content src="OEBPS/__P6I.HTM"/>
+</navPoint>
+<navPoint id="id-250" playOrder="234">
+<navLabel><text>II. Égalité et Différences entre les hommes</text></navLabel>
+<content src="OEBPS/__P6J.HTM"/>
+</navPoint>
+<navPoint id="id-251" playOrder="235">
+<navLabel><text>III. La Solidarité humaine</text></navLabel>
+<content src="OEBPS/__P6K.HTM"/>
+</navPoint>
+<navPoint id="id-252" playOrder="236">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P6L.HTM"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-253" playOrder="237">
+<navLabel><text>CHAPITRE TROISIÈME LE SALUT DE DIEU : LA LOI ET LA GRÂCE</text></navLabel>
+<content src="OEBPS/__P6M.HTM"/>
+<navPoint id="id-254" playOrder="238">
+<navLabel><text>Article 1 LA LOI MORALE</text></navLabel>
+<content src="OEBPS/__P6N.HTM"/>
+<navPoint id="id-255" playOrder="239">
+<navLabel><text>I. La loi morale naturelle</text></navLabel>
+<content src="OEBPS/__P6O.HTM"/>
+</navPoint>
+<navPoint id="id-256" playOrder="240">
+<navLabel><text>II. La loi ancienne</text></navLabel>
+<content src="OEBPS/__P6P.HTM"/>
+</navPoint>
+<navPoint id="id-257" playOrder="241">
+<navLabel><text>III. La Loi nouvelle ou Loi évangélique</text></navLabel>
+<content src="OEBPS/__P6Q.HTM"/>
+</navPoint>
+<navPoint id="id-258" playOrder="242">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P6R.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-259" playOrder="242">
+<navLabel><text>Article 2 GRÂCE ET JUSTIFICATION   </text></navLabel>
+<content src="OEBPS/__P6R.HTM"/>
+<navPoint id="id-260" playOrder="243">
+<navLabel><text>I. La justification</text></navLabel>
+<content src="OEBPS/__P6S.HTM"/>
+</navPoint>
+<navPoint id="id-261" playOrder="244">
+<navLabel><text>II. La grâce</text></navLabel>
+<content src="OEBPS/__P6T.HTM"/>
+</navPoint>
+<navPoint id="id-262" playOrder="245">
+<navLabel><text>III. Le mérite</text></navLabel>
+<content src="OEBPS/__P6U.HTM"/>
+</navPoint>
+<navPoint id="id-263" playOrder="246">
+<navLabel><text>IV. La sainteté chrétienne</text></navLabel>
+<content src="OEBPS/__P6V.HTM"/>
+</navPoint>
+<navPoint id="id-264" playOrder="247">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P6W.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-265" playOrder="248">
+<navLabel><text>Article 3 ÉGLISE, MÈRE ET ÉDUCATRICE</text></navLabel>
+<content src="OEBPS/__P6X.HTM"/>
+<navPoint id="id-266" playOrder="249">
+<navLabel><text>I. Vie morale et magistère de l’Église</text></navLabel>
+<content src="OEBPS/__P6Y.HTM"/>
+</navPoint>
+<navPoint id="id-267" playOrder="250">
+<navLabel><text>II. Les commandements de l’Église</text></navLabel>
+<content src="OEBPS/__P6Z.HTM"/>
+</navPoint>
+<navPoint id="id-268" playOrder="251">
+<navLabel><text>III. Vie morale et témoignage missionnaire</text></navLabel>
+<content src="OEBPS/__P70.HTM"/>
+</navPoint>
+<navPoint id="id-269" playOrder="252">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P71.HTM"/>
+</navPoint>
+<navPoint id="id-270" playOrder="253">
+<navLabel><text>Les dix commandements</text></navLabel>
+<content src="OEBPS/__P72.HTM"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-271" playOrder="254">
+<navLabel><text>DEUXIÈME SECTION LES DIX COMMANDEMENTS</text></navLabel>
+<content src="OEBPS/__P73.HTM"/>
+<navPoint id="id-272" playOrder="255">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P74.HTM"/>
+</navPoint>
+<navPoint id="id-273" playOrder="256">
+<navLabel><text>CHAPITRE PREMIER « TU AIMERAS LE SEIGNEUR TON DIEU DE TOUT TON CŒUR, DE TOUTE TON ÂME ET DE TOUT TON ESPRIT »</text></navLabel>
+<content src="OEBPS/__P75.HTM"/>
+<navPoint id="id-274" playOrder="257">
+<navLabel><text>Article 1 LE PREMIER COMMANDEMENT</text></navLabel>
+<content src="OEBPS/__P76.HTM"/>
+<navPoint id="id-275" playOrder="258">
+<navLabel><text>I. « Tu adoreras le Seigneur, ton Dieu, et tu le serviras »</text></navLabel>
+<content src="OEBPS/__P77.HTM"/>
+</navPoint>
+<navPoint id="id-276" playOrder="259">
+<navLabel><text>II. « C’est a lui seul que tu rendras un culte »</text></navLabel>
+<content src="OEBPS/__P78.HTM"/>
+</navPoint>
+<navPoint id="id-277" playOrder="260">
+<navLabel><text>III. « Tu n’auras pas d’autres dieux devant moi »</text></navLabel>
+<content src="OEBPS/__P79.HTM"/>
+</navPoint>
+<navPoint id="id-278" playOrder="261">
+<navLabel><text>IV. « Tu ne te feras aucune image sculptée… »</text></navLabel>
+<content src="OEBPS/__P7A.HTM"/>
+</navPoint>
+<navPoint id="id-279" playOrder="262">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P7B.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-280" playOrder="263">
+<navLabel><text>Article 2 LE DEUXIÈME COMMANDEMENT</text></navLabel>
+<content src="OEBPS/__P7C.HTM"/>
+<navPoint id="id-281" playOrder="264">
+<navLabel><text>I. Le nom du Seigneur est saint</text></navLabel>
+<content src="OEBPS/__P7D.HTM"/>
+</navPoint>
+<navPoint id="id-282" playOrder="265">
+<navLabel><text>II. Le nom du Seigneur prononcé à faux</text></navLabel>
+<content src="OEBPS/__P7E.HTM"/>
+</navPoint>
+<navPoint id="id-283" playOrder="266">
+<navLabel><text>III. Le nom chrétien</text></navLabel>
+<content src="OEBPS/__P7F.HTM"/>
+</navPoint>
+<navPoint id="id-284" playOrder="267">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P7G.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-285" playOrder="268">
+<navLabel><text>Article 3 LE TROISIÈME COMMANDEMENT</text></navLabel>
+<content src="OEBPS/__P7H.HTM"/>
+<navPoint id="id-286" playOrder="269">
+<navLabel><text>I. Le jour du Sabbat</text></navLabel>
+<content src="OEBPS/__P7I.HTM"/>
+</navPoint>
+<navPoint id="id-287" playOrder="270">
+<navLabel><text>II. Le jour du Seigneur</text></navLabel>
+<content src="OEBPS/__P7J.HTM"/>
+</navPoint>
+<navPoint id="id-288" playOrder="271">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P7K.HTM"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-289" playOrder="272">
+<navLabel><text>CHAPITRE DEUXIÈME « TU AIMERAS TON PROCHAIN COMME TOI-MÊME »</text></navLabel>
+<content src="OEBPS/__P7L.HTM"/>
+<navPoint id="id-290" playOrder="273">
+<navLabel><text>Article 4 LE QUATRIÈME COMMANDEMENT</text></navLabel>
+<content src="OEBPS/__P7M.HTM"/>
+<navPoint id="id-291" playOrder="274">
+<navLabel><text>I. La famille dans le plan de Dieu</text></navLabel>
+<content src="OEBPS/__P7N.HTM"/>
+</navPoint>
+<navPoint id="id-292" playOrder="275">
+<navLabel><text>II. La famille et la société</text></navLabel>
+<content src="OEBPS/__P7O.HTM"/>
+</navPoint>
+<navPoint id="id-293" playOrder="276">
+<navLabel><text>III. Devoirs des membres de la famille</text></navLabel>
+<content src="OEBPS/__P7P.HTM"/>
+</navPoint>
+<navPoint id="id-294" playOrder="277">
+<navLabel><text>IV. La famille et le royaume</text></navLabel>
+<content src="OEBPS/__P7Q.HTM"/>
+</navPoint>
+<navPoint id="id-295" playOrder="278">
+<navLabel><text>V. Les autorités dans la société civile</text></navLabel>
+<content src="OEBPS/__P7R.HTM"/>
+</navPoint>
+<navPoint id="id-296" playOrder="279">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P7S.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-297" playOrder="280">
+<navLabel><text>Article 5 LE CINQUIÈME COMMANDEMENT</text></navLabel>
+<content src="OEBPS/__P7T.HTM"/>
+<navPoint id="id-298" playOrder="281">
+<navLabel><text>I. Le respect de la vie humaine</text></navLabel>
+<content src="OEBPS/__P7U.HTM"/>
+</navPoint>
+<navPoint id="id-299" playOrder="282">
+<navLabel><text>II. Le respect de la dignité des personnes</text></navLabel>
+<content src="OEBPS/__P7V.HTM"/>
+</navPoint>
+<navPoint id="id-300" playOrder="283">
+<navLabel><text>III. La sauvegarde de la paix</text></navLabel>
+<content src="OEBPS/__P7W.HTM"/>
+</navPoint>
+<navPoint id="id-301" playOrder="284">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P7X.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-302" playOrder="285">
+<navLabel><text>Article 6 LE SIXIÈME COMMANDEMENT</text></navLabel>
+<content src="OEBPS/__P7Y.HTM"/>
+<navPoint id="id-303" playOrder="286">
+<navLabel><text>I. « Homme et femme, il les créa… »</text></navLabel>
+<content src="OEBPS/__P7Z.HTM"/>
+</navPoint>
+<navPoint id="id-304" playOrder="287">
+<navLabel><text>II. La vocation à la chasteté</text></navLabel>
+<content src="OEBPS/__P80.HTM"/>
+</navPoint>
+<navPoint id="id-305" playOrder="288">
+<navLabel><text>III. L’amour des époux</text></navLabel>
+<content src="OEBPS/__P81.HTM"/>
+</navPoint>
+<navPoint id="id-306" playOrder="289">
+<navLabel><text>IV. Les offenses à la dignité du mariage</text></navLabel>
+<content src="OEBPS/__P82.HTM"/>
+</navPoint>
+<navPoint id="id-307" playOrder="290">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P83.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-308" playOrder="291">
+<navLabel><text>Article 7 LE SEPTIÈME COMMANDEMENT</text></navLabel>
+<content src="OEBPS/__P84.HTM"/>
+<navPoint id="id-309" playOrder="292">
+<navLabel><text>I. La Destination universelle et la propriété privée des biens</text></navLabel>
+<content src="OEBPS/__P85.HTM"/>
+</navPoint>
+<navPoint id="id-310" playOrder="293">
+<navLabel><text>II. Le respect des personnes et de leurs biens</text></navLabel>
+<content src="OEBPS/__P86.HTM"/>
+</navPoint>
+<navPoint id="id-311" playOrder="294">
+<navLabel><text>III. La doctrine sociale de l’Église</text></navLabel>
+<content src="OEBPS/__P87.HTM"/>
+</navPoint>
+<navPoint id="id-312" playOrder="295">
+<navLabel><text>IV. L’activité économique et la justice sociale</text></navLabel>
+<content src="OEBPS/__P88.HTM"/>
+</navPoint>
+<navPoint id="id-313" playOrder="296">
+<navLabel><text>V. Justice et solidarité entre les nations</text></navLabel>
+<content src="OEBPS/__P89.HTM"/>
+</navPoint>
+<navPoint id="id-314" playOrder="297">
+<navLabel><text>VI. L’amour des pauvres</text></navLabel>
+<content src="OEBPS/__P8A.HTM"/>
+</navPoint>
+<navPoint id="id-315" playOrder="298">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P8B.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-316" playOrder="299">
+<navLabel><text>Article 8 LE HUITIÈME COMMANDEMENT</text></navLabel>
+<content src="OEBPS/__P8C.HTM"/>
+<navPoint id="id-317" playOrder="300">
+<navLabel><text>I. Vivre dans la vérité</text></navLabel>
+<content src="OEBPS/__P8D.HTM"/>
+</navPoint>
+<navPoint id="id-318" playOrder="301">
+<navLabel><text>II. « Rendre témoignage à la vérité »</text></navLabel>
+<content src="OEBPS/__P8E.HTM"/>
+</navPoint>
+<navPoint id="id-319" playOrder="302">
+<navLabel><text>III. Les offenses à la vérité</text></navLabel>
+<content src="OEBPS/__P8F.HTM"/>
+</navPoint>
+<navPoint id="id-320" playOrder="303">
+<navLabel><text>IV. Le respect de la vérité</text></navLabel>
+<content src="OEBPS/__P8G.HTM"/>
+</navPoint>
+<navPoint id="id-321" playOrder="304">
+<navLabel><text>V. L’usage des Moyens de communication sociale</text></navLabel>
+<content src="OEBPS/__P8H.HTM"/>
+</navPoint>
+<navPoint id="id-322" playOrder="305">
+<navLabel><text>VI. Vérité, Beauté et Art sacré</text></navLabel>
+<content src="OEBPS/__P8I.HTM"/>
+</navPoint>
+<navPoint id="id-323" playOrder="306">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P8J.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-324" playOrder="307">
+<navLabel><text>Article 9 LE NEUVIÈME COMMANDEMENT</text></navLabel>
+<content src="OEBPS/__P8K.HTM"/>
+<navPoint id="id-325" playOrder="308">
+<navLabel><text>I. La purification du cœur</text></navLabel>
+<content src="OEBPS/__P8L.HTM"/>
+</navPoint>
+<navPoint id="id-326" playOrder="309">
+<navLabel><text>II. Le combat pour la pureté</text></navLabel>
+<content src="OEBPS/__P8M.HTM"/>
+</navPoint>
+<navPoint id="id-327" playOrder="310">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P8N.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-328" playOrder="311">
+<navLabel><text>Article 10 LE DIXIÈME COMMANDEMENT</text></navLabel>
+<content src="OEBPS/__P8O.HTM"/>
+<navPoint id="id-329" playOrder="312">
+<navLabel><text>I. Le désordre des convoitises</text></navLabel>
+<content src="OEBPS/__P8P.HTM"/>
+</navPoint>
+<navPoint id="id-330" playOrder="313">
+<navLabel><text>II. Les désirs de l’Esprit</text></navLabel>
+<content src="OEBPS/__P8Q.HTM"/>
+</navPoint>
+<navPoint id="id-331" playOrder="314">
+<navLabel><text>III. La pauvreté de cœur</text></navLabel>
+<content src="OEBPS/__P8R.HTM"/>
+</navPoint>
+<navPoint id="id-332" playOrder="315">
+<navLabel><text>IV. « Je veux voir Dieu »</text></navLabel>
+<content src="OEBPS/__P8S.HTM"/>
+</navPoint>
+<navPoint id="id-333" playOrder="316">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P8T.HTM"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-334" playOrder="316">
+<navLabel><text>QUATRIÈME PARTIE LA PRIÈRE CHRÉTIENNE   </text></navLabel>
+<content src="OEBPS/__P8T.HTM"/>
+<navPoint id="id-335" playOrder="317">
+<navLabel><text>PREMIÈRE SECTION LA PRIÈRE DANS LA VIE CHRÉTIENNE</text></navLabel>
+<content src="OEBPS/__P8U.HTM"/>
+<navPoint id="id-336" playOrder="318">
+<navLabel><text>CHAPITRE PREMIER LA RÉVÉLATION DE LA PRIÈRE — L’APPEL UNIVERSEL À LA PRIÈRE</text></navLabel>
+<content src="OEBPS/__P8V.HTM"/>
+<navPoint id="id-337" playOrder="319">
+<navLabel><text>Article 1 DANS L’ANCIEN TESTAMENT</text></navLabel>
+<content src="OEBPS/__P8W.HTM"/>
+<navPoint id="id-338" playOrder="320">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P8X.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-339" playOrder="321">
+<navLabel><text>Article 2 DANS LA PLÉNITUDE DU TEMPS</text></navLabel>
+<content src="OEBPS/__P8Y.HTM"/>
+<navPoint id="id-340" playOrder="322">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P8Z.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-341" playOrder="323">
+<navLabel><text>Article 3 DANS LE TEMPS DE L’ÉGLISE</text></navLabel>
+<content src="OEBPS/__P90.HTM"/>
+<navPoint id="id-342" playOrder="324">
+<navLabel><text>I. La bénédiction et l’adoration</text></navLabel>
+<content src="OEBPS/__P91.HTM"/>
+</navPoint>
+<navPoint id="id-343" playOrder="325">
+<navLabel><text>II. La prière de demande</text></navLabel>
+<content src="OEBPS/__P92.HTM"/>
+</navPoint>
+<navPoint id="id-344" playOrder="326">
+<navLabel><text>III. La prière d’intercession</text></navLabel>
+<content src="OEBPS/__P93.HTM"/>
+</navPoint>
+<navPoint id="id-345" playOrder="327">
+<navLabel><text>IV. La prière d’action de grâces</text></navLabel>
+<content src="OEBPS/__P94.HTM"/>
+</navPoint>
+<navPoint id="id-346" playOrder="328">
+<navLabel><text>V. La prière de louange</text></navLabel>
+<content src="OEBPS/__P95.HTM"/>
+</navPoint>
+<navPoint id="id-347" playOrder="329">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P96.HTM"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-348" playOrder="330">
+<navLabel><text>CHAPITRE DEUXIÈME LA TRADITION DE LA PRIÈRE</text></navLabel>
+<content src="OEBPS/__P97.HTM"/>
+<navPoint id="id-349" playOrder="331">
+<navLabel><text>Article 1 AUX SOURCES DE LA PRIÈRE</text></navLabel>
+<content src="OEBPS/__P98.HTM"/>
+<navPoint id="id-350" playOrder="332">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P99.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-351" playOrder="333">
+<navLabel><text>Article 2 LE CHEMIN DE LA PRIÈRE</text></navLabel>
+<content src="OEBPS/__P9A.HTM"/>
+<navPoint id="id-352" playOrder="334">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P9B.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-353" playOrder="335">
+<navLabel><text>Article 3 DES GUIDES POUR LA PRIÈRE</text></navLabel>
+<content src="OEBPS/__P9C.HTM"/>
+<navPoint id="id-354" playOrder="336">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P9D.HTM"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-355" playOrder="337">
+<navLabel><text>Chapitre troisième LA VIE DE PRIÈRE</text></navLabel>
+<content src="OEBPS/__P9E.HTM"/>
+<navPoint id="id-356" playOrder="337">
+<navLabel><text>Article 1 LES EXPRESSIONS DE LA PRIÈRE   </text></navLabel>
+<content src="OEBPS/__P9E.HTM"/>
+<navPoint id="id-357" playOrder="338">
+<navLabel><text>I. La prière vocale</text></navLabel>
+<content src="OEBPS/__P9F.HTM"/>
+</navPoint>
+<navPoint id="id-358" playOrder="339">
+<navLabel><text>II. La méditation</text></navLabel>
+<content src="OEBPS/__P9G.HTM"/>
+</navPoint>
+<navPoint id="id-359" playOrder="340">
+<navLabel><text>III. L’oraison</text></navLabel>
+<content src="OEBPS/__P9H.HTM"/>
+</navPoint>
+<navPoint id="id-360" playOrder="341">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P9I.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-361" playOrder="342">
+<navLabel><text>Article 2 LE COMBAT DE LA PRIÈRE</text></navLabel>
+<content src="OEBPS/__P9J.HTM"/>
+<navPoint id="id-362" playOrder="343">
+<navLabel><text>I. Les objections à la prière</text></navLabel>
+<content src="OEBPS/__P9K.HTM"/>
+</navPoint>
+<navPoint id="id-363" playOrder="344">
+<navLabel><text>II. L’humble vigilance du cœur</text></navLabel>
+<content src="OEBPS/__P9L.HTM"/>
+</navPoint>
+<navPoint id="id-364" playOrder="345">
+<navLabel><text>III. La confiance filiale</text></navLabel>
+<content src="OEBPS/__P9M.HTM"/>
+</navPoint>
+<navPoint id="id-365" playOrder="346">
+<navLabel><text>IV. Persévérer dans l’amour</text></navLabel>
+<content src="OEBPS/__P9N.HTM"/>
+</navPoint>
+<navPoint id="id-366" playOrder="347">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P9O.HTM"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-367" playOrder="348">
+<navLabel><text>DEUXIÈME SECTION LA PRIÈRE DU SEIGNEUR : « NOTRE PÈRE ! »</text></navLabel>
+<content src="OEBPS/__P9P.HTM"/>
+<navPoint id="id-368" playOrder="349">
+<navLabel><text>Article 1 « LE RÉSUMÉ DE TOUT L’ÉVANGILE »</text></navLabel>
+<content src="OEBPS/__P9Q.HTM"/>
+<navPoint id="id-369" playOrder="350">
+<navLabel><text>I. Au centre des Écritures</text></navLabel>
+<content src="OEBPS/__P9R.HTM"/>
+</navPoint>
+<navPoint id="id-370" playOrder="351">
+<navLabel><text>II. « La prière du Seigneur »</text></navLabel>
+<content src="OEBPS/__P9S.HTM"/>
+</navPoint>
+<navPoint id="id-371" playOrder="352">
+<navLabel><text>III. La prière de l’Église</text></navLabel>
+<content src="OEBPS/__P9T.HTM"/>
+</navPoint>
+<navPoint id="id-372" playOrder="353">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P9U.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-373" playOrder="353">
+<navLabel><text>Article 2 « NOTRE PÈRE QUI ES AUX CIEUX »   </text></navLabel>
+<content src="OEBPS/__P9U.HTM"/>
+<navPoint id="id-374" playOrder="354">
+<navLabel><text>I. « Oser nous approcher en toute confiance »</text></navLabel>
+<content src="OEBPS/__P9V.HTM"/>
+</navPoint>
+<navPoint id="id-375" playOrder="355">
+<navLabel><text>II. « Père ! »</text></navLabel>
+<content src="OEBPS/__P9W.HTM"/>
+</navPoint>
+<navPoint id="id-376" playOrder="356">
+<navLabel><text>III. « Notre » Père</text></navLabel>
+<content src="OEBPS/__P9X.HTM"/>
+</navPoint>
+<navPoint id="id-377" playOrder="357">
+<navLabel><text>IV. « Qui es aux cieux »</text></navLabel>
+<content src="OEBPS/__P9Y.HTM"/>
+</navPoint>
+<navPoint id="id-378" playOrder="358">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__P9Z.HTM"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-379" playOrder="359">
+<navLabel><text>Article 3 LES SEPT DEMANDES</text></navLabel>
+<content src="OEBPS/__PA0.HTM"/>
+<navPoint id="id-380" playOrder="360">
+<navLabel><text>I. Que ton Nom soit sanctifié</text></navLabel>
+<content src="OEBPS/__PA1.HTM"/>
+</navPoint>
+<navPoint id="id-381" playOrder="361">
+<navLabel><text>II. Que ton Règne vienne</text></navLabel>
+<content src="OEBPS/__PA2.HTM"/>
+</navPoint>
+<navPoint id="id-382" playOrder="362">
+<navLabel><text>III. Que ta Volonté soit faite sur la terre comme au ciel</text></navLabel>
+<content src="OEBPS/__PA3.HTM"/>
+</navPoint>
+<navPoint id="id-383" playOrder="363">
+<navLabel><text>IV. Donne-nous aujourd’hui notre pain de ce jour</text></navLabel>
+<content src="OEBPS/__PA4.HTM"/>
+</navPoint>
+<navPoint id="id-384" playOrder="364">
+<navLabel><text>V. Pardonne-nous nos offenses, comme nous pardonnons aussi à ceux qui nous ont offensés</text></navLabel>
+<content src="OEBPS/__PA5.HTM"/>
+</navPoint>
+<navPoint id="id-385" playOrder="365">
+<navLabel><text>VI. Ne nous soumets pas à la tentation</text></navLabel>
+<content src="OEBPS/__PA6.HTM"/>
+</navPoint>
+<navPoint id="id-386" playOrder="366">
+<navLabel><text>VII. Mais délivre-nous du Mal</text></navLabel>
+<content src="OEBPS/__PA7.HTM"/>
+</navPoint>
+<navPoint id="id-387" playOrder="367">
+<navLabel><text>LA DOXOLOGIE FINALE</text></navLabel>
+<content src="OEBPS/__PA8.HTM"/>
+</navPoint>
+<navPoint id="id-388" playOrder="368">
+<navLabel><text>EN BREF</text></navLabel>
+<content src="OEBPS/__PA9.HTM"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+  </navMap>
+</ncx>

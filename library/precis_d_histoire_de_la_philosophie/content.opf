@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="uuid_id">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>Précis d’histoire de la philosophie</dc:title>
+    <dc:language>fr</dc:language>
+    <dc:creator opf:file-as="François-Joseph THONNARD" opf:role="aut">François-Joseph THONNARD</dc:creator>
+    <meta name="cover" content="cover-image"/>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">f59128ae-3e5e-42c7-aaf9-0c61f26d1517</dc:identifier>
+  </metadata>
+  <manifest>
+    <item id="s0" media-type="application/xhtml+xml" href="OEBPS/h01_index.htm" />
+    <item id="s1" media-type="application/xhtml+xml" href="OEBPS/h02_TDM.htm" />
+    <item id="s2" media-type="application/xhtml+xml" href="OEBPS/h03_preface.htm" />
+    <item id="s3" media-type="application/xhtml+xml" href="OEBPS/h04_p0001a0025.htm" />
+    <item id="s4" media-type="application/xhtml+xml" href="OEBPS/h05_p0026a0050.htm" />
+    <item id="s5" media-type="application/xhtml+xml" href="OEBPS/h06_p0051a0073.htm" />
+    <item id="s6" media-type="application/xhtml+xml" href="OEBPS/h07_p0074a0095.htm" />
+    <item id="s7" media-type="application/xhtml+xml" href="OEBPS/h08_p0096a0119.htm" />
+    <item id="s8" media-type="application/xhtml+xml" href="OEBPS/h09_p0120a0141.htm" />
+    <item id="s9" media-type="application/xhtml+xml" href="OEBPS/h10_p0142a0160.htm" />
+    <item id="s10" media-type="application/xhtml+xml" href="OEBPS/h11_p0161a0177.htm" />
+    <item id="s11" media-type="application/xhtml+xml" href="OEBPS/h12_p0178a0196.htm" />
+    <item id="s12" media-type="application/xhtml+xml" href="OEBPS/h13_p0197a0227.htm" />
+    <item id="s13" media-type="application/xhtml+xml" href="OEBPS/h14_p0228a0245.htm" />
+    <item id="s14" media-type="application/xhtml+xml" href="OEBPS/h15_p0246a0270.htm" />
+    <item id="s15" media-type="application/xhtml+xml" href="OEBPS/h16_p0271a0298.htm" />
+    <item id="s16" media-type="application/xhtml+xml" href="OEBPS/h17_p0299a0311.htm" />
+    <item id="s17" media-type="application/xhtml+xml" href="OEBPS/h18_p0312a0336.htm" />
+    <item id="s18" media-type="application/xhtml+xml" href="OEBPS/h19_p0337a0356.htm" />
+    <item id="s19" media-type="application/xhtml+xml" href="OEBPS/h20_p0357a0368.htm" />
+    <item id="s20" media-type="application/xhtml+xml" href="OEBPS/h21_p0369a0375.htm" />
+    <item id="s21" media-type="application/xhtml+xml" href="OEBPS/h22_p0376a0386.htm" />
+    <item id="s22" media-type="application/xhtml+xml" href="OEBPS/h23_p0387a0404.htm" />
+    <item id="s23" media-type="application/xhtml+xml" href="OEBPS/h24_p0405a0424.htm" />
+    <item id="s24" media-type="application/xhtml+xml" href="OEBPS/h25_p0425a0443.htm" />
+    <item id="s25" media-type="application/xhtml+xml" href="OEBPS/h26_p0444a0473.htm" />
+    <item id="s26" media-type="application/xhtml+xml" href="OEBPS/h27_p0474a0480.htm" />
+    <item id="s27" media-type="application/xhtml+xml" href="OEBPS/h28_p0481a0484.htm" />
+    <item id="s28" media-type="application/xhtml+xml" href="OEBPS/h29_p0485a0489.htm" />
+    <item id="s29" media-type="application/xhtml+xml" href="OEBPS/h30_p0490a0508.htm" />
+    <item id="s30" media-type="application/xhtml+xml" href="OEBPS/h31_p0509a0521.htm" />
+    <item id="s31" media-type="application/xhtml+xml" href="OEBPS/h32_p0522a0546.htm" />
+    <item id="s32" media-type="application/xhtml+xml" href="OEBPS/h33_p0547a0564.htm" />
+    <item id="s33" media-type="application/xhtml+xml" href="OEBPS/h34_p0565a0584.htm" />
+    <item id="s34" media-type="application/xhtml+xml" href="OEBPS/h35_p0585a0604.htm" />
+    <item id="s35" media-type="application/xhtml+xml" href="OEBPS/h36_p0605a0613.htm" />
+    <item id="s36" media-type="application/xhtml+xml" href="OEBPS/h37_p0614a0631.htm" />
+    <item id="s37" media-type="application/xhtml+xml" href="OEBPS/h38_p0632a0650.htm" />
+    <item id="s38" media-type="application/xhtml+xml" href="OEBPS/h39_p0651a0663.htm" />
+    <item id="s39" media-type="application/xhtml+xml" href="OEBPS/h40_p0664a0681.htm" />
+    <item id="s40" media-type="application/xhtml+xml" href="OEBPS/h41_p0682a0694.htm" />
+    <item id="s41" media-type="application/xhtml+xml" href="OEBPS/h42_p0695a0706.htm" />
+    <item id="s42" media-type="application/xhtml+xml" href="OEBPS/h43_p0707a0717.htm" />
+    <item id="s43" media-type="application/xhtml+xml" href="OEBPS/h90_n0001a0399.htm" />
+    <item id="s44" media-type="application/xhtml+xml" href="OEBPS/h91_n00400a0799.htm" />
+    <item id="s45" media-type="application/xhtml+xml" href="OEBPS/h92_n00800a1199.htm" />
+    <item id="s46" media-type="application/xhtml+xml" href="OEBPS/h93_n01200a1599.htm" />
+    <item id="s47" media-type="application/xhtml+xml" href="OEBPS/h94_n01600a1999.htm" />
+    <item id="s48" media-type="application/xhtml+xml" href="OEBPS/h95_n02000a2399.htm" />
+    <item id="s49" media-type="application/xhtml+xml" href="OEBPS/h97_biblios.htm" />
+    <item id="s50" media-type="application/xhtml+xml" href="OEBPS/h98_biblios.htm" />
+    <item id="s51" media-type="application/xhtml+xml" href="OEBPS/h99_biblios.htm" />
+   <item id="cover" media-type="application/xhtml+xml" href="OEBPS/cover.html" />
+   <item id="cover-image" media-type="image/png" href="OEBPS/img/cover.png" />
+    <item href="toc.ncx" media-type="application/x-dtbncx+xml" id="ncx"/>
+  </manifest>
+  <spine toc="ncx"> 
+    <itemref idref="s0"/>
+    <itemref idref="s1"/>
+    <itemref idref="s2"/>
+    <itemref idref="s3"/>
+    <itemref idref="s4"/>
+    <itemref idref="s5"/>
+    <itemref idref="s6"/>
+    <itemref idref="s7"/>
+    <itemref idref="s8"/>
+    <itemref idref="s9"/>
+    <itemref idref="s10"/>
+    <itemref idref="s11"/>
+    <itemref idref="s12"/>
+    <itemref idref="s13"/>
+    <itemref idref="s14"/>
+    <itemref idref="s15"/>
+    <itemref idref="s16"/>
+    <itemref idref="s17"/>
+    <itemref idref="s18"/>
+    <itemref idref="s19"/>
+    <itemref idref="s20"/>
+    <itemref idref="s21"/>
+    <itemref idref="s22"/>
+    <itemref idref="s23"/>
+    <itemref idref="s24"/>
+    <itemref idref="s25"/>
+    <itemref idref="s26"/>
+    <itemref idref="s27"/>
+    <itemref idref="s28"/>
+    <itemref idref="s29"/>
+    <itemref idref="s30"/>
+    <itemref idref="s31"/>
+    <itemref idref="s32"/>
+    <itemref idref="s33"/>
+    <itemref idref="s34"/>
+    <itemref idref="s35"/>
+    <itemref idref="s36"/>
+    <itemref idref="s37"/>
+    <itemref idref="s38"/>
+    <itemref idref="s39"/>
+    <itemref idref="s40"/>
+    <itemref idref="s41"/>
+    <itemref idref="s42"/>
+    <itemref idref="s43"/>
+    <itemref idref="s44"/>
+    <itemref idref="s45"/>
+    <itemref idref="s46"/>
+    <itemref idref="s47"/>
+    <itemref idref="s48"/>
+    <itemref idref="s49"/>
+    <itemref idref="s50"/>
+    <itemref idref="s51"/>
+  </spine>
+</package>

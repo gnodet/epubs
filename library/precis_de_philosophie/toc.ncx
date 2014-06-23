@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta content="1" name="dtb:depth"/>
+  </head>
+  <docTitle>
+    <text>Précis de philosophie</text>
+  </docTitle>
+  <navMap>
+<navPoint id="id-0" playOrder="0">
+<navLabel><text>Table des matières</text></navLabel>
+<content src="OEBPS/s002_TDM.htm"/>
+</navPoint>
+<navPoint id="id-1" playOrder="1">
+<navLabel><text>Préface</text></navLabel>
+<content src="OEBPS/s003_preface.htm"/>
+</navPoint>
+<navPoint id="id-2" playOrder="2">
+<navLabel><text>Introduction</text></navLabel>
+<content src="OEBPS/s004_p0001a0020.htm"/>
+</navPoint>
+<navPoint id="id-3" playOrder="3">
+<navLabel><text>Premier traité : Logique</text></navLabel>
+<content src="OEBPS/s005_p0021a0047.htm"/>
+<navPoint id="id-4" playOrder="4">
+<navLabel><text>Première partie : Logique formelle</text></navLabel>
+<content src="OEBPS/s005_p0021a0047.htm#s24p1"/>
+<navPoint id="id-5" playOrder="5">
+<navLabel><text>Chapitre 1 : Le concept</text></navLabel>
+<content src="OEBPS/s005_p0021a0047.htm#s25p1"/>
+</navPoint>
+<navPoint id="id-6" playOrder="6">
+<navLabel><text>Chapitre 2 : Le jugement</text></navLabel>
+<content src="OEBPS/s005_p0021a0047.htm#s38p1"/>
+</navPoint>
+<navPoint id="id-7" playOrder="7">
+<navLabel><text>Chapitre 3 : Le raisonnement</text></navLabel>
+<content src="OEBPS/s006_p0048a0071.htm#s48p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-8" playOrder="8">
+<navLabel><text>Deuxième partie : Logique matérielle</text></navLabel>
+<content src="OEBPS/s007_p0072a0094.htm#s79p1"/>
+<navPoint id="id-9" playOrder="9">
+<navLabel><text>Chapitre 1 : La matière des concepts</text></navLabel>
+<content src="OEBPS/s007_p0072a0094.htm#s80p1"/>
+</navPoint>
+<navPoint id="id-10" playOrder="10">
+<navLabel><text>Chapitre 2 : La matière des raisonnements</text></navLabel>
+<content src="OEBPS/s007_p0072a0094.htm#s87p1"/>
+</navPoint>
+<navPoint id="id-11" playOrder="11">
+<navLabel><text>Chapitre 3 : La matière des sciences ou Méthodologie</text></navLabel>
+<content src="OEBPS/s008_p0095a0109.htm#s95p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-12" playOrder="12">
+<navLabel><text>Deuxième traité : Physique</text></navLabel>
+<content src="OEBPS/s011_p0154a0185.htm"/>
+<navPoint id="id-13" playOrder="13">
+<navLabel><text>Chapitre 1 : L’être et les causes</text></navLabel>
+<content src="OEBPS/s011_p0154a0185.htm#s157p1"/>
+</navPoint>
+<navPoint id="id-14" playOrder="14">
+<navLabel><text>Chapitre 2 : L’être corporel</text></navLabel>
+<content src="OEBPS/s015_p0250a0273.htm#s250p1"/>
+</navPoint>
+<navPoint id="id-15" playOrder="15">
+<navLabel><text>Chapitre 3 : La vie</text></navLabel>
+<content src="OEBPS/s022_p0379a0398.htm#s379p1"/>
+</navPoint>
+<navPoint id="id-16" playOrder="16">
+<navLabel><text>Chapitre 4 : La connaissance</text></navLabel>
+<content src="OEBPS/s023_p0399a0419.htm#s414p1"/>
+</navPoint>
+<navPoint id="id-17" playOrder="17">
+<navLabel><text>Chapitre 5 : L’intelligence</text></navLabel>
+<content src="OEBPS/s029_p0532a0547.htm#s538p1"/>
+</navPoint>
+<navPoint id="id-18" playOrder="18">
+<navLabel><text>Chapitre 6 : L’appétit</text></navLabel>
+<content src="OEBPS/s036_p0667a0692.htm#s679p1"/>
+</navPoint>
+<navPoint id="id-19" playOrder="19">
+<navLabel><text>Chapitre 7 : L’ordre du monde</text></navLabel>
+<content src="OEBPS/s043_p0845a0867.htm#s845p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-20" playOrder="20">
+<navLabel><text>Troisième traité : Métaphysique</text></navLabel>
+<content src="OEBPS/s044_p0868a0887.htm"/>
+<navPoint id="id-21" playOrder="21">
+<navLabel><text>Chapitre 1 : La Critique</text></navLabel>
+<content src="OEBPS/s044_p0868a0887.htm#s871p1"/>
+</navPoint>
+<navPoint id="id-22" playOrder="22">
+<navLabel><text>Chapitre 2 : L’Ontologie</text></navLabel>
+<content src="OEBPS/s046_p0912a0932.htm#s926p1"/>
+</navPoint>
+<navPoint id="id-23" playOrder="23">
+<navLabel><text>Chapitre 3 : La Théodicée</text></navLabel>
+<content src="OEBPS/s048_p0958a0977.htm#s958p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-24" playOrder="24">
+<navLabel><text>Quatrième traité : Éthique</text></navLabel>
+<content src="OEBPS/s052_p1060a1093.htm"/>
+<navPoint id="id-25" playOrder="25">
+<navLabel><text>Première partie : Morale générale</text></navLabel>
+<content src="OEBPS/s052_p1060a1093.htm#s1063p1"/>
+<navPoint id="id-26" playOrder="26">
+<navLabel><text>Chapitre 1: Les grands principes moraux</text></navLabel>
+<content src="OEBPS/s052_p1060a1093.htm#s1064p1"/>
+</navPoint>
+<navPoint id="id-27" playOrder="27">
+<navLabel><text>Chapitre 2: Le droit naturel</text></navLabel>
+<content src="OEBPS/s053_p1094a1116.htm#s1099p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-28" playOrder="28">
+<navLabel><text>Deuxième partie : Morale spéciale</text></navLabel>
+<content src="OEBPS/s055_p1146a1173.htm#s1148p1"/>
+<navPoint id="id-29" playOrder="29">
+<navLabel><text>Section 1: La vie économique</text></navLabel>
+<content src="OEBPS/s055_p1146a1173.htm#s1147p1"/>
+<navPoint id="id-30" playOrder="30">
+<navLabel><text>Chapitre 1: L'économie, science positive</text></navLabel>
+<content src="OEBPS/s055_p1146a1173.htm#s1149p1"/>
+</navPoint>
+<navPoint id="id-31" playOrder="31">
+<navLabel><text>Chapitre 2: Problèmes de morale économique</text></navLabel>
+<content src="OEBPS/s058_p1230a1261.htm#s1230p1"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-32" playOrder="32">
+<navLabel><text>Section 2: La vie politique</text></navLabel>
+<content src="OEBPS/s061_p1313a1340.htm#s1313p1"/>
+<navPoint id="id-33" playOrder="33">
+<navLabel><text>Chapitre 3: La sociologie, science positive</text></navLabel>
+<content src="OEBPS/s061_p1313a1340.htm#s1314p1"/>
+</navPoint>
+<navPoint id="id-34" playOrder="34">
+<navLabel><text>Chapitre 4: Problèmes de morale politique</text></navLabel>
+<content src="OEBPS/s062_p1341a1365.htm#s1341p1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="id-35" playOrder="35">
+<navLabel><text>Annexes</text></navLabel>
+<content src="OEBPS/s900_n00001a00399.htm"/>
+</navPoint>
+<navPoint id="id-36" playOrder="36">
+<navLabel><text>Bibliographies</text></navLabel>
+<content src="OEBPS/s990_biblios.htm"/>
+</navPoint>
+  </navMap>
+</ncx>
