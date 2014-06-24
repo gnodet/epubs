@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="Jean-Paul II" opf:role="aut">Jean-Paul II</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">646c6cf1-2407-43cf-84ad-935959996081</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">8863fa29-b7c0-446d-84a7-aa7b71185ddd</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/enc_1985-06-02_hf_john_paul_ii_slavorum-apostoli.html" />

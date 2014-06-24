@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="Jean-Paul II" opf:role="aut">Jean-Paul II</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">e2f5eb6f-8e10-4298-a9a3-1c4e54556f96</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">ec6dbf52-8f09-4d35-89c0-8e6afa29e9e0</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/enc_1986-05-18_hf_john_paul_ii_dominum-et-vivificantem.html" />

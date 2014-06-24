@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="Jean-Paul II" opf:role="aut">Jean-Paul II</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">b46cc66c-9229-4b32-9808-b9ed978e8028</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">5520bbf9-6e82-41f6-a868-76aadfce3a15</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/enc_1990-12-07_hf_john_paul_ii_redemptoris-missio.html" />

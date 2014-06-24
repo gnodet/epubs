@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="Jean-Paul II" opf:role="aut">Jean-Paul II</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">61e998a3-cc5d-4b50-9758-8602c43455a3</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">e929ddec-b840-4576-a1a0-3447ebd88e12</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/enc_1995-05-25_hf_john_paul_ii_ut-unum-sint.html" />

@@ -1,12 +1,5 @@
 [
   {
-    "title" : "Bible Liturgique",
-    "author" : "AELF",
-    "coverHref" : "../library/bible_liturgie/OEBPS/img/cover.png",
-    "packagePath" : "../library/bible_liturgie/content.opf",
-    "rootUrl": "../library/bible_liturgie"
-  },
-  {
     "title" : "Bible de la Liturgique Catholique",
     "author" : "AELF",
     "coverHref" : "../library/bible_liturgie_catholique/OEBPS/img/cover.png",

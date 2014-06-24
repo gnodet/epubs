@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="Jean-Paul II" opf:role="aut">Jean-Paul II</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">d83525f2-c97a-413a-ad38-3c77b81e99ca</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">582c7010-ad62-4499-8c29-0b7e253a0e42</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/enc_1995-03-25_hf_john_paul_ii_evangelium-vitae.html" />
