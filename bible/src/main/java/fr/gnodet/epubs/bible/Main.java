@@ -33,6 +33,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 
 import static fr.gnodet.epubs.core.EPub.createEpub;
+import static fr.gnodet.epubs.core.EPub.createToc;
 import static fr.gnodet.epubs.core.IOUtil.loadTextContent;
 import static fr.gnodet.epubs.core.IOUtil.writeToFile;
 import static fr.gnodet.epubs.core.Processors.process;
@@ -45,9 +46,9 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-        String filename = "bible_liturgie";
+        String filename = "bible_liturgie_catholique";
         String epub = "target/site/epub/" + filename + ".epub";
-        String title = "Bible Liturgique";
+        String title = "Bible de la Liturgique Catholique";
         String creator = "AELF";
         String burl = "http://www.aelf.org";
         final String firstFile = "/bible-liturgie";
@@ -293,7 +294,7 @@ public class Main {
 
         // Create epub
 
-        String tocNcx = createToc(epub);
+        String tocNcx = createToc(title, IOUtil.readUrl(Main.class.getResource("bible-toc.xml"), "UTF-8"));
         byte[] coverPng = Cover.generateCoverPng(Math.random(),
                 title,
                 new Object[] {
@@ -311,65 +312,6 @@ public class Main {
         resources.put("OEBPS/cover.html",
                 Cover.generateCoverHtml(creator, title, "", creator).getBytes());
         createEpub(files.toArray(new File[files.size()]), resources, new File(epub), title, creator, tocNcx);
-    }
-
-    private static String createToc(String fileBase) throws Exception {
-        Document tocDoc = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(Main.class.getResourceAsStream("bible-toc.xml"));
-        StringBuilder tocNcx = new StringBuilder();
-        tocNcx.append("<?xml version='1.0' encoding='utf-8'?>\n" +
-                "<ncx xmlns=\"http://www.daisy.org/z3986/2005/ncx/\" version=\"2005-1\" xml:lang=\"eng\">\n" +
-                "  <head>\n" +
-                "    <meta content=\"1\" name=\"dtb:depth\"/>\n" +
-                "  </head>\n" +
-                "  <docTitle>\n" +
-                "    <text>Bible</text>\n" +
-                "  </docTitle>\n" +
-                "  <navMap>\n");
-
-        String baseName = new File(fileBase).getName();
-        baseName = baseName.substring(0, baseName.lastIndexOf('.'));
-        buildToc(tocDoc.getDocumentElement(), tocNcx, new AtomicInteger(0), new AtomicInteger(0), new AtomicReference<String>(""), new HashMap<String, Integer>());
-        tocNcx.append("  </navMap>\n" +
-                "</ncx>\n");
-        return tocNcx.toString();
-    }
-
-    private static void buildToc(Node node, StringBuilder tocNcx, AtomicInteger counter, AtomicInteger playOrder, AtomicReference<String> lastHref, Map<String, Integer> playOrders) {
-        if (node != null) {
-            if (node.getNodeType() == Node.ELEMENT_NODE) {
-                if (node.getNodeName().equals("item")) {
-                    String text = ((Element) node).getAttribute("text");
-                    String href = ((Element) node).getAttribute("ref");
-                    if (href == null || href.isEmpty()) {
-                        href = lastHref.get();
-                    } else {
-                        lastHref.set(href);
-                    }
-                    int order;
-                    if (playOrders.containsKey(href)) {
-                        order = playOrders.get(href);
-                    } else {
-                        order = playOrder.getAndIncrement();
-                        playOrders.put(href, order);
-                    }
-                    tocNcx.append("<navPoint id=\"id-").append(counter.get()).append("\" playOrder=\"").append(order).append("\">\n");
-                    tocNcx.append("<navLabel><text>").append(text).append("</text></navLabel>\n");
-                    counter.incrementAndGet();
-                    if (href != null && !href.isEmpty()) {
-                        tocNcx.append("<content src=\"OEBPS/" + href + "\"/>\n");
-                        lastHref.set(href);
-                        buildToc(node.getFirstChild(), tocNcx, counter, playOrder, lastHref, playOrders);
-                    } else {
-                        tocNcx.append("<content src=\"OEBPS/" + lastHref.get() + "\"/>\n");
-                        buildToc(node.getFirstChild(), tocNcx, counter, playOrder, lastHref, playOrders);
-                    }
-                    tocNcx.append("</navPoint>\n");
-                } else {
-                    buildToc(node.getFirstChild(), tocNcx, counter, playOrder, lastHref, playOrders);
-                }
-            }
-            buildToc(node.getNextSibling(), tocNcx, counter, playOrder, lastHref, playOrders);
-        }
     }
 
     private static String getHref(Map<String, Integer> refs, String text) {
