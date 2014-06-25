@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="Jean-Paul II" opf:role="aut">Jean-Paul II</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">1443f4d8-a499-42fe-8074-ca1e5db2f8de</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">a8bba933-a32d-4a03-baa1-6b6d077cd8bc</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/enc_1987-03-25_hf_john_paul_ii_redemptoris-mater.html" />

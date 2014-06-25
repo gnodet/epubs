@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="Jean-Paul II" opf:role="aut">Jean-Paul II</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">2006852e-8abd-458e-9a2e-72e4658a7edc</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">139072b0-7804-4d3b-ade1-c1242144edea</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/enc_1980-11-30_hf_john_paul_ii_dives-in-misericordia.html" />

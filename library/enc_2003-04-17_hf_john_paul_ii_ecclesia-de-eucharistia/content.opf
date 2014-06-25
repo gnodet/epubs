@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="Jean-Paul II" opf:role="aut">Jean-Paul II</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">d901dc5c-c664-4c58-b189-1b142365a4b3</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">0943a556-5441-4417-9e9d-eecc03db8192</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/enc_2003-04-17_hf_john_paul_ii_ecclesia-de-eucharistia.html" />

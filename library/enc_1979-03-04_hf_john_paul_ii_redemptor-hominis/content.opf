@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="Jean-Paul II" opf:role="aut">Jean-Paul II</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">828b8a9a-d882-4a86-9979-4f5679bdfbcb</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">068794c1-fd59-415e-81f6-73ccfc8ce2c6</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/enc_1979-03-04_hf_john_paul_ii_redemptor-hominis.html" />

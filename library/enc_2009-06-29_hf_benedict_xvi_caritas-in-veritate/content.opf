@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="Benoît XVI" opf:role="aut">Benoît XVI</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">c7ea08fb-4464-445a-b99a-1b9ff2d97a0b</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">4afbf6cc-9fe7-43ec-a955-d947f09d1dcd</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/enc_2009-06-29_hf_benedict_xvi_caritas-in-veritate.html" />

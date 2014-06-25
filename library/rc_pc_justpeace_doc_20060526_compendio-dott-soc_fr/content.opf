@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="Conseil Pontifical « Justice et Paix »" opf:role="aut">Conseil Pontifical « Justice et Paix »</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">a779b5d0-ef40-4079-994b-b686cc4e0497</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">77c08eee-ebf5-441d-84f5-f3e031658c95</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.p00.html" />

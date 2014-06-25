@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="Jean-Paul II" opf:role="aut">Jean-Paul II</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">7b94a3b0-f72e-43c4-93f4-bed9e8c63e83</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">4a0f9e1f-6af9-4ff7-94ad-5709710ddb23</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/enc_1998-09-14_hf_john_paul_ii_fides-et-ratio.html" />

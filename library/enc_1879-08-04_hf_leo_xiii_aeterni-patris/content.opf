@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="uuid_id">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>Æterni Patris</dc:title>
+    <dc:language>fr</dc:language>
+    <dc:creator opf:file-as="Léon XIII" opf:role="aut">Léon XIII</dc:creator>
+    <meta name="cover" content="cover-image"/>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">9b3dccbb-db74-4dca-92b2-115065dffa61</dc:identifier>
+  </metadata>
+  <manifest>
+    <item id="s0" media-type="application/xhtml+xml" href="OEBPS/enc_1879-08-04_hf_leo_xiii_aeterni-patris.html" />
+   <item id="cover" media-type="application/xhtml+xml" href="OEBPS/cover.html" />
+   <item id="cover-image" media-type="image/png" href="OEBPS/img/cover.png" />
+   <item id="r0" media-type="image/svg+xml" href="OEBPS/img/leo_xiii-bw.svg" />
+    <item href="toc.ncx" media-type="application/x-dtbncx+xml" id="ncx"/>
+  </manifest>
+  <spine toc="ncx"> 
+    <itemref idref="s0"/>
+  </spine>
+</package>

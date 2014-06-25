@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="Paul VI" opf:role="aut">Paul VI</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">a3b95e27-740e-492c-a48e-c425a6e4bdca</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">23c6a69b-f93f-4699-af43-68c0ba0f55ca</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/enc_1967-03-26_hf_paul_vi_populorum-progressio.html" />

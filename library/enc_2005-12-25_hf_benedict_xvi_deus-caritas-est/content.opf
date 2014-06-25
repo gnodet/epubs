@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="Benoît XVI" opf:role="aut">Benoît XVI</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">03d212c1-de7f-4ff6-a364-657d18e79993</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">45624e76-1a9d-42a7-852b-afddef70c3fe</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/enc_2005-12-25_hf_benedict_xvi_deus-caritas-est.html" />

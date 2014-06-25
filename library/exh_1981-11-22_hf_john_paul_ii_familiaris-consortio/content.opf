@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="Jean-Paul II" opf:role="aut">Jean-Paul II</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">5c9579ea-6a43-44f0-859d-032339b240d6</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">f63ba66e-aa36-4c4c-83f6-54c3de752e12</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/exh_1981-11-22_hf_john_paul_ii_familiaris-consortio.html" />

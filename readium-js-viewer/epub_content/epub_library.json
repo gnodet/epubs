@@ -14,6 +14,13 @@
     "rootUrl": "../library/catechisme_de_l_eglise_catholique"
   },
   {
+    "title" : "Æterni Patris",
+    "author" : "Léon XIII",
+    "coverHref" : "../library/enc_1879-08-04_hf_leo_xiii_aeterni-patris/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1879-08-04_hf_leo_xiii_aeterni-patris/content.opf",
+    "rootUrl": "../library/enc_1879-08-04_hf_leo_xiii_aeterni-patris"
+  },
+  {
     "title" : "Libertas Præstanssimum",
     "author" : "Léon XIII",
     "coverHref" : "../library/enc_1888-06-20_hf_leo_xiii_libertas-praestanssimum/OEBPS/img/cover.png",
