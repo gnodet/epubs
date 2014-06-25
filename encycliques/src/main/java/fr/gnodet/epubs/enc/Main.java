@@ -59,7 +59,7 @@ public class Main {
             String output = "enc_" + date + "_hf_" + full + "_" + title.toLowerCase().replaceAll("\\s", "-").replaceAll("æ", "ae");
 
 //            if (!file.contains("francesco")) continue;
-//            if (!file.contains("_evangelium-vitae_")) continue;
+//            if (!file.contains("_aeterni-patris_")) continue;
 
             byte[] coverPngData = Cover.generateCoverPng(
                     (i * 1.0 / books.getLength()),
@@ -306,8 +306,8 @@ public class Main {
             writeToFile(main, output);
 
             for (int i = 39; i <= 83; i++) {
-                main = main.replace("(" + i + ")", "(" + (i-1) + ")");
-                main = main.replace("(<i>" + i + "</i>)", "(" + (i-1) + ")");
+                main = main.replace("(" + i + ")", "(" + (i - 1) + ")");
+                main = main.replace("(<i>" + i + "</i>)", "(" + (i - 1) + ")");
             }
 
             main = main.replace("ne ment pas \"", "ne ment pas \" (6)");
@@ -316,6 +316,33 @@ public class Main {
             main = main.replace("sacerdoce hiérarchiques", "sacerdoce hiérarchiques (27)");
             main = main.replace("de ton âme", "de ton âme (52)");
             main = main.replace("transforme les choses offertes", "transforme les choses offertes (53)");
+        } else if (url.toExternalForm().contains("_aeterni-patris_")) {
+            for (int i = 42; i >= 4; i--) {
+                int idx = main.lastIndexOf("(" + i + ")");
+                main = main.substring(0, idx) + "(" + (i + 1) + ")" + main.substring(idx + 4);
+            }
+            main = main.replace("(31)", "");
+            for (int i = 30; i >= 29; i--) {
+                int idx = main.lastIndexOf("(" + i + ")");
+                main = main.substring(0, idx) + "(" + (i + 1) + ")" + main.substring(idx + 4);
+            }
+            main = main.replace("aux ténèbres de l'erreur.", "aux ténèbres de l'erreur (4).");
+            main = main.replace("où elles émanaient.", "où elles émanaient (29).");
+            for (int i = 43; i >= 33; i--) {
+                int idx = main.lastIndexOf("(" + i + ")");
+                main = main.substring(0, idx) + "(" + (i + 1) + ")" + main.substring(idx + 4);
+            }
+
+            for (int i = 42; i >= 4; i--) {
+                int idx = footnotes.lastIndexOf("(" + i + ")");
+                footnotes = footnotes.substring(0, idx) + "(" + (i + 1) + ") " + footnotes.substring(idx + 4);
+            }
+            footnotes = footnotes.replace("<p>(5)", "<p>(4) Cf. Inscrutabili Dei consilio, 78:113.</p><p>(5)");
+            for (int i = 43; i >= 34; i--) {
+                int idx = footnotes.lastIndexOf("(" + i + ")");
+                footnotes = footnotes.substring(0, idx) + "(" + (i + 1) + ") " + footnotes.substring(idx + 4);
+            }
+            footnotes = footnotes.replace("<p>(35)", "<p>(34) Ibid.</p><p>(35)");
         } else {
             main = main.replace("le Seigneur l’a choisi", "le Seigneur l’a choisi (36)");
         }
@@ -380,7 +407,7 @@ public class Main {
                         " #notes p { margin: 0; padding: 0; font-size: smaller; }\n" +
                         " #notes .ref { font-family: Verdana; font-size: smaller; font-weight: bold; }\n" +
                         " #copyright { color: #663300; text-align: center; font-size: smaller; }\n" +
-                        " .hr { background-color: #FFFFFF; border: 1px solid #000000; height: 0px; margin: 10px 10%; width: 80%; }\n" +
+                        " .hr { background-color: #FFFFFF; border: 1px solid #000000; height: 0px; margin: 10px 30%; width: 40%; }\n" +
                         "</style>" +
                         "</head>");
         return document;
@@ -808,6 +835,7 @@ public class Main {
         TYPOS.put(Pattern.compile("GENERATION"), "GÉNÉRATION");
         TYPOS.put(Pattern.compile("HUMANAE"), "HUMANÆ");
         TYPOS.put(Pattern.compile("VITAE"), "VITÆ");
+        TYPOS.put(Pattern.compile("AETERNI"), "ÆTERNI");
         TYPOS.put(Pattern.compile("CAELIBATUS"), "CÆLIBATUS");
         TYPOS.put(Pattern.compile("OEUVRE"), "ŒUVRE");
         TYPOS.put(Pattern.compile("PRAESTANTISSIMUM"), "PRÆSTANTISSIMUM");
