@@ -1,13 +1,14 @@
 package fr.gnodet.epubs.core;
 
 import com.adobe.epubcheck.api.EpubCheck;
+import com.adobe.epubcheck.api.Report;
+import com.adobe.epubcheck.reporting.HtmlReport;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.xml.sax.InputSource;
 
 import java.io.*;
-import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
@@ -180,10 +181,13 @@ public class EPub {
         zos.close();
 
         // Checking
-        PrintWriter writer = new PrintWriter(System.err);
-        EpubCheck checker = new EpubCheck(output, writer);
+        Report report = new HtmlReport(output.toString(),
+                                       output.toString().replace(".epub", "-report.html"),
+                                       EPub.class.getResource("template-report.html"));
+        report.initialize();
+        EpubCheck checker = new EpubCheck(output, report);
         checker.validate();
-        writer.flush();
+        report.generate();
     }
 
     public static String createToc(String title, String toc) throws Exception {
