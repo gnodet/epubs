@@ -289,7 +289,13 @@ public class Main {
         String main = document.substring(document.indexOf(bened != null ? bened : title) + (bened != null ? bened : title).length(),
                                          document.indexOf(footnotes != null ? footnotes : (copyright != null ? copyright : "</body>")));
 
-        if (url.toExternalForm().contains("_evangelium-vitae_")) {
+        if (url.toExternalForm().contains("_redemptor-hominis_")) {
+            URL notesUrl = Main.class.getResource("redemptor-hominis-notes.html");
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            copy(notesUrl.openStream(), baos);
+            footnotes = baos.toString();
+
+        } else if (url.toExternalForm().contains("_evangelium-vitae_")) {
             URL notesUrl = Main.class.getResource("evangelium-vitae-notes.html");
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             copy(notesUrl.openStream(), baos);
@@ -408,6 +414,7 @@ public class Main {
                         " #notes .ref { font-family: Verdana; font-size: smaller; font-weight: bold; }\n" +
                         " #copyright { color: #663300; text-align: center; font-size: smaller; }\n" +
                         " .hr { background-color: #FFFFFF; border: 1px solid #000000; height: 0px; margin: 10px 30%; width: 40%; }\n" +
+                        " .smallcaps { font-size: smaller; }\n" +
                         "</style>" +
                         "</head>");
         return document;
@@ -485,8 +492,10 @@ public class Main {
         document = document.replaceAll("<strong>(.*?)</strong>", "<b>$1</b>");
         document = document.replaceAll("<em>(.*?)</em>", "<i>$1</i>");
 
-        document = document.replaceAll("\\b([IXV][IXV]*)(e|er|ème)\\b", "<span style=\"font-size: smaller\">$1</span><sup>e</sup>");
-        document = document.replaceAll(" 1<sup>er</sup> s\\.", "<span style=\"font-size: smaller\">I</span><sup>er</sup> s.");
+        document = document.replaceAll("\\b(I)(er|ère)\\b", "I<sup>$2</sup>");
+        document = document.replaceAll("\\b([IXV][IXV]*)(e|er|ème)\\b", "<span class=\"smallcaps\">$1</span><sup>e</sup>");
+        document = document.replaceAll("\\b([IXV][IXV]*)(e|er|ème)\\b", "<span class=\"smallcaps\">$1</span><sup>e</sup>");
+        document = document.replaceAll(" 1<sup>er</sup> s\\.", "I<sup>er</sup> s.");
         // Fix dashes
         document = document.replaceAll("(\\S)_ ", "$1 - ");
         document = document.replaceAll(" _(\\S)", " - $1");
@@ -541,6 +550,7 @@ public class Main {
         document = document.replaceAll("6, 28\\.35", "6, 28-35");
         document = document.replaceAll("Mettez\\. vous", "Mettez-vous");
         document = document.replaceAll("\\( 66 \\)", "(66)");
+        document = document.replaceAll("Recevez le Saint-Esprit».", "Recevez le Saint-Esprit» 153.");
 
         // Clean up spaces / tags
         document = document.replaceAll("<b>[\\s\u00a0]*\"[\\s\u00a0]*</b>", "\"");
@@ -726,7 +736,7 @@ public class Main {
         // All consecutive numbers are considered excluding those in attributes and bible citations
         if (!parenthesis && !brackets && !link && !linkBracket) {
             StringBuilder newDoc = new StringBuilder();
-            Matcher matcher = Pattern.compile("([\\s\u00a0])([1-9][0-9]*)([\\s\u00a0,.:;!<])").matcher(document);
+            Matcher matcher = Pattern.compile("([\\s\u00a0])([1-9][0-9]*)([\\s\u00a0,.:;!<\\?])").matcher(document);
             Matcher biblCit = Pattern.compile("\\((cf\\. )?(<i>[^<]*?</i>,? ([1-9][0-9]*[,.;-]?\\s*(s?s\\.\\s*)?)+)+\\)").matcher(document);
             Matcher attribute = Pattern.compile(" [a-z\\-]+=\".*?\"").matcher(document);
             int body = document.indexOf("<body");
