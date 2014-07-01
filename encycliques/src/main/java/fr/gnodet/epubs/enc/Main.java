@@ -59,7 +59,7 @@ public class Main {
             String output = "enc_" + date + "_hf_" + full + "_" + title.toLowerCase().replaceAll("\\s", "-").replaceAll("æ", "ae");
 
 //            if (!file.contains("francesco")) continue;
-//            if (!file.contains("_aeterni-patris_")) continue;
+//            if (!file.contains("centesimus")) continue;
 
             byte[] coverPngData = Cover.generateCoverPng(
                     (i * 1.0 / books.getLength()),
@@ -87,7 +87,7 @@ public class Main {
 
             URL url = new URL("http://www.vatican.va/holy_father/" + full + "/encyclicals/documents/" + file);
             try {
-                process(url, "target/cache/" + file, "target/html/" + output + ".html", full);
+                process(url, "target/cache/" + file, "target/html/" + output + ".html", title, full, creator);
                 Map<String, byte[]> resources = new HashMap<String, byte[]>();
                 resources.put("OEBPS/img/" + full + "-bw.svg",
                               readFully(Main.class.getResource("coa/" + full + "-bw.svg")));
@@ -109,7 +109,7 @@ public class Main {
         writeToFile(template, "target/site/encycliques.html");
     }
 
-    private static void process(URL url, String cache, String output, String creator) throws Exception {
+    private static void process(URL url, String cache, String output, String titleLat, String fullCreator, String creator) throws Exception {
         System.out.println("Processing: " + url);
 
         //
@@ -295,6 +295,59 @@ public class Main {
             copy(notesUrl.openStream(), baos);
             footnotes = baos.toString();
 
+        } else if (url.toExternalForm().contains("_centesimus-annus_")) {
+            URL notesUrl = Main.class.getResource("centesimus-annus-notes.html");
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            copy(notesUrl.openStream(), baos);
+            footnotes = baos.toString();
+
+            main = main.replace("des hommes et des peuples.</p>", "des hommes et des peuples (4).</p>");
+            main = main.replace("économique et sociale de l'époque.</p>", "économique et sociale de l'époque (11).</p>");
+            main = main.replace("à la « propriété privée ».", "à la « propriété privée » (16).");
+            main = main.replace("conscients de leurs responsabilités.</p>", "conscients de leurs responsabilités (74).</p>");
+            main = main.replace("ni assurer la paix sociale.", "ni assurer la paix sociale (88).");
+            main = main.replace("de la raison lui ont fait connaître.</p>", "de la raison lui ont fait connaître (95).</p>");
+            main = main.replace("je connaîtrai ma nature ».</p>", "je connaîtrai ma nature » (110).</p>");
+
+        } else if (url.toExternalForm().contains("_redemptoris-mater_")) {
+            URL notesUrl = Main.class.getResource("redemptoris-mater-notes.html");
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            copy(notesUrl.openStream(), baos);
+            footnotes = baos.toString();
+
+        } else if (url.toExternalForm().contains("_veritatis-splendor_")) {
+            URL notesUrl = Main.class.getResource("veritatis-splendor-notes.html");
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            copy(notesUrl.openStream(), baos);
+            footnotes = baos.toString();
+
+        } else if (url.toExternalForm().contains("_ut-unum-sint_")) {
+            URL notesUrl = Main.class.getResource("ut-unum-sint-notes.html");
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            copy(notesUrl.openStream(), baos);
+            footnotes = baos.toString();
+
+        } else if (url.toExternalForm().contains("_laborem-exercens_")) {
+            URL notesUrl = Main.class.getResource("laborem-exercens-notes.html");
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            copy(notesUrl.openStream(), baos);
+            footnotes = baos.toString();
+
+        } else if (url.toExternalForm().contains("_slavorum-apostoli_")) {
+            URL notesUrl = Main.class.getResource("slavorum-apostoli-notes.html");
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            copy(notesUrl.openStream(), baos);
+            footnotes = baos.toString();
+
+            main = main.replace("Dieu ».40</p>", "Dieu ». (40)</p>");
+            main = main.replaceAll("<p>\\s*<ul>([\\s\\S]*?)</ul>\\s*</p>", "<ul>$1</ul>");
+
+        } else if (url.toExternalForm().contains("_dives-in-misericordia_")) {
+            URL notesUrl = Main.class.getResource("dives-in-misericordia-notes.html");
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            copy(notesUrl.openStream(), baos);
+            footnotes = baos.toString();
+
         } else if (url.toExternalForm().contains("_evangelium-vitae_")) {
             URL notesUrl = Main.class.getResource("evangelium-vitae-notes.html");
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
@@ -353,10 +406,12 @@ public class Main {
             main = main.replace("le Seigneur l’a choisi", "le Seigneur l’a choisi (36)");
         }
 
+        head = head.replaceAll("<title>.*?</title>", "<title>" + titleLat + " - " + creator +  "</title>");
+
         document = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">" +
                 "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr\">" +
                 cleanHead(head) + "<body>" +
-                "<div id=\"title\">" + cleanTitle(title, creator) + "</div>" +
+                "<div id=\"title\">" + cleanTitle(title, fullCreator) + "</div>" +
                 (bened != null ? "<div id=\"bened\">" + cleanBened(bened) + "</div>" : "") +
                 "<div id=\"main\">" + cleanMain(main) + "</div>" +
                 (footnotes != null ? "<div id=\"notes\">" + cleanNotes(footnotes) + "</div>" : "") +
