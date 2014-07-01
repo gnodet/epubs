@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="François" opf:role="aut">François</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">502032d0-3eec-4f71-b45e-875ea3643ec1</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">19fff8c0-15a2-4147-9ac1-23245c3ffba0</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/enc_2013-06-29_hf_francesco_lumen-fidei.html" />

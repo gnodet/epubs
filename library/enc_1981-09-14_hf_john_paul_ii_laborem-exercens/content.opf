@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="Jean-Paul II" opf:role="aut">Jean-Paul II</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">009a9d12-18a1-4d8e-a4cd-c372870ca9db</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">08b4625c-96c4-4a45-83e4-3e25d1432227</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/enc_1981-09-14_hf_john_paul_ii_laborem-exercens.html" />

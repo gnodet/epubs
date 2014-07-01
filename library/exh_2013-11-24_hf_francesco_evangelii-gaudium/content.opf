@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="François" opf:role="aut">François</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">3c81ba2b-388e-4dec-b3d3-70e9906d89c3</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">fe44d195-a0f2-48b2-9378-64c73d4e4da1</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/exh_2013-11-24_hf_francesco_evangelii-gaudium.html" />

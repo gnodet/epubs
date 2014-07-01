@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="Léon XIII" opf:role="aut">Léon XIII</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">45676d68-e42d-47c0-aa8c-9313c69ad173</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">69401e24-5d33-4a39-8feb-48a9bc5f037b</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/enc_1891-05-15_hf_leo_xiii_rerum-novarum.html" />

@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="Léon XIII" opf:role="aut">Léon XIII</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">9b3dccbb-db74-4dca-92b2-115065dffa61</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">b0ba450b-d380-4902-80f0-8437efa1347f</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/enc_1879-08-04_hf_leo_xiii_aeterni-patris.html" />

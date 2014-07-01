@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="Jean-Paul II" opf:role="aut">Jean-Paul II</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">f6a67d9c-df99-4f2c-9f00-657527ebec3b</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">985c1d49-4a59-4734-b243-6431a634bd58</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/enc_1991-05-01_hf_john_paul_ii_centesimus-annus.html" />

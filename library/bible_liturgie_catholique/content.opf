@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="AELF" opf:role="aut">AELF</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">22c5a0af-cd81-4419-b19f-2efc71688f22</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">626bda92-5977-4562-964d-2d7c421a40c2</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/index.html" />

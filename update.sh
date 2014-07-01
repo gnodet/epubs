@@ -23,10 +23,11 @@ do
 	else
 		status="Valide";
 	fi
-	REPORT="$REPORT<tr><td><a href=\"$FILE\">$filename</a></td><td>$status</td><td>$nFatal</td><td>$nError</td><td>$nWarning</td></tr>";
+	REPORT=$(printf '%s\n<tr><td><a href="%s">%s</a></td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>' "$REPORT" "$FILE" "$filename" "$status" "$nFatal" "$nError" "$nWarning")
+#	REPORT="$REPORT<tr><td><a href=\"$FILE\">$filename</a></td><td>$status</td><td>$nFatal</td><td>$nError</td><td>$nWarning</td></tr>\n";
 done
 cat ../report.html | sed -n '/__REPORT__/,$!p' > report.html
-echo $REPORT >> report.html
+echo "$REPORT" >> report.html
 cat ../report.html | sed -n '1,/__REPORT__/!p' >> report.html
 cd ..
 

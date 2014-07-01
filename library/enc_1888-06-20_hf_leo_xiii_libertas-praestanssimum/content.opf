@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="Léon XIII" opf:role="aut">Léon XIII</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">a2636897-033f-42af-8f03-c344a14f5829</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">4892f7ac-7e8a-425b-90ce-17b699d1e71b</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/enc_1888-06-20_hf_leo_xiii_libertas-praestanssimum.html" />

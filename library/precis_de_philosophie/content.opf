@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="François-Joseph THONNARD" opf:role="aut">François-Joseph THONNARD</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">205ce081-1026-4c27-a972-4b1788dabc59</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">fbbf517e-da48-4205-91db-0de7a8c71131</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/s001_index.htm" />
