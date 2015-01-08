@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>epubs</artifactId>
+        <groupId>fr.gnodet.epubs</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>fillion</artifactId>
+
+    <dependencies>
+    </dependencies>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/res</directory>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>com.agilejava.docbkx</groupId>
+                <artifactId>docbkx-maven-plugin</artifactId>
+                <version>2.0.15</version>
+                <configuration>
+					<includes>marc/xml/marc.xml</includes>
+					<xincludeSupported>true</xincludeSupported>
+					<calloutUnicodeFont>Times</calloutUnicodeFont>
+					<chapterAutolabel>0</chapterAutolabel>
+					<sectionAutolabel>0</sectionAutolabel>
+					<chunkedOutput>true</chunkedOutput>
+					<epub3Customization>src/docbkx/marc/xsl/custom-epub3.xsl</epub3Customization>
+                    <htmlStylesheet>custom.css</htmlStylesheet>
+                    <preProcess>
+                        <copy tofile="${project.build.directory}/docbkx/epub3/marc/xml/custom.css" file="src/docbkx/marc/css/custom-epub3.css"></copy>
+                    </preProcess>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate-epub3</goal>
+                        </goals>
+                        <phase>generate-sources</phase>
+                    </execution>
+                </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>net.sf.docbook</groupId>
+                        <artifactId>docbook-xml</artifactId>
+                        <version>5.0-all</version>
+                        <classifier>resources</classifier>
+                        <type>zip</type>
+                        <scope>runtime</scope>
+                    </dependency>
+                </dependencies>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+		<meta charset="UTF-8"/>
+		<style>
+h1 {
+	counter-reset: verse;
+}
+.verse { 
+	counter-increment: verse;
+}
+.verse:before {
+	content: counter(verse) " ";
+	color: blue;
+	font-size: smaller;
+	font-weight: bold;
+}		
+		</style>
+</head>
+<body>
+
+<div id="marc-1">
+<h1>Chapitre I</h1>
+
+<p>
+<span id="marc-1-1" class="verse" lang="fr">Commencement de l’Évangile de Jésus-Christ, Fils de Dieu.</span>
+</p>
+
+<p>
+<span id="marc-1-2" class="verse" lang="fr">Ainsi qu’il est écrit dans le prophète Isaïe : Voilà que j’envoie devant ta face mon ange qui préparera ta voie devant toi ;</span>
+<span id="marc-1-3" class="verse" lang="fr">Voix de celui qui crie dans le désert : Préparez la voie du Seigneur, rendez droits ses sentiers ;</span>
+<span id="marc-1-4" class="verse" lang="fr">Jean était dans le désert, baptisant et prêchant le baptême de pénitence pour la rémission des péchés.</span>
+<span id="marc-1-5" class="verse" lang="fr">Et tout le pays de Judée et tous les habitants de Jérusalem allaient vers lui et, confessant leurs péchés, ils étaient baptisés par lui dans le fleuve du Jourdain.</span>
+<span id="marc-1-6" class="verse" lang="fr">Or, Jean était vêtu de poils de chameau, et d’une ceinture de peau autour de ses reins, et il mangeait des sauterelles et du miel sauvage ; et il prêchait, disant :</span>
+<span id="marc-1-7" class="verse" lang="fr">Un plus puissant que moi vient après moi, et je ne suis pas digne, me prosternant, de délier la courroie de ses chaussures.</span>
+<span id="marc-1-8" class="verse" lang="fr">Moi, je vous ai baptisés dans l’eau, mais lui vous baptisera dans l’Esprit-Saint.</span>
+</p>
+
+<p>
+<span id="marc-1-9" class="verse" lang="fr">Or il arriva qu’en ces jours-là Jésus vint de Nazareth, ville de Galilée, et il fut baptisé par Jean dans le Jourdain.</span>
+<span id="marc-1-10" class="verse" lang="fr">Et aussitôt qu’il sortit de l’eau, il vit les cieux ouverts, et l’Esprit descendant comme une colombe et demeurant sur lui.</span>
+<span id="marc-1-11" class="verse" lang="fr">Et une voix des cieux se fit entendre : Tu es mon Fils bien-aimé ; je me suis complu en toi.</span>
+</p>
+
+<p>
+<span id="marc-1-12" class="verse" lang="fr">Et aussitôt l’Esprit le poussa dans le désert.</span>
+<span id="marc-1-13" class="verse" lang="fr">Et il passa dans le désert quarante jours et quarante nuits, et il était tenté par Satan, et il était parmi les bêtes, et les anges le servaient.</span>
+</p>
+
+<p>
+<span id="marc-1-14" class="verse" lang="fr">Mais, après que Jean eut été livré, Jésus vint en Galilée, prêchant l’Évangile du royaume de Dieu,</span>
+<span id="marc-1-15" class="verse" lang="fr">Et disant : Le temps est accompli et le royaume de Dieu est proche ; faites pénitence et croyez à l’Évangile.</span>
+</p>
+
+<p>
+<span id="marc-1-16" class="verse" lang="fr">Or, en passant le long de la mer de Galilée, il vit Simon et André, son frère, jetant leurs filets dans la mer, car ils étaient pêcheurs.</span>
+<span id="marc-1-17" class="verse" lang="fr">Et Jésus leur dit : Venez avec moi, et je vous ferai devenir pêcheurs d’hommes.</span>
+<span id="marc-1-18" class="verse" lang="fr">Et aussitôt, laissant leurs filets, ils le suivirent.</span>
+<span id="marc-1-19" class="verse" lang="fr">Et s’étant avancé un peu au-delà, il vit Jacques, fils de Zébédée, et Jean, son frère, qui raccommodaient leurs filets dans une barque.</span>
+<span id="marc-1-20" class="verse" lang="fr">Et aussitôt il les appela, et, laissant leur père Zébédée dans la barque avec les mercenaires, ils le suivirent.</span>
+</p>
+
+<p>
+<span id="marc-1-21" class="verse" lang="fr">Et ils entrèrent dans Capharnaum, et aussitôt, entrant les jours de sabbat dans la synagogue, il les instruisait.</span>
+<span id="marc-1-22" class="verse" lang="fr">Et ils s’étonnaient de sa doctrine, car il les enseignait comme ayant autorité, et non comme les Scribes.</span>
+<span id="marc-1-23" class="verse" lang="fr">Or, il y avait dans leur synagogue un homme possédé de l’esprit immonde, et il s’écria,</span>
+<span id="marc-1-24" class="verse" lang="fr">Disant : Qu’y a-t-il entre nous et toi, Jésus de Nazareth ? Es-tu venu nous perdre ? Je sais qui tu es : le Saint de Dieu.</span>
+<span id="marc-1-25" class="verse" lang="fr">Et Jésus le menaça, disant : Tais-toi, et sors de cet homme.</span>
+<span id="marc-1-26" class="verse" lang="fr">Et l’esprit immonde, en le torturant et en criant d’une voix forte, sortit de lui.</span>
+<span id="marc-1-27" class="verse" lang="fr">Et tous furent dans l’admiration, de sorte qu’ils s’interrogeaient entre eux, disant : Quelle est cette doctrine nouvelle ? Car il commande avec puissance même aux esprits immondes, et ils lui obéissent.</span>
+<span id="marc-1-28" class="verse" lang="fr">Et sa renommée se répandit aussitôt dans tout le pays de Galilée.</span>
+</p>
+
+<p>
+<span id="marc-1-29" class="verse" lang="fr">Étant sortis ensuite de la synagogue, ils vinrent dans la maison de Simon et d’André.</span>
+<span id="marc-1-30" class="verse" lang="fr">Or, la belle-mère de Simon était au lit, ayant la fièvre, et aussitôt ils lui parlèrent d’elle.</span>
+<span id="marc-1-31" class="verse" lang="fr">Et, s’approchant et la prenant par la main, il la fit lever, et à l’instant la fièvre la quitta, et elle les servait.</span>
+</p>
+
+<p>
+<span id="marc-1-32" class="verse" lang="fr">Et, le soir venu, lorsque le soleil fut couché, ils lui amenèrent tous les malades et les possédés.</span>
+<span id="marc-1-33" class="verse" lang="fr">Et toute la ville était assemblée devant la porte.</span>
+<span id="marc-1-34" class="verse" lang="fr">Et il en guérit beaucoup qui étalent tourmentés par diverses maladies, et il chassa beaucoup de démons, et il ne leur permettait pas de dire qu’ils le connaissaient.</span>
+</p>
+
+<p>
+<span id="marc-1-35" class="verse" lang="fr">Et, se levant de grand matin, il sortit et alla dans un lieu désert, et là il priait.</span>
+<span id="marc-1-36" class="verse" lang="fr">Et Simon le suivit, ainsi que ceux qui étaient avec lui.</span>
+<span id="marc-1-37" class="verse" lang="fr">Et quand ils l’eurent trouvé, ils lui dirent : Ils vous cherchent tous.</span>
+<span id="marc-1-38" class="verse" lang="fr">Et il leur dit : Allons dans les villages prochains et dans les villes, pour que j’y prêche aussi, car c’est pour cela que je suis venu.</span>
+<span id="marc-1-39" class="verse" lang="fr">Et il prêchait dans leurs synagogues et dans toute la Galilée, et il chassait les démons.</span>
+</p>
+
+<p>
+<span id="marc-1-40" class="verse" lang="fr">Or, un lépreux vint à lui en le suppliant, et, fléchissant le genou, il lui dit : Si vous voulez, vous pouvez me purifier.</span>
+<span id="marc-1-41" class="verse" lang="fr">Et Jésus, ayant pitié de lui, étendit sa main, le toucha et lui dit : Je le veux, sois purifié.</span>
+<span id="marc-1-42" class="verse" lang="fr">Et lorsqu’il eut dit ces mots, la lèpre aussitôt se retira de cet homme, et il fut guéri.</span>
+<span id="marc-1-43" class="verse" lang="fr">Et Jésus le menaça et le renvoya à l’instant,</span>
+<span id="marc-1-44" class="verse" lang="fr">Et lui dit : Prends garde de ne le dire à personne ; mais va, montre-toi au prince des prêtres, et offre pour ta purification ce que Moïse a prescrit, pour que cela leur soit un témoignage.</span>
+<span id="marc-1-45" class="verse" lang="fr">Mais, étant parti, il commença à raconter et à publier partout la chose, de sorte que Jésus ne pouvait plus entrer publiquement dans aucune ville, mais se tenait dehors en des lieux déserts, et l’on venait à lui de tous côtés.</span>
+</p>
+</div>
+
+<div id="marc-2">
+<h1>Chapitre II</h1>
+
+<p>
+<span id="marc-2-1" class="verse" lang="fr">Et il entra de nouveau dans Capharnaüm après quelques jours.</span>
+<span id="marc-2-2" class="verse" lang="fr">Et l’on apprit qu’il était dans la maison, et ils accoururent en si grand nombre que l’espace même en dehors de la porte ne pouvait les contenir et il leur prêchait la parole.</span>
+<span id="marc-2-3" class="verse" lang="fr">Et on vint lui présenter un paralytique qui était porté par quatre hommes.</span>
+<span id="marc-2-4" class="verse" lang="fr">Et, comme ils ne pouvaient le lui présenter à causé de la foule, ils dénudèrent le toit au-dessus du lieu où il était, et, faisant une ouverture, ils descendirent le grabat où le paralytique gisait.</span>
+<span id="marc-2-5" class="verse" lang="fr">Lorsque Jésus eut vu leur foi, il dit au paralytique : Mon fils, tes péchés te sont remis.</span>
+<span id="marc-2-6" class="verse" lang="fr">Or, il y avait là quelques scribes assis, qui pensaient dans leur cœur :</span>
+<span id="marc-2-7" class="verse" lang="fr">Pourquoi celui-là parle-t-il ainsi ? Il blasphème. Qui peut remettre les péchés, si ce n’est Dieu seul ?</span>
+<span id="marc-2-8" class="verse" lang="fr">Aussitôt Jésus, ayant connu par son esprit qu’ils pensaient ainsi en eux-mêmes, leur dit : Pourquoi pensez-vous ces choses dans vos cœurs ?</span>
+<span id="marc-2-9" class="verse" lang="fr">Lequel est le plus facile, de dire au paralytique : Tes péchés te sont remis, ou de lui dire : Lève-toi, prends ton grabat, et marche ?</span>
+<span id="marc-2-10" class="verse" lang="fr">Or, pour que vous sachiez que le Fils de l’homme a sur la terre le pouvoir de remettre les péchés, (il dit au paralytique) :</span>
+<span id="marc-2-11" class="verse" lang="fr">Je te le commande, lève-toi, prends ton grabat, et va dans ta maison.</span>
+<span id="marc-2-12" class="verse" lang="fr">Et aussitôt celui-ci se leva et, soulevant son grabat, s’en alla devant tout le monde, de sorte que tous admiraient et glorifiaient Dieu, disant : Jamais nous n’avons vu rien de pareil.</span>
+</p>
+
+<p>
+<span id="marc-2-13" class="verse" lang="fr">Et Jésus se retira de nouveau près de la mer, et tout le peuple venait à lui, et il les enseignait.</span>
+<span id="marc-2-14" class="verse" lang="fr">Et, lorsqu’il passait, il vit Lévi, fils d’Alphée, assis au bureau de péage, et il lui dit : Suis-moi ; et, se levant, il le suivit.</span>
+</p>
+
+<p>
+<span id="marc-2-15" class="verse" lang="fr">Et il arriva qu’étant à table dans la maison de cet homme, beaucoup de publicains et de pécheurs y étaient en même temps avec Jésus et ses disciples, car il y en avait beaucoup qui le suivaient aussi.</span>
+<span id="marc-2-16" class="verse" lang="fr">Et les Scribes et les Pharisiens, voyant qu’il mangeait avec les Publicains et les pécheurs, disaient à ses disciples : Pourquoi votre maître mange-t-il et boit-il avec les Publicains et les pécheurs ?</span>
+<span id="marc-2-17" class="verse" lang="fr">Jésus, l’ayant entendu, leur dit : Ce ne sont pas ceux qui ont bonne santé qui ont besoin de médecin, mais les malades ; car je ne suis pas venu appeler les justes, mais les pécheurs.</span>
+</p>
+
+<p>
+<span id="marc-2-18" class="verse" lang="fr">Les disciples de Jean et les Pharisiens jeûnaient ; ils vinrent donc et lui dirent : Pourquoi les disciples de Jean et ceux des Pharisiens jeûnent-ils, et vos disciples ne jeûnent pas ?</span>
+<span id="marc-2-19" class="verse" lang="fr">Et Jésus leur dit : Est-ce que les fils des noces peuvent jeûner pendant que l’époux est avec eux ? Aussi, longtemps qu’ils ont avec eux l’époux, ils ne peuvent jeûner.</span>
+<span id="marc-2-20" class="verse" lang="fr">Mais viendront les jours où l’époux leur sera enlevé, et ils jeûneront en ces jours-là.</span>
+</p>
+
+<p>
+<span id="marc-2-21" class="verse" lang="fr">Personne ne coud une pièce de drap neuf à un vieux vêtement ; autrement, le neuf emporte une partie du vieux et la déchirure devient plus grande.</span>
+<span id="marc-2-22" class="verse" lang="fr">Et personne ne met du vin nouveau dans des outres vieilles ; autrement le vin rompra les outres, et le vin se répandra, et les outres seront perdues ; mais le vin nouveau doit être mis dans des outres neuves.</span>
+</p>
+
+<p>
+<span id="marc-2-23" class="verse" lang="fr">Et il arriva encore que lorsque le Seigneur passait un jour de sabbat le long des blés, ses discipies commencèrent tout en marchant à rompre des épis.</span>
+<span id="marc-2-24" class="verse" lang="fr">Et les Pharisiens lui dirent : Voyez, pourquoi font-ils le jour du sabbat ce qu’il n’est pas permis de faire ?</span>
+<span id="marc-2-25" class="verse" lang="fr">Et il leur dit : N’avez-vons pas lu ce que fit David quand il eut besoin et qu’il eut faim, lui et ceux qui étaient avec lui ?</span>
+<span id="marc-2-26" class="verse" lang="fr">Comment il entra dans la maison de Dieu, au temps du grand-prêtre Abiathar, mangea les pains de proposition qu’il n’était permis qu’aux prêtres de manger, et en donna à ceux qui étaient avec lui ?</span>
+<span id="marc-2-27" class="verse" lang="fr">Et il leur disait : Le sabbat a été fait pour l’homme, et non l’homme pour le sabbat.</span>
+<span id="marc-2-28" class="verse" lang="fr">Ainsi donc, le Fils de l’homme est maître du sabbat même.</span>
+</p>
+</div>
+
+<div id="marc-3">
+<h1>Chapitre III</h1>
+
+<p>
+<span id="marc-3-1" class="verse" lang="fr">Jésus entra une autre fois dans la synagogue, et il y avait là un homme ayant une main desséchée.</span>
+<span id="marc-3-2" class="verse" lang="fr">Et ils l’observaient pour voir s’il le guérirait en un jour de sabbat, afin de l’accuser.</span>
+<span id="marc-3-3" class="verse" lang="fr">Et il dit à l’homme qui avait une main desséchée : Tiens-toi debout au milieu.</span>
+<span id="marc-3-4" class="verse" lang="fr">Puis il leur dit : Est-il permis, un jour de sabbat, de faire du bien ou du mal ? de sauver la vie ou de l’ôter ? Mais ils se taisaient.</span>
+<span id="marc-3-5" class="verse" lang="fr">Alors, les regardant avec colère, contristé de l’aveuglement de leur cœur, il dit à cet homme : Étends ta main. Et il l’étendit, et sa main fut guérie.</span>
+<span id="marc-3-6" class="verse" lang="fr">Or les Pharisiens, étant sortis, tinrent aussitôt conseil contre lui avec les Hérodiens sur les moyens de le perdre.</span>
+</p>
+
+<p>
+<span id="marc-3-7" class="verse" lang="fr">Mais Jésus se retira vers la mer avec ses disciples, et une troupe nombreuse le suivit de la Judée et de la Galilée,</span>
+<span id="marc-3-8" class="verse" lang="fr">Et de Jérusalem et de l’Idumée, et d’au-delà du Jourdain ; et une grande multitude des environs de Tyr et de Sidon, apprenant ce qu’il faisait, vint à lui.</span>
+<span id="marc-3-9" class="verse" lang="fr">Et il dit à ses disciples de mettre à sa disposition une barque, à cause de la foule, pour n’en être pas accablé.</span>
+<span id="marc-3-10" class="verse" lang="fr">Car il guérissait beaucoup de malades, de sorte que tous ceux qui avaient quelque mal se jetaient sur lui pour le toucher.</span>
+<span id="marc-3-11" class="verse" lang="fr">Et les esprits immondes, lorsqu’ils le voyaient, se prosternaient devant lui et criaient, disant :</span>
+<span id="marc-3-12" class="verse" lang="fr">Tu es le Fils de Dieu. Et il leur défendait avec de grandes menaces de le faire connaître.</span>
+</p>
+
+<p>
+<span id="marc-3-13" class="verse" lang="fr">Et étant monté sur une montagne, il appela à lui ceux qu’il voulut lui-même, et ils le suivirent.</span>
+<span id="marc-3-14" class="verse" lang="fr">Et il en choisit douze pour être avec lui, et pour les envoyer prêcher ;</span>
+<span id="marc-3-15" class="verse" lang="fr">Et il leur donna la puissance de guérir les maladies et de chasser les démons.</span>
+<span id="marc-3-16" class="verse" lang="fr">Simon, à qui il donna le nom de Pierre,</span>
+<span id="marc-3-17" class="verse" lang="fr">Et Jacques, fils de Zébédée, et Jean, frère de Jacques, auxquels il donna le nom de Boanergès, c’est-à-dire, fils du tonnerre,</span>
+<span id="marc-3-18" class="verse" lang="fr">Et André, et Philippe, et Barthélémi, et Matthieu, et Thomas, et Jacques, fils d’Alphée, et Thaddée, et Simon le Cananéen,</span>
+<span id="marc-3-19" class="verse" lang="fr">Et Judas Iscariote, qui le trahit.</span>
+</p>
+
+<p>
+<span id="marc-3-20" class="verse" lang="fr">Et ils vinrent à la maison, et la foule s’y assembla de nouveau, de telle sorte qu’ils ne pouvaient pas même manger du pain.</span>
+<span id="marc-3-21" class="verse" lang="fr">Et les siens, l’ayant appris, vinrent pour se saisir de lui, car ils disaient : Il a perdu l’esprit.</span>
+<span id="marc-3-22" class="verse" lang="fr">Et les Scribes qui élaient descendus de Jérusalem disaient : Il est possédé de Béelzebub, et c’est par le prince des démons qu’il chasse les démons.</span>
+<span id="marc-3-23" class="verse" lang="fr">Et, les ayant appelés, il leur dit en paraboles : Comment Satan peut-il chasser Satan ?</span>
+<span id="marc-3-24" class="verse" lang="fr">Si un royaume est divisé contre lui-même, ce royaume ne peut subsister.</span>
+<span id="marc-3-25" class="verse" lang="fr">Et si une maison est divisée contre elle-même, cette maison ne peut subsister.</span>
+<span id="marc-3-26" class="verse" lang="fr">Et si Satin se lève contre lui-même, il est divisé, et il ne pourra subsister et il prend fin.</span>
+<span id="marc-3-27" class="verse" lang="fr">Personne ne peut entrer dans la maison de l’homme fort et piller ses meubles, à moins qu’il n’ait auparavant lié l’homme fort ; alors il pillera sa maison.</span>
+</p>
+
+<p>
+<span id="marc-3-28" class="verse" lang="fr">Je vous dis en vérité que tous les péchés seront remis aux enfants des hommes, ainsi que les blasphèmes qu’ils auront proférés ;</span>
+<span id="marc-3-29" class="verse" lang="fr">Quant à celui qui aura biasphémé contre l’Esprit-Saint, il n’obtiendra jamais rémission, mais sera Coupable d’un péché éternel.</span>
+<span id="marc-3-30" class="verse" lang="fr">Parce qu’ils disaient : Il est possédé d’un esprit immonde.</span>
+</p>
+
+<p>
+<span id="marc-3-31" class="verse" lang="fr">Sa mère et ses frères vinrent et, se tenant dehors, ils envoyèrent l’appeler.</span>
+<span id="marc-3-32" class="verse" lang="fr">Et la foule était assise autour de lui, et on lui dit : Voilà que votre mère et vos frères vous cherchent dehors.</span>
+<span id="marc-3-33" class="verse" lang="fr">Et, leur répondant, il dit : Quelle est ma mère et quels sont mes frères ?</span>
+<span id="marc-3-34" class="verse" lang="fr">Et, regardant ceux qui étaient assis autour de lui, il dit : Voilà ma mère et mes frères ;</span>
+<span id="marc-3-35" class="verse" lang="fr">Car, celui qui fait la volonté de Dieu, celui-là est mon frère et ma sœur et ma mère.</span>
+</p>
+</div>
+
+<div id="marc-4">
+<h1>Chapitre IV</h1>
+
+<p>
+<span id="marc-4-1" class="verse" lang="fr">Il commença de nouveau à enseigner auprès de la mer, et une grande foule se rassembla autour de lui, de sorte que, montant dans la barque, il se tenait sur la mer, et toute la foule était à terre le long du rivage.</span>
+<span id="marc-4-2" class="verse" lang="fr">Et il leur enseignait beaucoup de choses en paraboles, et il leur disait dans son enseignement :</span>
+<span id="marc-4-3" class="verse" lang="fr">Ecoutez ! Voilà que le Semeur est sorti pour semer.</span>
+<span id="marc-4-4" class="verse" lang="fr">Et, pendant qu’il semait, une partie de la semence tomba le long du chemin, et les oiseaux du ciel vinrent et la mangèrent.</span>
+<span id="marc-4-5" class="verse" lang="fr">Une autre partie tomba sur un terrain pierreux, où elle n’eut pas beaucoup de terre, et elle leva bientôt parce qu’elle n’avait pas une terre profonde ;</span>
+<span id="marc-4-6" class="verse" lang="fr">Et, quand le soleil se leva, elle fut échauffée, et, comme elle n’avait pas de racines, elle sécha.</span>
+<span id="marc-4-7" class="verse" lang="fr">Une autre partie tomba dans des épines, et les épines grandirent et l’étouffèrent, et elle ne donna point de fruit.</span>
+<span id="marc-4-8" class="verse" lang="fr">Une autre partie tomba dans une bonne terre, et donna du fruit qui monta et crût et rapporta l’un trente, l’autre soixante et l’autre cent.</span>
+<span id="marc-4-9" class="verse" lang="fr">Et il disait : Que celui qui a des oreilles pour entendre entende !</span>
+</p>
+
+<p>
+<span id="marc-4-10" class="verse" lang="fr">Et, lorsqu’il fut laissé seul, les Douze qui étaient avec lui l’interrogèrent sur cette parabole.</span>
+<span id="marc-4-11" class="verse" lang="fr">Et il leur disait : À vous il a été donné de connaître le mystère du royaume de Dieu ; mais, pour ceux qui sont dehors, tout se fait en paraboles ;</span>
+<span id="marc-4-12" class="verse" lang="fr">Afin qu’en voyant, ils voient et ne voient point, et qu’en entendant ils entendent et ne comprennent point, de sorte qu’ils ne se convertissent pas et que les péchés ne leur soient pas remis.</span>
+</p>
+
+<p>
+<span id="marc-4-13" class="verse" lang="fr">Et il leur dit : Vous ne comprenez point cette parabole ? Comment donc comprendrez-vous toutes les paraboles ?</span>
+<span id="marc-4-14" class="verse" lang="fr">Celui qui sème, sème la parole.</span>
+<span id="marc-4-15" class="verse" lang="fr">Ceux qui sont le long du chemin ou est semée la parole, sont ceux qui ne l’ont pas plus tôt entendue que Satan vient, et enlève la parole qui avait été semée dans leurs cœurs.</span>
+<span id="marc-4-16" class="verse" lang="fr">Et pareillement, ceux qui ont reçu la semence en des endroits pierreux, sont ceux qui, lorsqu’ils entendent la parole, la reçoivent d’abord avec joie ;</span>
+<span id="marc-4-17" class="verse" lang="fr">Mais ils n’ont pas de racine en eux et n’ont qu’un temps ; ensuite, la tribulation et la persécution survenant à cause de la parole, ils se scandalisent aussitôt.</span>
+<span id="marc-4-18" class="verse" lang="fr">Et les autres, qui reçoivent la parole parmi les épines, sont ceux qui écoutent la parole ;</span>
+<span id="marc-4-19" class="verse" lang="fr">Mais les soucis du siècle et la déception des richesses et les autres concupiscences, entrant en eux, étouffent la parole, et elle est ren־ due infructueuse.</span>
+<span id="marc-4-20" class="verse" lang="fr">Enfin, ceux qui ont reçu la semence dans la bonne terre sont ceux qui écoutent la parole et la reçoivent et produisent du fruit, l’un trente, l’autre soixante et l’autre cent.</span>
+</p>
+
+<p>
+<span id="marc-4-21" class="verse" lang="fr">Et il leur disait : Apporte-t-on la lampe pour la mettre sous le boisseau ou sous le lit ? N’est-ce pas pour la mettre sur le candélabre ?</span>
+<span id="marc-4-22" class="verse" lang="fr">Car il n’y à rien de caché qui ne soit manifesté, et rien de fait en secret qui ne vienne au grand jour.</span>
+<span id="marc-4-23" class="verse" lang="fr">Si quelqu’un a des oreilles pour entendre, qu’il entende.</span>
+<span id="marc-4-24" class="verse" lang="fr">Et il leur disait : Prenez garde à ce que vous entendez. D’après la mesure avec laquelle vous aurez mesuré les autres, vous serez mesurés et il vous sera ajouté.</span>
+<span id="marc-4-25" class="verse" lang="fr">Car il sera donné à celui qui a, et à celui qui n’a pas sera ôté même ce qu’il a.</span>
+</p>
+
+<p>
+<span id="marc-4-26" class="verse" lang="fr">Et il disait : Il en est du royaume de Dieu comme de la semence	qu’un homme jette dans la terre.</span>
+<span id="marc-4-27" class="verse" lang="fr">Qu’il dorme, qu’il se lève de  jour, la semence germe et croît sans qu’il le sache.</span>
+<span id="marc-4-28" class="verse" lang="fr">Car la terre produit d’elle-même du fruit, d’abord de l’herbe,
+puis un épi, ensuite dans l’épi un froment plein.</span>
+<span id="marc-4-29" class="verse" lang="fr">Et, lorsqu’elle a produit les fruits, il y met aussitôt la faucille, parce que c’est le temps de la moisson.</span>
+</p>
+
+<p>
+<span id="marc-4-30" class="verse" lang="fr">Et il disait : A quoi assimilerons-nous le royaume de Dieu ? Ou à quelle parabole le comparerons nous ?</span>
+<span id="marc-4-31" class="verse" lang="fr">Il est comme le grain de senevé qui, lorsqu’on le sème dans la terre, est la plus petite de toutes les semences qui sont dans la terre ;</span>
+<span id="marc-4-32" class="verse" lang="fr">Et, lorsqu’on l’a semé, il monte et devient plus grand que toutes les plantes et pousse de grands rameaux, de sorte que les oiseaux du ciel peuvent habiter sous son ombre.</span>
+</p>
+
+<p>
+<span id="marc-4-33" class="verse" lang="fr">Et il leur annonçait la parole avec beaucoup de paraboles sem- blables, selon qu’ils pouvaient entendre.</span>
+<span id="marc-4-34" class="verse" lang="fr">Car il ne leur parlait pas sans paraboles, et en particulier il expliquait tout à ses disciples.</span>
+</p>
+
+<p>
+<span id="marc-4-35" class="verse" lang="fr">Et il leur dit ce même jour, lorsque le soir fut venu : Passons à l’autre bord.</span>
+<span id="marc-4-36" class="verse" lang="fr">Et, renvoyant la foule, ils l’emmenèrent dans la barque tel qu’il était, et d’autres barques le suivaient.</span>
+<span id="marc-4-37" class="verse" lang="fr">Et il s’éleva un grand tourbillon de vent, qui jetait les flots dans la barque, de sorte que la barque s’emplissait.</span>
+<span id="marc-4-38" class="verse" lang="fr">Et il était à la poupe, dormant sur un oreiller ; et ils le réveillent et lui disent : Maître, vous est-il indifférent que nous périssions ?</span>
+<span id="marc-4-39" class="verse" lang="fr">Alors, se levant, ii menaça le vent et dit à la mer : Tais-toi, silence ! Et le vent cessa, et il se fit un grand calme.</span>
+<span id="marc-4-40" class="verse" lang="fr">Et il leur dit : Pourquoi êtes-vous effrayés ? N’avez-vous point encore la foi ? Et ils furent saisis d’une grande crainte, et ils se disaient l’un à l’autre : Qui penses-tu que soit celui-ci, puisque et le vent et la mer lui obéissent ?</span>
+</p>
+</div>
+
+<div id="marc-5">
+<h1>Chapitre V</h1>
+
+<p>
+<span id="marc-5-1" class="verse" lang="fr">Et ils vinrent, en traversant la mer, dans le pays des Géraséniens.</span>
+<span id="marc-5-2" class="verse" lang="fr">Et, comme il sortait de la barque, tout à coup vint à lui du milieu des tombeaux un homme possédé d’un esprit immonde,</span>
+<span id="marc-5-3" class="verse" lang="fr">Qui faisait sa demeure des tombeaux, et personne ne pouvait plus le lier avec des chaînes ;</span>
+<span id="marc-5-4" class="verse" lang="fr">Car, souvent attaché avec des chaînes et des entraves, il avait rompu les chaînes et les entraves, et personne ne pouvait le dompter.</span>
+<span id="marc-5-5" class="verse" lang="fr">Et, le jour et la nuit, il était toujours dans les tombeaux et sur les montagnes, criant et se meurtrissant avec des pierres.</span>
+<span id="marc-5-6" class="verse" lang="fr">Or, voyant Jésus de loin, il accourut et l’adora.</span>
+<span id="marc-5-7" class="verse" lang="fr">Et, criant d’une voix forte, il dit : Qu’y a-t-il entre moi et toi, Jésus, fils du Dieu très-haut ? Je t’adjure par Dieu, ne me tourmente pas.</span>
+<span id="marc-5-8" class="verse" lang="fr">Car il lui disait : Sors de cet homme, esprit immonde.</span>
+<span id="marc-5-9" class="verse" lang="fr">Et il l’interrogeait : Quel est ton nom ? Et il lui dit : Mon nom est légion, parce que nous sommes plusieurs.</span>
+<span id="marc-5-10" class="verse" lang="fr">Et il le priait instamment de ne pas le chasser hors de ce pays.</span>
+<span id="marc-5-11" class="verse" lang="fr">Or, il y avait là, au pied de la montagne, un grand troupeau de porcs qui paissait.</span>		
+<span id="marc-5-12" class="verse" lang="fr">Et les esprits le priaient, disant : Envoie-nous dans ces porcs, pour que nous entrions en eux.</span>
+<span id="marc-5-13" class="verse" lang="fr">Et Jésus aussitôt le leur permit. Et les esprits immondes, sortant du possédé, entrèrent dans les porcs, et le troupeau d’environ deux mille se précipita impétueusement dans la mer, et ils furent noyés dans la mer :</span>
+<span id="marc-5-14" class="verse" lang="fr">Mais ceux qui les faisaient paître s’enfuirent et répandirent cette nouvelle dans la ville et dans les champs. Et on sortit pour voir ce qui était arrivé.</span>
+<span id="marc-5-15" class="verse" lang="fr">Ils vinrent vers Jésus, et ils virent celui qui avait été tourmenté par le démon assis, vêtu et sain d’esprit, et ils furent saisis de crainte.</span>
+<span id="marc-5-16" class="verse" lang="fr">Et ceux qui avaient vu leur racontèrent ce qui était arrivé à celui qui était possédé du démon et aux porcs.</span>
+<span id="marc-5-17" class="verse" lang="fr">Et ils commencèrent à prier Jésus de s’éloigner de leurs confins.</span>
+<span id="marc-5-18" class="verse" lang="fr">Et, comme il montait dans la barque, celui qui avait été tourmenté par le démon commença à le prier pour rester avec lui.</span>
+<span id="marc-5-19" class="verse" lang="fr">Et il ne le lui permit pas, mais il lui dit : Va dans ta maison vers les tiens, et annonce leur tout ce que le Seigneur a fait pour toi, et comment il a eu pitié de toi.</span>
+</p>
+
+<p>
+<span id="marc-5-20" class="verse" lang="fr">Il s’en alla donc et commença à publier dans la Décapole tout ce que Jésus avait fait pour lui, et tous étaient dans l’admiration.</span>
+<span id="marc-5-21" class="verse" lang="fr">Jésus ayant de nouveau traversé la mer dans la barque, une grande foule s’assembla autour de lui et il était près de la mer.</span>		
+<span id="marc-5-22" class="verse" lang="fr">Or, un des chefs de la synagogue, nommé Jaïre, vint et en le voyant se jeta à ses pieds.</span>
+<span id="marc-5-23" class="verse" lang="fr">Et il le priait instamment, disant : Ma fille est à l’extrémité ; venez, imposez votre main sur elle, afin qu’elle soit guérie et qu’elle vive.</span>
+<span id="marc-5-24" class="verse" lang="fr">Et il s’en alla avec lui, et une grande foule le suivait et le pressait.</span>
+<span id="marc-5-25" class="verse" lang="fr">Et une femme, qui avait un flux de sang depuis douze ans,</span>
+<span id="marc-5-26" class="verse" lang="fr">Et avait beaucoup souffert de plusieurs médecins et avait dépensé tout son bien, et n’en avait retiré aucun profit, mais se trouvait beaucoup plus mal,</span>
+<span id="marc-5-27" class="verse" lang="fr">Ayant entendu parler de Jésus, vint dans la foule par derrière et toucha son vêtement.</span>
+<span id="marc-5-28" class="verse" lang="fr">Car elle disait : Si seulement je touche son vêtement, je serai guérie.</span>
+<span id="marc-5-29" class="verse" lang="fr">Et aussitôt l’écoulement de sang fut séché, et elle sentit en son corps qu’elle était guérie de son mal.</span>
+<span id="marc-5-30" class="verse" lang="fr">Et à l’instant, Jésus connaissant en soi-même la vertu qui était sortie de lui, se tourna vers la foule et dit : Qui a touché mes vêtements ?</span>
+<span id="marc-5-31" class="verse" lang="fr">Et ses disciples lui disaient : Vous voyez la foule qui vous presse, et vous demandez : Qui m’a touché ?</span>		
+<span id="marc-5-32" class="verse" lang="fr">Et il regardait, tout autour, pour voir celle qui avait fait cela.</span>
+<span id="marc-5-33" class="verse" lang="fr">Or la femme, craintive et tremblante, sachant ce qui s’était passé en elle, vint et se prosterna devant lui, et lui dit toute la vérité.</span>
+<span id="marc-5-34" class="verse" lang="fr">Mais il lui dit : Ma fille, votre foi vous a sauvée. Allez en paix, et soyez guérie de votre mal.</span>
+</p>
+
+<p>
+<span id="marc-5-35" class="verse" lang="fr">Comme il parlait encore, on vint dire au chef de la synagogue : Votre fille est morte, pourquoi fatiguer davantage le Maître ?</span>
+<span id="marc-5-36" class="verse" lang="fr">Mais Jésus, entendant proférer cette parole, dit au chef de la synagogue : Ne craignez point, croyez seulement.</span>
+<span id="marc-5-37" class="verse" lang="fr">Et il ne permit à personne de le suivre, si ce n’est à Pierre, à Jacques et à Jean frère de Jacques.</span>
+<span id="marc-5-38" class="verse" lang="fr">Et ils vinrent à la maison du chef de la synagogue, et il vit beaucoup de tumulte et des gens qui pleuraient et poussaient de grands cris.</span>
+<span id="marc-5-39" class="verse" lang="fr">Et, étant entré, il leur dit : Pourquoi vous troublez-vous et pleurez-vous ? La jeune fille n’est pas morte, mais elle dort.</span>
+<span id="marc-5-40" class="verse" lang="fr">Et ils se riaient de lui. Mais lui, les ayant tous renvoyés, prit le père et la mère de la jeune fille et ceux qui étaient avec lui, et entra dans le lieu où la jeune fille était couchée.</span>
+<span id="marc-5-41" class="verse" lang="fr">Et, prenant la main de la jeune fille, il lui dit : Talitha cumi ; ce qui est ainsi interprété : Jeune fille, (je te le dis), lève-toi.</span>
+<span id="marc-5-42" class="verse" lang="fr">Et aussitôt la jeune fille se leva et marcha ; or elle avait douze ans. Et tous furent grandement frappés de stupeur.</span>
+<span id="marc-5-43" class="verse" lang="fr">Et il leur commanda avec force que personne ne le sût, et il dit de lui donner à manger.</span>
+</p>
+</div>
+
+<div id="marc-6">
+<h1>Chapitre VI</h1>
+
+<p>
+<span id="marc-6-1">Étant parti de là, il s’en alla dans sa patrie, et ses disciples le suivirent.</span>
+<span id="marc-6-2">Et le jour du sabbat étant venu, il commença à enseigner dans la synagogue, et beaucoup, en l’entendant, s’étonnaient de sa doctrine ; disant : D’où lui viennent toutes ces choses ? Et quelle est la sagesse qui lui a été donnée ? et quels sont ces prodiges qui se font par ses mains ?</span>
+<span id="marc-6-3">N’est-ce pas là ce charpentier, fils de Marie, frère de Jacques, de Joseph, de Jude et de Simon ? ses sœurs aussi ne sont-elles pas ici parmi nous ? Et ils se scandalisaient de lui.</span>
+<span id="marc-6-4">Et Jésus leur disait : Un prophète n’est sans honneur que dans son pays et dans sa maison et dans sa parenté.</span>
+<span id="marc-6-5">Et il ne put faire là aucun miracle, si ce n’est qu’il guérit quelques malades en leur imposant les mains.</span>
+<span id="marc-6-6">Et il s’étonnait de leur incrédulité, et il parcourait les villages d’alentour en enseignant.</span>
+<span id="marc-6-7">Et il appela les Douze et commença à les envoyer deux à deux, et il leur donna puissance sur les esprits immondes. </span>
+<span id="marc-6-8">Et il leur commanda de ne rien porter en chemin qu’un bâton seulement, ni sac, ni pain, ni argent dans leur ceinture,</span>
+<span id="marc-6-9">Mais de se chausser de sandales et de ne point se munir de deux tuniques.</span>
+<span id="marc-6-10">Et il leur disait : En quelque maison que vous entriez, demeurez-y jusqu’à ce que vous partiez de ce lieu ;</span>
+<span id="marc-6-11">Et lorsqu’on ne vous recevra pas et qu’on ne vous écoutera pas, sortez de là, et secouez la poussière de vos pieds en témoignage contre eux.</span>
+<span id="marc-6-12">Et, s’en allant, ils prêchaient qu’on fît pénitence.</span>
+<span id="marc-6-13">Et ils chassaient beaucoup de démons, et ils oignaient d’huile beaucoup de malades et les guérissaient.</span>
+<span id="marc-6-14">Or le Roi Hérode entendit parler de Jésus (car son nom avait été manifesté), et il disait : Jean-Baptiste est ressuscité d’entre les morts, et voilà pourquoi des miracles sont opérés par lui.</span>
+<span id="marc-6-15">Mais d’autres disaient : C’est Élie. Et d’autres : C’est un prophète, pareil à un des prophètes.</span>
+<span id="marc-6-16">L’ayant entendu, Hérode dit : Ce Jean que j’ai décapité est ressuscité d’entre les morts.</span>
+<span id="marc-6-17">Car cet Hérode avait envoyé se saisir de Jean et l’avait enchaîné en prison à cause d’Hérodiade, femme de Philippe, son frère, parce qu’il l’avait épousée.</span>
+<span id="marc-6-18">Car Jean disait à Hérode : Il ne t’est pas permis d’avoir la femme de ton frère.</span>
+<span id="marc-6-19">Or Hérodiade lui tendait des embûches et voulait le faire périr, et ne pouvait pas.</span>
+<span id="marc-6-20">Car Hérode craignait Jean, le sachant un homme juste et saint, et il le gardait et faisait beaucoup de choses après l’avoir entendu, et l’entendait volontiers.</span>
+<span id="marc-6-21">Mais un jour opportun arriva ; Hérode, le jour de sa naissance, donna un festin aux premiers de sa cour, et aux tribuns et aux principaux de la Galilée.</span>
+<span id="marc-6-22">Et lorsque la fille d’Hérodiade fut entrée, eut dansé, et eut plu à Hérode et à ses convives, le roi dit à la jeune fille : Demande-moi ce que tu veux, et je te le donnerai.</span>
+<span id="marc-6-23">Et il le lui jura : Je te donnerai tout ce que tu demanderas, fût-ce la moitié de mon royaume.</span>
+<span id="marc-6-24">Lorsqu’elle fut sortie, elle dit à sa mère : Que demanderai-je ? Et celle-ci dit : La tête de Jean-Baptiste.</span>
+<span id="marc-6-25">Étant rentrée aussitôt en grande hâte près du roi, elle fit sa demande, disant : Je veux qu’à l’instant tu me donnes dans un plat la tête de Jean-Baptiste.</span>
+<span id="marc-6-26">Et le roi fut affligé ; à cause du serment et à cause des convives, il ne voulut pas la contrister.</span>
+<span id="marc-6-27">Mais, envoyant un de ses gardes, il lui ordonna d’apporter la tête de Jean dans un plat.</span>
+<span id="marc-6-28">Et, on apporta la tête dans un plat et il la donna à la jeune fille, et la jeune fille la donna à sa mère.</span>
+<span id="marc-6-29">Ses disciples, l’ayant appris, vinrent, et prirent son corps et le déposèrent dans un tombeau.</span>
+<span id="marc-6-30">Or les apôtres, revenant auprès de Jésus, lui rendirent compte de tout ce qu’ils avaient fait et enseigné.</span>
+<span id="marc-6-31">Et il leur dit : Venez à l’écart en un lieu désert, et reposez-vous, un peu. Car ceux qui allaient et venaient étaient nombreux, et ils n’avaient pas même le temps de manger.</span>
+<span id="marc-6-32">Et, montant dans une barque, ils s’en allèrent à l’écart en un lieu désert. </span>
+<span id="marc-6-33">Mais beaucoup les virent partir ou le surent et ils accoururent, à pied de toutes les villes et arrivèrent avant eux.</span>
+<span id="marc-6-34">Et, en sortant de la barque, Jésus vit une grande foule et il eut pitié d’eux, car ils étaient comme des brebis sans pasteurs, et il cormmença à leur enseigner beaucoup de choses.</span>
+<span id="marc-6-35">Et comme l’heure était déjà fort avancée, ses disciples s’approchèrént, disant : Ce lieu est désert et déjà l’heure s’est écoulée.</span>
+<span id="marc-6-36">Renvoyez-les, afin qu’ils aillent dans, les villages et les bourgs voisins acheter des aliments qu’ils mangeront.</span>
+<span id="marc-6-37">Et il leur répondit : Donnesz-leur vous-même à manger. Et ils lui dirent : Allons-nous acheter pour deux cents deniers de pain afin de leur donner à manger ?</span>
+<span id="marc-6-38">Et il leur dit : Combien de pains avez-vous ? Allez et voyez. Et, lorsqu’ils se furent informés, ils dirent : Cinq, et deux poissons.</span>
+<span id="marc-6-39">Et il leur commanda de les faire tous asseoir par troupes sur l’herbe verte.</span>
+<span id="marc-6-50">Et ils s’assirent par troupes de cent et de cinquante. </span>
+<span id="marc-6-41">Et, ayant pris les cinq pains et les deux poissons, levant les yeux au ciel, il bénit et rompit les pains et les donna à ses disciples pour qu’ils les missent devant eux tous, et il partagea les deux poissons entre tous.</span>
+<span id="marc-6-42">Et tous mangèrent et furent rassasiés.</span>
+<span id="marc-6-43">Et ils emportèrent les restes, des fragments remplissant douze corbeilles, et des poissons.</span>
+<span id="marc-6-44">Or ceux qui mangèrent étaient au nombre de cinq mille hommes.</span>
+<span id="marc-6-45">Et aussitôt il obligea ses disciples à monter dans la barque, pour le précéder de l'autre eôté de la mer, à Bethsaïda ; pendant qu’il renverrait le peuple.</span>
+<span id="marc-6-46">Et, lorsqu’il l’eut renvoyé, il alla sur la montagne pour prier.</span>
+<span id="marc-6-47">Et quand le soir fut venu, la barque était au milieu de la mer, et lui était seul à terre.</span>
+<span id="marc-6-48">Et les voyant se fatiguer à ramer, car le vent leur était contraire, vers la quatrième veille de la nuit il vint à eux marchant sur la mer ; et il voulait les devancer. </span>
+<span id="marc-6-49">Mais eux, lorsqu’ils le virent marcher sur la mer, crurent que c’était un fantôme, et ils jetèrent des cris.</span>
+<span id="marc-6-50">Car tous le virent et ils furent épouvantés. Et aussitôt il leur parla et leur dit : Ayez confiance, c’est moi, ne craignez point.</span>
+<span id="marc-6-51">Et il monta auprès d’eux dans la barque et le vent cessa. Et ils étaient bien plus stupéfaits intérieurement.</span>
+<span id="marc-6-52">Car ils n’avaient pas compris au sujet des pains ; en effets, leur cœur était aveuglé.</span>
+<span id="marc-6-53">Et après avoir traversé la mer, ils vinrent dans le pays de Gennésareth et abordèrent.</span>
+<span id="marc-6-54">Et, lorsqu’ils furent sortis de la barque, les gens du pays aussitôt le reconnurent.</span>
+<span id="marc-6-55">Et, parcourant toute cette contrée, ils commencèrent à lui apporter dans leurs grabats ceux qui étaient malades, là où ils entendaient dire qu’il était.</span>
+<span id="marc-6-56">Et partout où il entrait, dans les bourgs, dans les villages ou dans les villes, on mettait les malades sur les places publiques, et on le priait de les laisser au moins toucher la frange de son vêtement, et tous ceux qui le touchaients étaient guéris.</span>
+</p>
+</div>
+
+
+<div id="marc-7">
+<h1>Chapitre VII</h1>
+
+
+<p>
+	<span id="marc-7-1">Et les Pharisiens et plusieurs Scribes venus de Jérusalem s’assemblèrent auprès de Jésus ;</span>
+	<span id="marc-7-2">Et comme ils virent quelques-uns de ses disciples manger du pain avec des mains impures, c’est-à-dire non lavées, ils les blamèrent.</span>
+	<span id="marc-7-3">Car les Pharisiens et tous les Juifs ne mangent point sans se laver souvent les mains, gardant la tradition des anciens.</span>
+	<span id="marc-7-4">Et, en revenant de la place publique, ils ne mangent pas sans s’être lavés ; et il y a beaucoup d’autres choses qui leur ont été transmises et qu’ils observent, le lavage des coupes et des vases de terre et d’airain et des lits.</span>
+	<span id="marc-7-5">Les Pharisiens donc et les Scribes l’interrogeaient : Pourquoi vos disciples ne suivent-ils pas la tradition des anciens, mais mangent le pain avec des mains impures ?</span>
+	<span id="marc-7-6">Et il leur répondit : Isaïe a bien prophétisé de vous, hypocrites, ainsi qu’il est écrit : Ce peuple m’honore des lèvres, mais leur cœur est loin de moi ;</span>
+	<span id="marc-7-7">Et ils me rendent un culte vain ; enseignant des doctrines et des ordonnances humaines.</span>
+	<span id="marc-7-8">Car, abandonnant le commandement de Dieu, vous gardez la tradition des hommes, les lavages des vases et des coupes, et vous faites beaucoup d’autres choses semblables.</span>
+	<span id="marc-7-9">Et il leur disait : Vous rendez entièrement vain le précepte de Dieu, pour garder votre tradition.</span>
+	<span id="marc-7-10">Car Moïse a dit : Honore ton père et ta mère, et : Que celui qui parlera mal à son père ou à sa mère meure de mort. </span>
+	<span id="marc-7-11">Vous au contraire vous dites : Si un homme dit à son père ou à sa mère, Tout corban (c’est-à-dire don) que je fais vous profitera, il satisfait à la loi.</span>
+	<span id="marc-7-12">Et vous n’exigez pas qu’il fasse rien de plus pour son père et sa mère,</span>
+	<span id="marc-7-13">Abolissant le commandement de Dieu par votre tradition, que vous avez établie ; et vous faites beaucoup de choses semblables.</span>
+	<span id="marc-7-14">Et appelant de nouveau la foule, il leur disait : Écoutez-moi tous et comprenez.</span>
+	<span id="marc-7-15">Il n’y a rien au dehors de l’homme qui, en entrant en lui, puisse le souiller ; mais ce qui sort de l’homme, voilà ce qui souille l’homme.</span>
+	<span id="marc-7-16">Si quelqu’un a des oreilles pour entendre, qu’il entende !</span>
+	<span id="marc-7-17">Et lorsqu’il fut entré dans une maison loin de la foule, ses disciples l’interrogèrent sur cette parabole.</span>
+	<span id="marc-7-18">Et il leur dit : Ainsi, vous aussi, vous êtes inintelligents ? Ne comprenez-vous pas que tout ce qui est extérieur, en entrant dans l’homme, ne peut le souiller ;</span>
+	<span id="marc-7-19">Parce que cela n’entre pas dans son cœur, mais va au ventre et descend au lieu secret qui purifie tous les aliments ?</span>
+	<span id="marc-7-20">Mais, disait-il, ce qui sort de l’homme, voilà ce qui souille l’homme.</span>
+	<span id="marc-7-21">Car, de l’intérieur du cœur des hommes sortent les mauvaises pensées, les adultères, les fornications, les homicides,</span>
+	<span id="marc-7-22">Les larcins, l'avarice, les méchancetés, la fraude, les impudicités, l’œil méchant, les blasphèmes, l’orgueil, la folie.</span>
+	<span id="marc-7-23">Toutes ces choses mauvaises viennent du dedans et souillent l’homme.</span>
+	<span id="marc-7-24">Et s’éloignant de là, il s’en alla sur les confins de Tyr et de Sidon ; et, entrant dans une maison, il voulut que personne ne le sût et il ne put rester caché. </span>
+	<span id="marc-7-25">Car aussitôt qu’elle eut ouï dire qu’il était là, une femme dont la fille avait en elle un esprit immonde, entra et se jeta à ses pied.</span>
+	<span id="marc-7-26">Or, c’était une femme d’entre les Gentilis, syro-phénicienne de nation, et elle le priait de chasser de sa fille le démon.</span>
+	<span id="marc-7-27">Il lui dit : Laissez d’abord les enfants se rassasier, car il n’est pas bon de prendre le pain des enfants et de le jeter aux chiens.</span>
+	<span id="marc-7-28">Mais elle lui répondit : C’est vrai, Seigneur, cependant les petits chiens aussi, mangent sous la table les miettes des enfants.</span>
+	<span id="marc-7-29">Et il lui dit : À cause de cette parole, allez, le démon est sorti de votre fille.</span>
+	<span id="marc-7-30">Et s’en étant allée en sa maison, elle trouva sa fille couchée sur le lit et le démon était sorti.</span>
+	<span id="marc-7-31">Et quittant de nouveau les confins de Tyr, il vint par Sidon à la mer de Galilée, en passant au milieu de la Décapole.</span>
+	<span id="marc-7-32">Et on lui amena un sourd-muet, et on le pria de lui imposer les mains.</span>
+	<span id="marc-7-33">Et, le prenant à l’écart, hors de la foule, il lui mit ses doigts dans les oreilles et toucha sa langue avec de la salive ;</span>
+	<span id="marc-7-34">Et levant les yeux au ciel, il soupira et lui dit : Ephpheta, c’est-à-dire, Ouvrez-vous.</span>
+	<span id="marc-7-35">Et aussitôt ses oreilles furent ouvertes et le lien de sa langue fut rompu, et il parlait distinctement. </span>
+	<span id="marc-7-36">Et il leur défendit d’en rien dire à personne ; mais plus il le leur défendait, plus ils le publiaient.</span>
+	<span id="marc-7-37">Et ils l’admiraient d'autant plus, disant : Il a bien fait toutes choses, il a fait entendre les sourds et parler les muets.</span>
+</p>
+</div>
+
+<div id="marc-8">
+<h1>Chapitre VIII</h1>
+
+<p>
+<span id="marc-8-1" class="verse" lang="fr">En ces jours-là encore, comme la foule était grande et n’avait pas de quoi manger, il appela ses disciples et leur dit :</span>
+<span id="marc-8-2" class="verse" lang="fr">J’ai pitié de cette foule, car voilà déjà trois jours qu’ils sont avec moi, et ils n’ont pas de quoi manger.</span>
+<span id="marc-8-3" class="verse" lang="fr">Et si je les renvoie à jeun dans leurs maisons, ils tomberont de défaillance en chemin, car quelques-uns d'entre eux sont venus de loin.</span>
+<span id="marc-8-4" class="verse" lang="fr">Ses disciples lui répondirent : Comment quelqu’un pourra-t-il les rassasier de pain, ici dans le désert ?</span>
+<span id="marc-8-5" class="verse" lang="fr">Et il leur demanda ; Combien de pains avez-vous ? Et ils lui dirent : Sept.</span>
+<span id="marc-8-6" class="verse" lang="fr">Et il commanda à la foule de s’asseoir à terre. Et, prenant les sept pains et rendant grâces, il les rompit et les donna à ses disciples pour les distribuer, et ils les distribuerent à la foule.</span>
+<span id="marc-8-7" class="verse" lang="fr">Ils avaient encore quelques petits poissons ; il les bénit aussi et les fit distribuer.</span>
+<span id="marc-8-8" class="verse" lang="fr">Et ils mangèrent et furent rassasiés ; et ils emportèrent ce qui restait des fragments, sept corbeilles.</span>
+<span id="marc-8-9" class="verse" lang="fr">Et ceux qui mangèrent étaient environ quatre mille, et il les renvoya.</span>
+<span id="marc-8-10" class="verse" lang="fr">Et aussitôt, montant dans une barque avec ses disciples, il vint dans le pays de Dalmanutha.</span>
+<span id="marc-8-11" class="verse" lang="fr">Et des Pharisiens vinrent et commencèrent à disputer avec lui, lui demandant un prodige dans le ciel, pour le tenter.</span>
+<span id="marc-8-12" class="verse" lang="fr">Et, gémissant du fond du cœur, il dit : Pourquoi cette génération demande-t-elle un prodige ? En vérité je vous le dis : aucun prodige ne sera accordé à cette génération.</span>
+<span id="marc-8-13" class="verse" lang="fr">Et, les renvoyant, il monta de nouveau dans une barque, et passa de l’autre côté de la mer.</span>
+<span id="marc-8-14" class="verse" lang="fr">Or ils avaient oublié de prendre des pains, et ils n’avaient qu’un seul pain avec eux dans la barque.</span>
+<span id="marc-8-15" class="verse" lang="fr">Et il leur donnait un ordre, disant ; Gardez-vous avec soin du levain des Pharisiens et du levain d’Hérode.</span>
+<span id="marc-8-16" class="verse" lang="fr">Et, réfléchissant, ils se disaient l’un à l'autre : C’est que nous n’avons pas de pain.</span>
+<span id="marc-8-17" class="verse" lang="fr">Jésus l’ayant connu, leur dit : Pourquoi pensez-vous que vous n’avez point de pain ? N’avez-vous encore ni sens, ni intelligence ? avez-vous encore le coeur aveuglé ?</span>
+<span id="marc-8-18" class="verse" lang="fr">Ayant des yeux, ne voyez-vous point ? ayant des oreilles, n’entendez-vous point ? et n’avez-vous point de souvenir ?</span>
+<span id="marc-8-19" class="verse" lang="fr">Quand je rompis cinq pains pour cinq mille hommes, combien de corbeilles pleines de fragments remportâtes-vous ? Ils lui dirent : Douze.</span>
+<span id="marc-8-20" class="verse" lang="fr">Et quand je rompis sept, pains pour quatre mille hommes, combien de corbeilles de fragments remportâtes-vous ? Ils lui dirent : Sept.</span>
+<span id="marc-8-21" class="verse" lang="fr">Et il leur dit : Gomment ne comprenez-vous pas encore ?</span>
+<span id="marc-8-22" class="verse" lang="fr">Et ils vinrent à Bethsaïda, et on lui amena un aveugle, et on le pria de le toucher.</span>
+<span id="marc-8-23" class="verse" lang="fr">Prenant la main de l’aveugle, il le conduisit hors du bourg, et, lui ayant imposé les mains, lui demanda s’il voyait quelque chose.</span>
+<span id="marc-8-24" class="verse" lang="fr">Il regarda et dit : Je vois des hommes comme des arbres marchant.</span>
+<span id="marc-8-25" class="verse" lang="fr">Il mit de nouveau les mains sur ses yeux, et il commença à voir et il fut guéri, de sorte qu’il voyait clairement toutes choses.</span>
+<span id="marc-8-26" class="verse" lang="fr">Et il le renvoya dans sa maison, disant : Va dans ta maison, et si tu entres dans le bourg, ne dis rien à personne.</span>
+<span id="marc-8-27" class="verse" lang="fr">Et Jésus s’en alla avec ses disciples dans les villages de Césarée de Philippe, et en chemin il interrogeait ses disciples, disant : Qui dit-on que je suis ?</span>
+<span id="marc-8-28" class="verse" lang="fr">Ils lui répondirent : Jean-Baptiste ; d'autres, Élie ; d’autres, Comme un des prophètes.</span>
+<span id="marc-8-29" class="verse" lang="fr">Alors il leur dit : Mais vous, qui dites-vous que je suis ? Pierre répondant, lui, dit : Vous êtes le Christ.</span>
+<span id="marc-8-30" class="verse" lang="fr">Et il leur défendit avec menace de le dire à personne.</span>
+<span id="marc-8-31" class="verse" lang="fr">Et il commença à leur enseigner qu’il fallait que le Fils de l’homme souffrît beaucoup, qu’il fût repoussé par les anciens et par les princes des prêtres et les scribes, qu’il fût mis à mort, et qu’après trois jours il ressuscitât.</span>
+<span id="marc-8-32" class="verse" lang="fr">Et il parlait ouvertement. Et Pierre, le prenant à part, commençait à le reprendre.</span>
+<span id="marc-8-33" class="verse" lang="fr">Il se retourna, et, regardant ses disciples, il réprimanda Pierre, disant : Retire-toi de moi, Satan, car tu n’as pas le goût de ce qui est de Dieu, mais de ce qui est des hommes.</span>
+<span id="marc-8-34" class="verse" lang="fr">Et il appela la foule avec ses disciples et leur dit : Si quelqu’un veut me suivre, qu’il se renonce lui-même, qu’il porte sa croix et me suive.</span>
+<span id="marc-8-35" class="verse" lang="fr">Car celui qui voudra sauver sa vie la perdra, et celui qui perdra sa vie à cause de moi et de l’Évangile la sauvera.</span>
+<span id="marc-8-36" class="verse" lang="fr">En effet, que servirait à l’homme de gagner le monde entier et de perdre son âme ?</span>
+<span id="marc-8-37" class="verse" lang="fr">Ou que donnera l’homme en échange de son âme ?</span>
+<span id="marc-8-38" class="verse" lang="fr">Car celui qui aura rougi de moi et de mes paroles, au milieu de cette génération adultère et pècheresse, le Fils de l’homme aussi rougira de lui, lorsqu’il viendra dans la gloire de son Père avec les Anges saints.</span>
+<span id="marc-8-39" class="verse" lang="fr">Et il leur disait : Je vous dis en vérité qu’il y en a, parmi ceux ici présents, qui ne goûteront pas la mort avant d’avoir vu le royaume de Dieu venant dans sa puissance.</span>
+</p>
+</div>
+
+</body>
+</html>

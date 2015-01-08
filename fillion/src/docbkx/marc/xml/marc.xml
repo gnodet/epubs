@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xml:id="marc"
+      version="5.0"
+      xml:lang="fr"
+      xmlns="http://docbook.org/ns/docbook"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xsi:schemaLocation="
+        http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/xsd/docbook.xsd
+        http://www.w3.org/1999/xlink http://www.docbook.org/xml/5.0/xsd/xlink.xsd
+"
+        >
+    <info>
+        <productnumber>
+            <?eval ${project.version}?>
+        </productnumber>
+        <title>ÉVANGILE SELON SAINT MARC</title>
+    </info>
+    <xi:include href="marc-00.xml">
+		<xi:fallback>
+		    <para><emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis></para>
+		  </xi:fallback>
+	</xi:include>
+    <xi:include href="marc-01.xml">
+		<xi:fallback>
+		    <para><emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis></para>
+		  </xi:fallback>
+	</xi:include>
+    <xi:include href="marc-02.xml">
+		<xi:fallback>
+		    <para><emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis></para>
+		  </xi:fallback>
+	</xi:include>
+</book>

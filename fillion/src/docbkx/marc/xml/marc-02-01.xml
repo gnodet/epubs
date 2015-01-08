@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xmlns="http://docbook.org/ns/docbook" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="marc-ch00" version="5.0" xml:lang="fr" xsi:schemaLocation="            http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/xsd/docbook.xsd            http://www.w3.org/1999/xlink http://www.docbook.org/xml/5.0/xsd/xlink.xsd         ">
+
+		<title>1° SECTION. — MINISTÈRE DE JÉSUS DANS LA GALILÉE ORIENTALE.</title>
+		<subtitle><bible>Mc 1.14–7.23</bible>.</subtitle>
+		<xi:include href="marc-02-01-01.xml">
+			<xi:fallback>
+				<para>
+					<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+				</para>
+			</xi:fallback>
+		</xi:include>
+		<xi:include href="marc-02-01-02.xml">
+			<xi:fallback>
+				<para>
+					<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+				</para>
+			</xi:fallback>
+		</xi:include>
+		<xi:include href="marc-02-01-03.xml">
+			<xi:fallback>
+				<para>
+					<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+				</para>
+			</xi:fallback>
+		</xi:include>
+		<xi:include href="marc-02-01-04.xml">
+			<xi:fallback>
+				<para>
+					<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+				</para>
+			</xi:fallback>
+		</xi:include>
+		<xi:include href="marc-02-01-05.xml">
+			<xi:fallback>
+				<para>
+					<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+				</para>
+			</xi:fallback>
+		</xi:include>
+		<xi:include href="marc-02-01-06.xml">
+			<xi:fallback>
+				<para>
+					<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+				</para>
+			</xi:fallback>
+		</xi:include>
+		<xi:include href="marc-02-01-07.xml">
+			<xi:fallback>
+				<para>
+					<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+				</para>
+			</xi:fallback>
+		</xi:include>
+		<xi:include href="marc-02-01-08.xml">
+			<xi:fallback>
+				<para>
+					<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+				</para>
+			</xi:fallback>
+		</xi:include>
+		<xi:include href="marc-02-01-09.xml">
+			<xi:fallback>
+				<para>
+					<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+				</para>
+			</xi:fallback>
+		</xi:include>
+		<xi:include href="marc-02-01-10.xml">
+			<xi:fallback>
+				<para>
+					<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+				</para>
+			</xi:fallback>
+		</xi:include>
+		<xi:include href="marc-02-01-11.xml">
+			<xi:fallback>
+				<para>
+					<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+				</para>
+			</xi:fallback>
+		</xi:include>
+		<xi:include href="marc-02-01-12.xml">
+			<xi:fallback>
+				<para>
+					<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+				</para>
+			</xi:fallback>
+		</xi:include>
+		<xi:include href="marc-02-01-13.xml">
+			<xi:fallback>
+				<para>
+					<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+				</para>
+			</xi:fallback>
+		</xi:include>
+		<xi:include href="marc-02-01-14.xml">
+			<xi:fallback>
+				<para>
+					<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+				</para>
+			</xi:fallback>
+		</xi:include>
+		<xi:include href="marc-02-01-15.xml">
+			<xi:fallback>
+				<para>
+					<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+				</para>
+			</xi:fallback>
+		</xi:include>
+		<xi:include href="marc-02-01-16.xml">
+			<xi:fallback>
+				<para>
+					<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+				</para>
+			</xi:fallback>
+		</xi:include>
+		<xi:include href="marc-02-01-17.xml">
+			<xi:fallback>
+				<para>
+					<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+				</para>
+			</xi:fallback>
+		</xi:include>
+		<xi:include href="marc-02-01-18.xml">
+			<xi:fallback>
+				<para>
+					<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+				</para>
+			</xi:fallback>
+		</xi:include>
+		<xi:include href="marc-02-01-19.xml">
+			<xi:fallback>
+				<para>
+					<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+				</para>
+			</xi:fallback>
+		</xi:include>
+	</section>
+
