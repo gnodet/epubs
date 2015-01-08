@@ -15,6 +15,10 @@ div.titlepage .subtitle {
 	margin: 0 0 0 1em;
 }
 
+div.titlepage .subtitle::before {
+	content: " — ";
+}
+
 .smallcaps {
 	font-variant: small-caps;
 }
