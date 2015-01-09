@@ -17,4 +17,11 @@
 			</para>
 		</xi:fallback>
 	</xi:include>
+	<xi:include href="marc-02-03.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
 </chapter>
