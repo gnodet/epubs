@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="marc-ch00" version="5.0" xml:lang="fr" xsi:schemaLocation="            http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/xsd/docbook.xsd            http://www.w3.org/1999/xlink http://www.docbook.org/xml/5.0/xsd/xlink.xsd         ">
+
+	<title>TROISIÈME PARTIE — VIE GLORIEUSE DE NOTRE-SEIGNEUR JÉSUS-CHRIST.</title>
+	<subtitle><bible>Mc 16</bible>.</subtitle>
+
+	<para>Le ministère public et la Passion du Sauveur, tel est, à vrai dire, le fond de sa vie messianique. Aussi les Évangélistes passent-ils très rapidement sur ses mystères glorieux. Ils les signalent néanmoins, et saint Marc le fait avec son originalité ordinaire. Bien plus, il partage avec saint Luc le mérite d’avoir mentionné l’Ascension de Jésus à la suite de sa Résurrection.</para>
+
+	<xi:include href="marc-04-01.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<xi:include href="marc-04-02.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+
+</chapter>
