@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xmlns="http://docbook.org/ns/docbook" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="marc-ch00" version="5.0" xml:lang="fr" xsi:schemaLocation="            http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/xsd/docbook.xsd            http://www.w3.org/1999/xlink http://www.docbook.org/xml/5.0/xsd/xlink.xsd         ">
+
+	<title>III. « Christus patiens ».</title>
+	<subtitle><bible>Mc 14–15</bible>.</subtitle>
+
+	<para>« Nunc aspergamus librum nostrum de sanguine, et limina domorum, et funem coccineum circumdemus domui orationis nostræ, et coccum in manu nostra… De Christi enim occisione narrat Evangelista ». Pseudo-Hieron. ap. Caten. saint Thom. h l.</para>
+
+	<xi:include href="marc-03-03-01.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<xi:include href="marc-03-03-02.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<xi:include href="marc-03-03-03.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<xi:include href="marc-03-03-04.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<xi:include href="marc-03-03-05.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<xi:include href="marc-03-03-06.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<xi:include href="marc-03-03-07.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<xi:include href="marc-03-03-08.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<xi:include href="marc-03-03-09.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<xi:include href="marc-03-03-10.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<xi:include href="marc-03-03-11.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<xi:include href="marc-03-03-12.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<xi:include href="marc-03-03-13.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<xi:include href="marc-03-03-14.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<xi:include href="marc-03-03-15.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+
+</section>
