@@ -16,15 +16,15 @@
 		<xsl:param name="file"/>
 		<xsl:param name="ids"/>
 		<xsl:choose>
-			<xsl:when test="contains($ids, ',')">
+			<xsl:when test="contains($ids, '_')">
 				<xsl:call-template name="do-copy-verse">
 					<xsl:with-param name="file" select="$file"/>
-					<xsl:with-param name="ids" select="substring-before($ids, ',')"/>
+					<xsl:with-param name="ids" select="substring-before($ids, '_')"/>
 				</xsl:call-template>
 				<xsl:element name="br"/>
 				<xsl:call-template name="do-copy-verse">
 					<xsl:with-param name="file" select="$file"/>
-					<xsl:with-param name="ids" select="substring-after($ids, ',')"/>
+					<xsl:with-param name="ids" select="substring-after($ids, '_')"/>
 				</xsl:call-template>
 			</xsl:when>
 			<xsl:otherwise>
