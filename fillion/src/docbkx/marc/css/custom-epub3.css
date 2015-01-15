@@ -22,3 +22,6 @@ div.titlepage .subtitle::before {
 .smallcaps {
 	font-variant: small-caps;
 }
+span.chapter {
+	font-variant: small-caps;
+}

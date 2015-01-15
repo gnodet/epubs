@@ -12,6 +12,11 @@
     <artifactId>fillion</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>fr.gnodet.epubs</groupId>
+            <artifactId>core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -22,29 +27,84 @@
         </resources>
         <plugins>
             <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.2.1</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <mainClass>fr.gnodet.epubs.fillion.Main</mainClass>
+                    <workingDirectory>${project.basedir}</workingDirectory>
+                    <systemProperties>
+                        <systemProperty>
+                            <key>basedir</key>
+                            <value>${project.basedir}</value>
+                        </systemProperty>
+                    </systemProperties>
+                </configuration>
+            </plugin>
+            <plugin>
                 <groupId>com.agilejava.docbkx</groupId>
                 <artifactId>docbkx-maven-plugin</artifactId>
                 <version>2.0.15</version>
-                <configuration>
-					<includes>marc/xml/marc.xml</includes>
-					<xincludeSupported>true</xincludeSupported>
-					<calloutUnicodeFont>Times</calloutUnicodeFont>
-					<chapterAutolabel>0</chapterAutolabel>
-					<sectionAutolabel>0</sectionAutolabel>
-					<chunkedOutput>true</chunkedOutput>
-					<epub3Customization>src/docbkx/marc/xsl/custom-epub3.xsl</epub3Customization>
-                    <htmlStylesheet>custom.css</htmlStylesheet>
-                    <preProcess>
-                        <copy tofile="${project.build.directory}/docbkx/epub3/marc/xml/custom.css" file="src/docbkx/marc/css/custom-epub3.css"></copy>
-                    </preProcess>
-                </configuration>
                 <executions>
+                    <!--
                     <execution>
+						<id>matthieu</id>
                         <goals>
                             <goal>generate-epub3</goal>
                         </goals>
-                        <phase>generate-sources</phase>
+                        <phase>package</phase>
+		                <configuration>
+							<xincludeSupported>true</xincludeSupported>
+							<calloutUnicodeFont>Times</calloutUnicodeFont>
+							<chapterAutolabel>0</chapterAutolabel>
+							<sectionAutolabel>0</sectionAutolabel>
+							<chunkedOutput>true</chunkedOutput>
+		                    <htmlStylesheet>custom.css</htmlStylesheet>
+							<includes>matthieu/xml/matthieu.xml</includes>
+							<epub3Customization>src/docbkx/matthieu/xsl/custom-epub3.xsl</epub3Customization>
+		                    <preProcess>
+		                        <copy tofile="${project.build.directory}/docbkx/epub3/matthieu/xml/custom.css" file="src/docbkx/matthieu/css/custom-epub3.css"></copy>
+		                    </preProcess>
+                            <postProcess>
+                                <copy tofile="${session.executionRootDirectory}/target/site/images/fillion-matthieu.png" file="${project.build.directory}/docbkx/epub3/matthieu/xml/cover.png"/>
+                                <copy tofile="${session.executionRootDirectory}/target/site/epub/fillion-matthieu.epub" file="${project.build.directory}/docbkx/epub3/matthieu/matthieu.epub"/>
+                            </postProcess>
+		                </configuration>
                     </execution>
+                    -->
+                    <execution>
+						<id>marc</id>
+                        <goals>
+                            <goal>generate-epub3</goal>
+                        </goals>
+                        <phase>package</phase>
+		                <configuration>
+							<xincludeSupported>true</xincludeSupported>
+							<calloutUnicodeFont>Times</calloutUnicodeFont>
+							<chapterAutolabel>0</chapterAutolabel>
+							<sectionAutolabel>0</sectionAutolabel>
+							<chunkedOutput>true</chunkedOutput>
+		                    <htmlStylesheet>custom.css</htmlStylesheet>
+							<includes>marc/xml/marc.xml</includes>
+							<epub3Customization>src/docbkx/marc/xsl/custom-epub3.xsl</epub3Customization>
+		                    <preProcess>
+		                        <copy tofile="${project.build.directory}/docbkx/epub3/marc/xml/custom.css" file="src/docbkx/marc/css/custom-epub3.css"></copy>
+		                    </preProcess>
+                            <postProcess>
+                                <copy tofile="${session.executionRootDirectory}/target/site/images/fillion-marc.png" file="${project.build.directory}/docbkx/epub3/marc/xml/cover.png"/>
+                                <copy tofile="${session.executionRootDirectory}/target/site/epub/fillion-marc.epub" file="${project.build.directory}/docbkx/epub3/marc/marc.epub"/>
+                            </postProcess>
+		                </configuration>
+                    </execution>
+
                 </executions>
                 <dependencies>
                     <dependency>

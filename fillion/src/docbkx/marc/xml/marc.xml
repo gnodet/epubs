@@ -4,8 +4,28 @@
 		<productnumber>
 			<?eval ${project.version}?>
 		</productnumber>
-		<title>ÉVANGILE SELON SAINT MARC</title>
+		<title>Évangile selon saint Marc</title>
+
+		<author>
+			<personname>
+				<firstname>Louis-Claude</firstname>
+				<surname>Fillion</surname>
+			</personname>
+		</author>
+
+		<mediaobject role="cover" xml:id="coverd">
+			<imageobject role="front-large" remap="lrg">
+				<imagedata format="PNG" fileref="cover.png"/>
+			</imageobject>
+		</mediaobject>
 	</info>
+
+	<acknowledgements>
+		<para>Introduction, critique et commentaires par M. l'abbé L.-Cl. FILLION</para>
+		<para>Numérisation par http://jesusmarie.free.fr</para>
+		<para>Conversion par Guillaume Nodet</para>
+	</acknowledgements>
+
 	<xi:include href="marc-00.xml">
 		<xi:fallback>
 			<para>
