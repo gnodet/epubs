@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xmlns="http://docbook.org/ns/docbook"
+	  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xmlns:xi="http://www.w3.org/2001/XInclude"
+	  xmlns:xlink="http://www.w3.org/1999/xlink"
+	  xml:id="matthieu" version="5.0"
+	  xml:lang="fr"
+	  xsi:schemaLocation="
+	  	http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/xsd/docbook.xsd
+	  	http://www.w3.org/1999/xlink http://www.docbook.org/xml/5.0/xsd/xlink.xsd ">
+	<info>
+		<productnumber>
+			<?eval ${project.version}?>
+		</productnumber>
+		<title>ÉVANGILE SELON SAINT MATTHIEU</title>
+
+		<author>
+			<personname>
+				<firstname>Louis-Claude</firstname>
+				<surname>Fillion</surname>
+			</personname>
+		</author>
+
+		<mediaobject role="cover" xml:id="coverd">
+			<imageobject role="front-large" remap="lrg">
+				<imagedata format="PNG" fileref="cover.png"/>
+			</imageobject>
+		</mediaobject>
+	</info>
+
+	<acknowledgements>
+		<para>Introduction, critique et commentaires par M. l'abbé L.-Cl. FILLION</para>
+		<para>Numérisation par http://jesusmarie.free.fr</para>
+		<para>Conversion par Guillaume Nodet</para>
+	</acknowledgements>
+
+	<xi:include href="matthieu-00.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<xi:include href="matthieu-01.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<!--
+	<xi:include href="matthieu-02.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<xi:include href="matthieu-03.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<xi:include href="matthieu-04.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<xi:include href="matthieu-05.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	-->
+</book>
