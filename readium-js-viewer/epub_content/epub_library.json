@@ -210,6 +210,13 @@
     "rootUrl": "../library/exh_2013-11-24_hf_francesco_evangelii-gaudium"
   },
   {
+    "title" : "",
+    "author" : "Louis-Claude Fillion",
+    "coverHref" : "../library/fillion-marc/OEBPS/img/cover.png",
+    "packagePath" : "../library/fillion-marc/content.opf",
+    "rootUrl": "../library/fillion-marc"
+  },
+  {
     "title" : "Précis d’histoire de la philosophie",
     "author" : "François-Joseph THONNARD",
     "coverHref" : "../library/precis_d_histoire_de_la_philosophie/OEBPS/img/cover.png",
