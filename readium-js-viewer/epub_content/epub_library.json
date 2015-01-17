@@ -212,16 +212,9 @@
   {
     "title" : "",
     "author" : "Louis-Claude Fillion",
-    "coverHref" : "../library/fillion-marc/OEBPS/img/cover.png",
+    "coverHref" : "../library/fillion-marc/cover.png",
     "packagePath" : "../library/fillion-marc/content.opf",
     "rootUrl": "../library/fillion-marc"
-  },
-  {
-    "title" : "",
-    "author" : "Louis-Claude Fillion",
-    "coverHref" : "../library/fillion-matthieu/OEBPS/img/cover.png",
-    "packagePath" : "../library/fillion-matthieu/content.opf",
-    "rootUrl": "../library/fillion-matthieu"
   },
   {
     "title" : "Précis d’histoire de la philosophie",
