@@ -1,0 +1,27 @@
+h1, h2, h3, h4, h5, h6, h7, h8, h9 {
+	margin: 0px;
+	display: inline;
+}
+
+div.titlepage {
+	margin: 0.83em 0px;
+}
+
+div.titlepage div {
+	display: inline;
+}
+
+div.titlepage .subtitle {
+	margin: 0 0 0 1em;
+}
+
+div.titlepage .subtitle::before {
+	content: " — ";
+}
+
+.smallcaps {
+	font-variant: small-caps;
+}
+span.chapter {
+	font-variant: small-caps;
+}
