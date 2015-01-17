@@ -217,6 +217,13 @@
     "rootUrl": "../library/fillion-marc"
   },
   {
+    "title" : "",
+    "author" : "Louis-Claude Fillion",
+    "coverHref" : "../library/fillion-matthieu/OEBPS/img/cover.png",
+    "packagePath" : "../library/fillion-matthieu/content.opf",
+    "rootUrl": "../library/fillion-matthieu"
+  },
+  {
     "title" : "Précis d’histoire de la philosophie",
     "author" : "François-Joseph THONNARD",
     "coverHref" : "../library/precis_d_histoire_de_la_philosophie/OEBPS/img/cover.png",
