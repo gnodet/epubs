@@ -11,7 +11,7 @@
       <meta property="dcterms:title" id="meta-title">Évangile selon saint Marc</meta>
       <dc:language id="pub-language">fr</dc:language>
       <meta property="dcterms:language" id="meta-language">fr</meta>
-      <meta property="dcterms:modified">2015-01-16T20:22:57Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
+      <meta property="dcterms:modified">2015-01-17T14:59:51Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
       <meta content="cover-image" name="cover"/>
       <meta id="meta-creator3" property="dcterms:creator">Louis-Claude Fillion</meta>
       <dc:creator id="pub-creator3">Louis-Claude Fillion</dc:creator>
@@ -40,9 +40,9 @@
       <item id="id-d0e7591" href="ch02s03.xhtml" media-type="application/xhtml+xml"/>
       <item id="id-d0e8547" href="ch03.xhtml" media-type="application/xhtml+xml"/>
       <item id="id-d0e8769" href="ch03s02.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d0e10311" href="ch03s03.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d0e12147" href="ch04.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d0e12482" href="ch04s02.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e10372" href="ch03s03.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e12208" href="ch04.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e12543" href="ch04s02.xhtml" media-type="application/xhtml+xml"/>
    </manifest>
    <spine toc="ncx">
       <itemref idref="cover" linear="no"/>
@@ -64,9 +64,9 @@
       <itemref idref="id-d0e7591"/>
       <itemref idref="id-d0e8547"/>
       <itemref idref="id-d0e8769"/>
-      <itemref idref="id-d0e10311"/>
-      <itemref idref="id-d0e12147"/>
-      <itemref idref="id-d0e12482"/>
+      <itemref idref="id-d0e10372"/>
+      <itemref idref="id-d0e12208"/>
+      <itemref idref="id-d0e12543"/>
    </spine>
    <guide>
       <reference href="cover.xhtml" type="cover" title="Cover"/>
