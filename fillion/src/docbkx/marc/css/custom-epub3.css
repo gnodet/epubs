@@ -25,3 +25,11 @@ div.titlepage .subtitle::before {
 span.chapter {
 	font-variant: small-caps;
 }
+
+body {
+	text-align: justify;
+}
+
+.surname {
+	font-variant: small-caps;
+}
