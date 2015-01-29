@@ -47,6 +47,7 @@
 			</para>
 		</xi:fallback>
 	</xi:include>
+	<!--
 	<xi:include href="marc-03.xml">
 		<xi:fallback>
 			<para>
@@ -61,4 +62,5 @@
 			</para>
 		</xi:fallback>
 	</xi:include>
+		-->
 </book>
