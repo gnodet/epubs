@@ -143,8 +143,8 @@
 							<doubleSided>1</doubleSided>
 							<headerColumnWidths>0 1 0</headerColumnWidths>
 							<paperType>A5</paperType>
-							<bodyFontFamily>Palatino</bodyFontFamily>
-							<titleFontFamily>Palatino</titleFontFamily>
+							<bodyFontFamily>Charis</bodyFontFamily>
+							<titleFontFamily>Charis</titleFontFamily>
 							<!--bodyFontFamily>New Athena Unicode,Liturgy,MPH 2B Damase</bodyFontFamily-->
 							<sourceDirectory>${project.build.directory}/generated-resources/xml/nover</sourceDirectory>
 							<foCustomization>src/docbkx/marc/xsl/custom-fo.xsl</foCustomization>
@@ -152,9 +152,8 @@
 							<preProcess>
 								<copy tofile="${project.build.directory}/generated-resources/xml/nover/marc.xml" file="${project.build.directory}/generated-resources/xml/xslt/marc.xml"/>
 								<replace file="${project.build.directory}/generated-resources/xml/nover/marc.xml"
-										 token="℣"
-										 value="&lt;phrase role=&quot;liturgy&quot;&gt;V&lt;/phrase&gt;" />
-
+										 token="&lt;footnote>&lt;para>"
+										 value="&lt;footnote>&lt;para> " />
 							</preProcess>
 						</configuration>
 					</execution>

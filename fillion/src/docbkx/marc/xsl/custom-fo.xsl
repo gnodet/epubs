@@ -20,6 +20,11 @@
 			<xsl:apply-templates />
 		</fo:inline>
 	</xsl:template>
+	<xsl:template match="db:phrase[@*[local-name() = 'role' and .='chapter']]">
+		<fo:inline font-variant="small-caps">
+			<xsl:apply-templates />
+		</fo:inline>
+	</xsl:template>
 	<xsl:template match="db:phrase[@*[local-name() = 'role' and .='liturgy']]">
 		<fo:inline font-family="liturgy">
 			<xsl:apply-templates />
@@ -32,29 +37,29 @@
 		</fo:inline>
 	</xsl:template>
 	
+	<xsl:template match="db:phrase[@*[local-name() = 'href']]">
+		<xsl:apply-templates />
+	</xsl:template>
 	<xsl:template match="db:citetitle[@*[local-name() = 'href']]">
 		<fo:inline font-style="italic">
 			<xsl:apply-templates />
 		</fo:inline>
 	</xsl:template>
-	<xsl:template match="db:phrase[@*[local-name() = 'href']]">
-		<xsl:apply-templates select="*"/>
-	</xsl:template>
 
-	<xsl:template match="db:para[@*[local-name()='role' and (.='verse')]]">
-		<fo:block font-family="New Athena Unicode">
+	<xsl:template match="db:para[@*[local-name()='role' and (.='verse')] and @*[local-name()='lang' and (.='el')]]">
+		<fo:block font-family="Galatia">
 			<xsl:apply-templates />
 		</fo:block>
 	</xsl:template>
 	<xsl:template match="db:phrase[@*[local-name()='lang' and (.='el')]]">
-		<fo:inline font-family="New Athena Unicode">
+		<fo:inline font-family="Galatia">
 			<xsl:apply-templates />
 		</fo:inline>
 	</xsl:template>
 	<xsl:template match="db:phrase[@*[local-name()='lang' and (.='he')]]">
-		<fo:inline font-family="Ezra SIL">
+		<fo:inline font-family="Ezra">
 			<xsl:apply-templates />
 		</fo:inline>
 	</xsl:template>
-	
+
 </xsl:stylesheet>
