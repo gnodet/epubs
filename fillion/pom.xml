@@ -114,10 +114,10 @@
 							<sourceDirectory>${project.build.directory}/generated-resources/xml/xslt</sourceDirectory>
 							<epub3Customization>src/docbkx/marc/xsl/custom-epub3.xsl</epub3Customization>
 							<preProcess>
-								<copy tofile="${project.build.directory}/docbkx/epub3/marc/xml/custom.css" file="src/docbkx/marc/css/custom-epub3.css"/>
+								<copy tofile="${project.build.directory}/docbkx/epub3/custom.css" file="src/docbkx/marc/css/custom-epub3.css"/>
 							</preProcess>
 							<postProcess>
-								<copy tofile="${session.executionRootDirectory}/target/site/images/fillion-marc.png" file="${project.build.directory}/docbkx/epub3/marc/xml/cover.png"/>
+								<copy tofile="${session.executionRootDirectory}/target/site/images/fillion-marc.png" file="${project.build.directory}/docbkx/epub3/cover.png"/>
 								<copy tofile="${session.executionRootDirectory}/target/site/epub/fillion-marc.epub" file="${project.build.directory}/docbkx/marc.epub"/>
 							</postProcess>
 						</configuration>
