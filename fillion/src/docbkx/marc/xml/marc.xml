@@ -5,6 +5,7 @@
 			<?eval ${project.version}?>
 		</productnumber>
 		<title>Évangile selon saint Marc</title>
+		<subtitle>Introduction critique et commantaires</subtitle>
 
 		<author>
 			<personname>
@@ -47,7 +48,6 @@
 			</para>
 		</xi:fallback>
 	</xi:include>
-	<!--
 	<xi:include href="marc-03.xml">
 		<xi:fallback>
 			<para>
@@ -62,5 +62,5 @@
 			</para>
 		</xi:fallback>
 	</xi:include>
-		-->
+
 </book>

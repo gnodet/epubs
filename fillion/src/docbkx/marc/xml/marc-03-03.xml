@@ -4,7 +4,7 @@
 	<title>III. « Christus patiens ».</title>
 	<subtitle><bible>Mc 14–15</bible>.</subtitle>
 
-	<para>« Nunc aspergamus librum nostrum de sanguine, et limina domorum, et funem coccineum circumdemus domui orationis nostræ, et coccum in manu nostra… De Christi enim occisione narrat Evangelista ». Pseudo-Hieron. ap. Caten. saint Thom. h l.</para>
+	<para><blockquote><para xml:lang="la">Nunc aspergamus librum nostrum de sanguine, et limina domorum, et funem coccineum circumdemus domui orationis nostræ, et coccum in manu nostra… De Christi enim occisione narrat Evangelista.</para><attribution>Pseudo-Hieron. ap. Caten. saint Thom. h l.</attribution></blockquote></para>
 
 	<xi:include href="marc-03-03-01.xml">
 		<xi:fallback>
