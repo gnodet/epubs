@@ -1,12 +1,5 @@
 [
   {
-    "title" : "Bible de la Liturgique Catholique",
-    "author" : "AELF",
-    "coverHref" : "../library/bible_liturgie_catholique/OEBPS/img/cover.png",
-    "packagePath" : "../library/bible_liturgie_catholique/content.opf",
-    "rootUrl": "../library/bible_liturgie_catholique"
-  },
-  {
     "title" : "Catéchisme de l'Église Catholique",
     "author" : "Église Catholique",
     "coverHref" : "../library/catechisme_de_l_eglise_catholique/OEBPS/img/cover.png",
