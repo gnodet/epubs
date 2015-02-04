@@ -42,23 +42,18 @@
 	</xsl:template>
 	
 	<xsl:template match="db:phrase[@*[local-name() = 'role' and .='smallcaps']]">
-		<fo:inline font-variant="small-caps">
+		<fo:inline font-family="CharisSC">
 			<xsl:apply-templates />
 		</fo:inline>
 	</xsl:template>
 	<xsl:template match="db:phrase[@*[local-name() = 'role' and .='chapter']]">
-		<fo:inline font-variant="small-caps">
+		<fo:inline font-family="CharisSC">
 			<xsl:apply-templates />
 		</fo:inline>
 	</xsl:template>
-	<xsl:template match="db:phrase[@*[local-name() = 'role' and .='liturgy']]">
-		<fo:inline font-family="liturgy">
-			<xsl:apply-templates />
-		</fo:inline>
-	</xsl:template>
-	
+
 	<xsl:template match="db:surname">
-		<fo:inline font-variant="small-caps">
+		<fo:inline font-family="CharisSC">
 			<xsl:apply-templates />
 		</fo:inline>
 	</xsl:template>

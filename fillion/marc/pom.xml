@@ -78,7 +78,7 @@
 							<goal>generate</goal>
 						</goals>
 						<configuration>
-							<ansi>true</ansi>
+							<ansi>false</ansi>
 						</configuration>
 					</execution>
 				</executions>
@@ -183,6 +183,20 @@
 									<metricsFile>${basedir}/target/fonts/CharisSIL-BI-metrics.xml</metricsFile>
 								</font>
 								<font>
+									<name>CharisSC</name>
+									<style>normal</style>
+									<weight>normal</weight>
+									<embedFile>${basedir}/src/fonts/CharisSIL-SC-R.ttf</embedFile>
+									<metricsFile>${basedir}/target/fonts/CharisSIL-SC-R-metrics.xml</metricsFile>
+								</font>
+								<font>
+									<name>CharisSC</name>
+									<style>normal</style>
+									<weight>bold</weight>
+									<embedFile>${basedir}/src/fonts/CharisSIL-SC-B.ttf</embedFile>
+									<metricsFile>${basedir}/target/fonts/CharisSIL-SC-B-metrics.xml</metricsFile>
+								</font>
+								<font>
 									<name>GalatiaSIL</name>
 									<style>normal</style>
 									<weight>normal</weight>
@@ -212,11 +226,16 @@
 								</font>
 							</fonts>
 							<preProcess>
-								<copy tofile="${project.build.directory}/generated-resources/xml/nover/marc.xml" file="${project.build.directory}/generated-resources/xml/xslt/marc.xml"/>
+								<copy tofile="${project.build.directory}/generated-resources/xml/nover/marc.xml"
+									  file="${project.build.directory}/generated-resources/xml/xslt/marc.xml"/>
 								<replace file="${project.build.directory}/generated-resources/xml/nover/marc.xml"
 										 token="&lt;footnote>&lt;para>"
 										 value="&lt;footnote>&lt;para> " />
 							</preProcess>
+							<postProcess>
+								<move todir="${project.build.directory}/docbkx"
+									file="${project.build.directory}/docbkx/pdf/marc.pdf" />
+							</postProcess>
 						</configuration>
 					</execution>
 				</executions>
