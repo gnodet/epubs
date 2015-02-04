@@ -22,9 +22,31 @@
 	</info>
 
 	<acknowledgements>
-		<para>Introduction, critique et commentaires par M. l'abbé L.-Cl. FILLION</para>
-		<para>Numérisation par http://jesusmarie.free.fr</para>
-		<para>Conversion par Guillaume Nodet</para>
+		<blockquote>
+			<para><emphasis><emphasis role="bold">Il faut que l'accès à la Sainte Écriture soit largement ouvert aux fidèles du Christ.</emphasis></emphasis></para>
+			<para/>
+			<attribution>Concile Vatican II, constitution dogmatique Dei Verbum, N°22.</attribution>
+		</blockquote>
+		<section>
+			<title>Notes</title>
+			<para>
+				Ce livre est une réédition des commentaires de l'abbé Louis-Claude 
+				<surname>Fillion</surname> dans le volume 18 de <citetitle>La Saint 
+				Bible</citetitle>, publiée aux éditions Lethellieux, Paris, 1893. 
+				La numérisation de cet ouvrage a été effectuée par 
+				http://jesusmarie.free.fr, et la conversion au format numérique 
+				par Guillaume <surname>Nodet</surname>.
+			</para>
+		</section>
+		<section>
+			<title>Imprimatur</title>
+			<para>
+				J. Hipp. Card. Guibert, archiepiscopus Parisensis.
+			</para>
+			<para>
+				Parisiis, die 23 julii 1879.
+			</para>
+		</section>
 	</acknowledgements>
 
 	<xi:include href="marc-00.xml">

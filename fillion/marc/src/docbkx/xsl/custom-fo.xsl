@@ -21,7 +21,7 @@
 	      <fo:table-body>
 	        <fo:table-row>
 	          <fo:table-cell display-align="center" height="{$title.height}">
-  	            <fo:block text-align="center">
+  	            <fo:block text-align="center" space-before.minimum="48pt">
   			        <xsl:apply-templates mode="book.titlepage.recto.auto.mode" select="db:info/db:title"/>
   	            </fo:block>
 	            <fo:block text-align="center" space-before.minimum="48pt">
@@ -35,6 +35,17 @@
 	      </fo:table-body> 
 	    </fo:table>
 	  </fo:block>
+	</xsl:template>
+	
+	<xsl:template match="db:subtitle" mode="article.titlepage.recto.auto.mode">
+		<fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format" >
+			<xsl:apply-templates select="." mode="article.titlepage.recto.mode"/>
+		</fo:block>
+	</xsl:template>
+	
+	<xsl:template name="book.titlepage.verso"/>
+	
+	<xsl:template name="acknowledgements.titlepage.recto">
 	</xsl:template>
 	
 	<xsl:template match="processing-instruction('linebreak')">
