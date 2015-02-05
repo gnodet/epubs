@@ -5,7 +5,7 @@
 			<?eval ${project.version}?>
 		</productnumber>
 		<title>Évangile selon saint Marc</title>
-		<subtitle>Introduction critique et commantaires</subtitle>
+		<subtitle>Introduction critique et commentaires</subtitle>
 
 		<author>
 			<personname>
@@ -34,7 +34,7 @@
 				<surname>Fillion</surname> dans le volume 18 de <citetitle>La Saint 
 				Bible</citetitle>, publiée aux éditions Lethellieux, Paris, 1893. 
 				La numérisation de cet ouvrage a été effectuée par 
-				http://jesusmarie.free.fr, et la conversion au format numérique 
+				http://jesusmarie.com, et la conversion au format numérique 
 				par Guillaume <surname>Nodet</surname>.
 			</para>
 		</section>
