@@ -10,5 +10,6 @@
 	<artifactId>fillion</artifactId>
 	<modules>
 		<module>marc</module>
+		<module>bible</module>
 	</modules>
 </project>
