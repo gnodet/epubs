@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta content="1" name="dtb:depth"/>
+  </head>
+  <docTitle>
+    <text>Bible</text>
+  </docTitle>
+  <navMap>
+<navPoint id="id-0" playOrder="0">
+<navLabel><text>Table des matières</text></navLabel>
+<content src="OEBPS/index.html"/>
+</navPoint>
+<navPoint id="id-1" playOrder="0">
+<navLabel><text>Ancien testament</text></navLabel>
+<content src="OEBPS/index.html"/>
+<navPoint id="id-2" playOrder="1">
+<navLabel><text>Le livre de la Genèse</text></navLabel>
+<content src="OEBPS/at01_gen.html"/>
+</navPoint>
+<navPoint id="id-3" playOrder="2">
+<navLabel><text>Le livre de l’Exode</text></navLabel>
+<content src="OEBPS/at02_ex.html"/>
+</navPoint>
+<navPoint id="id-4" playOrder="3">
+<navLabel><text>Le Lévitique</text></navLabel>
+<content src="OEBPS/at03_lev.html"/>
+</navPoint>
+<navPoint id="id-5" playOrder="4">
+<navLabel><text>Les Nombres</text></navLabel>
+<content src="OEBPS/at04_nomb.html"/>
+</navPoint>
+<navPoint id="id-6" playOrder="5">
+<navLabel><text>Le Deutéronome</text></navLabel>
+<content src="OEBPS/at05_deut.html"/>
+</navPoint>
+<navPoint id="id-7" playOrder="6">
+<navLabel><text>Le livre de Josué</text></navLabel>
+<content src="OEBPS/at06_jos.html"/>
+</navPoint>
+<navPoint id="id-8" playOrder="7">
+<navLabel><text>Le livre des juges</text></navLabel>
+<content src="OEBPS/at07_jug.html"/>
+</navPoint>
+<navPoint id="id-9" playOrder="8">
+<navLabel><text>Le livre de Ruth</text></navLabel>
+<content src="OEBPS/at08_ruth.html"/>
+</navPoint>
+<navPoint id="id-10" playOrder="9">
+<navLabel><text>Premier livre de Samuel</text></navLabel>
+<content src="OEBPS/at09_1sam.html"/>
+</navPoint>
+<navPoint id="id-11" playOrder="10">
+<navLabel><text>Deuxième livre de Samuel</text></navLabel>
+<content src="OEBPS/at10_2sam.html"/>
+</navPoint>
+<navPoint id="id-12" playOrder="11">
+<navLabel><text>Premier livre des Rois</text></navLabel>
+<content src="OEBPS/at11_1rois.html"/>
+</navPoint>
+<navPoint id="id-13" playOrder="12">
+<navLabel><text>Deuxième livre des Rois</text></navLabel>
+<content src="OEBPS/at12_2rois.html"/>
+</navPoint>
+<navPoint id="id-14" playOrder="13">
+<navLabel><text>Premier livre des Chroniques</text></navLabel>
+<content src="OEBPS/at13_1chr.html"/>
+</navPoint>
+<navPoint id="id-15" playOrder="14">
+<navLabel><text>Second livre des Chroniques</text></navLabel>
+<content src="OEBPS/at14_2chr.html"/>
+</navPoint>
+<navPoint id="id-16" playOrder="15">
+<navLabel><text>Le livre d’Esdras</text></navLabel>
+<content src="OEBPS/at15_esd.html"/>
+</navPoint>
+<navPoint id="id-17" playOrder="16">
+<navLabel><text>Le livre de Néhémie</text></navLabel>
+<content src="OEBPS/at16_neh.html"/>
+</navPoint>
+<navPoint id="id-18" playOrder="17">
+<navLabel><text>Le livre de Tobie</text></navLabel>
+<content src="OEBPS/at17_tob.html"/>
+</navPoint>
+<navPoint id="id-19" playOrder="18">
+<navLabel><text>Le livre de Judith</text></navLabel>
+<content src="OEBPS/at18_jdt.html"/>
+</navPoint>
+<navPoint id="id-20" playOrder="19">
+<navLabel><text>Le livre d’Esther</text></navLabel>
+<content src="OEBPS/at19_est.html"/>
+</navPoint>
+<navPoint id="id-21" playOrder="20">
+<navLabel><text>Premier livre des Macchabées</text></navLabel>
+<content src="OEBPS/at20_1mac.html"/>
+</navPoint>
+<navPoint id="id-22" playOrder="21">
+<navLabel><text>Second livre des Machabées</text></navLabel>
+<content src="OEBPS/at21_2mac.html"/>
+</navPoint>
+<navPoint id="id-23" playOrder="22">
+<navLabel><text>Le livre de Job</text></navLabel>
+<content src="OEBPS/at22_job.html"/>
+</navPoint>
+<navPoint id="id-24" playOrder="23">
+<navLabel><text>Le livre des Psaumes</text></navLabel>
+<content src="OEBPS/at23_ps.html"/>
+</navPoint>
+<navPoint id="id-25" playOrder="24">
+<navLabel><text>Le livre des Proverbes</text></navLabel>
+<content src="OEBPS/at24_prov.html"/>
+</navPoint>
+<navPoint id="id-26" playOrder="25">
+<navLabel><text>Le livre de l’Ecclésiaste</text></navLabel>
+<content src="OEBPS/at25_eccl.html"/>
+</navPoint>
+<navPoint id="id-27" playOrder="26">
+<navLabel><text>Le Cantique des cantiques</text></navLabel>
+<content src="OEBPS/at26_cant.html"/>
+</navPoint>
+<navPoint id="id-28" playOrder="27">
+<navLabel><text>Le livre de la Sagesse</text></navLabel>
+<content src="OEBPS/at27_sag.html"/>
+</navPoint>
+<navPoint id="id-29" playOrder="28">
+<navLabel><text>Le livre de l’Ecclésiastique</text></navLabel>
+<content src="OEBPS/at28_eccli.html"/>
+</navPoint>
+<navPoint id="id-30" playOrder="29">
+<navLabel><text>Le livre d’Isaïe</text></navLabel>
+<content src="OEBPS/at29_is.html"/>
+</navPoint>
+<navPoint id="id-31" playOrder="30">
+<navLabel><text>La prophétie de Jérémie</text></navLabel>
+<content src="OEBPS/at30_jer.html"/>
+</navPoint>
+<navPoint id="id-32" playOrder="31">
+<navLabel><text>Le livre des Thrènes ou Lamentations</text></navLabel>
+<content src="OEBPS/at31_lam.html"/>
+</navPoint>
+<navPoint id="id-33" playOrder="32">
+<navLabel><text>La prophétie de Baruch</text></navLabel>
+<content src="OEBPS/at32_bar.html"/>
+</navPoint>
+<navPoint id="id-34" playOrder="33">
+<navLabel><text>La prophétie d’Ézéchiel</text></navLabel>
+<content src="OEBPS/at33_ez.html"/>
+</navPoint>
+<navPoint id="id-35" playOrder="34">
+<navLabel><text>Le livre de Daniel</text></navLabel>
+<content src="OEBPS/at34_dan.html"/>
+</navPoint>
+<navPoint id="id-36" playOrder="35">
+<navLabel><text>La prophétie d’Osée</text></navLabel>
+<content src="OEBPS/at35_os.html"/>
+</navPoint>
+<navPoint id="id-37" playOrder="36">
+<navLabel><text>La prophétie de Joël</text></navLabel>
+<content src="OEBPS/at36_joel.html"/>
+</navPoint>
+<navPoint id="id-38" playOrder="37">
+<navLabel><text>La prophétie d’Amos</text></navLabel>
+<content src="OEBPS/at37_am.html"/>
+</navPoint>
+<navPoint id="id-39" playOrder="38">
+<navLabel><text>Le livre d’Abdias</text></navLabel>
+<content src="OEBPS/at38_ab.html"/>
+</navPoint>
+<navPoint id="id-40" playOrder="39">
+<navLabel><text>Le livre de Jonas</text></navLabel>
+<content src="OEBPS/at39_jon.html"/>
+</navPoint>
+<navPoint id="id-41" playOrder="40">
+<navLabel><text>La prophétie de Michée</text></navLabel>
+<content src="OEBPS/at40_mich.html"/>
+</navPoint>
+<navPoint id="id-42" playOrder="41">
+<navLabel><text>La prophétie de Nahoum</text></navLabel>
+<content src="OEBPS/at41_nah.html"/>
+</navPoint>
+<navPoint id="id-43" playOrder="42">
+<navLabel><text>La prophétie d’Habacuc</text></navLabel>
+<content src="OEBPS/at42_hab.html"/>
+</navPoint>
+<navPoint id="id-44" playOrder="43">
+<navLabel><text>Le livre de Sophonie</text></navLabel>
+<content src="OEBPS/at43_soph.html"/>
+</navPoint>
+<navPoint id="id-45" playOrder="44">
+<navLabel><text>Le livre d’Aggée</text></navLabel>
+<content src="OEBPS/at44_ag.html"/>
+</navPoint>
+<navPoint id="id-46" playOrder="45">
+<navLabel><text>Le livre de Zacharie</text></navLabel>
+<content src="OEBPS/at45_zac.html"/>
+</navPoint>
+<navPoint id="id-47" playOrder="46">
+<navLabel><text>Le livre de Malachie</text></navLabel>
+<content src="OEBPS/at46_mal.html"/>
+</navPoint>
+</navPoint>
+<navPoint id="id-48" playOrder="46">
+<navLabel><text>Nouveau testament</text></navLabel>
+<content src="OEBPS/at46_mal.html"/>
+<navPoint id="id-49" playOrder="47">
+<navLabel><text>Évangile selon saint Matthieu</text></navLabel>
+<content src="OEBPS/nt01_mt.html"/>
+</navPoint>
+<navPoint id="id-50" playOrder="48">
+<navLabel><text>Évangile selon saint Marc</text></navLabel>
+<content src="OEBPS/nt02_mc.html"/>
+</navPoint>
+<navPoint id="id-51" playOrder="49">
+<navLabel><text>Évangile selon saint Luc</text></navLabel>
+<content src="OEBPS/nt03_lc.html"/>
+</navPoint>
+<navPoint id="id-52" playOrder="50">
+<navLabel><text>Évangile selon saint Jean</text></navLabel>
+<content src="OEBPS/nt04_jn.html"/>
+</navPoint>
+<navPoint id="id-53" playOrder="51">
+<navLabel><text>Actes des Apôtres</text></navLabel>
+<content src="OEBPS/nt05_act.html"/>
+</navPoint>
+<navPoint id="id-54" playOrder="52">
+<navLabel><text>Épitre de saint Paul aux Romains</text></navLabel>
+<content src="OEBPS/nt06_rom.html"/>
+</navPoint>
+<navPoint id="id-55" playOrder="53">
+<navLabel><text>Première épitre de saint Paul aux Corinthiens</text></navLabel>
+<content src="OEBPS/nt07_1cor.html"/>
+</navPoint>
+<navPoint id="id-56" playOrder="54">
+<navLabel><text>Deuxième épitre de saint Paul aux Corinthiens</text></navLabel>
+<content src="OEBPS/nt08_2cor.html"/>
+</navPoint>
+<navPoint id="id-57" playOrder="55">
+<navLabel><text>Épitre de saint Paul aux Galates</text></navLabel>
+<content src="OEBPS/nt09_gal.html"/>
+</navPoint>
+<navPoint id="id-58" playOrder="56">
+<navLabel><text>Épitre de saint Paul aux Éphésiens</text></navLabel>
+<content src="OEBPS/nt10_eph.html"/>
+</navPoint>
+<navPoint id="id-59" playOrder="57">
+<navLabel><text>Épitre de saint Paul aux Philippiens</text></navLabel>
+<content src="OEBPS/nt11_phil.html"/>
+</navPoint>
+<navPoint id="id-60" playOrder="58">
+<navLabel><text>Épitre de saint Paul aux Colossiens</text></navLabel>
+<content src="OEBPS/nt12_col.html"/>
+</navPoint>
+<navPoint id="id-61" playOrder="59">
+<navLabel><text>Première épitre de saint Paul aux Thessaloniciens</text></navLabel>
+<content src="OEBPS/nt13_1thes.html"/>
+</navPoint>
+<navPoint id="id-62" playOrder="60">
+<navLabel><text>Deuxième épitre de saint Paul aux Thessaloniciens</text></navLabel>
+<content src="OEBPS/nt14_2thes.html"/>
+</navPoint>
+<navPoint id="id-63" playOrder="61">
+<navLabel><text>Première épitre de saint Paul à Timothée</text></navLabel>
+<content src="OEBPS/nt15_1tim.html"/>
+</navPoint>
+<navPoint id="id-64" playOrder="62">
+<navLabel><text>Deuxième épitre de saint Paul à Timothée</text></navLabel>
+<content src="OEBPS/nt16_2tim.html"/>
+</navPoint>
+<navPoint id="id-65" playOrder="63">
+<navLabel><text>Épitre de saint Paul à Tite</text></navLabel>
+<content src="OEBPS/nt17_tit.html"/>
+</navPoint>
+<navPoint id="id-66" playOrder="64">
+<navLabel><text>Épitre de saint Paul à Philémon</text></navLabel>
+<content src="OEBPS/nt18_philem.html"/>
+</navPoint>
+<navPoint id="id-67" playOrder="65">
+<navLabel><text>Épitre de saint Paul aux Hébreux</text></navLabel>
+<content src="OEBPS/nt19_hebr.html"/>
+</navPoint>
+<navPoint id="id-68" playOrder="66">
+<navLabel><text>Épitre de saint Jacques</text></navLabel>
+<content src="OEBPS/nt20_jac.html"/>
+</navPoint>
+<navPoint id="id-69" playOrder="67">
+<navLabel><text>Première épitre de saint Pierre</text></navLabel>
+<content src="OEBPS/nt21_1pet.html"/>
+</navPoint>
+<navPoint id="id-70" playOrder="68">
+<navLabel><text>Deuxième épitre de saint Pierre</text></navLabel>
+<content src="OEBPS/nt22_2pet.html"/>
+</navPoint>
+<navPoint id="id-71" playOrder="69">
+<navLabel><text>Première épitre de saint Jean</text></navLabel>
+<content src="OEBPS/nt23_1jn.html"/>
+</navPoint>
+<navPoint id="id-72" playOrder="70">
+<navLabel><text>Deuxième épitre de saint Jean</text></navLabel>
+<content src="OEBPS/nt24_2jn.html"/>
+</navPoint>
+<navPoint id="id-73" playOrder="71">
+<navLabel><text>Troisième épitre de saint Jean</text></navLabel>
+<content src="OEBPS/nt25_3jn.html"/>
+</navPoint>
+<navPoint id="id-74" playOrder="72">
+<navLabel><text>Épitre de saint Jude</text></navLabel>
+<content src="OEBPS/nt26_jud.html"/>
+</navPoint>
+<navPoint id="id-75" playOrder="73">
+<navLabel><text>Apocalypse de saint Jean</text></navLabel>
+<content src="OEBPS/nt27_apoc.html"/>
+</navPoint>
+</navPoint>
+  </navMap>
+</ncx>

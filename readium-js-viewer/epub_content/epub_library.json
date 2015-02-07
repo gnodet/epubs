@@ -1,5 +1,19 @@
 [
   {
+    "title" : "Évangile selon saint Marc",
+    "author" : "Fillion",
+    "coverHref" : "../library/fillion-marc/OEBPS/cover.png",
+    "packagePath" : "../library/fillion-marc/content.opf",
+    "rootUrl": "../library/fillion-marc"
+  },
+  {
+    "title" : "Bible Catholique",
+    "author" : "Fillion",
+    "coverHref" : "../library/fillion-bible/OEBPS/img/cover.png",
+    "packagePath" : "../library/fillion-bible/content.opf",
+    "rootUrl": "../library/fillion-bible"
+  },
+  {
     "title" : "Catéchisme de l'Église Catholique",
     "author" : "Église Catholique",
     "coverHref" : "../library/catechisme_de_l_eglise_catholique/OEBPS/img/cover.png",

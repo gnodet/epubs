@@ -11,10 +11,10 @@
       <meta property="dcterms:title" id="meta-title">Évangile selon saint Marc</meta>
       <dc:language id="pub-language">fr</dc:language>
       <meta property="dcterms:language" id="meta-language">fr</meta>
-      <meta property="dcterms:modified">2015-01-17T14:59:51Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
+      <meta property="dcterms:modified">2015-02-05T20:25:22Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
       <meta content="cover-image" name="cover"/>
-      <meta id="meta-creator3" property="dcterms:creator">Louis-Claude Fillion</meta>
-      <dc:creator id="pub-creator3">Louis-Claude Fillion</dc:creator>
+      <meta id="meta-creator4" property="dcterms:creator">Louis-Claude Fillion</meta>
+      <dc:creator id="pub-creator4">Louis-Claude Fillion</dc:creator>
    </metadata>
    <manifest>
       <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
@@ -24,49 +24,49 @@
       <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
       <item id="cover-image" properties="cover-image" href="cover.png" media-type="image/png"/>
       <item id="id-d0e1" href="marc.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d0e30" href="pr01.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d0e454" href="pr01s02.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d0e615" href="pr01s03.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d0e752" href="pr01s04.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d0e1116" href="pr01s05.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d0e1164" href="pr01s06.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d0e1248" href="pr01s07.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d0e1315" href="pr01s08.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d0e1337" href="pr01s09.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d0e1381" href="ch01.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d0e1742" href="ch01s02.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d0e1957" href="ch02.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d0e5675" href="ch02s02.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d0e7591" href="ch02s03.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d0e8547" href="ch03.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d0e8769" href="ch03s02.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d0e10372" href="ch03s03.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d0e12208" href="ch04.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d0e12543" href="ch04s02.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e55" href="pr01.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e524" href="pr01s02.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e892" href="pr01s03.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e1122" href="pr01s04.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e1631" href="pr01s05.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e1728" href="pr01s06.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e1899" href="pr01s07.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e2246" href="pr01s08.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e2287" href="pr01s09.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e2360" href="ch01.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e2952" href="ch01s02.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e3358" href="ch02.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e14244" href="ch02s02.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e18655" href="ch02s03.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e20741" href="ch03.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e21292" href="ch03s02.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e25421" href="ch03s03.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e30738" href="ch04.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e31578" href="ch04s02.xhtml" media-type="application/xhtml+xml"/>
    </manifest>
    <spine toc="ncx">
       <itemref idref="cover" linear="no"/>
       <itemref idref="htmltoc" linear="yes"/>
       <itemref idref="id-d0e1"/>
-      <itemref idref="id-d0e30"/>
-      <itemref idref="id-d0e454"/>
-      <itemref idref="id-d0e615"/>
-      <itemref idref="id-d0e752"/>
-      <itemref idref="id-d0e1116"/>
-      <itemref idref="id-d0e1164"/>
-      <itemref idref="id-d0e1248"/>
-      <itemref idref="id-d0e1315"/>
-      <itemref idref="id-d0e1337"/>
-      <itemref idref="id-d0e1381"/>
-      <itemref idref="id-d0e1742"/>
-      <itemref idref="id-d0e1957"/>
-      <itemref idref="id-d0e5675"/>
-      <itemref idref="id-d0e7591"/>
-      <itemref idref="id-d0e8547"/>
-      <itemref idref="id-d0e8769"/>
-      <itemref idref="id-d0e10372"/>
-      <itemref idref="id-d0e12208"/>
-      <itemref idref="id-d0e12543"/>
+      <itemref idref="id-d0e55"/>
+      <itemref idref="id-d0e524"/>
+      <itemref idref="id-d0e892"/>
+      <itemref idref="id-d0e1122"/>
+      <itemref idref="id-d0e1631"/>
+      <itemref idref="id-d0e1728"/>
+      <itemref idref="id-d0e1899"/>
+      <itemref idref="id-d0e2246"/>
+      <itemref idref="id-d0e2287"/>
+      <itemref idref="id-d0e2360"/>
+      <itemref idref="id-d0e2952"/>
+      <itemref idref="id-d0e3358"/>
+      <itemref idref="id-d0e14244"/>
+      <itemref idref="id-d0e18655"/>
+      <itemref idref="id-d0e20741"/>
+      <itemref idref="id-d0e21292"/>
+      <itemref idref="id-d0e25421"/>
+      <itemref idref="id-d0e30738"/>
+      <itemref idref="id-d0e31578"/>
    </spine>
    <guide>
       <reference href="cover.xhtml" type="cover" title="Cover"/>

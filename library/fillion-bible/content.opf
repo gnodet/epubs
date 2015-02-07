@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="uuid_id">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>Bible</dc:title>
+    <dc:language>fr</dc:language>
+    <dc:creator opf:file-as="Louis-Claude FILLION" opf:role="aut">Louis-Claude FILLION</dc:creator>
+    <meta name="cover" content="cover-image"/>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">f52a8cbc-7890-4a82-a4f9-f2f589d791e3</dc:identifier>
+  </metadata>
+  <manifest>
+    <item id="s0" media-type="application/xhtml+xml" href="OEBPS/index.html" />
+    <item id="s1" media-type="application/xhtml+xml" href="OEBPS/at01_gen.html" />
+    <item id="s2" media-type="application/xhtml+xml" href="OEBPS/at02_ex.html" />
+    <item id="s3" media-type="application/xhtml+xml" href="OEBPS/at03_lev.html" />
+    <item id="s4" media-type="application/xhtml+xml" href="OEBPS/at04_nomb.html" />
+    <item id="s5" media-type="application/xhtml+xml" href="OEBPS/at05_deut.html" />
+    <item id="s6" media-type="application/xhtml+xml" href="OEBPS/at06_jos.html" />
+    <item id="s7" media-type="application/xhtml+xml" href="OEBPS/at07_jug.html" />
+    <item id="s8" media-type="application/xhtml+xml" href="OEBPS/at08_ruth.html" />
+    <item id="s9" media-type="application/xhtml+xml" href="OEBPS/at09_1sam.html" />
+    <item id="s10" media-type="application/xhtml+xml" href="OEBPS/at10_2sam.html" />
+    <item id="s11" media-type="application/xhtml+xml" href="OEBPS/at11_1rois.html" />
+    <item id="s12" media-type="application/xhtml+xml" href="OEBPS/at12_2rois.html" />
+    <item id="s13" media-type="application/xhtml+xml" href="OEBPS/at13_1chr.html" />
+    <item id="s14" media-type="application/xhtml+xml" href="OEBPS/at14_2chr.html" />
+    <item id="s15" media-type="application/xhtml+xml" href="OEBPS/at15_esd.html" />
+    <item id="s16" media-type="application/xhtml+xml" href="OEBPS/at16_neh.html" />
+    <item id="s17" media-type="application/xhtml+xml" href="OEBPS/at17_tob.html" />
+    <item id="s18" media-type="application/xhtml+xml" href="OEBPS/at18_jdt.html" />
+    <item id="s19" media-type="application/xhtml+xml" href="OEBPS/at19_est.html" />
+    <item id="s20" media-type="application/xhtml+xml" href="OEBPS/at20_1mac.html" />
+    <item id="s21" media-type="application/xhtml+xml" href="OEBPS/at21_2mac.html" />
+    <item id="s22" media-type="application/xhtml+xml" href="OEBPS/at22_job.html" />
+    <item id="s23" media-type="application/xhtml+xml" href="OEBPS/at23_ps.html" />
+    <item id="s24" media-type="application/xhtml+xml" href="OEBPS/at24_prov.html" />
+    <item id="s25" media-type="application/xhtml+xml" href="OEBPS/at25_eccl.html" />
+    <item id="s26" media-type="application/xhtml+xml" href="OEBPS/at26_cant.html" />
+    <item id="s27" media-type="application/xhtml+xml" href="OEBPS/at27_sag.html" />
+    <item id="s28" media-type="application/xhtml+xml" href="OEBPS/at28_eccli.html" />
+    <item id="s29" media-type="application/xhtml+xml" href="OEBPS/at29_is.html" />
+    <item id="s30" media-type="application/xhtml+xml" href="OEBPS/at30_jer.html" />
+    <item id="s31" media-type="application/xhtml+xml" href="OEBPS/at31_lam.html" />
+    <item id="s32" media-type="application/xhtml+xml" href="OEBPS/at32_bar.html" />
+    <item id="s33" media-type="application/xhtml+xml" href="OEBPS/at33_ez.html" />
+    <item id="s34" media-type="application/xhtml+xml" href="OEBPS/at34_dan.html" />
+    <item id="s35" media-type="application/xhtml+xml" href="OEBPS/at35_os.html" />
+    <item id="s36" media-type="application/xhtml+xml" href="OEBPS/at36_joel.html" />
+    <item id="s37" media-type="application/xhtml+xml" href="OEBPS/at37_am.html" />
+    <item id="s38" media-type="application/xhtml+xml" href="OEBPS/at38_ab.html" />
+    <item id="s39" media-type="application/xhtml+xml" href="OEBPS/at39_jon.html" />
+    <item id="s40" media-type="application/xhtml+xml" href="OEBPS/at40_mich.html" />
+    <item id="s41" media-type="application/xhtml+xml" href="OEBPS/at41_nah.html" />
+    <item id="s42" media-type="application/xhtml+xml" href="OEBPS/at42_hab.html" />
+    <item id="s43" media-type="application/xhtml+xml" href="OEBPS/at43_soph.html" />
+    <item id="s44" media-type="application/xhtml+xml" href="OEBPS/at44_ag.html" />
+    <item id="s45" media-type="application/xhtml+xml" href="OEBPS/at45_zac.html" />
+    <item id="s46" media-type="application/xhtml+xml" href="OEBPS/at46_mal.html" />
+    <item id="s47" media-type="application/xhtml+xml" href="OEBPS/nt01_mt.html" />
+    <item id="s48" media-type="application/xhtml+xml" href="OEBPS/nt02_mc.html" />
+    <item id="s49" media-type="application/xhtml+xml" href="OEBPS/nt03_lc.html" />
+    <item id="s50" media-type="application/xhtml+xml" href="OEBPS/nt04_jn.html" />
+    <item id="s51" media-type="application/xhtml+xml" href="OEBPS/nt05_act.html" />
+    <item id="s52" media-type="application/xhtml+xml" href="OEBPS/nt06_rom.html" />
+    <item id="s53" media-type="application/xhtml+xml" href="OEBPS/nt07_1cor.html" />
+    <item id="s54" media-type="application/xhtml+xml" href="OEBPS/nt08_2cor.html" />
+    <item id="s55" media-type="application/xhtml+xml" href="OEBPS/nt09_gal.html" />
+    <item id="s56" media-type="application/xhtml+xml" href="OEBPS/nt10_eph.html" />
+    <item id="s57" media-type="application/xhtml+xml" href="OEBPS/nt11_phil.html" />
+    <item id="s58" media-type="application/xhtml+xml" href="OEBPS/nt12_col.html" />
+    <item id="s59" media-type="application/xhtml+xml" href="OEBPS/nt13_1thes.html" />
+    <item id="s60" media-type="application/xhtml+xml" href="OEBPS/nt14_2thes.html" />
+    <item id="s61" media-type="application/xhtml+xml" href="OEBPS/nt15_1tim.html" />
+    <item id="s62" media-type="application/xhtml+xml" href="OEBPS/nt16_2tim.html" />
+    <item id="s63" media-type="application/xhtml+xml" href="OEBPS/nt17_tit.html" />
+    <item id="s64" media-type="application/xhtml+xml" href="OEBPS/nt18_philem.html" />
+    <item id="s65" media-type="application/xhtml+xml" href="OEBPS/nt19_hebr.html" />
+    <item id="s66" media-type="application/xhtml+xml" href="OEBPS/nt20_jac.html" />
+    <item id="s67" media-type="application/xhtml+xml" href="OEBPS/nt21_1pet.html" />
+    <item id="s68" media-type="application/xhtml+xml" href="OEBPS/nt22_2pet.html" />
+    <item id="s69" media-type="application/xhtml+xml" href="OEBPS/nt23_1jn.html" />
+    <item id="s70" media-type="application/xhtml+xml" href="OEBPS/nt24_2jn.html" />
+    <item id="s71" media-type="application/xhtml+xml" href="OEBPS/nt25_3jn.html" />
+    <item id="s72" media-type="application/xhtml+xml" href="OEBPS/nt26_jud.html" />
+    <item id="s73" media-type="application/xhtml+xml" href="OEBPS/nt27_apoc.html" />
+   <item id="cover" media-type="application/xhtml+xml" href="OEBPS/cover.html" />
+   <item id="cover-image" media-type="image/png" href="OEBPS/img/cover.png" />
+    <item href="toc.ncx" media-type="application/x-dtbncx+xml" id="ncx"/>
+  </manifest>
+  <spine toc="ncx"> 
+    <itemref idref="s0"/>
+    <itemref idref="s1"/>
+    <itemref idref="s2"/>
+    <itemref idref="s3"/>
+    <itemref idref="s4"/>
+    <itemref idref="s5"/>
+    <itemref idref="s6"/>
+    <itemref idref="s7"/>
+    <itemref idref="s8"/>
+    <itemref idref="s9"/>
+    <itemref idref="s10"/>
+    <itemref idref="s11"/>
+    <itemref idref="s12"/>
+    <itemref idref="s13"/>
+    <itemref idref="s14"/>
+    <itemref idref="s15"/>
+    <itemref idref="s16"/>
+    <itemref idref="s17"/>
+    <itemref idref="s18"/>
+    <itemref idref="s19"/>
+    <itemref idref="s20"/>
+    <itemref idref="s21"/>
+    <itemref idref="s22"/>
+    <itemref idref="s23"/>
+    <itemref idref="s24"/>
+    <itemref idref="s25"/>
+    <itemref idref="s26"/>
+    <itemref idref="s27"/>
+    <itemref idref="s28"/>
+    <itemref idref="s29"/>
+    <itemref idref="s30"/>
+    <itemref idref="s31"/>
+    <itemref idref="s32"/>
+    <itemref idref="s33"/>
+    <itemref idref="s34"/>
+    <itemref idref="s35"/>
+    <itemref idref="s36"/>
+    <itemref idref="s37"/>
+    <itemref idref="s38"/>
+    <itemref idref="s39"/>
+    <itemref idref="s40"/>
+    <itemref idref="s41"/>
+    <itemref idref="s42"/>
+    <itemref idref="s43"/>
+    <itemref idref="s44"/>
+    <itemref idref="s45"/>
+    <itemref idref="s46"/>
+    <itemref idref="s47"/>
+    <itemref idref="s48"/>
+    <itemref idref="s49"/>
+    <itemref idref="s50"/>
+    <itemref idref="s51"/>
+    <itemref idref="s52"/>
+    <itemref idref="s53"/>
+    <itemref idref="s54"/>
+    <itemref idref="s55"/>
+    <itemref idref="s56"/>
+    <itemref idref="s57"/>
+    <itemref idref="s58"/>
+    <itemref idref="s59"/>
+    <itemref idref="s60"/>
+    <itemref idref="s61"/>
+    <itemref idref="s62"/>
+    <itemref idref="s63"/>
+    <itemref idref="s64"/>
+    <itemref idref="s65"/>
+    <itemref idref="s66"/>
+    <itemref idref="s67"/>
+    <itemref idref="s68"/>
+    <itemref idref="s69"/>
+    <itemref idref="s70"/>
+    <itemref idref="s71"/>
+    <itemref idref="s72"/>
+    <itemref idref="s73"/>
+  </spine>
+</package>
