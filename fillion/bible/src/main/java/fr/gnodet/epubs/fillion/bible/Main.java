@@ -31,8 +31,8 @@ public class Main {
         Properties livres = new Properties();
         livres.load(new InputStreamReader(Main.class.getClassLoader().getResourceAsStream("livres.properties")));
 
-        File inputDir = new File("src/main/rtf");
-        File outputDir = new File("target/html");
+        File inputDir = new File(System.getProperty("workingDirectory", "."), "src/main/rtf");
+        File outputDir = new File(System.getProperty("workingDirectory", "."), "target/html");
         outputDir.mkdirs();
 
         String[] files = inputDir.list();

@@ -21,5 +21,75 @@
         <module>fillion</module>
     </modules>
 
+    <dependencyManagement>
+        <dependencies>
+			<dependency>
+				<groupId>org.idpf</groupId>
+				<artifactId>epubcheck</artifactId>
+				<version>4.0.0-alpha11</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.xmlgraphics</groupId>
+				<artifactId>fop</artifactId>
+				<version>1.2-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.xmlgraphics</groupId>
+				<artifactId>xmlgraphics-commons</artifactId>
+				<version>1.6-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.xmlgraphics</groupId>
+				<artifactId>batik-all</artifactId>
+				<version>1.8-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>fr.gnodet.epubs</groupId>
+				<artifactId>core</artifactId>
+				<version>1.0-SNAPSHOT</version>
+			</dependency>
+        </dependencies>
+    </dependencyManagement>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>com.agilejava.docbkx</groupId>
+					<artifactId>docbkx-maven-plugin</artifactId>
+					<version>3.0-SNAPSHOT</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+
+	<repositories>
+		<repository>
+			<id>lib</id>
+			<name>lib</name>
+			<releases>
+				<enabled>true</enabled>
+				<checksumPolicy>ignore</checksumPolicy>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<url>file://${repository.dir}/repository</url>
+		</repository>
+		</repositories>
+		<pluginRepositories>
+		<pluginRepository>
+			<id>lib</id>
+			<name>lib</name>
+			<releases>
+				<enabled>true</enabled>
+				<checksumPolicy>ignore</checksumPolicy>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<url>file://${repository.dir}/repository</url>
+		</pluginRepository>
+	</pluginRepositories>
 
 </project>

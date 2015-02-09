@@ -11,6 +11,9 @@
 
     <artifactId>core</artifactId>
 
+	<properties>
+		<repository.dir>${basedir}/..</repository.dir>
+	</properties>
 
     <dependencies>
         <dependency>
@@ -21,28 +24,14 @@
         <dependency>
             <groupId>org.idpf</groupId>
             <artifactId>epubcheck</artifactId>
-            <version>v4.0.0-alpha5</version>
         </dependency>
         <dependency>
             <groupId>org.apache.xmlgraphics</groupId>
-            <artifactId>batik-rasterizer</artifactId>
-            <version>1.7</version>
+            <artifactId>fop</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.xmlgraphics</groupId>
-            <artifactId>batik-rasterizer-ext</artifactId>
-            <version>1.7</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.apache.xmlgraphics</groupId>
-                    <artifactId>batik-extensions</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.xmlgraphics</groupId>
-            <artifactId>batik-codec</artifactId>
-            <version>1.7</version>
+            <artifactId>batik-all</artifactId>
         </dependency>
     </dependencies>
 
