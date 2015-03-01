@@ -9,7 +9,7 @@
 
 		<author>
 			<personname>
-				<firstname>Louis-Claude</firstname>
+				<firstname>Abbé Louis-Claude</firstname>
 				<surname>Fillion</surname>
 			</personname>
 		</author>
@@ -22,29 +22,121 @@
 	</info>
 
 	<acknowledgements>
+		<para> <?linebreak?> </para>
+		<para> <?linebreak?> </para>
+		<para> <?linebreak?> </para>
+		<para> <?linebreak?> </para>
+		<para> <?linebreak?> </para>
+		<para> <?linebreak?> </para>
+		<para> <?linebreak?> </para>
+		<section>
+			<title>Évangile selon saint Marc</title>
+			<para> <?linebreak?> </para>
+			<para> <?linebreak?> </para>
+			<para> <?linebreak?> </para>
+			<para> <?linebreak?> </para>
+			<para>
+				<informaltable frame="none">
+					<tr>
+						<td align="center">
+							Traduction d’après la Vugate et les textes originaux [hébreux massorétique],
+							introductions critiques et commentaires théologiques, moraux, philologiques,
+							historiques, rédigés d’après les meilleurs travaux anciens et contemporains<?linebreak?>
+							par l’Abbé Louis-Claude <surname>Fillion</surname>,<?linebreak?>
+							Prêtre de Saint Sulpice,<?linebreak?>
+							Professeur d’Écriture Sainte à l’Institut Catholique de Paris,<?linebreak?>
+							Consulteur de la Commission Biblique Pontificale.
+						</td>
+					</tr>
+				</informaltable>
+			</para>
+			<para> <?linebreak?> </para>
+			<para> <?linebreak?> </para>
+			<para>
+				<informaltable frame="none">
+					<tr>
+						<td align="center">
+							<phrase role="bold">Imprimatur pour l’introduction et les commentaires</phrase> :<?linebreak?>
+							Cardinal Joseph Hippolyte Guibert, Archevêque de Paris, 23 juillet 1879.
+						</td>
+					</tr>
+				</informaltable>
+			</para>
+			<para> <?linebreak?> </para>
+			<para> <?linebreak?> </para>
+			<para>
+				<informaltable frame="none">
+					<tr>
+						<td align="center">
+							<phrase role="bold">Imprimatur pour la traduction</phrase> :<?linebreak?>
+							Cardinal François Richard, Archevêque de Paris, 11 mai 1901.
+						</td>
+					</tr>
+				</informaltable>
+			</para>
+		</section>
+		<?hard-pagebreak?>
+		<para> </para>
+		<?hard-pagebreak?>
+
+		<para> <?linebreak?> </para>
+		<para> <?linebreak?> </para>
 		<blockquote>
-			<para><emphasis><emphasis role="bold">Il faut que l'accès à la Sainte Écriture soit largement ouvert aux fidèles du Christ.</emphasis></emphasis></para>
+			<para><emphasis><emphasis role="bold">Il faut que l’accès à la Sainte Écriture soit largement ouvert aux fidèles du Christ.</emphasis></emphasis></para>
 			<para/>
-			<attribution>Concile Vatican II, constitution dogmatique Dei Verbum, N°22.</attribution>
+			<attribution>Concile Vatican II, constitution dogmatique Dei Verbum, N° 22.</attribution>
 		</blockquote>
 		<section>
 			<title>Notes</title>
 			<para>
-				Ce livre est une réédition des commentaires de l'abbé Louis-Claude 
-				<surname>Fillion</surname> dans le volume 18 de <citetitle>La Saint 
-				Bible</citetitle>, publiée aux éditions Lethellieux, Paris, 1893. 
+				Ce livre est une réédition des commentaires de l’abbé Louis-Claude
+				<surname>Fillion</surname> dans le volume 18 de <citetitle>La Sainte
+				Bible</citetitle>, publiée par P. Lethielleux, Éditeur,
+				10, rue Cassette, Paris, 1893.
 				La numérisation de cet ouvrage a été effectuée par 
-				http://jesusmarie.com, et la conversion au format numérique 
+				<emphasis>JesusMarie.com</emphasis>, et la conversion au format numérique
 				par Guillaume <surname>Nodet</surname>.
+			</para>
+			<para>
+				Le texte de l’Évangile en latin est celui de la Vulgate clémentine,
+				extrait du site internet <emphasis>vulsearch.sourceforge.net</emphasis>.
+				Le texte grec est le Stephanus Textus Receptus, extrait du site internet
+				<emphasis>bibleapps.com</emphasis>.
+				La traduction française est celle de l’abbé Fillion, publiée en 1901
+				par les Éditions Letouzey et Ané, 17, rue du Vieux Colombier, Paris.
 			</para>
 		</section>
 		<section>
-			<title>Imprimatur</title>
+			<title>Louis-Claude <surname>Fillion</surname></title>
 			<para>
-				J. Hipp. Card. Guibert, archiepiscopus Parisensis.
+			Louis-Claude Fillion naquit le 25 juin 1843 à Saint-Bonnet-de-Joux (Saône-et-Loire).
+			Ordonné prêtre en 1867, admis dans la Compagnie de Saint-Sulpice, il fut professeur
+			d’Écriture sainte et d’hébreu au grand séminaire de Reims de 1871 à 1874, et au
+			grand séminaire de Lyon, de 1874 à 1893. Au mois d’octobre 1893, il fut nommé à
+			l’Institut catholique de Paris où il occupa la chaire d’exégèse et d’Écriture sainte.
+			Dix ans plus tard, il fut nommé membre de la Commission biblique.
 			</para>
 			<para>
-				Parisiis, die 23 julii 1879.
+			D’une vaste érudition, très au courant des travaux modernes, il a écrit de nombreux
+			livres d’exégèse qui le rattachent à une école de pensée plutôt modérée.
+			</para>
+			<para>
+			Ses principaux ouvrages sont :
+			<itemizedlist spacing="compact">
+				<listitem>L’Évangile selon saint Mathieu. Introduction critique et commentaires (1878)</listitem>
+				<listitem>L’Évangile selon saint Marc… (1879)</listitem>
+				<listitem>L’Évangile selon saint Jean… (1886)</listitem>
+				<listitem>Atlas archéologique de la Bible (1883)</listitem>
+				<listitem>La Sainte Bible commentée d’après la Vulgate (8 volumes, 1888-1895)</listitem>
+				<listitem>Les miracles de Notre Seigneur Jésus-Christ (2 vol., 1909-1910)</listitem>
+				<listitem>Vie de Notre-Seigneur Jésus-Christ (3 vol., 1922)</listitem>
+			</itemizedlist>
+			</para>
+			<para>
+			L’abbé Fillion mourut à Issy le 12 octobre 1927.
+			</para>
+			<para>
+			Source : Roman <surname>d’Amat</surname>, <citetitle>Dictionnaire de biographie française</citetitle>, Letouzey et Ané, Paris, 1975, vol. 13, pp. 1354-1355.
 			</para>
 		</section>
 	</acknowledgements>

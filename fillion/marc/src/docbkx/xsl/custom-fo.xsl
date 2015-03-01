@@ -14,6 +14,15 @@
       <xsl:attribute name="padding-top">100pt</xsl:attribute>
     </xsl:attribute-set>
 
+	<xsl:attribute-set name="verbatim.properties">
+		<xsl:attribute name="text-align">
+			<xsl:choose>
+				<xsl:when test="@role = 'center'">center</xsl:when>
+				<xsl:otherwise>start</xsl:otherwise>
+			</xsl:choose>
+		</xsl:attribute>
+	</xsl:attribute-set>
+
 	<xsl:template name="book.titlepage.recto">
 	  <fo:block>
 	    <fo:table inline-progression-dimension="100%" table-layout="fixed">
@@ -51,7 +60,11 @@
 	<xsl:template match="processing-instruction('linebreak')">
 	  <fo:block/>
 	</xsl:template>
-	
+
+	<xsl:template match="processing-instruction('hard-pagebreak')">
+		<fo:block break-after='page'/>
+	</xsl:template>
+
 	<xsl:template match="db:phrase[@*[local-name() = 'role' and .='smallcaps']]">
 		<fo:inline font-family="CharisSC">
 			<xsl:apply-templates />
@@ -74,6 +87,12 @@
 	</xsl:template>
 	<xsl:template match="db:citetitle[@*[local-name() = 'href']]">
 		<fo:inline font-style="italic">
+			<xsl:apply-templates />
+		</fo:inline>
+	</xsl:template>
+
+	<xsl:template match="db:phrase[@*[local-name() = 'role' and .='bold']]">
+		<fo:inline font-weight="bold">
 			<xsl:apply-templates />
 		</fo:inline>
 	</xsl:template>
