@@ -11,6 +11,7 @@
     <modules>
         <module>core</module>
 		<module>antichrist</module>
+		<module>antechrist</module>
         <module>cec</module>
         <module>encycliques</module>
         <module>exhortations</module>
