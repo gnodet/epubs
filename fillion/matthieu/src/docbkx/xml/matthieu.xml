@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xmlns="http://docbook.org/ns/docbook"
+	  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xmlns:xi="http://www.w3.org/2001/XInclude"
+	  xmlns:xlink="http://www.w3.org/1999/xlink"
+	  xml:id="matthieu" version="5.0"
+	  xml:lang="fr"
+	  xsi:schemaLocation="
+	  	http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/xsd/docbook.xsd
+	  	http://www.w3.org/1999/xlink http://www.docbook.org/xml/5.0/xsd/xlink.xsd ">
+	<info>
+		<productnumber>
+			<?eval ${project.version}?>
+		</productnumber>
+		<title>Évangile selon saint Matthieu</title>
+		<subtitle>Introduction critique et commentaires</subtitle>
+
+		<author>
+			<personname>
+				<firstname>Louis-Claude</firstname>
+				<surname>Fillion</surname>
+			</personname>
+		</author>
+
+		<mediaobject role="cover" xml:id="coverd">
+			<imageobject role="front-large" remap="lrg">
+				<imagedata format="PNG" fileref="cover.png"/>
+			</imageobject>
+		</mediaobject>
+	</info>
+
+	<acknowledgements>
+		<blockquote>
+			<para><emphasis><emphasis role="bold">Il faut que l'accès à la Sainte Écriture soit largement ouvert aux fidèles du Christ.</emphasis></emphasis></para>
+			<para/>
+			<attribution>Concile Vatican II, constitution dogmatique Dei Verbum, N°22.</attribution>
+		</blockquote>
+		<section>
+			<title>Notes</title>
+			<para>
+				Ce livre est une réédition des commentaires de l'abbé Louis-Claude
+				<surname>Fillion</surname> dans le volume 18 de <citetitle>La Saint
+				Bible</citetitle>, publiée aux éditions Lethellieux, Paris, 1893.
+				La numérisation de cet ouvrage a été effectuée par
+				http://jesusmarie.com, et la conversion au format numérique
+				par Guillaume <surname>Nodet</surname>.
+			</para>
+		</section>
+		<section>
+			<title>Imprimatur</title>
+			<para>
+				J. Hipp. Card. Guibert, archiepiscopus Parisensis.
+			</para>
+			<para>
+				Parisiis, die 23 julii 1879.
+			</para>
+		</section>
+	</acknowledgements>
+
+	<xi:include href="matthieu-00.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<xi:include href="matthieu-01.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<xi:include href="matthieu-02.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<xi:include href="matthieu-03.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<!--
+	<xi:include href="matthieu-04.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	<xi:include href="matthieu-05.xml">
+		<xi:fallback>
+			<para>
+				<emphasis>FIXME:  MISSING XINCLUDE CONTENT</emphasis>
+			</para>
+		</xi:fallback>
+	</xi:include>
+	-->
+</book>
