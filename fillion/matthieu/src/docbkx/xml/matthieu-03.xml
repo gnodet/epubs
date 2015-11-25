@@ -32,7 +32,6 @@
 			</para>
 		</xi:fallback>
 	</xi:include>
-	<!--
 	<xi:include href="matthieu-03-04.xml">
 		<xi:fallback>
 			<para>
@@ -40,7 +39,5 @@
 			</para>
 		</xi:fallback>
 	</xi:include>
-	-->
-
 
 </chapter>

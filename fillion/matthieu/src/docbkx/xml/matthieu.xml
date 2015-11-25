@@ -85,7 +85,6 @@
 			</para>
 		</xi:fallback>
 	</xi:include>
-	<!--
 	<xi:include href="matthieu-04.xml">
 		<xi:fallback>
 			<para>
@@ -100,5 +99,5 @@
 			</para>
 		</xi:fallback>
 	</xi:include>
-	-->
+
 </book>
