@@ -1,5 +1,12 @@
 [
   {
+    "title" : "L’Antichrist",
+    "author" : "Newman",
+    "coverHref" : "../library/antichrist/cover.png",
+    "packagePath" : "content.opf",
+    "rootUrl": "../library/antichrist"
+  },
+  {
     "title" : "Évangile selon saint Marc",
     "author" : "Fillion",
     "coverHref" : "../library/fillion-marc/cover.png",

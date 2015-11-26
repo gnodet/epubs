@@ -1,0 +1,40 @@
+h1, h2, h3, h4, h5, h6, h7, h8, h9 {
+	margin: 0px;
+	display: inline;
+}
+
+.book .titlepage .subtitle {
+	display: block;
+	margin: 1em 0;
+}
+
+section div.titlepage {
+	margin: 0.83em 0px;
+}
+
+section div.titlepage div {
+	display: inline;
+}
+
+section div.titlepage .subtitle {
+	margin: 0 0 0 1em;
+}
+
+section div.titlepage .subtitle::before {
+	content: " — ";
+}
+
+.smallcaps {
+	font-variant: small-caps;
+}
+span.chapter {
+	font-variant: small-caps;
+}
+
+body {
+	text-align: justify;
+}
+
+.surname {
+	font-variant: small-caps;
+}
