@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom" xmlns:dcterms="http://purl.org/dc/terms/">
+<title>Le Ma&#238;tre de la Terre</title>
+<id>http://www.feedbooks.com/book/5690</id>
+<author>
+  <name>Robert-Hugh Benson</name>
+  <uri>http://www.feedbooks.com/author/1745</uri>
+</author>
+<published>2011-06-06T13:47:02Z</published>
+<updated>2015-05-21T13:56:21Z</updated>
+<dcterms:language>fr</dcterms:language>
+<dcterms:issued>1908</dcterms:issued>
+<category term="FBFIC000000" label="Fiction" scheme="http://www.feedbooks.com/categories"/>
+<category term="FBFIC028000" label="Science Fiction" scheme="http://www.feedbooks.com/categories"/>
+<summary>&#192; la fin du XX&#232;me si&#232;cle, les progr&#232;s du mat&#233;rialisme et de la Franc-Ma&#231;onnerie ont r&#233;duit la religion chr&#233;tienne &#224; une infime minorit&#233; en Europe, malgr&#233; sa survie en Irlande et dans la ville pontificale de Rome. Mais alors que l'on attendait l'&#232;r...</summary>
+<dcterms:extent>81,051 words</dcterms:extent>
+<dcterms:source>http://www.ebooksgratuits.com</dcterms:source>
+<link type="text/html" rel="alternate" href="http://generation.feedbooks.com/book/5690" title="View on Feedbooks"/>
+<link type="application/epub+zip" rel="http://opds-spec.org/acquisition" href="http://generation.feedbooks.com/book/5690.epub"/>
+<link type="application/x-mobipocket-ebook" rel="http://opds-spec.org/acquisition" href="http://generation.feedbooks.com/book/5690.mobi"/>
+<link type="application/pdf" rel="http://opds-spec.org/acquisition" href="http://generation.feedbooks.com/book/5690.pdf"/>
+<link type="image/jpeg" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/book/5690.jpg?size=large&amp;t=1432216581"/>
+<link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/book/5690.jpg?t=1432216581"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="related" href="http://generation.feedbooks.com/book/5690/categories.atom" title="Categories for this book"/>
+<link type="application/atom+xml" rel="replies" thr:count="0" href="http://generation.feedbooks.com/book/5690/comments.atom" thr:updated="2011-06-06T13:32:13Z" title="Comments for this book (0)"/>
+<content type="html">&lt;p&gt;&#192; la fin du XX&#232;me si&#232;cle, les progr&#232;s du mat&#233;rialisme et de la Franc-Ma&#231;onnerie ont r&#233;duit la religion chr&#233;tienne &#224; une infime minorit&#233; en Europe, malgr&#233; sa survie en Irlande et dans la ville pontificale de Rome. Mais alors que l'on attendait l'&#232;re de la Paix Universelle, l'Asie menace de d&#233;ferler sur l'Europe. Au moment o&#249; la guerre semble in&#233;vitable, Julien Felsenburgh, un jeune am&#233;ricain inconnu, convainc soudainement l'Asie de faire la paix, gagnant ainsi une immense popularit&#233; mondiale. S'en suit l'instauration de la Paix Universelle et de la religion de l'Humanit&#233;, excluant comme criminelle toute spiritualit&#233; transcendante, et l'&#201;glise y subit sa derni&#232;re pers&#233;cution.&lt;/p&gt;</content>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="self" href="http://generation.feedbooks.com/book/5690.atom"/>
+  <link type="application/atom+xml" rel="contents" href="http://generation.feedbooks.com/book/5690/contents.atom"/>
+</entry>

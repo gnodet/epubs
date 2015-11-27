@@ -1,5 +1,19 @@
 [
   {
+    "title" : "L’Antéchrist",
+    "author" : "Soloviev",
+    "coverHref" : "../library/antechrist/cover.png",
+    "packagePath" : "content.opf",
+    "rootUrl": "../library/antechrist"
+  },
+  {
+    "title" : "Le maître de la Terre",
+    "author" : "Benson",
+    "coverHref" : "../library/le_maitre_de_la_terre/OPS/images/cover.png",
+    "packagePath" : "OPS/fb.opf",
+    "rootUrl": "../library/le_maitre_de_la_terre"
+  },
+  {
     "title" : "L’Antichrist",
     "author" : "Newman",
     "coverHref" : "../library/antichrist/cover.png",
