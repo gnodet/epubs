@@ -1,5 +1,12 @@
 [
   {
+    "title" : "Les Bobos en Vérité",
+    "author" : "Ariño",
+    "coverHref" : "../library/bobos/cover.png",
+    "packagePath" : "content.opf",
+    "rootUrl": "../library/bobos"
+  },
+  {
     "title" : "L’Antéchrist",
     "author" : "Soloviev",
     "coverHref" : "../library/antechrist/cover.png",
