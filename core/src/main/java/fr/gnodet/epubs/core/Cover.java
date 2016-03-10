@@ -80,6 +80,14 @@ public class Cover {
                                           String title,
                                           Object[] textParts,
                                           URL svg) throws IOException, TranscoderException {
+        return generateCoverPng(hue, title, textParts, svg, null);
+    }
+
+    public static byte[] generateCoverPng(double hue,
+                                          String title,
+                                          Object[] textParts,
+                                          URL svg,
+                                          URL photo) throws IOException, TranscoderException {
 
         int width = 711;
         int height = 1084;
@@ -136,7 +144,7 @@ public class Cover {
         }
 
         double svgMargin = 47.0;
-        double svgHeight = svg != null ? 324.0 : 0.0;
+        double svgHeight = svg != null || photo != null ? 324.0 : 0.0;
         Rectangle2D svgBox = new Rectangle2D.Double(borderInRect.getMinX() + svgMargin,
                 borderInRect.getMaxY() - svgMargin - svgHeight,
                 borderInRect.getWidth() - svgMargin * 2,
@@ -223,6 +231,20 @@ public class Cover {
             sb.append("<svg y=\"" + svgBox.getMinY() + "\" x=\"").append(x).append("\" height=\"" + svgHeight + "\" >")
                     .append(innerSvg)
                     .append("</svg>");
+        } else if (photo != null) {
+            sb.append("<image y=\"")
+                    .append(svgBox.getMinY())
+                    .append("\" x=\"")
+                    .append(svgBox.getMinX())
+                    .append("\" height=\"")
+                    .append(svgBox.getHeight())
+                    .append("\" width=\"")
+                    .append(svgBox.getWidth())
+                    .append("\" ")
+                    .append("xmlns:xlink=\"http://www.w3.org/1999/xlink\" ")
+                    .append("xlink:href=\"")
+                    .append(photo)
+                    .append("\"/>");
         }
         sb.append("</svg>");
 
