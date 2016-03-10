@@ -283,9 +283,15 @@ public class Main {
                         } else {
                             s1 = s1.substring(b1.length() + 1, s1.length() - ".html".length());
                             s2 = s2.substring(b2.length() + 1, s2.length() - ".html".length());
-                            i1 = Integer.parseInt(s1);
-                            i2 = Integer.parseInt(s2);
-                            return i1 - i2;
+                            String ss1 = (s1.endsWith("A") || s1.endsWith("B")) ? s1.substring(0, s1.length() - 1) : s1;
+                            String ss2 = (s2.endsWith("A") || s2.endsWith("B")) ? s2.substring(0, s2.length() - 1) : s2;
+                            i1 = Integer.parseInt(ss1);
+                            i2 = Integer.parseInt(ss2);
+                            if (i1 != i2) {
+                                return i1 - i2;
+                            } else {
+                                return s1.compareTo(s2);
+                            }
                         }
                     }
                 }
