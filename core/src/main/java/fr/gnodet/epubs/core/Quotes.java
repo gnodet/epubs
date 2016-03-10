@@ -18,6 +18,14 @@ public class Quotes {
             newDoc.append(fixQuotesInParagraph(paragraph.group()));
             start = paragraph.end();
         }
+        if (start == 0) {
+            paragraph = Pattern.compile("<div[\\s\\S]*?</div>").matcher(document);
+            while (paragraph.find(start)) {
+                newDoc.append(document.substring(start, paragraph.start()));
+                newDoc.append(fixQuotesInParagraph(paragraph.group()));
+                start = paragraph.end();
+            }
+        }
         newDoc.append(document.substring(start, document.length()));
         return newDoc.toString();
     }
