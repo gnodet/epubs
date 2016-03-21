@@ -25,7 +25,8 @@ public class Main {
         /*
         File[] pdfs = new File("res/").listFiles(new FilenameFilter() {
             public boolean accept(File dir, String name) {
-                return name.endsWith("LES BOBOS EN VÉRITÉ.pdf");
+                return name.startsWith("LES BOBOS EN VÉRITÉ")
+                        && name.endsWith(".pdf");
             }
         });
         for (File file : pdfs) {
