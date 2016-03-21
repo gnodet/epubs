@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="Jean-Paul II" opf:role="aut">Jean-Paul II</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">8c39ef9d-425d-4c81-bd42-58fc76842983</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">35207e4b-fb3c-438c-a246-740968643f2f</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/let_1984-02-11_hf_john_paul_ii_salvifici-doloris.html" />
