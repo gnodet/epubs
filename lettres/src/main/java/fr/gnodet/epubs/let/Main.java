@@ -316,6 +316,7 @@ public class Main {
                         " .bullet { display:list-item; list-style-type: disc; list-style-type: inside; }\n" +
                         "</style>" +
                         "</head>");
+        document = document.replaceAll("&Atilde;©", "é");
         return document;
     }
 
@@ -383,6 +384,8 @@ public class Main {
     private static String cleanMain(String document) {
         document = document.replaceAll("<!--.*?-->", "");
         document = document.replaceAll("â&#128;”", "—");
+        document = document.replaceAll("Å“", "œ");
+        document = document.replaceAll("« perdue »", "« perdue »(77)");
 
         document = document.substring(document.indexOf("<p"), document.lastIndexOf("</p>") + 4);
         document = document.replaceAll("<font[^>]*>(.*?)</font>", "$1");
