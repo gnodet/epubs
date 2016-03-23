@@ -386,6 +386,7 @@ public class Main {
         document = document.replaceAll("â&#128;”", "—");
         document = document.replaceAll("Å“", "œ");
         document = document.replaceAll("« perdue »", "« perdue »(77)");
+        document = document.replaceAll("<p[^>]*>Copyright.*?</p>", "<p class=\"center\">JEAN-PAUL II</p>");
 
         document = document.substring(document.indexOf("<p"), document.lastIndexOf("</p>") + 4);
         document = document.replaceAll("<font[^>]*>(.*?)</font>", "$1");
