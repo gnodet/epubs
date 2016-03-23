@@ -1,0 +1,61 @@
+h1, h2, h3, h4, h5, h6, h7, h8, h9 {
+	margin: 0px;
+	display: inline;
+}
+
+.book .titlepage .subtitle {
+	display: block;
+	margin: 1em 0;
+}
+
+section div.titlepage {
+	margin: 0.83em 0px;
+}
+
+section div.titlepage div {
+	display: inline;
+}
+
+section div.titlepage .subtitle {
+	margin: 0 0 0 1em;
+}
+
+section div.titlepage .subtitle::before {
+	content: " — ";
+}
+
+.smallcaps {
+	font-variant: small-caps;
+}
+span.chapter {
+	font-variant: small-caps;
+}
+
+body {
+	text-align: justify;
+}
+
+.surname {
+	font-variant: small-caps;
+}
+
+.author{color:crimson;} 
+.citetitle{color:#008000;font-style:italic;} 
+.edition{color:#32cd32;} 
+
+
+
+.aut{color:crimson;} 
+.art{color:#008080;}
+.tit{color:#008000;font-style:italic;} 
+.ed{color:#32cd32;} 
+.an{color:#ba55d3;} 
+.ss{color:#0000cd;} 
+.ssc{color:#6495ed;font-variant:small-caps;font-weight:bolder;}
+.ssv{color:#00bfff;font-size:80%;font-weight:bolder;}
+.sbc{color:firebrick;font-variant:small-caps;font-weight:bolder;font-size:120%;}
+.sbv{color:crimson;font-weight:bolder;} 
+.sbi{color:gray;font-style:italic;}
+.trsl{color:gray;font-style:italic;}
+.otv{color:#800000;}
+.och{color:#d2691e;font-variant:small-caps;font-weight:bolder;}
