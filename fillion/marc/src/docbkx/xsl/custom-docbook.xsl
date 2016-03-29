@@ -11,6 +11,30 @@
 			<xsl:apply-templates/>
 		</xsl:element>
 	</xsl:template>
+	<xsl:template match="*[local-name()='author']">
+		<xsl:element name="phrase">
+			<xsl:attribute name="role">author</xsl:attribute>
+			<xsl:apply-templates/>
+		</xsl:element>
+	</xsl:template>
+	<xsl:template match="*[local-name()='ss']">
+		<xsl:element name="phrase">
+			<xsl:attribute name="role">ss</xsl:attribute>
+			<xsl:apply-templates/>
+		</xsl:element>
+	</xsl:template>
+	<xsl:template match="*[local-name()='sc']">
+		<xsl:element name="phrase">
+			<xsl:attribute name="role">ssc</xsl:attribute>
+			<xsl:apply-templates/>
+		</xsl:element>
+	</xsl:template>
+	<xsl:template match="*[local-name()='sv']">
+		<xsl:element name="phrase">
+			<xsl:attribute name="role">ssv</xsl:attribute>
+			<xsl:apply-templates/>
+		</xsl:element>
+	</xsl:template>
 
 	<xsl:template name="do-copy-verse">
 		<xsl:param name="file"/>
@@ -23,6 +47,7 @@
 					<xsl:with-param name="ids" select="substring-before($ids, '_')"/>
 					<xsl:with-param name="lang" select="$lang"/>
 				</xsl:call-template>
+				<xsl:value-of select="' '"/>
 				<xsl:processing-instruction name="linebreak"/>
 				<xsl:call-template name="do-copy-verse">
 					<xsl:with-param name="file" select="$file"/>

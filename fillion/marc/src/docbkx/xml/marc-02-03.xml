@@ -2,7 +2,7 @@
 <section xmlns="http://docbook.org/ns/docbook" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="marc-02-03" version="5.0" xml:lang="fr" xsi:schemaLocation="            http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/xsd/docbook.xsd            http://www.w3.org/1999/xlink http://www.docbook.org/xml/5.0/xsd/xlink.xsd         ">
 
 		<title>3° SECTION. — JÉSUS EN PÉRÉE ET SUR LE CHEMIN DE JÉRUSALEM.</title>
-		<subtitle><bible>Mc 10.1-52</bible>.</subtitle>
+		<subtitle><bible><ss>Mc</ss> <sc>10</sc>.<sv>1-52</sv></bible>.</subtitle>
 		<xi:include href="marc-02-03-01.xml">
 			<xi:fallback>
 				<para>

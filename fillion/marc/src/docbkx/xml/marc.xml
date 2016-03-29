@@ -81,6 +81,8 @@
 
 		<para> <?linebreak?> </para>
 		<para> <?linebreak?> </para>
+		<para> <?linebreak?> </para>
+		<para> <?linebreak?> </para>
 		<blockquote>
 			<para><emphasis><emphasis role="bold">Il faut que l’accès à la Sainte Écriture soit largement ouvert aux fidèles du Christ.</emphasis></emphasis></para>
 			<para/>
@@ -98,10 +100,8 @@
 				par Guillaume <surname>Nodet</surname>.
 			</para>
 			<para>
-				Le texte de l’Évangile en latin est celui de la Vulgate clémentine,
-				extrait du site internet <emphasis>vulsearch.sourceforge.net</emphasis>.
-				Le texte grec est le Stephanus Textus Receptus, extrait du site internet
-				<emphasis>bibleapps.com</emphasis>.
+				Le texte de l’Évangile en latin est celui de la Vulgate clémentine.
+				Le texte grec est le Stephanus Textus Receptus de 1550.
 				La traduction française est celle de l’abbé Fillion, publiée en 1901
 				par les Éditions Letouzey et Ané, 17, rue du Vieux Colombier, Paris.
 			</para>

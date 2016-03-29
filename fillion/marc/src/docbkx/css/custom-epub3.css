@@ -8,6 +8,12 @@ h1, h2, h3, h4, h5, h6, h7, h8, h9 {
 	margin: 1em 0;
 }
 
+.verse-number {
+    font-family: Verdana;
+    font-size: smaller;
+    font-weight: bold;
+}
+
 section div.titlepage {
 	margin: 0.83em 0px;
 }
@@ -38,3 +44,10 @@ body {
 .surname {
 	font-variant: small-caps;
 }
+
+.author{color:crimson;} 
+.citetitle{color:#008000;font-style:italic;} 
+.edition{color:#32cd32;} 
+.ss{color:#0000cd;} 
+.ssc{color:#6495ed;font-variant:small-caps;font-weight:bolder;}
+.ssv{color:#00bfff;font-size:80%;font-weight:bolder;}
