@@ -14,6 +14,15 @@
       <xsl:attribute name="padding-top">100pt</xsl:attribute>
     </xsl:attribute-set>
 
+	<xsl:attribute-set name="list.block.properties">
+	  <xsl:attribute name="margin-left">
+	    <xsl:choose>
+	      <xsl:when test="count(ancestor::listitem)">inherit</xsl:when>
+	      <xsl:otherwise>1cm</xsl:otherwise>
+	    </xsl:choose>
+	  </xsl:attribute>
+	</xsl:attribute-set>
+
 	<xsl:template name="book.titlepage.recto">
 	  <fo:block>
 	    <fo:table inline-progression-dimension="100%" table-layout="fixed">

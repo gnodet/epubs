@@ -57,6 +57,7 @@
 		</section>
 	</acknowledgements>
 
+	<!--
 	<xi:include href="matthieu-00.xml">
 		<xi:fallback>
 			<para>
@@ -78,6 +79,7 @@
 			</para>
 		</xi:fallback>
 	</xi:include>
+	-->
 	<xi:include href="matthieu-03.xml">
 		<xi:fallback>
 			<para>

@@ -23,6 +23,7 @@
 					<xsl:with-param name="ids" select="substring-before($ids, '_')"/>
 					<xsl:with-param name="lang" select="$lang"/>
 				</xsl:call-template>
+				<xsl:value-of select="' '"/>
 				<xsl:processing-instruction name="linebreak"/>
 				<xsl:call-template name="do-copy-verse">
 					<xsl:with-param name="file" select="$file"/>

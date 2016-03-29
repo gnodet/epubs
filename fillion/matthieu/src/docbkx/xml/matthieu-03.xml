@@ -11,6 +11,7 @@
     <title>SECONDE PARTIE — LA VIE PUBLIQUE DE NOTRE SEIGNEUR JÉSUS-CHRIST.</title>
     <subtitle><bible>Mt 3–20</bible>.</subtitle>
 
+	<!--
 	<xi:include href="matthieu-03-01.xml">
 		<xi:fallback>
 			<para>
@@ -25,6 +26,7 @@
 			</para>
 		</xi:fallback>
 	</xi:include>
+	-->
 	<xi:include href="matthieu-03-03.xml">
 		<xi:fallback>
 			<para>

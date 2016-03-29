@@ -10,9 +10,9 @@
 
 	<title>§ III. Le ministère de Jésus en Galillée.</title>
     <subtitle><bible>Mt 4.12–18.35</bible>.</subtitle>
-
 	<para>Dans cette importante partie de son Évangile, saint Matthieu nous montre Notre-Seigneur Jésus-Christ travaillant désormais sans relâche à l’établissement du royaume messianique, ainsi que Dieu venait de l’y autoriser. Nous verrons le divin Sauveur se faire, selon les circonstances, le Roi, le Prophète et le Pontife de la Nouvelle Alliance, et lutter avec énergie contre les puissants adversaires qui se mirent bientôt à l’encontre de ses desseins. Le succès couronnera son œuvre et un troupeau nombreux se groupera autour du bon Pasteur.</para>
 
+	<!--
 	<xi:include href="matthieu-03-03_01.xml">
 		<xi:fallback>
 			<para>
@@ -41,6 +41,7 @@
 			</para>
 		</xi:fallback>
 	</xi:include>
+		-->
 	<xi:include href="matthieu-03-03_05.xml">
 		<xi:fallback>
 			<para>
