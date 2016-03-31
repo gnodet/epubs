@@ -6,8 +6,48 @@
 		exclude-result-prefixes='xsl xi fn'
 		version="1.0">
 
+	<xsl:template match="*[local-name()='biblio']">
+		<xsl:apply-templates/>
+	</xsl:template>
+	<xsl:template match="*[local-name()='edition']">
+		<xsl:element name="phrase">
+			<xsl:attribute name="role">ed</xsl:attribute>
+			<xsl:apply-templates/>
+		</xsl:element>
+	</xsl:template>
+	<xsl:template match="*[local-name()='pages']">
+		<xsl:element name="phrase">
+			<xsl:attribute name="role">opc</xsl:attribute>
+			<xsl:apply-templates/>
+		</xsl:element>
+	</xsl:template>
+
 	<xsl:template match="*[local-name()='bible']">
 		<xsl:element name="emphasis">
+			<xsl:apply-templates/>
+		</xsl:element>
+	</xsl:template>
+	<xsl:template match="*[local-name()='footnote']//*[local-name()='author']">
+		<xsl:element name="phrase">
+			<xsl:attribute name="role">author</xsl:attribute>
+			<xsl:apply-templates/>
+		</xsl:element>
+	</xsl:template>
+	<xsl:template match="*[local-name()='ss']">
+		<xsl:element name="phrase">
+			<xsl:attribute name="role">ss</xsl:attribute>
+			<xsl:apply-templates/>
+		</xsl:element>
+	</xsl:template>
+	<xsl:template match="*[local-name()='sc']">
+		<xsl:element name="phrase">
+			<xsl:attribute name="role">ssc</xsl:attribute>
+			<xsl:apply-templates/>
+		</xsl:element>
+	</xsl:template>
+	<xsl:template match="*[local-name()='sv']">
+		<xsl:element name="phrase">
+			<xsl:attribute name="role">ssv</xsl:attribute>
 			<xsl:apply-templates/>
 		</xsl:element>
 	</xsl:template>

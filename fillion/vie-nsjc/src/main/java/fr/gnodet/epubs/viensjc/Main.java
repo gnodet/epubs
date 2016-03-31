@@ -33,7 +33,8 @@ public class Main {
                             new Cover.Break(),
                     },
                     null);
-            writeToFile(coverPng, "target/site/images/" + filename + "-t" + i + ".png");
+            System.out.println("Copying cover to: " + System.getProperty("basedir") + "/target/site/images/");
+            writeToFile(coverPng, System.getProperty("basedir") + "/target/site/images/" + filename + "-t" + i + ".png");
         }
     }
 

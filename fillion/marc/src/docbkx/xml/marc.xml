@@ -7,12 +7,7 @@
 		<title>Évangile selon saint Marc</title>
 		<subtitle>Introduction critique et commentaires</subtitle>
 
-		<author>
-			<personname>
-				<firstname>Abbé Louis-Claude</firstname>
-				<surname>Fillion</surname>
-			</personname>
-		</author>
+		<author><personname>Louis-Claude Fillion</personname></author>
 
 		<mediaobject role="cover" xml:id="coverd">
 			<imageobject role="front-large" remap="lrg">

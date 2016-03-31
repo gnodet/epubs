@@ -9,7 +9,10 @@
 	<packaging>pom</packaging>
 	<artifactId>fillion</artifactId>
 	<modules>
+		<module>intro</module>
 		<module>marc</module>
+		<module>matthieu</module>
 		<module>bible</module>
+		<module>vie-nsjc</module>
 	</modules>
 </project>

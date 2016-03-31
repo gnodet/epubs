@@ -12,6 +12,10 @@
 	<xsl:template name="acknowledgements.titlepage.recto">
 	</xsl:template>
 
+	<xsl:template match="processing-instruction('linebreak')">
+		<br/>
+	</xsl:template>
+
 	<xsl:template match="*[local-name()='bible']">
 		<xsl:element name="i">
 			<xsl:apply-templates/>

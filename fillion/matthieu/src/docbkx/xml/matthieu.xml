@@ -15,12 +15,7 @@
 		<title>Évangile selon saint Matthieu</title>
 		<subtitle>Introduction critique et commentaires</subtitle>
 
-		<author>
-			<personname>
-				<firstname>Louis-Claude</firstname>
-				<surname>Fillion</surname>
-			</personname>
-		</author>
+		<author><personname>Louis-Claude Fillion</personname></author>
 
 		<mediaobject role="cover" xml:id="coverd">
 			<imageobject role="front-large" remap="lrg">
@@ -57,7 +52,6 @@
 		</section>
 	</acknowledgements>
 
-	<!--
 	<xi:include href="matthieu-00.xml">
 		<xi:fallback>
 			<para>
@@ -65,6 +59,7 @@
 			</para>
 		</xi:fallback>
 	</xi:include>
+	<!--
 	<xi:include href="matthieu-01.xml">
 		<xi:fallback>
 			<para>
@@ -79,7 +74,6 @@
 			</para>
 		</xi:fallback>
 	</xi:include>
-	-->
 	<xi:include href="matthieu-03.xml">
 		<xi:fallback>
 			<para>
@@ -101,5 +95,6 @@
 			</para>
 		</xi:fallback>
 	</xi:include>
+		-->
 
 </book>

@@ -11,7 +11,7 @@
 			<xsl:apply-templates/>
 		</xsl:element>
 	</xsl:template>
-	<xsl:template match="*[local-name()='author']">
+	<xsl:template match="*[local-name()='footnote']//*[local-name()='author']">
 		<xsl:element name="phrase">
 			<xsl:attribute name="role">author</xsl:attribute>
 			<xsl:apply-templates/>

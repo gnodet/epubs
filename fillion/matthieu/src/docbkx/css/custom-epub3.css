@@ -38,3 +38,10 @@ body {
 .surname {
 	font-variant: small-caps;
 }
+
+.author{color:crimson;} 
+.citetitle{color:#008000;font-style:italic;} 
+.edition{color:#32cd32;} 
+.ss{color:#0000cd;} 
+.ssc{color:#6495ed;font-variant:small-caps;font-weight:bolder;}
+.ssv{color:#00bfff;font-size:80%;font-weight:bolder;}

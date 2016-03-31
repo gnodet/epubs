@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-        String title = "Évangile selon saint Marc";
+        String title = "Introduction aux Évangiles";
         String creator = "Louis-Claude FILLION";
 
             byte[] coverPng = Cover.generateCoverPng(Math.random(),
