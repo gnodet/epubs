@@ -45,7 +45,7 @@ public class Main {
 
             XhtmlRtfListener listener = new XhtmlRtfListener(livres.getProperty(abbr));
             parser.parse(source, listener);
-            Writer writer = new FileWriter(new File(outputDir, name.substring(0, name.length() - 3) + "html"));
+            Writer writer = new FileWriter(new File(outputDir, name.substring(0, name.length() - 3) + "xhtml"));
             writer.write(listener.getOutput());
             writer.close();
         }
@@ -58,7 +58,8 @@ public class Main {
         index.append("<head>\n" +
                      "  <meta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\" />\n" +
                      "  <style type=\"text/css\">\n" +
-                     "    .numero_verset { vertical-align: super; font-size: 70%; line-height: 80%; }\n" +
+                     "    .numero_verset { vertical-align: baseline; position: relative; top: -0.4em; font-size: 75%; color: #2554C7; font-weight: bold; margin-right: 0.2em; }\n" +
+                     "    a, h1, h2 { color: #2554C7; }\n" +
                      "  </style>\n" +
                      "  <title>Bible</title>\n" +
                      "</head>\n" +
@@ -69,14 +70,14 @@ public class Main {
         index.append("  <ul class='livres'>\n");
 
         toc.append("<items>\n" +
-                   "  <item text=\"Table des matières\" ref=\"index.html\" />\n" +
+                   "  <item text=\"Table des matières\" ref=\"index.xhtml\" />\n" +
                    "  <item text=\"Ancien testament\">\n");
         for (String name : files) {
             if (name.startsWith("at")) {
                 String abbr = name.substring(5, name.length() - 4);
                 String info = livres.getProperty(abbr);
                 String title = info.split(",")[1];
-                String gen = name.replace(".rtf", ".html");
+                String gen = name.replace(".rtf", ".xhtml");
                 index.append("<li><a href='").append(gen).append("'>").append(title).append("</a></li>\n");
                 toc.append("    <item text='").append(title).append("' ref='").append(gen).append("'/>\n");
             }
@@ -93,7 +94,7 @@ public class Main {
                 String abbr = name.substring(5, name.length() - 4);
                 String info = livres.getProperty(abbr);
                 String title = info.split(",")[1];
-                String gen = name.replace(".rtf", ".html");
+                String gen = name.replace(".rtf", ".xhtml");
                 index.append("<li><a href='").append(gen).append("'>").append(title).append("</a></li>\n");
                 toc.append("    <item text='").append(title).append("' ref='").append(gen).append("'/>\n");
             }
@@ -105,13 +106,14 @@ public class Main {
         toc.append("  </item>\n" +
                    "</items>\n");
 
-        Writer writer = new FileWriter(new File(outputDir, "index.html"));
+        Writer writer = new FileWriter(new File(outputDir, "index.xhtml"));
         writer.write(index.toString());
         writer.close();
 
         // Create epub
         String title = "Bible";
         String creator = "Louis-Claude FILLION";
+        String creator2 = "Louis-Claude Fillion";
         String epub = "fillion-bible.epub";
         String tocNcx = EPub.createToc(title, toc.toString());
         byte[] coverPng = Cover.generateCoverPng(Math.random(),
@@ -130,11 +132,11 @@ public class Main {
         resources.put("OEBPS/cover.html",
                 Cover.generateCoverHtml(creator, title, "", creator).getBytes());
         List<File> generated = new ArrayList<File>();
-        generated.add(new File(outputDir, "index.html"));
+        generated.add(new File(outputDir, "index.xhtml"));
         for (String name : files) {
-            generated.add(new File(outputDir, name.replace(".rtf", ".html")));
+            generated.add(new File(outputDir, name.replace(".rtf", ".xhtml")));
         }
-        EPub.createEpub(generated.toArray(new File[generated.size()]), resources, new File("target/" + epub), title, creator, tocNcx);
+        EPub.createEpub(generated.toArray(new File[generated.size()]), resources, new File("target/" + epub), title, creator2, tocNcx);
     }
 
     public static class XhtmlRtfListener extends RtfListenerAdaptor {
@@ -175,7 +177,8 @@ public class Main {
             head.append("<head>\n");
             head.append("  <meta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\" />\n");
             head.append("  <style type=\"text/css\">\n");
-            head.append("    .numero_verset { vertical-align: super; font-size: 70%; line-height: 80%; }\n");
+            head.append("    .numero_verset { vertical-align: baseline; position: relative; top: -0.4em; font-size: 75%; color: #2554C7; font-weight: bold; margin-right: 0.2em; }\n");
+            head.append("    a, h1, h2 { color: #2554C7; }\n");
             head.append("  </style>\n");
             head.append("  <title>").append(title).append("</title>\n");
             head.append("</head>\n");
