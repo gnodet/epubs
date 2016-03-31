@@ -86,6 +86,8 @@ public class EPub {
                     type = "image/png";
                 } else if (resource.getKey().endsWith(".html")) {
                     type = "application/xhtml+xml";
+                } else if (resource.getKey().endsWith(".xhtml")) {
+                    type = "application/xhtml+xml";
                 } else {
                     type = "binary";
                 }
@@ -250,8 +252,8 @@ public class EPub {
 
     private static String getPath(File file) {
         String str = file.toString();
-        if (str.startsWith("target/html/")) {
-            str = str.substring("target/html/".length());
+        if (str.contains("target/html/")) {
+            str = str.substring(str.indexOf("target/html/") + "target/html/".length());
         }
         return str;
     }

@@ -14,12 +14,19 @@ public class IOUtil {
     }
 
     public static String loadTextContent(URL url, String cache, String defaultEncoding) throws IOException {
+        return loadTextContent(url, null, cache, defaultEncoding);
+    }
+
+    public static String loadTextContent(URL url, String cookie, String cache, String defaultEncoding) throws IOException {
         File file = new File(cache);
         file.getParentFile().mkdirs();
 
         if (!file.exists()) {
             URLConnection connection = url.openConnection();
             connection.setRequestProperty("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36");
+            if (cookie != null) {
+                connection.setRequestProperty("Cookie", cookie);
+            }
             InputStream is = connection.getInputStream();
             String encoding = connection.getContentEncoding();
             if (encoding == null) {
