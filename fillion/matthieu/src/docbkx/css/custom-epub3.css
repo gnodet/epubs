@@ -45,3 +45,7 @@ body {
 .ss{color:#0000cd;} 
 .ssc{color:#6495ed;font-variant:small-caps;font-weight:bolder;}
 .ssv{color:#00bfff;font-size:80%;font-weight:bolder;}
+
+span.verse {color:#0000cd;font-style:italic;}
+span.verse-number span.ch {color:#6495ed;font-weight:bolder;}
+span.verse-number span.vr {color:#00bfff;font-size:80%;font-weight:bolder;}
