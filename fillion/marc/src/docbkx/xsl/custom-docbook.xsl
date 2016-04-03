@@ -73,14 +73,19 @@
 				<xsl:value-of select="$lang"/>
 			</xsl:attribute>
 			<xsl:element name="blockquote">
-			<xsl:element name="emphasis">
+			<xsl:element name="para">
+			<xsl:element name="phrase">
+				<xsl:attribute name="role">
+					<xsl:value-of select="'verse'"/>
+				</xsl:attribute>
 				<xsl:call-template name="do-copy-verse">
 					<xsl:with-param name="file" select="$file"/>
 					<xsl:with-param name="ids" select="$ids"/>
 					<xsl:with-param name="lang" select="$lang"/>
 				</xsl:call-template>
 			</xsl:element>
-		</xsl:element>
+			</xsl:element>
+			</xsl:element>
 		</xsl:element>
 	</xsl:template>
 
@@ -109,6 +114,28 @@
 	
 	<xsl:template match="*[local-name()='phrase' and @*[local-name()='href' and not(starts-with(., '#'))]]">
 		<xsl:apply-templates />
+	</xsl:template>
+	
+	<xsl:template match="*[local-name()='phrase' and @role='verse-number']">
+		<xsl:variable name="ch">
+			<xsl:value-of select="substring-before(text(), '.')"/>
+		</xsl:variable>
+		<xsl:variable name="vr">
+			<xsl:value-of select="substring-before(substring(text(), string-length($ch) + 2), '.')"/>
+		</xsl:variable>
+		<xsl:element name="phrase">
+			<xsl:attribute name="role">verse-number</xsl:attribute>
+			<xsl:element name="phrase">
+				<xsl:attribute name="role">ch</xsl:attribute>
+				<xsl:copy-of select="$ch"/>
+			</xsl:element>
+			<xsl:value-of select="'.'"/>
+			<xsl:element name="phrase">
+				<xsl:attribute name="role">vr</xsl:attribute>
+				<xsl:copy-of select="$vr"/>
+			</xsl:element>
+			<xsl:value-of select="'.'"/>
+		</xsl:element>
 	</xsl:template>
 	
 	<xsl:template match="@*|node()">
