@@ -1,5 +1,4 @@
 package fr.gnodet.epubs.enc;
-
 import fr.gnodet.epubs.core.Cover;
 import fr.gnodet.epubs.core.IOUtil;
 import fr.gnodet.epubs.core.Processors;
@@ -8,7 +7,6 @@ import org.apache.batik.transcoder.TranscoderInput;
 import org.apache.batik.transcoder.TranscoderOutput;
 import org.apache.batik.transcoder.image.PNGTranscoder;
 import org.w3c.dom.*;
-
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.awt.*;
 import java.io.*;
@@ -17,7 +15,6 @@ import java.util.*;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 import static fr.gnodet.epubs.core.EPub.createEpub;
 import static fr.gnodet.epubs.core.IOUtil.copy;
 import static fr.gnodet.epubs.core.IOUtil.loadTextContent;
@@ -28,27 +25,19 @@ import static fr.gnodet.epubs.core.Quotes.fixQuotesInParagraph;
 import static fr.gnodet.epubs.core.Tidy.tidyHtml;
 import static fr.gnodet.epubs.core.Tidy.translateEntities;
 import static fr.gnodet.epubs.core.Whitespaces.fixWhitespaces;
-
 public class Main {
-
     static final javax.xml.parsers.DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
-
     public static void main(String[] args) throws Exception {
-
         int nbColumns = 5;
-
         dbf.setNamespaceAware(true);
-
-        StringBuilder indexHtml = new StringBuilder();
-        indexHtml.append("<h3>Lettres encycliques</h3>");
-        indexHtml.append("<table>");
-
+//        StringBuilder indexHtml = new StringBuilder();
+//        indexHtml.append("<h3>Lettres encycliques</h3>");
+//        indexHtml.append("<table>");
         Document enclist = dbf.newDocumentBuilder().parse(Main.class.getResourceAsStream("enc-list.xml"));
         NodeList books = enclist.getDocumentElement().getElementsByTagName("book");
         for (int i = 0; i < books.getLength(); i++) {
 //        for (int i = 17; i < books.getLength(); i++) {
 //        int i = 1; {
-
             Element book = (Element) books.item(i);
             String file = book.getAttribute("file");
             String title = book.getAttribute("title");
@@ -57,10 +46,8 @@ public class Main {
             String date = book.getAttribute("date");
             String full = getFull(creator);
             String output = "enc_" + date + "_hf_" + full + "_" + title.toLowerCase().replaceAll("\\s", "-").replaceAll("æ", "ae");
-
 //            if (!file.contains("francesco")) continue;
 //            if (!file.contains("centesimus")) continue;
-
             byte[] coverPngData = Cover.generateCoverPng(
                     (i * 1.0 / books.getLength()),
                     title,
@@ -74,48 +61,45 @@ public class Main {
                     Main.class.getResource("coa/" + full + ".svg"));
             new File("target/site/images").mkdirs();
             writeToFile(coverPngData, "target/site/images/" + output + ".png");
-            if (i % nbColumns == 0) {
-                indexHtml.append("<tr>");
-            }
-            indexHtml.append("<td><center>")
-                    .append("<a href='epub/").append(output).append(".epub'><img src='images/").append(output).append(".png'/></a>")
-                    .append("<br/><a href='readium-js-viewer/index.html?epub=../library/").append(output).append("'>Lecture</a>")
-                    .append("</center></td>");
-            if ((i + 1) % nbColumns == 0 || i == books.getLength() - 1) {
-                indexHtml.append("</tr>");
-            }
-
-            URL url = new URL("http://www.vatican.va/holy_father/" + full + "/encyclicals/documents/" + file);
-            try {
-                process(url, "target/cache/" + file, "target/html/" + output + ".html", title, full, creator);
-                Map<String, byte[]> resources = new HashMap<String, byte[]>();
-                resources.put("OEBPS/img/" + full + "-bw.svg",
-                              readFully(Main.class.getResource("coa/" + full + "-bw.svg")));
-                resources.put("OEBPS/img/cover.png", coverPngData);
-                resources.put("OEBPS/cover.html", Cover.generateCoverHtml(creator, titlefr, title, full).getBytes());
-                createEpub(new File[] { new File("target/html/" + output + ".html") },
-                           resources,
-                           new File("target/site/epub/" + output + ".epub"),
-                           title, creator, null);
-            } catch (Throwable t) {
-                t.printStackTrace();
-            }
+//            if (i % nbColumns == 0) {
+//                indexHtml.append("<tr>");
+//            }
+//            indexHtml.append("<td><center>")
+//                    .append("<a href='epub/").append(output).append(".epub'><img src='images/").append(output).append(".png'/></a>")
+//                    .append("<br/><a href='readium-js-viewer/index.html?epub=../library/").append(output).append("'>Lecture</a>")
+//                    .append("</center></td>");
+//            if ((i + 1) % nbColumns == 0 || i == books.getLength() - 1) {
+//                indexHtml.append("</tr>");
+//            }
+//            URL url = new URL("http://www.vatican.va/holy_father/" + full + "/encyclicals/documents/" + file);
+//            URL url = new URL("http://w2.vatican.va/content/" + full + "/encyclicals/documents/" + file);
+//            URL url = new URL("http://w2.vatican.va/content/" + full + "/fr/encyclicals/documents/" + file);
+//            try {
+//                process(url, "target/cache/" + file, "target/html/" + output + ".html", title, full, creator);
+//                Map<String, byte[]> resources = new HashMap<String, byte[]>();
+//                resources.put("OEBPS/img/" + full + "-bw.svg",
+//                              readFully(Main.class.getResource("coa/" + full + "-bw.svg")));
+//                resources.put("OEBPS/img/cover.png", coverPngData);
+//                resources.put("OEBPS/cover.html", Cover.generateCoverHtml(creator, titlefr, title, full).getBytes());
+//                createEpub(new File[] { new File("target/html/" + output + ".html") },
+//                           resources,
+//                           new File("target/site/epub/" + output + ".epub"),
+//                           title, creator, null);
+//            } catch (Throwable t) {
+//                t.printStackTrace();
+//            }
         }
-
-        indexHtml.append("</table>");
-        String template = new String(readFully(Main.class.getResource("template.html")));
-        template = template.replace("${TITLE}", "Lettres encycliques");
-        template = template.replace("${CONTENT}", indexHtml.toString());
-        writeToFile(template, "target/site/encycliques.html");
+//        indexHtml.append("</table>");
+//        String template = new String(readFully(Main.class.getResource("template.html")));
+//        template = template.replace("${TITLE}", "Lettres encycliques");
+//        template = template.replace("${CONTENT}", indexHtml.toString());
+//        writeToFile(template, "target/site/encycliques.html");
     }
-
     private static void process(URL url, String cache, String output, String titleLat, String fullCreator, String creator) throws Exception {
         System.out.println("Processing: " + url);
-
         //
         // Grab html
         //
-
         // Load URL text content
         String defaultEncoding;
         if (url.toString().contains("francesco")) {
@@ -124,7 +108,6 @@ public class Main {
             defaultEncoding = "ISO-8859-1";
         }
         String document = loadTextContent(url, cache, defaultEncoding);
-
         // Add doctype if not present
         if (!document.startsWith("<!DOCTYPE")) {
             document = "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n" + document;
@@ -138,9 +121,7 @@ public class Main {
         document = document.replace("<head>", "<head><meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\" />");
         // Delete bad attributes
         document = document.replaceAll("<a title ", "<a ");
-
         // Fix footnotes with missing paragraph and missing closing div tag
-
         // humanae vitae
         document = document.replace("n. 47-52. 5.", "n. 47-52.</FONT></p><p><font>5.");
         document = document.replace("10<i>. </i>Cf. Const. pastorale <i>", "10. <i>Cf. Const. pastorale <i>");
@@ -166,7 +147,6 @@ public class Main {
                 "  &quot; il ne peut y avoir de véritable contradiction entre les lois divines qui règlent\n" +
                 "  la transmission de la vie et celles qui favorisent un authentique amour conjugal (30)\n" +
                 "  &quot;.\n",
-
                 "24. Nous voulons maintenant exprimer Nos encouragements aux\n" +
                 "  hommes de science, qui &quot; peuvent beaucoup pour la cause du mariage et de la famille\n" +
                 "  et pour la paix des consciences si, par l'apport convergent de leurs études, ils\n" +
@@ -179,7 +159,6 @@ public class Main {
                 "  &quot; il ne peut y avoir de véritable contradiction entre les lois divines qui règlent\n" +
                 "  la transmission de la vie et celles qui favorisent un authentique amour conjugal (30)\n" +
                 "  &quot;.\n");
-
         // Tidy Html
         document = tidyHtml(document);
         // Fix encoding
@@ -189,13 +168,10 @@ public class Main {
         document = translateEntities(document);
         // Fix links
         document = Processors.process(document, "href=\"([^#\"][^\"]*)\"", 1, new Processors.RelativeURIProcessor(url.toURI()));
-
         writeToFile(document, output);
-
         //
         // Html clean up
         //
-
         // Remove new lines to simplify
         document = document.replaceAll("[\r\n]+", " ");
         // Delete inlined javascript
@@ -226,7 +202,6 @@ public class Main {
         document = document.replaceAll("<tbody>|</tbody>", "");
         // Remove font styling
         document = document.replaceAll("<font (?:face=\"[^\"]*\" )?size=\"3\">([\\s\\S]*?)</font>", "$1");
-
         document = document.replaceAll("face=\"[^\"]*\"|color=\"[^\"]*\"|size=\"[0-9]\"", "");
         document = document.replaceAll("<font\\s+>", "<font>");
         int index = 0;
@@ -239,7 +214,6 @@ public class Main {
 //        document = document.replaceAll("<font size=\"4\">", "<span class=\"flarge\">");
 //        document = document.replaceAll("<font size=\"5\">", "<span class=\"fxlarge\">");
 //        document = document.replaceAll("</font>", "</span>");
-
         // Clean unneeded span
         document = document.replaceAll("<p><span>([\\s\\S]*?)</span>([\\s\\S]*?)</p>", "<p>$1 $2</p>");
         // Clean paragraphs
@@ -247,10 +221,8 @@ public class Main {
                                        "<p>$1</p>");
         document = document.replaceAll("<i><b><br /> <br /> </b> <br /> <br />", "<br /><br /><i>");
         document = document.replaceAll("\\s*<br />\\s*<br />\\s*", "</p><p>");
-
         // Delete first table
         document = document.replaceFirst("<table[\\s\\S]*?</table>", "");
-
         // Fix for extraction
         document = document.replaceAll("(<p>NOTES</p>|<p><b><br />\\s*NOTES</b></p>)", "<hr /><p><b>$1</b></p>");
         document = document.replaceAll("Sollicitudo rei socialis</i><br />", "Sollicitudo rei socialis</i> ");
@@ -258,7 +230,6 @@ public class Main {
         document = document.replaceAll("<p><b>(<p><b><br /> NOTES</b></p>)</b></p>", "<p><b>NOTES</b></p>");
         // Distribute <center> tags
         document = distribute(document, "center", "p");
-
         // Fix missing paragraphs
         document = replaceAllFull(document, "(<blockquote>.*?)<p>(.*?</blockquote>)", "$1$2");
         document = replaceAllFull(document, "(<blockquote>.*?)</p>(.*?</blockquote>)", "$1<br />$2");
@@ -266,41 +237,42 @@ public class Main {
         document = document.replaceAll("<p><p>", "<p>");
         document = document.replaceAll("</p></p>", "</p>");
         document = document.replaceAll("</p>\\s*<p>\\s*</i>", "</i></p><p>");
-
         // Fix blockquote
         document = document.replaceAll("<p><blockquote>", "<blockquote><p>");
         document = document.replaceAll("</blockquote></p>", "</p></blockquote>");
-
         // Remove first <hr> in lumen fidei
         document = document.replace("<div id=\"corpo\">  <hr />", "<div id=\"corpo\"> ");
         // Remove table containing DOWNLOAD PDF
         document = document.replaceAll("<table[\\s\\S]*?DOWNLOAD PDF[\\s\\S]*?</table>", "");
-
         writeToFile(document, output);
-
         String head = extract(document, "<head>.*?</head>", 0);
         String title = url.toExternalForm().contains("papa-francesco")
                 ? extract(document, "(<p[^>]*>.*?LETTRE ENCYCLIQUE.*?)<p>1\\. ", 1)
+                : url.toExternalForm().contains("pius-xi")
+                ? extract(document, "(<p>LETTRE ENCYCLIQUE.*?</p>)", 1)
                 : extract(document, ".*<td[^>]*>(.*?LETTRE ENCYCLIQUE.*?)(<p><i>|<p><em>|<p><b>|<p[^>]*>(<center>)?\u00a0|</td>|<[^>]*>\\s*INTRO)", 1);
-
+        document = document.replaceAll("<p>NOTES", "<hr><p>NOTES");
+        title = "<b><i> DIVINI REDEMPTORIS </i></p><p></b> LETTRE ENCYCLIQUE <br /> DE SA SAINTETÉ LE PAPE PIE XI <i><br /> </i> LE COMMUNISME ATHÉE</p>";
         String bened = extractFollowingParaContaining(document, ".*[Bb]énédiction.*", document.indexOf(title) + title.length());
         String footnotes = extract(document, "<hr[^>]*>(?:</p>)?(.*?<p.*?)(<p[^>]*>[\\s\u00a0]*</p>|<p><br />|</td>)", 1);
         String copyright = extract(document, ">\\s*(©[^<]*?)\\s*<", 1);
         String main = document.substring(document.indexOf(bened != null ? bened : title) + (bened != null ? bened : title).length(),
                                          document.indexOf(footnotes != null ? footnotes : (copyright != null ? copyright : "</body>")));
+        int idxclearfix = main.indexOf("<p></div>");
+        if (idxclearfix > 0) {
+            main = main.substring(0, idxclearfix);
+        }
 
         if (url.toExternalForm().contains("_redemptor-hominis_")) {
             URL notesUrl = Main.class.getResource("redemptor-hominis-notes.html");
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             copy(notesUrl.openStream(), baos);
             footnotes = baos.toString();
-
         } else if (url.toExternalForm().contains("_centesimus-annus_")) {
             URL notesUrl = Main.class.getResource("centesimus-annus-notes.html");
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             copy(notesUrl.openStream(), baos);
             footnotes = baos.toString();
-
             main = main.replace("des hommes et des peuples.</p>", "des hommes et des peuples (4).</p>");
             main = main.replace("économique et sociale de l'époque.</p>", "économique et sociale de l'époque (11).</p>");
             main = main.replace("à la « propriété privée ».", "à la « propriété privée » (16).");
@@ -308,52 +280,43 @@ public class Main {
             main = main.replace("ni assurer la paix sociale.", "ni assurer la paix sociale (88).");
             main = main.replace("de la raison lui ont fait connaître.</p>", "de la raison lui ont fait connaître (95).</p>");
             main = main.replace("je connaîtrai ma nature ».</p>", "je connaîtrai ma nature » (110).</p>");
-
         } else if (url.toExternalForm().contains("_redemptoris-mater_")) {
             URL notesUrl = Main.class.getResource("redemptoris-mater-notes.html");
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             copy(notesUrl.openStream(), baos);
             footnotes = baos.toString();
-
         } else if (url.toExternalForm().contains("_veritatis-splendor_")) {
             URL notesUrl = Main.class.getResource("veritatis-splendor-notes.html");
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             copy(notesUrl.openStream(), baos);
             footnotes = baos.toString();
-
         } else if (url.toExternalForm().contains("_ut-unum-sint_")) {
             URL notesUrl = Main.class.getResource("ut-unum-sint-notes.html");
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             copy(notesUrl.openStream(), baos);
             footnotes = baos.toString();
-
         } else if (url.toExternalForm().contains("_laborem-exercens_")) {
             URL notesUrl = Main.class.getResource("laborem-exercens-notes.html");
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             copy(notesUrl.openStream(), baos);
             footnotes = baos.toString();
-
         } else if (url.toExternalForm().contains("_slavorum-apostoli_")) {
             URL notesUrl = Main.class.getResource("slavorum-apostoli-notes.html");
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             copy(notesUrl.openStream(), baos);
             footnotes = baos.toString();
-
             main = main.replace("Dieu ».40</p>", "Dieu ». (40)</p>");
             main = main.replaceAll("<p>\\s*<ul>([\\s\\S]*?)</ul>\\s*</p>", "<ul>$1</ul>");
-
         } else if (url.toExternalForm().contains("_dives-in-misericordia_")) {
             URL notesUrl = Main.class.getResource("dives-in-misericordia-notes.html");
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             copy(notesUrl.openStream(), baos);
             footnotes = baos.toString();
-
         } else if (url.toExternalForm().contains("_evangelium-vitae_")) {
             URL notesUrl = Main.class.getResource("evangelium-vitae-notes.html");
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             copy(notesUrl.openStream(), baos);
             footnotes = baos.toString();
-
             main = main.replace("la vie au monde ».102</p>", "la vie au monde ». (102)</p>");
         }
         else if (url.toExternalForm().contains("_mysterium_")) {
@@ -361,14 +324,11 @@ public class Main {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             copy(notesUrl.openStream(), baos);
             footnotes = baos.toString();
-
             writeToFile(main, output);
-
             for (int i = 39; i <= 83; i++) {
                 main = main.replace("(" + i + ")", "(" + (i - 1) + ")");
                 main = main.replace("(<i>" + i + "</i>)", "(" + (i - 1) + ")");
             }
-
             main = main.replace("ne ment pas \"", "ne ment pas \" (6)");
             main = main.replace("d'intelligence plus profonde \".\"", "d'intelligence plus profonde (11)\".");
             main = main.replace("appris du Seigneur", "appris du Seigneur (17)");
@@ -391,7 +351,6 @@ public class Main {
                 int idx = main.lastIndexOf("(" + i + ")");
                 main = main.substring(0, idx) + "(" + (i + 1) + ")" + main.substring(idx + 4);
             }
-
             for (int i = 42; i >= 4; i--) {
                 int idx = footnotes.lastIndexOf("(" + i + ")");
                 footnotes = footnotes.substring(0, idx) + "(" + (i + 1) + ") " + footnotes.substring(idx + 4);
@@ -405,9 +364,7 @@ public class Main {
         } else {
             main = main.replace("le Seigneur l’a choisi", "le Seigneur l’a choisi (36)");
         }
-
         head = head.replaceAll("<title>.*?</title>", "<title>" + titleLat + " - " + creator +  "</title>");
-
         document = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">" +
                 "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr\">" +
                 cleanHead(head) + "<body>" +
@@ -417,10 +374,8 @@ public class Main {
                 (footnotes != null ? "<div id=\"notes\">" + cleanNotes(footnotes) + "</div>" : "") +
                 (copyright != null ? "<div id=\"copyright\">" + cleanCopyright(copyright) + "</div>" : "") +
                 "</body></html>";
-
         writeToFile(document, output);
     }
-
     private static String replaceAllFull(String document, String regexp, String repl) {
         for (;;) {
             String doc = document.replaceAll(regexp, repl);
@@ -431,7 +386,6 @@ public class Main {
             }
         }
     }
-
     private static String distribute(String document, String outer, String inner) {
         Matcher paragraph = Pattern.compile("<" + outer + ">([\\s\\S]*?)</" + outer + ">").matcher(document);
         StringBuilder newDoc = new StringBuilder();
@@ -444,7 +398,6 @@ public class Main {
         newDoc.append(document.substring(start, document.length()));
         return newDoc.toString();
     }
-
     private static String cleanHead(String document) {
         // Remove meta tags with spaces
         document = document.replaceAll("<meta[^>]*name=\"[^\"]* [^\"]*\"[^>]*/>", "");
@@ -474,7 +427,6 @@ public class Main {
                         "</head>");
         return document;
     }
-
     private static String cleanTitle(String document, String creator) {
         document = document.trim();
         document = fixTypos(document);
@@ -518,7 +470,6 @@ public class Main {
         document = "<object width=\"200em\" data=\"img/" + creator + "-bw.svg\" type=\"image/svg+xml\"></object>" + document;
         return document;
     }
-
     private static String cleanBened(String document) {
         document = document.trim();
         document = document.replaceAll("<font[^>]*>|</font>", "");
@@ -528,10 +479,8 @@ public class Main {
         document = fixQuotesInParagraph(document);
         return document;
     }
-
     private static String cleanMain(String document) {
         document = document.replaceAll("&lt;</p>", "</p>");
-
         document = document.substring(document.indexOf("<p"), document.lastIndexOf("</p>") + 4);
         document = document.replaceAll("<font[^>]*>(.*?)</font>", "$1");
         document = document.replaceAll("<p[^>]*>[\\s\u00a0]*</p>", "");
@@ -542,11 +491,9 @@ public class Main {
         document = document.replaceAll("<blockquote>\\s*</blockquote>", "");
         document = document.replaceAll("<table[^>]*>|</table>|<tr[^>]*>|</tr>|<td[^>]*>|</td>", "");
         document = document.replaceAll("<p>\\s*<div>\\s*<div id=\"edn1\">\\s*<hr />\\s*</p>", "<p><hr /></p>");
-
         // Simplify tags
         document = document.replaceAll("<strong>(.*?)</strong>", "<b>$1</b>");
         document = document.replaceAll("<em>(.*?)</em>", "<i>$1</i>");
-
         document = document.replaceAll("\\b(I)(er|ère)\\b", "I<sup>$2</sup>");
         document = document.replaceAll("\\b([IXV][IXV]*)(e|er|ème)\\b", "<span class=\"smallcaps\">$1</span><sup>e</sup>");
         document = document.replaceAll("\\b([IXV][IXV]*)(e|er|ème)\\b", "<span class=\"smallcaps\">$1</span><sup>e</sup>");
@@ -606,7 +553,6 @@ public class Main {
         document = document.replaceAll("Mettez\\. vous", "Mettez-vous");
         document = document.replaceAll("\\( 66 \\)", "(66)");
         document = document.replaceAll("Recevez le Saint-Esprit».", "Recevez le Saint-Esprit» 153.");
-
         // Clean up spaces / tags
         document = document.replaceAll("<b>[\\s\u00a0]*\"[\\s\u00a0]*</b>", "\"");
         document = document.replaceAll("<i[\\s\u00a0]*\"[\\s\u00a0]*</i>", "\"");
@@ -624,14 +570,12 @@ public class Main {
         document = document.replaceAll("(\\s+)</b>", "</b>$1");
         document = document.replaceAll("<b><br /></b>", "<br />");
         document = document.replaceAll("<br /></b>", "</b><br />");
-
         // Clean up italics
         document = document.replaceAll("</i> <i>", " ");
         document = document.replaceAll("cf<i>\\.", "cf.<i>");
         document = document.replaceAll("<i>(\\s+)", "$1<i>");
         document = document.replaceAll("(\\s+)</i>", "</i>$1");
         document = document.replaceAll("([.;:,?!])</i>", "</i>$1");
-
 
         // Process
         document = fixTypos(document);
@@ -640,23 +584,18 @@ public class Main {
         document = fixFootNotes(document);
         document = fixNumberedParagraphs(document);
         document = fixWhitespaces(document);
-
         // Clean end paras
         document = document.replaceAll("</p>\\s*</p>", "</p>");
         document = document.replaceAll("<b>\\s*</p>\\s*<p>\\s*</b>", "</p><p>");
-
         // Replace hr
         document = document.replaceAll("<p>\\s*<hr\\s*/?>\\s*</p>", "<div class=\"hr\"></div>");
-
         return document;
     }
-
     private static String cleanNotes(String document) {
         document = document.replaceAll("Acta Leonis XIII, t\\. XI\"", "Acta Leonis XIII, t. XI");
         document = document.replaceAll("Paoline, 1966\" p", "Paoline, 1966, p");
         document = document.replaceAll(" ler novembre 1885\"", " ler novembre 1885,");
         document = document.replaceAll("423\\. \\(31\\) Cf", "423.<br />(31) Cf");
-
         document = document.trim();
         document = document.replaceAll("<div[^>]*>|</div>|<span[^>]*>|</span>|<font[^>]*>|</font>", "");
         document = document.replaceAll("<table[^>]*>|</table>|<tr[^>]*>|</tr>|<td[^>]*>|</td>", "");
@@ -713,27 +652,21 @@ public class Main {
         document = document.replaceAll("pp\\. 959- 960", "pp. 959-960");
         document = document.replaceAll("p\\. 674- 675", "p. 674-675");
         document = document.replaceAll("<p><b></p><p></b></p>", "");
-
         // Replace hr
         document = document.replaceAll("<p>\\s*<hr\\s*/?>\\s*</p>", "<div class=\"hr\"></div>");
-
         return document.trim();
     }
-
     private static String cleanCopyright(String document) {
         document = "<p>" + document + "</p>";
         return document;
     }
-
     private static String extract(String document, String pattern, int group) {
         return extract(document, pattern, group, 0);
     }
-
     private static String extract(String document, String pattern, int group, int start) {
         Matcher matcher = Pattern.compile(pattern).matcher(document);
         return matcher.find(start) ? matcher.group(group) : null;
     }
-
     private static String extractFollowingParaContaining(String document, String containing, int begin) {
         Matcher paragraph = Pattern.compile("<p[\\s\\S]*?</p>").matcher(document);
         int start = begin;
@@ -753,9 +686,7 @@ public class Main {
             last = paragraph.end();
         }
         return first != 0 ? document.substring(first, last) : null;
-
     }
-
     private static boolean isInside(Matcher matcher, int pos) {
         int start = Math.max(0, pos - 100);
         while (start < pos) {
@@ -770,7 +701,6 @@ public class Main {
         return false;
     }
 
-
     private static String fixBibleRefs(String document) {
         document = document.replaceAll("\\(cf\\. 1 Pierre,", "(cf. <i>1 Pierre</i>,");
         document = document.replaceAll("\\((cf\\. )?(([12] )?[A-Za-z]+\\.?)((\\s*[1-9][0-9]*[,.;-]?)+)\\s*\\)", "($1<i>$2</i>$4)");
@@ -780,7 +710,6 @@ public class Main {
         document = document.replaceAll("(\\((cf\\. )?<i>[^<]*?</i>,? [0-9]+, [0-9]+)\\.\\)", "$1).");
         return document;
     }
-
     private static String fixFootNotes(String document) {
         // Check the kind of foot notes we have so far
         boolean parenthesis = document.indexOf("(1)") >= 0 && document.indexOf("(2)") >= 0 && document.indexOf("(3)") >= 0;
@@ -831,7 +760,6 @@ public class Main {
         document = document.replaceAll("([\\.,;]\\s*)(<span class=\"footnote\".*?</span>)", "$2$1");
         return document;
     }
-
     private static String fixNumberedParagraphs(String document) {
         boolean hasDot = contains(document, "<p[^>]*>7\\. ") && contains(document, "<p[^>]*>8\\. ") && contains(document, "<p[^>]*>9\\. ");
         boolean hasDash = contains(document, "<p[^>]*>7 - ") && contains(document, "<p[^>]*>8 - ") && contains(document, "<p[^>]*>9 - ");
@@ -845,12 +773,10 @@ public class Main {
         }
         return document;
     }
-
     private static boolean contains(String document, String regexp) {
         Matcher matcher = Pattern.compile(regexp).matcher(document);
         return matcher.find();
     }
-
     private static int indexOf(String document, String regexp) {
         Matcher matcher = Pattern.compile(regexp).matcher(document);
         if (matcher.find()) {
@@ -859,12 +785,10 @@ public class Main {
             return -1;
         }
     }
-
     static final Map<Pattern, String> TYPOS;
-
     static {
         TYPOS = new LinkedHashMap<Pattern, String>();
-
+        TYPOS.put(Pattern.compile("Epiphanie"), "Épiphanie");
         TYPOS.put(Pattern.compile("CHRETIEN"), "CHRÉTIEN");
         TYPOS.put(Pattern.compile("EGLISE"), "ÉGLISE");
         TYPOS.put(Pattern.compile("Eglise"), "Église");
@@ -904,7 +828,6 @@ public class Main {
         TYPOS.put(Pattern.compile("CAELIBATUS"), "CÆLIBATUS");
         TYPOS.put(Pattern.compile("OEUVRE"), "ŒUVRE");
         TYPOS.put(Pattern.compile("PRAESTANTISSIMUM"), "PRÆSTANTISSIMUM");
-
         TYPOS.put(Pattern.compile("Incarnation ed la"), "Incarnation de la");
         TYPOS.put(Pattern.compile("\\baue\\b"), "que");
         TYPOS.put(Pattern.compile("\\bI'histoire"), "l'histoire");
@@ -917,12 +840,9 @@ public class Main {
         TYPOS.put(Pattern.compile("([\\.\u00ab]) O "), "$1 Ô ");
         TYPOS.put(Pattern.compile("suismoi"), "suis-moi");
         TYPOS.put(Pattern.compile("L '"), "L'");
-
         TYPOS.put(Pattern.compile("p. MANNA"), "P. MANNA");
         TYPOS.put(Pattern.compile("transperc</i>é"), "transpercé</i>");
-
         TYPOS.put(Pattern.compile("\\.\\.\\."), "…");
-
         // Split words
         TYPOS.put(Pattern.compile("mul- tiples"), "multiples");
         TYPOS.put(Pattern.compile("té- nèbres"), "ténèbres");
@@ -973,31 +893,30 @@ public class Main {
         TYPOS.put(Pattern.compile("Ephè- se"), "Éphèse");
         TYPOS.put(Pattern.compile("ré- pondre"), "répondre");
         TYPOS.put(Pattern.compile("œcumé- nique"), "œcuménique");
-
         TYPOS.put(Pattern.compile("10, 16- 17"), "10, 16-17");
     }
-
     private static String fixTypos(String document) {
         for (Map.Entry<Pattern, String> typo : TYPOS.entrySet()) {
             document = typo.getKey().matcher(document).replaceAll(typo.getValue());
         }
         return document;
     }
-
     private static String getFull(String name) {
         if ("Benoît XVI".equals(name)) {
-            return "benedict_xvi";
+            return "benedict-xvi";
         } else if ("Jean-Paul II".equals(name)) {
-            return "john_paul_ii";
+            return "john-paul-ii";
         } else if ("Paul VI".equals(name)) {
-            return "paul_vi";
+            return "paul-vi";
         } else if ("François".equals(name)) {
             return "francesco";
         } else if ("Léon XIII".equals(name)) {
-            return "leo_xiii";
+            return "leo-xiii";
+        } else if ("Pie XI".equals(name)) {
+            return "pius-xi";
         }
         throw new IllegalStateException("Unknown: " + name);
     }
-
-
+    // http://w2.vatican.va/content/pius-xi/fr/encyclicals/documents/hf_p-xi_enc_19280106_mortalium-animos.html
+    // http://w2.vatican.va/content/pius_xi/fr/encyclicals/documents/hf_p-xi_enc_19280106_mortalium-animos.html
 }
