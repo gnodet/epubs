@@ -13,7 +13,7 @@
 		<productnumber><?eval ${project.version}?></productnumber>
 		<title>Æterni Patris</title>
 		<subtitle>La philosophie chrétienne</subtitle>
-		<author><personname>Pie XI</personname></author>
+		<author><personname>Léon XIII</personname></author>
 		<mediaobject role="cover" xml:id="coverd">
 			<imageobject role="front-large" remap="lrg">
 				<imagedata format="PNG" fileref="cover.png"/>
