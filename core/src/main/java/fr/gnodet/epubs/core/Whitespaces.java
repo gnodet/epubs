@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class Whitespaces {
 
     public static String fixWhitespaces(String document) {
-        Matcher paragraph = Pattern.compile("<p[\\s\\S]*?</p>").matcher(document);
+        Matcher paragraph = Pattern.compile("<p>([^<]+|<(?!p>)|<footnote><p>[\\s\\S]*?</p></footnote>)*?</p>").matcher(document);
         StringBuilder newDoc = new StringBuilder();
         int start = 0;
         while (paragraph.find(start)) {
@@ -46,6 +46,13 @@ public class Whitespaces {
     }
 
     public static String fixWhitespacesInParagraph(String text) {
+        text = text.replaceAll("\\bCf\\. ", "Cf.\u00A0");
+        text = text.replaceAll("\\bcf\\. ", "cf.\u00A0");
+        text = text.replaceAll("\\bp\\. ([0-9])", "p.\u00A0$1");
+        text = text.replaceAll("\\bpp\\. ([0-9])", "pp.\u00A0$1");
+        text = text.replaceAll("\\bq\\. ([0-9])", "q.\u00A0$1");
+        text = text.replaceAll("\\p{IsWhitespace}+<footnote>", "<footnote>");
+
         text = text.replaceAll("\n", " ");
         text = text.replaceAll("(\\s+)(</[^>]*>)", "$2$1");
         text = text.replaceAll("«\\s*", "«\u00A0");
@@ -58,8 +65,10 @@ public class Whitespaces {
         text = text.replaceAll("\\s*\\?\\s*", "\u00A0? ");
         text = text.replaceAll("\\(\\s*", "(");
         text = text.replaceAll("\\s*\\)", ")");
-        text = text.replaceAll("\\s*\\.([^<])", ". $1");
+        text = text.replaceAll("\\s*\\.([^<\\)])", ". $1");
         text = text.replaceAll("\\s*,\\s*", ", ");
+        text = text.replaceAll("\\s*…\\s*", "… ");
+        text = text.replaceAll("… ([\\)\\]])", "…$1");
         text = text.replaceAll("( *\u00A0 *)( *\u00A0 *)*", "\u00A0");
         text = text.replaceAll(" +", " ");
         text = text.replaceAll("([\\s\u00A0])-([\\s\u00a0,])", "$1\u2014$2");
@@ -68,6 +77,8 @@ public class Whitespaces {
         text = text.replaceAll("&([A-Za-z]+)\u00a0;", "&$1;");
         // Fix back broken paragraph numeration
         text = text.replaceAll("([0-9])\\. ([0-9])\\)", "$1.$2)");
+        // Fix back broken xml attributes
+        text = text.replaceAll("(<[^>]+?)\u00a0: ([^>]+>)", "$1:$2");
         return text;
     }
 

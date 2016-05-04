@@ -10,7 +10,7 @@ public class Quotes {
     static final int CLOSE = 2;
 
     public static String fixQuotes(String document) {
-        Matcher paragraph = Pattern.compile("<p[\\s\\S]*?</p>").matcher(document);
+        Matcher paragraph = Pattern.compile("<p>([^<]+|<(?!p>)|<footnote><p>[\\s\\S]*?</p></footnote>)*?</p>").matcher(document);
         StringBuilder newDoc = new StringBuilder();
         int start = 0;
         while (paragraph.find(start)) {

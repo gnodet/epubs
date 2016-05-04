@@ -12,10 +12,15 @@ public class Tidy {
         writer = new StringWriter();
         org.w3c.tidy.Tidy tidy = new org.w3c.tidy.Tidy();
         tidy.setXHTML(true);
+        tidy.setMakeBare(true);
+        tidy.setXmlOut(true);
+        tidy.setOutputEncoding("UTF-8");
 //        tidy.getConfiguration().printConfigOptions(new OutputStreamWriter(System.err), true);
         tidy.parse(new StringReader(document), writer);
         writer.close();
-        document = writer.toString();
+        if (!writer.toString().isEmpty()) {
+            document = writer.toString();
+        }
         return document;
     }
 

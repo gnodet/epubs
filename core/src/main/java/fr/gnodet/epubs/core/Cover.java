@@ -228,7 +228,9 @@ public class Cover {
             double ih = new Double(viewBox[3]);
             double rw = svgHeight * iw / ih;
             double x = (width - rw) / 2;
-            sb.append("<svg y=\"" + svgBox.getMinY() + "\" x=\"").append(x).append("\" height=\"" + svgHeight + "\" >")
+            sb.append("<svg y=\"").append(svgBox.getMinY()).append("\"")
+                    .append(" x=\"").append(x).append("\"")
+                    .append(" height=\"").append(svgHeight).append("\" >")
                     .append(innerSvg)
                     .append("</svg>");
         } else if (photo != null) {
