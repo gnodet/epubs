@@ -24,7 +24,7 @@
 
 	<chapter>
 		<title>AD BEATISSIMI APOSTOLORUM PRINCIPIS</title>
-		<subtitle>LETTRE ENCYCLIQUE<?linebreak?>DE SA SAINTETÉ LE PAPE BENOÎT XV</subtitle>
+		<subtitle>LETTRE ENCYCLIQUE<br/>DE SA SAINTETÉ LE PAPE BENOÎT XV</subtitle>
 		<mediaobject>
 			<imageobject>
 				<imagedata align="center" fileref="benedict-xv-bw.svg" format="SVG"/>

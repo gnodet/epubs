@@ -22,8 +22,8 @@
 	</info>
 	<chapter>
 	<title>RERUM NOVARUM</title>
-	<subtitle>LETTRE ENCYCLIQUE<?linebreak?>
-DE SA SAINTETÉ<?linebreak?>LE PAPE LÉON XIII</subtitle>
+	<subtitle>LETTRE ENCYCLIQUE<br/>
+DE SA SAINTETÉ<br/>LE PAPE LÉON XIII</subtitle>
 	<mediaobject>
 		<imageobject>
 			<imagedata align="center" fileref="leo-xiii-bw.svg" format="SVG"/>
