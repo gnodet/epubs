@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="preview.xsl"?>
+<book xmlns="http://docbook.org/ns/docbook"
+	  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xmlns:xi="http://www.w3.org/2001/XInclude"
+	  xmlns:xlink="http://www.w3.org/1999/xlink"
+	  xml:id="mysterium-fidei" version="5.0"
+	  xml:lang="fr"
+	  xsi:schemaLocation="
+	  	http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/xsd/docbook.xsd
+	  	http://www.w3.org/1999/xlink http://www.docbook.org/xml/5.0/xsd/xlink.xsd ">
+	<info>
+		<productnumber><?eval ${project.version}?></productnumber>
+		<title>Evangelii Nuntiandi</title>
+		<subtitle>Mystère de la foi</subtitle>
+		<author><personname>Paul VI</personname></author>
+		<mediaobject role="cover" xml:id="coverd">
+			<imageobject role="front-large" remap="lrg">
+				<imagedata format="PNG" fileref="cover.png"/>
+			</imageobject>
+		</mediaobject>
+	</info>
+	<chapter>
+		<title>EVANGELII NUNTIANDI</title>
+		<subtitle>LETTRE ENCYCLIQUE<br/>DE SA SAINTETÉ LE PAPE PAUL VI</subtitle>
+		<mediaobject>
+			<imageobject>
+				<imagedata align="center" fileref="paul-iv-bw.svg" format="SVG"/>
+			</imageobject>
+		</mediaobject>
+		<section>
+			<title>PRÉAMBULE</title>
+			<p><i>À Nos Vénérables Frères les Patriarches, Primats, Archevêques, Évêques et autres Ordinaires des lieux, au clergé et aux fidèles du monde entier</i></p>
+			<p><i>Vénérables Frères et cher Fils,<br/>Salut et bénédiction apostolique</i></p>
+			<section>
+				<title>Encouragement particulier à l'évangélisation</title>
+				<p><np>1</np>L'EFFORT POUR ANNONCER l'Evangile aux hommes de notre temps, exaltés par l'espérance mais en même temps travaillés souvent par la peur et l'angoisse, est sans nul doute un service rendu à la communauté des chrétiens, mais aussi à toute l'humanité.</p>
+				<p>C'est pourquoi le devoir de confirmer les frères, que Nous avons reçu du Seigneur avec la charge de Successeur de Pierre (Lc 22,32), et qui est pour Nous une "<i>préoccupation quotidienne</i>" (2Co 11,28). un programme de vie et d'action, et un engagement fondamental de notre pontificat, ce devoir Nous paraît encore plus noble et nécessaire lors qu'il s'agit d'encourager nos frères dans la mission d'évangélisateurs pour que, en ces temps d'incertitude et de désarroi, ils l'accomplissent avec toujours plus d'amour, de zèle et de joie.</p>
+			</section>
+			<section>
+				<title>A l'occasion de trois événements</title>
+				<p><np>2</np>C'est bien ce que Nous voulons faire ici, au terme de cette Année Sainte au long de laquelle l'Eglise, "<i>tendue de tout son effort vers la prédication de l'Evangile à tous les hommes</i>" (AGD 1), n'a voulu rien d'autre qu'accomplir son office de messagère de la Bonne Nouvelle de Jésus-Christ, proclamée à partir de deux consignes fondamentales: "<i>Revêtez l'homme nouveau</i>" (Ep 4,24 ; Ep 2,15 ; Col 3,10 ; Ga 3,27 ; Rm 13,14 ; 2Co 5,17) et " <i>Laissez-vous réconcilier avec Dieu</i>" (2Co 5,20).</p>
+				<p>Nous voulons le faire en ce dixième anniversaire de la clôture du Concile Vatican II dont les objectifs se résument, en définitive, en un seul : rendre l'Eglise du XXe siècle encore plus apte à annoncer l'Evangile à l'humanité du XXe siècle.</p>
+				<p>Nous voulons le faire un an après la IIIe Assemblée générale du Synode des Evêques - consacrée, on le sait, à l'évangélisation -, d'autant plus que cela Nous a été demandé par les Pères synodaux eux-mêmes. En effet, à l'issue de cette mémorable Assemblée, ils ont décidé de remettre au Pasteur de l'Eglise universelle, avec beaucoup de confiance et de simplicité, le fruit de tout leur labeur, déclarant qu'ils attendaient du Pape un élan nouveau, capable de créer, dans une Eglise encore plus enracinée dans la force et la puissance immortelles de la Pentecôte, des temps nouveaux d'évangélisation<footnote><p>Paul VI, Allocution pour la clôture de la IIIe assemblée générale du Synode des Evêques, 26/10/1974</p></footnote>.</p>
+			</section>
+			<section>
+				<title>Thème souvent souligné au cours de notre pontificat</title>
+				<p><np>3</np>Ce thème de l'évangélisation, Nous en avons souligné l'importance à plusieurs reprises, bien avant les journées du Synode. "<i>Les conditions de la société - disions-Nous au Sacré Collège des Cardinaux, le 22 juin 1973 - nous obligent tous à réviser les méthodes, à chercher par tous les moyens à étudier comment faire arriver à l'homme moderne le message chrétien dans lequel il peut trouver la réponse à ses interrogations et la force pour son engagement de solidarité humaine</i>". Et Nous ajoutions que pour donner une réponse valable aux exigences du Concile qui nous interpellent, il faut absolument nous mettre en face d'un patrimoine de foi que l'Eglise a le devoir de préserver dans sa pureté intangible, mais le devoir aussi de présenter aux hommes de notre temps, autant que possible, d'une façon compréhensible et persuasive.</p>
+			</section>
+			<section>
+				<title>Dans la ligne du Synode de 1974</title>
+				<p><np>4</np>Cette fidélité à un message dont nous sommes les serviteurs, et aux personnes à qui nous devons le transmettre intact et vivant, est l'axe central de l'évangélisation. Elle pose trois questions brûlantes, que le Synode de 1974 a eues constamment devant les yeux :<br/>
+				- Qu'est devenue, de nos jours, cette énergie cachée de la Bonne Nouvelle, capable de frapper profondément la conscience de l'homme?<br/>
+				- Jusqu'à quel point et comment cette force évangélique est-elle en mesure de transformer vraiment l'homme de ce siècle?<br/>
+				- Suivant quelles méthodes faut-il proclamer l'Evangile pour que sa puissance soit efficace?</p>
+				<p>Ces interrogations explicitent, au fond, la question fondamentale que l'Eglise se pose aujourd'hui et que l'on pourrait traduire ainsi : après le Concile et grâce au Concile, qui a été pour elle une heure de Dieu en ce tournant de l'histoire, l'Eglise se trouve-t-elle, oui ou non, plus apte à annoncer l'Evangile et à l'insérer dans le coeur de l'homme avec conviction, liberté d'esprit et efficacité ?</p>
+			</section>
+			<section>
+				<title>Invitation à la réflexion</title>
+				<p><np>5</np>Nous voyons tous l'urgence de donner à cette question une réponse loyale, humble, courageuse, et d'agir en conséquence.</p>
+				<p>Dans notre "<i>sollicitude pour toutes les Eglises</i>" (2Co 11,28), Nous voudrions aider nos frères et fils à répondre à ces interpellations. Puissent nos paroles, qui voudraient être, à partir des richesses du Synode, une réflexion sur l'évangélisation, inviter à la même réflexion tout le Peuple de Dieu rassemblé dans l'Eglise, et servir d'élan nouveau à tous, spécialement à ceux "<i>qui peinent à la parole et à l'enseignement</i>" (1Tm 5,17), afin que chacun d'eux soit "<i>un fidèle dispensateur de la Parole de vérité</i>" (2Tm 2,15), fasse oeuvre de prédicateur de l'Evangile et s'acquitte à la perfection de son ministère.</p>
+				<p>Une telle Exhortation Nous est apparue capitale, car la présentation du message évangélique n'est pas pour l'Eglise une contribution facultative : c'est le devoir qui lui incombe, par mandat du Seigneur Jésus, afin que les hommes puissent croire et être sauvés. Oui, ce message est nécessaire. Il est unique. Il ne saurait être remplacé. Il ne souffre ni indifférence, ni syncrétisme, ni accommodation. C'est le salut des hommes qui est en cause. C'est la beauté de la Révélation qu'il représente. Il comporte une sagesse qui n'est pas de ce monde. Il est capable de susciter, par lui-même, la foi, une foi qui repose sur la puissance de Dieu (1Co 2,5). Il est la Vérité. Il mérite que l'apôtre y consacre tout son temps, toutes ses énergies, y sacrifie, au besoin, sa propre vie.</p>
+			</section>
+		</section>
+		<section>
+			<title><ns>I</ns>DU CHRIST EVANGELISATEUR A UNE EGLISE EVANGELISATRICE</title>
+			<section>
+				<title>Témoignage et mission de Jésus</title>
+				<p><np>6</np>Le témoignage que le Seigneur donne de lui-même et que saint Luc a recueilli dans son Evangile - "<i>Je dois annoncer la Bonne Nouvelle du Royaume de Dieu</i>" (Lc 4,43) a sans doute une grande portée, car il définit d'un mot toute la mission de Jésus: <i>Pour cela j'ai été envoyé</i> (Lc 4,43). Ces paroles prennent toute leur signification si on les rapproche des versets antérieurs où le Christ venait de s'appliquer à lui-même le mot du prophète Isaïe : "<i>L'Esprit du Seigneur est sur moi, parce qu'il m'a consacré par l'onction. Il m'a envoyé porter la Bonne Nouvelle aux pauvres</i>" (Is 61,1 ; Lc 4,18).</p>
+				<p>Proclamer de ville en ville, surtout aux plus pauvres qui sont souvent les plus accueillants, la joyeuse annonce de l'accomplissement des promesses et de l'Alliance proposées par Dieu, telle est la mission pour laquelle Jésus se déclare envoyé par le Père. Et tous les aspects de son Mystère - l'Incarnation elle-même, les miracles, l'enseignement, le rassemblement des disciples, l'envoi des Douze, la croix et la résurrection, la permanence de sa présence au milieu des siens - font partie de son activité évangélisatrice.</p>
+			</section>
+			<section>
+				<title>Jésus, premier Evangélisateur</title>
+				<p><np>7</np>Bien souvent au cours du Synode, les Evêques ont rappelé cette vérité : Jésus lui-même, Evangile de Dieu (Mc 1,1 ; Rm 1,1-3), a été le tout premier et le plus grand évangélisateur. Il l'a été jusqu'au bout : jusqu'à la perfection, jusqu'au sacrifice de sa vie terrestre.</p>
+				<p>Evangéliser : quelle signification cet impératif a-t-il eue pour le Christ? Il n'est certes pas aisé d'exprimer, dans une synthèse complète, le sens, le contenu, les modes de l'évangélisation telle que Jésus la concevait et l'a réalisée. D'ailleurs une telle synthèse ne pourra jamais être terminée. Qu'il Nous suffise de rappeler quelques aspects essentiels.</p>
+			</section>
+			<section>
+				<title>L'annonce du Règne de Dieu</title>
+				<p><np>8</np>Evangélisateur, le Christ annonce tout d'abord un Règne, le Règne de Dieu, tellement important que, par rapport à lui, tout devient "<i>le reste</i>", qui est "<i>donné par surcroît</i>" (Mt 6,33). Seul le Règne est donc absolu et il relativise tout ce qui n'est pas lui. Le Seigneur se plaira à décrire sous mille formes diverses le bonheur d'appartenir à ce Règne bonheur paradoxal fait de choses que le monde rejette (Mt 5,3-12). les exigences du Règne et sa charte (Mt 5–7), les hérauts du Règne (Mt 10), ses mystères (Mt 13), ses enfants (Mt 18), la vigilance et la fidélité demandées à quiconque attend son avènement définitif (Mt 24-25). </p>
+			</section>
+			<section>
+				<title>L'annonce du Salut libérateur</title>
+				<p><np>9</np>Comme noyau et centre de sa Bonne Nouvelle, le Christ annonce le salut, ce grand don de Dieu qui est libération de tout ce qui opprime l'homme mais qui est surtout libération du péché et du Malin, dans la joie de connaître Dieu et d'être connu de lui, de le voir, d'être livré à lui. Tout cela commence durant la vie du Christ, est définitivement acquis par sa mort et sa résurrection, mais doit être patiemment conduit au cours de l'histoire, pour être pleinement réalisé au jour de l'Avènement définitif du Christ, dont nul ne sait quand il aura lieu, sauf le Père (Mt 24,36 ; Ac 1,7 ; 1Th 5,1-2).</p>
+			</section>
+			<section>
+				<title>Au prix d'un effort crucifiant</title>
+				<p><np>10</np>Ce Règne et ce salut, mots-clés de l'évangélisation de Jésus-Christ, tout homme peut les recevoir comme grâce et miséricorde, et pourtant simultanément chacun doit les conquérir par la force - ils appartiennent aux violents, dit le Seigneur (Mt 11,12 ; Lc 16,16) - par la fatigue et la souffrance, par une vie selon l'Evangile, par le renoncement et la croix, par l'esprit des béatitudes. Mais, avant tout, chacun les conquiert moyennant un total renversement intérieur que l'Evangile désigne sous le nom de "<i>metanoia</i>", une conversion radicale, un changement profond du regard et du coeur (Mt 4,17). </p>
+			</section>
+			<section>
+				<title>Prédication infatigable</title>
+				<p><np>11</np>Cette proclamation du Royaume de Dieu, le Christ l'accomplit par la prédication infatigable d'une parole dont on dira qu'elle ne trouve d'égale nulle part ailleurs : "<i>Voilà un enseignement nouveau, donné avec autorité !</i>" (Mc 1,27) ; "<i>Et tous lui rendaient témoignage et étaient en admiration devant les paroles pleines de grâce qui sortaient de sa bouche</i>" (Lc 4,22). ; "<i>Jamais homme n'a parlé comme cet homme !</i>" (Jn 7,46). Ses paroles dévoilent le secret de Dieu, son dessein et sa promesse, et changent par là le coeur de l'homme et son destin.</p>
+			</section>
+			<section>
+				<title>Avec des signes évangéliques</title>
+				<p><np>12</np>Mais il réalise également cette proclamation par d'innombrables signes qui font la stupeur des foules et en même temps les entraînent vers lui pour le voir, l'écouter et se laisser transformer par lui : malades guéris, eau changée en vin, pain multiplié, morts qui reviennent à la vie. Et entre tous, le signe auquel il donne une grande importance : les petits, les pauvres sont évangélisés, deviennent ses disciples, se réunissent "<i>en son Nom</i>" dans la grande communauté de ceux qui croient en lui. Car ce Jésus qui déclarait : "<i>Je dois annoncer la bonne nouvelle du Royaume de Dieu</i>" (Lc 4,43), est le même Jésus dont Jean l'Evangéliste disait qu'il était venu et devait mourir "<i>pour rassembler dans l'unité les enfants de Dieu dispersés</i>" (Jn 11,52). Ainsi achève-t-il sa révélation, en la complétant et en la confirmant, par toute la manifestation qu'il fait de lui-même, par paroles et oeuvres, par signes et miracles, et plus particulièrement par sa mort, par sa résurrection et par l'envoi de l'Esprit de Vérité (DV 4). </p>
+			</section>
+			<section>
+				<title>Pour une communauté évangélisée et évangélisatrice</title>
+				<p><np>13</np>Ceux qui accueillent avec sincérité la Bonne Nouvelle, par la force de cet accueil et de la foi partagée, se réunissent donc au Nom de Jésus pour chercher ensemble le Règne, le construire, le vivre. Ils constituent une communauté qui est à son tour évangélisatrice. L'ordre donné aux Douze - "<i>Allez, proclamez la Bonne Nouvelle</i>" - vaut aussi, quoique d'une façon différente, pour tous les chrétiens. C'est bien pour cela que Pierre appelle ces derniers "<i>un peuple acquis en vue d'annoncer les merveilles</i>" de Dieu (1P 2,9), ces mêmes merveilles que chacun a pu écouter dans sa propre langue (Ac 2,11). Du reste, la Bonne Nouvelle du Règne qui vient et qui a commencé est pour tous les hommes de tous les temps. Ceux qui l'ont reçue, ceux qu'elle rassemble dans la communauté du salut, peuvent et doivent la communiquer et la diffuser.</p>
+			</section>
+			<section>
+				<title>Evangélisation, vocation propre de l'Eglise.</title>
+				<p><np>14</np>L'Eglise le sait. Elle a une vive conscience que la parole du Sauveur - "<i>Je dois annoncer la bonne nouvelle du Royaume de Dieu</i>" (Lc 4,43) - s'applique en toute vérité à elle. Elle ajoute volontiers avec Saint Paul : "<i>Pour moi, évangéliser ce n'est pas un titre de gloire, c'est une obligation. Malheur à moi si je n'évangélise pas !</i>" (1Co 9,16). C'est avec joie et réconfort que Nous avons entendu, au terme de la grande assemblée d'octobre 1974, ces paroles lumineuses : "<i>Nous voulons confirmer une fois de plus que la tâche d'évangéliser tous les hommes constitue la mission essentielle de l'Eglise</i>", (Déclaration des Pères du Synode n. 4) tâche et mission que les mutations vastes et profondes de la société actuelle ne rendent que plus urgentes. Evangéliser est, en effet, la grâce et la vocation propre de l'Eglise, son identité la plus profonde. Elle existe pour évangéliser, c'est-à-dire pour prêcher et enseigner, être le canal du don de la grâce, réconcilier les pécheurs avec Dieu, perpétuer le sacrifice du Christ dans la sainte messe, qui est le mémorial de sa mort et de sa résurrection glorieuse.</p>
+			</section>
+			<section>
+				<title>Liens réciproques entre l'Eglise et l'évangélisation</title>
+				<p><np>15</np>Quiconque relit dans le Nouveau Testament les origines de l'Eglise suit pas à pas son histoire et la regarde vivre et agir, voit qu'elle est liée à l'évangélisation par ce qu'elle a de plus intime.</p>
+				<p>— L'Eglise naît de l'action évangélisatrice de Jésus et des Douze. Elle en est le fruit normal, voulu, le plus immédiat et le plus visible : "<i>Allez donc, de toutes les nations faites des disciples</i>" (Mt 28,19). Or, "<i>ceux qui accueillirent la Parole furent baptisés et environ trois mille se sont réunis à eux Et le Seigneur augmentait tous les jours ceux qui embrassaient le Salut</i>" (Ac 2,41 ; Ac 2,47).</p>
+				<p>— Née par conséquent de la mission, l'Eglise est à son tour envoyée par Jésus. L'Eglise reste dans le monde lorsque le Seigneur de gloire retourne au Père. Elle reste comme un signe à la fois opaque et lumineux d'une nouvelle présence de Jésus, de son départ et de sa permanence. Elle le prolonge et le continue. Or, c'est avant tout sa mission et sa condition d'évangélisateur qu'elle est appelée à continuer (LG 8 ; AGD 5). Car la communauté des chrétiens n'est jamais close en elle-même. En elle la vie intime - vie de prière, écoute de la Parole et de l'enseignement des Apôtres, charité fraternelle vécue, pain partag (Ac 2,42-46 ; Ac 4,32-35 ; Ac 5,12-16). - n'a tout son sens que lorsqu'elle devient témoignage, provoque l'admiration et la conversion, se fait prédication et annonce de la Bonne Nouvelle. C'est ainsi toute l'Eglise qui reçoit mission d'évangéliser, et l'oeuvre de chacun est importante pour le tout.</p>
+				<p>— Evangélisatrice, l'Eglise commence par s'évangéliser elle- même. Communauté de croyants, communauté de l'espérance vécue et communiquée, communauté d'amour fraternel, elle a besoin d'écouter sans cesse ce qu'elle doit croire, ses raisons d'espérer, le commandement nouveau de l'amour. Peuple de Dieu immergé dans le monde, et souvent tenté par les idoles, elle a toujours besoin d'entendre proclamer les grandes ouvres de Die (Ac 2,11 ; 1P 2,9). qui l'ont convertie au Seigneur, d'être à nouveau convoquée par lui et réunie. Cela veut dire, en un mot, qu'elle a toujours besoin d'être évangélisée, si elle veut garder fraîcheur, élan et force pour annoncer l'Evangile. Le Concile Vatican II a rappel (AGD 5 ; AGD 11-12). et le Synode de 1974 a fortement repris ce thème de l'Eglise qui s'évangélise par une conversion et une rénovation constantes, pour évangéliser le monde avec crédibilité.</p>
+				<p>— L'Eglise est dépositaire de la Bonne Nouvelle à annoncer. Les promesses de l'Alliance Nouvelle en Jésus-Christ, l'enseignement du Seigneur et des Apôtres, la Parole de vie, les sources de la grâce et de la bénignité de Dieu, le chemin du salut, tout cela lui a été confié. C'est le contenu de l'Evangile, et donc de l'évangélisation, qu'elle garde comme un dépôt vivant et précieux, non pour le tenir caché mais pour le communiquer.</p>
+				<p>— Envoyée et évangélisée, l'Eglise elle-même envoie des évangélisateurs. Elle met dans leur bouche la Parole qui sauve, elle leur explique le message dont elle-même est dépositaire, elle leur donne le mandat qu'elle-même a reçu et les envoie prêcher. Prêcher non leurs propres personnes ou leurs idées personnelles (2Co 4,5), (Cf. St Augustin, Sermo XLVI de pastoribus) mais un Evangile dont ni eux ni elle ne sont maîtres et propriétaires absolus pour en disposer à leur gré, mais dont ils sont ministres pour le transmettre avec une extrême fidélité.</p>
+			</section>
+			<section>
+				<title>L'Eglise, inséparable du Christ</title>
+				<p><np>16</np>Il y a donc un lien profond entre le Christ, l'Eglise et l'évangélisation. Pendant ce "<i>tempus Ecclesiae</i>", c'est l'Eglise qui a la tâche d'évangéliser. Cette tâche ne s'accomplit pas sans elle, encore moins contre elle.</p>
+				<p>Il convient certes de le rappeler à un moment où, non sans douleur, Nous pouvons entendre des personnes, que Nous voulons croire bien intentionnées mais certainement désorientées dans leur esprit, répéter qu'elles prétendent aimer le Christ mais sans l'Eglise, écouter le Christ mais non l'Eglise, être au Christ mais en dehors de l'Eglise. L'absurde de cette dichotomie apparaît nettement dans cette parole de l'Evangile : "<i>Qui vous rejette, me rejette</i>" (Lc 10,16) <footnote><p>St Cyprien, De unitate Ecclesiae, 14 ; St Augustin Enarrat. 88 sermo 2,14 ; S J. Chrysostome, Hom. de Capto Eutropio, 6</p></footnote>. Et comment vouloir aimer le Christ sans aimer l'Eglise, si le plus beau témoignage rendu au Christ est celui de saint Paul : "<i>Il a aimé 1'Eglise, il s'est livré pour Elle</i>" (Ep 5,25). </p>
+			</section>
+		</section>
+		<section>
+			<title><ns>II</ns>QU'EST-CE QU'EVANGELISER?</title>
+			<section>
+				<title>Complexité de l'action évangélisatrice</title>
+				<p><np>17</np>Dans l'action évangélisatrice de l'Eglise, il y a certainement des éléments et des aspects à retenir. Certains sont tellement importants que l'on aura tendance à les identifier simplement avec l'évangélisation. L'on a pu ainsi définir l'évangélisation en termes d'annonce du Christ à ceux qui l'ignorent, de prédication, de catéchèse, de baptême et d'autres sacrements à conférer.</p>
+				<p>Aucune définition partielle et fragmentaire ne donne raison de la réalité riche, complexe et dynamique qu'est l'évangélisation, sinon au risque de l'appauvrir et même de la mutiler. Il est impossible de la saisir si l'on ne cherche pas à embrasser du regard tous ses éléments essentiels.</p>
+				<p>Ces éléments fortement soulignés au cours du Synode, on les approfondit souvent encore, ces temps-ci, sous l'influence du travail synodal. Nous nous réjouissons de ce qu'ils se situent, au fond, dans la ligne de ceux que le Concile Vatican II nous a transmis, surtout dans les Constitutions <i>Lumen gentium, Gaudium et spes</i> et dans le Décret <i>Ad gentes</i>.</p>
+			</section>
+			<section>
+				<title>Renouvellement de l'humanité</title>
+				<p><np>18</np>Evangéliser, pour l'Eglise, c'est porter la Bonne Nouvelle dans tous les milieux de l'humanité et, par son impact, transformer du dedans, rendre neuve l'humanité elle-même : "<i>Voici que je fais l'univers nouveau !</i>" (Ap 21,5 ; 2Co 5,17 ; Ga 6,15). Mais il n'y a pas d'humanité nouvelle s'il n'y a pas d'abord d'hommes nouveaux, de la nouveauté du baptême (Rm 6,4) et de la vie selon l'Evangile (Ep 4,23-24 ; Col 3,9-10). Le but de l'évangélisation est donc bien ce changement intérieur et, s'il fallait le traduire d'un mot, le plus juste serait de dire que l'Eglise évangélise lorsque, par la seule puissance divine du Message qu'elle proclame (Rm 1,16 ; 1Co 1,18 ; 1Co 2,4), elle cherche à convertir en même temps la conscience personnelle et collective des hommes, l'activité dans laquelle ils s'engagent, la vie et le milieu concrets qui sont les leurs.</p>
+			</section>
+			<section>
+				<title>et des zones d'humanité</title>
+				<p><np>19</np>Des zones d'humanité qui se transforment : pour l'Eglise il ne s'agit pas seulement de prêcher l'Evangile dans des tranches géographiques toujours plus vastes ou à des populations toujours plus massives, mais aussi d'atteindre et comme de bouleverser par la force de l'Evangile les critères de jugement, les valeurs déterminantes, les points d'intérêt, les lignes de pensée, les sources inspiratrices et les modèles de vie de l'humanité, qui sont en contraste avec la Parole de Dieu et le dessein du salut.</p>
+			</section>
+			<section>
+				<title>Evangélisation des cultures</title>
+				<p><np>20</np>Nous pourrions exprimer tout cela en disant : il importe d'évangéliser - non pas de façon décorative, comme par un vernis superficiel, mais de façon vitale, en profondeur et jusque dans leurs racines - la culture et les cultures de l'homme, dans le sens riche et large que ces termes ont dans <i>Gaudium et spes</i> (GS 53), partant toujours de la personne et revenant toujours aux rapports des personnes entre elles et avec Dieu.</p>
+				<p>L'Evangile, et donc l'évangélisation, ne s'identifient certes pas avec la culture, et sont indépendants à l'égard de toutes les cultures. Et pourtant le Règne que l'Evangile annonce est vécu par des hommes profondément liés à une culture, et la construction du Royaume ne peut pas ne pas emprunter des éléments de la culture et des cultures humaines. Indépendants à l'égard des cultures, Evangile et évangélisation ne sont pas nécessairement incompatibles avec elles, mais capables de les imprégner toutes sans s'asservir à aucune.</p>
+				<p>La rupture entre Evangile et culture est sans doute le drame de notre époque, comme ce fut aussi celui d'autres époques. Aussi faut-il faire tous les efforts en vue d'une généreuse évangélisation de la culture, plus exactement des cultures. Elles doivent être régénérées par l'impact de la Bonne Nouvelle. Mais cet impact ne se produira pas si la Bonne Nouvelle n'est pas proclamée.</p>
+			</section>
+			<section>
+				<title>Importance primordiale du témoignage de vie</title>
+				<p><np>21</np>L'Evangile doit être proclamé d'abord par un témoignage. Voici un chrétien ou un groupe de chrétiens qui, au sein de la communauté humaine dans laquelle ils vivent, manifestent leur capacité de compréhension et d'accueil, leur communion de vie et de destin avec les autres, leur solidarité dans les efforts de tous pour tout ce qui est noble et bon. Voici que, en outre, ils rayonnent, d'une façon toute simple et spontanée, leur foi en des valeurs qui sont au-delà des valeurs courantes, et leur espérance en quelque chose qu'on ne voit pas, dont on n'oserait pas rêver. Par ce témoignage sans paroles, ces chrétiens font monter, dans le coeur de ceux qui les voient vivre, des questions irrésistibles : Pourquoi sont-ils ainsi ? Pourquoi vivent-ils de la sorte ? Qu'est-ce - ou qui est-ce - qui les inspire ? Pourquoi sont-ils au milieu de nous ? Un tel témoignage est déjà proclamation silencieuse mais très forte et efficace de la Bonne Nouvelle. Il y a là un geste initial d'évangélisation. Les questions que voilà seront peut-être les premières que se poseront beaucoup de non chrétiens, qu'ils soient des gens à qui le Christ n'avait jamais été annoncé, des baptisés non pratiquants, des gens qui vivent en chrétienté mais selon des principes nullement chrétiens, ou des gens qui cherchent, non sans souffrance, quelque chose ou Quelqu'un qu'ils devinent sans pouvoir le nommer. D'autres questions surgiront, plus profondes et plus engageantes, provoquées par ce témoignage qui comporte présence, participation, solidarité, et qui est un élément essentiel, généralement le tout premier, dans l'évangélisation. (Tertullien, Apologeticum 39 ; Minucius Felix, Octavius, 9 et 31)</p>
+				<p>A ce témoignage, tous les chrétiens sont appelés et peuvent être, sous cet aspect, de véritables évangélisateurs. Nous pensons spécialement à la responsabilité qui revient aux migrants dans les pays qui les reçoivent.</p>
+			</section>
+			<section>
+				<title>Nécessité d'une annonce explicite</title>
+				<p><np>22</np>Et cependant cela reste toujours insuffisant, car le plus beau témoignage se révélera à la longue impuissant s'il n'est pas éclairé, justifié - ce que Pierre appelait donner "<i>les raisons de son espérance</i>" (1P 3,15) - explicité par une annonce claire, sans équivoque, du Seigneur Jésus. La Bonne Nouvelle proclamée par le témoignage de vie devra donc être tôt ou tard proclamée par la parole de vie. Il n'y a pas d'évangélisation vraie si le nom, l'enseignement, la vie, les promesses, le Règne, le mystère de Jésus de Nazareth Fils de Dieu ne sont pas annoncés.</p>
+				<p>L'histoire de l'Eglise, depuis le discours de Pierre le matin de Pentecôte, s'entremêle et se confond avec l'histoire de cette annonce. A chaque nouvelle étape de l'histoire humaine, l'Eglise, constamment travaillée par le désir d'évangéliser, n'a qu'une hantise : qui envoyer annoncer le mystère de Jésus ? Dans quel langage annoncer ce mystère ? Comment faire pour qu'il retentisse et arrive à tous ceux qui doivent l'écouter ? Cette annonce - kérygme, prédication ou catéchèse - prend une telle place dans l'évangélisation qu'elle en est souvent devenue synonyme. Elle n'en est cependant qu'un aspect.</p>
+			</section>
+			<section>
+				<title>Pour une adhésion vitale et communautaire</title>
+				<p><np>23</np>L'annonce, en effet, n'acquiert toute sa dimension que lorsqu'elle est entendue, accueillie, assimilée et lorsqu'elle fait surgir dans celui qui l'a ainsi reçue une adhésion du coeur. Adhésion aux vérités que, par miséricorde, le Seigneur a révélées, oui. Mais plus encore, adhésion au programme de vie - vie désormais transformée - qu'il propose. Adhésion, en un mot, au Règne, c'est-à-dire au "<i>monde nouveau</i>", au nouvel état de chose, à la nouvelle manière d'être, de vivre, de vivre ensemble, que l'Evangile inaugure. Une telle adhésion, qui ne peut pas demeurer abstraite et désincarnée, se révèle concrètement par une entrée palpable, visible, dans une communauté de fidèles. Ainsi donc, ceux dont la vie s'est transformée pénètrent dans une communauté qui est elle-même signe de la transformation, signe de la nouveauté de vie : c'est l'Eglise, sacrement visible du salut (LG 1 ; LG 9 ; LG 48 ; GS 42 ; GS 45 ; AGD 1 ; AGD 5). Mais à son tour, l'entrée dans la communauté ecclésiale s'exprimera à travers beaucoup d'autres signes qui prolongent et déploient le signe de l'Eglise. Dans le dynamisme de l'évangélisation, celui qui accueille l'Evangile comme Parole qui sauv (Rm 1,16 ; 1Co 1,18). le traduit normalement en ces gestes sacramentels : adhésion à l'Eglise, accueil des sacrements qui manifestent et soutiennent cette adhésion, par la grâce qu'ils confèrent.</p>
+			</section>
+			<section>
+				<title>Entraînant un nouvel apostolat</title>
+				<p><np>24</np>Finalement, celui qui a été évangélisé évangélise à son tour. C'est là le test de vérité, la pierre de touche de l'évangélisation : il est impensable qu'un homme ait accueilli la Parole et se soit donné au Règne sans devenir quelqu'un qui témoigne et annonce à son tour.</p>
+				<p>Au terme de ces considérations sur le sens de l'évangélisation, une dernière observation, que Nous estimons éclairante pour les réflexions qui suivent, doit être formulée.</p>
+				<p>L'évangélisation, avons-Nous dit, est une démarche complexe, aux éléments variés : renouveau de l'humanité, témoignage, annonce explicite, adhésion du coeur, entrée dans la communauté, accueil des signes, initiative d'apostolat. Ces éléments peuvent apparaître contrastants, voire exclusifs. Ils sont en réalité complémentaires et mutuellement enrichissants. Il faut toujours envisager chacun d'eux dans son intégration aux autres. La valeur du récent Synode a été de nous avoir constamment invités à composer ces éléments, plutôt qu'à les opposer entre eux, pour avoir la pleine compréhension de l'activité évangélisatrice de l'Eglise.</p>
+				<p>C'est cette vision globale que Nous voulons maintenant exposer, en examinant le contenu de l'évangélisation, les moyens d'évangéliser, en précisant à qui s'adresse l'annonce évangélique et qui en a aujourd'hui la charge.</p>
+			</section>
+		</section>
+		<section>
+			<title><ns>III</ns>LE CONTENU DE L'EVANGELISATION</title>
+			<section>
+				<title>Contenu essentiel et éléments secondaires</title>
+				<p><np>25</np>Dans le message que l'Eglise annonce, il y a certes beaucoup d'éléments secondaires. Leur présentation dépend fortement des circonstances changeantes. Ils changent aussi. Mais il y a le contenu essentiel, la substance vivante, qu'on ne pourrait modifier ni passer sous silence sans dénaturer gravement l'évangélisation elle-même.</p>
+			</section>
+			<section>
+				<title>Témoignage rendu à l'amour du Père</title>
+				<p><np>26</np>Il n'est pas superflu de le rappeler: évangéliser est tout d'abord témoigner, de façon simple et directe, du Dieu révélé par Jésus-Christ, dans l'Esprit Saint. Témoigner que dans son Fils il a aimé le monde ; que dans son Verbe Incarné il a donné l'être à toute chose et a appelé les hommes à la vie éternelle. Cette attestation de Dieu rejoindra peut-être pour beaucoup le Dieu inconnu (Ac 17,22-23) qu'ils adorent sans lui donner un nom, ou qu'ils cherchent par un appel secret du coeur lorsqu'ils font l'expérience de la vacuité de toutes les idoles. Mais elle est pleinement évangélisatrice en manifestant que, pour l'homme, le Créateur n'est pas une puissance anonyme et lointaine : il est Père. "<i>Nous sommes appelés fils de Dieu, nous le sommes effectivement</i>" (1Jn 3,1 ; Rm 8,14-17). et nous sommes donc frères les uns des autres en Dieu.</p>
+			</section>
+			<section>
+				<title>Au centre du message : le salut en Jésus-Christ</title>
+				<p><np>27</np>L'évangélisation contiendra aussi toujours - base, centre et sommet à la fois de son dynamisme - une claire proclamation que, en Jésus-Christ, le Fils de Dieu fait homme, mort et ressuscité, le salut est offert à tout homme, comme don de grâce et miséricorde de Dieu (Ep 2,8 ; Rm 1,16). Et non pas un salut immanent, à la mesure des besoins matériels ou même spirituels s'épuisant dans le cadre de l'existence temporelle et s'identifiant totalement avec les désirs, les espoirs, les affaires et les combats temporels, mais un salut qui déborde toutes ces limites pour s'accomplir dans une communion avec le seul Absolu, celui de Dieu : salut transcendant, eschatologique, qui a certes son commencement en cette vie, mais qui s'accomplit dans l'éternité.</p>
+			</section>
+			<section>
+				<title>Sous le signe de l'espérance</title>
+				<p><np>28</np>L'évangélisation par conséquent ne peut pas ne pas contenir l'annonce prophétique d'un au-delà, vocation profonde et définitive de l'homme à la fois en continuité et en discontinuité avec la situation présente : au-delà du temps et de l'histoire, au-delà de la réalité de ce monde dont la figure passe, et des choses de ce monde dont une dimension cachée se manifestera un jour ; au-delà de l'homme lui-même dont le véritable destin ne s'épuise pas dans son visage temporel mais sera révélé dans la vie future (1Jn 3,2 ; Rm 8,29 ; Ph 3,20-21 ; LG 48-51). L'évangélisation contient donc aussi la prédication de l'espérance dans les promesses faites par Dieu dans la nouvelle alliance en Jésus Christ ; la prédication de l'amour de Dieu envers nous et de notre amour pour Dieu ; la prédication de l'amour fraternel pour tous les hommes - capacité de don et de pardon, de renoncement, d'aider aux frères - qui, devient de l'amour de Dieu, est le noyau de l'Evangile ; la prédication du mystère du mal et de la recherche active du bien. Prédication, également, et celle-ci est toujours urgente, de la recherche de Dieu lui-même à travers la prière surtout d'adoration et d'action de grâces, mais aussi à travers la communion avec ce signe visible de la rencontre de Dieu qu'est l'Eglise de Jésus-Christ, et cette communion s'exprime à son tour par la mise en oeuvre de ces autres signes du Christ vivant et agissant dans l'Eglise que sont les sacrements. Vivre de la sorte les sacrements, de façon à mener leur célébration à une véritable plénitude, n'est pas, comme certains le prétendraient, mettre un obstacle à l'évangélisation ou en accepter une déviation, c'est lui donner toute son ampleur. Car la totalité de l'évangélisation, au-delà de la prédication d'un message, consiste à implanter l'Eglise, laquelle n'existe pas sans cette respiration qu'est la vie sacramentelle culminant dans l'Eucharistie<footnote><p>Déclaration de la 'Doctrine de la Foi' Circa Catholicam doctrinam de Ecclesia contra nonnullos errores hodiernos tuendam, 24/6/1973.</p></footnote>.</p>
+			</section>
+		</section>
+		<p class="sign">PAULUS PP. VI.</p>
+	</chapter>
+</book>
