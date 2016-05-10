@@ -12,7 +12,7 @@
 	<info>
 		<productnumber><?eval ${project.version}?></productnumber>
 		<title>Casti Connubii</title>
-		<subtitle>Le sacrement de mariage et la chasteté de l'union conjugale</subtitle>
+		<subtitle>Le sacrement de mariage et la chasteté de l’union conjugale</subtitle>
 		<author><personname>Pie XI</personname></author>
 		<mediaobject role="cover" xml:id="coverd">
 			<imageobject role="front-large" remap="lrg">

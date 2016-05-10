@@ -13,7 +13,7 @@
 	<info>
 		<productnumber><?eval ${project.version}?></productnumber>
 		<title>Ad Beatissimi Apostolorum Principis</title>
-		<subtitle>Le sacrement de mariage et la chasteté de l'union conjugale</subtitle>
+		<subtitle>Le sacrement de mariage et la chasteté de l’union conjugale</subtitle>
 		<author><personname>Benoît XV</personname></author>
 		<mediaobject role="cover" xml:id="coverd">
 			<imageobject role="front-large" remap="lrg">

@@ -4,7 +4,7 @@
 	<info>
 		<productnumber><?eval ${project.version}?></productnumber>
 		<title>Evangelii Gaudium</title>
-		<subtitle>La joie de l'Évangile</subtitle>
+		<subtitle>La joie de l’Évangile</subtitle>
 		<author>
 			<personname>François</personname>
 		</author>

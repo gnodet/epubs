@@ -4,7 +4,7 @@
 	<info>
 		<productnumber><?eval ${project.version}?></productnumber>
 		<title>Amoris lætitia</title>
-		<subtitle>La joie de l'Amour</subtitle>
+		<subtitle>La joie de l’Amour</subtitle>
 		<author>
 			<personname>François</personname>
 		</author>
