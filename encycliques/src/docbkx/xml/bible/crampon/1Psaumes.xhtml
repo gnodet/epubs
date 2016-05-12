@@ -4,6 +4,15 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+  <style type="text/css">
+    .numero_verset { vertical-align: baseline; position: relative; top: -0.4em; font-size: 75%; color: #2554C7; font-weight: bold; margin-right: 0.2em; }
+    a, h1, h2 { color: #2554C7; }
+    p { text-align: justify; margin: 2em;  }
+    p div { display: inline; }
+    p div:first-child span.numero_verset::before { content: '&nbsp;'; margin-left: 2em;}
+    br+div::before { content: '&nbsp;'; display: block; }
+    br+div span.numero_verset::before { content: '&nbsp;'; margin-left: 2em;}
+  </style>
   <title></title>
 </head>
 
