@@ -5,13 +5,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <style type="text/css">
-    .numero_verset { vertical-align: baseline; position: relative; top: -0.4em; font-size: 75%; color: #2554C7; font-weight: bold; margin-right: 0.2em; }
     a, h1, h2 { color: #2554C7; }
     p { text-align: justify; margin: 2em;  }
     p div { display: inline; }
-    p div:first-child span.numero_verset::before { content: '&nbsp;'; margin-left: 2em;}
-    br+div::before { content: '&nbsp;'; display: block; }
-    br+div span.numero_verset::before { content: '&nbsp;'; margin-left: 2em;}
+	span.br { display: block; margin-top: 1em; }
+	p::first-letter { font-size: 3.5em; float: left; padding-right:0.2em;  }
+	div+div.verse::before, span.br+div.verse::before { content: attr(vs); vertical-align: baseline; position: relative; top: -0.4em; font-size: 75%; color: #2554C7; font-weight: bold; margin-right: 0.2em; }
   </style>
   <title></title>
 </head>
@@ -19,7 +18,15 @@
 <body>
   <h2 align="center">Deuxième Épître de Saint Jean</h2>
 
-  <p><div id="v-XX-Y-1"><span class="numero_verset">1</span> <span class="content_verset">Moi, l’Ancien à l’élue Kyria et à ses enfants, que j’aime dans la vérité, — non pas moi seulement, mais aussi tous ceux qui ont connu la vérité, —</span></div><br /> <div id="v-XX-Y-2"><span class="numero_verset">2</span> <span class="content_verset">en considération de la vérité qui demeure en nous, et qui sera éternellement avec nous :</span></div> <br /> <div id="v-XX-Y-3"><span class="numero_verset">3</span> <span class="content_verset">la grâce, la miséricorde et la paix soient avec vous de la part de Dieu le Père et de la part de Jésus-Christ, le Fils du Père, dans la vérité et la charité !</span></div> <br /> <br /> <div id="v-XX-Y-4"><span class="numero_verset">4</span> <span class="content_verset">J’ai eu bien de la joie de rencontrer de tes enfants qui marchent dans la vérité, selon le commandement que nous avons reçu du Père.</span></div><br /> <div id="v-XX-Y-5"><span class="numero_verset">5</span> <span class="content_verset">Et maintenant je te <em>le</em> demande, Kyria, — non comme si je te prescrivais un commandement nouveau ; car c’est celui que nous avons reçu dès le commencement, — aimons-nous les uns les autres.</span></div><br /> <div id="v-XX-Y-6"><span class="numero_verset">6</span> <span class="content_verset">L’amour consiste à marcher selon ses commandements ; et, c’est là son commandement, <br /> comme vous l’avez appris dès le commencement, de marcher dans la charité.</span></div><br /> <br /> <div id="v-XX-Y-7"><span class="numero_verset">7</span> <span class="content_verset">Car plusieurs séducteurs ont paru dans le monde ; ils ne confessent point Jésus <em>comme</em> Christ venu en chair : c’est là le séducteur et l’antéchrist.</span></div><br /> <div id="v-XX-Y-8"><span class="numero_verset">8</span> <span class="content_verset">Prenez garde à vous-mêmes, afin que vous ne perdiez pas le fruit de votre travail, mais que vous receviez une pleine récompense.</span></div><br /> <div id="v-XX-Y-9"><span class="numero_verset">9</span> <span class="content_verset">Quiconque va au delà et ne demeure pas dans la doctrine du Christ, ne possède point Dieu ; celui qui demeure dans cette doctrine possède le Père et le Fils.</span></div><br /> <div id="v-XX-Y-10"><span class="numero_verset">10</span> <span class="content_verset">Si quelqu’un vient à vous et n’apporte point cette doctrine, ne le recevez pas dans votre maison, et ne lui dites pas : Salut !</span></div> <br /> <div id="v-XX-Y-11"><span class="numero_verset">11</span> <span class="content_verset">Car celui qui <em>lui</em> dit : Salut ! participe à ses œuvres mauvaises.</span></div><br /> <br /> <div id="v-XX-Y-12"><span class="numero_verset">12</span> <span class="content_verset">Quoique j’eusse beaucoup de choses à vous écrire, je n’ai pas voulu le faire avec le papier et l’encre ; mais j’espère aller chez vous et vous entretenir de vive voix, afin que votre joie soit parfaite.</span></div><br /> <br /> <div id="v-XX-Y-13"><span class="numero_verset">13</span> <span class="content_verset">Les enfants de ta sœur l’élue te saluent.</span></div><br /> <br /> <br /> <br /></p>
+  <p><div class="verse" id="v-XX-Y-1" vs="1">Moi, l’Ancien à l’élue Kyria et à ses enfants, que j’aime dans la vérité, — non pas moi seulement, mais aussi tous ceux qui ont connu la vérité, —</div> <div class="verse" id="v-XX-Y-2" vs="2">en considération de la vérité qui demeure en nous, et qui sera éternellement avec nous :</div> <div class="verse" id="v-XX-Y-3" vs="3">la grâce, la miséricorde et la paix soient avec vous de la part de Dieu le Père et de la part de Jésus-Christ, le Fils du Père, dans la vérité et la charité !</div>
+<span class="br"/>
+<div class="verse" id="v-XX-Y-4" vs="4">J’ai eu bien de la joie de rencontrer de tes enfants qui marchent dans la vérité, selon le commandement que nous avons reçu du Père.</div> <div class="verse" id="v-XX-Y-5" vs="5">Et maintenant je te <em>le</em> demande, Kyria, — non comme si je te prescrivais un commandement nouveau ; car c’est celui que nous avons reçu dès le commencement, — aimons-nous les uns les autres.</div> <div class="verse" id="v-XX-Y-6" vs="6">L’amour consiste à marcher selon ses commandements ; et, c’est là son commandement, <br /> comme vous l’avez appris dès le commencement, de marcher dans la charité.</div>
+<span class="br"/>
+<div class="verse" id="v-XX-Y-7" vs="7">Car plusieurs séducteurs ont paru dans le monde ; ils ne confessent point Jésus <em>comme</em> Christ venu en chair : c’est là le séducteur et l’antéchrist.</div> <div class="verse" id="v-XX-Y-8" vs="8">Prenez garde à vous-mêmes, afin que vous ne perdiez pas le fruit de votre travail, mais que vous receviez une pleine récompense.</div> <div class="verse" id="v-XX-Y-9" vs="9">Quiconque va au delà et ne demeure pas dans la doctrine du Christ, ne possède point Dieu ; celui qui demeure dans cette doctrine possède le Père et le Fils.</div> <div class="verse" id="v-XX-Y-10" vs="10">Si quelqu’un vient à vous et n’apporte point cette doctrine, ne le recevez pas dans votre maison, et ne lui dites pas : Salut !</div> <div class="verse" id="v-XX-Y-11" vs="11">Car celui qui <em>lui</em> dit : Salut ! participe à ses œuvres mauvaises.</div>
+<span class="br"/>
+<div class="verse" id="v-XX-Y-12" vs="12">Quoique j’eusse beaucoup de choses à vous écrire, je n’ai pas voulu le faire avec le papier et l’encre ; mais j’espère aller chez vous et vous entretenir de vive voix, afin que votre joie soit parfaite.</div>
+<span class="br"/>
+<div class="verse" id="v-XX-Y-13" vs="13">Les enfants de ta sœur l’élue te saluent.</div><br /> <br /> <br /> <br /></p>
 </body>
 </html>
 

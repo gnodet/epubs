@@ -5,13 +5,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <style type="text/css">
-    .numero_verset { vertical-align: baseline; position: relative; top: -0.4em; font-size: 75%; color: #2554C7; font-weight: bold; margin-right: 0.2em; }
     a, h1, h2 { color: #2554C7; }
     p { text-align: justify; margin: 2em;  }
     p div { display: inline; }
-    p div:first-child span.numero_verset::before { content: '&nbsp;'; margin-left: 2em;}
-    br+div::before { content: '&nbsp;'; display: block; }
-    br+div span.numero_verset::before { content: '&nbsp;'; margin-left: 2em;}
+	span.br { display: block; margin-top: 1em; }
+	p::first-letter { font-size: 3.5em; float: left; padding-right:0.2em;  }
+	div+div.verse::before, span.br+div.verse::before { content: attr(vs); vertical-align: baseline; position: relative; top: -0.4em; font-size: 75%; color: #2554C7; font-weight: bold; margin-right: 0.2em; }
   </style>
   <title></title>
 </head>
@@ -19,7 +18,17 @@
 <body>
   <h2 align="center">Troisième Épître de Saint Jean</h2>
 
-  <p><div id="v-XX-Y-1"><span class="numero_verset">1</span> <span class="content_verset">Moi l’Ancien, à Gaïus, le bien-aimé que j’aime dans la vérité.</span></div><br /> <div id="v-XX-Y-2"><span class="numero_verset">2</span> <span class="content_verset">Bien-aimé, sur toutes choses je souhaite que l’état de tes affaires et de ta santé soit aussi prospère que celui de ton âme.</span></div><br /> <div id="v-XX-Y-3"><span class="numero_verset">3</span> <span class="content_verset">J’ai eu bien de la joie, lorsque des frères sont arrivés et ont rendu témoignage de ta vérité, <em>je veux dire</em> de la manière dont tu marches dans la vérité.</span></div><br /> <div id="v-XX-Y-4"><span class="numero_verset">4</span> <span class="content_verset">Je n’ai pas de plus grande joie que d’apprendre que mes enfants marchent dans la vérité.</span></div><br /> <br /> <div id="v-XX-Y-5"><span class="numero_verset">5</span> <span class="content_verset">Bien-aimé, tu agis fidèlement dans tout ce que tu fais pour les frères, et particulièrement pour des <em>frères</em> étrangers ;</span></div> <br /> <div id="v-XX-Y-6"><span class="numero_verset">6</span> <span class="content_verset">aussi ont-ils rendu témoignage de ta charité en présence de l’Église. Tu feras bien de pourvoir à leur voyage d’une manière digne de Dieu ;</span></div> <br /> <div id="v-XX-Y-7"><span class="numero_verset">7</span> <span class="content_verset">car c’est pour son nom qu’ils sont partis, sans rien recevoir des païens.</span></div><br /> <div id="v-XX-Y-8"><span class="numero_verset">8</span> <span class="content_verset">Nous devons soutenir de tels hommes, afin de travailler avec eux pour la vérité.</span></div><br /> <br /> <div id="v-XX-Y-9"><span class="numero_verset">9</span> <span class="content_verset">J’ai écrit à l’Église ; mais Diotréphès, qui aime à primer parmi eux, ne nous reçoit pas.</span></div><br /> <div id="v-XX-Y-10"><span class="numero_verset">10</span> <span class="content_verset">C’est pourquoi, quand je viendrai, je lui mettrai devant les yeux les actes qu’il fait, et les méchants propos qu’il tient contre nous. Et non content de cela, il refuse lui-même d’accueillir les frères, et il empêche ceux qui voudraient les recevoir et les chasse de l’église.</span></div><br /> <br /> <div id="v-XX-Y-11"><span class="numero_verset">11</span> <span class="content_verset">Bien-aimé, n’imite pas le mal, mais imite le bien. Celui qui fait le bien est de Dieu ; celui qui fait le mal n’a point vu Dieu.</span></div><br /> <br /> <div id="v-XX-Y-12"><span class="numero_verset">12</span> <span class="content_verset">Tout le monde, et la vérité elle-même, rendent un bon témoignage à Démétrius ; nous le lui rendons aussi, et tu sais que notre témoignage est vrai.</span></div><br /> <br /> <div id="v-XX-Y-13"><span class="numero_verset">13</span> <span class="content_verset">J’aurais beaucoup de choses à t’écrire, mais je ne veux pas le faire avec l’encre et la plume :</span></div> <br /> <div id="v-XX-Y-14"><span class="numero_verset">14</span> <span class="content_verset">j’espère te voir bientôt, et nous nous entretiendrons de vive voix. La paix soit avec toi ! <br /> <br /> Nos amis te saluent. Salue nos amis, chacun en particulier.</span></div><br /> <br /> <br /> <br /></p>
+  <p><div class="verse" id="v-XX-Y-1" vs="1">Moi l’Ancien, à Gaïus, le bien-aimé que j’aime dans la vérité.</div> <div class="verse" id="v-XX-Y-2" vs="2">Bien-aimé, sur toutes choses je souhaite que l’état de tes affaires et de ta santé soit aussi prospère que celui de ton âme.</div> <div class="verse" id="v-XX-Y-3" vs="3">J’ai eu bien de la joie, lorsque des frères sont arrivés et ont rendu témoignage de ta vérité, <em>je veux dire</em> de la manière dont tu marches dans la vérité.</div> <div class="verse" id="v-XX-Y-4" vs="4">Je n’ai pas de plus grande joie que d’apprendre que mes enfants marchent dans la vérité.</div>
+<span class="br"/>
+<div class="verse" id="v-XX-Y-5" vs="5">Bien-aimé, tu agis fidèlement dans tout ce que tu fais pour les frères, et particulièrement pour des <em>frères</em> étrangers ;</div> <div class="verse" id="v-XX-Y-6" vs="6">aussi ont-ils rendu témoignage de ta charité en présence de l’Église. Tu feras bien de pourvoir à leur voyage d’une manière digne de Dieu ;</div> <div class="verse" id="v-XX-Y-7" vs="7">car c’est pour son nom qu’ils sont partis, sans rien recevoir des païens.</div> <div class="verse" id="v-XX-Y-8" vs="8">Nous devons soutenir de tels hommes, afin de travailler avec eux pour la vérité.</div>
+<span class="br"/>
+<div class="verse" id="v-XX-Y-9" vs="9">J’ai écrit à l’Église ; mais Diotréphès, qui aime à primer parmi eux, ne nous reçoit pas.</div> <div class="verse" id="v-XX-Y-10" vs="10">C’est pourquoi, quand je viendrai, je lui mettrai devant les yeux les actes qu’il fait, et les méchants propos qu’il tient contre nous. Et non content de cela, il refuse lui-même d’accueillir les frères, et il empêche ceux qui voudraient les recevoir et les chasse de l’église.</div>
+<span class="br"/>
+<div class="verse" id="v-XX-Y-11" vs="11">Bien-aimé, n’imite pas le mal, mais imite le bien. Celui qui fait le bien est de Dieu ; celui qui fait le mal n’a point vu Dieu.</div>
+<span class="br"/>
+<div class="verse" id="v-XX-Y-12" vs="12">Tout le monde, et la vérité elle-même, rendent un bon témoignage à Démétrius ; nous le lui rendons aussi, et tu sais que notre témoignage est vrai.</div>
+<span class="br"/>
+<div class="verse" id="v-XX-Y-13" vs="13">J’aurais beaucoup de choses à t’écrire, mais je ne veux pas le faire avec l’encre et la plume :</div> <div class="verse" id="v-XX-Y-14" vs="14">j’espère te voir bientôt, et nous nous entretiendrons de vive voix. La paix soit avec toi ! <br /> <br /> Nos amis te saluent. Salue nos amis, chacun en particulier.</div><br /> <br /> <br /> <br /></p>
 </body>
 </html>
 
