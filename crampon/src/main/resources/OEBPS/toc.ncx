@@ -64,24 +64,24 @@
       <navLabel>
         <text>Les Livres historiques</text>
       </navLabel>
-      <content src="Text/josue.xhtml"/>
+      <content src="Text/Josue.xhtml"/>
       <navPoint id="navPoint-10" playOrder="10">
         <navLabel>
           <text>Josué</text>
         </navLabel>
-        <content src="Text/josue.xhtml"/>
+        <content src="Text/Josue.xhtml"/>
       </navPoint>
       <navPoint id="navPoint-11" playOrder="11">
         <navLabel>
           <text>Juges</text>
         </navLabel>
-        <content src="Text/juges.xhtml"/>
+        <content src="Text/Juges.xhtml"/>
       </navPoint>
       <navPoint id="navPoint-12" playOrder="12">
         <navLabel>
           <text>Ruth</text>
         </navLabel>
-        <content src="Text/ruth.xhtml"/>
+        <content src="Text/Ruth.xhtml"/>
       </navPoint>
       <navPoint id="navPoint-13" playOrder="13">
         <navLabel>
