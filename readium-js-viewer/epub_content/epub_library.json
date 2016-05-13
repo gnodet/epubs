@@ -1,4 +1,25 @@
 [
+    {
+      "title" : "Vie de Notre-Seigneur Jésus-Christ, tome I",
+      "author" : "Fillion",
+      "coverHref" : "../library/fillion-vie-nsjc-t1/cover.png",
+      "packagePath" : "content.opf",
+      "rootUrl": "../library/fillion-vie-nsjc-t1"
+    },
+    {
+      "title" : "Vie de Notre-Seigneur Jésus-Christ, tome II",
+      "author" : "Fillion",
+      "coverHref" : "../library/fillion-vie-nsjc-t2/cover.png",
+      "packagePath" : "content.opf",
+      "rootUrl": "../library/fillion-vie-nsjc-t2"
+    },
+    {
+      "title" : "Vie de Notre-Seigneur Jésus-Christ, tome III",
+      "author" : "Fillion",
+      "coverHref" : "../library/fillion-vie-nsjc-t3/cover.png",
+      "packagePath" : "content.opf",
+      "rootUrl": "../library/fillion-vie-nsjc-t3"
+    },
   {
     "title" : "La Saint Bible",
     "author" : "Crampon",

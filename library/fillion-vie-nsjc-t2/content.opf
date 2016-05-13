@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" version="3.0" xml:lang="fr" unique-identifier="pub-identifier">
+   <metadata>
+      <dc:identifier id="pub-identifier">
+			1.0-SNAPSHOT
+		_d0e1</dc:identifier>
+      <meta id="meta-identifier" property="dcterms:identifier">
+			1.0-SNAPSHOT
+		_d0e1</meta>
+      <dc:title id="pub-title">Vie de Notre-Seigneur Jésus-Christ, tome II</dc:title>
+      <meta property="dcterms:title" id="meta-title">Vie de Notre-Seigneur Jésus-Christ, tome II</meta>
+      <dc:language id="pub-language">fr</dc:language>
+      <meta property="dcterms:language" id="meta-language">fr</meta>
+      <meta property="dcterms:modified">2016-05-13T11:13:28Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
+      <meta content="cover-image" name="cover"/>
+      <meta id="meta-creator4" property="dcterms:creator">Louis-Claude Fillion</meta>
+      <dc:creator id="pub-creator4">Louis-Claude Fillion</dc:creator>
+   </metadata>
+   <manifest>
+      <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+      <item id="htmltoc" properties="nav" media-type="application/xhtml+xml" href="bk01-toc.xhtml"/>
+      <item media-type="text/css" id="html-css" href="custom.css"/>
+      <item media-type="text/css" id="docbook-css" href="docbook-epub.css"/>
+      <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+      <item id="cover-image" properties="cover-image" href="cover.png" media-type="image/png"/>
+      <item id="id-d0e1" href="vie-nsjc-t2.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e15" href="ch01.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e1581" href="ch01s02.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e10782" href="ch01s03.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e18937" href="ch01s04.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e39893" href="ch01s05.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e45089" href="ch02.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e45317" href="ch02s02.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e45594" href="ch02s03.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e46002" href="ch02s04.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e46061" href="ch02s05.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e46151" href="ch02s06.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e46271" href="ch02s07.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e46503" href="ch02s08.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e47550" href="ch02s09.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e48049" href="ch02s10.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e48868" href="ch02s11.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e48894" href="ch02s12.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e48979" href="ch02s13.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e51559" href="ch02s14.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e51705" href="ch02s15.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e51785" href="ch02s16.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e51857" href="ch02s17.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e52050" href="ch02s18.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e52500" href="ch02s19.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e53005" href="ch02s20.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e53165" href="ch02s21.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e53271" href="ch02s22.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e53357" href="ch02s23.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e53398" href="ch02s24.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e54152" href="ch02s25.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d0e54371" href="ch02s26.xhtml" media-type="application/xhtml+xml"/>
+   </manifest>
+   <spine toc="ncx">
+      <itemref idref="cover" linear="no"/>
+      <itemref idref="htmltoc" linear="yes"/>
+      <itemref idref="id-d0e1"/>
+      <itemref idref="id-d0e15"/>
+      <itemref idref="id-d0e1581"/>
+      <itemref idref="id-d0e10782"/>
+      <itemref idref="id-d0e18937"/>
+      <itemref idref="id-d0e39893"/>
+      <itemref idref="id-d0e45089"/>
+      <itemref idref="id-d0e45317"/>
+      <itemref idref="id-d0e45594"/>
+      <itemref idref="id-d0e46002"/>
+      <itemref idref="id-d0e46061"/>
+      <itemref idref="id-d0e46151"/>
+      <itemref idref="id-d0e46271"/>
+      <itemref idref="id-d0e46503"/>
+      <itemref idref="id-d0e47550"/>
+      <itemref idref="id-d0e48049"/>
+      <itemref idref="id-d0e48868"/>
+      <itemref idref="id-d0e48894"/>
+      <itemref idref="id-d0e48979"/>
+      <itemref idref="id-d0e51559"/>
+      <itemref idref="id-d0e51705"/>
+      <itemref idref="id-d0e51785"/>
+      <itemref idref="id-d0e51857"/>
+      <itemref idref="id-d0e52050"/>
+      <itemref idref="id-d0e52500"/>
+      <itemref idref="id-d0e53005"/>
+      <itemref idref="id-d0e53165"/>
+      <itemref idref="id-d0e53271"/>
+      <itemref idref="id-d0e53357"/>
+      <itemref idref="id-d0e53398"/>
+      <itemref idref="id-d0e54152"/>
+      <itemref idref="id-d0e54371"/>
+   </spine>
+   <guide>
+      <reference href="cover.xhtml" type="cover" title="Cover"/>
+      <reference href="bk01-toc.xhtml" type="toc" title="Table of Contents"/>
+   </guide>
+</package>
