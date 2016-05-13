@@ -1,5 +1,12 @@
 [
   {
+    "title" : "La Saint Bible",
+    "author" : "Crampon",
+    "coverHref" : "../library/bible-crampon/OEBPS/Images/couverture_ebook_bible_complete2.jpg",
+    "packagePath" : "OEBPS/content.opf",
+    "rootUrl": "../library/bible-crampon"
+  },
+  {
     "title" : "Les Bobos en Vérité",
     "author" : "Ariño",
     "coverHref" : "../library/bobos/cover.png",

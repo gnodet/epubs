@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:4179fd38-f714-4892-9d3d-383f80a4ba2d</dc:identifier>
+    <dc:title>La Bible</dc:title>
+    <dc:creator opf:role="aut">Chanoine Augustin CRAMPON - Edition numérique par Jean-Marie WEBER et Guillaume NODET pour www.mission-web.com</dc:creator>
+    <dc:language>fr</dc:language>
+    <dc:date opf:event="modification">2016-05-13</dc:date>
+    <dc:publisher>Jean-Marie WEBER et Guillaume NODET pour www.mission-web.com</dc:publisher>
+    <dc:rights>Licence CC -by-nc-sa</dc:rights>
+    <dc:description>Bible Catholique CRAMPON dans son édition de 1923</dc:description>
+    <dc:relation>audiolivres disponibles sur www.mission-web.com</dc:relation>
+    <meta name="cover.xhtml" content="cover-image"/>
+  </metadata>
+  <manifest>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Text/cover.xhtml" id="cover.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/couverture_ebook_bible_complete2.jpg" id="cover-image" media-type="image/jpeg" />
+    <item href="Text/page%20de%20titre.xhtml" id="page_de_titre.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/licence.xhtml" id="licence.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Genese.xhtml" id="Genese.xhtml" media-type="application/xhtml+xml" />
+    <item href="Styles/styles.css" id="styles.css" media-type="text/css" />
+    <item href="Text/TOC.xhtml" id="TOC.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Exode.xhtml" id="Exode.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Levitique.xhtml" id="Levitique.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Nombres.xhtml" id="Nombres.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Deuteronome.xhtml" id="Deuteronome.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Josue.xhtml" id="Josue.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Juges.xhtml" id="Juges.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Ruth.xhtml" id="Ruth.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/1Samuel.xhtml" id="x1Samuel.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/2Samuel.xhtml" id="x2Samuel.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/1Rois.xhtml" id="x1Rois.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/2Rois.xhtml" id="x2Rois.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/1Chroniques.xhtml" id="x1Chroniques.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/2Chroniques.xhtml" id="x2Chroniques.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/licence_cc_by_cn_sa.png" id="licence_cc_by_cn_sa.png" media-type="image/png" />
+    <item href="Text/Esdras.xhtml" id="Esdras.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Nehemie.xhtml" id="Nehemie.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Tobie.xhtml" id="Tobie.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Judith.xhtml" id="Judith.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Esther.xhtml" id="Esther.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/1Machabees.xhtml" id="x1Machabees.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/2Machabees.xhtml" id="x2Machabees.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Job.xhtml" id="Job.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/1Psaumes.xhtml" id="x1Psaumes.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/2Psaumes.xhtml" id="x2Psaumes.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/3Psaumes.xhtml" id="x3Psaumes.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/4Psaumes.xhtml" id="x4Psaumes.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/5Psaumes.xhtml" id="x5Psaumes.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Proverbes.xhtml" id="Proverbes.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Ecclesiaste.xhtml" id="Ecclesiaste.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Cantique.xhtml" id="Cantique.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sagesse.xhtml" id="Sagesse.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Ecclesiastique.xhtml" id="Ecclesiastique.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Isaie.xhtml" id="Isaie.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Jeremie.xhtml" id="Jeremie.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Lamentations.xhtml" id="Lamentations.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Baruch.xhtml" id="Baruch.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Ezechiel.xhtml" id="Ezechiel.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Daniel.xhtml" id="Daniel.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Osee.xhtml" id="Osee.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Joel.xhtml" id="Joel.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Amos.xhtml" id="Amos.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Abdias.xhtml" id="Abdias.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Jonas.xhtml" id="Jonas.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Michee.xhtml" id="Michee.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Nahum.xhtml" id="Nahum.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Habacuc.xhtml" id="Habacuc.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sophonie.xhtml" id="Sophonie.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Aggee.xhtml" id="Aggee.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Zacharie.xhtml" id="Zacharie.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Malachie.xhtml" id="Malachie.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Matthieu.xhtml" id="Matthieu.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Marc.xhtml" id="Marc.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Luc.xhtml" id="Luc.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Jean.xhtml" id="Jean.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Actes.xhtml" id="Actes.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Romains.xhtml" id="Romains.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/1Corinthiens.xhtml" id="x1Corinthiens.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/2Corinthiens.xhtml" id="x2Corinthiens.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Galates.xhtml" id="Galates.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Ephesiens.xhtml" id="Ephesiens.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Philippiens.xhtml" id="Philippiens.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Colossiens.xhtml" id="Colossiens.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/1Thessaloniciens.xhtml" id="x1Thessaloniciens.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/2Thessaloniciens.xhtml" id="x2Thessaloniciens.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/1Timothee.xhtml" id="x1Timothee.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/2Timothee.xhtml" id="x2Timothee.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Tite.xhtml" id="Tite.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Philemon.xhtml" id="Philemon.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Hebreux.xhtml" id="Hebreux.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Jacques.xhtml" id="Jacques.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/1Pierre.xhtml" id="x1Pierre.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/2Pierre.xhtml" id="x2Pierre.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/1Jean.xhtml" id="x1Jean.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/2Jean.xhtml" id="x2Jean.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/3Jean.xhtml" id="x3Jean.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Jude.xhtml" id="Jude.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Apocalypse.xhtml" id="Apocalypse.xhtml" media-type="application/xhtml+xml" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover.xhtml" />
+    <itemref idref="page_de_titre.xhtml" />
+    <itemref idref="licence.xhtml" />
+    <itemref idref="TOC.xhtml" />
+    <itemref idref="Genese.xhtml" />
+    <itemref idref="Exode.xhtml" />
+    <itemref idref="Levitique.xhtml" />
+    <itemref idref="Nombres.xhtml" />
+    <itemref idref="Deuteronome.xhtml" />
+    <itemref idref="Josue.xhtml" />
+    <itemref idref="Juges.xhtml" />
+    <itemref idref="Ruth.xhtml" />
+    <itemref idref="x1Samuel.xhtml" />
+    <itemref idref="x2Samuel.xhtml" />
+    <itemref idref="x1Rois.xhtml" />
+    <itemref idref="x2Rois.xhtml" />
+    <itemref idref="x1Chroniques.xhtml" />
+    <itemref idref="x2Chroniques.xhtml" />
+    <itemref idref="Esdras.xhtml" />
+    <itemref idref="Nehemie.xhtml" />
+    <itemref idref="Tobie.xhtml" />
+    <itemref idref="Judith.xhtml" />
+    <itemref idref="Esther.xhtml" />
+    <itemref idref="x1Machabees.xhtml" />
+    <itemref idref="x2Machabees.xhtml" />
+    <itemref idref="Job.xhtml" />
+    <itemref idref="x1Psaumes.xhtml" />
+    <itemref idref="x2Psaumes.xhtml" />
+    <itemref idref="x3Psaumes.xhtml" />
+    <itemref idref="x4Psaumes.xhtml" />
+    <itemref idref="x5Psaumes.xhtml" />
+    <itemref idref="Proverbes.xhtml" />
+    <itemref idref="Ecclesiaste.xhtml" />
+    <itemref idref="Cantique.xhtml" />
+    <itemref idref="Sagesse.xhtml" />
+    <itemref idref="Ecclesiastique.xhtml" />
+    <itemref idref="Isaie.xhtml" />
+    <itemref idref="Jeremie.xhtml" />
+    <itemref idref="Lamentations.xhtml" />
+    <itemref idref="Baruch.xhtml" />
+    <itemref idref="Ezechiel.xhtml" />
+    <itemref idref="Daniel.xhtml" />
+    <itemref idref="Osee.xhtml" />
+    <itemref idref="Joel.xhtml" />
+    <itemref idref="Amos.xhtml" />
+    <itemref idref="Abdias.xhtml" />
+    <itemref idref="Jonas.xhtml" />
+    <itemref idref="Michee.xhtml" />
+    <itemref idref="Nahum.xhtml" />
+    <itemref idref="Habacuc.xhtml" />
+    <itemref idref="Sophonie.xhtml" />
+    <itemref idref="Aggee.xhtml" />
+    <itemref idref="Zacharie.xhtml" />
+    <itemref idref="Malachie.xhtml" />
+    <itemref idref="Matthieu.xhtml" />
+    <itemref idref="Marc.xhtml" />
+    <itemref idref="Luc.xhtml" />
+    <itemref idref="Jean.xhtml" />
+    <itemref idref="Actes.xhtml" />
+    <itemref idref="Romains.xhtml" />
+    <itemref idref="x1Corinthiens.xhtml" />
+    <itemref idref="x2Corinthiens.xhtml" />
+    <itemref idref="Galates.xhtml" />
+    <itemref idref="Ephesiens.xhtml" />
+    <itemref idref="Philippiens.xhtml" />
+    <itemref idref="Colossiens.xhtml" />
+    <itemref idref="x1Thessaloniciens.xhtml" />
+    <itemref idref="x2Thessaloniciens.xhtml" />
+    <itemref idref="x1Timothee.xhtml" />
+    <itemref idref="x2Timothee.xhtml" />
+    <itemref idref="Tite.xhtml" />
+    <itemref idref="Philemon.xhtml" />
+    <itemref idref="Hebreux.xhtml" />
+    <itemref idref="Jacques.xhtml" />
+    <itemref idref="x1Pierre.xhtml" />
+    <itemref idref="x2Pierre.xhtml" />
+    <itemref idref="x1Jean.xhtml" />
+    <itemref idref="x2Jean.xhtml" />
+    <itemref idref="x3Jean.xhtml" />
+    <itemref idref="Jude.xhtml" />
+    <itemref idref="Apocalypse.xhtml" />
+  </spine>
+  <guide>
+    <reference href="Text/TOC.xhtml" title="Table des matières" type="toc" />
+    <reference href="Text/cover.xhtml" title="Couverture" type="cover" />
+    <reference href="Text/page%20de%20titre.xhtml" title="Page de titre" type="title-page" />
+  </guide>
+</package>
