@@ -1,8 +1,17 @@
 a, h1, h2, h3 { color: #2554C7; }
-p, h3 { text-align: justify; margin: 2em;  }
+p, h3 { text-align: justify; }
 p div { display: inline; }
 span.br { display: block; margin-top: 1em; }
-div.verse::before { content: attr(vs); vertical-align: baseline; position: relative; top: -0.4em; font-size: 75%; color: #2554C7; font-weight: bold; margin-right: 0.2em; }
+div.verse::before { 
+	content: attr(vs); 
+	vertical-align: baseline; 
+	position: relative; 
+	top: -0.4em; 
+	font-size: 75%; 
+	color: #2554C7; 
+	font-weight: bold; 
+	margin-right: 0.2em; 
+}
 div.verse[vs="1"]::before {
 	content: attr(ch);
 	font-size: 3em;
@@ -12,6 +21,10 @@ div.verse[vs="1"]::before {
 	margin-top: 0.3em;
 	margin-right: 0.2em;
 }
+span.br+div.verse::before {
+	margin-left: 2em;
+}
+h2 { text-align: center; }
 h3 { width: 0; overflow: hidden; height: 0; }
 
 .toc-globale h1 { text-align: center; font-size: 2em; }
