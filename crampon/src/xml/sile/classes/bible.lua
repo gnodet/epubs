@@ -9,8 +9,8 @@ function bible:twoColumnMaster()
   local gutterWidth = self.options.gutter or "3%"
   self:defineMaster({ id = "right", firstContentFrame = "contentA", frames = {
     title = {left = "left(contentA)", right = "right(contentB)", top="1cm", height="0", bottom="top(contentA)" },
-    contentA = {left = "8.3%", right = "left(gutter)", top = "bottom(title)", bottom = "top(footnotesA)", next = "contentB", balanced = false },
-    contentB = {left = "right(gutter)", width="width(contentA)", right = "86%", top = "bottom(title)", bottom = "top(footnotesB)", balanced = true },
+    contentA = {left = "8%", right = "left(gutter)", top = "bottom(title)", bottom = "top(footnotesA)", next = "contentB", balanced = false },
+    contentB = {left = "right(gutter)", width="width(contentA)", right = "95%", top = "bottom(title)", bottom = "top(footnotesB)", balanced = true },
     gutter = { left = "right(contentA)", right = "left(contentB)", width = gutterWidth },
     runningHead = {left = "left(contentA)", right = "right(contentB)", top = "0.5cm", bottom = "1cm" },
     footnotesA = { left="left(contentA)", right = "right(contentA)", height = "0", bottom="95%"},
@@ -47,6 +47,25 @@ bible.newPage = function(self)
   return plain.newPage(self)
 end
 
+bible.newPar = function(typesetter)
+    typesetter.typeset = function (self, text)
+        SU.debug("test", "typeset: "..text)
+        text = string.gsub(text, "[\n\t ]+", " ")
+        if text:match("^%\n$") then return end
+        for t in SU.gtoke(text,SILE.settings.get("typesetter.parseppattern")) do
+          if (t.separator) then
+            self:leaveHmode();
+            SILE.documentState.documentClass.endPar(self)
+          else self:setpar(t.string)
+          end
+        end
+      end
+end
+
+-- bible.endPar = function(self)
+-- 	  return plain.endPar(self)
+-- end
+
 bible.finish = function (self)
   --bible:writeToc()
   return plain.finish(self)
@@ -67,7 +86,7 @@ bible.endPage = function(self)
         SILE.settings.set("current.parindent", SILE.nodefactory.zeroGlue)
         SILE.settings.set("document.lskip", SILE.nodefactory.zeroGlue)
         SILE.settings.set("document.rskip", SILE.nodefactory.zeroGlue)
-          -- SILE.settings.set("typesetter.parfillskip", SILE.nodefactory.zeroGlue)
+        -- SILE.settings.set("typesetter.parfillskip", SILE.nodefactory.zeroGlue)
         SILE.process(SILE.scratch.headers.left)
         SILE.call("par")
       end)
@@ -104,13 +123,12 @@ SILE.registerCommand("verse-number", function (o,c)
       SILE.settings.set("document.lskip", SILE.nodefactory.zeroGlue)
       SILE.settings.set("document.rskip", SILE.nodefactory.zeroGlue)
       SILE.call("font", {size="10pt", family="Gentium"}, function ()
-          local refs = SILE.scratch.info.thispage.references
-          if refs then SILE.typesetter:typeset(SILE.scratch.book .." ".. string.gsub(refs[1], ":", ", ")) end
+		  SILE.call("first-reference")
           SILE.call("hfill")
           SILE.typesetter:typeset(SILE.formatCounter(SILE.scratch.counters.page))
       end)
       SILE.typesetter:leaveHmode()
-      SILE.call("hrule", {width="11.6cm", height="0.3pt"}, {})
+      SILE.call("hrule", {width="87%", height="0.3pt"}, {})
     end)
   end)
   SILE.call("right-running-head", {}, function ()
@@ -121,11 +139,10 @@ SILE.registerCommand("verse-number", function (o,c)
       SILE.call("font", {size="10pt", family="Gentium"}, function ()
           SILE.typesetter:typeset(SILE.formatCounter(SILE.scratch.counters.page))
           SILE.call("hfill")
-          local refs = SILE.scratch.info.thispage.references
-          if refs then SILE.typesetter:typeset(SILE.scratch.book .." ".. string.gsub(refs[#refs], ":", ", ")) end
+		  SILE.call("last-reference")
       end)
       SILE.typesetter:leaveHmode()
-      SILE.call("hrule", {width="11.6cm", height="0.3pt"}, {})
+      SILE.call("hrule", {width="87%", height="0.3pt"}, {})
     end)
   end)
 end)

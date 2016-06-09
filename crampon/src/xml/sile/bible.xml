@@ -1,105 +1,107 @@
 <sile papersize="a5" class="bible" twocolumns="true">
-<font size="8pt" language="fr"/>
-<script src="packages/grid"/>
-<script src="packages/frametricks"/>
-<script src="packages/raiselower"/>
-<grid spacing="10pt"/>
-<script>
-SILE.require("packages/counters");
+    <include src="rules.xml"/>
 
-SILE.settings.set("typesetter.parseppattern", "[\t\n]+")
-SILE.settings.set("document.baselineskip", SILE.nodefactory.newVglue("0pt"))
-SILE.settings.set("document.parskip", SILE.nodefactory.newVglue("0pt"))
-SILE.settings.set("document.parindent", SILE.nodefactory.newGlue("0pt"))
+		<title>La Sainte Bible</title>
+		<section>
+			<title>Ancien Testament</title>
+			<section>
+				<title>Pentateuque</title>
+				<include src="../books/Genese.xhtml" />
+				<include src="../books/Exode.xhtml" />
+				<include src="../books/Levitique.xhtml" />
+				<include src="../books/Nombres.xhtml" />
+				<include src="../books/Deuteronome.xhtml" />
+			</section>
+			<section>
+				<title>Livres historiques</title>
+				<include src="../books/Josue.xhtml" />
+				<include src="../books/Juges.xhtml" />
+				<include src="../books/Ruth.xhtml" />
+				<include src="../books/1Samuel.xhtml" />
+				<include src="../books/2Samuel.xhtml" />
+				<include src="../books/1Rois.xhtml" />
+				<include src="../books/2Rois.xhtml" />
+				<include src="../books/1Chroniques.xhtml" />
+				<include src="../books/2Chroniques.xhtml" />
+				<include src="../books/Esdras.xhtml" />
+				<include src="../books/Nehemie.xhtml" />
+				<include src="../books/Tobie.xhtml" />
+				<include src="../books/Judith.xhtml" />
+				<include src="../books/Esther.xhtml" />
+				<include src="../books/1Machabees.xhtml" />
+				<include src="../books/2Machabees.xhtml" />
+			</section>
+			<section>	
+				<title>Livres poétiques et sapientiaux</title>
+				<include src="../books/Job.xhtml" />
+				<include src="../books/1Psaumes.xhtml" />
+				<include src="../books/2Psaumes.xhtml" />
+				<include src="../books/3Psaumes.xhtml" />
+				<include src="../books/4Psaumes.xhtml" />
+				<include src="../books/5Psaumes.xhtml" />
+				<include src="../books/Proverbes.xhtml" />
+				<include src="../books/Ecclesiaste.xhtml" />
+				<include src="../books/Cantique.xhtml" />
+				<include src="../books/Sagesse.xhtml" />
+				<include src="../books/Ecclesiastique.xhtml" />
+				<include src="../books/Isaie.xhtml" />
+				<include src="../books/Jeremie.xhtml" />
+				<include src="../books/Lamentations.xhtml" />
+				<include src="../books/Baruch.xhtml" />
+				<include src="../books/Ezechiel.xhtml" />
+				<include src="../books/Daniel.xhtml" />
+				<include src="../books/Osee.xhtml" />
+				<include src="../books/Joel.xhtml" />
+				<include src="../books/Amos.xhtml" />
+				<include src="../books/Abdias.xhtml" />
+				<include src="../books/Jonas.xhtml" />
+				<include src="../books/Michee.xhtml" />
+				<include src="../books/Nahum.xhtml" />
+				<include src="../books/Habacuc.xhtml" />
+				<include src="../books/Sophonie.xhtml" />
+				<include src="../books/Aggee.xhtml" />
+				<include src="../books/Zacharie.xhtml" />
+				<include src="../books/Malachie.xhtml" />
+			</section>
+		</section>
+		<section>
+			<title>Nouveau Testament</title>
+			<section>
+				<title>Évangiles et Actes des Apôtres</title>
+				<include src="../books/nt01-Matthieu.xhtml" />
+				<include src="../books/nt02-Marc.xhtml" />
+				<include src="../books/nt03-Luc.xhtml" />
+				<include src="../books/nt04-Jean.xhtml" />
+				<include src="../books/nt05-Actes.xhtml" />
+			</section>
+			<section>
+				<title>Épîtres de Saint Paul</title>
+				<include src="../books/Romains.xhtml" />
+				<include src="../books/1Corinthiens.xhtml" />
+				<include src="../books/2Corinthiens.xhtml" />
+				<include src="../books/Galates.xhtml" />
+				<include src="../books/Ephesiens.xhtml" />
+				<include src="../books/Philippiens.xhtml" />
+				<include src="../books/Colossiens.xhtml" />
+				<include src="../books/1Thessaloniciens.xhtml" />
+				<include src="../books/2Thessaloniciens.xhtml" />
+				<include src="../books/1Timothee.xhtml" />
+				<include src="../books/2Timothee.xhtml" />
+				<include src="../books/Tite.xhtml" />
+				<include src="../books/Philemon.xhtml" />
+				<include src="../books/Hebreux.xhtml" />
+			</section>
+			<section>
+				<title>Épîtres catholiques</title>
+				<include src="../books/Jacques.xhtml" />
+				<include src="../books/1Pierre.xhtml" />
+				<include src="../books/2Pierre.xhtml" />
+				<include src="../books/1Jean.xhtml" />
+				<include src="../books/2Jean.xhtml" />
+				<include src="../books/3Jean.xhtml" />
+				<include src="../books/Jude.xhtml" />
+				<include src="../books/Apocalypse.xhtml" />
+			</section>
+		</section>
 
-SILE.registerCommand("verse", function(options, content)
-  local c = options.ch
-  local v = options.vs
-  SILE.call("break", {}, {})
-  if (v == "1") then
-    io.write(" ("..c..") ")
-    SU.debug("test", "Calling chapter: "..c)
-    SILE.call("chapter-number", o, {c})
-    SILE.call("save-chapter-number",{},{c})
-  else
-    SILE.process({" "})
-  end
-  SU.debug("test", "Processing: "..c..","..v)
-  SILE.call("verse-number",{},{v})
-  SILE.process(content)
-end)
-
-SILE.registerCommand("book", function(options, content)
-  local node = SILE.findInTree(content, "title") or SILE.findInTree(content, "h2")
-  local title
-  SU.debug("test", "node: "..node)
-  for _,t in ipairs(node) do
-    SU.debug("test", t.."("..type(t)..")")
-    if type(t) == "string" then
-      title = t
-    end
-  end
-  SU.debug("test", "title: "..title)
-  SILE.scratch.book = title
-  SILE.call("book-title", options, {title})
-  SILE.process(content)
-end)
-
-SILE.registerCommand("break", function(options, content)
-  if SILE.scratch.isBreaking then
-    SILE.typesetter:leaveHmode()
-    SILE.scratch.isBreaking = false
-  else
-    SILE.scratch.isBreaking = true
-  end
-end)
-
-SILE.documentState.documentClass.endPar = function(typesetter)
-end
-
-SILE.registerCommand("xi:include", function(options, content)
-  SILE.call("include", {src=options.href}, {})
-end)
-
-SILE.registerCommand("section", function(options, content)
-  if not(options.type == "intro") then
-    SILE.process(content)
-  end
-end)
-
-</script>
-<define command="book-title"><center><skip height="1cm"/><font weight="700" size="20pt"><process/></font><skip height="0.5cm"/></center></define>
-<define command="chapter-number"><font size="24pt"><process/></font></define>
-<define command="bible:verse-number"><raise height="3pt"><font size="6pt"><process/></font></raise><thinspace/></define>
-
-<define command="bible"><process/></define>
-<define command="h1"/>
-<define command="h2"/>
-<define command="h3"/>
-<define command="h4"/>
-<define command="h5"/>
-<define command="div"/>
-<define command="title"/>
-<define command="head"/>
-<define command="p"><process/><break/></define>
-<define command="chapter"><process/></define>
-<define command="w"><process/></define>
-<define command="u"><process/></define>
-<define command="i"><em><process/></em></define>
-<define command="cite"><em><process/></em></define>
-<define command="bible"><process/></define>
-<define command="ss"><font style="italic"><process/></font></define>
-<define command="sc"><process/></define>
-<define command="sv"><process/></define>
-<define command="phrase"><process/></define>
-<define command="ol"><process/></define>
-<define command="li"><process/></define>
-<define command="marginnote"></define>
-<define command="footnote"></define>
-<define command="sup"><raise height="3pt"><process/></raise></define>
-<define command="br"><break/></define>
-<define command="nobreak"><!--script>SILE.typesetter:pushPenalty({penalty = 10000 })</script--></define>
-<define command="novbreak"><!--script>SILE.typesetter:pushVpenalty({penalty = 10000 })</script--></define>
-
-<!-- <include src="../books/Matthieu.xhtml"/> -->
 </sile>
