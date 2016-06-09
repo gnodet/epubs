@@ -331,14 +331,10 @@
 							height: auto;
 						}
 						
-						
 					</style>
 				</head>
 				<body>
 					<xsl:apply-templates />
-					<div id="comment">
-						
-					</div>
 				</body>
 			</html>
 		</xsl:template>
@@ -427,7 +423,7 @@
 			<xsl:choose>
 				<xsl:when test="count(preceding::verse) = count(../preceding::verse)">
 					<div class="chapter-number">
-						<xsl:value-of select="'Ch. '"/><span class="sc"><xsl:number value="@ch" format="i"/></span>
+						<xsl:value-of select="'Ch. '"/><span class="sc"><xsl:number value="@ch" format="1"/></span>
 						<xsl:if test="@vs > 1">
 							<xsl:text>, </xsl:text>
 							<span class="sv"><xsl:value-of select="@vs"/></span>
@@ -443,7 +439,7 @@
 				</xsl:when>
 				<xsl:when test="@vs = 1">
 					<span class="chapter-number">
-						<xsl:value-of select="'Ch. '"/><span class="sc"><xsl:number value="@ch" format="i"/></span>
+						<xsl:value-of select="'Ch. '"/><span class="sc"><xsl:number value="@ch" format="1"/></span>
 						<xsl:value-of select="'.'"/>
 					</span>
 					<span class="verse-number">
@@ -479,10 +475,10 @@
 		<xsl:template match="//section/verse[position()=1]/text()[position()=1]">
 			<xsl:choose>
 				<xsl:when test="starts-with(., '« ')">
-					<span class="pre-lettrine">« </span><span class="lettrine"><xsl:value-of select="translate(substring(., 3, 1), 'É', 'E')"/></span><xsl:value-of select="substring(., 4)"/>
+					<span class="pre-lettrine">« </span><span class="lettrine"><xsl:value-of select="translate(substring(., 3, 1), 'ÉÀ', 'EA')"/></span><xsl:value-of select="substring(., 4)"/>
 				</xsl:when>
 				<xsl:otherwise>
-					<span class="lettrine"><xsl:value-of select="translate(substring(., 1, 1), 'É', 'E')"/></span><xsl:value-of select="substring(., 2)"/>
+					<span class="lettrine"><xsl:value-of select="translate(substring(., 1, 1), 'ÉÀ', 'EA')"/></span><xsl:value-of select="substring(., 2)"/>
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:template>
@@ -531,7 +527,7 @@
 			<span class="ss"><xsl:value-of select="text()"/></span>
 		</xsl:template>
 		<xsl:template match="bible/sc">
-			<span class="sc"><xsl:number value="text()" format="i"/></span>
+			<span class="sc"><xsl:number value="text()" format="1"/></span>
 		</xsl:template>
 		<xsl:template match="bible/sv">
 			<span class="sv"><xsl:value-of select="text()"/></span>

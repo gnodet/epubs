@@ -34,11 +34,7 @@
 			<section>	
 				<title>Livres poétiques et sapientiaux</title>
 				<include src="../books/Job.xhtml" />
-				<include src="../books/1Psaumes.xhtml" />
-				<include src="../books/2Psaumes.xhtml" />
-				<include src="../books/3Psaumes.xhtml" />
-				<include src="../books/4Psaumes.xhtml" />
-				<include src="../books/5Psaumes.xhtml" />
+				<include src="../books/Psaumes.xhtml" />
 				<include src="../books/Proverbes.xhtml" />
 				<include src="../books/Ecclesiaste.xhtml" />
 				<include src="../books/Cantique.xhtml" />
