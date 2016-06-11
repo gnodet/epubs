@@ -5,21 +5,107 @@ if not(SILE.scratch.headers) then SILE.scratch.headers = {}; end
 SILE.scratch.counters.page = { value= 1, display= "arabic" };
 SILE.scratch.book = ""
 
-function bible:twoColumnMaster()
-  local gutterWidth = self.options.gutter or "3%"
-  self:defineMaster({ id = "right", firstContentFrame = "contentA", frames = {
-    title = {left = "left(contentA)", right = "right(contentB)", top="1cm", height="0", bottom="top(contentA)" },
-    contentA = {left = "8%", right = "left(gutter)", top = "bottom(title)", bottom = "top(footnotesA)", next = "contentB", balanced = false },
-    contentB = {left = "right(gutter)", width="width(contentA)", right = "95%", top = "bottom(title)", bottom = "top(footnotesB)", balanced = true },
-    gutter = { left = "right(contentA)", right = "left(contentB)", width = gutterWidth },
-    runningHead = {left = "left(contentA)", right = "right(contentB)", top = "0.5cm", bottom = "1cm" },
-    footnotesA = { left="left(contentA)", right = "right(contentA)", height = "0", bottom="95%"},
-    footnotesB = { left="left(contentB)", right = "right(contentB)", height = "0", bottom="95%"},
+bible:declareOption("twocolumns", "false")
+bible:declareOption("gutter", "4mm")
+bible:declareOption("inner", "22mm")
+bible:declareOption("outer", "10mm")
 
-  }})
-  -- Later we'll have an option for two fn frames
-  self:loadPackage("footnotes", { insertInto = "footnotesB", stealFrom = {"contentB"} } )
-  self:loadPackage("balanced-frames")
+SILE.scratch.masters = {}
+local _currentMaster
+
+local function defineMaster (self, args)
+  SU.required(args, "id", "defining master")
+  SU.required(args, "frames", "defining master")
+  SU.required(args, "firstContentFrame", "defining master")
+  SILE.scratch.masters[args.id] = {frames = {}, firstContentFrame = nil}
+  for k,spec in pairs(args.frames) do
+    spec.id=k
+    if spec.solve then
+      SILE.scratch.masters[args.id].frames[k] = spec
+    else
+      SILE.scratch.masters[args.id].frames[k] = SILE.newFrame(spec)
+    end
+  end
+  SILE.frames = {page = SILE.frames.page}
+
+  SILE.scratch.masters[args.id].firstContentFrame = SILE.scratch.masters[args.id].frames[args.firstContentFrame]
+end
+
+local function switchMaster (id)
+  _currentMaster = id
+  if not SILE.scratch.masters[id] then
+    SU.error("Can't find master "..id)
+  end
+  SILE.documentState.documentClass.pageTemplate = SILE.scratch.masters[id]
+  SILE.documentState.thisPageTemplate = std.tree.clone(SILE.documentState.documentClass.pageTemplate)
+  doswitch(SILE.scratch.masters[id].frames)
+  SILE.typesetter:initFrame(SILE.scratch.masters[id].firstContentFrame)
+end
+
+function bible:twoColumnMaster()
+  local width = SILE.toPoints("100%pw")
+  local gutterWidth = SILE.toPoints(self.options.gutter())
+  local innerWidth = SILE.toPoints(self.options.inner())
+  local outerWidth = SILE.toPoints(self.options.outer())
+  local twocols = not(tostring(self.options.twocolumns())=="false")
+  SILE.scratch.headWidth = width - innerWidth - outerWidth
+  if twocols then
+	  self:defineMaster({ id = "title", firstContentFrame = "contentA", frames = {
+	    title = {left = "left(contentA)", right = "right(contentB)", top="1cm", bottom="10.5cm" },
+	    contentA = {left = innerWidth, right = "left(gutter)", top = "bottom(title)", bottom = "top(footnotesA)", next = "contentB", balanced = false },
+	    contentB = {left = "right(gutter)", width="width(contentA)", right = width - outerWidth, top = "bottom(title)", bottom = "top(footnotesB)", balanced = false },
+	    gutter = { left = "right(contentA)", right = "left(contentB)", width = gutterWidth },
+	    folio = { left = "150%pw", right="200%pw", top = "0", height = "0" },
+	    runningHead = {left = "left(contentA)", right = "right(contentB)", top = "0.5cm", bottom = "1cm" },
+	    footnotesA = { left="left(contentA)", right = "right(contentA)", height = "0", bottom=SILE.toPoints("95%ph")},
+	    footnotesB = { left="left(contentB)", right = "right(contentB)", height = "0", bottom=SILE.toPoints("95%ph")},
+	  }})
+	  self:defineMaster({ id = "right", firstContentFrame = "contentA", frames = {
+	    title = {left = "left(contentA)", right = "right(contentB)", top="1cm", height="0", bottom="top(contentA)" },
+	    contentA = {left = innerWidth, right = "left(gutter)", top = "bottom(title)", bottom = "top(footnotesA)", next = "contentB", balanced = false },
+	    contentB = {left = "right(gutter)", width="width(contentA)", right = width - outerWidth, top = "bottom(title)", bottom = "top(footnotesB)", balanced = false },
+	    gutter = { left = "right(contentA)", right = "left(contentB)", width = gutterWidth },
+	    folio = { left = "150%pw", right="200%pw", top = "0", height = "0" },
+	    runningHead = {left = "left(contentA)", right = "right(contentB)", top = "0.5cm", bottom = "1cm" },
+	    footnotesA = { left="left(contentA)", right = "right(contentA)", height = "0", bottom=SILE.toPoints("95%ph")},
+	    footnotesB = { left="left(contentB)", right = "right(contentB)", height = "0", bottom=SILE.toPoints("95%ph")},
+	  }})
+	  self:defineMaster({ id = "left", firstContentFrame = "contentA", frames = {
+	    title = {left = "left(contentA)", right = "right(contentB)", top="1cm", height="0", bottom="top(contentA)" },
+	    contentA = {left = outerWidth, right = "left(gutter)", top = "bottom(title)", bottom = "top(footnotesA)", next = "contentB", balanced = false },
+	    contentB = {left = "right(gutter)", width="width(contentA)", right = width - innerWidth, top = "bottom(title)", bottom = "top(footnotesB)", balanced = false },
+	    gutter = { left = "right(contentA)", right = "left(contentB)", width = gutterWidth },
+	    folio = { left = "150%pw", right="200%pw", top = "0", height = "0" },
+	    runningHead = {left = "left(contentA)", right = "right(contentB)", top = "0.5cm", bottom = "1cm" },
+	    footnotesA = { left="left(contentA)", right = "right(contentA)", height = "0", bottom=SILE.toPoints("95%ph")},
+	    footnotesB = { left="left(contentB)", right = "right(contentB)", height = "0", bottom=SILE.toPoints("95%ph")},
+	  }})
+	  -- Later we'll have an option for two fn frames
+	  self:loadPackage("footnotes", { insertInto = "footnotesB", stealFrom = {"contentB"} } )
+  else
+	  self:defineMaster({ id = "title", firstContentFrame = "content", frames = {
+	    title = {left = "left(content)", right = "right(content)", top="1cm", bottom="10.5cm" },
+	    content = {left = innerWidth, right = width - outerWidth, top = "bottom(title)", bottom = "top(footnotes)", balanced = false },
+	    folio = { left = "150%pw", right="200%pw", top = "0", height = "0" },
+	    runningHead = {left = "left(content)", right = "right(content)", top = "0.5cm", bottom = "1cm" },
+	    footnotes = { left="left(content)", right = "right(content)", height = "0", bottom=SILE.toPoints("95%ph")},
+	  }})
+	  self:defineMaster({ id = "right", firstContentFrame = "content", frames = {
+	    title = {left = "left(content)", right = "right(content)", top="1cm", height="0" },
+	    content = {left = innerWidth, right = width - outerWidth, top = "bottom(title)", bottom = "top(footnotes)", balanced = false },
+	    folio = { left = "150%pw", right="200%pw", top = "0", height = "0" },
+	    runningHead = {left = "left(content)", right = "right(content)", top = "0.5cm", bottom = "1cm" },
+	    footnotes = { left="left(content)", right = "right(content)", height = "0", bottom=SILE.toPoints("95%ph")},
+	  }})
+	  self:defineMaster({ id = "left", firstContentFrame = "content", frames = {
+	    title = {left = "left(content)", right = "right(content)", top="1cm", height="0" },
+	    content = {left = outerWidth, right = width - innerWidth, top = "bottom(title)", bottom = "top(footnotes)", balanced = false },
+	    folio = { left = "150%pw", right="200%pw", top = "0", height = "0" },
+	    runningHead = {left = "left(content)", right = "right(content)", top = "0.5cm", bottom = "1cm" },
+	    footnotes = { left="left(content)", right = "right(content)", height = "0", bottom=SILE.toPoints("95%ph")},
+	  }})
+  end
+  -- self:loadPackage("balanced-frames")
 end
 
 function bible:init()
@@ -27,29 +113,59 @@ function bible:init()
   self:loadPackage("masters")
   self:loadPackage("infonode")
   self:loadPackage("chapterverse")
+  self:loadPackage("tableofcontents")
   self:twoColumnMaster()
   SILE.settings.set("linebreak.tolerance", 9000)
-  self:loadPackage("twoside", { oddPageMaster = "right", evenPageMaster = "left" });
-  self:mirrorMaster("right", "left")
-  -- mirrorMaster is not clever enough to handle two-column layouts,
-  -- and it mirrors them!
-  SILE.scratch.masters.left.firstContentFrame = SILE.scratch.masters.left.frames.contentB
-  SILE.scratch.masters.left.frames.contentB.next = "contentA"
-  SILE.scratch.masters.left.frames.contentA.next = nil
   self.pageTemplate = SILE.scratch.masters["right"]
   SILE.call("nofolios")
   return plain.init(self)
 end
 
+local doTitlePage = false
+local tp = "odd"
+
+bible.oddPage = function(self) 
+	return tp == "odd" 
+end
+
+function bible:switchPage()
+    if self.oddPage() then
+      tp = "even"
+      SU.debug("page", "Switching to left")
+      self.switchMaster("left")
+    elseif doTitlePage then
+      doTitlePage = false
+      tp = "odd"
+      SU.debug("page", "Switching to title")
+      self.switchMaster("title")
+    else
+      tp = "odd"
+      SU.debug("page", "Switching to right")
+      self.switchMaster("right")
+    end
+end
+
 bible.newPage = function(self)
   self:switchPage()
   self:newPageInfo()
-  return plain.newPage(self)
+  local r = plain.newPage(self)
+  -- SILE.typesetNaturally(SILE.getFrame("contentA"), function()
+    -- SILE.call("grid:debug")
+  -- end)
+  -- SILE.typesetNaturally(SILE.getFrame("contentB"), function()
+    -- SILE.call("grid:debug")
+  -- end)
+  -- SU.debug("grid", "newPage")
+  return r
 end
 
 bible.newPar = function(typesetter)
     typesetter.typeset = function (self, text)
-        SU.debug("test", "typeset: "..text)
+        -- SU.debug("test", "typeset: "..text)
+		if (text == nil) then
+			print("self: "..self..", text: "..text)
+			print(debug.traceback())
+		end
         text = string.gsub(text, "[\n\t ]+", " ")
         if text:match("^%\n$") then return end
         for t in SU.gtoke(text,SILE.settings.get("typesetter.parseppattern")) do
@@ -62,16 +178,18 @@ bible.newPar = function(typesetter)
       end
 end
 
--- bible.endPar = function(self)
+ bible.endPar = function(self)
 -- 	  return plain.endPar(self)
--- end
+ end
 
 bible.finish = function (self)
-  --bible:writeToc()
-  return plain.finish(self)
+  local r = plain.finish(self)
+  bible:writeToc()
+  return r
 end
 
 bible.endPage = function(self)
+  bible:moveTocNodes()
   if (self:oddPage() and SILE.scratch.headers.right) then
     SILE.typesetNaturally(SILE.getFrame("runningHead"), function()
       SILE.settings.set("current.parindent", SILE.nodefactory.zeroGlue)
@@ -106,6 +224,17 @@ SILE.registerCommand("right-running-head", function(options, content)
   SILE.scratch.headers.right = function () closure(content) end
 end, "Text to appear on the top of the right page");
 
+SILE.registerCommand("book-title", function (o,c)
+  SU.debug("page", "book-title: "..c)
+  SILE.call("open-double-page")
+  SILE.call("switch-master-one-page", { id = "title" }, {})
+  SILE.call("typeset-into", {frame = "title"}, function() 
+	  SILE.call("bible:book-title", o, c)
+	  end)
+  SILE.call("save-book-title", o, c)
+  SILE.call("tocentry", o, c)
+  SU.debug("page", "book-title: processed "..c)
+end)
 
 SILE.registerCommand("chapter", function (o,c)
   local ch = o.id:match("%d+")
@@ -115,6 +244,7 @@ SILE.registerCommand("chapter", function (o,c)
 end)
 
 SILE.registerCommand("verse-number", function (o,c)
+  SU.debug("bible", "verse-number: "..c)
   SILE.call("indent")
   SILE.call("bible:verse-number", o, c)
   SILE.call("save-verse-number", o, c)
@@ -128,7 +258,7 @@ SILE.registerCommand("verse-number", function (o,c)
           SILE.typesetter:typeset(SILE.formatCounter(SILE.scratch.counters.page))
       end)
       SILE.typesetter:leaveHmode()
-      SILE.call("hrule", {width="87%", height="0.3pt"}, {})
+      SILE.call("hrule", {width=SILE.scratch.headWidth, height="0.3pt"}, {})
     end)
   end)
   SILE.call("right-running-head", {}, function ()
@@ -142,9 +272,20 @@ SILE.registerCommand("verse-number", function (o,c)
 		  SILE.call("last-reference")
       end)
       SILE.typesetter:leaveHmode()
-      SILE.call("hrule", {width="87%", height="0.3pt"}, {})
+      SILE.call("hrule", {width=SILE.scratch.headWidth, height="0.3pt"}, {})
     end)
   end)
+end)
+
+SILE.registerCommand("open-double-page", function()
+  SILE.typesetter:leaveHmode();
+  SILE.Commands["supereject"]();
+  if SILE.documentState.documentClass:oddPage() then
+    SILE.typesetter:typeset("")
+    SILE.typesetter:leaveHmode();
+    SILE.Commands["supereject"]();
+  end
+  SILE.typesetter:leaveHmode();
 end)
 
 return bible

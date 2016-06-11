@@ -1,0 +1,140 @@
+\begin[papersize=148mm x 210mm, class=bible, twocolumns=true]{document}
+\script[src=packages/grid]
+\script[src=packages/frametricks]
+\script[src=packages/xmltricks]
+\script[src=packages/raiselower]
+\script[src=packages/features]
+\script[src=packages/cropmarks]
+
+\font[size=12pt, language=fr, family="Charis SIL"]
+\grid[spacing=14pt]
+\crop:setup[papersize=178mm x 240mm]
+\add-font-feature[Ligatures=Rare]
+
+\set[parameter=typesetter.parseppattern, value=-1]
+\set[parameter=document.baselineskip, value=0pt]
+\set[parameter=document.parindent, value=0pt]
+\set[parameter=document.spaceskip, value=0.5em plus 0.3em minus 0.3em]
+
+\script[src=bible]
+
+\define[command=bible:book-title]{\center{ \skip[height=128pt]}\font[size=24pt]{\rightalign{\process}}\skip[height=28pt]}
+\define[command=chapter-number]{\font[size=24pt]{\process}}
+\define[command=bible:verse-number]{\raise[height=3pt]{\font[size=6pt]{\process }}}
+\define[command=tableofcontents:level1item]{\noindent\font[size=14pt,weight=800]{\process}\smallskip}%
+
+\xmltricks:ignore{h1 h2 h3 h4 h5 div title head marginnote footnote footnotes}
+\xmltricks:passthru{bible chapter w u sc sv phrase ol li}
+\define[command=i]{\em{\process}}
+\define[command=cite]{\em{\process}}
+\define[command=ss]{\em{\process}}
+\define[command=sup]{\raise[height=3pt]{\process}}
+\define[command=br]{\break}
+
+\tableofcontents
+
+
+	% <bible>
+	%
+	% 	<title>La Sainte Bible</title>
+	% 	<section>
+	% 		<title>Ancien Testament</title>
+	% 		<section>
+	% 			<title>Pentateuque</title>
+				\include[src="../books/at01-Genese.xhtml"]
+				\include[src="../books/at02-Exode.xhtml"]
+				\include[src="../books/at03-Levitique.xhtml"]
+				\include[src="../books/at04-Nombres.xhtml"]
+				\include[src="../books/at05-Deuteronome.xhtml"]
+	%		</section>
+	% 		<section>
+	% 			<title>Livres historiques</title>
+				<include src="../books/at06-Josue.xhtml" />
+				<include src="../books/at07-Juges.xhtml" />
+				<include src="../books/at08-Ruth.xhtml" />
+				<include src="../books/at09-1Samuel.xhtml" />
+				<include src="../books/at10-2Samuel.xhtml" />
+				<include src="../books/at11-1Rois.xhtml" />
+				<include src="../books/at12-2Rois.xhtml" />
+				<include src="../books/at13-1Chroniques.xhtml" />
+				<include src="../books/at14-2Chroniques.xhtml" />
+				<include src="../books/at15-Esdras.xhtml" />
+				<include src="../books/at16-Nehemie.xhtml" />
+				<include src="../books/at17-Tobie.xhtml" />
+				<include src="../books/at18-Judith.xhtml" />
+				<include src="../books/at19-Esther.xhtml" />
+				<include src="../books/at20-1Machabees.xhtml" />
+				<include src="../books/at21-2Machabees.xhtml" />
+	% 		</section>
+	% 		<section>
+	% 			<title>Livres poétiques et sapientiaux</title>
+				<include src="../books/at22-Job.xhtml" />
+				<include src="../books/at23-Psaumes.xhtml" />
+				<include src="../books/at24-Proverbes.xhtml" />
+				<include src="../books/at25-Ecclesiaste.xhtml" />
+				<include src="../books/at26-Cantique.xhtml" />
+				<include src="../books/at27-Sagesse.xhtml" />
+				<include src="../books/at28-Ecclesiastique.xhtml" />
+				<include src="../books/at29-Isaie.xhtml" />
+				<include src="../books/at30-Jeremie.xhtml" />
+				<include src="../books/at31-Lamentations.xhtml" />
+				<include src="../books/at32-Baruch.xhtml" />
+				<include src="../books/at33-Ezechiel.xhtml" />
+				<include src="../books/at34-Daniel.xhtml" />
+				<include src="../books/at35-Osee.xhtml" />
+				<include src="../books/at36-Joel.xhtml" />
+				<include src="../books/at37-Amos.xhtml" />
+				<include src="../books/at38-Abdias.xhtml" />
+				<include src="../books/at39-Jonas.xhtml" />
+				<include src="../books/at40-Michee.xhtml" />
+				<include src="../books/at41-Nahum.xhtml" />
+				<include src="../books/at42-Habacuc.xhtml" />
+				<include src="../books/at43-Sophonie.xhtml" />
+				<include src="../books/at44-Aggee.xhtml" />
+				<include src="../books/at45-Zacharie.xhtml" />
+				<include src="../books/at46-Malachie.xhtml" />
+	% 		</section>
+	% 	</section>
+	% 	<section>
+	% 		<title>Nouveau Testament</title>
+	% 		<section>
+	% 			<title>Évangiles et Actes des Apôtres</title>
+				<include src="../books/nt01-Matthieu.xhtml" />
+				<include src="../books/nt02-Marc.xhtml" />
+				<include src="../books/nt03-Luc.xhtml" />
+				<include src="../books/nt04-Jean.xhtml" />
+				<include src="../books/nt05-Actes.xhtml" />
+	% 		</section>
+	% 		<section>
+	% 			<title>Épîtres de Saint Paul</title>
+				<include src="../books/nt06-Romains.xhtml" />
+				<include src="../books/nt07-1Corinthiens.xhtml" />
+				<include src="../books/nt08-2Corinthiens.xhtml" />
+				<include src="../books/nt09-Galates.xhtml" />
+				<include src="../books/nt10-Ephesiens.xhtml" />
+				<include src="../books/nt11-Philippiens.xhtml" />
+				<include src="../books/nt12-Colossiens.xhtml" />
+				<include src="../books/nt13-1Thessaloniciens.xhtml" />
+				<include src="../books/nt14-2Thessaloniciens.xhtml" />
+				<include src="../books/nt15-1Timothee.xhtml" />
+				<include src="../books/nt16-2Timothee.xhtml" />
+				<include src="../books/nt17-Tite.xhtml" />
+				<include src="../books/nt18-Philemon.xhtml" />
+				<include src="../books/nt19-Hebreux.xhtml" />
+	% 		</section>
+	% 		<section>
+	% 			<title>Épîtres catholiques</title>
+				<include src="../books/nt20-Jacques.xhtml" />
+				<include src="../books/nt21-1Pierre.xhtml" />
+				<include src="../books/nt22-2Pierre.xhtml" />
+				<include src="../books/nt23-1Jean.xhtml" />
+				<include src="../books/nt24-2Jean.xhtml" />
+				<include src="../books/nt25-3Jean.xhtml" />
+				<include src="../books/nt26-Jude.xhtml" />
+				<include src="../books/nt27-Apocalypse.xhtml" />
+	% 		</section>
+	% 	</section>
+	% </bible>
+
+\end{document}
+
