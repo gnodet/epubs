@@ -3,7 +3,7 @@ SILE.registerCommand("verse", function(options, content)
   local v = options.vs
   SILE.call("break")
   SILE.scratch.isBreaking = false
-  if (tonumber(c) > 2) then return end
+  -- if (tonumber(c) > 2) then return end
   if (v == "1") then
     io.write(" ("..c..") ")
     SU.debug("test", "Calling chapter: "..c)

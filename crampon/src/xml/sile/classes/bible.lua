@@ -80,6 +80,20 @@ function bible:twoColumnMaster()
 	    footnotesA = { left="left(contentA)", right = "right(contentA)", height = "0", bottom=SILE.toPoints("95%ph")},
 	    footnotesB = { left="left(contentB)", right = "right(contentB)", height = "0", bottom=SILE.toPoints("95%ph")},
 	  }})
+	  self:defineMaster({ id = "toc-right", firstContentFrame = "content", frames = {
+	    title = {left = "left(content)", right = "right(content)", top="1cm", height="0" },
+	    content = {left = innerWidth, right = width - outerWidth, top = "bottom(title)", bottom = "top(footnotes)", balanced = false },
+	    folio = { left = "150%pw", right="200%pw", top = "0", height = "0" },
+	    runningHead = {left = "left(content)", right = "right(content)", top = "0.5cm", bottom = "1cm" },
+	    footnotes = { left="left(content)", right = "right(content)", height = "0", bottom=SILE.toPoints("95%ph")},
+	  }})
+	  self:defineMaster({ id = "toc-left", firstContentFrame = "content", frames = {
+	    title = {left = "left(content)", right = "right(content)", top="1cm", height="0" },
+	    content = {left = outerWidth, right = width - innerWidth, top = "bottom(title)", bottom = "top(footnotes)", balanced = false },
+	    folio = { left = "150%pw", right="200%pw", top = "0", height = "0" },
+	    runningHead = {left = "left(content)", right = "right(content)", top = "0.5cm", bottom = "1cm" },
+	    footnotes = { left="left(content)", right = "right(content)", height = "0", bottom=SILE.toPoints("95%ph")},
+	  }})
 	  -- Later we'll have an option for two fn frames
 	  self:loadPackage("footnotes", { insertInto = "footnotesB", stealFrom = {"contentB"} } )
   else
@@ -122,17 +136,37 @@ function bible:init()
 end
 
 local doTitlePage = false
+local doToc = false
 local tp = "odd"
 
 bible.oddPage = function(self) 
 	return tp == "odd" 
 end
 
+function bible:tocMaster(o, c)
+	-- local oldOdd = self.oddPageMaster
+	-- local oldEven = self.evenPageMaster
+	-- self.evenPageMaster = "toc-left"
+	-- self.oddPageMaster = "toc-right"
+	-- SILE.call("open-double-page")
+	doToc = true
+	SILE.call("open-double-page")
+	SILE.process(c)
+	doToc = false
+	-- self.evenPageMaster = oldEven
+	-- self.oddPageMaster = oldOdd
+end
+
 function bible:switchPage()
     if self.oddPage() then
       tp = "even"
-      SU.debug("page", "Switching to left")
-      self.switchMaster("left")
+      if doToc then
+        SU.debug("page", "Switching to toc-left")
+        self.switchMaster("toc-left")
+      else
+        SU.debug("page", "Switching to left")
+        self.switchMaster("left")
+      end
     elseif doTitlePage then
       doTitlePage = false
       tp = "odd"
@@ -140,8 +174,13 @@ function bible:switchPage()
       self.switchMaster("title")
     else
       tp = "odd"
-      SU.debug("page", "Switching to right")
-      self.switchMaster("right")
+      if doToc then
+        SU.debug("page", "Switching to toc-right")
+        self.switchMaster("toc-right")
+      else
+        SU.debug("page", "Switching to right")
+        self.switchMaster("right")
+      end
     end
 end
 
@@ -275,6 +314,10 @@ SILE.registerCommand("verse-number", function (o,c)
       SILE.call("hrule", {width=SILE.scratch.headWidth, height="0.3pt"}, {})
     end)
   end)
+end)
+
+SILE.registerCommand("toc-master", function(o, c)
+	SILE.documentState.documentClass:tocMaster(o, c)
 end)
 
 SILE.registerCommand("open-double-page", function()
