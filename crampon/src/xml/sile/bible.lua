@@ -1,14 +1,18 @@
 SILE.registerCommand("verse", function(options, content)
   local c = options.ch
   local v = options.vs
-  SILE.call("break")
-  SILE.scratch.isBreaking = false
+  -- SILE.call("break")
+  -- SILE.scratch.isBreaking = false
   -- if (tonumber(c) > 2) then return end
   if (v == "1") then
     io.write(" ("..c..") ")
     SU.debug("test", "Calling chapter: "..c)
-	SILE.call("par")
-    SILE.call("chapter-number", o, {c})
+	if (tonumber(c) > 1) then
+		SILE.call("chapter-end")
+	    SILE.call("chapter-number", o, {c})
+	else
+		SILE.call("chapter-number1", o, {c})
+	end
     SILE.call("save-chapter-number",{},{c})
   else
     SILE.process({" "})
@@ -55,7 +59,7 @@ end)
 
 SILE.registerCommand("p", function(options, content)
   if not(options.type == "intro") then
-    SILE.process(content)
+    -- SILE.process(content)
   end
 end)
 

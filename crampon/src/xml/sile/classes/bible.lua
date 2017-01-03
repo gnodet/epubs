@@ -48,78 +48,58 @@ function bible:twoColumnMaster()
   local innerWidth = SILE.toPoints(self.options.inner())
   local outerWidth = SILE.toPoints(self.options.outer())
   local twocols = not(tostring(self.options.twocolumns())=="false")
+  local usebalancing = false
   SILE.scratch.headWidth = width - innerWidth - outerWidth
-  if twocols then
+
 	  self:defineMaster({ id = "title", firstContentFrame = "contentA", frames = {
 	    title = {left = "left(contentA)", right = "right(contentB)", top="1cm", bottom="10.5cm" },
-	    contentA = {left = innerWidth, right = "left(gutter)", top = "bottom(title)", bottom = "top(footnotesA)", next = "contentB", balanced = false },
-	    contentB = {left = "right(gutter)", width="width(contentA)", right = width - outerWidth, top = "bottom(title)", bottom = "top(footnotesB)", balanced = false },
+	    contentA = {left = innerWidth, right = "left(gutter)", top = "bottom(title)", bottom = "top(footnotesA)", next = "contentB", balanced = usebalancing },
+	    contentB = {left = "right(gutter)", width="width(contentA)", right = width - outerWidth, top = "bottom(title)", bottom = "top(footnotesB)", balanced = usebalancing },
 	    gutter = { left = "right(contentA)", right = "left(contentB)", width = gutterWidth },
 	    folio = { left = "150%pw", right="200%pw", top = "0", height = "0" },
 	    runningHead = {left = "left(contentA)", right = "right(contentB)", top = "0.5cm", bottom = "1cm" },
-	    footnotesA = { left="left(contentA)", right = "right(contentA)", height = "0", bottom=SILE.toPoints("95%ph")},
-	    footnotesB = { left="left(contentB)", right = "right(contentB)", height = "0", bottom=SILE.toPoints("95%ph")},
+	    footnotesA = { left="left(contentA)", right = "right(contentA)", height = "0", bottom="95%ph"},
+	    footnotesB = { left="left(contentB)", right = "right(contentB)", height = "0", bottom="95%ph"},
 	  }})
 	  self:defineMaster({ id = "right", firstContentFrame = "contentA", frames = {
 	    title = {left = "left(contentA)", right = "right(contentB)", top="1cm", height="0", bottom="top(contentA)" },
-	    contentA = {left = innerWidth, right = "left(gutter)", top = "bottom(title)", bottom = "top(footnotesA)", next = "contentB", balanced = false },
-	    contentB = {left = "right(gutter)", width="width(contentA)", right = width - outerWidth, top = "bottom(title)", bottom = "top(footnotesB)", balanced = false },
+	    contentA = {left = innerWidth, right = "left(gutter)", top = "bottom(title)", bottom = "top(footnotesA)", next = "contentB", balanced = usebalancing },
+	    contentB = {left = "right(gutter)", width="width(contentA)", right = width - outerWidth, top = "bottom(title)", bottom = "top(footnotesB)", balanced = usebalancing },
 	    gutter = { left = "right(contentA)", right = "left(contentB)", width = gutterWidth },
 	    folio = { left = "150%pw", right="200%pw", top = "0", height = "0" },
 	    runningHead = {left = "left(contentA)", right = "right(contentB)", top = "0.5cm", bottom = "1cm" },
-	    footnotesA = { left="left(contentA)", right = "right(contentA)", height = "0", bottom=SILE.toPoints("95%ph")},
-	    footnotesB = { left="left(contentB)", right = "right(contentB)", height = "0", bottom=SILE.toPoints("95%ph")},
+	    footnotesA = { left="left(contentA)", right = "right(contentA)", height = "0", bottom="95%ph"},
+	    footnotesB = { left="left(contentB)", right = "right(contentB)", height = "0", bottom="95%ph"},
 	  }})
 	  self:defineMaster({ id = "left", firstContentFrame = "contentA", frames = {
 	    title = {left = "left(contentA)", right = "right(contentB)", top="1cm", height="0", bottom="top(contentA)" },
-	    contentA = {left = outerWidth, right = "left(gutter)", top = "bottom(title)", bottom = "top(footnotesA)", next = "contentB", balanced = false },
-	    contentB = {left = "right(gutter)", width="width(contentA)", right = width - innerWidth, top = "bottom(title)", bottom = "top(footnotesB)", balanced = false },
+	    contentA = {left = outerWidth, right = "left(gutter)", top = "bottom(title)", bottom = "top(footnotesA)", next = "contentB", balanced = usebalancing },
+	    contentB = {left = "right(gutter)", width="width(contentA)", right = width - innerWidth, top = "bottom(title)", bottom = "top(footnotesB)", balanced = usebalancing },
 	    gutter = { left = "right(contentA)", right = "left(contentB)", width = gutterWidth },
 	    folio = { left = "150%pw", right="200%pw", top = "0", height = "0" },
 	    runningHead = {left = "left(contentA)", right = "right(contentB)", top = "0.5cm", bottom = "1cm" },
-	    footnotesA = { left="left(contentA)", right = "right(contentA)", height = "0", bottom=SILE.toPoints("95%ph")},
-	    footnotesB = { left="left(contentB)", right = "right(contentB)", height = "0", bottom=SILE.toPoints("95%ph")},
+	    footnotesA = { left="left(contentA)", right = "right(contentA)", height = "0", bottom="95%ph"},
+	    footnotesB = { left="left(contentB)", right = "right(contentB)", height = "0", bottom="95%ph"},
 	  }})
 	  self:defineMaster({ id = "toc-right", firstContentFrame = "content", frames = {
 	    title = {left = "left(content)", right = "right(content)", top="1cm", height="0" },
 	    content = {left = innerWidth, right = width - outerWidth, top = "bottom(title)", bottom = "top(footnotes)", balanced = false },
 	    folio = { left = "150%pw", right="200%pw", top = "0", height = "0" },
 	    runningHead = {left = "left(content)", right = "right(content)", top = "0.5cm", bottom = "1cm" },
-	    footnotes = { left="left(content)", right = "right(content)", height = "0", bottom=SILE.toPoints("95%ph")},
+	    footnotes = { left="left(content)", right = "right(content)", height = "0", bottom="95%ph"},
 	  }})
 	  self:defineMaster({ id = "toc-left", firstContentFrame = "content", frames = {
 	    title = {left = "left(content)", right = "right(content)", top="1cm", height="0" },
 	    content = {left = outerWidth, right = width - innerWidth, top = "bottom(title)", bottom = "top(footnotes)", balanced = false },
 	    folio = { left = "150%pw", right="200%pw", top = "0", height = "0" },
 	    runningHead = {left = "left(content)", right = "right(content)", top = "0.5cm", bottom = "1cm" },
-	    footnotes = { left="left(content)", right = "right(content)", height = "0", bottom=SILE.toPoints("95%ph")},
+	    footnotes = { left="left(content)", right = "right(content)", height = "0", bottom="95%ph"},
 	  }})
 	  -- Later we'll have an option for two fn frames
 	  self:loadPackage("footnotes", { insertInto = "footnotesB", stealFrom = {"contentB"} } )
-  else
-	  self:defineMaster({ id = "title", firstContentFrame = "content", frames = {
-	    title = {left = "left(content)", right = "right(content)", top="1cm", bottom="10.5cm" },
-	    content = {left = innerWidth, right = width - outerWidth, top = "bottom(title)", bottom = "top(footnotes)", balanced = false },
-	    folio = { left = "150%pw", right="200%pw", top = "0", height = "0" },
-	    runningHead = {left = "left(content)", right = "right(content)", top = "0.5cm", bottom = "1cm" },
-	    footnotes = { left="left(content)", right = "right(content)", height = "0", bottom=SILE.toPoints("95%ph")},
-	  }})
-	  self:defineMaster({ id = "right", firstContentFrame = "content", frames = {
-	    title = {left = "left(content)", right = "right(content)", top="1cm", height="0" },
-	    content = {left = innerWidth, right = width - outerWidth, top = "bottom(title)", bottom = "top(footnotes)", balanced = false },
-	    folio = { left = "150%pw", right="200%pw", top = "0", height = "0" },
-	    runningHead = {left = "left(content)", right = "right(content)", top = "0.5cm", bottom = "1cm" },
-	    footnotes = { left="left(content)", right = "right(content)", height = "0", bottom=SILE.toPoints("95%ph")},
-	  }})
-	  self:defineMaster({ id = "left", firstContentFrame = "content", frames = {
-	    title = {left = "left(content)", right = "right(content)", top="1cm", height="0" },
-	    content = {left = outerWidth, right = width - innerWidth, top = "bottom(title)", bottom = "top(footnotes)", balanced = false },
-	    folio = { left = "150%pw", right="200%pw", top = "0", height = "0" },
-	    runningHead = {left = "left(content)", right = "right(content)", top = "0.5cm", bottom = "1cm" },
-	    footnotes = { left="left(content)", right = "right(content)", height = "0", bottom=SILE.toPoints("95%ph")},
-	  }})
-  end
-  -- self:loadPackage("balanced-frames")
+	  if usebalancing then
+		  self:loadPackage("balanced-frames")
+	  end
 end
 
 function bible:init()
@@ -189,7 +169,7 @@ bible.newPage = function(self)
   self:newPageInfo()
   local r = plain.newPage(self)
   -- SILE.typesetNaturally(SILE.getFrame("contentA"), function()
-    -- SILE.call("grid:debug")
+    -- SILE.call("showframe", {id="all"})
   -- end)
   -- SILE.typesetNaturally(SILE.getFrame("contentB"), function()
     -- SILE.call("grid:debug")
@@ -331,4 +311,9 @@ SILE.registerCommand("open-double-page", function()
   SILE.typesetter:leaveHmode();
 end)
 
+SILE.registerCommand("indent", function ( options, content )
+  SILE.process(content)
+end, "Do add an indent to the start of this paragraph, even if previously told otherwise")
+
+SILE.settings.set("document.parindent", SILE.nodefactory.newGlue("0pt"))
 return bible

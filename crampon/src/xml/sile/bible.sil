@@ -1,10 +1,11 @@
 \begin[papersize=148mm x 210mm, class=bible, twocolumns=true]{document}
-\script[src=packages/grid]
+\script[src=packages/linespacing]
 \script[src=packages/frametricks]
 \script[src=packages/xmltricks]
 \script[src=packages/raiselower]
 \script[src=packages/features]
 \script[src=packages/cropmarks]
+\script[src=packages/color]
 
 \crop:setup[papersize=178mm x 240mm]
 \add-font-feature[Ligatures=Rare]
@@ -13,11 +14,17 @@
 \set[parameter=document.baselineskip, value=0pt]
 \set[parameter=document.parindent, value=0pt]
 \set[parameter=document.spaceskip, value=0.5em plus 0.3em minus 0.3em]
+\set[parameter=linespacing.method, value=fixed]
+% \set[parameter=linespacing.fixed.baselinedistance, value=10pt]
+% \set[parameter=linespacing.fit-font.extra-space, value=0.2em]
+\set[parameter=current.parindent, value=0pt]
 
 \script[src=bible]
 
 \define[command=bible:book-title]{\center{ \skip[height=128pt]}\font[size=24pt]{\rightalign{\process}}\skip[height=28pt]}
-\define[command=chapter-number]{\font[size=24pt]{\process}}
+\define[command=chapter-end]{\par \par}
+\define[command=chapter-number1]{\font[size=20pt]{\process}}
+\define[command=chapter-number]{\font[size=20pt]{\process}}
 \define[command=bible:verse-number]{\raise[height=3pt]{\font[size=6pt]{\process }}}
 
 \xmltricks:ignore{h1 h2 h3 h4 h5 div title head marginnote footnote footnotes}
@@ -28,13 +35,16 @@
 \define[command=sup]{\raise[height=3pt]{\process}}
 \define[command=br]{\break}
 
-\grid[spacing=14pt]
 \font[size=12pt, language=fr, family="Charis SIL"]
+\set[parameter=linespacing.fixed.baselinedistance, value=14pt]
+\set[parameter=linespacing.minimumfirstlineposition, value=14pt]
 \define[command=tableofcontents:level1item]{\noindent\process\par}%
 \toc-master{\tableofcontents}
 
-\grid[spacing=10pt]
+% \grid[spacing=10pt]
 \font[size=8pt, language=fr, family="Charis SIL"]
+\set[parameter=linespacing.fixed.baselinedistance, value=10pt]
+\set[parameter=linespacing.minimumfirstlineposition, value=10pt]
 
 
 	% <bible>
