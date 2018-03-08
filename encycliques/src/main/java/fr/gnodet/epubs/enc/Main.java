@@ -46,9 +46,11 @@ public class Main {
             String date = book.getAttribute("date");
             String full = getFull(creator);
             String output = book.getAttribute("file");
-            if (output == null) {
+            if (output == null || output.isEmpty()) {
                 output = "enc_" + date + "_hf_" + full + "_" + title.toLowerCase().replaceAll("\\s", "-").replaceAll("æ", "ae");
             }
+
+            System.err.println("     Generating " + output + ".png");
 //            if (!file.contains("francesco")) continue;
 //            if (!file.contains("centesimus")) continue;
             byte[] coverPngData = Cover.generateCoverPng(

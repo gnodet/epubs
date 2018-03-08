@@ -3,11 +3,20 @@ package fr.gnodet.epubs.core;
 import java.io.*;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Tidy {
 
     public static String tidyHtml(String document) throws IOException {
+        document = replaceHexEntities(document);
+        document = document.replaceAll("’", "&apos;");
+        document = doTidyHtml(document);
+        document = document.replaceAll("&amp;apos;", "’");
+        return document;
+    }
+
+    public static String doTidyHtml(String document) throws IOException {
         Writer writer;
         writer = new StringWriter();
         org.w3c.tidy.Tidy tidy = new org.w3c.tidy.Tidy();
@@ -29,6 +38,50 @@ public class Tidy {
             document = typo.getKey().matcher(document).replaceAll(typo.getValue());
         }
         return document;
+    }
+
+    public static String replaceHexEntities(String text) {
+        Matcher m = Pattern.compile("&#(x?[0-9a-z]+);").matcher(text);
+        m.reset();
+        boolean result = m.find();
+        if (result) {
+            StringBuffer sb = new StringBuffer();
+            do {
+                String group = m.group(1);
+                int ch;
+                if (group.startsWith("x")) {
+                    ch = Integer.parseInt(group.substring(1), 16);
+                } else {
+                    ch = Integer.parseInt(group);
+                }
+                String replacement;
+                switch (ch) {
+                    case '\"':
+                        replacement = "&quot;";
+                        break;
+                    case '&':
+                        replacement = "&amp;";
+                        break;
+                    case '\'':
+                        replacement = "&apos;";
+                        break;
+                    case '<':
+                        replacement = "&lt;";
+                        break;
+                    case '>':
+                        replacement = "&gt;";
+                        break;
+                    default:
+                        replacement = "" + (char) ch;
+                        break;
+                }
+                m.appendReplacement(sb, replacement);
+                result = m.find();
+            } while (result);
+            m.appendTail(sb);
+            return sb.toString();
+        }
+        return text.toString();
     }
 
     static final Map<Pattern, String> ENTITIES;

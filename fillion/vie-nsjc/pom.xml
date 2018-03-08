@@ -96,7 +96,6 @@
 			<plugin>
 				<groupId>com.agilejava.docbkx</groupId>
 				<artifactId>docbkx-fop-support</artifactId>
-				<version>3.0-SNAPSHOT</version>
 				<executions>
 					<execution>
 						<phase>generate-resources</phase>
@@ -112,7 +111,6 @@
 			<plugin>
 				<groupId>com.agilejava.docbkx</groupId>
 				<artifactId>docbkx-maven-plugin</artifactId>
-				<version>3.0-SNAPSHOT</version>
 				<executions>
 					<execution>
 						<id>vie-nsjc-title</id>
@@ -131,6 +129,7 @@
 						</goals>
 						<phase>package</phase>
 						<configuration>
+							<epubOebpsDir>./</epubOebpsDir>
 							<xincludeSupported>true</xincludeSupported>
 							<calloutUnicodeFont>Times</calloutUnicodeFont>
 							<chapterAutolabel>0</chapterAutolabel>
@@ -161,6 +160,7 @@
 						</goals>
 						<phase>package</phase>
 						<configuration>
+							<epubOebpsDir>./</epubOebpsDir>
 							<xincludeSupported>true</xincludeSupported>
 							<calloutUnicodeFont>Times</calloutUnicodeFont>
 							<chapterAutolabel>0</chapterAutolabel>
@@ -191,6 +191,7 @@
 						</goals>
 						<phase>package</phase>
 						<configuration>
+							<epubOebpsDir>./</epubOebpsDir>
 							<xincludeSupported>true</xincludeSupported>
 							<calloutUnicodeFont>Times</calloutUnicodeFont>
 							<chapterAutolabel>0</chapterAutolabel>
