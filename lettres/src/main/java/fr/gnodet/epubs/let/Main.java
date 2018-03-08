@@ -121,11 +121,11 @@ public class Main {
 
         // Load URL text content
         String defaultEncoding;
-        if (url.toString().contains("francesco")) {
+//        if (url.toString().contains("francesco")) {
             defaultEncoding = "UTF-8";
-        } else {
-            defaultEncoding = "ISO-8859-1";
-        }
+//        } else {
+//            defaultEncoding = "ISO-8859-1";
+//        }
         String document = loadTextContent(url, cache, defaultEncoding);
 
         // Add doctype if not present
@@ -197,6 +197,7 @@ public class Main {
         // Clean paragraphs
         document = document.replaceAll("<i><b><br /> <br /> </b> <font color=\"#000000\"><br /> <br />", "<br /><br /><i><font>");
         document = document.replaceAll("\\s*<br />\\s*<br />\\s*", "</p><p>");
+        document = document.replaceAll("<br>", "<br />");
 
         // Delete first table
         document = document.replaceFirst("<table[\\s\\S]*?</table>", "");
@@ -227,13 +228,18 @@ public class Main {
         String head = extract(document, "<head>.*?</head>", 0);
         String title = extract(document, "<p[^>]*>(.*?LETTRE APOSTOLIQUE.*?)(</p>)", 1);
         String tdm = extract(document, "(<p><b>TABLE DES MATIÈRES.*?<p><hr[^>]*/></p>)", 1);
-        String bened = extractFollowingParaContaining(document, ".*([Bb]énédiction|Vénérables).*", document.indexOf(title) + title.length());
+        String bened = extract(document, "(<p><i>Vénérables.*?</p>)", 1);
         String footnotes = extract(document.substring(document.indexOf(bened != null ? bened : tdm != null ? tdm : title) + (bened != null ? bened : tdm != null ? tdm : title).length()),
                         "<hr[^>]*>(?:</p>)?(.*?<p.*?)(<p[^>]*>[\\s\u00a0]*</p>|<p><br />|</td>)", 1);
         String copyright = extract(document, ">\\s*(©[^<]*?)\\s*<", 1);
         String main = document.substring(document.indexOf(bened != null ? bened : tdm != null ? tdm : title) + (bened != null ? bened : tdm != null ? tdm : title).length(),
                                          document.indexOf(footnotes != null ? footnotes : (copyright != null ? copyright : "</body>")));
-
+        if (main.contains("©")) {
+            main = main.substring(0, main.indexOf("©"));
+            while (main.lastIndexOf("<p") > main.lastIndexOf("</p>")) {
+                main = main.substring(0, main.lastIndexOf("</p>") + 4);
+            }
+        }
         if (url.toExternalForm().contains("salvifici-doloris")) {
             URL notesUrl = Main.class.getResource("salvifici-doloris-notes.html");
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
@@ -253,21 +259,21 @@ public class Main {
                 "</body></html>";
 
         writeToFile(document, output);
-
-        String[] docs = split(document,
-                "<p class=\"center\"><span><b><a id=\"Chapitre[^\"]*\">Chapitre|" +
-                "<p class=\"center\"><b>[^<]* PARTIE</b></p>|" +
-                "<hr",
-                output);
-
-        File[] files = new File[docs.length];
-        for (int i = 0; i < docs.length; i++) {
-            String name = output.substring(0, output.lastIndexOf('.')) + ".p" + toDigits(i) + ".html";
-            files[i] = new File(name);
-            writeToFile(docs[i], name);
-        }
-
-        writeToFile(document, output);
+//
+//        String[] docs = split(document,
+//                "<p class=\"center\"><span><b><a id=\"Chapitre[^\"]*\">Chapitre|" +
+//                "<p class=\"center\"><b>[^<]* PARTIE</b></p>|" +
+//                "<hr",
+//                output);
+//
+//        File[] files = new File[docs.length];
+//        for (int i = 0; i < docs.length; i++) {
+//            String name = output.substring(0, output.lastIndexOf('.')) + ".p" + toDigits(i) + ".html";
+//            files[i] = new File(name);
+//            writeToFile(docs[i], name);
+//        }
+//
+//        writeToFile(document, output);
     }
 
     private static String replaceAllFull(String document, String regexp, String repl) {
@@ -296,7 +302,9 @@ public class Main {
 
     private static String cleanHead(String document) {
         // Remove meta tags with spaces
-        document = document.replaceAll("<meta[^>]*name=\"[^\"]* [^\"]*\"[^>]*/>", "");
+        document = document.replaceAll("<meta[^>]*/?>", "");
+        // Remove link tags
+        document = document.replaceAll("<link[^>]*/?>", "");
         // Remove style elements
         document = document.replaceAll("<style.*?</style>", "");
         // Add our style

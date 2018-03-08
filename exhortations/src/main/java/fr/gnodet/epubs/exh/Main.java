@@ -149,6 +149,7 @@ public class Main {
         // Fix footnotes with missing paragraph and missing closing div tag
         // Tidy Html
         document = tidyHtml(document);
+        document = document.replaceAll("=\n\"", "=\"");
         // Fix encoding
         document = document.replaceAll("<meta[^>]*http-equiv=\"Content-Type\"[^>]*/>", "");
         document = document.replace("<head>", "<head><meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\" />");
@@ -202,6 +203,7 @@ public class Main {
         // Clean paragraphs
         document = document.replaceAll("<i><b><br /> <br /> </b> <font color=\"#000000\"><br /> <br />", "<br /><br /><i><font>");
         document = document.replaceAll("\\s*<br />\\s*<br />\\s*", "</p><p>");
+        document = document.replaceAll("<br>", "<br />");
 
         // Delete first table
         document = document.replaceFirst("<table[\\s\\S]*?</table>", "");
@@ -230,10 +232,8 @@ public class Main {
         writeToFile(document, output);
 
         String head = extract(document, "<head>.*?</head>", 0);
-        String title = url.toExternalForm().contains("papa-francesco")
-                ? extract(document, "(<p[^>]*>.*?EXHORTATION APOSTOLIQUE.*?)(<p><b>TABLE DES MATIÈRES|<p>1\\. )", 1)
-                : extract(document, ".*<td[^>]*>(.*?EXHORTATION APOSTOLIQUE.*?)(<p><i>|<p><em>|<p><b>|<p[^>]*>(<center>)?\u00a0|</td>|<[^>]*>\\s*INTRO)", 1);
-        String tdm = extract(document, "(<p><b>TABLE DES MATIÈRES.*?<p><hr[^>]*/></p>)", 1);
+        String title = extract(document, "(<p[^>]*>.*?EXHORTATION APOSTOLIQUE.*?</p>)", 1);
+        String tdm = extract(document, "(<p><b>TABLE DES MATIÈRES.*?<p><hr[^>]*></p>)", 1);
         String bened = extractFollowingParaContaining(document, ".*[Bb]énédiction.*", document.indexOf(title) + title.length());
         String footnotes = extract(document.substring(document.indexOf(bened != null ? bened : tdm != null ? tdm : title) + (bened != null ? bened : tdm != null ? tdm : title).length()),
                         "<hr[^>]*>(?:</p>)?(.*?<p.*?)(<p[^>]*>[\\s\u00a0]*</p>|<p><br />|</td>)", 1);
@@ -302,8 +302,10 @@ public class Main {
     }
 
     private static String cleanHead(String document) {
-        // Remove meta tags with spaces
-        document = document.replaceAll("<meta[^>]*name=\"[^\"]* [^\"]*\"[^>]*/>", "");
+        // Remove meta tags
+        document = document.replaceAll("<meta[^>]*>", "");
+        // Remove link tags
+        document = document.replaceAll("<link[^>]*>", "");
         // Remove style elements
         document = document.replaceAll("<style.*?</style>", "");
         // Add our style
@@ -384,6 +386,9 @@ public class Main {
         document = fixTypos(document);
         // Replace hr
         document = document.replaceAll("<p>\\s*<hr[^>]*/?>\\s*</p>", "<div class=\"hr\"></div>");
+        // Fix links
+        document = document.replaceAll("href= \"", "href=\"");
+        document = document.replaceAll("href=\"[^#]*([^\"]+)\"", "href=\"$1\"");
         return document;
     }
 

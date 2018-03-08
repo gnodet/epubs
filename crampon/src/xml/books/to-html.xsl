@@ -423,7 +423,7 @@
 			<xsl:choose>
 				<xsl:when test="count(preceding::verse) = count(../preceding::verse)">
 					<div class="chapter-number">
-						<xsl:value-of select="'Ch. '"/><span class="sc"><xsl:number value="@ch" format="1"/></span>
+						<xsl:value-of select="'Ch. '"/><span class="sc"><xsl:number value="@ch" format="i"/></span>
 						<xsl:if test="@vs > 1">
 							<xsl:text>, </xsl:text>
 							<span class="sv"><xsl:value-of select="@vs"/></span>
@@ -439,7 +439,7 @@
 				</xsl:when>
 				<xsl:when test="@vs = 1">
 					<span class="chapter-number">
-						<xsl:value-of select="'Ch. '"/><span class="sc"><xsl:number value="@ch" format="1"/></span>
+						<xsl:value-of select="'Ch. '"/><span class="sc"><xsl:number value="@ch" format="i"/></span>
 						<xsl:value-of select="'.'"/>
 					</span>
 					<span class="verse-number">
@@ -527,7 +527,7 @@
 			<span class="ss"><xsl:value-of select="text()"/></span>
 		</xsl:template>
 		<xsl:template match="bible/sc">
-			<span class="sc"><xsl:number value="text()" format="1"/></span>
+			<span class="sc"><xsl:number value="text()" format="i"/></span>
 		</xsl:template>
 		<xsl:template match="bible/sv">
 			<span class="sv"><xsl:value-of select="text()"/></span>

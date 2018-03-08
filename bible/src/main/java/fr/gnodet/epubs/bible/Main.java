@@ -46,6 +46,19 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
+        byte[] ntCoverPng = Cover.generateCoverPng(Math.random(),
+                "Nouveau Testament",
+                new Object[] {
+                        new Cover.Text("AELF", new Font(Font.SERIF, Font.PLAIN, 58), 1.0, 0.0),
+                        new Cover.Break(),
+                        new Cover.Text("Nouveau", new Font(Font.SERIF, Font.PLAIN, 96), 1.1, 0.25),
+                        new Cover.Text("Testament", new Font(Font.SERIF, Font.PLAIN, 96), 1.1, 0.25),
+                        new Cover.Break(),
+                },
+                null);
+        writeToFile(ntCoverPng, "target/site/images/nt.png");
+
+
         String filename = "bible_liturgie_catholique";
         String epub = "target/site/epub/" + filename + ".epub";
         String title = "Bible de la Liturgique Catholique";

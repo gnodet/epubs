@@ -16,7 +16,7 @@
     <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
     <item href="Text/cover.xhtml" id="cover.xhtml" media-type="application/xhtml+xml" />
     <item href="Images/couverture_ebook_bible_complete2.jpg" id="cover-image" media-type="image/jpeg" />
-    <item href="Text/page%20de%20titre.xhtml" id="page_de_titre.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/page_de_titre.xhtml" id="page_de_titre.xhtml" media-type="application/xhtml+xml" />
     <item href="Text/licence.xhtml" id="licence.xhtml" media-type="application/xhtml+xml" />
     <item href="Text/Genese.xhtml" id="Genese.xhtml" media-type="application/xhtml+xml" />
     <item href="Styles/styles.css" id="styles.css" media-type="text/css" />
@@ -185,6 +185,6 @@
   <guide>
     <reference href="Text/TOC.xhtml" title="Table des matières" type="toc" />
     <reference href="Text/cover.xhtml" title="Couverture" type="cover" />
-    <reference href="Text/page%20de%20titre.xhtml" title="Page de titre" type="title-page" />
+    <reference href="Text/page_de_titre.xhtml" title="Page de titre" type="title-page" />
   </guide>
 </package>

@@ -24,6 +24,8 @@ import com.rtfparserkit.rtf.Command;
 import fr.gnodet.epubs.core.Cover;
 import fr.gnodet.epubs.core.EPub;
 
+import static fr.gnodet.epubs.core.IOUtil.writeToFile;
+
 public class Main {
 
     public static void main(String[] args) throws Exception {
@@ -126,6 +128,7 @@ public class Main {
                         new Cover.Break(),
                 },
                 null);
+        writeToFile(coverPng, "target/site/images/" + "fillion-bible" + ".png");
 
         Map<String, byte[]> resources = new HashMap<String, byte[]>();
         resources.put("OEBPS/img/cover.png", coverPng);
@@ -136,7 +139,7 @@ public class Main {
         for (String name : files) {
             generated.add(new File(outputDir, name.replace(".rtf", ".xhtml")));
         }
-        EPub.createEpub(generated.toArray(new File[generated.size()]), resources, new File("target/" + epub), title, creator2, tocNcx);
+        EPub.createEpub(generated.toArray(new File[generated.size()]), resources, new File("target/site/epub/" + epub), title, creator2, tocNcx);
     }
 
     public static class XhtmlRtfListener extends RtfListenerAdaptor {

@@ -55,7 +55,7 @@
 					<systemProperties>
 						<systemProperty>
 							<key>basedir</key>
-							<value>${project.basedir}</value>
+							<value>${session.executionRootDirectory}</value>
 						</systemProperty>
 					</systemProperties>
                 </configuration>
@@ -145,11 +145,11 @@
 										tofile="${project.build.directory}/generated-resources/xml/t1/vie-nsjc-t1.xml"/>
 								<copy tofile="${project.build.directory}/docbkx/epub3/t1/custom.css"
 										file="src/docbkx/css/custom-epub3.css"/>
-								<copy file="${project.build.directory}/site/images/fillion-vie-nsjc-t1.png"
+								<copy file="${session.executionRootDirectory}/target/site/images/fillion-vie-nsjc-t1.png"
 										tofile="${project.build.directory}/docbkx/epub3/t1/cover.png"/>
 							</preProcess>
 							<postProcess>
-								<copy tofile="${project.build.directory}/site/epub/fillion-vie-nsjc-t1.epub"
+								<copy tofile="${session.executionRootDirectory}/target/site/epub/fillion-vie-nsjc-t1.epub"
 										file="${project.build.directory}/docbkx/epub3/vie-nsjc-t1.epub"/>
 							</postProcess>
 						</configuration>
@@ -175,11 +175,11 @@
 										tofile="${project.build.directory}/generated-resources/xml/t2/vie-nsjc-t2.xml"/>
 								<copy tofile="${project.build.directory}/docbkx/epub3/t2/custom.css"
 										file="src/docbkx/css/custom-epub3.css"/>
-								<copy file="${project.build.directory}/site/images/fillion-vie-nsjc-t2.png"
+								<copy file="${session.executionRootDirectory}/target/site/images/fillion-vie-nsjc-t2.png"
 										tofile="${project.build.directory}/docbkx/epub3/t2/cover.png"/>
 							</preProcess>
 							<postProcess>
-								<copy tofile="${project.build.directory}/site/epub/fillion-vie-nsjc-t2.epub"
+								<copy tofile="${session.executionRootDirectory}/target/site/epub/fillion-vie-nsjc-t2.epub"
 										file="${project.build.directory}/docbkx/epub3/vie-nsjc-t2.epub"/>
 							</postProcess>
 						</configuration>
@@ -205,11 +205,11 @@
 										tofile="${project.build.directory}/generated-resources/xml/t3/vie-nsjc-t3.xml"/>
 								<copy tofile="${project.build.directory}/docbkx/epub3/t3/custom.css"
 										file="src/docbkx/css/custom-epub3.css"/>
-								<copy file="${project.build.directory}/site/images/fillion-vie-nsjc-t3.png"
+								<copy file="${session.executionRootDirectory}/target/site/images/fillion-vie-nsjc-t3.png"
 										tofile="${project.build.directory}/docbkx/epub3/t3/cover.png"/>
 							</preProcess>
 							<postProcess>
-								<copy tofile="${project.build.directory}/site/epub/fillion-vie-nsjc-t3.epub"
+								<copy tofile="${session.executionRootDirectory}/target/site/epub/fillion-vie-nsjc-t3.epub"
 										file="${project.build.directory}/docbkx/epub3/vie-nsjc-t3.epub"/>
 							</postProcess>
 						</configuration>

@@ -10,17 +10,24 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>core</module>
+		<module>fixer</module>
 		<module>antichrist</module>
 		<module>antechrist</module>
-        <module>cec</module>
-        <module>encycliques</module>
+        <!--<module>cec</module>-->
+        <!--<module>encycliques</module>-->
         <module>exhortations</module>
         <module>cds</module>
         <module>vatican-ii</module>
+		<module>bobos</module>
+		<module>crampon</module>
         <module>histoire-philo</module>
         <module>precis-philo</module>
-        <module>bible</module>
+        <!--<module>bible</module>-->
         <module>fillion</module>
+		<module>oraisons-debutants</module>
+		<module>discours</module>
+		<module>lettres</module>
+		<!--<module>enc2</module>-->
     </modules>
 
     <dependencyManagement>
@@ -28,17 +35,12 @@
 			<dependency>
 				<groupId>org.idpf</groupId>
 				<artifactId>epubcheck</artifactId>
-				<version>4.0.0-alpha11</version>
+				<version>4.0.1</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.xmlgraphics</groupId>
 				<artifactId>fop</artifactId>
-				<version>1.2-SNAPSHOT</version>
-			</dependency>
-			<dependency>
-				<groupId>org.apache.xmlgraphics</groupId>
-				<artifactId>xmlgraphics-commons</artifactId>
-				<version>1.6-SNAPSHOT</version>
+				<version>2.1</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.xmlgraphics</groupId>
@@ -59,13 +61,28 @@
 				<plugin>
 					<groupId>com.agilejava.docbkx</groupId>
 					<artifactId>docbkx-maven-plugin</artifactId>
-					<version>3.0-SNAPSHOT</version>
+					<version>2.0.18-SNAPSHOT</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<configuration>
+						<source>1.8</source>
+						<target>1.8</target>
+					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
 
 	<repositories>
+		<repository>
+			<id>central</id>
+			<url>http://repo1.maven.org/maven2/</url>
+		</repository>
+		<repository>
+			<id>servicemix</id>
+			<url>https://svn.apache.org/repos/asf/servicemix/m2-repo</url>
+		</repository>
 		<repository>
 			<id>lib</id>
 			<name>lib</name>

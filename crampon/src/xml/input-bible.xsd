@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:bi="urn:bible:input"
+        targetNamespace="urn:bible:input">
+
+    <element name="bible">
+        <complexType>
+            <sequence>
+                <element name="title" type="string"/>
+                <element name="section" minOccurs="0" maxOccurs="unbounded">
+                    <complexType>
+                        <sequence>
+                            <element name="title" type="string"/>
+                            <element name="section" minOccurs="0" maxOccurs="unbounded">
+                                <complexType>
+                                    <sequence>
+                                        <element name="title" type="string"/>
+                                    </sequence>
+                                </complexType>
+                            </element>
+                        </sequence>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="book">
+        <complexType>
+            <attribute name="id" type="token"/>
+            <sequence>
+                <element name="title" type="string"/>
+                <element name="section" minOccurs="0" maxOccurs="unbounded">
+                    <complexType>
+                        <attribute name="id" type="token"/>
+                        <sequence>
+                            <element name="title" type="string"/>
+                            <choice maxOccurs="unbounded">
+                                <element name="verse" minOccurs="0" maxOccurs="unbounded">
+                                    <complexType>
+                                        <attribute name="ch" type="integer"/>
+                                        <attribute name="vs" type="integer"/>
+                                        <complexContent />
+                                        <choice minOccurs="0" maxOccurs="unbounded">
+                                            <element name="em" type="string"/>
+                                            <element name="br" />
+                                        </choice>
+                                    </complexType>
+                                </element>
+                                <element name="br" />
+                            </choice>
+                        </sequence>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+
+</schema>

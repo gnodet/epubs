@@ -113,8 +113,12 @@ public class Main {
             document = document.replaceAll("<link[^>]*type=\"text/css\"[^>]*>", "");
             document = document.replaceAll("<style>", "<style type=\"text/css\">");
 
+            // Remove comments
+            document = document.replaceAll("<!--[\\s\\S]*?-->", "");
+
             // Tidy html
             document = tidyHtml(document);
+            document = document.replaceAll("<a[\\s\n]+(href[^>]*)>\n*", "<a $1>");
 
             // Use xhtml 1.1
             document = document.replaceAll(
@@ -127,14 +131,16 @@ public class Main {
                 while (index > 0) {
                     int stop = document.indexOf("</pre>", index) + "</pre>".length();
                     String pre = document.substring(index, stop);
+
                     pre = pre.replaceAll("\n", "<br/>");
+
                     document = document.substring(0, index) + pre + document.substring(stop, document.length());
                     index = document.indexOf("<pre>", stop);
                 }
             }
             document = document.replaceAll("[\r\n]+", " ");
             // Fix encoding
-            document = document.replaceAll("<meta[^>]*http-equiv=\"Content-Type\"[^>]*/>", "");
+            document = document.replaceAll("<meta[^>]*>", "");
             document = document.replace("<head>", "<head><meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\" />");
             // Translate entities
             document = translateEntities(document);

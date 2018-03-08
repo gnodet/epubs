@@ -34,6 +34,13 @@
             <artifactId>batik-all</artifactId>
         </dependency>
         <dependency>
+            <groupId>net.sf.docbook</groupId>
+            <artifactId>docbook-xsl</artifactId>
+            <version>1.79.1</version>
+            <classifier>ns-resources</classifier>
+            <type>zip</type>
+        </dependency>
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>

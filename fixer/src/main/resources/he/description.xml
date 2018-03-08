@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
+    <registration>
+        <simple-license accept-by="admin" suppress-on-update="true">
+            <license-text xlink:href="license.txt" lang="en" />
+            <license-text xlink:href="license_he.txt" lang="he" />
+        </simple-license>
+    </registration>
+    <version value="2010.11.05" />
+    <identifier value="Hebrew.dictionary.from.hspell.ivrix.org.il" />
+    <display-name>
+        <name lang="en">Hebrew spell check dictionary</name>
+        <name lang="he">מילון לבדיקת איות בעברית</name>
+    </display-name>
+    <icon>
+	<default xlink:href="alphabet.png" />
+    </icon>
+    <platform value="all" />
+    <dependencies>
+        <OpenOffice.org-minimal-version value="3.0" d:name="OpenOffice.org 3.0" />
+    </dependencies>
+    <publisher>
+        <name xlink:href="http://hspell.ivrix.org.il/" lang="en">The Hspell Project</name>
+        <name xlink:href="http://hspell.ivrix.org.il/" lang="he">פרוייקט Hspell</name>
+     </publisher>
+</description>
+

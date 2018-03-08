@@ -225,6 +225,9 @@ public class BibleRefs {
         BOOKS.put("John", "Jn");
         BOOKS.put("Psalm", "Ps");
         BOOKS.put("Isaïe", "Is");
+        BOOKS.put("Ezéch", "Ez");
+        BOOKS.put("Ezéchiel", "Ez");
+        BOOKS.put("Habac", "Ha");
 
         BOOKS.put("ISAÏE", "Is");
         BOOKS.put("MARC", "Mc");
@@ -296,6 +299,7 @@ public class BibleRefs {
         BOOKS.put("Jer", "Jr");
         BOOKS.put("Jos", "Js");
 
+        BOOKS.put("Rt", "Rt");
         BOOKS.put("Ba", "Ba");
         BOOKS.put("Esd", "Esd");
         BOOKS.put("Est", "Est");

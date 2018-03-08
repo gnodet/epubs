@@ -137,6 +137,7 @@ public class Main {
         document = document.replaceAll("<p><span>([\\s\\S]*?)</span>([\\s\\S]*?)</p>", "<p>$1 $2</p>");
         // Clean paragraphs
         document = document.replaceAll("\\s*<br />\\s*<br />\\s*", "</p><p>");
+        document = document.replaceAll("<br>", "<br />");
 
         // Fix stuff
         document = document.replaceAll("\\.\\.\\.", "…");
@@ -146,15 +147,21 @@ public class Main {
         document = document.replaceFirst("<body>\\s*<table>.*?</table>\\s*<table>\\s*<tr>\\s*<td>\\s*</td>\\s*<td>(.*?)</td>.*</body>", "<body>$1</body>");
 
         String head = extract(document, "<head>.*?</head>", 0);
-        String title = extract(document, "<body>.*?(<p.*?</p>\\s*<p.*?</p>)", 1);
-        String main = document.substring(document.indexOf(title) + title.length(), document.indexOf("</body>"));
-
+        String title = extract(document, "<body.*?<hr.*?(<p.*?</p>\\s*<p.*?</p>)", 1);
+        String footnotes = extract(document.substring(document.indexOf(title) + title.length()),
+                "<hr[^>]*>(?:</p>)?(.*?<p.*?)(<p[^>]*>[\\s\u00a0]*</p>|<p><br />|</td>)", 1);
+        String main = document.substring(document.indexOf(title) + title.length(),
+                document.indexOf(footnotes != null ? footnotes : "</body>"));
+        if (main.indexOf("<hr>") > 0) {
+            main = main.substring(0, main.indexOf("<hr"));
+        }
 
         document = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">" +
                 "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr\">" +
                 cleanHead(head) + "<body>" +
                 "<div id=\"title\">" + cleanTitle(title) + "</div>" +
                 "<div id=\"main\">" + cleanMain(main) + "</div>" +
+                (footnotes != null ? "<div id=\"notes\">" + cleanNotes(footnotes) + "</div>" : "") +
                 "</body></html>";
 
         document = document.replaceAll("<font\\s*>(.*?)</font>", "$1");
@@ -219,7 +226,9 @@ public class Main {
 
     private static String cleanHead(String document) {
         // Remove meta tags with spaces
-        document = document.replaceAll("<meta[^>]*name=\"[^\"]* [^\"]*\"[^>]*/>", "");
+        document = document.replaceAll("<meta[^>]*/?>", "");
+        // Remove link tags
+        document = document.replaceAll("<link[^>]*/?>", "");
         // Remove style elements
         document = document.replaceAll("<style.*?</style>", "");
         // Add our style
@@ -243,6 +252,80 @@ public class Main {
                         "</style>" +
                         "</head>");
         return document;
+    }
+
+    private static String cleanNotes(String document) {
+        document = document.replaceAll("<!--.*?-->", "");
+        document = document.replaceAll("<p> </div> </div> </div> <div>  <noscript></p>", "");
+
+        document = document.replaceAll("Acta Leonis XIII, t\\. XI\"", "Acta Leonis XIII, t. XI");
+        document = document.replaceAll("Paoline, 1966\" p", "Paoline, 1966, p");
+        document = document.replaceAll(" ler novembre 1885\"", " ler novembre 1885,");
+        document = document.replaceAll("423\\. \\(31\\) Cf", "423.<br />(31) Cf");
+
+        document = document.trim();
+        document = document.replaceAll("<div[^>]*>|</div>|<span[^>]*>|</span>|<font[^>]*>|</font>", "");
+        document = document.replaceAll("<table[^>]*>|</table>|<tr[^>]*>|</tr>|<td[^>]*>|</td>", "");
+        document = document.replaceAll("<p>\\s*<b>\\s*<p>(.*?)</p>\\s*</b>\\s*</p>", "<p><b>$1</b></p>");
+        document = "<p>" + document + "</p>";
+        document = document.replaceAll("<br />", "</p><p>");
+        document = document.replaceAll("<p[^>]*>©.*?</p>", "");
+        document = document.replaceAll("<p>", "</p><p>");
+        document = document.replaceAll("</p>\\s*<a", "</p><p><a");
+        document = document.replaceAll("<p>\\s*<p>", "<p>");
+        document = document.replaceAll("</p>\\s*</p>", "</p>");
+        document = document.replaceAll("<p>\\s*</p>", "");
+        if (document.startsWith("</p>")) {
+            document = document.substring(4);
+        }
+        if (document.endsWith("<p>")) {
+            document = document.substring(3);
+        }
+        document = document.replaceAll("<p>[\\s\u00a0]+", "<p>");
+        document = document.replaceAll("<p><b><a[^>]*>([0-9]+)</a></b>", "<p><a>$1</a>");
+        document = document.replaceAll("(<p><a[^>]*>)([0-9]+)(</a>)", "$1[$2]$3");
+        document = document.replaceAll("<p>\\((<a[^>]*>)([0-9]+)(</a>)\\)", "<p>$1[$2]$3");
+        document = document.replaceAll("<p>\\s*<a[^>]*>\\(</a><a[^>]*>([0-9]+)</a>\\)", "<p><a>[$1]</a>");
+        document = document.replaceAll("<p>\\s*([0-9]+)\\. ", "<p><a>[$1]</a> ");
+        document = document.replaceAll("(<p><a[^>]*>\\[[0-9]+\\]</a>)(\\S)", "$1 $2");
+        document = document.replaceAll("\\.\\.\\.", "…");
+        document = fixTypos(document);
+        document = fixQuotes(document);
+        document = fixBibleRefs(document);
+        document = fixWhitespaces(document);
+        document = document.replaceAll("[\\s\u00a0]+</p>", "</p>");
+        document = document.replaceAll("<p>\\s*</p>", "");
+        document = document.replaceAll("<p>\\(([0-9]+)\\) ", "<p><a>[$1]</a> ");
+        document = document.replaceAll("<p>([1-9][0-9]*) ", "<p><a>[$1]</a> ");
+        document = document.replaceAll("<p><a[^>]*>\\[([0-9]+)\\]</a>", "<p id=\"fn$1\"><a class=\"ref\" href=\"#fnr$1\">[$1]</a>");
+        document = document.replaceAll("(href=\"[^\"\\s]*)\\s*([^\"\\s]*)\\s*([^\"\\s]*)\\s*", "$1$2$3");
+        document = document.replaceAll("(href=\"[^\"\\s]*)\\s*([^\"\\s]*)\\s*", "$1$2");
+        document = document.replaceAll("(href=\"[^\"\\s]*)\\s*", "$1");
+        document = document.replaceAll("http\u00a0://", "http://");
+        document = document.replaceAll("<i>loc. cit.</i> ,", "<i>loc. cit.</i>,");
+        document = document.replaceAll("<i>ibid.\\s+</i>,", "<i>ibid.</i>,");
+        document = document.replaceAll("<i>Ibid.\\s+</i>,", "<i>Ibid.</i>,");
+        document = document.replaceAll("<i>Ibid</i>.,", "<i>Ibid.</i>,");
+        document = document.replaceAll("\\bIbid\\.,", "<i>Ibid.</i>,");
+        document = document.replaceAll("\\bibid\\.,", "<i>ibid.</i>,");
+        document = document.replaceAll("\\bibid,", "<i>ibid.</i>,");
+        document = document.replaceAll("\\bIbid,", "<i>Ibid.</i>,");
+        document = document.replaceAll("\\bIbid n", "<i>Ibid.</i>, n");
+        document = document.replaceAll("<i>(\\s+)", "$1<i>");
+        document = document.replaceAll("(\\s+)</i>", "</i>$1");
+        document = document.replaceAll("<i>(<a[^>]*?>)ibid\\s*</a></i>\\s*<a[^>]*?>\\.\\s*</a>", "<i>$1ibid.</a></i>");
+        document = document.replaceAll("( *\u00A0 *)( *\u00A0 *)*", "\u00A0");
+        document = document.replaceAll("<p[^>]*>NOTES</p>", "");
+        document = document.replaceAll(" +", " ");
+        document = document.replaceAll("pp\\. 959- 960", "pp. 959-960");
+        document = document.replaceAll("p\\. 674- 675", "p. 674-675");
+        document = document.replaceAll("<p><b></p><p></b></p>", "");
+        document = document.replaceAll("<i></i>", "");
+
+        // Replace hr
+        document = document.replaceAll("<p>\\s*<hr\\s*/?>\\s*</p>", "<div class=\"hr\"></div>");
+
+        return document.trim();
     }
 
     private static String fixBibleRefs(String document) {
