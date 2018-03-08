@@ -6,6 +6,15 @@
 		xmlns:db="http://docbook.org/ns/docbook"
 		exclude-result-prefixes='xsl xi fn'
 		version="1.0">
+	<xsl:template match="db:np">
+		<xsl:element name="phrase">
+			<xsl:attribute name="role">
+				<xsl:value-of select="'numpara'"/>
+			</xsl:attribute>
+			<xsl:value-of select="concat(text(), '.')"/>
+		</xsl:element>
+		<xsl:value-of select="' '"/>
+	</xsl:template>
 	<xsl:template match="db:biblio">
 		<xsl:apply-templates/>
 	</xsl:template>

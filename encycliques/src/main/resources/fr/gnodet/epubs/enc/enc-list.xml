@@ -1,36 +1,51 @@
 <?xml version="1.0"?>
 <books>
-    <book file='papa-francesco_20150524_enciclica-laudato-si.html' title="Lodato si’" title-fr="La sauvegarde de la maison commune" creator="François" date="2015-05-24" />
-    <book file='papa-francesco_20130629_enciclica-lumen-fidei.html' title="Lumen Fidei" title-fr="La lumière de la foi" creator="François" date="2013-06-29" />
-    <book file='hf_ben-xvi_enc_20090629_caritas-in-veritate.html' title="Caritas in veritate" title-fr="L’amour dans la vérité" creator="Benoît XVI" date="2009-06-29" />
-    <book file='hf_ben-xvi_enc_20071130_spe-salvi.html' title="Spe Salvi" title-fr="Sauvés dans l’espérance" creator="Benoît XVI" date="2007-11-30" />
-    <book file='hf_ben-xvi_enc_20051225_deus-caritas-est.html' title="Deus Caritas Est" title-fr="Dieu est amour" creator="Benoît XVI" date="2005-12-25" />
-    <book file='hf_jp-ii_enc_20030417_eccl-de-euch.html' title="Ecclesia de Eucharistia" title-fr="L’Église vit de l’Eucharistie" creator="Jean-Paul II" date="2003-04-17" />
-    <book file='hf_jp-ii_enc_15101998_fides-et-ratio.html' title="Fides et ratio" title-fr="La foi et la raison" creator="Jean-Paul II" date="1998-09-14" />
-    <book file='hf_jp-ii_enc_25051995_ut-unum-sint.html' title="Ut unum sint" title-fr="Qu’ils soient un" creator="Jean-Paul II" date="1995-05-25" />
-    <book file='hf_jp-ii_enc_25031995_evangelium-vitae.html' title="Evangelium vitæ" title-fr="L’Évangile de la vie" creator="Jean-Paul II" date="1995-03-25" />
-    <book file='hf_jp-ii_enc_06081993_veritatis-splendor.html' title="Veritatis splendor" title-fr="La splendeur de la vérité" creator="Jean-Paul II" date="1993-08-06" />
-    <book file='hf_jp-ii_enc_01051991_centesimus-annus.html' title="Centesimus Annus" title-fr="La centième année" creator="Jean-Paul II" date="1991-05-01" />
-    <book file='hf_jp-ii_enc_07121990_redemptoris-missio.html' title="Redemptoris missio" title-fr="La mission du Rédempteur" creator="Jean-Paul II" date="1990-12-07" />
-    <book file='hf_jp-ii_enc_30121987_sollicitudo-rei-socialis.html' title="Sollicitudo rei socialis" title-fr="La prise en charge du social" creator="Jean-Paul II" date="1987-12-30" />
-    <book file='hf_jp-ii_enc_25031987_redemptoris-mater.html' title="Redemptoris Mater" title-fr="La mère du Rédempteur" creator="Jean-Paul II" date="1987-03-25" />
-    <book file='hf_jp-ii_enc_18051986_dominum-et-vivificantem.html' title="Dominum et vivificantem" title-fr="Il est Seigneur et il donne la vie" creator="Jean-Paul II" date="1986-05-18" />
-    <book file='hf_jp-ii_enc_19850602_slavorum-apostoli.html' title="Slavorum Apostoli" title-fr="Apôtres des Slaves" creator="Jean-Paul II" date="1985-06-02" />
-    <book file='hf_jp-ii_enc_14091981_laborem-exercens.html' title="Laborem exercens" title-fr="En travaillant" creator="Jean-Paul II" date="1981-09-14" />
-    <book file='hf_jp-ii_enc_30111980_dives-in-misericordia.html' title="Dives in misericordia" title-fr="Dieu riche en miséricorde" creator="Jean-Paul II" date="1980-11-30" />
-    <book file='hf_jp-ii_enc_04031979_redemptor-hominis.html' title="Redemptor hominis" title-fr="Le Rédempteur de l’homme" creator="Jean-Paul II" date="1979-03-04" />
-    <book file='hf_p-vi_enc_25071968_humanae-vitae.html' title="Humanæ vitæ" title-fr="La vie humaine" creator="Paul VI" date="1968-07-25" />
-    <book file='hf_p-vi_enc_24061967_sacerdotalis.html' title="Sacerdotalis Cælibatus" title-fr="Le célibat sacerdotal" creator="Paul VI" date="1967-06-24"  />
-    <book file='hf_p-vi_enc_26031967_populorum.html' title="Populorum Progressio" title-fr="Le développement des peuples" creator="Paul VI" date="1967-03-26"  />
-    <book file='hf_p-vi_enc_03091965_mysterium.html' title="Mysterium Fidei" title-fr="Mystère de la foi" creator="Paul VI" date="1965-09-03" />
-    <book file='hf_p-vi_enc_06081964_ecclesiam-suam.html' title="Ecclesiam Suam" title-fr="Son Église" creator="Paul VI" date="1964-08-06"  />
-    <!--
-    <book file='hf_p-vi_enc_15091966_christi-matri_en.html' title="Christi Matri" creator="Paul VI" date="1966-09-15"  />
-    <book file='hf_p-vi_enc_29041965_mense-maio_en.html' title="Mense Maio" creator="Paul VI" date="1965-04-29"  />
-    -->
-    <book file='hf_p-xi_enc_19280106_mortalium-animos.html' title="Mortalium Animos" title-fr="L’Unité de la Véritable Église" creator="Pie XI" date="1928-01-06" />
-    <book file='hf_p-xi_enc_19370319_divini-redemptoris.html' title="Divini Redemptoris" title-fr="Le communisme athée" creator="Pie XI" date="1937-03-19" />
-    <book file='hf_l-xiii_enc_15051891_rerum-novarum.html' title="Rerum Novarum" title-fr="La soif d’innovations" creator="Léon XIII" date="1891-05-15" />
-    <book file='hf_l-xiii_enc_20061888_libertas.html' title="Libertas Præstanssimum" title-fr="Sur la liberté humaine" creator="Léon XIII" date="1888-06-20" />
-    <book file='hf_l-xiii_enc_04081879_aeterni-patris.html' title="Æterni Patris" title-fr="La philosophie chrétienne" creator="Léon XIII" date="1879-08-04" />
+    <book date="2002-11-24" creator="Congrégation pour la doctrine de la Foi" title="Note doctrinale concernant certaines questions sur l’engagement et le comportement des catholiques dans la vie politique" file="rc_2002-11-24_con-cfaith-doc_politica"/>
+
+    <book date="2015-05-24" creator="François" title="Lodato si’" title-fr="La sauvegarde de la maison commune" />
+    <book date="2013-06-29" creator="François" title="Lumen Fidei" title-fr="La lumière de la foi" />
+
+    <book date="2009-06-29" creator="Benoît XVI" title="Caritas in veritate" title-fr="L’amour dans la vérité" />
+    <book date="2007-11-30" creator="Benoît XVI" title="Spe Salvi" title-fr="Sauvés dans l’espérance" />
+    <book date="2005-12-25" creator="Benoît XVI" title="Deus Caritas Est" title-fr="Dieu est amour" />
+
+    <book date="2003-04-17" creator="Jean-Paul II" title="Ecclesia de Eucharistia" title-fr="L’Église vit de l’Eucharistie" />
+    <book date="1998-09-14" creator="Jean-Paul II" title="Fides et ratio" title-fr="La foi et la raison" />
+    <book date="1995-05-25" creator="Jean-Paul II" title="Ut unum sint" title-fr="Qu’ils soient un" />
+    <book date="1995-03-25" creator="Jean-Paul II" title="Evangelium vitæ" title-fr="L’Évangile de la vie" />
+    <book date="1993-08-06" creator="Jean-Paul II" title="Veritatis splendor" title-fr="La splendeur de la vérité" />
+    <book date="1991-05-01" creator="Jean-Paul II" title="Centesimus Annus" title-fr="La centième année" />
+    <book date="1990-12-07" creator="Jean-Paul II" title="Redemptoris missio" title-fr="La mission du Rédempteur" />
+    <book date="1987-12-30" creator="Jean-Paul II" title="Sollicitudo rei socialis" title-fr="La prise en charge du social" />
+    <book date="1987-03-25" creator="Jean-Paul II" title="Redemptoris Mater" title-fr="La mère du Rédempteur" />
+    <book date="1986-05-18" creator="Jean-Paul II" title="Dominum et vivificantem" title-fr="Il est Seigneur et il donne la vie" />
+    <book date="1985-06-02" creator="Jean-Paul II" title="Slavorum Apostoli" title-fr="Apôtres des Slaves" />
+    <book date="1981-09-14" creator="Jean-Paul II" title="Laborem exercens" title-fr="En travaillant" />
+    <book date="1980-11-30" creator="Jean-Paul II" title="Dives in misericordia" title-fr="Dieu riche en miséricorde" />
+    <book date="1979-03-04" creator="Jean-Paul II" title="Redemptor hominis" title-fr="Le Rédempteur de l’homme" />
+
+    <book date="1975-12-08" creator="Paul VI" title="Evangelii Nuntiandi" title-fr="Mystère de la foi" />
+    <book date="1968-07-25" creator="Paul VI" title="Humanæ vitæ" title-fr="La vie humaine" />
+    <book date="1967-06-24" creator="Paul VI" title="Sacerdotalis Cælibatus" title-fr="Le célibat sacerdotal" />
+    <book date="1967-03-26" creator="Paul VI" title="Populorum Progressio" title-fr="Le développement des peuples" />
+    <book date="1966-09-15" creator="Paul VI" title="Christi Matri" title-fr="La Mère du Christ" />
+    <book date="1965-09-03" creator="Paul VI" title="Mysterium Fidei" title-fr="Mystère de la foi" />
+    <book date="1965-04-29" creator="Paul VI" title="Mense Maio" title-fr="Le mois de mai" />
+    <book date="1964-08-06" creator="Paul VI" title="Ecclesiam Suam" title-fr="Son Église" />
+
+    <!--<book date="1943-06-29" creator="Pie XII" title="Mystici Corporis Christi" title-fr="Le corps mystique de Jésus-Christ" />-->
+    <!--<book date="1939-10-20" creator="Pie XII" title="Summi Pontificus" title-fr="De l’unité du genre humain" />-->
+
+    <book date="1937-03-19" creator="Pie XI" title="Divini Redemptoris" title-fr="Le communisme athée" />
+    <book date="1935-12-20" creator="Pie XI" title="Ad Catholici Sacerdotii" title-fr="Le sacerdoce" />
+    <book date="1931-05-15" creator="Pie XI" title="Quadragesimo Anno" title-fr="Sur l’instauration de l’ordre social" />
+    <book date="1930-12-31" creator="Pie XI" title="Castii Connubii" title-fr="Le sacrement de mariage et la chasteté de l’union conjugale" />
+    <book date="1928-01-06" creator="Pie XI" title="Mortalium Animos" title-fr="L’Unité de la Véritable Église" />
+
+    <!--<book date="1914-11-01" creator="Benoît XV" title="Ad Beatissimi" title-fr="Contre les horreurs de la guerre" />-->
+
+    <book date="1891-05-15" creator="Léon XIII" title="Rerum Novarum" title-fr="La soif d’innovations" />
+    <book date="1890-01-10" creator="Léon XIII" title="Sapientiæ Christianæ" title-fr="Les principaux devoirs des chrétiens" />
+    <book date="1888-06-20" creator="Léon XIII" title="Libertas Præstanssimum" title-fr="Sur la liberté humaine" />
+    <book date="1879-08-04" creator="Léon XIII" title="Æterni Patris" title-fr="La philosophie chrétienne" />
 </books>

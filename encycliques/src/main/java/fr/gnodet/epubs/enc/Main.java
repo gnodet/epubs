@@ -45,7 +45,10 @@ public class Main {
             String creator = book.getAttribute("creator");
             String date = book.getAttribute("date");
             String full = getFull(creator);
-            String output = "enc_" + date + "_hf_" + full + "_" + title.toLowerCase().replaceAll("\\s", "-").replaceAll("æ", "ae");
+            String output = book.getAttribute("file");
+            if (output == null) {
+                output = "enc_" + date + "_hf_" + full + "_" + title.toLowerCase().replaceAll("\\s", "-").replaceAll("æ", "ae");
+            }
 //            if (!file.contains("francesco")) continue;
 //            if (!file.contains("centesimus")) continue;
             byte[] coverPngData = Cover.generateCoverPng(
@@ -904,6 +907,8 @@ public class Main {
     private static String getFull(String name) {
         if ("Benoît XVI".equals(name)) {
             return "benedict-xvi";
+        } else if ("Benoît XV".equals(name)) {
+             return "benedict-xv";
         } else if ("Jean-Paul II".equals(name)) {
             return "john-paul-ii";
         } else if ("Paul VI".equals(name)) {
@@ -914,8 +919,11 @@ public class Main {
             return "leo-xiii";
         } else if ("Pie XI".equals(name)) {
             return "pius-xi";
+        } else if ("Pie XII".equals(name)) {
+            return "pius-xii";
+        } else {
+            return "papacy";
         }
-        throw new IllegalStateException("Unknown: " + name);
     }
     // http://w2.vatican.va/content/pius-xi/fr/encyclicals/documents/hf_p-xi_enc_19280106_mortalium-animos.html
     // http://w2.vatican.va/content/pius_xi/fr/encyclicals/documents/hf_p-xi_enc_19280106_mortalium-animos.html

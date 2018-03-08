@@ -47,6 +47,9 @@
                         <transformationSet>
                             <dir>${basedir}/src/docbkx/xml</dir>
                             <stylesheet>src/docbkx/xsl/custom-docbook.xsl</stylesheet>
+							<includes>
+								*.xml
+							</includes>
                         </transformationSet>
                     </transformationSets>
                 </configuration>
@@ -84,360 +87,13 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>com.agilejava.docbkx</groupId>
-                <artifactId>docbkx-maven-plugin</artifactId>
-                <version>3.0-SNAPSHOT</version>
-                <executions>
-                    <execution>
-                        <id>title</id>
-                        <goals>
-                            <goal>generate-template</goal>
-                        </goals>
-                        <phase>generate-resources</phase>
-                        <configuration>
-                            <includes>titlepage/titlepage.templates.xml</includes>
-                        </configuration>
-                    </execution>
-					<!--
-                    <execution>
-                        <id>humanae-vitae</id>
-                        <goals>
-                            <goal>generate-epub3</goal>
-                        </goals>
-                        <phase>package</phase>
-                        <configuration>
-                            <xincludeSupported>true</xincludeSupported>
-                            <calloutUnicodeFont>Times</calloutUnicodeFont>
-                            <chapterAutolabel>0</chapterAutolabel>
-                            <sectionAutolabel>0</sectionAutolabel>
-                            <chunkedOutput>true</chunkedOutput>
-                            <htmlStylesheet>custom.css</htmlStylesheet>
-                            <sourceDirectory>${project.build.directory}/generated-resources/xml/hv</sourceDirectory>
-                            <targetDirectory>${project.build.directory}/docbkx/epub3/hv</targetDirectory>
-                            <epub3Customization>src/docbkx/xsl/custom-epub3.xsl</epub3Customization>
-                            <preProcess>
-                                <move file="${project.build.directory}/generated-resources/xml/xslt/enc_1968-07-25_hf_paul-vi_humanae-vitae.xml"
-                                      tofile="${project.build.directory}/generated-resources/xml/hv/enc_1968-07-25_hf_paul-vi_humanae-vitae.xml"/>
-                                <copy tofile="${project.build.directory}/docbkx/epub3/hv/custom.css"
-                                      file="src/docbkx/css/custom-epub3.css"/>
-                                <copy file="${project.build.directory}/site/images/enc_1968-07-25_hf_paul-vi_humanae-vitae.png"
-                                      tofile="${project.build.directory}/docbkx/epub3/hv/cover.png"/>
-                                <copy file="src/main/resources/fr/gnodet/epubs/enc/coa/paul-vi-bw.svg"
-                                      todir="${project.build.directory}/docbkx/epub3/hv/"/>
-                            </preProcess>
-                            <postProcess>
-                                <copy tofile="${session.executionRootDirectory}/target/site/images/enc_1968-07-25_hf_paul-vi_humanae-vitae.png" file="${project.build.directory}/docbkx/epub3/hv/cover.png"/>
-                                <copy tofile="${session.executionRootDirectory}/target/site/epub/enc_1968-07-25_hf_paul-vi_humanae-vitae.epub" file="${project.build.directory}/docbkx/epub3/enc_1968-07-25_hf_paul-vi_humanae-vitae.epub"/>
-                            </postProcess>
-                        </configuration>
-                    </execution>
-                    <execution>
-                        <id>sacerdotalis-caelibatus</id>
-                        <goals>
-                            <goal>generate-epub3</goal>
-                        </goals>
-                        <phase>package</phase>
-                        <configuration>
-                            <xincludeSupported>true</xincludeSupported>
-                            <calloutUnicodeFont>Times</calloutUnicodeFont>
-                            <chapterAutolabel>0</chapterAutolabel>
-                            <sectionAutolabel>0</sectionAutolabel>
-                            <chunkedOutput>true</chunkedOutput>
-                            <htmlStylesheet>custom.css</htmlStylesheet>
-                            <sourceDirectory>${project.build.directory}/generated-resources/xml/sc</sourceDirectory>
-                            <targetDirectory>${project.build.directory}/docbkx/epub3/sc</targetDirectory>
-                            <epub3Customization>src/docbkx/xsl/custom-epub3.xsl</epub3Customization>
-                            <preProcess>
-                                <move file="${project.build.directory}/generated-resources/xml/xslt/enc_1967-06-24_hf_paul-vi_sacerdotalis-caelibatus.xml"
-                                      tofile="${project.build.directory}/generated-resources/xml/sc/enc_1967-06-24_hf_paul-vi_sacerdotalis-caelibatus.xml"/>
-                                <copy tofile="${project.build.directory}/docbkx/epub3/sc/custom.css"
-                                      file="src/docbkx/css/custom-epub3.css"/>
-                                <copy file="${project.build.directory}/site/images/enc_1967-06-24_hf_paul-vi_sacerdotalis-caelibatus.png"
-                                      tofile="${project.build.directory}/docbkx/epub3/sc/cover.png"/>
-                                <copy file="src/main/resources/fr/gnodet/epubs/enc/coa/paul-vi-bw.svg"
-                                      todir="${project.build.directory}/docbkx/epub3/sc/"/>
-                            </preProcess>
-                            <postProcess>
-                                <copy tofile="${session.executionRootDirectory}/target/site/images/enc_1967-06-24_hf_paul-vi_sacerdotalis-caelibatus.png" file="${project.build.directory}/docbkx/epub3/sc/cover.png"/>
-                                <copy tofile="${session.executionRootDirectory}/target/site/epub/enc_1967-06-24_hf_paul-vi_sacerdotalis-caelibatus.epub" file="${project.build.directory}/docbkx/epub3/enc_1967-06-24_hf_paul-vi_sacerdotalis-caelibatus.epub"/>
-                            </postProcess>
-                        </configuration>
-                    </execution>
-                    <execution>
-                        <id>populorum-progressio</id>
-                        <goals>
-                            <goal>generate-epub3</goal>
-                        </goals>
-                        <phase>package</phase>
-                        <configuration>
-                            <xincludeSupported>true</xincludeSupported>
-                            <calloutUnicodeFont>Times</calloutUnicodeFont>
-                            <chapterAutolabel>0</chapterAutolabel>
-                            <sectionAutolabel>0</sectionAutolabel>
-                            <chunkedOutput>true</chunkedOutput>
-                            <htmlStylesheet>custom.css</htmlStylesheet>
-                            <sourceDirectory>${project.build.directory}/generated-resources/xml/pp</sourceDirectory>
-                            <targetDirectory>${project.build.directory}/docbkx/epub3/pp</targetDirectory>
-                            <epub3Customization>src/docbkx/xsl/custom-epub3.xsl</epub3Customization>
-                            <preProcess>
-                                <move file="${project.build.directory}/generated-resources/xml/xslt/enc_1967-03-26_hf_paul-vi_populorum-progressio.xml"
-                                      tofile="${project.build.directory}/generated-resources/xml/pp/enc_1967-03-26_hf_paul-vi_populorum-progressio.xml"/>
-                                <copy tofile="${project.build.directory}/docbkx/epub3/pp/custom.css"
-                                      file="src/docbkx/css/custom-epub3.css"/>
-                                <copy file="${project.build.directory}/site/images/enc_1967-03-26_hf_paul-vi_populorum-progressio.png"
-                                      tofile="${project.build.directory}/docbkx/epub3/pp/cover.png"/>
-                                <copy file="src/main/resources/fr/gnodet/epubs/enc/coa/paul-vi-bw.svg"
-                                      todir="${project.build.directory}/docbkx/epub3/pp/"/>
-                            </preProcess>
-                            <postProcess>
-                                <copy tofile="${session.executionRootDirectory}/target/site/images/enc_1967-03-26_hf_paul-vi_populorum-progressio.png" file="${project.build.directory}/docbkx/epub3/pp/cover.png"/>
-                                <copy tofile="${session.executionRootDirectory}/target/site/epub/enc_1967-03-26_hf_paul-vi_populorum-progressio.epub" file="${project.build.directory}/docbkx/epub3/enc_1967-03-26_hf_paul-vi_populorum-progressio.epub"/>
-                            </postProcess>
-                        </configuration>
-                    </execution>
-                    <execution>
-                        <id>mysterium-fidei</id>
-                        <goals>
-                            <goal>generate-epub3</goal>
-                        </goals>
-                        <phase>package</phase>
-                        <configuration>
-                            <xincludeSupported>true</xincludeSupported>
-                            <calloutUnicodeFont>Times</calloutUnicodeFont>
-                            <chapterAutolabel>0</chapterAutolabel>
-                            <sectionAutolabel>0</sectionAutolabel>
-                            <chunkedOutput>true</chunkedOutput>
-                            <htmlStylesheet>custom.css</htmlStylesheet>
-                            <sourceDirectory>${project.build.directory}/generated-resources/xml/mf</sourceDirectory>
-                            <targetDirectory>${project.build.directory}/docbkx/epub3/mf</targetDirectory>
-                            <epub3Customization>src/docbkx/xsl/custom-epub3.xsl</epub3Customization>
-                            <preProcess>
-                                <move file="${project.build.directory}/generated-resources/xml/xslt/enc_1965-09-03_hf_paul-vi_mysterium-fidei.xml"
-                                      tofile="${project.build.directory}/generated-resources/xml/mf/enc_1965-09-03_hf_paul-vi_mysterium-fidei.xml"/>
-                                <copy tofile="${project.build.directory}/docbkx/epub3/es/custom.css"
-                                      file="src/docbkx/css/custom-epub3.css"/>
-                                <copy file="${project.build.directory}/site/images/enc_1965-09-03_hf_paul-vi_mysterium-fidei.png"
-                                      tofile="${project.build.directory}/docbkx/epub3/mf/cover.png"/>
-                                <copy file="src/main/resources/fr/gnodet/epubs/enc/coa/paul-vi-bw.svg"
-                                      todir="${project.build.directory}/docbkx/epub3/mf/"/>
-                            </preProcess>
-                            <postProcess>
-                                <copy tofile="${session.executionRootDirectory}/target/site/images/enc_1965-09-03_hf_paul-vi_mysterium-fidei.png" file="${project.build.directory}/docbkx/epub3/mf/cover.png"/>
-                                <copy tofile="${session.executionRootDirectory}/target/site/epub/enc_1965-09-03_hf_paul-vi_mysterium-fidei.epub" file="${project.build.directory}/docbkx/epub3/enc_1965-09-03_hf_paul-vi_mysterium-fidei.epub"/>
-                            </postProcess>
-                        </configuration>
-                    </execution>
-                    <execution>
-                        <id>ecclesiam-suam</id>
-                        <goals>
-                            <goal>generate-epub3</goal>
-                        </goals>
-                        <phase>package</phase>
-                        <configuration>
-                            <xincludeSupported>true</xincludeSupported>
-                            <calloutUnicodeFont>Times</calloutUnicodeFont>
-                            <chapterAutolabel>0</chapterAutolabel>
-                            <sectionAutolabel>0</sectionAutolabel>
-                            <chunkedOutput>true</chunkedOutput>
-                            <htmlStylesheet>custom.css</htmlStylesheet>
-                            <sourceDirectory>${project.build.directory}/generated-resources/xml/es</sourceDirectory>
-                            <targetDirectory>${project.build.directory}/docbkx/epub3/es</targetDirectory>
-                            <epub3Customization>src/docbkx/xsl/custom-epub3.xsl</epub3Customization>
-                            <preProcess>
-                                <move file="${project.build.directory}/generated-resources/xml/xslt/enc_1964-08-06_hf_paul-vi_ecclesiam-suam.xml"
-                                      tofile="${project.build.directory}/generated-resources/xml/es/enc_1964-08-06_hf_paul-vi_ecclesiam-suam.xml"/>
-                                <copy tofile="${project.build.directory}/docbkx/epub3/es/custom.css"
-                                      file="src/docbkx/css/custom-epub3.css"/>
-                                <copy file="${project.build.directory}/site/images/enc_1964-08-06_hf_paul-vi_ecclesiam-suam.png"
-                                      tofile="${project.build.directory}/docbkx/epub3/es/cover.png"/>
-                                <copy file="src/main/resources/fr/gnodet/epubs/enc/coa/paul-vi-bw.svg"
-                                      todir="${project.build.directory}/docbkx/epub3/es/"/>
-                            </preProcess>
-                            <postProcess>
-                                <copy tofile="${session.executionRootDirectory}/target/site/images/enc_1964-08-06_hf_paul-vi_ecclesiam-suam.png" file="${project.build.directory}/docbkx/epub3/es/cover.png"/>
-                                <copy tofile="${session.executionRootDirectory}/target/site/epub/enc_1964-08-06_hf_paul-vi_ecclesiam-suam.epub" file="${project.build.directory}/docbkx/epub3/enc_1964-08-06_hf_paul-vi_ecclesiam-suam.epub"/>
-                            </postProcess>
-                        </configuration>
-                    </execution>
-                    <execution>
-                        <id>divini-redemptoris</id>
-                        <goals>
-                            <goal>generate-epub3</goal>
-                        </goals>
-                        <phase>package</phase>
-                        <configuration>
-                            <xincludeSupported>true</xincludeSupported>
-                            <calloutUnicodeFont>Times</calloutUnicodeFont>
-                            <chapterAutolabel>0</chapterAutolabel>
-                            <sectionAutolabel>0</sectionAutolabel>
-                            <chunkedOutput>true</chunkedOutput>
-                            <htmlStylesheet>custom.css</htmlStylesheet>
-                            <sourceDirectory>${project.build.directory}/generated-resources/xml/dr</sourceDirectory>
-                            <targetDirectory>${project.build.directory}/docbkx/epub3/dr</targetDirectory>
-                            <epub3Customization>src/docbkx/xsl/custom-epub3.xsl</epub3Customization>
-                            <preProcess>
-                                <move file="${project.build.directory}/generated-resources/xml/xslt/enc_1937-03-19_hf_pius-xi_divini-redemptoris.xml"
-                                      tofile="${project.build.directory}/generated-resources/xml/dr/enc_1937-03-19_hf_pius-xi_divini-redemptoris.xml"/>
-                                <copy tofile="${project.build.directory}/docbkx/epub3/dr/custom.css"
-                                      file="src/docbkx/css/custom-epub3.css"/>
-                                <copy file="${project.build.directory}/site/images/enc_1937-03-19_hf_pius-xi_divini-redemptoris.png"
-                                      tofile="${project.build.directory}/docbkx/epub3/dr/cover.png"/>
-                                <copy file="src/main/resources/fr/gnodet/epubs/enc/coa/pius-xi-bw.svg"
-                                      todir="${project.build.directory}/docbkx/epub3/dr/"/>
-                            </preProcess>
-                            <postProcess>
-                                <copy tofile="${session.executionRootDirectory}/target/site/images/enc_1937-03-19_hf_pius-xi_divini-redemptoris.png" file="${project.build.directory}/docbkx/epub3/dr/cover.png"/>
-                                <copy tofile="${session.executionRootDirectory}/target/site/epub/enc_1937-03-19_hf_pius-xi_divini-redemptoris.epub" file="${project.build.directory}/docbkx/epub3/enc_1937-03-19_hf_pius-xi_divini-redemptoris.epub"/>
-                            </postProcess>
-                        </configuration>
-                    </execution>
-                    <execution>
-                        <id>mortalium-animos</id>
-                        <goals>
-                            <goal>generate-epub3</goal>
-                        </goals>
-                        <phase>package</phase>
-                        <configuration>
-                            <xincludeSupported>true</xincludeSupported>
-                            <calloutUnicodeFont>Times</calloutUnicodeFont>
-                            <chapterAutolabel>0</chapterAutolabel>
-                            <sectionAutolabel>0</sectionAutolabel>
-                            <chunkedOutput>true</chunkedOutput>
-                            <htmlStylesheet>custom.css</htmlStylesheet>
-                            <sourceDirectory>${project.build.directory}/generated-resources/xml/ma</sourceDirectory>
-                            <targetDirectory>${project.build.directory}/docbkx/epub3/ma</targetDirectory>
-                            <epub3Customization>src/docbkx/xsl/custom-epub3.xsl</epub3Customization>
-                            <preProcess>
-                                <move file="${project.build.directory}/generated-resources/xml/xslt/enc_1928-01-06_hf_pius-xi_mortalium-animos.xml"
-                                      tofile="${project.build.directory}/generated-resources/xml/ma/enc_1928-01-06_hf_pius-xi_mortalium-animos.xml"/>
-                                <copy tofile="${project.build.directory}/docbkx/epub3/ma/custom.css"
-                                      file="src/docbkx/css/custom-epub3.css"/>
-                                <copy file="${project.build.directory}/site/images/enc_1928-01-06_hf_pius-xi_mortalium-animos.png"
-                                      tofile="${project.build.directory}/docbkx/epub3/ma/cover.png"/>
-                                <copy file="src/main/resources/fr/gnodet/epubs/enc/coa/pius-xi-bw.svg"
-                                      todir="${project.build.directory}/docbkx/epub3/ma/"/>
-                            </preProcess>
-                            <postProcess>
-                                <copy tofile="${session.executionRootDirectory}/target/site/images/enc_1928-01-06_hf_pius-xi_mortalium-animos.png" file="${project.build.directory}/docbkx/epub3/ma/cover.png"/>
-                                <copy tofile="${session.executionRootDirectory}/target/site/epub/enc_1928-01-06_hf_pius-xi_mortalium-animos.epub" file="${project.build.directory}/docbkx/epub3/enc_1928-01-06_hf_pius-xi_mortalium-animos.epub"/>
-                            </postProcess>
-                        </configuration>
-                    </execution>
-                    <execution>
-                        <id>rerum-novarum</id>
-                        <goals>
-                            <goal>generate-epub3</goal>
-                        </goals>
-                        <phase>package</phase>
-                        <configuration>
-                            <xincludeSupported>true</xincludeSupported>
-                            <calloutUnicodeFont>Times</calloutUnicodeFont>
-                            <chapterAutolabel>0</chapterAutolabel>
-                            <sectionAutolabel>0</sectionAutolabel>
-                            <chunkedOutput>true</chunkedOutput>
-                            <htmlStylesheet>custom.css</htmlStylesheet>
-                            <sourceDirectory>${project.build.directory}/generated-resources/xml/rn</sourceDirectory>
-                            <targetDirectory>${project.build.directory}/docbkx/epub3/rn</targetDirectory>
-                            <epub3Customization>src/docbkx/xsl/custom-epub3.xsl</epub3Customization>
-                            <preProcess>
-                                <move file="${project.build.directory}/generated-resources/xml/xslt/enc_1891-05-15_hf_leo-xiii_rerum-novarum.xml"
-                                      tofile="${project.build.directory}/generated-resources/xml/rn/enc_1891-05-15_hf_leo-xiii_rerum-novarum.xml"/>
-                                <copy tofile="${project.build.directory}/docbkx/epub3/rn/custom.css"
-                                      file="src/docbkx/css/custom-epub3.css"/>
-                                <copy file="${project.build.directory}/site/images/enc_1891-05-15_hf_leo-xiii_rerum-novarum.png"
-                                      tofile="${project.build.directory}/docbkx/epub3/rn/cover.png"/>
-                                <copy file="src/main/resources/fr/gnodet/epubs/enc/coa/leo-xiii-bw.svg"
-                                      todir="${project.build.directory}/docbkx/epub3/rn/"/>
-                            </preProcess>
-                            <postProcess>
-                                <copy tofile="${session.executionRootDirectory}/target/site/images/enc_1891-05-15_hf_leo-xiii_rerum-novarum.png" file="${project.build.directory}/docbkx/epub3/rn/cover.png"/>
-                                <copy tofile="${session.executionRootDirectory}/target/site/epub/enc_1891-05-15_hf_leo-xiii_rerum-novarum.epub" file="${project.build.directory}/docbkx/epub3/enc_1891-05-15_hf_leo-xiii_rerum-novarum.epub"/>
-                            </postProcess>
-                        </configuration>
-                    </execution>
-                    <execution>
-                        <id>libertas-praestanssimum</id>
-                        <goals>
-                            <goal>generate-epub3</goal>
-                        </goals>
-                        <phase>package</phase>
-                        <configuration>
-                            <xincludeSupported>true</xincludeSupported>
-                            <calloutUnicodeFont>Times</calloutUnicodeFont>
-                            <chapterAutolabel>0</chapterAutolabel>
-                            <sectionAutolabel>0</sectionAutolabel>
-                            <chunkedOutput>true</chunkedOutput>
-                            <htmlStylesheet>custom.css</htmlStylesheet>
-                            <sourceDirectory>${project.build.directory}/generated-resources/xml/lp</sourceDirectory>
-                            <targetDirectory>${project.build.directory}/docbkx/epub3/lp</targetDirectory>
-                            <epub3Customization>src/docbkx/xsl/custom-epub3.xsl</epub3Customization>
-                            <preProcess>
-                                <move file="${project.build.directory}/generated-resources/xml/xslt/enc_1888-06-20_hf_leo-xiii_libertas-praestanssimum.xml"
-                                      tofile="${project.build.directory}/generated-resources/xml/lp/enc_1888-06-20_hf_leo-xiii_libertas-praestanssimum.xml"/>
-                                <copy tofile="${project.build.directory}/docbkx/epub3/lp/custom.css"
-                                      file="src/docbkx/css/custom-epub3.css"/>
-                                <copy file="${project.build.directory}/site/images/enc_1888-06-20_hf_leo-xiii_libertas-praestanssimum.png"
-                                      tofile="${project.build.directory}/docbkx/epub3/lp/cover.png"/>
-                                <copy file="src/main/resources/fr/gnodet/epubs/enc/coa/leo-xiii-bw.svg"
-                                      todir="${project.build.directory}/docbkx/epub3/lp/"/>
-                            </preProcess>
-                            <postProcess>
-                                <copy tofile="${session.executionRootDirectory}/target/site/images/enc_1888-06-20_hf_leo-xiii_libertas-praestanssimum.png" file="${project.build.directory}/docbkx/epub3/lp/cover.png"/>
-                                <copy tofile="${session.executionRootDirectory}/target/site/epub/enc_1888-06-20_hf_leo-xiii_libertas-praestanssimum.epub" file="${project.build.directory}/docbkx/epub3/enc_1888-06-20_hf_leo-xiii_libertas-praestanssimum.epub"/>
-                            </postProcess>
-                        </configuration>
-                    </execution>
-                    <execution>
-                        <id>aeterni-patris</id>
-                        <goals>
-                            <goal>generate-epub3</goal>
-                        </goals>
-                        <phase>package</phase>
-                        <configuration>
-                            <xincludeSupported>true</xincludeSupported>
-                            <calloutUnicodeFont>Times</calloutUnicodeFont>
-                            <chapterAutolabel>0</chapterAutolabel>
-                            <sectionAutolabel>0</sectionAutolabel>
-                            <chunkedOutput>true</chunkedOutput>
-                            <htmlStylesheet>custom.css</htmlStylesheet>
-                            <sourceDirectory>${project.build.directory}/generated-resources/xml/ap</sourceDirectory>
-                            <targetDirectory>${project.build.directory}/docbkx/epub3/ap</targetDirectory>
-                            <epub3Customization>src/docbkx/xsl/custom-epub3.xsl</epub3Customization>
-                            <preProcess>
-                                <move file="${project.build.directory}/generated-resources/xml/xslt/enc_1879-08-04_hf_leo-xiii_aeterni-patris.xml"
-                                      tofile="${project.build.directory}/generated-resources/xml/ap/enc_1879-08-04_hf_leo-xiii_aeterni-patris.xml"/>
-                                <copy tofile="${project.build.directory}/docbkx/epub3/ap/custom.css"
-                                      file="src/docbkx/css/custom-epub3.css"/>
-                                <copy file="${project.build.directory}/site/images/enc_1879-08-04_hf_leo-xiii_aeterni-patris.png"
-                                      tofile="${project.build.directory}/docbkx/epub3/ap/cover.png"/>
-                                <copy file="src/main/resources/fr/gnodet/epubs/enc/coa/leo-xiii-bw.svg"
-                                      todir="${project.build.directory}/docbkx/epub3/ap/"/>
-                            </preProcess>
-                            <postProcess>
-                                <copy tofile="${session.executionRootDirectory}/target/site/images/enc_1879-08-04_hf_leo-xiii_aeterni-patris.png" file="${project.build.directory}/docbkx/epub3/ap/cover.png"/>
-                                <copy tofile="${session.executionRootDirectory}/target/site/epub/enc_1879-08-04_hf_leo-xiii_aeterni-patris.epub" file="${project.build.directory}/docbkx/epub3/enc_1879-08-04_hf_leo-xiii_aeterni-patris.epub"/>
-                            </postProcess>
-                        </configuration>
-                    </execution>
-						-->
-                </executions>
-                <dependencies>
-                    <dependency>
-                        <groupId>net.sf.docbook</groupId>
-                        <artifactId>docbook-xml</artifactId>
-                        <version>5.0-all</version>
-                        <classifier>resources</classifier>
-                        <type>zip</type>
-                        <scope>runtime</scope>
-                    </dependency>
-                </dependencies>
-            </plugin>
         </plugins>
     </build>
+
 	<profiles>
 		<profile>
 			<id>le</id>
+			<activation><activeByDefault>true</activeByDefault></activation>
 			<build>
 				<plugins>
 					<plugin>
@@ -451,6 +107,7 @@
 								</goals>
 								<phase>package</phase>
 								<configuration>
+									<epubOebpsDir>./</epubOebpsDir>
 									<xincludeSupported>true</xincludeSupported>
 									<calloutUnicodeFont>Times</calloutUnicodeFont>
 									<chapterAutolabel>0</chapterAutolabel>
@@ -472,7 +129,7 @@
 									</preProcess>
 									<postProcess>
 										<copy tofile="${session.executionRootDirectory}/target/site/images/enc_1981-09-14_hf_john-paul-ii_laborem-exercens.png" file="${project.build.directory}/docbkx/epub3/le/cover.png"/>
-										<copy tofile="${session.executionRootDirectory}/target/site/epub/enc_1981-09-14_hf_john-paul-ii_laborem-exercens.epub" file="${project.build.directory}/docbkx/epub3/enc_1981-09-14_hf_john-paul-ii_laborem-exercens.epub"/>
+										<move tofile="${session.executionRootDirectory}/target/site/epub/enc_1981-09-14_hf_john-paul-ii_laborem-exercens.epub" file="${project.build.directory}/docbkx/epub3/enc_1981-09-14_hf_john-paul-ii_laborem-exercens.epub"/>
 									</postProcess>
 								</configuration>
 							</execution>
@@ -483,6 +140,7 @@
 		</profile>
 		<profile>
 			<id>dm</id>
+			<activation><activeByDefault>true</activeByDefault></activation>
 			<build>
 				<plugins>
 					<plugin>
@@ -496,6 +154,7 @@
 								</goals>
 								<phase>package</phase>
 								<configuration>
+									<epubOebpsDir>./</epubOebpsDir>
 									<xincludeSupported>true</xincludeSupported>
 									<calloutUnicodeFont>Times</calloutUnicodeFont>
 									<chapterAutolabel>0</chapterAutolabel>
@@ -517,7 +176,7 @@
 									</preProcess>
 									<postProcess>
 										<copy tofile="${session.executionRootDirectory}/target/site/images/enc_1980-11-30_hf_john-paul-ii_dives-in-misericordia.png" file="${project.build.directory}/docbkx/epub3/dm/cover.png"/>
-										<copy tofile="${session.executionRootDirectory}/target/site/epub/enc_1980-11-30_hf_john-paul-ii_dives-in-misericordia.epub" file="${project.build.directory}/docbkx/epub3/enc_1980-11-30_hf_john-paul-ii_dives-in-misericordia.epub"/>
+										<move tofile="${session.executionRootDirectory}/target/site/epub/enc_1980-11-30_hf_john-paul-ii_dives-in-misericordia.epub" file="${project.build.directory}/docbkx/epub3/enc_1980-11-30_hf_john-paul-ii_dives-in-misericordia.epub"/>
 									</postProcess>
 								</configuration>
 							</execution>
@@ -528,6 +187,7 @@
 		</profile>
 		<profile>
 			<id>rh</id>
+			<activation><activeByDefault>true</activeByDefault></activation>
 			<build>
 				<plugins>
 					<plugin>
@@ -541,6 +201,7 @@
 								</goals>
 								<phase>package</phase>
 								<configuration>
+									<epubOebpsDir>./</epubOebpsDir>
 									<xincludeSupported>true</xincludeSupported>
 									<calloutUnicodeFont>Times</calloutUnicodeFont>
 									<chapterAutolabel>0</chapterAutolabel>
@@ -562,7 +223,7 @@
 									</preProcess>
 									<postProcess>
 										<copy tofile="${session.executionRootDirectory}/target/site/images/enc_1979-03-04_hf_john-paul-ii_redemptor-hominis.png" file="${project.build.directory}/docbkx/epub3/rh/cover.png"/>
-										<copy tofile="${session.executionRootDirectory}/target/site/epub/enc_1979-03-04_hf_john-paul-ii_redemptor-hominis.epub" file="${project.build.directory}/docbkx/epub3/enc_1979-03-04_hf_john-paul-ii_redemptor-hominis.epub"/>
+										<move tofile="${session.executionRootDirectory}/target/site/epub/enc_1979-03-04_hf_john-paul-ii_redemptor-hominis.epub" file="${project.build.directory}/docbkx/epub3/enc_1979-03-04_hf_john-paul-ii_redemptor-hominis.epub"/>
 									</postProcess>
 								</configuration>
 							</execution>
@@ -576,6 +237,7 @@
 
 		<profile>
 			<id>hv</id>
+			<activation><activeByDefault>true</activeByDefault></activation>
 			<build>
 				<plugins>
 					<plugin>
@@ -589,6 +251,7 @@
 		                        </goals>
 		                        <phase>package</phase>
 		                        <configuration>
+									<epubOebpsDir>./</epubOebpsDir>
 		                            <xincludeSupported>true</xincludeSupported>
 		                            <calloutUnicodeFont>Times</calloutUnicodeFont>
 		                            <chapterAutolabel>0</chapterAutolabel>
@@ -610,7 +273,7 @@
 		                            </preProcess>
 		                            <postProcess>
 		                                <copy tofile="${session.executionRootDirectory}/target/site/images/enc_1968-07-25_hf_paul-vi_humanae-vitae.png" file="${project.build.directory}/docbkx/epub3/hv/cover.png"/>
-		                                <copy tofile="${session.executionRootDirectory}/target/site/epub/enc_1968-07-25_hf_paul-vi_humanae-vitae.epub" file="${project.build.directory}/docbkx/epub3/enc_1968-07-25_hf_paul-vi_humanae-vitae.epub"/>
+		                                <move tofile="${session.executionRootDirectory}/target/site/epub/enc_1968-07-25_hf_paul-vi_humanae-vitae.epub" file="${project.build.directory}/docbkx/epub3/enc_1968-07-25_hf_paul-vi_humanae-vitae.epub"/>
 		                            </postProcess>
 		                        </configuration>
 		                    </execution>
@@ -620,7 +283,8 @@
 			</build>
 		</profile>
 		<profile>
-			<id>sc</id>
+			<id>sca</id>
+			<activation><activeByDefault>true</activeByDefault></activation>
 			<build>
 				<plugins>
 					<plugin>
@@ -634,7 +298,8 @@
 		                        </goals>
 		                        <phase>package</phase>
 		                        <configuration>
-		                            <xincludeSupported>true</xincludeSupported>
+									<epubOebpsDir>./</epubOebpsDir>
+									<xincludeSupported>true</xincludeSupported>
 		                            <calloutUnicodeFont>Times</calloutUnicodeFont>
 		                            <chapterAutolabel>0</chapterAutolabel>
 		                            <sectionAutolabel>0</sectionAutolabel>
@@ -645,17 +310,17 @@
 		                            <epub3Customization>src/docbkx/xsl/custom-epub3.xsl</epub3Customization>
 		                            <preProcess>
 		                                <move file="${project.build.directory}/generated-resources/xml/xslt/enc_1967-06-24_hf_paul-vi_sacerdotalis-caelibatus.xml"
-		                                      tofile="${project.build.directory}/generated-resources/xml/sc/enc_1967-06-24_hf_paul-vi_sacerdotalis-caelibatus.xml"/>
-		                                <copy tofile="${project.build.directory}/docbkx/epub3/sc/custom.css"
+		                                      tofile="${project.build.directory}/generated-resources/xml/sca/enc_1967-06-24_hf_paul-vi_sacerdotalis-caelibatus.xml"/>
+		                                <copy tofile="${project.build.directory}/docbkx/epub3/sca/custom.css"
 		                                      file="src/docbkx/css/custom-epub3.css"/>
 		                                <copy file="${project.build.directory}/site/images/enc_1967-06-24_hf_paul-vi_sacerdotalis-caelibatus.png"
-		                                      tofile="${project.build.directory}/docbkx/epub3/sc/cover.png"/>
+		                                      tofile="${project.build.directory}/docbkx/epub3/sca/cover.png"/>
 		                                <copy file="src/main/resources/fr/gnodet/epubs/enc/coa/paul-vi-bw.svg"
-		                                      todir="${project.build.directory}/docbkx/epub3/sc/"/>
+		                                      todir="${project.build.directory}/docbkx/epub3/sca/"/>
 		                            </preProcess>
 		                            <postProcess>
-		                                <copy tofile="${session.executionRootDirectory}/target/site/images/enc_1967-06-24_hf_paul-vi_sacerdotalis-caelibatus.png" file="${project.build.directory}/docbkx/epub3/sc/cover.png"/>
-		                                <copy tofile="${session.executionRootDirectory}/target/site/epub/enc_1967-06-24_hf_paul-vi_sacerdotalis-caelibatus.epub" file="${project.build.directory}/docbkx/epub3/enc_1967-06-24_hf_paul-vi_sacerdotalis-caelibatus.epub"/>
+		                                <copy tofile="${session.executionRootDirectory}/target/site/images/enc_1967-06-24_hf_paul-vi_sacerdotalis-caelibatus.png" file="${project.build.directory}/docbkx/epub3/sca/cover.png"/>
+		                                <move tofile="${session.executionRootDirectory}/target/site/epub/enc_1967-06-24_hf_paul-vi_sacerdotalis-caelibatus.epub" file="${project.build.directory}/docbkx/epub3/enc_1967-06-24_hf_paul-vi_sacerdotalis-caelibatus.epub"/>
 		                            </postProcess>
 		                        </configuration>
 		                    </execution>
@@ -666,6 +331,7 @@
 		</profile>
 		<profile>
 			<id>pp</id>
+			<activation><activeByDefault>true</activeByDefault></activation>
 			<build>
 				<plugins>
 					<plugin>
@@ -679,7 +345,8 @@
 		                        </goals>
 		                        <phase>package</phase>
 		                        <configuration>
-		                            <xincludeSupported>true</xincludeSupported>
+									<epubOebpsDir>./</epubOebpsDir>
+									<xincludeSupported>true</xincludeSupported>
 		                            <calloutUnicodeFont>Times</calloutUnicodeFont>
 		                            <chapterAutolabel>0</chapterAutolabel>
 		                            <sectionAutolabel>0</sectionAutolabel>
@@ -700,7 +367,7 @@
 		                            </preProcess>
 		                            <postProcess>
 		                                <copy tofile="${session.executionRootDirectory}/target/site/images/enc_1967-03-26_hf_paul-vi_populorum-progressio.png" file="${project.build.directory}/docbkx/epub3/pp/cover.png"/>
-		                                <copy tofile="${session.executionRootDirectory}/target/site/epub/enc_1967-03-26_hf_paul-vi_populorum-progressio.epub" file="${project.build.directory}/docbkx/epub3/enc_1967-03-26_hf_paul-vi_populorum-progressio.epub"/>
+		                                <move tofile="${session.executionRootDirectory}/target/site/epub/enc_1967-03-26_hf_paul-vi_populorum-progressio.epub" file="${project.build.directory}/docbkx/epub3/enc_1967-03-26_hf_paul-vi_populorum-progressio.epub"/>
 		                            </postProcess>
 		                        </configuration>
 		                    </execution>
@@ -711,6 +378,7 @@
 		</profile>
 		<profile>
 			<id>mf</id>
+			<activation><activeByDefault>true</activeByDefault></activation>
 			<build>
 				<plugins>
 					<plugin>
@@ -724,7 +392,8 @@
 		                        </goals>
 		                        <phase>package</phase>
 		                        <configuration>
-		                            <xincludeSupported>true</xincludeSupported>
+									<epubOebpsDir>./</epubOebpsDir>
+									<xincludeSupported>true</xincludeSupported>
 		                            <calloutUnicodeFont>Times</calloutUnicodeFont>
 		                            <chapterAutolabel>0</chapterAutolabel>
 		                            <sectionAutolabel>0</sectionAutolabel>
@@ -745,7 +414,7 @@
 		                            </preProcess>
 		                            <postProcess>
 		                                <copy tofile="${session.executionRootDirectory}/target/site/images/enc_1965-09-03_hf_paul-vi_mysterium-fidei.png" file="${project.build.directory}/docbkx/epub3/mf/cover.png"/>
-		                                <copy tofile="${session.executionRootDirectory}/target/site/epub/enc_1965-09-03_hf_paul-vi_mysterium-fidei.epub" file="${project.build.directory}/docbkx/epub3/enc_1965-09-03_hf_paul-vi_mysterium-fidei.epub"/>
+		                                <move tofile="${session.executionRootDirectory}/target/site/epub/enc_1965-09-03_hf_paul-vi_mysterium-fidei.epub" file="${project.build.directory}/docbkx/epub3/enc_1965-09-03_hf_paul-vi_mysterium-fidei.epub"/>
 		                            </postProcess>
 		                        </configuration>
 		                    </execution>
@@ -756,6 +425,7 @@
 		</profile>
 		<profile>
 			<id>es</id>
+			<activation><activeByDefault>true</activeByDefault></activation>
 			<build>
 				<plugins>
 					<plugin>
@@ -769,7 +439,8 @@
 		                        </goals>
 		                        <phase>package</phase>
 		                        <configuration>
-		                            <xincludeSupported>true</xincludeSupported>
+									<epubOebpsDir>./</epubOebpsDir>
+									<xincludeSupported>true</xincludeSupported>
 		                            <calloutUnicodeFont>Times</calloutUnicodeFont>
 		                            <chapterAutolabel>0</chapterAutolabel>
 		                            <sectionAutolabel>0</sectionAutolabel>
@@ -790,7 +461,7 @@
 		                            </preProcess>
 		                            <postProcess>
 		                                <copy tofile="${session.executionRootDirectory}/target/site/images/enc_1964-08-06_hf_paul-vi_ecclesiam-suam.png" file="${project.build.directory}/docbkx/epub3/es/cover.png"/>
-		                                <copy tofile="${session.executionRootDirectory}/target/site/epub/enc_1964-08-06_hf_paul-vi_ecclesiam-suam.epub" file="${project.build.directory}/docbkx/epub3/enc_1964-08-06_hf_paul-vi_ecclesiam-suam.epub"/>
+		                                <move tofile="${session.executionRootDirectory}/target/site/epub/enc_1964-08-06_hf_paul-vi_ecclesiam-suam.epub" file="${project.build.directory}/docbkx/epub3/enc_1964-08-06_hf_paul-vi_ecclesiam-suam.epub"/>
 		                            </postProcess>
 		                        </configuration>
 		                    </execution>
@@ -801,6 +472,7 @@
 		</profile>
 		<profile>
 			<id>dr</id>
+			<activation><activeByDefault>true</activeByDefault></activation>
 			<build>
 				<plugins>
 					<plugin>
@@ -814,7 +486,8 @@
 		                        </goals>
 		                        <phase>package</phase>
 		                        <configuration>
-		                            <xincludeSupported>true</xincludeSupported>
+									<epubOebpsDir>./</epubOebpsDir>
+									<xincludeSupported>true</xincludeSupported>
 		                            <calloutUnicodeFont>Times</calloutUnicodeFont>
 		                            <chapterAutolabel>0</chapterAutolabel>
 		                            <sectionAutolabel>0</sectionAutolabel>
@@ -835,7 +508,7 @@
 		                            </preProcess>
 		                            <postProcess>
 		                                <copy tofile="${session.executionRootDirectory}/target/site/images/enc_1937-03-19_hf_pius-xi_divini-redemptoris.png" file="${project.build.directory}/docbkx/epub3/dr/cover.png"/>
-		                                <copy tofile="${session.executionRootDirectory}/target/site/epub/enc_1937-03-19_hf_pius-xi_divini-redemptoris.epub" file="${project.build.directory}/docbkx/epub3/enc_1937-03-19_hf_pius-xi_divini-redemptoris.epub"/>
+		                                <move tofile="${session.executionRootDirectory}/target/site/epub/enc_1937-03-19_hf_pius-xi_divini-redemptoris.epub" file="${project.build.directory}/docbkx/epub3/enc_1937-03-19_hf_pius-xi_divini-redemptoris.epub"/>
 		                            </postProcess>
 		                        </configuration>
 		                    </execution>
@@ -846,6 +519,7 @@
 		</profile>
 		<profile>
 			<id>ma</id>
+			<activation><activeByDefault>true</activeByDefault></activation>
 			<build>
 				<plugins>
 					<plugin>
@@ -859,7 +533,8 @@
 		                        </goals>
 		                        <phase>package</phase>
 		                        <configuration>
-		                            <xincludeSupported>true</xincludeSupported>
+									<epubOebpsDir>./</epubOebpsDir>
+									<xincludeSupported>true</xincludeSupported>
 		                            <calloutUnicodeFont>Times</calloutUnicodeFont>
 		                            <chapterAutolabel>0</chapterAutolabel>
 		                            <sectionAutolabel>0</sectionAutolabel>
@@ -880,10 +555,58 @@
 		                            </preProcess>
 		                            <postProcess>
 		                                <copy tofile="${session.executionRootDirectory}/target/site/images/enc_1928-01-06_hf_pius-xi_mortalium-animos.png" file="${project.build.directory}/docbkx/epub3/ma/cover.png"/>
-		                                <copy tofile="${session.executionRootDirectory}/target/site/epub/enc_1928-01-06_hf_pius-xi_mortalium-animos.epub" file="${project.build.directory}/docbkx/epub3/enc_1928-01-06_hf_pius-xi_mortalium-animos.epub"/>
+		                                <move tofile="${session.executionRootDirectory}/target/site/epub/enc_1928-01-06_hf_pius-xi_mortalium-animos.epub" file="${project.build.directory}/docbkx/epub3/enc_1928-01-06_hf_pius-xi_mortalium-animos.epub"/>
 		                            </postProcess>
 		                        </configuration>
 		                    </execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+
+		<profile>
+			<id>ab</id>
+			<!--<activation><activeByDefault>true</activeByDefault></activation>-->
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>com.agilejava.docbkx</groupId>
+						<artifactId>docbkx-maven-plugin</artifactId>
+						<executions>
+							<execution>
+								<id>ad-beatissimi</id>
+								<goals>
+									<goal>generate-epub3</goal>
+								</goals>
+								<phase>package</phase>
+								<configuration>
+									<epubOebpsDir>./</epubOebpsDir>
+									<xincludeSupported>true</xincludeSupported>
+									<calloutUnicodeFont>Times</calloutUnicodeFont>
+									<chapterAutolabel>0</chapterAutolabel>
+									<sectionAutolabel>0</sectionAutolabel>
+									<chunkedOutput>true</chunkedOutput>
+									<htmlStylesheet>custom.css</htmlStylesheet>
+									<sourceDirectory>${project.build.directory}/generated-resources/xml/ab</sourceDirectory>
+									<targetDirectory>${project.build.directory}/docbkx/epub3/ab</targetDirectory>
+									<epub3Customization>src/docbkx/xsl/custom-epub3.xsl</epub3Customization>
+									<preProcess>
+										<move file="${project.build.directory}/generated-resources/xml/xslt/enc_1914-11-01_hf_benedict-xv_ad-beatissimi.xml"
+											  tofile="${project.build.directory}/generated-resources/xml/ab/enc_1914-11-01_hf_benedict-xv_ad-beatissimi.xml"/>
+										<copy tofile="${project.build.directory}/docbkx/epub3/ab/custom.css"
+											  file="src/docbkx/css/custom-epub3.css"/>
+										<copy file="${project.build.directory}/site/images/enc_1914-11-01_hf_benedict-xv_ad-beatissimi.png"
+											  tofile="${project.build.directory}/docbkx/epub3/ab/cover.png"/>
+										<copy file="src/main/resources/fr/gnodet/epubs/enc/coa/benedict-xv-bw.svg"
+											  todir="${project.build.directory}/docbkx/epub3/ab/"/>
+									</preProcess>
+									<postProcess>
+										<copy tofile="${session.executionRootDirectory}/target/site/images/enc_1914-11-01_hf_benedict-xv_ad-beatissimi.png" file="${project.build.directory}/docbkx/epub3/ab/cover.png"/>
+										<move tofile="${session.executionRootDirectory}/target/site/epub/enc_1914-11-01_hf_benedict-xv_ad-beatissimi.epub" file="${project.build.directory}/docbkx/epub3/enc_1914-11-01_hf_benedict-xv_ad-beatissimi.epub"/>
+									</postProcess>
+								</configuration>
+							</execution>
 						</executions>
 					</plugin>
 				</plugins>
@@ -891,44 +614,93 @@
 		</profile>
 		<profile>
 			<id>rn</id>
+			<activation><activeByDefault>true</activeByDefault></activation>
 			<build>
 				<plugins>
 					<plugin>
-		                <groupId>com.agilejava.docbkx</groupId>
-		                <artifactId>docbkx-maven-plugin</artifactId>
+						<groupId>com.agilejava.docbkx</groupId>
+						<artifactId>docbkx-maven-plugin</artifactId>
 						<executions>
-		                    <execution>
-		                        <id>rerum-novarum</id>
-		                        <goals>
-		                            <goal>generate-epub3</goal>
-		                        </goals>
-		                        <phase>package</phase>
-		                        <configuration>
-		                            <xincludeSupported>true</xincludeSupported>
-		                            <calloutUnicodeFont>Times</calloutUnicodeFont>
-		                            <chapterAutolabel>0</chapterAutolabel>
-		                            <sectionAutolabel>0</sectionAutolabel>
-		                            <chunkedOutput>true</chunkedOutput>
-		                            <htmlStylesheet>custom.css</htmlStylesheet>
-		                            <sourceDirectory>${project.build.directory}/generated-resources/xml/rn</sourceDirectory>
-		                            <targetDirectory>${project.build.directory}/docbkx/epub3/rn</targetDirectory>
-		                            <epub3Customization>src/docbkx/xsl/custom-epub3.xsl</epub3Customization>
-		                            <preProcess>
-		                                <move file="${project.build.directory}/generated-resources/xml/xslt/enc_1891-05-15_hf_leo-xiii_rerum-novarum.xml"
-		                                      tofile="${project.build.directory}/generated-resources/xml/rn/enc_1891-05-15_hf_leo-xiii_rerum-novarum.xml"/>
-		                                <copy tofile="${project.build.directory}/docbkx/epub3/rn/custom.css"
-		                                      file="src/docbkx/css/custom-epub3.css"/>
-		                                <copy file="${project.build.directory}/site/images/enc_1891-05-15_hf_leo-xiii_rerum-novarum.png"
-		                                      tofile="${project.build.directory}/docbkx/epub3/rn/cover.png"/>
-		                                <copy file="src/main/resources/fr/gnodet/epubs/enc/coa/leo-xiii-bw.svg"
-		                                      todir="${project.build.directory}/docbkx/epub3/rn/"/>
-		                            </preProcess>
-		                            <postProcess>
-		                                <copy tofile="${session.executionRootDirectory}/target/site/images/enc_1891-05-15_hf_leo-xiii_rerum-novarum.png" file="${project.build.directory}/docbkx/epub3/rn/cover.png"/>
-		                                <copy tofile="${session.executionRootDirectory}/target/site/epub/enc_1891-05-15_hf_leo-xiii_rerum-novarum.epub" file="${project.build.directory}/docbkx/epub3/enc_1891-05-15_hf_leo-xiii_rerum-novarum.epub"/>
-		                            </postProcess>
-		                        </configuration>
-		                    </execution>
+							<execution>
+								<id>rerum-novarum</id>
+								<goals>
+									<goal>generate-epub3</goal>
+								</goals>
+								<phase>package</phase>
+								<configuration>
+									<epubOebpsDir>./</epubOebpsDir>
+									<xincludeSupported>true</xincludeSupported>
+									<calloutUnicodeFont>Times</calloutUnicodeFont>
+									<chapterAutolabel>0</chapterAutolabel>
+									<sectionAutolabel>0</sectionAutolabel>
+									<chunkedOutput>true</chunkedOutput>
+									<htmlStylesheet>custom.css</htmlStylesheet>
+									<sourceDirectory>${project.build.directory}/generated-resources/xml/rn</sourceDirectory>
+									<targetDirectory>${project.build.directory}/docbkx/epub3/rn</targetDirectory>
+									<epub3Customization>src/docbkx/xsl/custom-epub3.xsl</epub3Customization>
+									<preProcess>
+										<move file="${project.build.directory}/generated-resources/xml/xslt/enc_1891-05-15_hf_leo-xiii_rerum-novarum.xml"
+											  tofile="${project.build.directory}/generated-resources/xml/rn/enc_1891-05-15_hf_leo-xiii_rerum-novarum.xml"/>
+										<copy tofile="${project.build.directory}/docbkx/epub3/rn/custom.css"
+											  file="src/docbkx/css/custom-epub3.css"/>
+										<copy file="${project.build.directory}/site/images/enc_1891-05-15_hf_leo-xiii_rerum-novarum.png"
+											  tofile="${project.build.directory}/docbkx/epub3/rn/cover.png"/>
+										<copy file="src/main/resources/fr/gnodet/epubs/enc/coa/leo-xiii-bw.svg"
+											  todir="${project.build.directory}/docbkx/epub3/rn/"/>
+									</preProcess>
+									<postProcess>
+										<copy tofile="${session.executionRootDirectory}/target/site/images/enc_1891-05-15_hf_leo-xiii_rerum-novarum.png" file="${project.build.directory}/docbkx/epub3/rn/cover.png"/>
+										<move tofile="${session.executionRootDirectory}/target/site/epub/enc_1891-05-15_hf_leo-xiii_rerum-novarum.epub" file="${project.build.directory}/docbkx/epub3/enc_1891-05-15_hf_leo-xiii_rerum-novarum.epub"/>
+									</postProcess>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		<profile>
+			<id>sch</id>
+			<activation><activeByDefault>true</activeByDefault></activation>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>com.agilejava.docbkx</groupId>
+						<artifactId>docbkx-maven-plugin</artifactId>
+						<executions>
+							<execution>
+								<id>sapientiae-christianae</id>
+								<goals>
+									<goal>generate-epub3</goal>
+								</goals>
+								<phase>package</phase>
+								<configuration>
+									<epubOebpsDir>./</epubOebpsDir>
+									<xincludeSupported>true</xincludeSupported>
+									<calloutUnicodeFont>Times</calloutUnicodeFont>
+									<chapterAutolabel>0</chapterAutolabel>
+									<sectionAutolabel>0</sectionAutolabel>
+									<chunkedOutput>true</chunkedOutput>
+									<htmlStylesheet>custom.css</htmlStylesheet>
+									<sourceDirectory>${project.build.directory}/generated-resources/xml/sc</sourceDirectory>
+									<targetDirectory>${project.build.directory}/docbkx/epub3/sc</targetDirectory>
+									<epub3Customization>src/docbkx/xsl/custom-epub3.xsl</epub3Customization>
+									<preProcess>
+										<move file="${project.build.directory}/generated-resources/xml/xslt/enc_1890-01-10_hf_leo-xiii_sapientiae-christianae.xml"
+											  tofile="${project.build.directory}/generated-resources/xml/sch/enc_1890-01-10_hf_leo-xiii_sapientiae-christianae.xml"/>
+										<copy tofile="${project.build.directory}/docbkx/epub3/sch/custom.css"
+											  file="src/docbkx/css/custom-epub3.css"/>
+										<copy file="${project.build.directory}/site/images/enc_1890-01-10_hf_leo-xiii_sapientiae-christianae.png"
+											  tofile="${project.build.directory}/docbkx/epub3/sch/cover.png"/>
+										<copy file="src/main/resources/fr/gnodet/epubs/enc/coa/leo-xiii-bw.svg"
+											  todir="${project.build.directory}/docbkx/epub3/sch/"/>
+									</preProcess>
+									<postProcess>
+										<copy tofile="${session.executionRootDirectory}/target/site/images/enc_1890-01-10_hf_leo-xiii_sapientiae-christianae.png" file="${project.build.directory}/docbkx/epub3/sch/cover.png"/>
+										<move tofile="${session.executionRootDirectory}/target/site/epub/enc_1890-01-10_hf_leo-xiii_sapientiae-christianae.epub" file="${project.build.directory}/docbkx/epub3/enc_1890-01-10_hf_leo-xiii_sapientiae-christianae.epub"/>
+									</postProcess>
+								</configuration>
+							</execution>
 						</executions>
 					</plugin>
 				</plugins>
@@ -936,6 +708,7 @@
 		</profile>
 		<profile>
 			<id>lp</id>
+			<activation><activeByDefault>true</activeByDefault></activation>
 			<build>
 				<plugins>
 					<plugin>
@@ -949,7 +722,8 @@
 		                        </goals>
 		                        <phase>package</phase>
 		                        <configuration>
-		                            <xincludeSupported>true</xincludeSupported>
+									<epubOebpsDir>./</epubOebpsDir>
+									<xincludeSupported>true</xincludeSupported>
 		                            <calloutUnicodeFont>Times</calloutUnicodeFont>
 		                            <chapterAutolabel>0</chapterAutolabel>
 		                            <sectionAutolabel>0</sectionAutolabel>
@@ -970,7 +744,7 @@
 		                            </preProcess>
 		                            <postProcess>
 		                                <copy tofile="${session.executionRootDirectory}/target/site/images/enc_1888-06-20_hf_leo-xiii_libertas-praestanssimum.png" file="${project.build.directory}/docbkx/epub3/lp/cover.png"/>
-		                                <copy tofile="${session.executionRootDirectory}/target/site/epub/enc_1888-06-20_hf_leo-xiii_libertas-praestanssimum.epub" file="${project.build.directory}/docbkx/epub3/enc_1888-06-20_hf_leo-xiii_libertas-praestanssimum.epub"/>
+		                                <move tofile="${session.executionRootDirectory}/target/site/epub/enc_1888-06-20_hf_leo-xiii_libertas-praestanssimum.epub" file="${project.build.directory}/docbkx/epub3/enc_1888-06-20_hf_leo-xiii_libertas-praestanssimum.epub"/>
 		                            </postProcess>
 		                        </configuration>
 		                    </execution>
@@ -981,6 +755,7 @@
 		</profile>
 		<profile>
 			<id>ap</id>
+			<activation><activeByDefault>true</activeByDefault></activation>
 			<build>
 				<plugins>
 					<plugin>
@@ -994,6 +769,7 @@
 		                        </goals>
 		                        <phase>package</phase>
 		                        <configuration>
+									<epubOebpsDir>./</epubOebpsDir>
 		                            <xincludeSupported>true</xincludeSupported>
 		                            <calloutUnicodeFont>Times</calloutUnicodeFont>
 		                            <chapterAutolabel>0</chapterAutolabel>
@@ -1015,10 +791,58 @@
 		                            </preProcess>
 		                            <postProcess>
 		                                <copy tofile="${session.executionRootDirectory}/target/site/images/enc_1879-08-04_hf_leo-xiii_aeterni-patris.png" file="${project.build.directory}/docbkx/epub3/ap/cover.png"/>
-		                                <copy tofile="${session.executionRootDirectory}/target/site/epub/enc_1879-08-04_hf_leo-xiii_aeterni-patris.epub" file="${project.build.directory}/docbkx/epub3/enc_1879-08-04_hf_leo-xiii_aeterni-patris.epub"/>
+		                                <move tofile="${session.executionRootDirectory}/target/site/epub/enc_1879-08-04_hf_leo-xiii_aeterni-patris.epub" file="${project.build.directory}/docbkx/epub3/enc_1879-08-04_hf_leo-xiii_aeterni-patris.epub"/>
 		                            </postProcess>
 		                        </configuration>
 		                    </execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+
+		<profile>
+			<id>dp</id>
+			<activation><activeByDefault>true</activeByDefault></activation>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>com.agilejava.docbkx</groupId>
+						<artifactId>docbkx-maven-plugin</artifactId>
+						<executions>
+							<execution>
+								<id>doc-politica</id>
+								<goals>
+									<goal>generate-epub3</goal>
+								</goals>
+								<phase>package</phase>
+								<configuration>
+									<epubOebpsDir>./</epubOebpsDir>
+									<xincludeSupported>true</xincludeSupported>
+									<calloutUnicodeFont>Times</calloutUnicodeFont>
+									<chapterAutolabel>0</chapterAutolabel>
+									<sectionAutolabel>0</sectionAutolabel>
+									<chunkedOutput>false</chunkedOutput>
+									<htmlStylesheet>custom.css</htmlStylesheet>
+									<sourceDirectory>${project.build.directory}/generated-resources/xml/dp</sourceDirectory>
+									<targetDirectory>${project.build.directory}/docbkx/epub3/dp</targetDirectory>
+									<epub3Customization>src/docbkx/xsl/custom-epub3.xsl</epub3Customization>
+									<preProcess>
+										<move file="${project.build.directory}/generated-resources/xml/xslt/rc_2002-11-24_con-cfaith-doc_politica.xml"
+											  tofile="${project.build.directory}/generated-resources/xml/dp/rc_2002-11-24_con-cfaith-doc_politica.xml"/>
+										<copy tofile="${project.build.directory}/docbkx/epub3/dp/custom.css"
+											  file="src/docbkx/css/custom-epub3.css"/>
+										<copy file="${project.build.directory}/site/images/rc_2002-11-24_con-cfaith-doc_politica.png"
+											  tofile="${project.build.directory}/docbkx/epub3/dp/cover.png"/>
+										<copy file="src/main/resources/fr/gnodet/epubs/enc/coa/papacy-bw.svg"
+											  todir="${project.build.directory}/docbkx/epub3/dp/"/>
+									</preProcess>
+									<postProcess>
+										<copy tofile="${session.executionRootDirectory}/target/site/images/rc_2002-11-24_con-cfaith-doc_politica.png" file="${project.build.directory}/docbkx/epub3/dp/cover.png"/>
+										<move tofile="${session.executionRootDirectory}/target/site/epub/rc_2002-11-24_con-cfaith-doc_politica.epub" file="${project.build.directory}/docbkx/epub3/rc_2002-11-24_con-cfaith-doc_politica.epub"/>
+									</postProcess>
+								</configuration>
+							</execution>
 						</executions>
 					</plugin>
 				</plugins>

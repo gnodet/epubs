@@ -14,7 +14,7 @@
 		<module>antichrist</module>
 		<module>antechrist</module>
         <!--<module>cec</module>-->
-        <!--<module>encycliques</module>-->
+        <module>encycliques</module>
         <module>exhortations</module>
         <module>cds</module>
         <module>vatican-ii</module>
