@@ -2,4 +2,6 @@
 *.iml
 target/
 .DS_Store
+/fillion/src/pdfs/
+/fillion/vie-nsjc/src/pdfs/
 
