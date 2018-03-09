@@ -1,11 +1,7 @@
 package fr.gnodet.epubs.oraison;
 
 import fr.gnodet.epubs.core.Cover;
-import fr.gnodet.epubs.core.IOUtil;
 import org.mozilla.universalchardet.UniversalDetector;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
@@ -22,7 +18,6 @@ import static fr.gnodet.epubs.core.IOUtil.loadTextContent;
 import static fr.gnodet.epubs.core.IOUtil.writeToFile;
 import static fr.gnodet.epubs.core.Quotes.fixQuotes;
 import static fr.gnodet.epubs.core.Quotes.fixQuotesInParagraph;
-import static fr.gnodet.epubs.core.Tidy.tidyHtml;
 import static fr.gnodet.epubs.core.Tidy.translateEntities;
 import static fr.gnodet.epubs.core.Whitespaces.fixWhitespaces;
 
@@ -40,26 +35,27 @@ public class Main {
 //        for (int i = 17; i < books.getLength(); i++) {
 //        int i = 19; {
 //            Element book = (Element) books.item(i);
-            String file = "Les oraisons des débutants.html";
-            String filename = file.substring(0, file.lastIndexOf('.'));
+            String file = "les-oraisons-des-debutants.html";
+            String filename = "les-oraisons-des-débutants";
             String title = "Les oraisons des débutants";
+            String subtitle = "Initiation à la pratique de l’Oraison";
             String creator = "P. Marie-Eugène de l'Enfant-Jésus O.C.D.";
 //            String date = book.getAttribute("date");
 //            String type = book.getAttribute("type");
-            URL url = Main.class.getResource("/Les oraisons des débutants.html");
+            URL url = Main.class.getResource("/les-oraisons-des-debutants.html");
             try {
                 process(url, "target/cache/" + file, "target/html/" + file);
                 Map<String, byte[]> resources = new HashMap<String, byte[]>();
-//                byte[] coverData = Cover.generateCoverPng((i * 1.0 / books.getLength()),
-//                        "Concile Vatican II",
-//                        title,
-//                        type,
-//                        null,
-//                        Main.class.getResource("papacy.svg"));
-//                writeToFile(coverData, "target/site/images/" + filename + ".png");
-//                resources.put("OEBPS/img/cover.png", coverData);
-//                resources.put("OEBPS/cover.html",
-//                        Cover.generateCoverHtml(creator, title, title, "").getBytes());
+                byte[] coverData = Cover.generateCoverPng(0.3,
+                        creator,
+                        title,
+                        subtitle,
+                        null,
+                        Main.class.getResource("papacy.svg"));
+                writeToFile(coverData, "target/site/images/" + filename + ".png");
+                resources.put("OEBPS/img/cover.png", coverData);
+                resources.put("OEBPS/cover.html",
+                        Cover.generateCoverHtml(creator, title, title, "").getBytes());
                 createEpub(new File[] { new File("target/html/" + file) },
                            resources,
                            new File("target/site/epub/" + filename + ".epub"),
