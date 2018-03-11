@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="preview.xsl"?>
-<book xmlns="http://docbook.org/ns/docbook"
-	  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	  xmlns:xi="http://www.w3.org/2001/XInclude"
-	  xmlns:xlink="http://www.w3.org/1999/xlink"
-	  xml:id="rerum-novarum" version="5.0"
-	  xml:lang="fr"
-	  xsi:schemaLocation="
-	  	http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/xsd/docbook.xsd
-	  	http://www.w3.org/1999/xlink http://www.docbook.org/xml/5.0/xsd/xlink.xsd ">
+<book xmlns="http://gnodet.fr/ns/docbook"
+	  xml:id="rerum-novarum" xml:lang="fr">
 	<info>
 		<productnumber><?eval ${project.version}?></productnumber>
 		<title>Rerum Novarum</title>
 		<subtitle>La soif d’innovations</subtitle>
-		<author><personname>Léon XIII</personname></author>
+		<author>Léon XIII</author>
 		<mediaobject role="cover" xml:id="coverd">
 			<imageobject role="front-large" remap="lrg">
 				<imagedata format="PNG" fileref="cover.png"/>
@@ -22,15 +15,14 @@
 	</info>
 	<chapter>
 	<title>RERUM NOVARUM</title>
-	<subtitle>LETTRE ENCYCLIQUE<br/>
-DE SA SAINTETÉ<br/>LE PAPE LÉON XIII</subtitle>
+	<subtitle>LETTRE ENCYCLIQUE<br/>DE SA SAINTETÉ<br/>LE PAPE LÉON XIII</subtitle>
 	<mediaobject>
 		<imageobject>
-			<imagedata align="center" fileref="leo-xiii-bw.svg" format="SVG"/>
+			<imagedata align="center" fileref="image.svg" format="SVG"/>
 		</imageobject>
 	</mediaobject>
-	<p><emphasis>À tous Nos Vénérables Frères, les Patriarches, Primats, Archevêques et Évêques du monde catholique, en grâce et communion avec le Siège Apostolique.</emphasis></p>
-	<p><emphasis>Vénérables Frères, Salut et Bénédiction apostolique.</emphasis></p>
+	<p><i>À tous Nos Vénérables Frères, les Patriarches, Primats, Archevêques et Évêques du monde catholique, en grâce et communion avec le Siège Apostolique.</i></p>
+	<p><i>Vénérables Frères, Salut et Bénédiction apostolique.</i></p>
 	<p>La soif d’innovations<footnote><p><i>A. S. S</i>. XXIII (1890-1891), pp. 641-670. Trad. française dans Actes de Léon XIII, B. P., t. III, pp. 18-71.</p></footnote> qui depuis longtemps s’est emparée des sociétés et les tient dans une agitation fiévreuse devait, tôt ou tard, passer des régions de la politique dans la sphère voisine de l’économie sociale. En effet, l’industrie s’est développée et ses méthodes se sont complètement renouvelées. Les rapports entre patrons et ouvriers se sont modifiés. La richesse a afflué entre les mains d’un petit nombre et la multitude a été laissée dans l’indigence. Les ouvriers ont conçu une opinion plus haute d’eux-mêmes et ont contracté entre eux une union plus intime. Tous ces faits, sans parler de la corruption des mœurs, ont eu pour résultat un redoutable conflit.</p>
 	<p>Partout, les esprits sont en suspens et dans une anxieuse attente, ce qui seul suffit à prouver combien de graves intérêts sont ici engagés. Cette situation préoccupe à la fois le génie des savants, la prudence des sages, les délibérations des réunions populaires, la perspicacité des législateurs et les conseils des gouvernants. En ce moment, il n’est pas de question qui tourmente davantage l’esprit humain.</p>
 	<p>C’est pourquoi, Vénérables Frères, ce que, pour le bien de l’Église et le salut commun des hommes, Nous avons fait ailleurs par Nos Lettres sur la Souveraineté politique<footnote><p>Léon XIII, Lettre encyclique <i>Diuturnum illud</i>. 29 juin 1881, <i>AAS</i> XIV (1881-1882), pp. 3-14, CH pp. 448-463.</p></footnote>, la Liberté humaine<footnote><p>Léon XIII Lettre encyclique <i>Libertas præstantissimum</i>. 20 juin 1888, <i>AAS</i> XX (1888), pp. 593-613, CH pp. 37-65.</p></footnote>, la Constitution chrétienne des États<footnote><p>Léon XIII, Lettre encyclique <i>lmmortale Dei</i>. 1er novembre 1885, <i>AAS</i> XVIII (1885), pp. 161-180, CH pp. 465-489.</p></footnote>, et sur d’autres sujets analogues, afin de réfuter selon qu’il Nous semblait opportun les opinions erronées et fallacieuses, Nous jugeons devoir le réitérer aujourd’hui et pour les mêmes motifs en vous entretenant de la Condition des ouvriers. Ce sujet, Nous l’avons, suivant l’occasion, effleuré plusieurs fois. Mais la conscience de Notre charge apostolique Nous fait un devoir de le traiter dans cette encyclique plus explicitement et avec plus d’ampleur, afin de mettre en évidence les principes d’une solution conforme à la vérité et à l’équité.</p>

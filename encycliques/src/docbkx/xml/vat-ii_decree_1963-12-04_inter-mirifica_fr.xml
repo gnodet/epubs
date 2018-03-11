@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="preview.xsl"?>
-<book xmlns="http://docbook.org/ns/docbook"
-	  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	  xmlns:xi="http://www.w3.org/2001/XInclude"
-	  xmlns:xlink="http://www.w3.org/1999/xlink"
-	  xml:id="libertas-præstanssimum" version="5.0"
-	  xml:lang="fr"
-	  xsi:schemaLocation="
-	  	http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/xsd/docbook.xsd
-	  	http://www.w3.org/1999/xlink http://www.docbook.org/xml/5.0/xsd/xlink.xsd ">
+<book xmlns="http://gnodet.fr/ns/docbook"
+	  xml:id="libertas-præstanssimum" xml:lang="fr">
 	<info>
 		<productnumber><?eval ${project.version}?></productnumber>
 		<title>Inter Mirifica</title>
@@ -27,13 +20,13 @@
 				  POUR QUE LE SOUVENIR S’EN MAINTIENNE À JAMAIS.<br />
 				  <br />
 				  DÉCRET SUR LES MOYENS DE COMMUNICATION SOCIALE</subtitle>
-		<p align="center"><b>PRÉAMBULE</b></p>
+		<p class="center"><b>PRÉAMBULE</b></p>
 		<p><np>1</np>Le sens d’une expression</p>
 		<p>Parmi les merveilleuses découvertes techniques qu’avec l’aide de Dieu, le génie de l’homme a tirées de la création, à notre époque surtout, l’Église accueille et suit avec une sollicitude toute maternelle celles qui, plus directement, touchent les facultés spirituelles de l’homme et offrent des possibilités élargies de communiquer très facilement des nouvelles de tout genre, des idées, des orientations. Or, parmi ces découvertes, il faut assigner une place singulière aux moyens qui, de par leur nature, sont aptes à atteindre et à influencer non seulement les individus, mais encore les masses comme telles, et jusqu’à l’humanité tout entière. Tel est le cas de la presse, du cinéma, de la radio, de la télévision et d’autres techniques de même nature. Aussi bien peut-on les appeler à juste titre : moyens de communication sociale.</p>
 		<p><np>2</np>Pourquoi le Concile s’occupe-t-il de ces questions ?</p>
 		<p>Certes, l’Église notre Mère sait que ces instruments, quand ils sont utilisés correctement, rendent de grands services au genre humain : ils contribuent, en effet, d’une manière efficace au délassement et à la culture de l’esprit, ainsi qu’à l’extension et à l’affermissement du règne de Dieu. Mais elle sait aussi que les hommes peuvent les utiliser à l’encontre des desseins du Créateur et les tourner à leur propre perte. Son cœur maternel est angoissé à la vue des dommages que bien souvent leur mauvais usage a déjà causés à l’humanité.</p>
 		<p>C’est pourquoi le Concile œcuménique, prenant à son compte le souci vigilant des Souverains Pontifes et des évêques en une matière d’une si haute importance, considère de son devoir de traiter les principaux problèmes relatifs aux moyens de communication sociale. Il a confiance, en outre, que la doctrine et la discipline qu’il propose ici seront utiles, non seulement au salut des chrétiens, mais encore au progrès de toute l’humanité.</p>
-		<p align="center"><b>CHAPITRE PREMIER : <br /><i>La doctrine de l’Église</i></b></p>
+		<p class="center"><b>CHAPITRE PREMIER : <br /><i>La doctrine de l’Église</i></b></p>
 		<p><np>3</np>Tâches de l’Église</p>
 		<p>L’Église a été fondée par le Christ Notre-Seigneur pour apporter le salut à tous les hommes ; elle se sent donc poussée par l’obligation de prêcher l’Évangile. Aussi bien l’Église catholique estime-t-elle qu’il est de son devoir, d’une part, d’employer aussi les instruments de communication sociale pour annoncer le message du salut et, d’autre part, d’enseigner aux hommes le bon usage de ces moyens.</p>
 		<p>L’Église a donc le droit inné d’utiliser et de posséder ces moyens sans exception, dans la mesure où ils sont nécessaires ou utiles à la formation chrétienne et à toute autre action pastorale. Les pasteurs ont le devoir d’instruire et d’orienter les fidèles en sorte que ceux-ci utilisent les moyens de manière à assurer leur propre salut et perfection, comme ceux de l’humanité entière.</p>
@@ -62,7 +55,7 @@
 		<p>Les pouvoirs publics ont des devoirs particuliers en ce domaine, en considération du bien commun auquel sont ordonnés ces moyens. L’autorité a la charge de défendre et de protéger – particulièrement en ce qui concerne la presse – la vraie et juste liberté de l’information, dont la société moderne a absolument besoin pour son progrès ; de favoriser les valeurs religieuses, culturelles et artistiques ; de garantir aux usagers la libre jouissance de leurs droits légitimes. Il est, en plus, du devoir de ces autorités, de soutenir les initiatives qui, tout en étant grandement utiles, surtout à la jeunesse, ne pourraient être réalisées sans leur concours.</p>
 		<p>Enfin, les pouvoirs publics qui, à bon droit, se soucient du bien-être des citoyens ont aussi le devoir de s’assurer avec justice et perspicacité, en promulguant des lois et en veillant à leur efficace application, que le mauvais usage de ces moyens ne crée pas de graves dangers pour la moralité publique et le progrès de la société. Cette intervention ne porte nullement atteinte à la liberté des individus et des groupements, surtout dans le cas où on ne trouve pas de sérieuses garanties chez ceux qui par profession utilisent ces moyens.</p>
 		<p>Des mesures spéciales seront prises pour défendre les adolescents contre une presse et des spectacles nuisibles à leur âge.</p>
-		<p align="center"><b>CHAPITRE II : <i><br />L’action pastorale de l’Église</i></b></p>
+		<p class="center"><b>CHAPITRE II : <i><br />L’action pastorale de l’Église</i></b></p>
 		<p><np>13</np>Action des pasteurs et des fidèles</p>
 		<p>Tous les membres de l’Église uniront volontiers leurs efforts concertés, afin de mettre efficacement, sans aucun retard et avec le plus grand zèle, les moyens de communication au service des multiples œuvres d’apostolat, compte tenu des exigences particulières de temps et de lieux. Ils auront à cœur de prévenir les initiatives mauvaises, surtout là où l’évolution morale et religieuse réclame leur intervention de manière plus urgente.</p>
 		<p>Les pasteurs auront donc à cœur d’accomplir en ce domaine leur devoir qui fait partie de leur charge ordinaire de prêcher l’Évangile. Les laïcs qui, par profession, sont engagés dans ces moyens, chercheront à rendre témoignage à Jésus Christ : d’abord en accomplissant leur métier avec compétence et esprit apostolique, puis en collaborant directement à l’action pastorale de l’Église par une contribution technique, économique, culturelle ou artistique, selon les possibilités de chacun.</p>
@@ -94,7 +87,7 @@
 		<p>24. Exhortation finale Du reste, le Concile a confiance que les enfants de l’Église accueilleront de bon cœur et observeront fidèlement les principes et règles contenus dans le présent décret. Ainsi, quand ils utiliseront ces moyens, ils n’en subiront pas de dommages ; mais tout au contraire, tels le sel et la lumière, ils donneront saveur à la terre et éclaireront le monde. Le Concile se tourne aussi vers tous les hommes de bonne volonté et en premier lieu vers ceux qui tiennent en main ces moyens. Il les invite à utiliser ces moyens uniquement pour le bien de l’humanité dont le sort dépend chaque jour davantage de leur bon usage. Qu’ainsi donc le nom du Seigneur soit glorifié par ces inventions modernes comme il le fut jadis par les chefs-d’œuvre de l’art, selon la parole de l’Apôtre « Jésus-Christ est le même hier et aujourd’hui ; il le sera à jamais » (<bible><ss>Hb</ss> <sc>13</sc>, <sv>8</sv></bible>).</p>
 		<p>Tout l’ensemble et chacun des points qui ont été édictés dans ce décret ont plu aux Pères. Et Nous, en vertu du pouvoir apostolique que Nous tenons du Christ, en union avec les vénérables Pères, Nous les approuvons, arrêtons et décrétons dans le Saint- Esprit, et Nous ordonnons que ce qui a été ainsi établi en Concile soit promulgué pour la gloire de Dieu.</p>
 		<p><i>Rome, à Saint-Pierre, le 4 décembre 1963</i>.</p>
-		<p align="center">Moi, Paul, évêque de l’Église catholique.</p>
+		<p class="center">Moi, Paul, évêque de l’Église catholique.</p>
 		<p><i>(Suivent les signatures des Pères)</i></p>
 	</chapter>
 </book>

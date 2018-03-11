@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="preview.xsl"?>
-<book xmlns="http://docbook.org/ns/docbook"
-	  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	  xmlns:xi="http://www.w3.org/2001/XInclude"
-	  xmlns:xlink="http://www.w3.org/1999/xlink"
-	  xml:id="ecclesiam-suam" version="5.0"
-	  xml:lang="fr"
-	  xsi:schemaLocation="
-	  	http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/xsd/docbook.xsd
-	  	http://www.w3.org/1999/xlink http://www.docbook.org/xml/5.0/xsd/xlink.xsd ">
+<book xmlns="http://gnodet.fr/ns/docbook"
+	  xml:id="ecclesiam-suam" xml:lang="fr">
 	<info>
 		<productnumber><?eval ${project.version}?></productnumber>
 		<title>Ecclesiam Suam</title>
 		<subtitle>Son Église</subtitle>
-		<author><personname>Paul VI</personname></author>
+		<author>Paul VI</author>
 		<mediaobject role="cover" xml:id="coverd">
 			<imageobject role="front-large" remap="lrg">
 				<imagedata format="PNG" fileref="cover.png"/>
@@ -26,7 +19,7 @@
 		
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="paul-iv-bw.svg" format="SVG"/>
+				<imagedata align="center" fileref="image.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 		<p>À NOS VÉNÉRABLES FRÈRES PATRIARCHES, PRIMATS, ARCHEVÊQUES ÉVÊQUES ET AUTRES ORDINAIRES, EN PAIX ET COMMUNION AVEC LE SIÈGE APOSTOLIQUE, AU CLERGÉ ET AUX FIDÈLES DE L’UNIVERS, AINSI QU’À TOUS LES HOMMES DE BONNE VOLONTÉ</p>

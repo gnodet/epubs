@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
-<books>
+<books type="enc">
+
     <book date="2002-11-24" creator="Congrégation pour la doctrine de la Foi" title="Note doctrinale concernant certaines questions sur l’engagement et le comportement des catholiques dans la vie politique" file="rc_2002-11-24_con-cfaith-doc_politica"/>
 
-    <book date="2015-05-24" creator="François" title="Lodato si’" title-fr="La sauvegarde de la maison commune" />
+    <book date="2015-05-24" creator="François" title="Lodato si’" title-fr="La sauvegarde de la maison commune" file="enc_2015-05-24_hf_francesco_laudato-si"/>
     <book date="2013-06-29" creator="François" title="Lumen Fidei" title-fr="La lumière de la foi" />
 
     <book date="2009-06-29" creator="Benoît XVI" title="Caritas in veritate" title-fr="L’amour dans la vérité" />
@@ -33,16 +34,16 @@
     <book date="1965-04-29" creator="Paul VI" title="Mense Maio" title-fr="Le mois de mai" />
     <book date="1964-08-06" creator="Paul VI" title="Ecclesiam Suam" title-fr="Son Église" />
 
-    <!--<book date="1943-06-29" creator="Pie XII" title="Mystici Corporis Christi" title-fr="Le corps mystique de Jésus-Christ" />-->
-    <!--<book date="1939-10-20" creator="Pie XII" title="Summi Pontificus" title-fr="De l’unité du genre humain" />-->
+    <book date="1943-06-29" creator="Pie XII" title="Mystici Corporis Christi" title-fr="Le corps mystique de Jésus-Christ" />
+    <book date="1939-10-20" creator="Pie XII" title="Summi Pontificus" title-fr="De l’unité du genre humain" />
 
     <book date="1937-03-19" creator="Pie XI" title="Divini Redemptoris" title-fr="Le communisme athée" />
     <book date="1935-12-20" creator="Pie XI" title="Ad Catholici Sacerdotii" title-fr="Le sacerdoce" />
     <book date="1931-05-15" creator="Pie XI" title="Quadragesimo Anno" title-fr="Sur l’instauration de l’ordre social" />
-    <book date="1930-12-31" creator="Pie XI" title="Castii Connubii" title-fr="Le sacrement de mariage et la chasteté de l’union conjugale" />
+    <book date="1930-12-31" creator="Pie XI" title="Casti Connubii" title-fr="Le sacrement de mariage et la chasteté de l’union conjugale" />
     <book date="1928-01-06" creator="Pie XI" title="Mortalium Animos" title-fr="L’Unité de la Véritable Église" />
 
-    <!--<book date="1914-11-01" creator="Benoît XV" title="Ad Beatissimi" title-fr="Contre les horreurs de la guerre" />-->
+    <book date="1914-11-01" creator="Benoît XV" title="Ad Beatissimi" title-fr="Contre les horreurs de la guerre" />
 
     <book date="1891-05-15" creator="Léon XIII" title="Rerum Novarum" title-fr="La soif d’innovations" />
     <book date="1890-01-10" creator="Léon XIII" title="Sapientiæ Christianæ" title-fr="Les principaux devoirs des chrétiens" />

@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="preview.xsl"?>
-<book xmlns="http://docbook.org/ns/docbook"
-	  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	  xmlns:xi="http://www.w3.org/2001/XInclude"
-	  xmlns:xlink="http://www.w3.org/1999/xlink"
-	  xml:id="libertas-præstanssimum" version="5.0"
-	  xml:lang="fr"
-	  xsi:schemaLocation="
-	  	http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/xsd/docbook.xsd
-	  	http://www.w3.org/1999/xlink http://www.docbook.org/xml/5.0/xsd/xlink.xsd ">
+<book xmlns="http://gnodet.fr/ns/docbook"
+	  xml:id="libertas-præstanssimum" xml:lang="fr">
 	<info>
 		<productnumber><?eval ${project.version}?></productnumber>
 		<title>Perfectæ Caritate</title>
@@ -28,7 +21,7 @@
 				  <br />
 				  DÉCRET SUR LA RÉNOVATION
 				  ET L’ADAPTATION DE LA VIE RELIGIEUSE</subtitle>
-		<p align="center"><b><a id="PRÉAMBULE_">PRÉAMBULE</a></b></p>
+		<p class="center"><b><a name="PRÉAMBULE_">PRÉAMBULE</a></b></p>
 		<p><np>1</np> Dans la constitution <i><a href="vat-ii_const_19641121_lumen-gentium_fr.html">Lumen Gentium</a></i>, le Concile a précédemment montré que la recherche de la charité parfaite par les conseils évangéliques a sa source dans l’enseignement et l’exemple du divin Maître et apparaît comme un signe éclatant du Royaume des cieux. Maintenant, il se propose de traiter de la vie et de la discipline des instituts dont les membres font profession de chasteté, de pauvreté et d’obéissance, et de pourvoir à leurs besoins, selon les exigences de l’époque actuelle.</p>
 		<p>Dès les origines de l’Église, il y eut des hommes et des femmes qui voulurent, par la pratique des conseils évangéliques, suivre plus librement le Christ et l’imiter plus fidèlement et qui, chacun à sa manière, menèrent une vie consacrée à Dieu. Beaucoup parmi eux, sous l’impulsion de l’Esprit Saint, vécurent dans la solitude, ou bien fondèrent des familles religieuses que l’Église accueillit volontiers et approuva de son autorité. À partir de là se développa providentiellement une admirable variété de communautés religieuses qui contribuèrent beaucoup à ce que l’Église non seulement fût apte à toute bonne œuvre (cf. <bible><ss>2Tm</ss> <sc>3</sc>, <sv>17</sv></bible>) et prête pour l’exercice de son ministère en vue de l’édification du Corps du Christ (cf. <bible><ss>Ep</ss> <sc>4</sc>, <sv>12</sv></bible>), mais encore apparût embellie des dons variés de ses enfants comme une épouse parée pour son époux (cf. <bible><ss>Ap</ss> <sc>21</sc>, <sv>2</sv></bible>), et que par elle fussent manifestées les ressources multiples de la sagesse de Dieu (cf. <bible><ss>Ep</ss> <sc>3</sc>, <sv>10</sv></bible>).</p>
 		<p>Dans une telle variété de dons, tous ceux que Dieu appelle à la pratique des conseils évangéliques et qui en font profession, se vouent au Seigneur de façon spéciale en suivant le Christ chaste et pauvre (cf. <bible><ss>Mt</ss> <sc>8</sc>, <sv>20</sv></bible> ; <bible><ss>Lc</ss> <sc>9</sc>, <sv>58</sv></bible>), qui par son obéissance jusqu’à la mort de la croix (cf. <bible><ss>Ph</ss> <sc>2</sc>, <sv>8</sv></bible>) a racheté les hommes et les a sanctifiés. Poussés dans cette voie par la charité que l’Esprit Saint a répandue dans leurs cœurs (cf. <bible><ss>Rm</ss> <sc>5</sc>, <sv>5</sv></bible>), ils vivent toujours davantage pour le Christ et pour son Corps qui est l’Église (cf. <bible><ss>Col</ss> <sc>1</sc>, <sv>24</sv></bible>). C’est pourquoi, plus fervente est leur union au Christ par cette donation d’eux-mêmes qui embrasse toute leur existence, plus riche devient la vie de l’Église et plus fécond son apostolat.</p>
@@ -119,12 +112,12 @@
 		<p>Les prêtres et les éducateurs chrétiens doivent faire de sérieux efforts pour donner, à proportion des besoins de l’Église, un nouvel essor aux vocations religieuses choisies avec soin et discernement. Même dans la prédication ordinaire, on traitera plus souvent des conseils évangéliques et du choix de l’état religieux. Dans l’éducation chrétienne de leurs enfants, les parents doivent s’efforcer de cultiver et de protéger en leurs cœurs la vocation religieuse.</p>
 		<p>Il est permis aux instituts de se faire connaître pour susciter des vocations et de chercher des candidats, pourvu qu’ils le fassent avec la prudence requise et en observant les normes établies par le Saint-Siège et l’Ordinaire du lieu.</p>
 		<p>Cependant, les religieux se rappelleront que l’exemple de leur propre vie constitue la meilleure recommandation de leurs instituts et l’invitation la plus efficace à embrasser la vie religieuse.</p>
-		<p><b><i><a id="25. _Conclusion">25. Conclusion</a></i></b></p>
+		<p><np>25</np> <b><i>Conclusion</i></b></p>
 		<p>Les instituts, pour lesquels sont établies ces normes de rénovation adaptée, auront vivement à cœur de répondre à leur divine vocation et à leur mission dans l’Église à l’époque actuelle. Le saint Concile tient en grande estime leur genre de vie chaste, pauvre et obéissant, dont le Christ seigneur lui-même est le modèle, et il met un ferme espoir dans la fécondité de leurs œuvres, obscures et connues. Que tous les religieux donc, par l’intégrité de leur foi, leur charité envers Dieu et le prochain, l’amour de la Croix et l’espérance de la gloire future, répandent la bonne nouvelle du Christ dans l’univers entier, pour que leur témoignage soit visible à tous et que notre Père qui est aux cieux soit glorifié (cf. <bible><ss>Mt</ss> <sc>5</sc>, <sv>16</sv></bible>). Ainsi, par l’intercession de la très douce Vierge Marie, Mère de Dieu « dont la vie est pour tous une règle de conduite<footnote><p>Saint Ambroise, <i>De Virginitate</i>, l. II, c. II, n. 15.</p></footnote> », ils connaîtront de continuels accroissements et porteront des fruits de salut toujours plus abondants.</p>
 		<p>Tout l’ensemble et chacun des points qui ont été édictés dans cette déclaration ont plu aux Pères du Concile. Et Nous, en vertu du pouvoir apostolique que Nous tenons du Christ, en union avec les vénérables Pères, Nous les approuvons, arrêtons et décrétons dans le Saint-Esprit, et Nous ordonnons que ce qui a été ainsi établi en Concile soit promulgué pour la gloire de Dieu.</p>
 		<p><i>Rome, à Saint-Pierre, le 28 octobre 1965</i>.</p>
-		<p align="center">Moi, Paul, évêque de l’Église catholique.</p>
-		<p><i><a href="#Signatures_des_P%E8res">(Suivent les signatures des Pères)</a></i></p>
+		<p class="center">Moi, Paul, évêque de l’Église catholique.</p>
+		<p><i>(Suivent les signatures des Pères)</i></p>
 	</chapter>
 </book>
 

@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="preview.xsl"?>
-<book xmlns="http://docbook.org/ns/docbook" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="populorum-progressio" version="5.0" xml:lang="fr" xsi:schemaLocation="     http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/xsd/docbook.xsd     http://www.w3.org/1999/xlink http://www.docbook.org/xml/5.0/xsd/xlink.xsd ">
+<book xmlns="http://gnodet.fr/ns/docbook"
+	  xml:id="populorum-progressio" xml:lang="fr">
 	<info>
 		<productnumber><?eval ${project.version}?></productnumber>
 		<title>Redemptoris missio</title>
 		<subtitle>La mission du Rédempteur</subtitle>
-		<author>
-			<personname>Jean-Paul II</personname>
-		</author>
+		<author>Jean-Paul II</author>
 		<mediaobject role="cover" xml:id="coverd">
 			<imageobject role="front-large" remap="lrg">
 				<imagedata format="PNG" fileref="cover.png"/>
@@ -24,7 +23,7 @@
 			</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="john-paul-ii-bw.svg" format="SVG"/>
+				<imagedata align="center" fileref="image.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 		<p class="center"><b>Bénédiction</b></p>

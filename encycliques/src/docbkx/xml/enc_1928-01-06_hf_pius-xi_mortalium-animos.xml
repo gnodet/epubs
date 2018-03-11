@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="preview.xsl"?>
-<book xmlns="http://docbook.org/ns/docbook"
-	  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	  xmlns:xi="http://www.w3.org/2001/XInclude"
-	  xmlns:xlink="http://www.w3.org/1999/xlink"
-	  xml:id="mortalium-animos" version="5.0"
-	  xml:lang="fr"
-	  xsi:schemaLocation="
-	  	http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/xsd/docbook.xsd
-	  	http://www.w3.org/1999/xlink http://www.docbook.org/xml/5.0/xsd/xlink.xsd ">
+<book xmlns="http://gnodet.fr/ns/docbook"
+	  xml:id="mortalium-animos" xml:lang="fr">
 	<info>
 		<productnumber><?eval ${project.version}?></productnumber>
 		<title>Mortalium Animos</title>
 		<subtitle>L’Unité de la Véritable Église</subtitle>
-		<author><personname>Pie XI</personname></author>
+		<author>Pie XI</author>
 		<mediaobject role="cover" xml:id="coverd">
 			<imageobject role="front-large" remap="lrg">
 				<imagedata format="PNG" fileref="cover.png"/>
@@ -26,12 +19,12 @@
 	<subtitle>DE SA SAINTETÉ LE PAPE PIE XI<br/>LETTRE ENCYCLIQUE<br/>SUR L’UNITÉ DE LA VÉRITABLE ÉGLISE.</subtitle>
 	<mediaobject>
 		<imageobject>
-			<imagedata align="center" fileref="pius-xi-bw.svg" format="SVG"/>
+			<imagedata align="center" fileref="image.svg" format="SVG"/>
 		</imageobject>
 	</mediaobject>
 
-	<p><emphasis>Aux Patriarches, Primats, Archevêques, et autres ordinaires des lieux en paix et communion avec le Siège Apostolique</emphasis></p>
-	<p><emphasis>Vénérables Frères, Salut et Bénédiction Apostolique</emphasis></p>
+	<p><i>Aux Patriarches, Primats, Archevêques, et autres ordinaires des lieux en paix et communion avec le Siège Apostolique</i></p>
+	<p><i>Vénérables Frères, Salut et Bénédiction Apostolique</i></p>
 	<p><np>1</np> Jamais peut-être dans le passé, les esprits des hommes n’ont été saisis aussi fort que nous le voyons de nos jours, du désir de renforcer et d’étendre pour le bien commun de la société humaine, les relations fraternelles qui nous lient à cause de notre communauté d’origine et de nature.</p>
 	<p>Les peuples, en effet, ne jouissent pas encore pleinement des bienfaits de la paix ; et même, çà et là, de vieilles et de nouvelles discordes provoquent l’éruption de séditions et de guerres civiles. Par ailleurs, la plupart, assurément, des controverses qui touchent à la tranquillité et à la prospérité des peuples ne peuvent d’aucune manière recevoir de solution sans l’action concertée et les efforts des chefs des États et de ceux qui en gèrent et poursuivent les intérêts. On comprend donc aisément, et cela d’autant mieux que plus personne ne refuse d’admettre l’unité du genre humain, pourquoi la plupart des hommes désirent voir, au nom de cette fraternité universelle, les divers peuples s’unir entre eux par des liens chaque jour plus étroits.</p>
 	<p><np>2</np> C’est un résultat semblable que d’aucuns s’efforcent d’obtenir dans les choses qui regardent l’ordre de la Loi nouvelle, apportée par le Christ Notre Seigneur.</p>

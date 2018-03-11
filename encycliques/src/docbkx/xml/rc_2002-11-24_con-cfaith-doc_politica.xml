@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="preview.xsl"?>
-<book xmlns="http://docbook.org/ns/docbook"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xml:id="doc-politica"
-      version="5.0"
-      xml:lang="fr"
-      xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/xsd/docbook.xsd">
+<book xmlns="http://gnodet.fr/ns/docbook"
+	  xml:id="doc-politica"
+      xml:lang="fr">
     <info>
         <productnumber><?eval ${project.version}?></productnumber>
         <title>NOTE DOCTRINALE</title>
         <subtitle>Note doctrinale concernant certaines questions sur l’engagement et le comportement des catholiques dans la vie politique</subtitle>
-        <author>
-            <personname>Congrégation pour la Doctrine de la Foi</personname>
-        </author>
+        <author>Congrégation pour la Doctrine de la Foi</author>
         <mediaobject role="cover" xml:id="coverd">
             <imageobject role="front-large" remap="lrg">
                 <imagedata format="PNG" fileref="cover.png"/>
             </imageobject>
         </mediaobject>
     </info>
-    <chapter><section>
+    <chapter>
         <title>NOTE DOCTRINALE</title>
         <subtitle>Note doctrinale concernant certaines questions sur l’engagement et le comportement des catholiques dans la vie politique</subtitle>
+        <section>
         <blockquote>
             <p><i>La Congrégation pour la Doctrine de la Foi, après avoir pris, entre autres, l’avis du Conseil pontifical pour les Laïcs, a jugé opportun de publier la présente « Note doctrinale concernant certaines questions sur l’engagement et le comportement des catholiques dans la vie politique ». Cette Note est adressée aux évêques de l’Église catholique, et de manière spéciale aux hommes politiques catholiques ainsi qu’à tous les fidèles laïcs appelés à participer à la vie publique et politique dans les sociétés démocratiques.</i></p>
         </blockquote>
@@ -68,8 +64,8 @@
 		<section>
 		    <p><i>Le Souverain Pontife Jean-Paul II, durant l’audience du 21 novembre 2002, a approuvé cette Note, qui avait été décidée par la Session ordinaire de la Congrégation pour la Doctrine de la Foi, et il en a ordonné la publication.</i></p>
 		    <p>Rome, au siège de la Congrégation pour la Doctrine de la Foi, le 24 novembre 2002. Solennité du Christ Roi de l’Univers.</p>
-		    <p align="center"><b>JOSEPH CARD. RATZINGER</b><br/><i>Préfet</i></p>
-		    <p align="center"><b>TARCISIO BERTONE, S.D.B.</b><br/><i>Archevêque émérite de Vercelli<br/>Secrétaire</i></p>
+		    <p class="center"><b>JOSEPH CARD. RATZINGER</b><br/><i>Préfet</i></p>
+		    <p class="center"><b>TARCISIO BERTONE, S.D.B.</b><br/><i>Archevêque émérite de Vercelli<br/>Secrétaire</i></p>
 		</section>
     </section></chapter>
 </book>

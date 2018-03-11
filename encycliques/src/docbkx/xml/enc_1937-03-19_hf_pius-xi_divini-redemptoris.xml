@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="preview.xsl"?>
-<book xmlns="http://docbook.org/ns/docbook"
-	  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	  xmlns:xi="http://www.w3.org/2001/XInclude"
-	  xmlns:xlink="http://www.w3.org/1999/xlink"
-	  xml:id="divini-redemptoris" version="5.0"
-	  xml:lang="fr"
-	  xsi:schemaLocation="
-	  	http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/xsd/docbook.xsd
-	  	http://www.w3.org/1999/xlink http://www.docbook.org/xml/5.0/xsd/xlink.xsd ">
+<book xmlns="http://gnodet.fr/ns/docbook"
+	  xml:id="divini-redemptoris" xml:lang="fr">
 	<info>
 		<productnumber><?eval ${project.version}?></productnumber>
 		<title>Divini Redemptoris</title>
 		<subtitle>Le communisme athée</subtitle>
-		<author><personname>Pie XI</personname></author>
+		<author>Pie XI</author>
 		<mediaobject role="cover" xml:id="coverd">
 			<imageobject role="front-large" remap="lrg">
 				<imagedata format="PNG" fileref="cover.png"/>
@@ -26,7 +19,7 @@
 		
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="pius-xi-bw.svg" format="SVG"/>
+				<imagedata align="center" fileref="image.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 	<p><np>1</np> La promesse d’un Rédempteur illumine la première page de l’histoire humaine ; aussi, la ferme espérance de jours meilleurs adoucit le regret du paradis perdu et soutint le genre humain cheminant au milieu des tribulations ; mais, quand fut venue la plénitude des temps, le Sauveur du monde, par son apparition sur terre, combla l’attente et inaugura, dans tout l’univers, une nouvelle civilisation, la civilisation chrétienne, autrement plus parfaite que tous les progrès réalisés jusque-là, au prix de tant d’efforts, chez certains peuples privilégiés.</p>
@@ -160,7 +153,7 @@
 			</section>
 			<section>
 				<title><i>Hiérarchie sociale et prérogatives de l’État</i>.</title>
-				<p><np>33</np> Afin d’assurer cette collaboration organique et cette tranquille harmonie, la doctrine catholique revendique pour l’État la dignité et l’autorité d’un vigilant et prévoyant défenseur des droits divins et humains, dont les Saintes Écritures et les Pères de l’Église parlent si souvent. Il est faux que tous les hommes aient les mêmes droits dans la société civile et qu’il n’existe aucune hiérarchie légitime. Qu’il nous suffise de rappeler les Encycliques de Léon XIII, indiquées plus haut, en particulier celle qui concerne le pouvoir de l’État<footnote><p>Lettre Encycl. <i>Diuturnum illud</i>, 20 juin 1881 (<i>Acta Leonis XIII</i>, vol. I, pp. 210-222).</p></footnote> et celle qui traite de la constitution chrétienne de l’État<footnote><p>Lettre Encycl. <i>Immortale Dei</i>, 1<superscript>er</superscript> nov. 1885 (<i>Acta Leonis XIII</i>, vol. II, pp. 146-168).</p></footnote>.</p>
+				<p><np>33</np> Afin d’assurer cette collaboration organique et cette tranquille harmonie, la doctrine catholique revendique pour l’État la dignité et l’autorité d’un vigilant et prévoyant défenseur des droits divins et humains, dont les Saintes Écritures et les Pères de l’Église parlent si souvent. Il est faux que tous les hommes aient les mêmes droits dans la société civile et qu’il n’existe aucune hiérarchie légitime. Qu’il nous suffise de rappeler les Encycliques de Léon XIII, indiquées plus haut, en particulier celle qui concerne le pouvoir de l’État<footnote><p>Lettre Encycl. <i>Diuturnum illud</i>, 20 juin 1881 (<i>Acta Leonis XIII</i>, vol. I, pp. 210-222).</p></footnote> et celle qui traite de la constitution chrétienne de l’État<footnote><p>Lettre Encycl. <i>Immortale Dei</i>, 1<sup>er</sup> nov. 1885 (<i>Acta Leonis XIII</i>, vol. II, pp. 146-168).</p></footnote>.</p>
 				<p>Ces Encycliques exposent clairement au catholique les principes de la raison et de la foi qui le rendront capable de se prémunir contre les erreurs et les dangers de la conception bolchevique de l’État. La spoliation des droits et l’asservissement de l’homme, la négation de l’origine première et transcendante de l’État et de son pouvoir, l’horrible abus de l’autorité publique au service du terrorisme collectiviste, tout cela est précisément le contraire de ce qu’exigent la morale naturelle et la volonté du Créateur. La société civile et la personne humaine tirent leur origine de Dieu et sont par lui mutuellement ordonnées l’une à l’autre ; aucune des deux, par conséquent, ne peut se soustraire à ses devoirs envers l’autre, ni renier ou diminuer les droits de l’autre.</p>
 				<p>C’est Dieu qui a réglé ces rapports mutuels dans leurs lignes essentielles ; le communisme commet une usurpation injuste quand il impose, au lieu de la loi divine basée sur les principes immuables de la vérité et de la charité, un programme politique de parti, provenant de l’arbitraire humain et tout rempli de haine.</p>
 			</section>
@@ -175,7 +168,7 @@
 			<title>EST-IL VRAI QUE L’ÉGLISE N’À PAS AGI EN CONFORMITÉ AVEC SA DOCTRINE ? </title>
 			<p><np>36</np> Mais les ennemis de l’Église, forcés de reconnaître la sagesse de sa doctrine, l’accusent cependant de n’avoir pas su confronter ses actes à ses principes et affirment en conséquence la nécessité de chercher d’autres voies. Combien cette accusation est fausse et injuste, toute l’histoire du Christianisme le démontre.</p>
 			<p>Pour ne rappeler ici que quelques faits caractéristiques, c’est le Christianisme qui, le premier, proclama généreusement, avec une ardeur et une conviction inconnues aux siècles précédents, la vraie et universelle fraternité de tous les hommes, à quelque race ou condition qu’ils appartiennent ; il contribua ainsi puissamment à l’abolition de l’esclavage, non par des révoltes sanguinaires, mais par la force intérieure de sa doctrine, en faisant voir à l’orgueilleuse patricienne de Rome, dans son esclave, une sœur dans le Christ.</p>
-			<p>C’est le Christianisme qui adore le Fils de Dieu fait homme par amour des hommes et devenu « Fils du Charpentier », « Charpentier » lui-même (cf. <bible><ss>Mt</ss> <sc>13</sc>, <sv>55</sv></bible> ; <bible><ss>Mc</ss> <sc>6</sc>, <sv>3</sv></bible>) ; c’est le Christianisme qui consacra la vraie dignité du travail manuel, tâche autrefois méprisée, au point que l’honnête Marcus Tullius Cicéron, résumant l’opinion générale de son temps, ne craignit pas d’écrire ces paroles qui, aujourd’hui, feraient honte à n’importe quel sociologue : « Tous les artisans s’occupent de métiers méprisables, car l’atelier ne peut rien avoir de noble<footnote><p><citetitle>De officiis</citetitle>, I, XLII.</p></footnote> ».</p>
+			<p>C’est le Christianisme qui adore le Fils de Dieu fait homme par amour des hommes et devenu « Fils du Charpentier », « Charpentier » lui-même (cf. <bible><ss>Mt</ss> <sc>13</sc>, <sv>55</sv></bible> ; <bible><ss>Mc</ss> <sc>6</sc>, <sv>3</sv></bible>) ; c’est le Christianisme qui consacra la vraie dignité du travail manuel, tâche autrefois méprisée, au point que l’honnête Marcus Tullius Cicéron, résumant l’opinion générale de son temps, ne craignit pas d’écrire ces paroles qui, aujourd’hui, feraient honte à n’importe quel sociologue : « Tous les artisans s’occupent de métiers méprisables, car l’atelier ne peut rien avoir de noble<footnote><p><i>De officiis</i>, I, XLII.</p></footnote> ».</p>
 			<p><np>37</np> Fidèle à ses principes, l’Église a régénéré l’humanité. Sous son influence, ont surgi d’admirables œuvres de charité, des corporations puissantes d’artisans et de travailleurs de toutes catégories : le libéralisme du siècle passé s’en est moqué, parce qu’elles étaient des organisations du moyen âge ; mais elles s’imposent aujourd’hui à l’admiration de nos contemporains, qui, en divers pays, cherchent à les faire revivre. Lorsque d’autres courants entravaient son œuvre et empêchaient son influence salutaire, l’Église, et cela jusqu’à nos jours, ne cessait pas d’avertir les égarés. Il suffit de rappeler avec quelle fermeté, quelle énergie et quelle constance Notre Prédécesseur Léon XIII a revendiqué pour l’ouvrier le droit d’association, que le libéralisme régnant dans les plus puissants États s’acharne à lui refuser. Même à l’heure actuelle, la doctrine de l’Église exerce une influence plus grande qu’il ne paraît ; car le pouvoir des idées sur les faits est certainement considérable, bien qu’il soit invisible à mesurer.</p>
 			<p><np>38</np> On peut dire en toute vérité que l’Église, à l’imitation du Christ, a passé à travers les siècles en faisant du bien à tous. Il n’y aurait ni socialisme ni communisme si les chefs des peuples n’avaient pas dédaigné ses enseignements et ses maternels avertissements. Mais ils ont voulu élever, sur les bases du libéralisme et du laïcisme, d’autres constructions sociales, qui tout d’abord paraissaient puissantes et grandioses ; mais on vit bientôt qu’elles n’avaient pas de fondements solides ; elles s’écroulent misérablement l’une après l’autre, comme doit s’écrouler fatalement tout ce qui ne repose pas sur l’unique pierre angulaire qui est Jésus-Christ.</p>
 		</section>

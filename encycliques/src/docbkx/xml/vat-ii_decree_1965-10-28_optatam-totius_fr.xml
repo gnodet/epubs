@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="preview.xsl"?>
-<book xmlns="http://docbook.org/ns/docbook"
-	  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	  xmlns:xi="http://www.w3.org/2001/XInclude"
-	  xmlns:xlink="http://www.w3.org/1999/xlink"
-	  xml:id="libertas-præstanssimum" version="5.0"
-	  xml:lang="fr"
-	  xsi:schemaLocation="
-	  	http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/xsd/docbook.xsd
-	  	http://www.w3.org/1999/xlink http://www.docbook.org/xml/5.0/xsd/xlink.xsd ">
+<book xmlns="http://gnodet.fr/ns/docbook"
+	  xml:id="libertas-præstanssimum" xml:lang="fr">
 	<info>
 		<productnumber><?eval ${project.version}?></productnumber>
 		<title>Optatam Totius</title>
@@ -73,7 +66,7 @@
 		</section>
 		<section>
 			<title>V – De l’aménagement des études ecclésiastiques</title>
-			<p><a id="ù">13.</a> Avant d’aborder les études proprement ecclésiastiques, les séminaristes recevront la formation humaniste et scientifique qui permet aux jeunes de leur nation d’accéder aux études supérieures. En outre, ils acquerront la connaissance de la langue latine qui leur permettra de comprendre et d’utiliser les sources de tant de sciences et les documents de l’Église<footnote><p>Cf. Paul VI, épître apost. <i>Summi Dei Verbum</i>, 1. c., p. 993.</p></footnote>. On considérera comme nécessaire l’étude de la langue liturgique propre à chaque rite et on recommandera vivement la connaissance suffisante des langues de la Sainte Écriture et de la Tradition.</p>
+			<p><np>13</np> Avant d’aborder les études proprement ecclésiastiques, les séminaristes recevront la formation humaniste et scientifique qui permet aux jeunes de leur nation d’accéder aux études supérieures. En outre, ils acquerront la connaissance de la langue latine qui leur permettra de comprendre et d’utiliser les sources de tant de sciences et les documents de l’Église<footnote><p>Cf. Paul VI, épître apost. <i>Summi Dei Verbum</i>, 1. c., p. 993.</p></footnote>. On considérera comme nécessaire l’étude de la langue liturgique propre à chaque rite et on recommandera vivement la connaissance suffisante des langues de la Sainte Écriture et de la Tradition.</p>
 			<p><np>14</np> Dans l’aménagement des études ecclésiastiques, il faudra viser tout d’abord à mettre en meilleur rapport la philosophie et la théologie et à les faire contribuer de concert à ouvrir de plus en plus l’esprit des séminaristes au mystère du Christ. Celui-ci, en effet, concerne l’histoire entière du genre humain, se prolonge sans cesse dans l’Église et opère principalement par le ministère sacerdotal<footnote><p>Cf. Conc. Vat. II, Const. dogm. <a href="vat-ii_const_19641121_lumen-gentium_fr.html"><i>Lumen gentium</i>, n. 7</a> et <span class="footnote" id="fnr28"><a href="#fn28">28</a></span>.</p></footnote>.</p>
 			<p>Pour que cette perspective d’ensemble soit communiquée aux séminaristes au seuil de leur formation, les études ecclésiastiques commenceront par un cours d’introduction, qui durera le temps convenable. Dans cette initiation aux études, le mystère du salut sera proposé aux séminaristes de manière qu’ils voient le sens des études ecclésiastiques, leur ordre et leur fin pastorale, et qu’en même temps ils soient aidés à fonder toute leur vie sur la foi et à l’en pénétrer. Ils seront aussi par là affermis dans leur vocation, ratifiée personnellement par une donation accomplie d’un cœur joyeux.</p>
 			<p><np>15</np> On enseignera les disciplines philosophiques de manière à guider tout d’abord les séminaristes dans l’acquisition d’une connaissance solide et cohérente de l’homme, du monde et de Dieu. Pour y parvenir, ils s’appuieront sur le patrimoine philosophique à jamais valable<footnote><p>29. Cf. Pie XII, Encycl. <i><a href="http://www.vatican.va/holy_father/pius_xii/encyclicals/documents/hf_p-xii_enc_12081950_humani-generis_fr.html">Humani generis</a></i>, 12 août 1950 : <i>AAS</i> 42 (1950), p. 571-575.</p></footnote> ; il faudra tenir compte également des recherches philosophiques contemporaines, spécialement celles qui exercent une plus grande influence dans leur pays propre, et aussi des progrès scientifiques récents. Ainsi, les séminaristes, comprenant bien la mentalité contemporaine<footnote><p>Cf. Paul VI, Encycl. <i><a href="http://www.vatican.va/holy_father/paul_vi/encyclicals/documents/hf_p-vi_enc_06081964_ecclesiam_fr.html">Ecclesiam suam</a></i>, 6 août 1964 : <i>AAS</i> 56 (1964), p. 637 s.</p></footnote> seront-ils utilement préparés au dialogue avec les hommes de leur temps.</p>
@@ -105,7 +98,7 @@
 			<p>Tout l’ensemble et chacun des points qui ont été édictés dans ce décret ont plu aux Pères. Et Nous, en vertu du pouvoir apostolique que Nous tenons du Christ, en union avec les vénérables Pères, Nous les approuvons, arrêtons et décrétons dans le Saint- Esprit, et Nous ordonnons que ce qui a été ainsi établi en Concile soit promulgué pour la gloire de Dieu.</p>
 		</section>
 		<p><i>Rome, à Saint-Pierre, le 28 octobre 1965</i>.</p>
-		<p align="center">Moi, Paul, évêque de l’Église catholique.</p>
+		<p class="center">Moi, Paul, évêque de l’Église catholique.</p>
 		<p><i>(Suivent les signatures des Pères)</i></p>
 	</chapter>
 </book>

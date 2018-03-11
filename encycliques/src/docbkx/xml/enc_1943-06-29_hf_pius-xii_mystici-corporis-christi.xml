@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="preview.xsl"?>
-<book xmlns="http://docbook.org/ns/docbook"
-	  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	  xmlns:xi="http://www.w3.org/2001/XInclude"
-	  xmlns:xlink="http://www.w3.org/1999/xlink"
-	  xml:id="mortalium-animos" version="5.0"
-	  xml:lang="fr"
-	  xsi:schemaLocation="
-	  	http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/xsd/docbook.xsd
-	  	http://www.w3.org/1999/xlink http://www.docbook.org/xml/5.0/xsd/xlink.xsd ">
+<book xmlns="http://gnodet.fr/ns/docbook"
+	  xml:id="mystici-corporis-christi" xml:lang="fr">
 	<info>
 		<productnumber><?eval ${project.version}?></productnumber>
 		<title>Mystici corporis Christi</title>
 		<subtitle>Le corps mystique de Jésus-Christ</subtitle>
-		<author><personname>Pie XII</personname></author>
+		<author>Pie XII</author>
 		<mediaobject role="cover" xml:id="coverd">
 			<imageobject role="front-large" remap="lrg">
 				<imagedata format="PNG" fileref="cover.png"/>
@@ -25,7 +18,7 @@
 		<subtitle>LETTRE ENCYCLIQUE<br/>DE SA SAINTETÉ LE PAPE PIE XII<br/>SUR LE CORPS MYSTIQUE DE JÉSUS-CHRIST<br/>ET SUR NOTRE UNION EN LUI AVEC LE CHRIST</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="pius-xi-bw.svg" format="SVG"/>
+				<imagedata align="center" fileref="image.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 		<p><i>À nos Vénérables Frères les Patriarches, Primats, Archevêques, Évêques et autres ordinaires de lieux en paix et communion avec le Siège Apostolique</i></p>

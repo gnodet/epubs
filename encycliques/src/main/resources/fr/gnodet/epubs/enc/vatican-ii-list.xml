@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<books>
+    <book file='vat-ii_const_1963-12-04_sacrosanctum-concilium_fr' creator="Concile Vatican II" type='Constitution' title='Sacrosanctum Concilium'/>
+    <book file='vat-ii_const_1964-11-21_lumen-gentium_fr' creator="Concile Vatican II" type='Constitution' title='Lumen Gentium'/>
+    <book file='vat-ii_const_1965-11-18_dei-verbum_fr' creator="Concile Vatican II" type='Constitution' title='Dei Verbum'/>
+    <book file='vat-ii_const_1965-12-07_gaudium-et-spes_fr' creator="Concile Vatican II" type='Constitution' title='Gaudium et Spes'/>
+    <book file='vat-ii_decl_1965-10-28_gravissimum-educationis_fr' creator="Concile Vatican II" type='Déclaration' title='Gravissimum Educationis'/>
+    <book file='vat-ii_decl_1965-10-28_nostra-aetate_fr' creator="Concile Vatican II" type='Déclaration' title='Nostra Ætate'/>
+    <book file='vat-ii_decl_1965-12-07_dignitatis-humanae_fr' creator="Concile Vatican II" type='Déclaration' title='Dignitatis Humanæ'/>
+    <book file='vat-ii_decree_1963-12-04_inter-mirifica_fr' creator="Concile Vatican II" type='Décret' title='Inter Mirifica'/>
+    <book file='vat-ii_decree_1964-11-21_orientalium-ecclesiarum_fr' creator="Concile Vatican II" type='Décret' title='Orientalium Ecclesiam'/>
+    <book file='vat-ii_decree_1964-11-21_unitatis-redintegratio_fr' creator="Concile Vatican II" type='Décret' title='Unitatis Redintegratio'/>
+    <book file='vat-ii_decree_1965-10-28_christus-dominus_fr' creator="Concile Vatican II" type='Décret' title='Christus Dominus'/>
+    <book file='vat-ii_decree_1965-10-28_optatam-totius_fr' creator="Concile Vatican II" type='Décret' title='Optatam Totius'/>
+    <book file='vat-ii_decree_1965-10-28_perfectae-caritatis_fr' creator="Concile Vatican II" type='Décret' title='Perfectæ Caritatis'/>
+</books>

@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="preview.xsl"?>
-<book xmlns="http://docbook.org/ns/docbook"
-	  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	  xmlns:xi="http://www.w3.org/2001/XInclude"
-	  xmlns:xlink="http://www.w3.org/1999/xlink"
-	  xml:id="mortalium-animos" version="5.0"
-	  xml:lang="fr"
-	  xsi:schemaLocation="
-	  	http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/xsd/docbook.xsd
-	  	http://www.w3.org/1999/xlink http://www.docbook.org/xml/5.0/xsd/xlink.xsd ">
+<book xmlns="http://gnodet.fr/ns/docbook"
+	  xml:id="summi-pontificatus" xml:lang="fr">
 	<info>
 		<productnumber><?eval ${project.version}?></productnumber>
 		<title>Summi pontificatus</title>
 		<subtitle>De l’unité du genre humain</subtitle>
-		<author><personname>Pie XII</personname></author>
+		<author>Pie XII</author>
 		<mediaobject role="cover" xml:id="coverd">
 			<imageobject role="front-large" remap="lrg">
 				<imagedata format="PNG" fileref="cover.png"/>
@@ -25,7 +18,7 @@
 		<subtitle>LETTRE ENCYCLIQUE<br/>DE SA SAINTETÉ LE PAPE PIE XII</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="pius-xi-bw.svg" format="SVG"/>
+				<imagedata align="center" fileref="image.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 		<p><i>Vénérables Frères, Salut et Bénédiction apostolique</i>.</p>
@@ -65,7 +58,7 @@
 		<p>Merveilleuse vision, qui nous fait contempler le genre humain dans l’unité de son origine en Dieu : un seul Dieu, Père de tous, qui est au-dessus de tous, et en toutes choses, et en chacun de nous (<bible><ss>Ep</ss> <sc>4</sc>, <sv>6</sv></bible>) ; dans l’unité de sa nature, composée pareillement chez tous d’un corps matériel et d’une âme spirituelle et immortelle ; dans l’unité de sa fin immédiate et de sa mission dans le monde, dans l’unité de son habitation : la terre, des biens de laquelle tous les hommes, par droit de nature, peuvent user pour soutenir et développer la vie ; dans l’unité de sa fin surnaturelle : Dieu même, à qui tous doivent tendre, dans l’unité des moyens pour atteindre cette fin.</p>
 		<p>Et le même apôtre nous montre l’humanité dans l’unité de ses rapports avec le Fils de Dieu, image du Dieuinvisible, en qui toutes choses ont été créées : in ipso condita sunt universa (<bible><ss>Col</ss> <sc>1</sc>, <sv>16</sv></bible>) ; dans l’unité de son rachat opéré pour tous par le Christ, lequel a rétabli l’amitié originelle avec Dieu, qui avait été rompue, moyennant sa sainte et très douloureuse passion, se faisant médiateur entre Dieu et les hommes : car il n’y a qu’un Dieu, et qu’un médiateur entre Dieu et les hommes : le Christ Jésus fait homme (<bible><ss>1Tm</ss> <sc>2</sc>, <sv>5</sv></bible>).</p>
 		<p>Et pour rendre plus intime cette amitié entre Dieu et l’humanité, ce même médiateur divin et universel de salut et de paix, dans le silence sacré du Cénacle, avant de consommer le sacrifice suprême, laissa tomber de ses lèvres divines la parole qui se répercute bien haut à travers les siècles, suscitant des héroïsmes de charité au milieu d’un monde vide d’amour et déchiré par la haine : Ceci est mon commandement : que vous vous aimiez les uns les autres comme je vous ai aimés (<bible><ss>Jn</ss> <sc>15</sc>, <sv>12</sv></bible>).</p>
-		<p>Ce sont là des vérités surnaturelles, qui établissent des bases profondes et de puissants liens d’union, renforcés par l’amour de Dieu et du Divin Rédempteur, de qui tous reçoivent le salut « pour l’édification du corps du Christ, jusqu’à ce que nous parvenions tous ensemble à l’unité de la foi, à la pleine connaissance du Fils de Dieu, à l’état d’homme parfait, selon la mesure de la pleine grandeur du Christ » (cf<i></i>. <bible><ss>Ep</ss> <sc>4</sc>, <sv>12</sv>.<sv>13</sv></bible>).</p>
+		<p>Ce sont là des vérités surnaturelles, qui établissent des bases profondes et de puissants liens d’union, renforcés par l’amour de Dieu et du Divin Rédempteur, de qui tous reçoivent le salut « pour l’édification du corps du Christ, jusqu’à ce que nous parvenions tous ensemble à l’unité de la foi, à la pleine connaissance du Fils de Dieu, à l’état d’homme parfait, selon la mesure de la pleine grandeur du Christ » (cf. <bible><ss>Ep</ss> <sc>4</sc>, <sv>12</sv>.<sv>13</sv></bible>).</p>
 		<p>À la lumière de cette unité en droit et en fait de l’humanité entière, les individus ne nous apparaissent pas sans liaison entre eux, comme des grains de sable, mais bien au contraire unis par des relations organiques, harmonieuses et mutuelles — variées selon la variété des temps, — et résultant de leur destination et de leur impulsion, naturelle et surnaturelle.</p>
 		<p>Et les nations en se développant et en se différenciant selon les diverses conditions de vie et de culture, ne sont pas destinées à mettre en pièces l’unité du genre humain, mais à l’enrichir et à l’embellir par la communication de leurs qualités particulières et par l’échange réciproque des biens, qui ne peut être possible et en même temps efficace que quand un amour mutuel et une charité vivement sentie unissent tous les enfants d’un même Père et toutes les âmes rachetées par un même sang divin.</p>
 		<p>L’Église du Christ, fidèle dépositaire de la divine sagesse éducatrice, ne peut penser ni ne pense à attaquer ou à mésestimer les caractéristiques particulières que chaque peuple, avec une piété jalouse et une compréhensible fierté, conserve et considère comme un précieux patrimoine. Son but est l’unité surnaturelle dans l’amour universel senti et pratiqué, et non l’uniformité exclusivement extérieure, superficielle et par là débilitante.</p>

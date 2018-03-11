@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="preview.xsl"?>
-<book xmlns="http://docbook.org/ns/docbook"
-	  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	  xmlns:xi="http://www.w3.org/2001/XInclude"
-	  xmlns:xlink="http://www.w3.org/1999/xlink"
-	  xml:id="libertas-præstanssimum" version="5.0"
-	  xml:lang="fr"
-	  xsi:schemaLocation="
-	  	http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/xsd/docbook.xsd
-	  	http://www.w3.org/1999/xlink http://www.docbook.org/xml/5.0/xsd/xlink.xsd ">
+<book xmlns="http://gnodet.fr/ns/docbook"
+	  xml:id="libertas-præstanssimum" xml:lang="fr">
 	<info>
 		<productnumber><?eval ${project.version}?></productnumber>
 		<title>Christus Dominus</title>
@@ -29,7 +22,7 @@
 				  DÉCRET SUR LA CHARGE PASTORALE
 				  DES ÉVÊQUES DANS L’ÉGLISE</subtitle>
 		<section>
-			<p align="center"><b>PRÉAMBULE</b></p>
+			<p class="center"><b>PRÉAMBULE</b></p>
 			<p><np>1</np> Le Christ Seigneur, Fils du Dieu vivant est venu pour sauver son peuple du péché (cf. <bible><ss>Mt</ss> <sc>1</sc>, <sv>21</sv></bible>) et pour sanctifier tous les hommes ; comme il fut lui-même envoyé par le Père, ainsi envoya-t-il ses Apôtres (cf. <bible><ss>Jn</ss> <sc>20</sc>, <sv>21</sv></bible>) ; il les sanctifia, en leur donnant le Saint-Esprit, pour qu’eux aussi ils glorifient le Père sur la terre et fassent que les hommes soient sauvés « en vue de l’édification du Corps du Christ » (<bible><ss>Ep</ss> <sc>4</sc>, <sv>12</sv></bible>), qui est l’Église.</p>
 			<p><np>2</np> Dans cette Église du Christ, le Pontife romain, comme successeur de Pierre, à qui le Christ confia la mission de paître ses brebis et ses agneaux, jouit, par institution divine, du pouvoir suprême, plénier, immédiat, universel pour la charge des âmes. Aussi bien, en sa qualité de pasteur de tous les fidèles envoyé pour assurer le bien commun de l’Église universelle et le bien de chacune des Églises, il possède sur toutes les Églises la primauté du pouvoir ordinaire.</p>
 			<p>Les évêques, eux aussi, établis par le Saint-Esprit, succèdent aux Apôtres, comme pasteurs des âmes<footnote><p>Cf. Conc. Vat. I, sess. 4, Const. dogm. <i>De Ecclesia Christi</i>, c. 3 ; Denz. 1828 (3061).</p></footnote> : ils ont été envoyés pour assurer, en union avec le Souverain Pontife et sous son autorité, la pérennité de l’œuvre du Christ, Pasteur éternel<footnote><p>Cf. Idem ; Denz. 1821 (3050).</p></footnote>. Car le Christ a donné aux Apôtres et à leurs successeurs l’ordre et le pouvoir d’enseigner toutes les nations, de sanctifier les hommes dans la vérité et de guider le troupeau. Aussi, par l’Esprit Saint qui leur a été donné, les évêques ont-ils été constitués de vrais et authentiques maîtres de la foi, pontifes et pasteurs<footnote><p>Cf. Conc. Vat. II, Const. dogm. <i><a href="http://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_fr.html">Lumen gentium</a></i>, n. 21, 24, 25.</p></footnote>.</p>
@@ -37,8 +30,8 @@
 			<p>C’est pourquoi le saint Concile, tenant compte notamment des conditions de la communauté humaine en pleine évolution de nos jours<footnote><p>Cf. Jean XXIII, <i>Humanæ salutis</i>, 25 décembre 1961 : <i>AAS</i> 54 (1962), p. 6.</p></footnote>, et voulant déterminer de manière plus précise la charge pastorale des évêques, a décidé ce qui suit.</p>
 		</section>
 		<section>
-			<p align="center"><b><a id="CHAPITRE_PREMIER">CHAPITRE PREMIER</a> : <br /><i>Les évêques et l’Église universelle</i></b></p>
-			<p align="center"><b><a id="I. _Rôle_des_évêques_à_l’égard_de_l’Église_universelle">I. Rôle des évêques à l’égard de l’Église universelle</a></b></p>
+			<p class="center"><b><a name="CHAPITRE_PREMIER">CHAPITRE PREMIER</a> : <br /><i>Les évêques et l’Église universelle</i></b></p>
+			<p class="center"><b><a name="I._Rôle_des_évêques_à_l’égard_de_l’Église_universelle">I. Rôle des évêques à l’égard de l’Église universelle</a></b></p>
 			<p><np>4</np> <b><i>Exercice du pouvoir du collège des évêques</i></b></p>
 			<p>Les évêques, en vertu de leur consécration sacramentelle et par leur communion hiérarchique avec la Tête et les membres du collège, sont établis membres du corps épiscopal<footnote><p>cf. Conc. Vat. II, Const. dogm. <i><a href="http://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_fr.html">Lumen gentium</a></i>, n. 22.</p></footnote>. « L’ordre des évêques, qui succède au collège apostolique dans le Magistère et le gouvernement pastoral, bien mieux dans lequel le corps apostolique se perpétue sans interruption constitue, lui aussi, en union avec le Pontife romain, son chef, et jamais e n dehors de ce chef, le sujet du pouvoir suprême et plénier sur toute l’Église, pouvoir cependant qui ne peut s’exercer qu’avec le consentement du Pontife romain »<footnote><p><i>Ibid</i>.</p></footnote>. Ce pouvoir s’exerce « solennellement dans le Concile œcuménique »<footnote><p><i>Ibid</i>.</p></footnote> ; aussi le Concile décide-t-il que tous les évêques, en qualité de membres du collège épiscopal, ont le droit de participer au Concile œcuménique.</p>
 			<p>« Ce même pouvoir collégial peut être exercé en union avec le pape par les évêques résidant sur la surface de la terre, pourvu que le chef du collège les appelle à agir collégialement ou du moins qu’il donne à cette action commune des évêques dispersés son approbation ou sa libre acceptation pour en faire un véritable acte collégial »<footnote><p><i>Ibid</i>.</p></footnote>.</p>
@@ -50,7 +43,7 @@
 			<p>En outre, dans l’usage des biens ecclésiastiques, les évêques doivent penser à tenir compte non seulement des besoins de leur propre diocèse, mais encore de ceux des autres Églises particulières, puisqu’elles sont des parties de l’unique Église du Christ. Qu’ils soient enfin attentifs à soulager, selon leurs possibilités, les malheurs dont d’autres diocèses ou d’autres régions ont à souffrir.</p>
 			<p><np>7</np> <b><i>Charité active envers les évêques persécutés</i></b></p>
 			<p>Par-dessus tout qu’ils entourent d’un cœur fraternel ces prélats qui, pour le nom du Christ, sont victimes de calomnies et de tourments, détenus en prison ou empêchés d’exercer leur ministère ; qu’ils fassent preuve à leur égard d’un authentique et actif dévouement en vue d’adoucir et d’alléger leurs souffrances par la prière et le soutien de leurs confrères.</p>
-			<p align="center"><b><a id="II. _Les_évêques_et_le_Siège_apostolique">II. Les évêques et le Siège apostolique</a></b></p>
+			<p class="center"><b><a name="II._Les_évêques_et_le_Siège_apostolique">II. Les évêques et le Siège apostolique</a></b></p>
 			<p><np>8</np> <b><i>Pouvoir des évêques dans leur propre diocèse</i></b></p>
 			<p>a) Les évêques, en tant que successeurs des apôtres, ont de soi, dans les diocèses qui leur sont confiés, tout le pouvoir ordinaire, propre et immédiat, requis pour l’exercice de leur charge pastorale, étant sauf toujours et en toutes choses le pouvoir que le Pontife romain a, en vertu de sa charge, de se réserver des causes ou de les réserver à une autre autorité.</p>
 			<p>b) Chaque évêque diocésain a la faculté de dispenser de la loi générale de l’Église, en un cas particulier, les fidèles sur lesquels il exerce son autorité selon le droit, chaque fois qu’à son jugement la dispense profitera à leur bien spirituel, à moins qu’une réserve spéciale ait été faite par l’autorité suprême de l’Église.</p>
@@ -63,8 +56,8 @@
 			<p>Enfin, les Pères du Concile estiment très utile que ces mêmes dicastères entendent davantage des laïcs, réputés pour leurs qualités, leur science et leur expérience, en sorte que ces laïcs aussi jouent dans les affaires de l’Église le rôle qui leur revient.</p>
 		</section>
 		<section>
-			<p align="center"><b><a id="CHAPITRE_II">CHAPITRE II</a> : <br /><i>Les évêques et les Églises particulières ou diocèses</i></b></p>
-			<p align="center"><b><a id="I. _Les_évêques_diocésains">I. Les évêques diocésains</a></b></p>
+			<p class="center"><b><a name="CHAPITRE_II">CHAPITRE II</a> : <br /><i>Les évêques et les Églises particulières ou diocèses</i></b></p>
+			<p class="center"><b><a name="I._Les_évêques_diocésains">I. Les évêques diocésains</a></b></p>
 			<p><np>11</np> <b><i>Notions du diocèse et rôle des évêques dans leur diocèse</i></b></p>
 			<p>Un diocèse est une portion du Peuple de Dieu confiée à un évêque pour qu’avec l’aide de son presbyterium, il en soit le pasteur : ainsi le diocèse, lié à son pasteur et par lui rassemblé dans le Saint-Esprit grâce à l’Évangile et à l’Eucharistie, constitue une Église particulière en laquelle est vraiment présente et agissante l’Église du Christ, une, sainte, catholique et apostolique.</p>
 			<p>Chaque évêque, à qui a été confié le soin d’une Église particulière paît ses brebis au nom du Seigneur, sous l’autorité du Souverain Pontife, à titre de pasteur propre, ordinaire et immédiat, exerçant à leur égard la charge d’enseigner, de sanctifier et de gouverner. Il doit cependant reconnaître les droits légitimes des patriarches ou des autres autorités hiérarchiques<footnote><p>Cf. Conc. Vat. II, décret <i><a href="http://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19641121_orientalium-ecclesiarum_fr.html">de Ecclesiis Orientalibus Catholicis</a></i>, n. 7-11.</p></footnote>.</p>
@@ -106,7 +99,7 @@
 			<p>Aussi, pour défendre dûment la liberté de l’Église, pour promouvoir le bien des fidèles d’une manière plus appropriée et plus aisée, c’est le vœu du Concile qu’à l’avenir ne soient plus accordés aux autorités civiles aucun droit ni aucun privilège d’élection, de nomination, de présentation ou de désignation en vue de la charge épiscopale. Les autorités civiles, dont le saint Concile reconnaît avec gratitude et estime les dispositions déférentes à l’égard de l’Église, sont très courtoisement priées de bien vouloir renoncer d’elles-mêmes, en accord avec le Siège apostolique, à ces droits et privilèges dont elles jouissent actuellement en vertu d’une convention ou d’une coutume.</p>
 			<p><np>21</np> <b><i>Renonciation des évêques à leur charge</i></b></p>
 			<p>Puisque la charge pastorale des évêques est d’une si haute importance et d’une telle gravité, les évêques diocésains et tous les autres qui relèvent des mêmes dispositions du droit, sont instamment priés de donner leur démission, soit d’eux-mêmes, soit sur l’invitation de l’autorité compétente, si, du fait de leur âge avancé, ou pour toute autre raison grave, ils deviennent moins aptes à remplir leur tâche. L’autorité compétente, si elle accepte cette démission, veillera à assurer l’honnête entretien des dé missionnaires et à leur reconnaître les droits particuliers qui leur reviennent.</p>
-			<p align="center"><b><a id="II. _La_délimitation_des_diocèses">II. La délimitation des diocèses</a></b></p>
+			<p class="center"><b><a name="II._La_délimitation_des_diocèses">II. La délimitation des diocèses</a></b></p>
 			<p><np>22</np> <b><i>La nécessité de réviser les circonscriptions des diocèses</i></b></p>
 			<p>Pour qu’un diocèse réalise sa fin propre, il faut premièrement que la nature de l’Église apparaisse avec évidence dans la portion du Peuple de Dieu qui compose ce diocèse ; deuxièmement que les évêques puissent s’y acquitter efficacement de leur charge pastorale ; troisièmement que le ministère en vue du salut du Peuple de Dieu y soit assuré de la manière la plus parfaite possible.</p>
 			<p>Cela demande soit une délimitation convenable des frontières territoriales des diocèses, soit une répartition raisonnable des clercs et des ressources en rapport avec les exigences de l’apostolat. Toutes choses qui servent non seulement le bien des clercs et des fidèles directement intéressés, mais aussi celui de l’Église catholique tout entière.</p>
@@ -121,8 +114,8 @@
 			<p>De même, dans des circonstances semblables, on devra pourvoir au bien spirituel des fidèles d’une langue différente, soit par l’intermédiaire de prêtres ou de paroisses de leur langue, soit par l’intermédiaire d’un vicaire épiscopal possédant bien cette langue, qui soit même, le cas échéant, revêtu du caractère épiscopal, soit enfin selon une autre méthode plus appropriée.</p>
 			<p><np>24</np> <b><i>Vote de la conférence épiscopale à demander</i></b></p>
 			<p>La discipline des Églises orientales demeurant sauve, il importe, en ce qui concerne les modifications des diocèses ou les innovations à introduire selon les règles des nos 22-23, que les conférences épiscopales compétentes examinent ces affaires chacune pour son territoire ; elles peuvent même, si cela paraît opportun, recourir à une commission épiscopale particulière, mais toujours après avoir entendu avant tout les évêques des provinces ou des régions intéressées ; ensuite, elles soumettront leurs avis et leurs vœux au Siège apostolique.</p>
-			<p align="center"><b><a id="III. _Les_coopérateurs_de_l’évêque_diocésain_dans_la_charge_pastorale">III. Les coopérateurs de l’évêque diocésain dans la charge pastorale</a></b></p>
-			<p><b><a id="1. _Les_évêques_coadjuteurs_et_auxiliaires">1. Les évêques coadjuteurs et auxiliaires</a></b></p>
+			<p class="center"><b><a name="III._Les_coopérateurs_de_l’évêque_diocésain_dans_la_charge_pastorale">III. Les coopérateurs de l’évêque diocésain dans la charge pastorale</a></b></p>
+			<p><b><a name="1._Les_évêques_coadjuteurs_et_auxiliaires">1. Les évêques coadjuteurs et auxiliaires</a></b></p>
 			<p><np>25</np> <b><i>Règles à suivre pour établir des auxiliaires et des coadjuteurs</i></b></p>
 			<p>Dans le gouvernement des diocèses, on doit pourvoir de telle façon à la charge pastorale des évêques que le bien du troupeau du Seigneur soit toujours la règle suprême. Pour que ce bien soit dûment procuré, il n’est pas rare que des évêques auxiliaires doivent être établis, du fait que l’évêque diocésain ne peut accomplir par lui-même toutes ses fonctions, comme l’exige le bien des âmes, à cause de la trop grande étendue du diocèse ou du trop grand nombre de ses habitants ou de circonstances spéciales d’apostolat, ou pour d’autres causes diverses. Bien plus, une nécessité particulière exige parfois que, pour seconder l’évêque diocésain, on établisse un évêque coadjuteur. Ces évêques coadjuteurs et auxiliaires doivent être pourvus de pouvoirs appropriés, de sorte que, tout en sauvegardant toujours l’unité de gouvernement du diocèse et l’autorité de l’évêque diocésain, leur action soit rendue plus efficace et la dignité propre aux évêques mieux assurée.</p>
 			<p>En outre, comme les évêques coadjuteurs et auxiliaires ont été appelés à partager la sollicitude de l’évêque diocésain, ils exerceront leur charge de telle sorte qu’en toutes les affaires ils agissent en plein accord avec lui. De plus, ils feront toujours preuve de soumission et de respect envers l’évêque diocésain qui, en retour, aimera fraternellement les évêques coadjuteurs ou auxiliaires et leur accordera son estime.</p>
@@ -132,14 +125,14 @@
 			<p>À moins qu’il n’en ait été décidé autrement par l’autorité compétente, les pouvoirs et facultés dont les évêques auxiliaires ont été munis par le droit n’expirent pas avec la charge de l’évêque diocésain. Il est également souhaitable, à moins que de graves raisons ne conseillent d’agir autrement, qu’à la vacance du siège, la charge de gouverner le diocèse soit confiée à l’évêque auxiliaire ou, s’il y en a plusieurs, à l’un des auxiliaires.</p>
 			<p>L’évêque coadjuteur, c’est-à-dire qui est nommé avec droit de succession, doit toujours être établi vicaire général par l’évêque diocésain. Dans des cas particuliers, des facultés plus étendues pourront lui être accordées par l’autorité compétente.</p>
 			<p>Pour que le bien présent et futur du diocèse soit assuré au mieux, l’évêque assisté d’un coadjuteur et l’évêque coadjuteur ne manqueront pas de se consulter mutuellement dans les questions plus importantes.</p>
-			<p><b><a id="2. _La_curie_et_les_conseils_diocésains">2. La curie et les conseils diocésains</a></b></p>
+			<p><b><a name="2._La_curie_et_les_conseils_diocésains">2. La curie et les conseils diocésains</a></b></p>
 			<p><np>27</np> <b><i>Organisation de la curie diocésaine et création du conseil pastoral</i></b></p>
 			<p>Dans la curie diocésaine, la fonction la plus éminente est celle de vicaire général. Mais chaque fois que le bon gouvernement du diocèse le demande, l’évêque peut établir un ou plusieurs vicaires épiscopaux, c’est-à-dire qui jouissent de plein droit, dans une partie déterminée du diocèse, ou pour un secteur déterminé d’activité, ou par rapport aux fidèles d’un rite déterminé, des pouvoirs que le droit commun accorde au vicaire général.</p>
 			<p>Parmi les coopérateurs de l’évêque dans le gouvernement du diocèse, il faut aussi mentionner les prêtres qui constituent son sénat ou son conseil, comme c’est le cas du chapitre cathédrale, du groupe des consulteurs, ou d’autres conseils, selon les circonstances ou la diversité des lieux. Ces institutions, les chapitres cathédraux surtout, devront, autant qu’il est nécessaire, recevoir une nouvelle organisation, adaptée aux besoins d’aujourd’hui.</p>
 			<p>Les prêtres et les laïcs qui appartiennent à la curie diocésaine doivent savoir que c’est au ministère pastoral de l’évêque qu’ils concourent.</p>
 			<p>La curie diocésaine doit être organisée de telle façon qu’elle devienne pour l’évêque un instrument adapté, non seulement à l’administration du diocèse, mais aussi à l’exercice des œuvres d’apostolat.</p>
 			<p>Il est tout à fait souhaitable que, dans chaque diocèse, soit établi un conseil pastoral particulier, présidé par l’évêque diocésain lui-même et auquel participent des clercs, des religieux et des laïcs, spécialement choisis. À ce conseil il appartiendra de suivre attentivement ce qui se rapporte au travail pastoral, de l’examiner et d’en tirer des conclusions pratiques.</p>
-			<p><b><a id="3. _Le_clergé_diocésain_">3. Le clergé diocésain</a></b></p>
+			<p><b><a name="3._Le_clergé_diocésain_">3. Le clergé diocésain</a></b></p>
 			<p><np>28</np> <b><i>Les prêtres diocésains</i></b></p>
 			<p>Tous les prêtres, tant diocésains que religieux, participent avec l’évêque à l’unique sacerdoce du Christ et l’exercent avec lui ; aussi sont-ils établis les coopérateurs avisés de l’ordre épiscopal. Dans le soin des âmes, les prêtres diocésains ont le premier rôle, puisque incardinés ou attachés à une Église particulière, ils se consacrent entièrement à son service pour paître une même portion du troupeau du Seigneur ; aussi forment-ils un seul presbyterium et une seule famille, dont l’évêque est le père. Pour répartir d’une façon plus appropriée et équitable les ministères sacrés entre ses prêtres, l’évêque doit jouir de la liberté nécessaire dans la collation des offices et des bénéfices ; ce qui entraîne la suppression des droits et des privilèges qui restreignent, de quelque manière que ce soit, cette liberté.</p>
 			<p>Les relations entre l’évêque et les prêtres diocésains doivent être fondées en premier lieu sur les liens d’une charité surnaturelle : ainsi l’accord de la volonté des prêtres avec celle de l’évêque rendra plus fructueuse leur action pastorale. Que l’évêque veuille donc, pour promouvoir toujours davantage le service pastoral, appeler ses prêtres à un dialogue avec lui, et aussi en commun avec d’autres. Ce dialogue portera surtout sur la pastorale ; il aura lieu non seulement quand l’occasion s’en présente, mais, dans la mesure du possible, à des dates fixes.</p>
@@ -163,7 +156,7 @@
 			<p>Les curés, qui du fait de leur âge avancé ou pour toute autre raison grave, se trouvent empêchés d’accomplir leur charge comme il convient et de façon fructueuse, sont instamment priés de renoncer à leur charge, spontanément ou sur l’invitation de l’évêque. Aux démissionnaires, l’évêque doit assurer des moyens de subsistance convenables.</p>
 			<p><np>32</np> <b><i>Création de paroisses et innovations</i></b></p>
 			<p>Enfin cette même raison du salut des âmes doit permettre de déterminer ou de réviser les érections ou les suppressions de paroisses, ou d’autres changements analogues ; l’évêque peut prendre ces mesures de sa propre autorité.</p>
-			<p><b><a id="4. _Les_religieux">4. Les religieux</a></b></p>
+			<p><b><a name="4._Les_religieux">4. Les religieux</a></b></p>
 			<p><np>33</np> <b><i>Les religieux et les œuvres d’apostolat</i></b></p>
 			<p>À tous les religieux (dans les dispositions suivantes, leur sont adjoints les membres des autres instituts faisant profession des conseils évangéliques, chacun selon sa propre vocation) incombe le devoir de collaborer de toutes leurs forces et avec zèle à l’édification et à la croissance de tout le Corps mystique du Christ et au bien des Églises particulières.</p>
 			<p>Ils sont tenus de poursuivre ces fins d’abord par la prière, les œuvres de pénitence et l’exemple de leur propre vie ; le Concile les exhorte vivement à en développer sans cesse l’estime et la pratique. Mais, compte tenu du caractère propre de chaque institut, que les religieux s’adonnent aussi largement aux œuvres extérieures d’apostolat.</p>
@@ -182,9 +175,9 @@
 			<p>6. Pour favoriser entre les évêques et les religieux la concorde et l’efficacité des relations mutuelles, les évêques et les supérieurs religieux voudront bien se réunir, à dates fixes et chaque fois que cela paraîtra opportun, pour traiter les affaires regardant l’ensemble de l’apostolat dans le territoire.</p>
 		</section>
 		<section>
-			<p align="center"><b><a id="CHAPITRE_III">CHAPITRE III</a> : <br /><i>Coopération des évêques au bien commun de plusieurs Églises</i></b></p>
-			<p align="center"> </p>
-			<p align="center"><b><a id="I. _Synodes, _conciles_et_principalement_conférences_épiscopales">I. Synodes, conciles et principalement conférences épiscopales</a></b></p>
+			<p class="center"><b><a name="CHAPITRE_III">CHAPITRE III</a> : <br /><i>Coopération des évêques au bien commun de plusieurs Églises</i></b></p>
+			<p class="center"> </p>
+			<p class="center"><b><a name="I._Synodes,_conciles_et_principalement_conférences_épiscopales">I. Synodes, conciles et principalement conférences épiscopales</a></b></p>
 			<p><np>36</np> <b><i>Synodes et conciles particuliers</i></b></p>
 			<p>Dès les premiers siècles de l’Église, la communion de la charité fraternelle et le souci de la mission universelle confiée aux Apôtres ont poussé les évêques, placés à la tête d’Églises particulières, à associer leurs forces et leur volonté en vue de promouvoir le bien commun de l’ensemble des Églises et de chacune d’entre elles. Pour cette raison, des synodes, des conciles provinciaux et enfin des conciles pléniers ont été réunis, où les évêques décrétèrent des normes identiques à observer dans les diverses Églises pour l’enseignement des vérités de la foi et l’organisation de la discipline ecclésiastique.</p>
 			<p>Ce saint Concile œcuménique souhaite vivement que la véritable institution des synodes et des conciles connaisse une nouvelle vigueur afin de pourvoir, selon les circonstances, de façon plus adaptée et plus efficace, au progrès de la foi et au maintien de la discipline dans les diverses Églises.</p>
@@ -200,8 +193,8 @@
 			<p>5. Là où des circonstances particulières le requièrent, les évêques de plusieurs pays pourront, avec l’approbation du Siège apostolique, constituer une seule conférence.</p>
 			<p>Il faut au surplus encourager les relations entre les conférences épiscopales de divers pays, en vue de promouvoir et d’assurer un plus grand bien.</p>
 			<p>6. Il est instamment recommandé aux prélats des églises orientales, réunies en synode pour promouvoir la discipline de leur propre église et encourager plus efficacement les œuvres destinées au bien de la religion, de tenir également compte du bien commun de l’ensemble du territoire, là où existent plusieurs églises de rites différents ; ils provoqueront à cet effet des échanges au cours de réunions inter-rites, selon les règles à établir par l’autorité compétente.</p>
-			<p align="center"> </p>
-			<p align="center"><font face="Times New Roman" size="3"><b><a id="II. _Délimitation_des_provinces_ecclésiastiques_et_érection_de_régions_ecclésiastiques">II. Délimitation des provinces ecclésiastiques et érection de régions ecclésiastiques</a></b></font></p>
+			<p class="center"> </p>
+			<p class="center"><b><a name="II._Délimitation_des_provinces_ecclésiastiques_et_érection_de_régions_ecclésiastiques">II. Délimitation des provinces ecclésiastiques et érection de régions ecclésiastiques</a></b></p>
 			<p><np>39</np> <b><i>Principe sur la révision des circonscriptions</i></b></p>
 			<p>Le bien des âmes réclame une délimitation appropriée, non seulement des diocèses, mais aussi des provinces ecclésiastiques. Bien plus, il recommande l’érection de régions ecclésiastiques, permettant de mieux pourvoir aux besoins de l’apostolat en fonction des conditions sociales et locales, et de rendre plus faciles et plus fructueuses les relations des évêques entre eux, avec les métropolitains et avec les autres évêques d’un même pays comme aussi les relations des évêques avec les autorités civiles.</p>
 			<p><np>40</np> <b><i>Règles à observer</i></b></p>
@@ -211,7 +204,7 @@
 			<p>3. Là où l’utilité le suggère, les provinces ecclésiastiques seront regroupées en régions ecclésiastiques, dont l’organisation est à fixer par le droit.</p>
 			<p><np>41</np> <b><i>Vote des conférences épiscopales à demander</i></b></p>
 			<p>Il convient que les conférences épiscopales compétentes examinent cette question de la délimitation des provinces ou de l’érection des régions, selon les règles déjà fixées pour la circonscription des diocèses (n. 23 et 24), et qu’elles proposent leur avis et leurs vœux au Siège apostolique.</p>
-			<p align="center"><b><a id="III. _Les_évêques_qui_exercent_des_fonctions_interdiocésaines">III. Les évêques qui exercent des fonctions interdiocésaines</a></b></p>
+			<p class="center"><b><a name="III._Les_évêques_qui_exercent_des_fonctions_interdiocésaines">III. Les évêques qui exercent des fonctions interdiocésaines</a></b></p>
 			<p><np>42</np> <b><i>Constitution d’offices particuliers et collaboration avec les évêques</i></b></p>
 			<p>Comme les besoins pastoraux exigent de plus en plus que certaines tâches pastorales soient menées et développées d’un commun accord, il convient que, pour le service de tous les diocèses, ou de plusieurs diocèses d’une région ou d’un pays déterminés, soient établis un certain nombre d’organes qui peuvent être confiés même à des évêques.</p>
 			<p>Le saint Concile recommande qu’entre les prélats ou évêques exerçant ces charges et les évêques diocésains et les conférences épiscopales existent toujours une union fraternelle et une communauté d’intentions pastorales, dont les principes directeurs doivent être définis par le droit commun.</p>
@@ -220,14 +213,14 @@
 			<p>C’est pourquoi les évêques diocésains devront accorder au vicaire aux armées en nombre suffisant des prêtres aptes à cette lourde charge, et ils favoriseront en même temps les initiatives destinées à promouvoir le bien spirituel des soldats<footnote><p>Cf. S. C. Consistorialis, Epistula ad Em. mos p. DD. Cardinales atque Exc. mos p. DD. Archiepiscopos, Episcopos ceterosque Ordinarios Hispanicæ Ditionis, 21 juin 1951 : <i>AAS</i> 43 (1951), p. 566.</p></footnote>.</p>
 		</section>
 		<section>
-			<p><b><i><a id="44. ">44.</a></i> PRESCRIPTION GÉNÉRALE</b></p>
+			<p><np>44</np> <b><i>PRESCRIPTION GÉNÉRALE</i></b></p>
 			<p>Le saint Concile décrète que, dans la révision du Code de Droit canonique, des lois opportunes soient établies conformément aux principes qui sont posés dans ce décret et en tenant compte aussi des observations exprimées par les commissions ou les Pères du Concile.</p>
 			<p>Le saint Concile décrète en outre que des directoires généraux sur la pastorale soient composés à l’usage des évêques et des curés, leur présentant des directives sûres pour remplir plus facilement et plus parfaitement leur charge pastorale.</p>
 			<p>On élaborera aussi un directoire spécial sur l’activité pastorale auprès de catégories particulières de fidèles en rapport avec les situations diverses de chacun des pays ou régions ; et un directoire sur l’enseignement catéchétique du peuple chrétien, dans lequel on traitera des principes fondamentaux et de l’organisation de cet enseignement, ainsi que de l’élaboration de livres traitant de la question. Dans l’élaboration de ces directoires, on devra tenir compte également des observations présentées par les commissions ou par les Pères du Concile.</p>
 			<p>Tout l’ensemble et chacun des points qui ont été édictés dans cette déclaration ont plu aux Pères du Concile. Et Nous, en vertu du pouvoir apostolique que Nous tenons du Christ, en union avec les vénérables Pères, Nous les approuvons, arrêtons et décrétons dans le Saint-Esprit, et Nous ordonnons que ce qui a été ainsi établi en Concile soit promulgué pour la gloire de Dieu.</p>
 		</section>
 		<p><i>Rome, à Saint-Pierre, le 28 octobre 1965</i>.</p>
-		<p align="center">Moi, Paul, évêque de l’Église catholique.</p>
+		<p class="center">Moi, Paul, évêque de l’Église catholique.</p>
 		<p><i><a href="#Signatures_des_P%E8res">(Suivent les signatures des Pères)</a></i></p>
 	</chapter>
 </book>
