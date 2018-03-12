@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified"
+           targetNamespace="http://gnodet.fr/ns/docbook"
+           xmlns:db="http://gnodet.fr/ns/docbook">
+
+    <xs:element name="book">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="db:info" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="db:chapter" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:anyAttribute namespace="##other" processContents="lax"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="info">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="productnumber"/>
+                <xs:element name="title" type="xs:string"/>
+                <xs:element name="subtitle" type="xs:string"/>
+                <xs:element ref="db:author"/>
+                <xs:element ref="db:mediaobject"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="chapter">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="title" type="db:text"/>
+                <xs:element name="subtitle" type="db:text" minOccurs="0"/>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="db:section"/>
+                    <xs:element ref="db:p"/>
+                    <xs:element ref="db:blockquote"/>
+                    <xs:element ref="db:mediaobject"/>
+                </xs:choice>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="author" >
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element name="personname" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="mediaobject">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="imageobject">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="imagedata">
+                                <xs:complexType>
+                                    <xs:attribute name="align" type="xs:string"/>
+                                    <xs:attribute name="format" type="xs:string"/>
+                                    <xs:attribute name="fileref" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="role" type="xs:string"/>
+                        <xs:attribute name="remap" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="role"/>
+            <xs:anyAttribute namespace="##other" processContents="lax"/>
+        </xs:complexType>
+        </xs:element>
+
+    <xs:element name="section">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="title" type="db:text" minOccurs="0"/>
+                <xs:element name="subtitle" type="db:text" minOccurs="0"/>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="db:section"/>
+                    <xs:element ref="db:p"/>
+                    <xs:element ref="db:blockquote"/>
+                    <xs:element ref="db:mediaobject"/>
+                </xs:choice>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="p">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="db:text">
+                    <xs:attribute name="class" type="xs:string" />
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="footnote">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="db:p"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="blockquote">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="db:p" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="bible">
+        <xs:complexType mixed="true">
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="ss" type="xs:string" />
+                <xs:element name="sc" type="xs:string" />
+                <xs:element name="sv" type="xs:string" />
+                <xs:element name="pa" type="xs:string" />
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="text" mixed="true">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="br"/>
+            <xs:element ref="db:mediaobject"/>
+            <xs:element ref="db:section"/>
+            <xs:element name="b" type="db:text"/>
+            <xs:element name="i" type="db:text"/>
+            <xs:element name="sup" type="db:text"/>
+            <xs:element name="np" type="db:text"/>
+            <xs:element name="ns" type="db:text"/>
+            <xs:element ref="db:bible"/>
+            <xs:element ref="db:footnote"/>
+            <xs:element name="a">
+                <xs:complexType>
+                    <xs:complexContent>
+                        <xs:extension base="db:text">
+                            <xs:attribute name="href" type="xs:string"/>
+                            <xs:attribute name="name" type="xs:string"/>
+                        </xs:extension>
+                    </xs:complexContent>
+                </xs:complexType>
+            </xs:element>
+        </xs:choice>
+    </xs:complexType>
+
+</xs:schema>

@@ -12,10 +12,10 @@
         <module>core</module>
 		<module>fixer</module>
 		<module>epub-maven-plugin</module>
+		<module>magistere</module>
 		<module>antichrist</module>
 		<module>antechrist</module>
         <!--<module>cec</module>-->
-        <module>encycliques</module>
         <module>cds</module>
 		<module>bobos</module>
 		<module>crampon</module>
@@ -24,7 +24,6 @@
         <!--<module>bible</module>-->
         <module>fillion</module>
 		<module>oraisons-debutants</module>
-		<module>discours</module>
     </modules>
 
     <dependencyManagement>
