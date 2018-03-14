@@ -19,6 +19,7 @@ public class Main {
     }
 
     public static void main(String[] args) throws Exception {
+        generateCovers("rc-list.xml");
         generateCovers("dis-list.xml");
         generateCovers("enc-list.xml");
         generateCovers("exh-list.xml");

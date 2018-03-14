@@ -17,6 +17,15 @@
 			</xsl:element>
 		</xsl:element>
 	</xsl:template>
+	<xsl:template match="gn:ns">
+		<xsl:element name="phrase">
+			<xsl:attribute name="role">
+				<xsl:value-of select="'numsection'"/>
+			</xsl:attribute>
+			<xsl:value-of select="text()"/>
+		</xsl:element>
+		<xsl:value-of select="' '"/>
+	</xsl:template>
 	<xsl:template match="gn:np">
 		<xsl:element name="phrase">
 			<xsl:attribute name="role">

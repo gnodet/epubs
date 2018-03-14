@@ -1,8 +1,6 @@
 <?xml version="1.0"?>
 <books type="enc">
 
-    <book date="2002-11-24" creator="Congrégation pour la doctrine de la Foi" title="Note doctrinale concernant certaines questions sur l’engagement et le comportement des catholiques dans la vie politique" file="rc_2002-11-24_con-cfaith-doc_politica"/>
-
     <book date="2015-05-24" creator="François" title="Lodato si’" title-fr="La sauvegarde de la maison commune" file="enc_2015-05-24_hf_francesco_laudato-si"/>
     <book date="2013-06-29" creator="François" title="Lumen Fidei" title-fr="La lumière de la foi" />
 
