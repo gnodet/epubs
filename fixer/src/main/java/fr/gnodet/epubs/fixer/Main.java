@@ -1,4 +1,4 @@
-package org.gnodet.epubs.fixer;
+package fr.gnodet.epubs.fixer;
 
 import java.io.*;
 import java.net.URI;
@@ -26,7 +26,6 @@ import dk.dren.hunspell.Hunspell.Dictionary;
 import org.mozilla.universalchardet.UniversalDetector;
 
 import static fr.gnodet.epubs.core.Quotes.fixQuotes;
-import static fr.gnodet.epubs.core.Tidy.tidyHtml;
 import static fr.gnodet.epubs.core.Tidy.translateEntities;
 import static fr.gnodet.epubs.core.Whitespaces.fixWhitespaces;
 import static fr.gnodet.epubs.core.BibleRefs.fixBibleRefs;

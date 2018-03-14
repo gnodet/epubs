@@ -1,4 +1,4 @@
-package org.gnodet.epubs.fixer;
+package fr.gnodet.epubs.fixer;
 
 import java.io.IOException;
 import java.nio.file.Files;

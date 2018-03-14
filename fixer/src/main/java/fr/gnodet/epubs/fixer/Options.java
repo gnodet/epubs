@@ -24,7 +24,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package org.gnodet.epubs.fixer;
+package fr.gnodet.epubs.fixer;
 
 import java.io.PrintStream;
 import java.util.ArrayList;
