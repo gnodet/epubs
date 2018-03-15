@@ -25,6 +25,7 @@ public class Main {
         generateCovers("exh-list.xml");
         generateCovers("let-list.xml");
         generateCovers("vatican-ii-list.xml");
+        generateCovers("var-list.xml");
     }
 
     private static void generateCovers(String resource) throws Exception {

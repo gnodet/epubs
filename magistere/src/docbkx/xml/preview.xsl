@@ -3,7 +3,7 @@
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:xi="http://www.w3.org/2001/XInclude"
 		xmlns="http://www.w3.org/1999/xhtml"
-		xmlns:db="http://docbook.org/ns/docbook"
+		xmlns:db="http://gnodet.fr/ns/docbook"
 		exclude-result-prefixes='xsl xi db'
 		version="2.0">
 
