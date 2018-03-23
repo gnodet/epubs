@@ -24,6 +24,7 @@
         <!--<module>bible</module>-->
         <module>fillion</module>
 		<module>oraisons-debutants</module>
+		<module>initiation-thomiste</module>
     </modules>
 
     <dependencyManagement>
