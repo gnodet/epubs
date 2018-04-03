@@ -149,7 +149,7 @@ public class Main {
         final String title;
 
         final StringBuilder output = new StringBuilder();
-        final Pattern pattern = Pattern.compile("([A-Za-z ]*) ([1-9][0-9]*),([1-9][0-9, ]*)\\. (.*)");
+        final Pattern pattern = Pattern.compile("([A-Za-zé ]*) ([1-9][0-9]*),([1-9][0-9, ]*)\\. (.*)");
 
         final List<List<Command>> commands = new ArrayList<List<Command>>();
         final List<Map<String, String>> chapters = new ArrayList<Map<String, String>>();
