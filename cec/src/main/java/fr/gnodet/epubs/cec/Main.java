@@ -19,12 +19,14 @@ import java.util.regex.Pattern;
 
 import javax.xml.parsers.DocumentBuilderFactory;
 
+import fr.gnodet.epubs.core.BibleRefs;
 import fr.gnodet.epubs.core.Cover;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.xml.sax.InputSource;
 
+import static fr.gnodet.epubs.core.BibleRefs.fixBibleRefs;
 import static fr.gnodet.epubs.core.EPub.createEpub;
 import static fr.gnodet.epubs.core.EPub.createToc;
 import static fr.gnodet.epubs.core.IOUtil.loadTextContent;
@@ -148,6 +150,9 @@ public class Main {
                                "      table tbody tr td p { margin: 0 1em 0 1em }\n" +
                                "      .center { text-align: center; }\n" +
                                "      .numpara { font-family: Verdana; font-size: smaller; font-weight: bold; }\n" +
+                               "      .ss{color:#0000cd;} \n" +
+                               "      .ssc{color:#6495ed;font-variant:small-caps;font-weight:bolder;}\n" +
+                               "      .ssv{color:#00bfff;font-size:80%;font-weight:bolder;}\n" +
                                "    </style>\n" +
                                "    <meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\" />\n" +
                                "  </head>\n" +
@@ -182,6 +187,7 @@ public class Main {
                 document = document.replaceAll("\\.\\.\\.", "…");
                 document = fixQuotes(document);
                 document = fixNumberedParagraphs(document);
+                document = fixBibleRefs(document, BibleRefs.Style.Html);
                 document = fixWhitespaces(document);
 
             }

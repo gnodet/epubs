@@ -11,20 +11,26 @@ import java.util.stream.Collectors;
 
 public class BibleRefs {
 
+    public enum Style { DocBook, Html }
+
     public static String fixBibleRefs(String document) {
+        return fixBibleRefs(document, Style.DocBook);
+    }
+
+    public static String fixBibleRefs(String document, Style style) {
         Matcher paragraph = Pattern.compile("<p>([^<]+|<(?!p>)|<footnote><p>[\\s\\S]*?</p></footnote>)*?</p>").matcher(document);
         StringBuilder newDoc = new StringBuilder();
         int start = 0;
         while (paragraph.find(start)) {
             newDoc.append(document, start, paragraph.start());
-            newDoc.append(fixBibleRefsInParagraph(paragraph.group()));
+            newDoc.append(fixBibleRefsInParagraph(paragraph.group(), style));
             start = paragraph.end();
         }
         if (start == 0) {
             paragraph = Pattern.compile("<div[\\s\\S]*?</div>").matcher(document);
             while (paragraph.find(start)) {
                 newDoc.append(document, start, paragraph.start());
-                newDoc.append(fixBibleRefsInParagraph(paragraph.group()));
+                newDoc.append(fixBibleRefsInParagraph(paragraph.group(), style));
                 start = paragraph.end();
             }
         }
@@ -100,13 +106,13 @@ public class BibleRefs {
 
     private static final Pattern BR_REF_PATTERN = Pattern.compile(BR_REF);
 
-    private static String fixBibleRefsInParagraph(String para) {
+    private static String fixBibleRefsInParagraph(String para, Style style) {
         Matcher ref = BR_FULL_PATTERN.matcher(para);
         StringBuilder newPara = new StringBuilder();
         int start = 0;
         while (ref.find(start)) {
             newPara.append(para, start, ref.start());
-            String bref = createBibleRef(ref);
+            String bref = createBibleRef(ref, style);
             if (bref != null) {
                 newPara.append(bref);
                 start = ref.end();
@@ -122,7 +128,17 @@ public class BibleRefs {
     static String lastBook;
     static String lastChapter;
 
-    private static String createBibleRef(Matcher ref) {
+    private static String createBibleRef(Matcher ref, Style style) {
+        switch (style) {
+            case DocBook:
+                return createBibleRefDocBook(ref);
+            case Html:
+                return createBibleRefHtml(ref);
+        }
+        throw new UnsupportedOperationException();
+    }
+
+    private static String createBibleRefDocBook(Matcher ref) {
         String book = getBibleBook(ref.group(BR_FULL_BOOK));
         if (book != null) {
             StringBuilder sb = new StringBuilder();
@@ -168,6 +184,57 @@ public class BibleRefs {
                 }
             }
             sb.append("</bible>");
+            return sb.toString();
+        }
+        return null;
+    }
+
+    private static String createBibleRefHtml(Matcher ref) {
+        String book = getBibleBook(ref.group(BR_FULL_BOOK));
+        if (book != null) {
+            StringBuilder sb = new StringBuilder();
+            sb.append("<span class=\"bible\"><span class=\"ss\">").append(book).append("</span>");
+            String refs = ref.group(BR_FULL_REFS);
+            if (refs == null) {
+                if (SINGLE_CHAP_BOOKS.contains(book)) {
+                    String verses = ref.group(BR_FULL_NC_REFS);
+                    sb.append("\u00a0");
+                    sb.append(verses.replaceAll("(" + PAT_VRS + ")", "<span class=\"ssv\">$1</span>")
+                            .replaceAll("\\." + SPACES, "."));
+                } else {
+                    return ref.group();
+                }
+
+            } else {
+                String[] fullrefs = refs.split(";");
+                for (int i = 0; i < fullrefs.length; i++) {
+                    String fullref = fullrefs[i];
+                    Matcher chvr = BR_REF_PATTERN.matcher(fullref);
+                    chvr.find();
+                    if (i > 0) {
+                        sb.append("\u00a0; ");
+                    } else {
+                        sb.append("\u00a0");
+                    }
+                    String chapter = chvr.group(BR_REF_CHAPTER);
+                    sb.append("<span class=\"ssc\">").append(decimalToRoman(parseChapter(chapter))).append("</span>");
+                    if (chvr.group(BR_REF_CHAPTER_PS) != null) {
+                        if (!"Ps".equals(book)) {
+                            System.err.println("WARN: Illegal Psaume syntax found for " + ref.group());
+                        }
+                        sb.append(chvr.group(BR_REF_CHAPTER_PS));
+                    }
+                    sb.append(", ");
+                    String verses = chvr.group(BR_REF_VERSES);
+                    sb.append(verses.replaceAll("(" + PAT_VRS + ")", "<span class=\"ssv\">$1</span>")
+                            .replaceAll("\\." + SPACES, ".")
+                            .replaceAll("and", "et")
+                            .replaceAll(">" + SPACES + "(f|s)\\.", ">\u00a0s.")
+                            .replaceAll(">" + SPACES + "(ff|ss)\\.", ">\u00a0ss.")
+                    );
+                }
+            }
+            sb.append("</span>");
             return sb.toString();
         }
         return null;
@@ -417,6 +484,15 @@ public class BibleRefs {
             lastNumber = base;
         }
         return decimal;
+    }
+
+    private static String[] romanThousands = new String[]{"", "m", "mm", "mmm", "mmmm", "mmmmm", "mmmmmm", "mmmmmmm", "mmmmmmmm", "mmmmmmmmm"};
+    private static String[] romanHundreds = new String[]{"", "c", "cc", "ccc", "cd", "d", "dc", "dcc", "dccc", "cm"};
+    private static String[] romanTens = new String[]{"", "x", "xx", "xxx", "xl", "l", "lx", "lxx", "lxxx", "xc"};
+    private static String[] romanUnits = new String[]{"", "i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix"};
+
+    public static String decimalToRoman(long n) {
+        return n > 0L && n <= 9999L ? romanThousands[(int)n / 1000] + romanHundreds[(int)n / 100 % 10] + romanTens[(int)n / 10 % 10] + romanUnits[(int)n % 10] : "" + n;
     }
 
 }
