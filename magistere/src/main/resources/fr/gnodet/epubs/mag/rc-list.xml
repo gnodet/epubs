@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<books type="rc">
+<books type="rc" title="rc" file="rc">
 
     <book date="2002-11-24" creator="Congrégation pour la doctrine de la Foi" title="L’engagement en politique" file="rc_2002-11-24_con-cfaith-doc_politica"/>
     <book date="2006-05-26" creator="Conseil Pontifical Justice et Paix" title="Compendium de la doctrine sociale de l'église" file="rc_2006-05-26_pc_justpeace_doc_compendio-dott-soc"/>

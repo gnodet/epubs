@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<books type="exh">
+<books type="exh" title="Exhortations apostolique" file="exhortations">
 
     <book date="2016-03-19" creator="François" title="Amoris Laetitia" title-fr="La joie de l’amour" />
     <book date="2013-11-24" creator="François" title="Evangelii Gaudium" title-fr="La joie de l’Évangile" />

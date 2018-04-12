@@ -16,24 +16,24 @@ public class BibleRefs {
         StringBuilder newDoc = new StringBuilder();
         int start = 0;
         while (paragraph.find(start)) {
-            newDoc.append(document.substring(start, paragraph.start()));
+            newDoc.append(document, start, paragraph.start());
             newDoc.append(fixBibleRefsInParagraph(paragraph.group()));
             start = paragraph.end();
         }
         if (start == 0) {
             paragraph = Pattern.compile("<div[\\s\\S]*?</div>").matcher(document);
             while (paragraph.find(start)) {
-                newDoc.append(document.substring(start, paragraph.start()));
+                newDoc.append(document, start, paragraph.start());
                 newDoc.append(fixBibleRefsInParagraph(paragraph.group()));
                 start = paragraph.end();
             }
         }
-        newDoc.append(document.substring(start, document.length()));
+        newDoc.append(document, start, document.length());
         return newDoc.toString();
     }
 
     private static String or(String... patterns) {
-        return Arrays.asList(patterns).stream()
+        return Arrays.stream(patterns)
                 .collect(Collectors.joining("|", "(", ")"));
     }
     private static String repeat(String pat, String sep) {
@@ -105,17 +105,17 @@ public class BibleRefs {
         StringBuilder newPara = new StringBuilder();
         int start = 0;
         while (ref.find(start)) {
-            newPara.append(para.substring(start, ref.start()));
+            newPara.append(para, start, ref.start());
             String bref = createBibleRef(ref);
             if (bref != null) {
                 newPara.append(bref);
                 start = ref.end();
             } else {
-                newPara.append(para.substring(ref.start(), ref.start() + 1));
+                newPara.append(para, ref.start(), ref.start() + 1);
                 start = ref.start() + 1;
             }
         }
-        newPara.append(para.substring(start, para.length()));
+        newPara.append(para, start, para.length());
         return newPara.toString();
     }
 
@@ -376,6 +376,10 @@ public class BibleRefs {
 
         BOOKS.put("3R", "3R");
         BOOKS.put("4R", "4R");
+        BOOKS.put("Pr", "Pr");
+        BOOKS.put("Na", "Na");
+        BOOKS.put("Qo", "Qo");
+        BOOKS.put("Zc", "Zc");
     }
 
     public static int parseChapter(String str) {

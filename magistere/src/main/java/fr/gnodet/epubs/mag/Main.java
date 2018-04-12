@@ -4,9 +4,14 @@ import fr.gnodet.epubs.core.Cover;
 import org.w3c.dom.*;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.awt.*;
+import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
+import java.util.HashMap;
+import java.util.Map;
 
+import static fr.gnodet.epubs.core.IOUtil.readFully;
 import static fr.gnodet.epubs.core.IOUtil.writeToFile;
 
 public class Main {
@@ -31,7 +36,15 @@ public class Main {
     private static void generateCovers(String resource) throws Exception {
         Document enclist = dbf.newDocumentBuilder().parse(Main.class.getResourceAsStream(resource));
         String type = enclist.getDocumentElement().getAttribute("type");
+        String ltitle = enclist.getDocumentElement().getAttribute("title");
+        String lfile = enclist.getDocumentElement().getAttribute("file");
         NodeList books = enclist.getDocumentElement().getElementsByTagName("book");
+
+        int nbColumns = 5;
+        StringBuilder indexHtml = new StringBuilder();
+        indexHtml.append("        <h3>").append(ltitle).append("</h3>\n");
+        indexHtml.append("        <table>\n");
+
         for (int i = 0; i < books.getLength(); i++) {
             Element book = (Element) books.item(i);
             String title = book.getAttribute("title");
@@ -59,41 +72,24 @@ public class Main {
             Files.createDirectories(Paths.get("target/site/images"));
             writeToFile(coverPngData, "target/site/images/" + file + ".png");
             Files.createDirectories(Paths.get("target/site/svgs"));
-            Files.copy(Main.class.getResourceAsStream("coa/" + full + "-bw.svg"), Paths.get("target/site/svgs/" + file + ".svg"));
-            int nbColumns = 5;
-//            if (i % nbColumns == 0) {
-//                indexHtml.append("<tr>");
-//            }
-//            indexHtml.append("<td><center>")
-//                    .append("<a href='epub/").append(output).append(".epub'><img src='images/").append(output).append(".png'/></a>")
-//                    .append("<br/><a href='readium-js-viewer/index.html?epub=../library/").append(output).append("'>Lecture</a>")
-//                    .append("</center></td>");
-//            if ((i + 1) % nbColumns == 0 || i == books.getLength() - 1) {
-//                indexHtml.append("</tr>");
-//            }
-//            URL url = new URL("http://www.vatican.va/holy_father/" + full + "/encyclicals/documents/" + file);
-//            URL url = new URL("http://w2.vatican.va/content/" + full + "/encyclicals/documents/" + file);
-//            URL url = new URL("http://w2.vatican.va/content/" + full + "/fr/encyclicals/documents/" + file);
-//            try {
-//                process(url, "target/cache/" + file, "target/html/" + output + ".html", title, full, creator);
-//                Map<String, byte[]> resources = new HashMap<String, byte[]>();
-//                resources.put("OEBPS/img/" + full + "-bw.svg",
-//                              readFully(Main.class.getResource("coa/" + full + "-bw.svg")));
-//                resources.put("OEBPS/img/cover.png", coverPngData);
-//                resources.put("OEBPS/cover.html", Cover.generateCoverHtml(creator, titlefr, title, full).getBytes());
-//                createEpub(new File[] { new File("target/html/" + output + ".html") },
-//                           resources,
-//                           new File("target/site/epub/" + output + ".epub"),
-//                           title, creator, null);
-//            } catch (Throwable t) {
-//                t.printStackTrace();
-//            }
+            Files.copy(Main.class.getResourceAsStream("coa/" + full + "-bw.svg"), Paths.get("target/site/svgs/" + file + ".svg"), StandardCopyOption.REPLACE_EXISTING);
+
+            if (i % nbColumns == 0) {
+                indexHtml.append("          <tr>\n");
+            }
+            indexHtml.append("            <td><center>")
+                    .append("<a href='epub/").append(file).append(".epub'><img src='images/").append(file).append(".png'/></a>")
+                    .append("<br/><a href='readium-js-viewer/index.html?epub=../library/").append(file).append("'>Lecture</a>")
+                    .append("</center></td>\n");
+            if ((i + 1) % nbColumns == 0 || i == books.getLength() - 1) {
+                indexHtml.append("          </tr>\n");
+            }
         }
-//        indexHtml.append("</table>");
-//        String template = new String(readFully(Main.class.getResource("template.html")));
-//        template = template.replace("${TITLE}", "Lettres encycliques");
-//        template = template.replace("${CONTENT}", indexHtml.toString());
-//        writeToFile(template, "target/site/encycliques.html");
+        indexHtml.append("        </table>\n");
+        String template = new String(readFully(Main.class.getResource("template.html")));
+        template = template.replace("${TITLE}", ltitle);
+        template = template.replace("${CONTENT}", indexHtml.toString());
+        writeToFile(template, "target/site/" + lfile + ".html");
     }
 
     private static String getFull(String name) {

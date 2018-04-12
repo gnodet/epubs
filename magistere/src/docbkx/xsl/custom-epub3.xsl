@@ -6,6 +6,7 @@
 		version="1.0">
 	<xsl:import href="urn:docbkx:stylesheet"/>
 	<xsl:template name="book.titlepage.verso"/>
+	<xsl:template name="svg.property"/>
 	
 	<xsl:template name="acknowledgements.titlepage.recto">
 	</xsl:template>

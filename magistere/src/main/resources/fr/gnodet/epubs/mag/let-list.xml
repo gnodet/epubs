@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<books type="let">
+<books type="let" title="Lettres apostoliques" file="lettres">
 
     <book date="1984-02-11" creator="Jean-Paul II" title="Salvifici Doloris" title-fr="Le sens chrétien de la souffrance" />
 

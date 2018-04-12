@@ -11,6 +11,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.List;
@@ -5118,10 +5119,12 @@ public class DocbkxEpub3Mojo
                 if (output != null) {
                     Files.createDirectories(output);
                     Files.move(dir.resolve(xml.getFileName().toString().replace(".xml", ".epub")),
-                            output.resolve(xml.getFileName().toString().replace(".xml", ".epub")));
+                            output.resolve(xml.getFileName().toString().replace(".xml", ".epub")),
+                            StandardCopyOption.REPLACE_EXISTING);
                 } else {
                     Files.move(dir.resolve(xml.getFileName().toString().replace(".xml", ".epub")),
-                            target.resolve(xml.getFileName().toString().replace(".xml", ".epub")));
+                            target.resolve(xml.getFileName().toString().replace(".xml", ".epub")),
+                            StandardCopyOption.REPLACE_EXISTING);
                 }
             }
         } catch (IOException e) {

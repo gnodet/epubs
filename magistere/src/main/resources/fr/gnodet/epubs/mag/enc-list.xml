@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<books type="enc">
+<books type="enc" title="Lettres encycliques" file="encycliques">
 
     <book date="2015-05-24" creator="François" title="Lodato si’" title-fr="La sauvegarde de la maison commune" file="enc_2015-05-24_hf_francesco_laudato-si"/>
     <book date="2013-06-29" creator="François" title="Lumen Fidei" title-fr="La lumière de la foi" />
