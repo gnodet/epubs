@@ -24,6 +24,7 @@ public class Tidy {
         tidy.setMakeBare(true);
         tidy.setXmlOut(true);
         tidy.setOutputEncoding("UTF-8");
+        tidy.setWraplen(0);
 //        tidy.getConfiguration().printConfigOptions(new OutputStreamWriter(System.err), true);
         tidy.parse(new StringReader(document), writer);
         writer.close();
@@ -81,7 +82,7 @@ public class Tidy {
             m.appendTail(sb);
             return sb.toString();
         }
-        return text.toString();
+        return text;
     }
 
     static final Map<Pattern, String> ENTITIES;

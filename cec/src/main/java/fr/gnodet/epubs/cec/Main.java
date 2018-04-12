@@ -248,18 +248,18 @@ public class Main {
                 String toc = document.substring(document.indexOf("<body>") + 6, document.indexOf("</body>"));
                 toc = toc.replaceAll("<ul[^>]*>", "").replaceAll("</ul>", "");
                 toc = toc.replaceAll("<br ?/>", "");
-                toc = toc.replaceAll("<li>", "\n<li>");
-                toc = toc.replaceAll("\n\n", "\n");
-                toc = toc.replaceAll("\n\n", "\n");
-                toc = toc.replaceAll("\n\n", "\n");
+                toc = toc.replaceAll("\n", "");
+                toc = toc.replaceAll("> +<", "><");
 
-                toc = toc.replaceAll("<li style=\"list-style : none\">\\s*(<li>.*</li>)\\s*</li>", "$1");
+                toc = toc.replaceAll("<li style=\"list-style ?: ?none\">\\s*(<li>.*?</li>)\\s*</li>", "$1");
 
                 toc = toc.replaceAll("<li><a href=\"([^\"]*)\">\\s*([^<]*)\\s*</a>\\s*</li>", "<item text=\"$2\" ref=\"$1\"/>");
                 toc = toc.replaceAll("<li><a href=\"([^\"]*)\">\\s*([^<]*?)\\s*</a>", "<item text=\"$2\" ref=\"$1\">");
                 toc = toc.replaceAll("<li>\\s*([^<]*)\\s*", "<item text=\"$1\">");
                 toc = toc.replaceAll("</li>", "</item>");
 
+                toc = toc.replaceAll("<item", "\n<item");
+                toc = toc.replaceAll("</item>", "\n</item>");
                 toc = "<items>" + toc + "</items>";
 
                 tocNcx = createToc(title, toc);

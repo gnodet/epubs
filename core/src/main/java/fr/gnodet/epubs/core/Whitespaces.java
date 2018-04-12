@@ -10,11 +10,11 @@ public class Whitespaces {
         StringBuilder newDoc = new StringBuilder();
         int start = 0;
         while (paragraph.find(start)) {
-            newDoc.append(document.substring(start, paragraph.start()));
+            newDoc.append(document, start, paragraph.start());
             newDoc.append(fixWhitespacesInParagraph(paragraph.group()));
             start = paragraph.end();
         }
-        newDoc.append(document.substring(start, document.length()));
+        newDoc.append(document, start, document.length());
         document = newDoc.toString();
         // Clean hrefs
         int len;
@@ -30,11 +30,11 @@ public class Whitespaces {
         StringBuilder newDoc = new StringBuilder();
         int start = 0;
         while (paragraph.find(start)) {
-            newDoc.append(document.substring(start, paragraph.start()));
+            newDoc.append(document, start, paragraph.start());
             newDoc.append(fixWhitespacesInParagraph(paragraph.group()));
             start = paragraph.end();
         }
-        newDoc.append(document.substring(start, document.length()));
+        newDoc.append(document, start, document.length());
         document = newDoc.toString();
         // Clean hrefs
         int len;
