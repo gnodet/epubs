@@ -3,7 +3,7 @@ epubs
 
 Textes catholiques au format EPUB.
 
-Site web [http://gnodet.fr/epubs/]
+Site web [http://gnodet.github.io/epubs/]
 
 # Génération des EPUBs
 
