@@ -8,10 +8,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>encycliques</artifactId>
-    <properties>
-        <repository.dir>${basedir}/..</repository.dir>
-    </properties>
+    <artifactId>magistere</artifactId>
     <dependencies>
         <dependency>
             <groupId>fr.gnodet.epubs</groupId>
@@ -96,7 +93,7 @@
 							<chunkedOutput>true</chunkedOutput>
 							<htmlStylesheet>custom.css</htmlStylesheet>
 							<epub3Customization>src/docbkx/xsl/custom-epub3.xsl</epub3Customization>
-							<customCss>src/docbkx/css/custom.css</customCss>
+							<customCss>${basedir}/src/docbkx/css/custom.css</customCss>
 							<sourceDirectory>${project.build.directory}/generated-resources/xml/xslt</sourceDirectory>
 							<targetDirectory>${project.build.directory}/docbkx/epub3/</targetDirectory>
 							<outputDirectory>${session.executionRootDirectory}/target/site/epub</outputDirectory>

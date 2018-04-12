@@ -11,20 +11,16 @@
 
     <artifactId>crampon</artifactId>
 
-	<properties>
-		<repository.dir>${basedir}/../..</repository.dir>
-	</properties>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.odftoolkit</groupId>
 			<artifactId>simple-odf</artifactId>
-			<version>0.8.1-incubating</version>
+			<version>0.8.2-incubating</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.odftoolkit</groupId>
 			<artifactId>odfvalidator</artifactId>
-			<version>1.1.7-incubating</version>
+			<version>1.1.8-incubating</version>
 			<classifier>jar-with-dependencies</classifier>
 		</dependency>
 
