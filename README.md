@@ -9,11 +9,10 @@ Site web [http://gnodet.fr/epubs/]
 
 ## Prérequis
 
-* Java
-* Maven
+* Java Development Kit 8
 
 ## Instructions
 
 * Télécharger le code source (via git, ou un [zip](https://github.com/gnodet/epubs/archive/master.zip))
-* Lancer mvn install
+* Lancer mvnw
 * Les epubs sont disponibles dans le répertoire target/site/epub/
