@@ -15,11 +15,11 @@
 <navLabel><text>PROLOGUE</text></navLabel>
 <content src="OEBPS/__P2.HTM"/>
 <navPoint id="id-2" playOrder="2">
-<navLabel><text>I. La vie de l’homme – connaître et aimer Dieu</text></navLabel>
+<navLabel><text>I. La vie de l’homme — connaître et aimer Dieu</text></navLabel>
 <content src="OEBPS/__P3.HTM"/>
 </navPoint>
 <navPoint id="id-3" playOrder="3">
-<navLabel><text>II. Transmettre la foi – la catéchèse</text></navLabel>
+<navLabel><text>II. Transmettre la foi — la catéchèse</text></navLabel>
 <content src="OEBPS/__P4.HTM"/>
 </navPoint>
 <navPoint id="id-4" playOrder="4">
@@ -40,13 +40,13 @@
 </navPoint>
 </navPoint>
 <navPoint id="id-8" playOrder="7">
-<navLabel><text>PREMIÈRE PARTIE LA PROFESSION DE LA FOI   </text></navLabel>
+<navLabel><text>PREMIÈRE PARTIE LA PROFESSION DE LA FOI  </text></navLabel>
 <content src="OEBPS/__P8.HTM"/>
 <navPoint id="id-9" playOrder="8">
-<navLabel><text>PREMIÈRE SECTION « JE CROIS » – « NOUS CROYONS »</text></navLabel>
+<navLabel><text>PREMIÈRE SECTION « JE CROIS » — « NOUS CROYONS »</text></navLabel>
 <content src="OEBPS/__P9.HTM"/>
 <navPoint id="id-10" playOrder="8">
-<navLabel><text>CHAPITRE PREMIER L’HOMME EST « CAPABLE » DE DIEU   </text></navLabel>
+<navLabel><text>CHAPITRE PREMIER L’HOMME EST « CAPABLE » DE DIEU  </text></navLabel>
 <content src="OEBPS/__P9.HTM"/>
 <navPoint id="id-11" playOrder="9">
 <navLabel><text>I. Le désir de Dieu</text></navLabel>
@@ -73,7 +73,7 @@
 <navLabel><text>CHAPITRE DEUXIÈME DIEU À LA RENCONTRE DE L’HOMME</text></navLabel>
 <content src="OEBPS/__PF.HTM"/>
 <navPoint id="id-17" playOrder="14">
-<navLabel><text>Article 1 La Révélation de Dieu   </text></navLabel>
+<navLabel><text>Article 1 La Révélation de Dieu  </text></navLabel>
 <content src="OEBPS/__PF.HTM"/>
 <navPoint id="id-18" playOrder="15">
 <navLabel><text>I. Dieu révèle son « dessein bienveillant »</text></navLabel>
@@ -113,10 +113,10 @@
 </navPoint>
 </navPoint>
 <navPoint id="id-27" playOrder="23">
-<navLabel><text>Article 3 La Sainte ÉCRITURE   </text></navLabel>
+<navLabel><text>Article 3 La Sainte ÉCRITURE  </text></navLabel>
 <content src="OEBPS/__PO.HTM"/>
 <navPoint id="id-28" playOrder="24">
-<navLabel><text>I. Le Christ – Parole unique de l’Écriture Sainte</text></navLabel>
+<navLabel><text>I. Le Christ — Parole unique de l’Écriture Sainte</text></navLabel>
 <content src="OEBPS/__PP.HTM"/>
 </navPoint>
 <navPoint id="id-29" playOrder="25">
@@ -145,7 +145,7 @@
 <navLabel><text>CHAPITRE TROISIÈME LA RÉPONSE DE L’HOMME A DIEU</text></navLabel>
 <content src="OEBPS/__PV.HTM"/>
 <navPoint id="id-35" playOrder="30">
-<navLabel><text>Article 1 JE CROIS   </text></navLabel>
+<navLabel><text>Article 1 JE CROIS  </text></navLabel>
 <content src="OEBPS/__PV.HTM"/>
 <navPoint id="id-36" playOrder="31">
 <navLabel><text>I. L’obéissance de la foi</text></navLabel>
@@ -197,7 +197,7 @@
 <navLabel><text>CHAPITRE PREMIER JE CROIS EN DIEU LE PÈRE</text></navLabel>
 <content src="OEBPS/__P16.HTM"/>
 <navPoint id="id-48" playOrder="41">
-<navLabel><text>Article 1 « JE CROIS EN DIEU LE PÈRE TOUT-PUISSANT CRÉATEUR DU CIEL ET DE LA TERRE »   </text></navLabel>
+<navLabel><text>Article 1 « JE CROIS EN DIEU LE PÈRE TOUT-PUISSANT CRÉATEUR DU CIEL ET DE LA TERRE »  </text></navLabel>
 <content src="OEBPS/__P16.HTM"/>
 <navPoint id="id-49" playOrder="42">
 <navLabel><text>Paragraphe 1. JE CROIS EN DIEU</text></navLabel>
@@ -237,7 +237,7 @@
 <content src="OEBPS/__P1F.HTM"/>
 </navPoint>
 <navPoint id="id-58" playOrder="50">
-<navLabel><text>Article 3 « JÉSUS-CHRIST A ÉTÉ CONÇU DU SAINT-ESPRIT, IL EST NÉ DE LA VIERGE MARIE »   </text></navLabel>
+<navLabel><text>Article 3 « JÉSUS-CHRIST A ÉTÉ CONÇU DU SAINT-ESPRIT, IL EST NÉ DE LA VIERGE MARIE »  </text></navLabel>
 <content src="OEBPS/__P1F.HTM"/>
 <navPoint id="id-59" playOrder="51">
 <navLabel><text>Paragraphe 1. LE FILS DE DIEU S’EST FAIT HOMME</text></navLabel>
@@ -328,7 +328,7 @@
 <content src="OEBPS/__P21.HTM"/>
 </navPoint>
 <navPoint id="id-81" playOrder="73">
-<navLabel><text>Paragraphe 2. L’ÉGLISE – PEUPLE DE DIEU, CORPS DU CHRIST, TEMPLE DE L’ESPRIT SAINT</text></navLabel>
+<navLabel><text>Paragraphe 2. L’ÉGLISE — PEUPLE DE DIEU, CORPS DU CHRIST, TEMPLE DE L’ESPRIT SAINT</text></navLabel>
 <content src="OEBPS/__P22.HTM"/>
 </navPoint>
 <navPoint id="id-82" playOrder="74">
@@ -336,7 +336,7 @@
 <content src="OEBPS/__P23.HTM"/>
 </navPoint>
 <navPoint id="id-83" playOrder="75">
-<navLabel><text>Paragraphe 4. LES FIDÈLES DU CHRIST – HIÉRARCHIE, LAÏCS, VIE CONSACRÉE</text></navLabel>
+<navLabel><text>Paragraphe 4. LES FIDÈLES DU CHRIST — HIÉRARCHIE, LAÏCS, VIE CONSACRÉE</text></navLabel>
 <content src="OEBPS/__P24.HTM"/>
 </navPoint>
 <navPoint id="id-84" playOrder="76">
@@ -344,7 +344,7 @@
 <content src="OEBPS/__P25.HTM"/>
 </navPoint>
 <navPoint id="id-85" playOrder="77">
-<navLabel><text>Paragraphe 6. MARIE – MÈRE DU CHRIST, MÈRE DE L’ÉGLISE</text></navLabel>
+<navLabel><text>Paragraphe 6. MARIE — MÈRE DU CHRIST, MÈRE DE L’ÉGLISE</text></navLabel>
 <content src="OEBPS/__P26.HTM"/>
 </navPoint>
 </navPoint>
@@ -426,10 +426,10 @@
 <navLabel><text>PREMIÈRE SECTION L’ÉCONOMIE SACRAMENTELLE</text></navLabel>
 <content src="OEBPS/__P2P.HTM"/>
 <navPoint id="id-105" playOrder="96">
-<navLabel><text>CHAPITRE PREMIER LE MYSTÈRE PASCAL DANS LE TEMPS DE L’ÉGLISE   </text></navLabel>
+<navLabel><text>CHAPITRE PREMIER LE MYSTÈRE PASCAL DANS LE TEMPS DE L’ÉGLISE  </text></navLabel>
 <content src="OEBPS/__P2P.HTM"/>
 <navPoint id="id-106" playOrder="96">
-<navLabel><text>Article 1 LA LITURGIE – ŒUVRE DE LA SAINTE TRINITÉ   </text></navLabel>
+<navLabel><text>Article 1 LA LITURGIE — ŒUVRE DE LA SAINTE TRINITÉ  </text></navLabel>
 <content src="OEBPS/__P2P.HTM"/>
 <navPoint id="id-107" playOrder="97">
 <navLabel><text>I. Le Père, Source et Fin de la Liturgie</text></navLabel>
@@ -481,7 +481,7 @@
 <navLabel><text>CHAPITRE DEUXIÈME LA CÉLÉBRATION SACRAMENTELLE DU MYSTÈRE PASCAL</text></navLabel>
 <content src="OEBPS/__P31.HTM"/>
 <navPoint id="id-119" playOrder="108">
-<navLabel><text>Article 1 CÉLÉBRER LA LITURGIE DE L’ÉGLISE   </text></navLabel>
+<navLabel><text>Article 1 CÉLÉBRER LA LITURGIE DE L’ÉGLISE  </text></navLabel>
 <content src="OEBPS/__P31.HTM"/>
 <navPoint id="id-120" playOrder="109">
 <navLabel><text>I. Qui célèbre ? </text></navLabel>
@@ -588,7 +588,7 @@
 <navLabel><text>Article 3 LE SACREMENT DE L’EUCHARISTIE</text></navLabel>
 <content src="OEBPS/__P3R.HTM"/>
 <navPoint id="id-146" playOrder="135">
-<navLabel><text>I. L’Eucharistie – source et sommet de la vie ecclésiale</text></navLabel>
+<navLabel><text>I. L’Eucharistie — source et sommet de la vie ecclésiale</text></navLabel>
 <content src="OEBPS/__P3S.HTM"/>
 </navPoint>
 <navPoint id="id-147" playOrder="136">
@@ -612,7 +612,7 @@
 <content src="OEBPS/__P3X.HTM"/>
 </navPoint>
 <navPoint id="id-152" playOrder="141">
-<navLabel><text>VII. L’eucharistie – « pignus futurae gloriae »</text></navLabel>
+<navLabel><text>VII. L’eucharistie — « pignus futurae gloriae »</text></navLabel>
 <content src="OEBPS/__P3Y.HTM"/>
 </navPoint>
 <navPoint id="id-153" playOrder="142">
@@ -774,7 +774,7 @@
 </navPoint>
 </navPoint>
 <navPoint id="id-192" playOrder="180">
-<navLabel><text>CHAPITRE QUATRIÈME LES AUTRES CÉLÉBRATIONS LITURGIQUES   </text></navLabel>
+<navLabel><text>CHAPITRE QUATRIÈME LES AUTRES CÉLÉBRATIONS LITURGIQUES  </text></navLabel>
 <content src="OEBPS/__P51.HTM"/>
 <navPoint id="id-193" playOrder="181">
 <navLabel><text>Article 1 LES SACRÂMENTAUX</text></navLabel>
@@ -817,7 +817,7 @@
 </navPoint>
 </navPoint>
 <navPoint id="id-203" playOrder="190">
-<navLabel><text>Article 2 Notre vocation à la béatitude   </text></navLabel>
+<navLabel><text>Article 2 Notre vocation à la béatitude  </text></navLabel>
 <content src="OEBPS/__P5B.HTM"/>
 <navPoint id="id-204" playOrder="191">
 <navLabel><text>I. Les béatitudes</text></navLabel>
@@ -929,7 +929,7 @@
 </navPoint>
 </navPoint>
 <navPoint id="id-231" playOrder="217">
-<navLabel><text>Article 8 Le péché   </text></navLabel>
+<navLabel><text>Article 8 Le péché  </text></navLabel>
 <content src="OEBPS/__P62.HTM"/>
 <navPoint id="id-232" playOrder="218">
 <navLabel><text>I. La miséricorde et le péché</text></navLabel>
@@ -961,7 +961,7 @@
 <navLabel><text>CHAPITRE DEUXIÈME LA COMMUNAUTÉ HUMAINE</text></navLabel>
 <content src="OEBPS/__P69.HTM"/>
 <navPoint id="id-239" playOrder="224">
-<navLabel><text>Article 1 La Personne et la Société   </text></navLabel>
+<navLabel><text>Article 1 La Personne et la Société  </text></navLabel>
 <content src="OEBPS/__P69.HTM"/>
 <navPoint id="id-240" playOrder="225">
 <navLabel><text>I. Le caractère communautaire de la vocation humaine</text></navLabel>
@@ -977,7 +977,7 @@
 </navPoint>
 </navPoint>
 <navPoint id="id-243" playOrder="227">
-<navLabel><text>Article 2 La participation à la vie sociale   </text></navLabel>
+<navLabel><text>Article 2 La participation à la vie sociale  </text></navLabel>
 <content src="OEBPS/__P6C.HTM"/>
 <navPoint id="id-244" playOrder="228">
 <navLabel><text>I. L’autorité</text></navLabel>
@@ -1041,7 +1041,7 @@
 </navPoint>
 </navPoint>
 <navPoint id="id-259" playOrder="242">
-<navLabel><text>Article 2 GRÂCE ET JUSTIFICATION   </text></navLabel>
+<navLabel><text>Article 2 GRÂCE ET JUSTIFICATION  </text></navLabel>
 <content src="OEBPS/__P6R.HTM"/>
 <navPoint id="id-260" playOrder="243">
 <navLabel><text>I. La justification</text></navLabel>
@@ -1344,7 +1344,7 @@
 </navPoint>
 </navPoint>
 <navPoint id="id-334" playOrder="316">
-<navLabel><text>QUATRIÈME PARTIE LA PRIÈRE CHRÉTIENNE   </text></navLabel>
+<navLabel><text>QUATRIÈME PARTIE LA PRIÈRE CHRÉTIENNE  </text></navLabel>
 <content src="OEBPS/__P8T.HTM"/>
 <navPoint id="id-335" playOrder="317">
 <navLabel><text>PREMIÈRE SECTION LA PRIÈRE DANS LA VIE CHRÉTIENNE</text></navLabel>
@@ -1429,7 +1429,7 @@
 <navLabel><text>Chapitre troisième LA VIE DE PRIÈRE</text></navLabel>
 <content src="OEBPS/__P9E.HTM"/>
 <navPoint id="id-356" playOrder="337">
-<navLabel><text>Article 1 LES EXPRESSIONS DE LA PRIÈRE   </text></navLabel>
+<navLabel><text>Article 1 LES EXPRESSIONS DE LA PRIÈRE  </text></navLabel>
 <content src="OEBPS/__P9E.HTM"/>
 <navPoint id="id-357" playOrder="338">
 <navLabel><text>I. La prière vocale</text></navLabel>
@@ -1498,7 +1498,7 @@
 </navPoint>
 </navPoint>
 <navPoint id="id-373" playOrder="353">
-<navLabel><text>Article 2 « NOTRE PÈRE QUI ES AUX CIEUX »   </text></navLabel>
+<navLabel><text>Article 2 « NOTRE PÈRE QUI ES AUX CIEUX »  </text></navLabel>
 <content src="OEBPS/__P9U.HTM"/>
 <navPoint id="id-374" playOrder="354">
 <navLabel><text>I. « Oser nous approcher en toute confiance »</text></navLabel>

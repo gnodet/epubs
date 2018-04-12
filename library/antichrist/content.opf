@@ -11,7 +11,7 @@
       <meta property="dcterms:title" id="meta-title">L’Antichrist</meta>
       <dc:language id="pub-language">fr</dc:language>
       <meta property="dcterms:language" id="meta-language">fr</meta>
-      <meta property="dcterms:modified">2015-11-07T18:39:45Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
+      <meta property="dcterms:modified">2018-04-12T09:19:12Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
       <meta content="cover-image" name="cover"/>
       <meta id="meta-creator3" property="dcterms:creator">John Henry Newman</meta>
       <dc:creator id="pub-creator3">John Henry Newman</dc:creator>

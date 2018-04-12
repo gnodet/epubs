@@ -1,0 +1,60 @@
+.book .titlepage .subtitle {
+	display: block;
+	margin: 1em 0;
+}
+
+section div.titlepage {
+	margin: 0.83em 0px;
+}
+
+section div.titlepage div {
+	display: inline;
+}
+
+.smallcaps {
+	font-variant: small-caps;
+}
+span.chapter {
+	font-variant: small-caps;
+}
+
+body {
+	text-align: justify;
+}
+
+.surname {
+	font-variant: small-caps;
+}
+
+h1 {
+	display: block;
+	color: #2554C7;
+	text-align: center;
+	font-size: 200%;
+	font-weight: bold; 
+}
+
+span.verse-number {
+	vertical-align: baseline; 
+	position: relative; 
+	top: -0.4em; 
+	font-size: 75%; 
+	color: #2554C7; 
+	font-weight: bold; 
+	margin-right: 0.2em; 
+}
+span.chapter-number {
+	font-size: 250%;
+	float: left;
+	color: #2554C7; 
+	font-weight: bold; 
+	margin-right: 0.2em; 
+}
+.toc { margin-right: 20%; margin-left: 20%; text-align: center; font-family: sans-serif; }
+.toc a { display: inline-block; width: 3em; text-align: center; text-decoration: none; } 
+.toc a:hover { text-decoration: none; } 
+.toc a:hover::before { content: "["; } 
+.toc a:hover::after { content: "]"; } 
+br+span { margin-left: 2em;}
+
+

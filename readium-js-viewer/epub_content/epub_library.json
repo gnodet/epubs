@@ -1,394 +1,541 @@
 [
-    {
-      "title" : "Vie de Notre-Seigneur Jésus-Christ, tome I",
-      "author" : "Fillion",
-      "coverHref" : "../library/fillion-vie-nsjc-t1/cover.png",
-      "packagePath" : "content.opf",
-      "rootUrl": "../library/fillion-vie-nsjc-t1"
-    },
-    {
-      "title" : "Vie de Notre-Seigneur Jésus-Christ, tome II",
-      "author" : "Fillion",
-      "coverHref" : "../library/fillion-vie-nsjc-t2/cover.png",
-      "packagePath" : "content.opf",
-      "rootUrl": "../library/fillion-vie-nsjc-t2"
-    },
-    {
-      "title" : "Vie de Notre-Seigneur Jésus-Christ, tome III",
-      "author" : "Fillion",
-      "coverHref" : "../library/fillion-vie-nsjc-t3/cover.png",
-      "packagePath" : "content.opf",
-      "rootUrl": "../library/fillion-vie-nsjc-t3"
-    },
   {
-    "title" : "La Sainte Bible",
-    "author" : "Crampon",
-    "coverHref" : "../library/bible-crampon/OEBPS/Images/couverture_ebook_bible_complete2.jpg",
-    "packagePath" : "OEBPS/content.opf",
-    "rootUrl": "../library/bible-crampon"
-  },
-  {
-    "title" : "Les Bobos en Vérité",
-    "author" : "Ariño",
-    "coverHref" : "../library/bobos/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/bobos"
-  },
-  {
-    "title" : "L’Antéchrist",
-    "author" : "Soloviev",
-    "coverHref" : "../library/antechrist/cover.png",
-    "packagePath" : "content.opf",
+    "title" : "",
+    "author" : "Vladimir Soloviev",
+    "coverHref" : "../library/antechrist/OEBPS/img/cover.png",
+    "packagePath" : "../library/antechrist/content.opf",
     "rootUrl": "../library/antechrist"
   },
   {
-    "title" : "Le maître de la Terre",
-    "author" : "Benson",
-    "coverHref" : "../library/le_maitre_de_la_terre/OPS/images/cover.png",
-    "packagePath" : "OPS/fb.opf",
-    "rootUrl": "../library/le_maitre_de_la_terre"
-  },
-  {
-    "title" : "L’Antichrist",
-    "author" : "Newman",
-    "coverHref" : "../library/antichrist/cover.png",
-    "packagePath" : "content.opf",
+    "title" : "",
+    "author" : "John Henry Newman",
+    "coverHref" : "../library/antichrist/OEBPS/img/cover.png",
+    "packagePath" : "../library/antichrist/content.opf",
     "rootUrl": "../library/antichrist"
   },
   {
-    "title" : "Évangile selon saint Marc",
-    "author" : "Fillion",
-    "coverHref" : "../library/fillion-marc/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/fillion-marc"
+    "title" : "",
+    "author" : "Benoît XVI",
+    "coverHref" : "../library/archive_2005-06-28_compendium-ccc/OEBPS/img/cover.png",
+    "packagePath" : "../library/archive_2005-06-28_compendium-ccc/content.opf",
+    "rootUrl": "../library/archive_2005-06-28_compendium-ccc"
   },
   {
-    "title" : "Bible Catholique",
-    "author" : "Fillion",
-    "coverHref" : "../library/fillion-bible/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/fillion-bible"
+    "title" : "",
+    "author" : "",
+    "coverHref" : "../library/bible-crampon/OEBPS/img/cover.png",
+    "packagePath" : "../library/bible-crampon/content.opf",
+    "rootUrl": "../library/bible-crampon"
+  },
+  {
+    "title" : "",
+    "author" : "Philippe Ariño",
+    "coverHref" : "../library/bobos/OEBPS/img/cover.png",
+    "packagePath" : "../library/bobos/content.opf",
+    "rootUrl": "../library/bobos"
   },
   {
     "title" : "Catéchisme de l'Église Catholique",
     "author" : "Église Catholique",
     "coverHref" : "../library/catechisme_de_l_eglise_catholique/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
+    "packagePath" : "../library/catechisme_de_l_eglise_catholique/content.opf",
     "rootUrl": "../library/catechisme_de_l_eglise_catholique"
   },
   {
-    "title" : "Æterni Patris",
-    "author" : "Léon XIII",
-    "coverHref" : "../library/enc_1879-08-04_hf_leo_xiii_aeterni-patris/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_1879-08-04_hf_leo_xiii_aeterni-patris"
-  },
-  {
-    "title" : "Libertas Præstanssimum",
-    "author" : "Léon XIII",
-    "coverHref" : "../library/enc_1888-06-20_hf_leo_xiii_libertas-praestanssimum/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_1888-06-20_hf_leo_xiii_libertas-praestanssimum"
-  },
-  {
-    "title" : "Rerum Novarum",
-    "author" : "Léon XIII",
-    "coverHref" : "../library/enc_1891-05-15_hf_leo_xiii_rerum-novarum/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_1891-05-15_hf_leo_xiii_rerum-novarum"
-  },
-  {
-    "title" : "Ecclesiam Suam",
-    "author" : "Paul VI",
-    "coverHref" : "../library/enc_1964-08-06_hf_paul_vi_ecclesiam-suam/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_1964-08-06_hf_paul_vi_ecclesiam-suam"
-  },
-  {
-    "title" : "Mysterium Fidei",
-    "author" : "Paul VI",
-    "coverHref" : "../library/enc_1965-09-03_hf_paul_vi_mysterium-fidei/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_1965-09-03_hf_paul_vi_mysterium-fidei"
-  },
-  {
-    "title" : "Populorum Progressio",
-    "author" : "Paul VI",
-    "coverHref" : "../library/enc_1967-03-26_hf_paul_vi_populorum-progressio/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_1967-03-26_hf_paul_vi_populorum-progressio"
-  },
-  {
-    "title" : "Sacerdotalis Cælibatus",
-    "author" : "Paul VI",
-    "coverHref" : "../library/enc_1967-06-24_hf_paul_vi_sacerdotalis-caelibatus/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_1967-06-24_hf_paul_vi_sacerdotalis-caelibatus"
-  },
-  {
-    "title" : "Humanæ vitæ",
-    "author" : "Paul VI",
-    "coverHref" : "../library/enc_1968-07-25_hf_paul_vi_humanae-vitae/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_1968-07-25_hf_paul_vi_humanae-vitae"
-  },
-  {
-    "title" : "Redemptor hominis",
-    "author" : "Jean-Paul II",
-    "coverHref" : "../library/enc_1979-03-04_hf_john_paul_ii_redemptor-hominis/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_1979-03-04_hf_john_paul_ii_redemptor-hominis"
-  },
-  {
-    "title" : "Dives in misericordia",
-    "author" : "Jean-Paul II",
-    "coverHref" : "../library/enc_1980-11-30_hf_john_paul_ii_dives-in-misericordia/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_1980-11-30_hf_john_paul_ii_dives-in-misericordia"
-  },
-  {
-    "title" : "Laborem exercens",
-    "author" : "Jean-Paul II",
-    "coverHref" : "../library/enc_1981-09-14_hf_john_paul_ii_laborem-exercens/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_1981-09-14_hf_john_paul_ii_laborem-exercens"
-  },
-  {
-    "title" : "Slavorum Apostoli",
-    "author" : "Jean-Paul II",
-    "coverHref" : "../library/enc_1985-06-02_hf_john_paul_ii_slavorum-apostoli/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_1985-06-02_hf_john_paul_ii_slavorum-apostoli"
-  },
-  {
-    "title" : "Dominum et vivificantem",
-    "author" : "Jean-Paul II",
-    "coverHref" : "../library/enc_1986-05-18_hf_john_paul_ii_dominum-et-vivificantem/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_1986-05-18_hf_john_paul_ii_dominum-et-vivificantem"
-  },
-  {
-    "title" : "Redemptoris Mater",
-    "author" : "Jean-Paul II",
-    "coverHref" : "../library/enc_1987-03-25_hf_john_paul_ii_redemptoris-mater/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_1987-03-25_hf_john_paul_ii_redemptoris-mater"
-  },
-  {
-    "title" : "Sollicitudo rei socialis",
-    "author" : "Jean-Paul II",
-    "coverHref" : "../library/enc_1987-12-30_hf_john_paul_ii_sollicitudo-rei-socialis/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_1987-12-30_hf_john_paul_ii_sollicitudo-rei-socialis"
-  },
-  {
-    "title" : "Redemptoris missio",
-    "author" : "Jean-Paul II",
-    "coverHref" : "../library/enc_1990-12-07_hf_john_paul_ii_redemptoris-missio/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_1990-12-07_hf_john_paul_ii_redemptoris-missio"
-  },
-  {
-    "title" : "Centesimus Annus",
-    "author" : "Jean-Paul II",
-    "coverHref" : "../library/enc_1991-05-01_hf_john_paul_ii_centesimus-annus/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_1991-05-01_hf_john_paul_ii_centesimus-annus"
-  },
-  {
-    "title" : "Veritatis splendor",
-    "author" : "Jean-Paul II",
-    "coverHref" : "../library/enc_1993-08-06_hf_john_paul_ii_veritatis-splendor/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_1993-08-06_hf_john_paul_ii_veritatis-splendor"
-  },
-  {
-    "title" : "Evangelium vitæ",
-    "author" : "Jean-Paul II",
-    "coverHref" : "../library/enc_1995-03-25_hf_john_paul_ii_evangelium-vitae/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_1995-03-25_hf_john_paul_ii_evangelium-vitae"
-  },
-  {
-    "title" : "Ut unum sint",
-    "author" : "Jean-Paul II",
-    "coverHref" : "../library/enc_1995-05-25_hf_john_paul_ii_ut-unum-sint/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_1995-05-25_hf_john_paul_ii_ut-unum-sint"
-  },
-  {
-    "title" : "Fides et ratio",
-    "author" : "Jean-Paul II",
-    "coverHref" : "../library/enc_1998-09-14_hf_john_paul_ii_fides-et-ratio/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_1998-09-14_hf_john_paul_ii_fides-et-ratio"
-  },
-  {
-    "title" : "Ecclesia de Eucharistia",
-    "author" : "Jean-Paul II",
-    "coverHref" : "../library/enc_2003-04-17_hf_john_paul_ii_ecclesia-de-eucharistia/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_2003-04-17_hf_john_paul_ii_ecclesia-de-eucharistia"
-  },
-  {
-    "title" : "Deus Caritas Est",
+    "title" : "",
     "author" : "Benoît XVI",
-    "coverHref" : "../library/enc_2005-12-25_hf_benedict_xvi_deus-caritas-est/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_2005-12-25_hf_benedict_xvi_deus-caritas-est"
+    "coverHref" : "../library/dis_2006-09-12_hf_ben-xvi_ratisbonne/OEBPS/img/cover.png",
+    "packagePath" : "../library/dis_2006-09-12_hf_ben-xvi_ratisbonne/content.opf",
+    "rootUrl": "../library/dis_2006-09-12_hf_ben-xvi_ratisbonne"
   },
   {
-    "title" : "Spe Salvi",
+    "title" : "",
+    "author" : "François",
+    "coverHref" : "../library/dis_2014-11-25_hf_francesco_conseil-de-l-europe/OEBPS/img/cover.png",
+    "packagePath" : "../library/dis_2014-11-25_hf_francesco_conseil-de-l-europe/content.opf",
+    "rootUrl": "../library/dis_2014-11-25_hf_francesco_conseil-de-l-europe"
+  },
+  {
+    "title" : "",
+    "author" : "Léon XIII",
+    "coverHref" : "../library/enc_1879-08-04_hf_leo-xiii_aeterni-patris/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1879-08-04_hf_leo-xiii_aeterni-patris/content.opf",
+    "rootUrl": "../library/enc_1879-08-04_hf_leo-xiii_aeterni-patris"
+  },
+  {
+    "title" : "",
+    "author" : "Léon XIII",
+    "coverHref" : "../library/enc_1888-06-20_hf_leo-xiii_libertas-praestanssimum/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1888-06-20_hf_leo-xiii_libertas-praestanssimum/content.opf",
+    "rootUrl": "../library/enc_1888-06-20_hf_leo-xiii_libertas-praestanssimum"
+  },
+  {
+    "title" : "",
+    "author" : "Léon XIII",
+    "coverHref" : "../library/enc_1890-01-10_hf_leo-xiii_sapientiae-christianae/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1890-01-10_hf_leo-xiii_sapientiae-christianae/content.opf",
+    "rootUrl": "../library/enc_1890-01-10_hf_leo-xiii_sapientiae-christianae"
+  },
+  {
+    "title" : "",
+    "author" : "Léon XIII",
+    "coverHref" : "../library/enc_1891-05-15_hf_leo-xiii_rerum-novarum/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1891-05-15_hf_leo-xiii_rerum-novarum/content.opf",
+    "rootUrl": "../library/enc_1891-05-15_hf_leo-xiii_rerum-novarum"
+  },
+  {
+    "title" : "",
+    "author" : "Benoît XV",
+    "coverHref" : "../library/enc_1914-11-01_hf_benedict-xv_ad-beatissimi/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1914-11-01_hf_benedict-xv_ad-beatissimi/content.opf",
+    "rootUrl": "../library/enc_1914-11-01_hf_benedict-xv_ad-beatissimi"
+  },
+  {
+    "title" : "",
+    "author" : "Pie XI",
+    "coverHref" : "../library/enc_1928-01-06_hf_pius-xi_mortalium-animos/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1928-01-06_hf_pius-xi_mortalium-animos/content.opf",
+    "rootUrl": "../library/enc_1928-01-06_hf_pius-xi_mortalium-animos"
+  },
+  {
+    "title" : "",
+    "author" : "Pie XI",
+    "coverHref" : "../library/enc_1930-12-31_hf_pius-xi_casti-connubii/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1930-12-31_hf_pius-xi_casti-connubii/content.opf",
+    "rootUrl": "../library/enc_1930-12-31_hf_pius-xi_casti-connubii"
+  },
+  {
+    "title" : "",
+    "author" : "Pie XI",
+    "coverHref" : "../library/enc_1931-05-15_hf_pius-xi_quadragesimo-anno/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1931-05-15_hf_pius-xi_quadragesimo-anno/content.opf",
+    "rootUrl": "../library/enc_1931-05-15_hf_pius-xi_quadragesimo-anno"
+  },
+  {
+    "title" : "",
+    "author" : "Pie XI",
+    "coverHref" : "../library/enc_1935-12-20_hf_pius-xi_ad-catholici-sacerdotii/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1935-12-20_hf_pius-xi_ad-catholici-sacerdotii/content.opf",
+    "rootUrl": "../library/enc_1935-12-20_hf_pius-xi_ad-catholici-sacerdotii"
+  },
+  {
+    "title" : "",
+    "author" : "Pie XI",
+    "coverHref" : "../library/enc_1937-03-19_hf_pius-xi_divini-redemptoris/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1937-03-19_hf_pius-xi_divini-redemptoris/content.opf",
+    "rootUrl": "../library/enc_1937-03-19_hf_pius-xi_divini-redemptoris"
+  },
+  {
+    "title" : "",
+    "author" : "Pie XII",
+    "coverHref" : "../library/enc_1939-10-20_hf_pius-xii_summi-pontificus/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1939-10-20_hf_pius-xii_summi-pontificus/content.opf",
+    "rootUrl": "../library/enc_1939-10-20_hf_pius-xii_summi-pontificus"
+  },
+  {
+    "title" : "",
+    "author" : "Pie XII",
+    "coverHref" : "../library/enc_1943-06-29_hf_pius-xii_mystici-corporis-christi/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1943-06-29_hf_pius-xii_mystici-corporis-christi/content.opf",
+    "rootUrl": "../library/enc_1943-06-29_hf_pius-xii_mystici-corporis-christi"
+  },
+  {
+    "title" : "",
+    "author" : "Paul VI",
+    "coverHref" : "../library/enc_1964-08-06_hf_paul-vi_ecclesiam-suam/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1964-08-06_hf_paul-vi_ecclesiam-suam/content.opf",
+    "rootUrl": "../library/enc_1964-08-06_hf_paul-vi_ecclesiam-suam"
+  },
+  {
+    "title" : "",
+    "author" : "Paul VI",
+    "coverHref" : "../library/enc_1965-09-03_hf_paul-vi_mysterium-fidei/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1965-09-03_hf_paul-vi_mysterium-fidei/content.opf",
+    "rootUrl": "../library/enc_1965-09-03_hf_paul-vi_mysterium-fidei"
+  },
+  {
+    "title" : "",
+    "author" : "Paul VI",
+    "coverHref" : "../library/enc_1967-03-26_hf_paul-vi_populorum-progressio/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1967-03-26_hf_paul-vi_populorum-progressio/content.opf",
+    "rootUrl": "../library/enc_1967-03-26_hf_paul-vi_populorum-progressio"
+  },
+  {
+    "title" : "",
+    "author" : "Paul VI",
+    "coverHref" : "../library/enc_1967-06-24_hf_paul-vi_sacerdotalis-caelibatus/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1967-06-24_hf_paul-vi_sacerdotalis-caelibatus/content.opf",
+    "rootUrl": "../library/enc_1967-06-24_hf_paul-vi_sacerdotalis-caelibatus"
+  },
+  {
+    "title" : "",
+    "author" : "Paul VI",
+    "coverHref" : "../library/enc_1968-07-25_hf_paul-vi_humanae-vitae/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1968-07-25_hf_paul-vi_humanae-vitae/content.opf",
+    "rootUrl": "../library/enc_1968-07-25_hf_paul-vi_humanae-vitae"
+  },
+  {
+    "title" : "",
+    "author" : "Paul VI",
+    "coverHref" : "../library/enc_1975-12-08_hf_paul-vi_evangelii-nuntiandi/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1975-12-08_hf_paul-vi_evangelii-nuntiandi/content.opf",
+    "rootUrl": "../library/enc_1975-12-08_hf_paul-vi_evangelii-nuntiandi"
+  },
+  {
+    "title" : "",
+    "author" : "Jean-Paul II",
+    "coverHref" : "../library/enc_1979-03-04_hf_john-paul-ii_redemptor-hominis/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1979-03-04_hf_john-paul-ii_redemptor-hominis/content.opf",
+    "rootUrl": "../library/enc_1979-03-04_hf_john-paul-ii_redemptor-hominis"
+  },
+  {
+    "title" : "",
+    "author" : "Jean-Paul II",
+    "coverHref" : "../library/enc_1980-11-30_hf_john-paul-ii_dives-in-misericordia/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1980-11-30_hf_john-paul-ii_dives-in-misericordia/content.opf",
+    "rootUrl": "../library/enc_1980-11-30_hf_john-paul-ii_dives-in-misericordia"
+  },
+  {
+    "title" : "",
+    "author" : "Jean-Paul II",
+    "coverHref" : "../library/enc_1981-09-14_hf_john-paul-ii_laborem-exercens/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1981-09-14_hf_john-paul-ii_laborem-exercens/content.opf",
+    "rootUrl": "../library/enc_1981-09-14_hf_john-paul-ii_laborem-exercens"
+  },
+  {
+    "title" : "",
+    "author" : "Jean-Paul II",
+    "coverHref" : "../library/enc_1985-06-02_hf_john-paul-ii_slavorum-apostoli/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1985-06-02_hf_john-paul-ii_slavorum-apostoli/content.opf",
+    "rootUrl": "../library/enc_1985-06-02_hf_john-paul-ii_slavorum-apostoli"
+  },
+  {
+    "title" : "",
+    "author" : "Jean-Paul II",
+    "coverHref" : "../library/enc_1986-05-18_hf_john-paul-ii_dominum-et-vivificantem/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1986-05-18_hf_john-paul-ii_dominum-et-vivificantem/content.opf",
+    "rootUrl": "../library/enc_1986-05-18_hf_john-paul-ii_dominum-et-vivificantem"
+  },
+  {
+    "title" : "",
+    "author" : "Jean-Paul II",
+    "coverHref" : "../library/enc_1987-03-25_hf_john-paul-ii_redemptoris-mater/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1987-03-25_hf_john-paul-ii_redemptoris-mater/content.opf",
+    "rootUrl": "../library/enc_1987-03-25_hf_john-paul-ii_redemptoris-mater"
+  },
+  {
+    "title" : "",
+    "author" : "Jean-Paul II",
+    "coverHref" : "../library/enc_1987-12-30_hf_john-paul-ii_sollicitudo-rei-socialis/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1987-12-30_hf_john-paul-ii_sollicitudo-rei-socialis/content.opf",
+    "rootUrl": "../library/enc_1987-12-30_hf_john-paul-ii_sollicitudo-rei-socialis"
+  },
+  {
+    "title" : "",
+    "author" : "Jean-Paul II",
+    "coverHref" : "../library/enc_1990-12-07_hf_john-paul-ii_redemptoris-missio/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1990-12-07_hf_john-paul-ii_redemptoris-missio/content.opf",
+    "rootUrl": "../library/enc_1990-12-07_hf_john-paul-ii_redemptoris-missio"
+  },
+  {
+    "title" : "",
+    "author" : "Jean-Paul II",
+    "coverHref" : "../library/enc_1991-05-01_hf_john-paul-ii_centesimus-annus/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1991-05-01_hf_john-paul-ii_centesimus-annus/content.opf",
+    "rootUrl": "../library/enc_1991-05-01_hf_john-paul-ii_centesimus-annus"
+  },
+  {
+    "title" : "",
+    "author" : "Jean-Paul II",
+    "coverHref" : "../library/enc_1993-08-06_hf_john-paul-ii_veritatis-splendor/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1993-08-06_hf_john-paul-ii_veritatis-splendor/content.opf",
+    "rootUrl": "../library/enc_1993-08-06_hf_john-paul-ii_veritatis-splendor"
+  },
+  {
+    "title" : "",
+    "author" : "Jean-Paul II",
+    "coverHref" : "../library/enc_1995-03-25_hf_john-paul-ii_evangelium-vitae/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1995-03-25_hf_john-paul-ii_evangelium-vitae/content.opf",
+    "rootUrl": "../library/enc_1995-03-25_hf_john-paul-ii_evangelium-vitae"
+  },
+  {
+    "title" : "",
+    "author" : "Jean-Paul II",
+    "coverHref" : "../library/enc_1995-05-25_hf_john-paul-ii_ut-unum-sint/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1995-05-25_hf_john-paul-ii_ut-unum-sint/content.opf",
+    "rootUrl": "../library/enc_1995-05-25_hf_john-paul-ii_ut-unum-sint"
+  },
+  {
+    "title" : "",
+    "author" : "Jean-Paul II",
+    "coverHref" : "../library/enc_1998-09-14_hf_john-paul-ii_fides-et-ratio/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_1998-09-14_hf_john-paul-ii_fides-et-ratio/content.opf",
+    "rootUrl": "../library/enc_1998-09-14_hf_john-paul-ii_fides-et-ratio"
+  },
+  {
+    "title" : "",
+    "author" : "Jean-Paul II",
+    "coverHref" : "../library/enc_2003-04-17_hf_john-paul-ii_ecclesia-de-eucharistia/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_2003-04-17_hf_john-paul-ii_ecclesia-de-eucharistia/content.opf",
+    "rootUrl": "../library/enc_2003-04-17_hf_john-paul-ii_ecclesia-de-eucharistia"
+  },
+  {
+    "title" : "",
     "author" : "Benoît XVI",
-    "coverHref" : "../library/enc_2007-11-30_hf_benedict_xvi_spe-salvi/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_2007-11-30_hf_benedict_xvi_spe-salvi"
+    "coverHref" : "../library/enc_2005-12-25_hf_benedict-xvi_deus-caritas-est/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_2005-12-25_hf_benedict-xvi_deus-caritas-est/content.opf",
+    "rootUrl": "../library/enc_2005-12-25_hf_benedict-xvi_deus-caritas-est"
   },
   {
-    "title" : "Caritas in veritate",
+    "title" : "",
     "author" : "Benoît XVI",
-    "coverHref" : "../library/enc_2009-06-29_hf_benedict_xvi_caritas-in-veritate/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/enc_2009-06-29_hf_benedict_xvi_caritas-in-veritate"
+    "coverHref" : "../library/enc_2007-11-30_hf_benedict-xvi_spe-salvi/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_2007-11-30_hf_benedict-xvi_spe-salvi/content.opf",
+    "rootUrl": "../library/enc_2007-11-30_hf_benedict-xvi_spe-salvi"
   },
   {
-    "title" : "Lumen Fidei",
+    "title" : "",
+    "author" : "Benoît XVI",
+    "coverHref" : "../library/enc_2009-06-29_hf_benedict-xvi_caritas-in-veritate/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_2009-06-29_hf_benedict-xvi_caritas-in-veritate/content.opf",
+    "rootUrl": "../library/enc_2009-06-29_hf_benedict-xvi_caritas-in-veritate"
+  },
+  {
+    "title" : "",
     "author" : "François",
     "coverHref" : "../library/enc_2013-06-29_hf_francesco_lumen-fidei/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
+    "packagePath" : "../library/enc_2013-06-29_hf_francesco_lumen-fidei/content.opf",
     "rootUrl": "../library/enc_2013-06-29_hf_francesco_lumen-fidei"
   },
   {
-    "title" : "Familiaris Consortio",
-    "author" : "Jean-Paul II",
-    "coverHref" : "../library/exh_1981-11-22_hf_john_paul_ii_familiaris-consortio/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/exh_1981-11-22_hf_john_paul_ii_familiaris-consortio"
+    "title" : "",
+    "author" : "François",
+    "coverHref" : "../library/enc_2015-05-24_hf_francesco_laudato-si/OEBPS/img/cover.png",
+    "packagePath" : "../library/enc_2015-05-24_hf_francesco_laudato-si/content.opf",
+    "rootUrl": "../library/enc_2015-05-24_hf_francesco_laudato-si"
   },
   {
-    "title" : "Evangelii Gaudium",
+    "title" : "",
+    "author" : "Jean-Paul II",
+    "coverHref" : "../library/exh_1981-11-22_hf_john-paul-ii_familiaris-consortio/OEBPS/img/cover.png",
+    "packagePath" : "../library/exh_1981-11-22_hf_john-paul-ii_familiaris-consortio/content.opf",
+    "rootUrl": "../library/exh_1981-11-22_hf_john-paul-ii_familiaris-consortio"
+  },
+  {
+    "title" : "",
     "author" : "François",
     "coverHref" : "../library/exh_2013-11-24_hf_francesco_evangelii-gaudium/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
+    "packagePath" : "../library/exh_2013-11-24_hf_francesco_evangelii-gaudium/content.opf",
     "rootUrl": "../library/exh_2013-11-24_hf_francesco_evangelii-gaudium"
   },
   {
     "title" : "",
+    "author" : "François",
+    "coverHref" : "../library/exh_2016-03-19_hf_francesco_amoris-laetitia/OEBPS/img/cover.png",
+    "packagePath" : "../library/exh_2016-03-19_hf_francesco_amoris-laetitia/content.opf",
+    "rootUrl": "../library/exh_2016-03-19_hf_francesco_amoris-laetitia"
+  },
+  {
+    "title" : "",
+    "author" : "François",
+    "coverHref" : "../library/exh_2018-03-19_hf_francesco_gaudete-et-exsultate/OEBPS/img/cover.png",
+    "packagePath" : "../library/exh_2018-03-19_hf_francesco_gaudete-et-exsultate/content.opf",
+    "rootUrl": "../library/exh_2018-03-19_hf_francesco_gaudete-et-exsultate"
+  },
+  {
+    "title" : "Bible",
     "author" : "Louis-Claude Fillion",
-    "coverHref" : "../library/fillion-marc/cover.png",
-    "packagePath" : "content.opf",
+    "coverHref" : "../library/fillion-bible/OEBPS/img/cover.png",
+    "packagePath" : "../library/fillion-bible/content.opf",
+    "rootUrl": "../library/fillion-bible"
+  },
+  {
+    "title" : "",
+    "author" : "Louis-Claude Fillion",
+    "coverHref" : "../library/fillion-intro/OEBPS/img/cover.png",
+    "packagePath" : "../library/fillion-intro/content.opf",
+    "rootUrl": "../library/fillion-intro"
+  },
+  {
+    "title" : "",
+    "author" : "Louis-Claude Fillion",
+    "coverHref" : "../library/fillion-marc/OEBPS/img/cover.png",
+    "packagePath" : "../library/fillion-marc/content.opf",
     "rootUrl": "../library/fillion-marc"
+  },
+  {
+    "title" : "",
+    "author" : "Louis-Claude Fillion",
+    "coverHref" : "../library/fillion-matthieu/OEBPS/img/cover.png",
+    "packagePath" : "../library/fillion-matthieu/content.opf",
+    "rootUrl": "../library/fillion-matthieu"
+  },
+  {
+    "title" : "",
+    "author" : "Louis-Claude Fillion",
+    "coverHref" : "../library/fillion-vie-nsjc-t1/OEBPS/img/cover.png",
+    "packagePath" : "../library/fillion-vie-nsjc-t1/content.opf",
+    "rootUrl": "../library/fillion-vie-nsjc-t1"
+  },
+  {
+    "title" : "",
+    "author" : "Louis-Claude Fillion",
+    "coverHref" : "../library/fillion-vie-nsjc-t2/OEBPS/img/cover.png",
+    "packagePath" : "../library/fillion-vie-nsjc-t2/content.opf",
+    "rootUrl": "../library/fillion-vie-nsjc-t2"
+  },
+  {
+    "title" : "",
+    "author" : "Louis-Claude Fillion",
+    "coverHref" : "../library/fillion-vie-nsjc-t3/OEBPS/img/cover.png",
+    "packagePath" : "../library/fillion-vie-nsjc-t3/content.opf",
+    "rootUrl": "../library/fillion-vie-nsjc-t3"
+  },
+  {
+    "title" : "",
+    "author" : "R. P. Thomas PÈGUES, O. P.",
+    "coverHref" : "../library/initiation-thomiste/OEBPS/img/cover.png",
+    "packagePath" : "../library/initiation-thomiste/content.opf",
+    "rootUrl": "../library/initiation-thomiste"
+  },
+  {
+    "title" : "",
+    "author" : "",
+    "coverHref" : "../library/le_maitre_de_la_terre/OEBPS/img/cover.png",
+    "packagePath" : "../library/le_maitre_de_la_terre/content.opf",
+    "rootUrl": "../library/le_maitre_de_la_terre"
+  },
+  {
+    "title" : "Les oraisons des débutants",
+    "author" : "P. Marie-Eugène de l'Enfant-Jésus O.C.D.",
+    "coverHref" : "../library/les-oraisons-des-débutants/OEBPS/img/cover.png",
+    "packagePath" : "../library/les-oraisons-des-débutants/content.opf",
+    "rootUrl": "../library/les-oraisons-des-débutants"
+  },
+  {
+    "title" : "",
+    "author" : "Jean-Paul II",
+    "coverHref" : "../library/let_1984-02-11_hf_john-paul-ii_salvifici-doloris/OEBPS/img/cover.png",
+    "packagePath" : "../library/let_1984-02-11_hf_john-paul-ii_salvifici-doloris/content.opf",
+    "rootUrl": "../library/let_1984-02-11_hf_john-paul-ii_salvifici-doloris"
   },
   {
     "title" : "Précis d’histoire de la philosophie",
     "author" : "François-Joseph THONNARD",
     "coverHref" : "../library/precis_d_histoire_de_la_philosophie/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
+    "packagePath" : "../library/precis_d_histoire_de_la_philosophie/content.opf",
     "rootUrl": "../library/precis_d_histoire_de_la_philosophie"
   },
   {
     "title" : "Précis de philosophie",
     "author" : "François-Joseph THONNARD",
     "coverHref" : "../library/precis_de_philosophie/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
+    "packagePath" : "../library/precis_de_philosophie/content.opf",
     "rootUrl": "../library/precis_de_philosophie"
   },
   {
-    "title" : "Compendium de la Doctrine Sociale de l’Église",
-    "author" : "Conseil Pontifical « Justice et Paix »",
-    "coverHref" : "../library/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr"
+    "title" : "",
+    "author" : "Congrégation pour la Doctrine de la Foi",
+    "coverHref" : "../library/rc_2002-11-24_con-cfaith-doc_politica/OEBPS/img/cover.png",
+    "packagePath" : "../library/rc_2002-11-24_con-cfaith-doc_politica/content.opf",
+    "rootUrl": "../library/rc_2002-11-24_con-cfaith-doc_politica"
   },
   {
-    "title" : "Sacrosanctum Concilium",
-    "author" : "",
-    "coverHref" : "../library/vat-ii_const_19631204_sacrosanctum-concilium_fr/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/vat-ii_const_19631204_sacrosanctum-concilium_fr"
+    "title" : "",
+    "author" : "Conseil Pontifical Justice et Paix",
+    "coverHref" : "../library/rc_2006-05-26_pc_justpeace_doc_compendio-dott-soc/OEBPS/img/cover.png",
+    "packagePath" : "../library/rc_2006-05-26_pc_justpeace_doc_compendio-dott-soc/content.opf",
+    "rootUrl": "../library/rc_2006-05-26_pc_justpeace_doc_compendio-dott-soc"
   },
   {
-    "title" : "Lumen Gentium",
-    "author" : "",
-    "coverHref" : "../library/vat-ii_const_19641121_lumen-gentium_fr/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/vat-ii_const_19641121_lumen-gentium_fr"
+    "title" : "",
+    "author" : "Concile Vatican II",
+    "coverHref" : "../library/vat-ii_const_1963-12-04_sacrosanctum-concilium_fr/OEBPS/img/cover.png",
+    "packagePath" : "../library/vat-ii_const_1963-12-04_sacrosanctum-concilium_fr/content.opf",
+    "rootUrl": "../library/vat-ii_const_1963-12-04_sacrosanctum-concilium_fr"
   },
   {
-    "title" : "Dei Verbum",
-    "author" : "",
-    "coverHref" : "../library/vat-ii_const_19651118_dei-verbum_fr/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/vat-ii_const_19651118_dei-verbum_fr"
+    "title" : "",
+    "author" : "Concile Vatican II",
+    "coverHref" : "../library/vat-ii_const_1964-11-21_lumen-gentium_fr/OEBPS/img/cover.png",
+    "packagePath" : "../library/vat-ii_const_1964-11-21_lumen-gentium_fr/content.opf",
+    "rootUrl": "../library/vat-ii_const_1964-11-21_lumen-gentium_fr"
   },
   {
-    "title" : "Gaudium et Spes",
-    "author" : "",
-    "coverHref" : "../library/vat-ii_const_19651207_gaudium-et-spes_fr/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/vat-ii_const_19651207_gaudium-et-spes_fr"
+    "title" : "",
+    "author" : "Concile Vatican II",
+    "coverHref" : "../library/vat-ii_const_1965-11-18_dei-verbum_fr/OEBPS/img/cover.png",
+    "packagePath" : "../library/vat-ii_const_1965-11-18_dei-verbum_fr/content.opf",
+    "rootUrl": "../library/vat-ii_const_1965-11-18_dei-verbum_fr"
   },
   {
-    "title" : "Gravissimum Educationis",
-    "author" : "",
-    "coverHref" : "../library/vat-ii_decl_19651028_gravissimum-educationis_fr/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/vat-ii_decl_19651028_gravissimum-educationis_fr"
+    "title" : "",
+    "author" : "Concile Vatican II",
+    "coverHref" : "../library/vat-ii_const_1965-12-07_gaudium-et-spes_fr/OEBPS/img/cover.png",
+    "packagePath" : "../library/vat-ii_const_1965-12-07_gaudium-et-spes_fr/content.opf",
+    "rootUrl": "../library/vat-ii_const_1965-12-07_gaudium-et-spes_fr"
   },
   {
-    "title" : "Nostra Ætate",
-    "author" : "",
-    "coverHref" : "../library/vat-ii_decl_19651028_nostra-aetate_fr/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/vat-ii_decl_19651028_nostra-aetate_fr"
+    "title" : "",
+    "author" : "Concile Vatican II",
+    "coverHref" : "../library/vat-ii_decl_1965-10-28_gravissimum-educationis_fr/OEBPS/img/cover.png",
+    "packagePath" : "../library/vat-ii_decl_1965-10-28_gravissimum-educationis_fr/content.opf",
+    "rootUrl": "../library/vat-ii_decl_1965-10-28_gravissimum-educationis_fr"
   },
   {
-    "title" : "Dignitatis Humanæ",
-    "author" : "",
-    "coverHref" : "../library/vat-ii_decl_19651207_dignitatis-humanae_fr/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/vat-ii_decl_19651207_dignitatis-humanae_fr"
+    "title" : "",
+    "author" : "Concile Vatican II",
+    "coverHref" : "../library/vat-ii_decl_1965-10-28_nostra-aetate_fr/OEBPS/img/cover.png",
+    "packagePath" : "../library/vat-ii_decl_1965-10-28_nostra-aetate_fr/content.opf",
+    "rootUrl": "../library/vat-ii_decl_1965-10-28_nostra-aetate_fr"
   },
   {
-    "title" : "Inter Mirifica",
-    "author" : "",
-    "coverHref" : "../library/vat-ii_decree_19631204_inter-mirifica_fr/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/vat-ii_decree_19631204_inter-mirifica_fr"
+    "title" : "",
+    "author" : "Concile Vatican II",
+    "coverHref" : "../library/vat-ii_decl_1965-12-07_dignitatis-humanae_fr/OEBPS/img/cover.png",
+    "packagePath" : "../library/vat-ii_decl_1965-12-07_dignitatis-humanae_fr/content.opf",
+    "rootUrl": "../library/vat-ii_decl_1965-12-07_dignitatis-humanae_fr"
   },
   {
-    "title" : "Orientalium Ecclesiam",
-    "author" : "",
-    "coverHref" : "../library/vat-ii_decree_19641121_orientalium-ecclesiarum_fr/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/vat-ii_decree_19641121_orientalium-ecclesiarum_fr"
+    "title" : "",
+    "author" : "Concile Vatican II",
+    "coverHref" : "../library/vat-ii_decree_1963-12-04_inter-mirifica_fr/OEBPS/img/cover.png",
+    "packagePath" : "../library/vat-ii_decree_1963-12-04_inter-mirifica_fr/content.opf",
+    "rootUrl": "../library/vat-ii_decree_1963-12-04_inter-mirifica_fr"
   },
   {
-    "title" : "Unitatis Redintegratio",
-    "author" : "",
-    "coverHref" : "../library/vat-ii_decree_19641121_unitatis-redintegratio_fr/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/vat-ii_decree_19641121_unitatis-redintegratio_fr"
+    "title" : "",
+    "author" : "Concile Vatican II",
+    "coverHref" : "../library/vat-ii_decree_1964-11-21_orientalium-ecclesiarum_fr/OEBPS/img/cover.png",
+    "packagePath" : "../library/vat-ii_decree_1964-11-21_orientalium-ecclesiarum_fr/content.opf",
+    "rootUrl": "../library/vat-ii_decree_1964-11-21_orientalium-ecclesiarum_fr"
   },
   {
-    "title" : "Christus Dominus",
-    "author" : "",
-    "coverHref" : "../library/vat-ii_decree_19651028_christus-dominus_fr/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/vat-ii_decree_19651028_christus-dominus_fr"
+    "title" : "",
+    "author" : "Concile Vatican II",
+    "coverHref" : "../library/vat-ii_decree_1964-11-21_unitatis-redintegratio_fr/OEBPS/img/cover.png",
+    "packagePath" : "../library/vat-ii_decree_1964-11-21_unitatis-redintegratio_fr/content.opf",
+    "rootUrl": "../library/vat-ii_decree_1964-11-21_unitatis-redintegratio_fr"
   },
   {
-    "title" : "Optatam Totius",
-    "author" : "",
-    "coverHref" : "../library/vat-ii_decree_19651028_optatam-totius_fr/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/vat-ii_decree_19651028_optatam-totius_fr"
+    "title" : "",
+    "author" : "Concile Vatican II",
+    "coverHref" : "../library/vat-ii_decree_1965-10-28_christus-dominus_fr/OEBPS/img/cover.png",
+    "packagePath" : "../library/vat-ii_decree_1965-10-28_christus-dominus_fr/content.opf",
+    "rootUrl": "../library/vat-ii_decree_1965-10-28_christus-dominus_fr"
   },
   {
-    "title" : "Perfectæ Caritatis",
-    "author" : "",
-    "coverHref" : "../library/vat-ii_decree_19651028_perfectae-caritatis_fr/OEBPS/img/cover.png",
-    "packagePath" : "content.opf",
-    "rootUrl": "../library/vat-ii_decree_19651028_perfectae-caritatis_fr"
+    "title" : "",
+    "author" : "Concile Vatican II",
+    "coverHref" : "../library/vat-ii_decree_1965-10-28_optatam-totius_fr/OEBPS/img/cover.png",
+    "packagePath" : "../library/vat-ii_decree_1965-10-28_optatam-totius_fr/content.opf",
+    "rootUrl": "../library/vat-ii_decree_1965-10-28_optatam-totius_fr"
+  },
+  {
+    "title" : "",
+    "author" : "Concile Vatican II",
+    "coverHref" : "../library/vat-ii_decree_1965-10-28_perfectae-caritatis_fr/OEBPS/img/cover.png",
+    "packagePath" : "../library/vat-ii_decree_1965-10-28_perfectae-caritatis_fr/content.opf",
+    "rootUrl": "../library/vat-ii_decree_1965-10-28_perfectae-caritatis_fr"
   }
 ]

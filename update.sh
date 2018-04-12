@@ -1,11 +1,19 @@
 #!/bin/bash
+mkdir temp
+mv epub/le_maitre_de_la_terre.epub temp
 rm -Rf archives
 rm -Rf library
 rm -Rf epub
 rm -Rf reports
+mv temp epub
 
+echo "Copying files"
 cp -R ../epubs/target/site/ .
+rm -Rf svgs
+rm various.html
 
+echo "Creating reports"
+../epubs/check.sh epub/*.epub
 mkdir reports
 cd reports
 mv ../epub/*.html .
@@ -31,6 +39,7 @@ echo "$REPORT" >> report.html
 cat ../report.html | sed -n '1,/__REPORT__/!p' >> report.html
 cd ..
 
+echo "Creating library"
 mkdir library
 cd library
 for FILE in ../epub/*.epub ;
@@ -63,7 +72,8 @@ echo "]" >> epub_library.json
 rm readium-js-viewer/epub_content/epub_library.json
 mv epub_library.json readium-js-viewer/epub_content/
 
+echo "Creating archive"
 mkdir archives
 cd epub
-zip ../archives/epubs.zip *.epub
+zip ../archives/epubs.zip *.epub 2>/dev/null
 cd ..

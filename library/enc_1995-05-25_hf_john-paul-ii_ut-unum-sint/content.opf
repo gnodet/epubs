@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" version="3.0" xml:lang="fr" unique-identifier="pub-identifier">
+   <metadata>
+      <dc:identifier id="pub-identifier">1.0-SNAPSHOT_populorum-progressio</dc:identifier>
+      <meta id="meta-identifier" property="dcterms:identifier">1.0-SNAPSHOT_populorum-progressio</meta>
+      <dc:title id="pub-title">Ut unum sint</dc:title>
+      <meta property="dcterms:title" id="meta-title">Ut unum sint</meta>
+      <dc:language id="pub-language">fr</dc:language>
+      <meta property="dcterms:language" id="meta-language">fr</meta>
+      <meta property="dcterms:modified">2018-04-12T09:18:28Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
+      <meta content="cover-image" name="cover"/>
+      <meta id="meta-creator4" property="dcterms:creator">Jean-Paul II</meta>
+      <dc:creator id="pub-creator4">Jean-Paul II</dc:creator>
+   </metadata>
+   <manifest>
+      <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+      <item id="htmltoc" properties="nav" media-type="application/xhtml+xml" href="bk01-toc.xhtml"/>
+      <item media-type="text/css" id="html-css" href="custom.css"/>
+      <item media-type="text/css" id="docbook-css" href="docbook-epub.css"/>
+      <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+      <item id="cover-image" properties="cover-image" href="cover.png" media-type="image/png"/>
+      <item id="id-d5e1" href="enc_1995-05-25_hf_john-paul-ii_ut-unum-sint.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e11" href="ch01.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e64" href="ch01s02.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e419" href="ch01s03.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e698" href="ch01s04.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e937" href="ch01s05.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e980" href="ch02.xhtml" media-type="application/xhtml+xml"/>
+      <item id="d495e1" href="image.svg" media-type="image/svg+xml"/>
+   </manifest>
+   <spine toc="ncx">
+      <itemref idref="cover" linear="no"/>
+      <itemref idref="htmltoc" linear="yes"/>
+      <itemref idref="id-d5e1"/>
+      <itemref idref="id-d5e11"/>
+      <itemref idref="id-d5e64"/>
+      <itemref idref="id-d5e419"/>
+      <itemref idref="id-d5e698"/>
+      <itemref idref="id-d5e937"/>
+      <itemref idref="id-d5e980"/>
+   </spine>
+   <guide>
+      <reference href="cover.xhtml" type="cover" title="Cover"/>
+      <reference href="bk01-toc.xhtml" type="toc" title="Table of Contents"/>
+   </guide>
+</package>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" version="3.0" xml:lang="fr" unique-identifier="pub-identifier">
+   <metadata>
+      <dc:identifier id="pub-identifier">1.0-SNAPSHOT_libertas-præstanssimum</dc:identifier>
+      <meta id="meta-identifier" property="dcterms:identifier">1.0-SNAPSHOT_libertas-præstanssimum</meta>
+      <dc:title id="pub-title">Unitatis Redintegration</dc:title>
+      <meta property="dcterms:title" id="meta-title">Unitatis Redintegration</meta>
+      <dc:language id="pub-language">fr</dc:language>
+      <meta property="dcterms:language" id="meta-language">fr</meta>
+      <meta property="dcterms:modified">2018-04-12T09:18:21Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
+      <meta content="cover-image" name="cover"/>
+      <meta id="meta-creator4" property="dcterms:creator">Concile Vatican II</meta>
+      <dc:creator id="pub-creator4">Concile Vatican II</dc:creator>
+   </metadata>
+   <manifest>
+      <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+      <item id="htmltoc" properties="nav" media-type="application/xhtml+xml" href="bk01-toc.xhtml"/>
+      <item media-type="text/css" id="html-css" href="custom.css"/>
+      <item media-type="text/css" id="docbook-css" href="docbook-epub.css"/>
+      <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+      <item id="cover-image" properties="cover-image" href="cover.png" media-type="image/png"/>
+      <item id="id-d5e1" href="vat-ii_decree_1964-11-21_unitatis-redintegratio_fr.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e11" href="ch01.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e26" href="ch01s02.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e222" href="ch01s03.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e308" href="ch01s04.xhtml" media-type="application/xhtml+xml"/>
+   </manifest>
+   <spine toc="ncx">
+      <itemref idref="cover" linear="no"/>
+      <itemref idref="htmltoc" linear="yes"/>
+      <itemref idref="id-d5e1"/>
+      <itemref idref="id-d5e11"/>
+      <itemref idref="id-d5e26"/>
+      <itemref idref="id-d5e222"/>
+      <itemref idref="id-d5e308"/>
+   </spine>
+   <guide>
+      <reference href="cover.xhtml" type="cover" title="Cover"/>
+      <reference href="bk01-toc.xhtml" type="toc" title="Table of Contents"/>
+   </guide>
+</package>

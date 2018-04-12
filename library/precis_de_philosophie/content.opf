@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="François-Joseph THONNARD" opf:role="aut">François-Joseph THONNARD</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">fbbf517e-da48-4205-91db-0de7a8c71131</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">bc8c1ed5-de04-4f4d-92b3-f91736475d63</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/s001_index.htm" />
@@ -23,8 +23,8 @@
     <item id="s12" media-type="application/xhtml+xml" href="OEBPS/s013_p0217a0236.htm" />
     <item id="s13" media-type="application/xhtml+xml" href="OEBPS/s014_p0237a0249.htm" />
     <item id="s14" media-type="application/xhtml+xml" href="OEBPS/s015_p0250a0273.htm" />
-    <item id="s15" media-type="application/xhtml+xml" href="OEBPS/s017_p0294a0312.htm" />
-    <item id="s16" media-type="application/xhtml+xml" href="OEBPS/s016_p0274a0293.htm" />
+    <item id="s15" media-type="application/xhtml+xml" href="OEBPS/s016_p0274a0293.htm" />
+    <item id="s16" media-type="application/xhtml+xml" href="OEBPS/s017_p0294a0312.htm" />
     <item id="s17" media-type="application/xhtml+xml" href="OEBPS/s018_p0313a0328.htm" />
     <item id="s18" media-type="application/xhtml+xml" href="OEBPS/s019_p0329a0347.htm" />
     <item id="s19" media-type="application/xhtml+xml" href="OEBPS/s020_p0348a0364.htm" />

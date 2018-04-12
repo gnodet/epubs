@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" version="3.0" xml:lang="fr" unique-identifier="pub-identifier">
+   <metadata>
+      <dc:identifier id="pub-identifier">1.0-SNAPSHOT_sacerdotalis-cælibatus</dc:identifier>
+      <meta id="meta-identifier" property="dcterms:identifier">1.0-SNAPSHOT_sacerdotalis-cælibatus</meta>
+      <dc:title id="pub-title">Sacerdotalis Cælibatus</dc:title>
+      <meta property="dcterms:title" id="meta-title">Sacerdotalis Cælibatus</meta>
+      <dc:language id="pub-language">fr</dc:language>
+      <meta property="dcterms:language" id="meta-language">fr</meta>
+      <meta property="dcterms:modified">2018-04-12T09:18:56Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
+      <meta content="cover-image" name="cover"/>
+      <meta id="meta-creator4" property="dcterms:creator">Paul VI</meta>
+      <dc:creator id="pub-creator4">Paul VI</dc:creator>
+   </metadata>
+   <manifest>
+      <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+      <item id="htmltoc" properties="nav" media-type="application/xhtml+xml" href="bk01-toc.xhtml"/>
+      <item media-type="text/css" id="html-css" href="custom.css"/>
+      <item media-type="text/css" id="docbook-css" href="docbook-epub.css"/>
+      <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+      <item id="cover-image" properties="cover-image" href="cover.png" media-type="image/png"/>
+      <item id="id-d5e1" href="enc_1967-06-24_hf_paul-vi_sacerdotalis-caelibatus.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e11" href="ch01.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e27" href="ch01s02.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e34" href="ch01s03.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e39" href="ch01s04.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e47" href="ch01s05.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e69" href="ch01s06.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e74" href="ch01s07.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e79" href="ch01s08.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e90" href="ch01s09.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e95" href="ch01s10.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e101" href="ch01s11.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e106" href="ch01s12.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e119" href="ch01s13.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e129" href="ch01s14.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e134" href="ch01s15.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e140" href="ch01s16.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e154" href="ch01s17.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e1169" href="ch01s18.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e1197" href="ch01s19.xhtml" media-type="application/xhtml+xml"/>
+      <item id="d516e1" href="paul-iv-bw.svg" media-type="image/svg+xml"/>
+   </manifest>
+   <spine toc="ncx">
+      <itemref idref="cover" linear="no"/>
+      <itemref idref="htmltoc" linear="yes"/>
+      <itemref idref="id-d5e1"/>
+      <itemref idref="id-d5e11"/>
+      <itemref idref="id-d5e27"/>
+      <itemref idref="id-d5e34"/>
+      <itemref idref="id-d5e39"/>
+      <itemref idref="id-d5e47"/>
+      <itemref idref="id-d5e69"/>
+      <itemref idref="id-d5e74"/>
+      <itemref idref="id-d5e79"/>
+      <itemref idref="id-d5e90"/>
+      <itemref idref="id-d5e95"/>
+      <itemref idref="id-d5e101"/>
+      <itemref idref="id-d5e106"/>
+      <itemref idref="id-d5e119"/>
+      <itemref idref="id-d5e129"/>
+      <itemref idref="id-d5e134"/>
+      <itemref idref="id-d5e140"/>
+      <itemref idref="id-d5e154"/>
+      <itemref idref="id-d5e1169"/>
+      <itemref idref="id-d5e1197"/>
+   </spine>
+   <guide>
+      <reference href="cover.xhtml" type="cover" title="Cover"/>
+      <reference href="bk01-toc.xhtml" type="toc" title="Table of Contents"/>
+   </guide>
+</package>

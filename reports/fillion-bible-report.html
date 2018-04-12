@@ -44,13 +44,11 @@
     <section id="main_content" class="inner">
         <h2>Rapport EpubCheck&nbsp;: fillion-bible.epub</h2>
 <h3>Résumé</h3>
-<ul><li><b>Statut</b>&nbsp;: <b>Invalide</b>(3 erreurs, 1 warnings)</li></ul>
+<ul><li><b>Statut</b>&nbsp;: <b>Invalide</b>(2 erreurs)</li></ul>
 <h3>Messages</h3>
 <table><tr><th>Niveau</th><th>Message</th></tr>
-<tr><td>WARNING</td><td>Excessive number of spine items.</td></tr>
-<tr><td>ERROR</td><td>Error while parsing file 'duplicate id: c-he-1'.</td></tr>
-<tr><td>ERROR</td><td>Error while parsing file 'duplicate id: c-ps-10'.</td></tr>
-<tr><td>ERROR</td><td>Fragment identifier is not defined.</td></tr>
+<tr><td>ERROR</td><td>Erreur lors de l'analyse du fichier 'Duplicate 'c-ps-10''.</td></tr>
+<tr><td>ERROR</td><td>L'identificateur de fragment n'est pas défini.</td></tr>
 </table><h3>Rapport complet</h3>
 <div id="divreport"></div>
 </section>
@@ -66,38 +64,38 @@
 var report = {
   "customMessageFileName" : null,
   "checker" : {
-    "path" : "./target/fillion-bible.epub",
+    "path" : "./epub/fillion-bible.epub",
     "filename" : "fillion-bible.epub",
-    "checkerVersion" : "v4.0.0-alpha5",
-    "checkDate" : "02-07-2015 22:08:14",
-    "elapsedTime" : 8853,
+    "checkerVersion" : "4.0.1",
+    "checkDate" : "04-12-2018 11:28:13",
+    "elapsedTime" : 4987,
     "nFatal" : 0,
-    "nError" : 3,
-    "nWarning" : 1,
+    "nError" : 2,
+    "nWarning" : 0,
     "nUsage" : 0
   },
   "publication" : {
     "publisher" : null,
     "title" : "Bible",
-    "creator" : [ "Louis-Claude FILLION" ],
+    "creator" : [ "Louis-Claude Fillion" ],
     "date" : null,
     "subject" : [ ],
     "description" : null,
     "rights" : null,
-    "identifier" : "f52a8cbc-7890-4a82-a4f9-f2f589d791e3",
+    "identifier" : "3047c442-c614-40d8-860f-b18e2be1c332",
     "language" : "fr",
     "nSpines" : 74,
     "checkSum" : 0,
     "renditionLayout" : "reflowable",
     "renditionOrientation" : "auto",
     "renditionSpread" : "auto",
-    "ePubVersion" : "2.0",
+    "ePubVersion" : "2.0.1",
     "isScripted" : false,
     "hasFixedFormat" : false,
     "isBackwardCompatible" : true,
     "hasAudio" : false,
     "hasVideo" : false,
-    "charsCount" : 4756743,
+    "charsCount" : 5073467,
     "embeddedFonts" : [ ],
     "refFonts" : [ ],
     "hasEncryption" : false,
@@ -130,10 +128,10 @@ var report = {
     "id" : "cover-image",
     "fileName" : "OEBPS/img/cover.png",
     "media_type" : "image/png",
-    "compressedSize" : 31054,
-    "uncompressedSize" : 34447,
+    "compressedSize" : 27289,
+    "uncompressedSize" : 30649,
     "compressionMethod" : "Deflated",
-    "checkSum" : "fd357027cb4077c758bc5d1c3b94e8ddb5f8c29bef1e1f0754dd74016e5d2ac",
+    "checkSum" : "f23db464a111cab0a5a9fb8ada3269ccfcdd1165c428d4cd82d068ace97e03b",
     "isSpineItem" : false,
     "spineIndex" : null,
     "isLinear" : false,
@@ -174,10 +172,10 @@ var report = {
     "id" : "ePubCheck.NoManifestRef:content.opf",
     "fileName" : "content.opf",
     "media_type" : null,
-    "compressedSize" : 1316,
-    "uncompressedSize" : 9076,
+    "compressedSize" : 1313,
+    "uncompressedSize" : 9150,
     "compressionMethod" : "Deflated",
-    "checkSum" : "a1521d51c51f595fb4ab555fc6545ff362c1484ccba66dbabf67ac7275cd8d",
+    "checkSum" : "c9855f6275576c8c3f132c4648c21c3c8018e40bed550bb79ea258a7e9d53",
     "isSpineItem" : false,
     "spineIndex" : null,
     "isLinear" : false,
@@ -218,10 +216,10 @@ var report = {
     "id" : "ncx",
     "fileName" : "toc.ncx",
     "media_type" : "application/x-dtbncx+xml",
-    "compressedSize" : 1828,
-    "uncompressedSize" : 11420,
+    "compressedSize" : 1830,
+    "uncompressedSize" : 11496,
     "compressionMethod" : "Deflated",
-    "checkSum" : "f7da1ad43af292579cfe5b96b32dcfc32b9ef652d59bd7ac9267841bfa1d",
+    "checkSum" : "f4c7ebb4f3984ce3eb98a972d4b2f676b652e22c9e9db1975c5847e23e9b93",
     "isSpineItem" : false,
     "spineIndex" : null,
     "isLinear" : false,
@@ -235,15 +233,15 @@ var report = {
     "renditionLayout" : null,
     "renditionOrientation" : null,
     "renditionSpread" : null,
-    "referencedItems" : [ "OEBPS/at30_jer.html", "OEBPS/at14_2chr.html", "OEBPS/index.html", "OEBPS/nt03_lc.html", "OEBPS/at28_eccli.html", "OEBPS/at04_nomb.html", "OEBPS/nt12_col.html", "OEBPS/nt15_1tim.html", "OEBPS/at23_ps.html", "OEBPS/at26_cant.html", "OEBPS/at46_mal.html", "OEBPS/nt08_2cor.html", "OEBPS/nt13_1thes.html", "OEBPS/at37_am.html", "OEBPS/at12_2rois.html", "OEBPS/at27_sag.html", "OEBPS/at11_1rois.html", "OEBPS/nt14_2thes.html", "OEBPS/at18_jdt.html", "OEBPS/at29_is.html", "OEBPS/at36_joel.html", "OEBPS/nt16_2tim.html", "OEBPS/nt02_mc.html", "OEBPS/at15_esd.html", "OEBPS/nt20_jac.html", "OEBPS/at41_nah.html", "OEBPS/nt17_tit.html", "OEBPS/at25_eccl.html", "OEBPS/at31_lam.html", "OEBPS/nt10_eph.html", "OEBPS/at05_deut.html", "OEBPS/nt19_hebr.html", "OEBPS/nt06_rom.html", "OEBPS/nt24_2jn.html", "OEBPS/at03_lev.html", "OEBPS/at42_hab.html", "OEBPS/nt09_gal.html", "OEBPS/at45_zac.html", "OEBPS/at21_2mac.html", "OEBPS/nt25_3jn.html", "OEBPS/at33_ez.html", "OEBPS/at20_1mac.html", "OEBPS/nt21_1pet.html", "OEBPS/at09_1sam.html", "OEBPS/at34_dan.html", "OEBPS/nt11_phil.html", "OEBPS/at08_ruth.html", "OEBPS/at10_2sam.html", "OEBPS/at32_bar.html", "OEBPS/at22_job.html", "OEBPS/nt18_philem.html", "OEBPS/at06_jos.html", "OEBPS/at13_1chr.html", "OEBPS/at39_jon.html", "OEBPS/at07_jug.html", "OEBPS/at43_soph.html", "OEBPS/nt04_jn.html", "OEBPS/nt23_1jn.html", "OEBPS/at38_ab.html", "OEBPS/at01_gen.html", "OEBPS/at35_os.html", "OEBPS/at19_est.html", "OEBPS/nt27_apoc.html", "OEBPS/at17_tob.html", "OEBPS/nt07_1cor.html", "OEBPS/at40_mich.html", "OEBPS/nt05_act.html", "OEBPS/at24_prov.html", "OEBPS/at16_neh.html", "OEBPS/nt26_jud.html", "OEBPS/at02_ex.html", "OEBPS/at44_ag.html", "OEBPS/nt01_mt.html", "OEBPS/nt22_2pet.html" ]
+    "referencedItems" : [ "OEBPS/at01_gen.xhtml", "OEBPS/at02_ex.xhtml", "OEBPS/at03_lev.xhtml", "OEBPS/at04_nomb.xhtml", "OEBPS/at05_deut.xhtml", "OEBPS/at06_jos.xhtml", "OEBPS/at07_jug.xhtml", "OEBPS/at08_ruth.xhtml", "OEBPS/at09_1sam.xhtml", "OEBPS/at10_2sam.xhtml", "OEBPS/at11_1rois.xhtml", "OEBPS/at12_2rois.xhtml", "OEBPS/at13_1chr.xhtml", "OEBPS/at14_2chr.xhtml", "OEBPS/at15_esd.xhtml", "OEBPS/at16_neh.xhtml", "OEBPS/at17_tob.xhtml", "OEBPS/at18_jdt.xhtml", "OEBPS/at19_est.xhtml", "OEBPS/at20_1mac.xhtml", "OEBPS/at21_2mac.xhtml", "OEBPS/at22_job.xhtml", "OEBPS/at23_ps.xhtml", "OEBPS/at24_prov.xhtml", "OEBPS/at25_eccl.xhtml", "OEBPS/at26_cant.xhtml", "OEBPS/at27_sag.xhtml", "OEBPS/at28_eccli.xhtml", "OEBPS/at29_is.xhtml", "OEBPS/at30_jer.xhtml", "OEBPS/at31_lam.xhtml", "OEBPS/at32_bar.xhtml", "OEBPS/at33_ez.xhtml", "OEBPS/at34_dan.xhtml", "OEBPS/at35_os.xhtml", "OEBPS/at36_joel.xhtml", "OEBPS/at37_am.xhtml", "OEBPS/at38_ab.xhtml", "OEBPS/at39_jon.xhtml", "OEBPS/at40_mich.xhtml", "OEBPS/at41_nah.xhtml", "OEBPS/at42_hab.xhtml", "OEBPS/at43_soph.xhtml", "OEBPS/at44_ag.xhtml", "OEBPS/at45_zac.xhtml", "OEBPS/at46_mal.xhtml", "OEBPS/index.xhtml", "OEBPS/nt01_mt.xhtml", "OEBPS/nt02_mc.xhtml", "OEBPS/nt03_lc.xhtml", "OEBPS/nt04_jn.xhtml", "OEBPS/nt05_act.xhtml", "OEBPS/nt06_rom.xhtml", "OEBPS/nt07_1cor.xhtml", "OEBPS/nt08_2cor.xhtml", "OEBPS/nt09_gal.xhtml", "OEBPS/nt10_eph.xhtml", "OEBPS/nt11_phil.xhtml", "OEBPS/nt12_col.xhtml", "OEBPS/nt13_1thes.xhtml", "OEBPS/nt14_2thes.xhtml", "OEBPS/nt15_1tim.xhtml", "OEBPS/nt16_2tim.xhtml", "OEBPS/nt17_tit.xhtml", "OEBPS/nt18_philem.xhtml", "OEBPS/nt19_hebr.xhtml", "OEBPS/nt20_jac.xhtml", "OEBPS/nt21_1pet.xhtml", "OEBPS/nt22_2pet.xhtml", "OEBPS/nt23_1jn.xhtml", "OEBPS/nt24_2jn.xhtml", "OEBPS/nt25_3jn.xhtml", "OEBPS/nt26_jud.xhtml", "OEBPS/nt27_apoc.xhtml" ]
   }, {
     "id" : "s0",
-    "fileName" : "OEBPS/index.html",
+    "fileName" : "OEBPS/index.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 1455,
-    "uncompressedSize" : 5460,
+    "compressedSize" : 1523,
+    "uncompressedSize" : 5641,
     "compressionMethod" : "Deflated",
-    "checkSum" : "84b0ef9946a264a3bbdb665c5d4cedeebe3d8326e7aee2bdd3ff917e831a4674",
+    "checkSum" : "f2be2c654ea752a47eba363c1f386c46ee70f658e2920f9515259e5ebed42",
     "isSpineItem" : true,
     "spineIndex" : 0,
     "isLinear" : true,
@@ -257,15 +255,15 @@ var report = {
     "renditionLayout" : "reflowable",
     "renditionOrientation" : "auto",
     "renditionSpread" : "auto",
-    "referencedItems" : [ "OEBPS/at30_jer.html", "OEBPS/at14_2chr.html", "OEBPS/nt03_lc.html", "OEBPS/at28_eccli.html", "OEBPS/at04_nomb.html", "OEBPS/nt12_col.html", "OEBPS/nt15_1tim.html", "OEBPS/at23_ps.html", "OEBPS/at26_cant.html", "OEBPS/at46_mal.html", "OEBPS/nt08_2cor.html", "OEBPS/nt13_1thes.html", "OEBPS/at37_am.html", "OEBPS/at12_2rois.html", "OEBPS/at27_sag.html", "OEBPS/at11_1rois.html", "OEBPS/nt14_2thes.html", "OEBPS/at18_jdt.html", "OEBPS/at29_is.html", "OEBPS/at36_joel.html", "OEBPS/nt16_2tim.html", "OEBPS/nt02_mc.html", "OEBPS/at15_esd.html", "OEBPS/nt20_jac.html", "OEBPS/at41_nah.html", "OEBPS/nt17_tit.html", "OEBPS/at25_eccl.html", "OEBPS/at31_lam.html", "OEBPS/nt10_eph.html", "OEBPS/at05_deut.html", "OEBPS/nt19_hebr.html", "OEBPS/nt06_rom.html", "OEBPS/nt24_2jn.html", "OEBPS/at03_lev.html", "OEBPS/at42_hab.html", "OEBPS/nt09_gal.html", "OEBPS/at45_zac.html", "OEBPS/at21_2mac.html", "OEBPS/nt25_3jn.html", "OEBPS/at33_ez.html", "OEBPS/at20_1mac.html", "OEBPS/nt21_1pet.html", "OEBPS/at09_1sam.html", "OEBPS/at34_dan.html", "OEBPS/nt11_phil.html", "OEBPS/at08_ruth.html", "OEBPS/at10_2sam.html", "OEBPS/at32_bar.html", "OEBPS/at22_job.html", "OEBPS/nt18_philem.html", "OEBPS/at06_jos.html", "OEBPS/at13_1chr.html", "OEBPS/at39_jon.html", "OEBPS/at07_jug.html", "OEBPS/at43_soph.html", "OEBPS/nt04_jn.html", "OEBPS/nt23_1jn.html", "OEBPS/at38_ab.html", "OEBPS/at01_gen.html", "OEBPS/at35_os.html", "OEBPS/at19_est.html", "OEBPS/nt27_apoc.html", "OEBPS/at17_tob.html", "OEBPS/nt07_1cor.html", "OEBPS/at40_mich.html", "OEBPS/nt05_act.html", "OEBPS/at24_prov.html", "OEBPS/at16_neh.html", "OEBPS/nt26_jud.html", "OEBPS/at02_ex.html", "OEBPS/at44_ag.html", "OEBPS/nt01_mt.html", "OEBPS/nt22_2pet.html" ]
+    "referencedItems" : [ "OEBPS/at01_gen.xhtml", "OEBPS/at02_ex.xhtml", "OEBPS/at03_lev.xhtml", "OEBPS/at04_nomb.xhtml", "OEBPS/at05_deut.xhtml", "OEBPS/at06_jos.xhtml", "OEBPS/at07_jug.xhtml", "OEBPS/at08_ruth.xhtml", "OEBPS/at09_1sam.xhtml", "OEBPS/at10_2sam.xhtml", "OEBPS/at11_1rois.xhtml", "OEBPS/at12_2rois.xhtml", "OEBPS/at13_1chr.xhtml", "OEBPS/at14_2chr.xhtml", "OEBPS/at15_esd.xhtml", "OEBPS/at16_neh.xhtml", "OEBPS/at17_tob.xhtml", "OEBPS/at18_jdt.xhtml", "OEBPS/at19_est.xhtml", "OEBPS/at20_1mac.xhtml", "OEBPS/at21_2mac.xhtml", "OEBPS/at22_job.xhtml", "OEBPS/at23_ps.xhtml", "OEBPS/at24_prov.xhtml", "OEBPS/at25_eccl.xhtml", "OEBPS/at26_cant.xhtml", "OEBPS/at27_sag.xhtml", "OEBPS/at28_eccli.xhtml", "OEBPS/at29_is.xhtml", "OEBPS/at30_jer.xhtml", "OEBPS/at31_lam.xhtml", "OEBPS/at32_bar.xhtml", "OEBPS/at33_ez.xhtml", "OEBPS/at34_dan.xhtml", "OEBPS/at35_os.xhtml", "OEBPS/at36_joel.xhtml", "OEBPS/at37_am.xhtml", "OEBPS/at38_ab.xhtml", "OEBPS/at39_jon.xhtml", "OEBPS/at40_mich.xhtml", "OEBPS/at41_nah.xhtml", "OEBPS/at42_hab.xhtml", "OEBPS/at43_soph.xhtml", "OEBPS/at44_ag.xhtml", "OEBPS/at45_zac.xhtml", "OEBPS/at46_mal.xhtml", "OEBPS/nt01_mt.xhtml", "OEBPS/nt02_mc.xhtml", "OEBPS/nt03_lc.xhtml", "OEBPS/nt04_jn.xhtml", "OEBPS/nt05_act.xhtml", "OEBPS/nt06_rom.xhtml", "OEBPS/nt07_1cor.xhtml", "OEBPS/nt08_2cor.xhtml", "OEBPS/nt09_gal.xhtml", "OEBPS/nt10_eph.xhtml", "OEBPS/nt11_phil.xhtml", "OEBPS/nt12_col.xhtml", "OEBPS/nt13_1thes.xhtml", "OEBPS/nt14_2thes.xhtml", "OEBPS/nt15_1tim.xhtml", "OEBPS/nt16_2tim.xhtml", "OEBPS/nt17_tit.xhtml", "OEBPS/nt18_philem.xhtml", "OEBPS/nt19_hebr.xhtml", "OEBPS/nt20_jac.xhtml", "OEBPS/nt21_1pet.xhtml", "OEBPS/nt22_2pet.xhtml", "OEBPS/nt23_1jn.xhtml", "OEBPS/nt24_2jn.xhtml", "OEBPS/nt25_3jn.xhtml", "OEBPS/nt26_jud.xhtml", "OEBPS/nt27_apoc.xhtml" ]
   }, {
     "id" : "s1",
-    "fileName" : "OEBPS/at01_gen.html",
+    "fileName" : "OEBPS/at01_gen.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 82976,
-    "uncompressedSize" : 374729,
+    "compressedSize" : 83045,
+    "uncompressedSize" : 374837,
     "compressionMethod" : "Deflated",
-    "checkSum" : "9ca7f79b4b54d9a3e45fdd978ff7fd540a38be136fbe73f93455039e8bd31",
+    "checkSum" : "98895a8d59fa467e395b87c5c88841fbf8679da13783be33b349b2593bce7b",
     "isSpineItem" : true,
     "spineIndex" : 1,
     "isLinear" : true,
@@ -282,12 +280,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s10",
-    "fileName" : "OEBPS/at10_2sam.html",
+    "fileName" : "OEBPS/at10_2sam.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 45007,
-    "uncompressedSize" : 186421,
+    "compressedSize" : 45077,
+    "uncompressedSize" : 186529,
     "compressionMethod" : "Deflated",
-    "checkSum" : "12faf965aff4f9e03bbc5e2c2714a2cdaddd1bebafaa90b94e32e3ffc58acc6e",
+    "checkSum" : "e069191348f5da1bf354b203f1fbe6d162560c8a9a470d440563243bdbf32c2",
     "isSpineItem" : true,
     "spineIndex" : 10,
     "isLinear" : true,
@@ -304,12 +302,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s11",
-    "fileName" : "OEBPS/at11_1rois.html",
+    "fileName" : "OEBPS/at11_1rois.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 51153,
-    "uncompressedSize" : 223665,
+    "compressedSize" : 51221,
+    "uncompressedSize" : 223773,
     "compressionMethod" : "Deflated",
-    "checkSum" : "5daf9217209e47accb183e571ff6114137d30c82f9a3da97e163ffa8491e35",
+    "checkSum" : "ac120e6b44ee4f7a89726ba2ed171d88c722b642a53bd927a89ee95c81275",
     "isSpineItem" : true,
     "spineIndex" : 11,
     "isLinear" : true,
@@ -326,12 +324,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s12",
-    "fileName" : "OEBPS/at12_2rois.html",
+    "fileName" : "OEBPS/at12_2rois.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 45575,
-    "uncompressedSize" : 203699,
+    "compressedSize" : 45646,
+    "uncompressedSize" : 203807,
     "compressionMethod" : "Deflated",
-    "checkSum" : "d6a1699deeb493967e415f8293431952b59d683c249c12922db455ed59e9ebe",
+    "checkSum" : "9bbf1f171538723eef597cdd503f82e566f17c1ecedef16b5c64bff1e5e73911",
     "isSpineItem" : true,
     "spineIndex" : 12,
     "isLinear" : true,
@@ -348,12 +346,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s13",
-    "fileName" : "OEBPS/at13_1chr.html",
+    "fileName" : "OEBPS/at13_1chr.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 46693,
-    "uncompressedSize" : 214296,
+    "compressedSize" : 46766,
+    "uncompressedSize" : 214404,
     "compressionMethod" : "Deflated",
-    "checkSum" : "4e719294c5966ac159eebcffdcc443be262f5a736dff2966b81c1aea887e1",
+    "checkSum" : "eb3e51cc5cec8d90d6fd2eb5fa19d492758b87489c6143e4601211681bd4",
     "isSpineItem" : true,
     "spineIndex" : 13,
     "isLinear" : true,
@@ -370,12 +368,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s14",
-    "fileName" : "OEBPS/at14_2chr.html",
+    "fileName" : "OEBPS/at14_2chr.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 55093,
-    "uncompressedSize" : 235271,
+    "compressedSize" : 55162,
+    "uncompressedSize" : 235379,
     "compressionMethod" : "Deflated",
-    "checkSum" : "6598e1765e1cbe712f8548ef686326c952e63932eb33f892273840c18cdfeb22",
+    "checkSum" : "41bfdb61050c5aaffd699b26e52ec831d09c28ec7de89b21d5971857cd23",
     "isSpineItem" : true,
     "spineIndex" : 14,
     "isLinear" : true,
@@ -392,12 +390,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s15",
-    "fileName" : "OEBPS/at15_esd.html",
+    "fileName" : "OEBPS/at15_esd.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 16189,
-    "uncompressedSize" : 70355,
+    "compressedSize" : 16252,
+    "uncompressedSize" : 70463,
     "compressionMethod" : "Deflated",
-    "checkSum" : "bcd4d3be88c37fc273091df9484e61f3d82fb6cda3deb14259484d76ad0a",
+    "checkSum" : "6a96d77e6161d4ce2590d29d6cfa19af19b7223e4de1b14a01bf1bee921de",
     "isSpineItem" : true,
     "spineIndex" : 15,
     "isLinear" : true,
@@ -414,12 +412,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s16",
-    "fileName" : "OEBPS/at16_neh.html",
+    "fileName" : "OEBPS/at16_neh.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 24076,
-    "uncompressedSize" : 101867,
+    "compressedSize" : 24145,
+    "uncompressedSize" : 101975,
     "compressionMethod" : "Deflated",
-    "checkSum" : "6a941c976d9434aaeaf83287c51768c780b29c679495f247173227d530a69",
+    "checkSum" : "8b8c43972838bdbcd9c74c5858ec814c503b12dd2068decae009eaee126123e",
     "isSpineItem" : true,
     "spineIndex" : 16,
     "isLinear" : true,
@@ -436,12 +434,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s17",
-    "fileName" : "OEBPS/at17_tob.html",
+    "fileName" : "OEBPS/at17_tob.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 17096,
-    "uncompressedSize" : 71122,
+    "compressedSize" : 17165,
+    "uncompressedSize" : 71230,
     "compressionMethod" : "Deflated",
-    "checkSum" : "6888cc9d6cb923854e49f815366476215c03f166562afaba18acf14385bf57",
+    "checkSum" : "9a309b2417124fc62887a9081fb829dd2ba65982b969526e9b7a1a5b9462737",
     "isSpineItem" : true,
     "spineIndex" : 17,
     "isLinear" : true,
@@ -458,12 +456,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s18",
-    "fileName" : "OEBPS/at18_jdt.html",
+    "fileName" : "OEBPS/at18_jdt.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 22168,
-    "uncompressedSize" : 90303,
+    "compressedSize" : 22236,
+    "uncompressedSize" : 90411,
     "compressionMethod" : "Deflated",
-    "checkSum" : "c61c4ef57ab982b1897187405da5438019e867835ab998c98333a5b7337acbc",
+    "checkSum" : "fdf6fd8fae15f3e6afa533d1647c2108b64bf5516f823fcef3a97d02180be3",
     "isSpineItem" : true,
     "spineIndex" : 18,
     "isLinear" : true,
@@ -480,12 +478,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s19",
-    "fileName" : "OEBPS/at19_est.html",
+    "fileName" : "OEBPS/at19_est.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 20345,
-    "uncompressedSize" : 80472,
+    "compressedSize" : 20414,
+    "uncompressedSize" : 80580,
     "compressionMethod" : "Deflated",
-    "checkSum" : "9763c1bb2c885ee22c94e5f2d446de2c27c79494641bdd762451fe3d7abd9ac2",
+    "checkSum" : "c4f41886c27382b872cac61d438b59c056477c46493fc7418cc092102dda12be",
     "isSpineItem" : true,
     "spineIndex" : 19,
     "isLinear" : true,
@@ -502,12 +500,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s2",
-    "fileName" : "OEBPS/at02_ex.html",
+    "fileName" : "OEBPS/at02_ex.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 64115,
-    "uncompressedSize" : 306409,
+    "compressedSize" : 64184,
+    "uncompressedSize" : 306517,
     "compressionMethod" : "Deflated",
-    "checkSum" : "19de4c866532ffbbf1b5436b41db55fa2d032cee8f7d7edcd84c2b9ae015",
+    "checkSum" : "60633f62988372ffb7d352cd9b4629c41629a206376b7a4393a316b31d66c59",
     "isSpineItem" : true,
     "spineIndex" : 2,
     "isLinear" : true,
@@ -524,12 +522,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s20",
-    "fileName" : "OEBPS/at20_1mac.html",
+    "fileName" : "OEBPS/at20_1mac.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 50978,
-    "uncompressedSize" : 227014,
+    "compressedSize" : 51048,
+    "uncompressedSize" : 227122,
     "compressionMethod" : "Deflated",
-    "checkSum" : "3bf23140d1ff89b371aa6bd94a6c7d5ec369d5acab869e8175a5fcac878466",
+    "checkSum" : "6292c895dfa6315e45ac46beede831f9da884ec65ad9bb466cfe9bfa2d9af9",
     "isSpineItem" : true,
     "spineIndex" : 20,
     "isLinear" : true,
@@ -546,12 +544,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s21",
-    "fileName" : "OEBPS/at21_2mac.html",
+    "fileName" : "OEBPS/at21_2mac.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 39207,
-    "uncompressedSize" : 153961,
+    "compressedSize" : 39275,
+    "uncompressedSize" : 154069,
     "compressionMethod" : "Deflated",
-    "checkSum" : "e0228c3759c88ff3406b23c84d66b8940e2695f73ff39805520a0fd4b8e9228",
+    "checkSum" : "a91a5016b29c38482e64eacd7fb0b2fc4674dd1390dab357554cb8e1b22c2f",
     "isSpineItem" : true,
     "spineIndex" : 21,
     "isLinear" : true,
@@ -568,12 +566,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s22",
-    "fileName" : "OEBPS/at22_job.html",
+    "fileName" : "OEBPS/at22_job.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 47595,
-    "uncompressedSize" : 217728,
+    "compressedSize" : 47670,
+    "uncompressedSize" : 217836,
     "compressionMethod" : "Deflated",
-    "checkSum" : "242b324314ac251efc7991f0995d2a636a28326cca536d35a26d487519fbe60",
+    "checkSum" : "6da9a1522121dec8e2b3662ac4d2b2d86e357de3bec9b6f70c15a3a5e928a89",
     "isSpineItem" : true,
     "spineIndex" : 22,
     "isLinear" : true,
@@ -590,12 +588,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s23",
-    "fileName" : "OEBPS/at23_ps.html",
+    "fileName" : "OEBPS/at23_ps.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 108875,
-    "uncompressedSize" : 534787,
+    "compressedSize" : 108944,
+    "uncompressedSize" : 534895,
     "compressionMethod" : "Deflated",
-    "checkSum" : "70f11a9cfad22e434fc98822d6361eb329da56efab15c51e944853dc7b8fd8",
+    "checkSum" : "e5b5b497acbd2e84ca55cd922720ecede4eb596055c09fc46bc16988edb0d515",
     "isSpineItem" : true,
     "spineIndex" : 23,
     "isLinear" : true,
@@ -612,12 +610,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s24",
-    "fileName" : "OEBPS/at24_prov.html",
+    "fileName" : "OEBPS/at24_prov.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 38569,
-    "uncompressedSize" : 186914,
+    "compressedSize" : 38641,
+    "uncompressedSize" : 187022,
     "compressionMethod" : "Deflated",
-    "checkSum" : "bd5011ce9d718af4e5d554f3e4302c63efe355614198458cd4d87bf9ee8c224",
+    "checkSum" : "18f0db2132f748d5ccbc99b7d5a4828973c554eadb53535c6d8191aa8f5ae",
     "isSpineItem" : true,
     "spineIndex" : 24,
     "isLinear" : true,
@@ -634,12 +632,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s25",
-    "fileName" : "OEBPS/at25_eccl.html",
+    "fileName" : "OEBPS/at25_eccl.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 13634,
-    "uncompressedSize" : 55672,
+    "compressedSize" : 13704,
+    "uncompressedSize" : 55780,
     "compressionMethod" : "Deflated",
-    "checkSum" : "abd28cf45b9f17243f9a7f8f5d78da4633bac7744b295b63ee8a696479ae6cf",
+    "checkSum" : "854f5c47d8d91d05df7fe175dbb4cafaa9dfe3b4dc1a8e92bf34c341ed6f2f",
     "isSpineItem" : true,
     "spineIndex" : 25,
     "isLinear" : true,
@@ -656,12 +654,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s26",
-    "fileName" : "OEBPS/at26_cant.html",
+    "fileName" : "OEBPS/at26_cant.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 7094,
-    "uncompressedSize" : 28248,
+    "compressedSize" : 7157,
+    "uncompressedSize" : 28356,
     "compressionMethod" : "Deflated",
-    "checkSum" : "b48ac1badafedf72dddba4a67cf59e9a1b7150bf8d2fa51db32cc292c9",
+    "checkSum" : "9ae9fee4d82c98f88f6cbd32561d2182178930c556da53b5ae7f3bc9ec94a9",
     "isSpineItem" : true,
     "spineIndex" : 26,
     "isLinear" : true,
@@ -678,12 +676,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s27",
-    "fileName" : "OEBPS/at27_sag.html",
+    "fileName" : "OEBPS/at27_sag.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 27631,
-    "uncompressedSize" : 111560,
+    "compressedSize" : 27702,
+    "uncompressedSize" : 111668,
     "compressionMethod" : "Deflated",
-    "checkSum" : "259ced72c4940ee3af7e186f0b289a59c878fe01e3721434763daa737f6",
+    "checkSum" : "4fceb8a0b2832672b9abee597c216894f18499c19b38df43b0c53c2fc8556",
     "isSpineItem" : true,
     "spineIndex" : 27,
     "isLinear" : true,
@@ -700,12 +698,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s28",
-    "fileName" : "OEBPS/at28_eccli.html",
+    "fileName" : "OEBPS/at28_eccli.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 74943,
-    "uncompressedSize" : 341817,
+    "compressedSize" : 75015,
+    "uncompressedSize" : 341925,
     "compressionMethod" : "Deflated",
-    "checkSum" : "789c8855b0f1beeb9559d29c107a2c32d91e1b556f613ccc9e92f40a3dad6",
+    "checkSum" : "2c222bd9e59d4d9f9eaf9f2ee25edaa4024cece13945833f4b99cdf48c9667",
     "isSpineItem" : true,
     "spineIndex" : 28,
     "isLinear" : true,
@@ -722,12 +720,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s29",
-    "fileName" : "OEBPS/at29_is.html",
+    "fileName" : "OEBPS/at29_is.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 82591,
-    "uncompressedSize" : 344343,
+    "compressedSize" : 82662,
+    "uncompressedSize" : 344451,
     "compressionMethod" : "Deflated",
-    "checkSum" : "62b97bc9e529743565ee6e8324ebcfb368b25eb46e348a1c49ad3142de7111",
+    "checkSum" : "128129c1afe4b20a434a0fadcefa3b6e6ed9329f3eea883bf2d21bbbce586",
     "isSpineItem" : true,
     "spineIndex" : 29,
     "isLinear" : true,
@@ -744,12 +742,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s3",
-    "fileName" : "OEBPS/at03_lev.html",
+    "fileName" : "OEBPS/at03_lev.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 43079,
-    "uncompressedSize" : 218945,
+    "compressedSize" : 43154,
+    "uncompressedSize" : 219053,
     "compressionMethod" : "Deflated",
-    "checkSum" : "44e6a87251e4af181ea935b036a86f8bd28d656cad3c5a9345b0faa89ccb",
+    "checkSum" : "fb27794bf7020ad37b770149da6e8c69e98a7888be96a1469a4e525ac8dd",
     "isSpineItem" : true,
     "spineIndex" : 3,
     "isLinear" : true,
@@ -766,12 +764,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s30",
-    "fileName" : "OEBPS/at30_jer.html",
+    "fileName" : "OEBPS/at30_jer.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 84819,
-    "uncompressedSize" : 379561,
+    "compressedSize" : 84892,
+    "uncompressedSize" : 379669,
     "compressionMethod" : "Deflated",
-    "checkSum" : "a03cd5b54c82ce483f2135d3d1c7458b7b42797fdb7dda170288344dd47ba7b",
+    "checkSum" : "eb684f7e97b7df9354d32097dd52c3cba6cd3632ec4d61247809be518d51f84",
     "isSpineItem" : true,
     "spineIndex" : 30,
     "isLinear" : true,
@@ -788,12 +786,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s31",
-    "fileName" : "OEBPS/at31_lam.html",
+    "fileName" : "OEBPS/at31_lam.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 9822,
-    "uncompressedSize" : 40731,
+    "compressedSize" : 9888,
+    "uncompressedSize" : 40839,
     "compressionMethod" : "Deflated",
-    "checkSum" : "a9cf14e9be3efbf8904ff474d8bd21f291dc66b8ea08bfd5a42b43b160",
+    "checkSum" : "f948cff86e8524801b72e998e3f5e23c20d5885453e71f761832615b6ad54",
     "isSpineItem" : true,
     "spineIndex" : 31,
     "isLinear" : true,
@@ -810,12 +808,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s32",
-    "fileName" : "OEBPS/at32_bar.html",
+    "fileName" : "OEBPS/at32_bar.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 12571,
-    "uncompressedSize" : 51897,
+    "compressedSize" : 12641,
+    "uncompressedSize" : 52005,
     "compressionMethod" : "Deflated",
-    "checkSum" : "1adae5f8a49b4996de33c9c426d6c9ed0d635f1eaf99d8a8d28bd772db111",
+    "checkSum" : "e9986aaf8f09d1f26b538c18766cf1f60fe5ada8be7e3d3a33ddf62b6edd11",
     "isSpineItem" : true,
     "spineIndex" : 32,
     "isLinear" : true,
@@ -832,12 +830,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s33",
-    "fileName" : "OEBPS/at33_ez.html",
+    "fileName" : "OEBPS/at33_ez.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 73352,
-    "uncompressedSize" : 349424,
+    "compressedSize" : 73421,
+    "uncompressedSize" : 349532,
     "compressionMethod" : "Deflated",
-    "checkSum" : "1c3fe4d72cfe1fdb4ecdaac18bc18d35b9ed2a1c3b20c3d0a7798875f78cd",
+    "checkSum" : "e2ba8ab651dc3f456370b5910a9de313ec4142767ddb3f2a35090489598111",
     "isSpineItem" : true,
     "spineIndex" : 33,
     "isLinear" : true,
@@ -854,12 +852,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s34",
-    "fileName" : "OEBPS/at34_dan.html",
+    "fileName" : "OEBPS/at34_dan.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 33309,
-    "uncompressedSize" : 142401,
+    "compressedSize" : 33380,
+    "uncompressedSize" : 142509,
     "compressionMethod" : "Deflated",
-    "checkSum" : "d8dd38314c5c87db03dfc1d4ad57a7b9f4404f215cf3c6a3e95731cecb38a0",
+    "checkSum" : "27a137c48e5a74216c2d40b85046f43ab72bd432fd731129e567fbd5921",
     "isSpineItem" : true,
     "spineIndex" : 34,
     "isLinear" : true,
@@ -876,12 +874,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s35",
-    "fileName" : "OEBPS/at35_os.html",
+    "fileName" : "OEBPS/at35_os.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 12806,
-    "uncompressedSize" : 50415,
+    "compressedSize" : 12874,
+    "uncompressedSize" : 50523,
     "compressionMethod" : "Deflated",
-    "checkSum" : "a855d2e3d4d39b8289e67a58bd4fe6584a5e1f16bc701aedce50159f5062c0",
+    "checkSum" : "f587a0368cd560697869338c555f9a7337e19c454dd752c5f1ba5c57980bd33",
     "isSpineItem" : true,
     "spineIndex" : 35,
     "isLinear" : true,
@@ -898,12 +896,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s36",
-    "fileName" : "OEBPS/at36_joel.html",
+    "fileName" : "OEBPS/at36_joel.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 5467,
-    "uncompressedSize" : 19330,
+    "compressedSize" : 5532,
+    "uncompressedSize" : 19438,
     "compressionMethod" : "Deflated",
-    "checkSum" : "2177a18c282b8154e723d46f7ffdcae7b1f2b999eea35172c98d3d2bd92f9961",
+    "checkSum" : "4beb61d76e35c285790c4fbf3578219e99a63db75a778eb24997219e63effc8",
     "isSpineItem" : true,
     "spineIndex" : 36,
     "isLinear" : true,
@@ -920,12 +918,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s37",
-    "fileName" : "OEBPS/at37_am.html",
+    "fileName" : "OEBPS/at37_am.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 9838,
-    "uncompressedSize" : 38878,
+    "compressedSize" : 9904,
+    "uncompressedSize" : 38986,
     "compressionMethod" : "Deflated",
-    "checkSum" : "258ab2807ff752b118fbfb5312c3df6313147695fb638b5ffed2b8212e387b",
+    "checkSum" : "bcb69dc1223ca2d410a46521755cc61299255c43e24cd3db5daf99819f23",
     "isSpineItem" : true,
     "spineIndex" : 37,
     "isLinear" : true,
@@ -942,12 +940,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s38",
-    "fileName" : "OEBPS/at38_ab.html",
+    "fileName" : "OEBPS/at38_ab.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 2252,
-    "uncompressedSize" : 6308,
+    "compressedSize" : 2315,
+    "uncompressedSize" : 6416,
     "compressionMethod" : "Deflated",
-    "checkSum" : "6dc7512622da81f7136e6a1edae70b2175cd9a97c1c7cce2eec38720ff4fe6",
+    "checkSum" : "82f3395779971a2a9fb60baf2cdf8f9144ed77e1966ea4a8e2123248d947735",
     "isSpineItem" : true,
     "spineIndex" : 38,
     "isLinear" : true,
@@ -964,12 +962,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s39",
-    "fileName" : "OEBPS/at39_jon.html",
+    "fileName" : "OEBPS/at39_jon.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 3772,
-    "uncompressedSize" : 12749,
+    "compressedSize" : 3834,
+    "uncompressedSize" : 12857,
     "compressionMethod" : "Deflated",
-    "checkSum" : "9e1f405a8881b2b643636890e65586bd385c746299f7e22c891dd7391fa32e37",
+    "checkSum" : "90defc48f04c793ebd696ca0418b923eb1e17056c947cd475e808db2f36ba3d",
     "isSpineItem" : true,
     "spineIndex" : 39,
     "isLinear" : true,
@@ -986,12 +984,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s4",
-    "fileName" : "OEBPS/at04_nomb.html",
+    "fileName" : "OEBPS/at04_nomb.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 60806,
-    "uncompressedSize" : 311284,
+    "compressedSize" : 60875,
+    "uncompressedSize" : 311392,
     "compressionMethod" : "Deflated",
-    "checkSum" : "4d7dbf1eb34546fb7ec159ceca4b57ee0715b56728e3babd72daf67a1499520",
+    "checkSum" : "d99152edae394196657914167fe8fc9e2d1c2ee4375d3fa4fcfe5dd4589563",
     "isSpineItem" : true,
     "spineIndex" : 4,
     "isLinear" : true,
@@ -1008,12 +1006,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s40",
-    "fileName" : "OEBPS/at40_mich.html",
+    "fileName" : "OEBPS/at40_mich.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 8084,
-    "uncompressedSize" : 28566,
+    "compressedSize" : 8153,
+    "uncompressedSize" : 28674,
     "compressionMethod" : "Deflated",
-    "checkSum" : "1b222875927a088677922b964682e94b163f8fd9bf9f627559924410b0712",
+    "checkSum" : "834db893461e7aad353d1682545731c184dbc6f662b5eecdfd566d97c95571d",
     "isSpineItem" : true,
     "spineIndex" : 40,
     "isLinear" : true,
@@ -1030,12 +1028,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s41",
-    "fileName" : "OEBPS/at41_nah.html",
+    "fileName" : "OEBPS/at41_nah.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 3981,
-    "uncompressedSize" : 12513,
+    "compressedSize" : 4045,
+    "uncompressedSize" : 12621,
     "compressionMethod" : "Deflated",
-    "checkSum" : "12c21e70218e958eed77d7e7759df84dd69351c7dd19f1a67ae55aeff7df51",
+    "checkSum" : "bbf3dd2ecc7e5ccd74074a5941868a8fc98541daf345c141a1e99574bff6c",
     "isSpineItem" : true,
     "spineIndex" : 41,
     "isLinear" : true,
@@ -1052,12 +1050,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s42",
-    "fileName" : "OEBPS/at42_hab.html",
+    "fileName" : "OEBPS/at42_hab.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 4700,
-    "uncompressedSize" : 15085,
+    "compressedSize" : 4765,
+    "uncompressedSize" : 15193,
     "compressionMethod" : "Deflated",
-    "checkSum" : "96be551d839132925ead23f047c5348cd699702fa5a6fea4d15bcd9ea81",
+    "checkSum" : "36e14b9d34f7c3140d9794ac635fc8a46fd093491b8284fde1c1ac9abccd6d",
     "isSpineItem" : true,
     "spineIndex" : 42,
     "isLinear" : true,
@@ -1074,12 +1072,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s43",
-    "fileName" : "OEBPS/at43_soph.html",
+    "fileName" : "OEBPS/at43_soph.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 4654,
-    "uncompressedSize" : 15239,
+    "compressedSize" : 4721,
+    "uncompressedSize" : 15347,
     "compressionMethod" : "Deflated",
-    "checkSum" : "b780eb3cd14e98712ebfbbccff81123a7efacb4d79633ec7147b4c41421c7e0",
+    "checkSum" : "9825578ba353ad4f6be3feeb762ee6e5fd601f45cd8acfbc7dab19d419b95a",
     "isSpineItem" : true,
     "spineIndex" : 43,
     "isLinear" : true,
@@ -1096,12 +1094,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s44",
-    "fileName" : "OEBPS/at44_ag.html",
+    "fileName" : "OEBPS/at44_ag.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 3081,
-    "uncompressedSize" : 10890,
+    "compressedSize" : 3143,
+    "uncompressedSize" : 10998,
     "compressionMethod" : "Deflated",
-    "checkSum" : "6eb4b799a252ee1396fc3269e63f145e74d6c888d28b45d534ff97f3c78112",
+    "checkSum" : "beaf5919b5494fac74d5e242732e31c6867d5b9a643cdb78c96edf765f6d850",
     "isSpineItem" : true,
     "spineIndex" : 44,
     "isLinear" : true,
@@ -1118,12 +1116,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s45",
-    "fileName" : "OEBPS/at45_zac.html",
+    "fileName" : "OEBPS/at45_zac.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 13508,
-    "uncompressedSize" : 56787,
+    "compressedSize" : 13578,
+    "uncompressedSize" : 56895,
     "compressionMethod" : "Deflated",
-    "checkSum" : "15572df9556d58f3a76af627ec71f437fe0cf67d52cf5f2bc9a848bdcedc72f",
+    "checkSum" : "c137c2612297a48fb3e9a49542c06b221f29f6b15fa4d7ff49d7ba61389c8",
     "isSpineItem" : true,
     "spineIndex" : 45,
     "isLinear" : true,
@@ -1140,12 +1138,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s46",
-    "fileName" : "OEBPS/at46_mal.html",
+    "fileName" : "OEBPS/at46_mal.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 4944,
-    "uncompressedSize" : 16680,
+    "compressedSize" : 5008,
+    "uncompressedSize" : 16788,
     "compressionMethod" : "Deflated",
-    "checkSum" : "7dc75cb3d0aabf9b73c0429a117d42f31d461e8e876ce961249ec563de83ea18",
+    "checkSum" : "dec82787c0986d5960ccd3c18f29d977fd7dc2c985ce24957211ccb515365d",
     "isSpineItem" : true,
     "spineIndex" : 46,
     "isLinear" : true,
@@ -1162,12 +1160,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s47",
-    "fileName" : "OEBPS/nt01_mt.html",
+    "fileName" : "OEBPS/nt01_mt.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 53108,
-    "uncompressedSize" : 245191,
+    "compressedSize" : 53182,
+    "uncompressedSize" : 245299,
     "compressionMethod" : "Deflated",
-    "checkSum" : "c7add3514573a56395a510e453ad2fddb2905a3e4b11cadaef3a4d9895e21",
+    "checkSum" : "b84bccdfec459823cf463726d5fe3bb18b63cf2f1e9fdedff51d4479ea77b532",
     "isSpineItem" : true,
     "spineIndex" : 47,
     "isLinear" : true,
@@ -1184,12 +1182,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s48",
-    "fileName" : "OEBPS/nt02_mc.html",
+    "fileName" : "OEBPS/nt02_mc.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 34803,
-    "uncompressedSize" : 154980,
+    "compressedSize" : 34870,
+    "uncompressedSize" : 155088,
     "compressionMethod" : "Deflated",
-    "checkSum" : "fb1dc2e338c68a322f3c6689199be762eba9110f963dec3eeb7b3c17a35f526",
+    "checkSum" : "6d99a4f8aa42060fa973f9bddf6206727bd239cca8f6cab3218475bb751787b",
     "isSpineItem" : true,
     "spineIndex" : 48,
     "isLinear" : true,
@@ -1206,12 +1204,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s49",
-    "fileName" : "OEBPS/nt03_lc.html",
+    "fileName" : "OEBPS/nt03_lc.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 59132,
-    "uncompressedSize" : 264076,
+    "compressedSize" : 59199,
+    "uncompressedSize" : 264184,
     "compressionMethod" : "Deflated",
-    "checkSum" : "d2bdaf8bf68252cd12dc60e61d7a4e4f3489d828b052861868122225428b7dbd",
+    "checkSum" : "ecc2b542651c70149c6161cfceaf2f5d282d4a9ccdf4880b27622fb57fa0de",
     "isSpineItem" : true,
     "spineIndex" : 49,
     "isLinear" : true,
@@ -1228,12 +1226,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s5",
-    "fileName" : "OEBPS/at05_deut.html",
+    "fileName" : "OEBPS/at05_deut.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 60013,
-    "uncompressedSize" : 267498,
+    "compressedSize" : 60086,
+    "uncompressedSize" : 267606,
     "compressionMethod" : "Deflated",
-    "checkSum" : "eabb0d0cc2b5a5e3ed622639af89fee92e09132a11fc28e4b38ffeeeb46de6",
+    "checkSum" : "974fa3159977c027b2238e4dd08e80f2fe6f59af3289955b7faba7b202ba063",
     "isSpineItem" : true,
     "spineIndex" : 5,
     "isLinear" : true,
@@ -1250,12 +1248,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s50",
-    "fileName" : "OEBPS/nt04_jn.html",
+    "fileName" : "OEBPS/nt04_jn.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 40870,
-    "uncompressedSize" : 199128,
+    "compressedSize" : 40941,
+    "uncompressedSize" : 199236,
     "compressionMethod" : "Deflated",
-    "checkSum" : "553127f456c1bab8a29f4dc44624afd1ed92b1c926673514dfab4dab43a23874",
+    "checkSum" : "13ea8d1c22e0a94e59287bb9e0d3ba608337a534459f9b259c972ba4a38b1e8c",
     "isSpineItem" : true,
     "spineIndex" : 50,
     "isLinear" : true,
@@ -1272,12 +1270,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s51",
-    "fileName" : "OEBPS/nt05_act.html",
+    "fileName" : "OEBPS/nt05_act.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 56790,
-    "uncompressedSize" : 243176,
+    "compressedSize" : 56856,
+    "uncompressedSize" : 243284,
     "compressionMethod" : "Deflated",
-    "checkSum" : "b2953f3df18d33ac35616715addd7a375bbc76c32f2882268e7d3fcc65f7a1",
+    "checkSum" : "20be11368f336e678d25ecf76fa5615f47f33d05def2d1f2a48d8337a298d30",
     "isSpineItem" : true,
     "spineIndex" : 51,
     "isLinear" : true,
@@ -1294,12 +1292,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s52",
-    "fileName" : "OEBPS/nt06_rom.html",
+    "fileName" : "OEBPS/nt06_rom.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 23529,
-    "uncompressedSize" : 103267,
+    "compressedSize" : 23598,
+    "uncompressedSize" : 103375,
     "compressionMethod" : "Deflated",
-    "checkSum" : "73c749a7a38682299b71338aea4523429631cc02ac74531914dd9fb788331",
+    "checkSum" : "387f769eb925a8683f792c746dd36791dcdf8a398a918aae65942719984b7b",
     "isSpineItem" : true,
     "spineIndex" : 52,
     "isLinear" : true,
@@ -1316,12 +1314,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s53",
-    "fileName" : "OEBPS/nt07_1cor.html",
+    "fileName" : "OEBPS/nt07_1cor.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 22968,
-    "uncompressedSize" : 103231,
+    "compressedSize" : 23032,
+    "uncompressedSize" : 103339,
     "compressionMethod" : "Deflated",
-    "checkSum" : "c12623b5bbac6a84e7dc3b8a6b6536bdd7c27815db429a7a7c1424f2f77d542",
+    "checkSum" : "a07ace4a6b9b8fe653d498805974b0b18f60ae8a187915ec8c631a3b29cbd13d",
     "isSpineItem" : true,
     "spineIndex" : 53,
     "isLinear" : true,
@@ -1338,12 +1336,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s54",
-    "fileName" : "OEBPS/nt08_2cor.html",
+    "fileName" : "OEBPS/nt08_2cor.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 15710,
-    "uncompressedSize" : 65011,
+    "compressedSize" : 15776,
+    "uncompressedSize" : 65119,
     "compressionMethod" : "Deflated",
-    "checkSum" : "9a95f6c781a7b5b5291e0c6699d2af33dc0ef42301f7c631341c7fb3a692",
+    "checkSum" : "1bbbfc3f777f36154dc431d73abf4b284c4435a558b3569689eadacdf53db7",
     "isSpineItem" : true,
     "spineIndex" : 54,
     "isLinear" : true,
@@ -1360,12 +1358,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s55",
-    "fileName" : "OEBPS/nt09_gal.html",
+    "fileName" : "OEBPS/nt09_gal.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 8818,
-    "uncompressedSize" : 34919,
+    "compressedSize" : 8883,
+    "uncompressedSize" : 35027,
     "compressionMethod" : "Deflated",
-    "checkSum" : "9fa7c4f6f4ed6cd3b31ad19e1e97c5d9308045d8d4408ad63f9252fe1e0e2",
+    "checkSum" : "9ebaa61eb9a69eaada3ba715298d5e1f254160d5818ecdbbb019d7c0ece82474",
     "isSpineItem" : true,
     "spineIndex" : 55,
     "isLinear" : true,
@@ -1382,12 +1380,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s56",
-    "fileName" : "OEBPS/nt10_eph.html",
+    "fileName" : "OEBPS/nt10_eph.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 8716,
-    "uncompressedSize" : 35414,
+    "compressedSize" : 8782,
+    "uncompressedSize" : 35522,
     "compressionMethod" : "Deflated",
-    "checkSum" : "1882f6d8d2c7e991ad3ef75231fafd06c7c5870426f585c2092136353541088",
+    "checkSum" : "894af072d3db273a8e9f0877b18e2757e603881a1f7f60bbc12dfe967e758",
     "isSpineItem" : true,
     "spineIndex" : 56,
     "isLinear" : true,
@@ -1404,12 +1402,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s57",
-    "fileName" : "OEBPS/nt11_phil.html",
+    "fileName" : "OEBPS/nt11_phil.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 6519,
-    "uncompressedSize" : 24625,
+    "compressedSize" : 6586,
+    "uncompressedSize" : 24733,
     "compressionMethod" : "Deflated",
-    "checkSum" : "fbbce17337d1856ab339f7d88928d2d9a8eef878441f2c6a23c88bb39769",
+    "checkSum" : "28934483fe7edc289c86997813d3ca08126e05ba75997ff6d403c7c66ff2559",
     "isSpineItem" : true,
     "spineIndex" : 57,
     "isLinear" : true,
@@ -1426,12 +1424,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s58",
-    "fileName" : "OEBPS/nt12_col.html",
+    "fileName" : "OEBPS/nt12_col.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 6183,
-    "uncompressedSize" : 23069,
+    "compressedSize" : 6247,
+    "uncompressedSize" : 23177,
     "compressionMethod" : "Deflated",
-    "checkSum" : "1be940c3a16cc38eec3691fee5734e7749eae3b5f93344a644b367f3ae086b7",
+    "checkSum" : "6466db5ded74d79b9f285acb6e8be2da65338a1e1e6064a9241e58dfbdaab8",
     "isSpineItem" : true,
     "spineIndex" : 58,
     "isLinear" : true,
@@ -1448,12 +1446,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s59",
-    "fileName" : "OEBPS/nt13_1thes.html",
+    "fileName" : "OEBPS/nt13_1thes.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 5764,
-    "uncompressedSize" : 21746,
+    "compressedSize" : 5827,
+    "uncompressedSize" : 21854,
     "compressionMethod" : "Deflated",
-    "checkSum" : "525e5627a810818b77b7ef77302b3c24e85cb758ec4750fc6dd77588d8",
+    "checkSum" : "194712ac2f8c8975cac6ab8f5d521cbab71b2befe904df1e1f1a27624d310",
     "isSpineItem" : true,
     "spineIndex" : 59,
     "isLinear" : true,
@@ -1470,12 +1468,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s6",
-    "fileName" : "OEBPS/at06_jos.html",
+    "fileName" : "OEBPS/at06_jos.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 38135,
-    "uncompressedSize" : 174491,
+    "compressedSize" : 38208,
+    "uncompressedSize" : 174599,
     "compressionMethod" : "Deflated",
-    "checkSum" : "35537ef47e3bff4cf55ffcb794fb9acd6c37dd966c862b3647d86c5d4f2d3",
+    "checkSum" : "7c78ea25d3d71e78611addb6ccc9d316f72f458f852b5d28a75fea8688d7baf",
     "isSpineItem" : true,
     "spineIndex" : 6,
     "isLinear" : true,
@@ -1492,12 +1490,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s60",
-    "fileName" : "OEBPS/nt14_2thes.html",
+    "fileName" : "OEBPS/nt14_2thes.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 3535,
-    "uncompressedSize" : 12047,
+    "compressedSize" : 3600,
+    "uncompressedSize" : 12155,
     "compressionMethod" : "Deflated",
-    "checkSum" : "b8c554727829f901cddfba1f92fb231f26c7b2d538dec18012ad7009b1e3",
+    "checkSum" : "44aeb550e568f070c6a1c0851a581c15d68b716780744f5e06758b945d04b85",
     "isSpineItem" : true,
     "spineIndex" : 60,
     "isLinear" : true,
@@ -1514,12 +1512,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s61",
-    "fileName" : "OEBPS/nt15_1tim.html",
+    "fileName" : "OEBPS/nt15_1tim.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 7348,
-    "uncompressedSize" : 27209,
+    "compressedSize" : 7416,
+    "uncompressedSize" : 27317,
     "compressionMethod" : "Deflated",
-    "checkSum" : "b23fbb51e56f3f34e47eedfbe1c0fc9490f79f184b72f4a8253683ebbcce",
+    "checkSum" : "34101b3c2d3b3eccc16a13162251fe354eb8be864da8d81be937ff978dd41f",
     "isSpineItem" : true,
     "spineIndex" : 61,
     "isLinear" : true,
@@ -1536,12 +1534,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s62",
-    "fileName" : "OEBPS/nt16_2tim.html",
+    "fileName" : "OEBPS/nt16_2tim.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 5513,
-    "uncompressedSize" : 19301,
+    "compressedSize" : 5576,
+    "uncompressedSize" : 19409,
     "compressionMethod" : "Deflated",
-    "checkSum" : "cb3c6bc0f420422ffd46f12814592e28070a046dfd19973c289c6f6482cf3",
+    "checkSum" : "50bea66474fe6b75874588315eedf9bfe9b0204e13275b74383bf4cb93788c18",
     "isSpineItem" : true,
     "spineIndex" : 62,
     "isLinear" : true,
@@ -1558,12 +1556,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s63",
-    "fileName" : "OEBPS/nt17_tit.html",
+    "fileName" : "OEBPS/nt17_tit.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 3578,
-    "uncompressedSize" : 11657,
+    "compressedSize" : 3639,
+    "uncompressedSize" : 11765,
     "compressionMethod" : "Deflated",
-    "checkSum" : "2a4d44839a831d78accc39c0f9acf85f0dfb36f74da4413e81979e7629d58",
+    "checkSum" : "5557c3a9e41dba458ae2765d1cf7b17edc3183606460c4e38cdc372dd58622",
     "isSpineItem" : true,
     "spineIndex" : 63,
     "isLinear" : true,
@@ -1580,12 +1578,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s64",
-    "fileName" : "OEBPS/nt18_philem.html",
+    "fileName" : "OEBPS/nt18_philem.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 1980,
-    "uncompressedSize" : 5918,
+    "compressedSize" : 2044,
+    "uncompressedSize" : 6026,
     "compressionMethod" : "Deflated",
-    "checkSum" : "deda878ac68489fa42f8e2f422e44447bd92be5d6da4a5682695fa187634ab",
+    "checkSum" : "bad1548c9ea4e9852dd73b89b90fe2e29796c4def80bddd6369c86f56e51b5",
     "isSpineItem" : true,
     "spineIndex" : 64,
     "isLinear" : true,
@@ -1602,12 +1600,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s65",
-    "fileName" : "OEBPS/nt19_hebr.html",
+    "fileName" : "OEBPS/nt19_hebr.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 17137,
-    "uncompressedSize" : 54775,
+    "compressedSize" : 18338,
+    "uncompressedSize" : 74687,
     "compressionMethod" : "Deflated",
-    "checkSum" : "772a9d535c7b39b21d10b57ed929d7452f3f3b4ab964934e84f35e3297de3f",
+    "checkSum" : "6d3dd649354ad1d891ee8f139d1eab419c9ce9a33cde6bb61751d8827412a9cb",
     "isSpineItem" : true,
     "spineIndex" : 65,
     "isLinear" : true,
@@ -1624,12 +1622,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s66",
-    "fileName" : "OEBPS/nt20_jac.html",
+    "fileName" : "OEBPS/nt20_jac.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 7119,
-    "uncompressedSize" : 25650,
+    "compressedSize" : 7186,
+    "uncompressedSize" : 25758,
     "compressionMethod" : "Deflated",
-    "checkSum" : "11843e346df5cfbfd2e9c0f3d7f9ff67b49d252cd882d07902ece97711d34",
+    "checkSum" : "7acf86b9cb01f6d9f7becb7735982aacf153b4fe3a98759fdb1918fd5c5cd",
     "isSpineItem" : true,
     "spineIndex" : 66,
     "isLinear" : true,
@@ -1646,12 +1644,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s67",
-    "fileName" : "OEBPS/nt21_1pet.html",
+    "fileName" : "OEBPS/nt21_1pet.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 7406,
-    "uncompressedSize" : 26677,
+    "compressedSize" : 7471,
+    "uncompressedSize" : 26785,
     "compressionMethod" : "Deflated",
-    "checkSum" : "2b4bd2fd9f1cd766fcf1a1bed89fca4f524d84bdec9cb2a54e547c2efc04c5",
+    "checkSum" : "a9aecab544a4634c3072597fca1ca06c5baf5bbf2a415a4034d4f62bc955d4a7",
     "isSpineItem" : true,
     "spineIndex" : 67,
     "isLinear" : true,
@@ -1668,12 +1666,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s68",
-    "fileName" : "OEBPS/nt22_2pet.html",
+    "fileName" : "OEBPS/nt22_2pet.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 5163,
-    "uncompressedSize" : 16719,
+    "compressedSize" : 5229,
+    "uncompressedSize" : 16827,
     "compressionMethod" : "Deflated",
-    "checkSum" : "43c413cf9da1c9d4aed1e09ce5d1d7399bf14de6f5e7401370ea20828798c9",
+    "checkSum" : "981d822fc4b93c62b8ce89b4a6e96c8e4d6687724e9a409e393e69f29e1f2",
     "isSpineItem" : true,
     "spineIndex" : 68,
     "isLinear" : true,
@@ -1690,12 +1688,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s69",
-    "fileName" : "OEBPS/nt23_1jn.html",
+    "fileName" : "OEBPS/nt23_1jn.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 5826,
-    "uncompressedSize" : 26188,
+    "compressedSize" : 5890,
+    "uncompressedSize" : 26296,
     "compressionMethod" : "Deflated",
-    "checkSum" : "5b54b4ad38154026c0d5b0e7e8f37d1ba2b1ee9755f30b971b9d39ee2bde",
+    "checkSum" : "2cfebe9b280929042e759f13678ed301c4b56f890f67cb8028d72627b01368",
     "isSpineItem" : true,
     "spineIndex" : 69,
     "isLinear" : true,
@@ -1712,12 +1710,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s7",
-    "fileName" : "OEBPS/at07_jug.html",
+    "fileName" : "OEBPS/at07_jug.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 42246,
-    "uncompressedSize" : 176532,
+    "compressedSize" : 42313,
+    "uncompressedSize" : 176640,
     "compressionMethod" : "Deflated",
-    "checkSum" : "71778e1a5af9d20267ea36d585c484c48576c1fbfa2ac1e256d9d8ab5a242",
+    "checkSum" : "e8e446e3334e5a6d9af66f6e18e19615ec1e51f983b7725b1e8564ab39bdaa8f",
     "isSpineItem" : true,
     "spineIndex" : 7,
     "isLinear" : true,
@@ -1734,12 +1732,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s70",
-    "fileName" : "OEBPS/nt24_2jn.html",
+    "fileName" : "OEBPS/nt24_2jn.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 1426,
-    "uncompressedSize" : 3758,
+    "compressedSize" : 1489,
+    "uncompressedSize" : 3866,
     "compressionMethod" : "Deflated",
-    "checkSum" : "64075586875484e60ff1fe33a546efbc6778927a2346633e0678fec0118d",
+    "checkSum" : "0c89c203f828cd4316bf4eb3e5169349f4e1acba7ad5e127629206d55e240",
     "isSpineItem" : true,
     "spineIndex" : 70,
     "isLinear" : true,
@@ -1756,12 +1754,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s71",
-    "fileName" : "OEBPS/nt25_3jn.html",
+    "fileName" : "OEBPS/nt25_3jn.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 1479,
-    "uncompressedSize" : 3920,
+    "compressedSize" : 1541,
+    "uncompressedSize" : 4028,
     "compressionMethod" : "Deflated",
-    "checkSum" : "b9d525221ca0616149a9bb5a34c4d18135cdbd604ddeed325beb5a6251c9e9",
+    "checkSum" : "7eb26198b5d61c4eff1d2a1b93f5fb9327b486339cbf6f62a3e1f4e7fd886",
     "isSpineItem" : true,
     "spineIndex" : 71,
     "isLinear" : true,
@@ -1778,12 +1776,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s72",
-    "fileName" : "OEBPS/nt26_jud.html",
+    "fileName" : "OEBPS/nt26_jud.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 2578,
-    "uncompressedSize" : 7191,
+    "compressedSize" : 2641,
+    "uncompressedSize" : 7299,
     "compressionMethod" : "Deflated",
-    "checkSum" : "896b21951d398c3d5ef8c35e539742326228b37fb66ea2ce04761d3e7f9e646",
+    "checkSum" : "25911b66c3dfea4032994cb2d0edf2facf7e70ea9572425586278a186edfbc",
     "isSpineItem" : true,
     "spineIndex" : 72,
     "isLinear" : true,
@@ -1800,12 +1798,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s73",
-    "fileName" : "OEBPS/nt27_apoc.html",
+    "fileName" : "OEBPS/nt27_apoc.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 24704,
-    "uncompressedSize" : 109393,
+    "compressedSize" : 24772,
+    "uncompressedSize" : 109501,
     "compressionMethod" : "Deflated",
-    "checkSum" : "717b9e6123b2416aa25732c984d82ef384cccd11ebe5b029b0fe8d839f32d0",
+    "checkSum" : "54c6f6401552dc78ad15842a58f193475aa8c6a3eb1ae8712ef8dfcc4f47058",
     "isSpineItem" : true,
     "spineIndex" : 73,
     "isLinear" : true,
@@ -1822,12 +1820,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s8",
-    "fileName" : "OEBPS/at08_ruth.html",
+    "fileName" : "OEBPS/at08_ruth.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 6901,
-    "uncompressedSize" : 24243,
+    "compressedSize" : 6967,
+    "uncompressedSize" : 24351,
     "compressionMethod" : "Deflated",
-    "checkSum" : "ab701531e9ad9ed8c5c1487df81718b5cef4f5a4fe984d2cc7bfed3a4c23",
+    "checkSum" : "ecd3b493fb2aa4c09169b9ceb92ea851584922b74ed7927bbb44fdf6f2e3079",
     "isSpineItem" : true,
     "spineIndex" : 8,
     "isLinear" : true,
@@ -1844,12 +1842,12 @@ var report = {
     "referencedItems" : [ ]
   }, {
     "id" : "s9",
-    "fileName" : "OEBPS/at09_1sam.html",
+    "fileName" : "OEBPS/at09_1sam.xhtml",
     "media_type" : "application/xhtml+xml",
-    "compressedSize" : 54602,
-    "uncompressedSize" : 229221,
+    "compressedSize" : 54672,
+    "uncompressedSize" : 229329,
     "compressionMethod" : "Deflated",
-    "checkSum" : "8322a38aa7dd05ef0f3be3fa9c6bf5b53a2d7d290141dc7cb4454eb73983f",
+    "checkSum" : "bc34d6f4ff9413d8dad096994ffd7feab128723da2c534661c86f0b5fe44",
     "isSpineItem" : true,
     "spineIndex" : 9,
     "isLinear" : true,
@@ -1866,176 +1864,32 @@ var report = {
     "referencedItems" : [ ]
   } ],
   "messages" : [ {
-    "ID" : "OPF-020",
-    "severity" : "WARNING",
-    "message" : "Excessive number of spine items.",
-    "additionalLocations" : 0,
-    "locations" : [ {
-      "fileName" : "content.opf",
-      "line" : -1,
-      "column" : -1,
-      "context" : null
-    } ],
-    "suggestion" : null
-  }, {
     "ID" : "RSC-005",
     "severity" : "ERROR",
-    "message" : "Error while parsing file 'duplicate id: c-he-1'.",
+    "message" : "Erreur lors de l'analyse du fichier 'Duplicate 'c-ps-10''.",
     "additionalLocations" : 0,
     "locations" : [ {
-      "fileName" : "OEBPS/nt19_hebr.html",
-      "line" : 0,
-      "column" : 0,
+      "path" : "OEBPS/at23_ps.xhtml",
+      "line" : 286,
+      "column" : 18,
       "context" : null
-    } ],
-    "suggestion" : null
-  }, {
-    "ID" : "RSC-005",
-    "severity" : "ERROR",
-    "message" : "Error while parsing file 'duplicate id: c-ps-10'.",
-    "additionalLocations" : 0,
-    "locations" : [ {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 0,
-      "column" : 0,
+    }, {
+      "path" : "OEBPS/at23_ps.xhtml",
+      "line" : 305,
+      "column" : 18,
       "context" : null
     } ],
     "suggestion" : null
   }, {
     "ID" : "RSC-012",
     "severity" : "ERROR",
-    "message" : "Fragment identifier is not defined.",
-    "additionalLocations" : 116,
+    "message" : "L'identificateur de fragment n'est pas d\u00E9fini.",
+    "additionalLocations" : 0,
     "locations" : [ {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 24,
+      "path" : "OEBPS/nt24_2jn.xhtml",
+      "line" : 15,
       "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-11"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 25,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-12"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 26,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-13"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 27,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-14"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 28,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-15"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 29,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-16"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 30,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-17"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 31,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-18"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 32,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-19"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 33,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-20"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 34,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-21"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 35,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-22"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 36,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-23"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 37,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-24"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 38,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-25"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 39,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-26"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 40,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-27"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 41,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-28"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 42,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-29"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 43,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-30"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 44,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-31"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 45,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-32"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 46,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-33"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 47,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-34"
-    }, {
-      "fileName" : "OEBPS/at23_ps.html",
-      "line" : 48,
-      "column" : 24,
-      "context" : "OEBPS/at23_ps.html#c-ps-35"
-    }, {
-      "fileName" : "There are 116 additional locations for this message.",
-      "line" : -1,
-      "column" : -1,
-      "context" : null
+      "context" : "OEBPS/nt24_2jn.xhtml#c-2jn-1"
     } ],
     "suggestion" : null
   } ]
