@@ -7,7 +7,7 @@
       <meta property="dcterms:title" id="meta-title">Redemptoris Custos</meta>
       <dc:language id="pub-language">fr</dc:language>
       <meta property="dcterms:language" id="meta-language">fr</meta>
-      <meta property="dcterms:modified">2018-07-03T22:00:49Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
+      <meta property="dcterms:modified">2018-07-03T23:19:58Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
       <meta content="cover-image" name="cover"/>
       <meta id="meta-creator4" property="dcterms:creator">Jean-Paul II</meta>
       <dc:creator id="pub-creator4">Jean-Paul II</dc:creator>
@@ -21,23 +21,23 @@
       <item id="cover-image" properties="cover-image" href="cover.png" media-type="image/png"/>
       <item id="id-d5e1" href="exh_1989-08-15_hf_john-paul-ii_redemptoris-custos.xhtml" media-type="application/xhtml+xml"/>
       <item id="id-d5e11" href="ch01.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d5e45" href="ch01s02.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d5e455" href="ch01s03.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d5e513" href="ch01s04.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d5e529" href="ch01s05.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d5e552" href="ch01s06.xhtml" media-type="application/xhtml+xml"/>
-      <item id="d186e1" href="image.svg" media-type="image/svg+xml"/>
+      <item id="id-d5e49" href="ch01s02.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e481" href="ch01s03.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e541" href="ch01s04.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e560" href="ch01s05.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e588" href="ch01s06.xhtml" media-type="application/xhtml+xml"/>
+      <item id="d230e1" href="image.svg" media-type="image/svg+xml"/>
    </manifest>
    <spine toc="ncx">
       <itemref idref="cover" linear="no"/>
       <itemref idref="htmltoc" linear="yes"/>
       <itemref idref="id-d5e1"/>
       <itemref idref="id-d5e11"/>
-      <itemref idref="id-d5e45"/>
-      <itemref idref="id-d5e455"/>
-      <itemref idref="id-d5e513"/>
-      <itemref idref="id-d5e529"/>
-      <itemref idref="id-d5e552"/>
+      <itemref idref="id-d5e49"/>
+      <itemref idref="id-d5e481"/>
+      <itemref idref="id-d5e541"/>
+      <itemref idref="id-d5e560"/>
+      <itemref idref="id-d5e588"/>
    </spine>
    <guide>
       <reference href="cover.xhtml" type="cover" title="Cover"/>
