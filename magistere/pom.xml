@@ -34,9 +34,9 @@
                         <transformationSet>
                             <dir>${basedir}/src/docbkx/xml</dir>
                             <stylesheet>src/docbkx/xsl/custom-docbook.xsl</stylesheet>
-							<includes>
-								*.xml
-							</includes>
+                            <includes>
+                                <include>*.xml</include>
+                            </includes>
                         </transformationSet>
                     </transformationSets>
                 </configuration>
