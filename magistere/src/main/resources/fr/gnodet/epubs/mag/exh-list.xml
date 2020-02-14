@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <books type="exh" title="Exhortations apostolique" file="exhortations">
 
+    <book date="2020-02-02" creator="François" title="Querida Amazonia" title-fr="L’Amazonie bien-aimée" />
+    <book date="2019-03-25" creator="François" title="Christus Vivit" title-fr="Il vit, le Christ" />
     <book date="2018-03-19" creator="François" title="Gaudete et exsultate" title-fr="La joie et l’allégresse" />
     <book date="2016-03-19" creator="François" title="Amoris Laetitia" title-fr="La joie de l’amour" />
     <book date="2013-11-24" creator="François" title="Evangelii Gaudium" title-fr="La joie de l’Évangile" />
