@@ -7,18 +7,14 @@
 		<title>Summi pontificatus</title>
 		<subtitle>De l’unité du genre humain</subtitle>
 		<author>Pie XII</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1939-10-20_hf_pius-xii_summi-pontificus"/>
 	</info>
 	<chapter>
 		<title>SUMMI PONTIFICATUS</title>
 		<subtitle>LETTRE ENCYCLIQUE<br/>DE SA SAINTETÉ LE PAPE PIE XII</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_1939-10-20_hf_pius-xii_summi-pontificus_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 		<p><i>Vénérables Frères, Salut et Bénédiction apostolique</i>.</p>

@@ -7,11 +7,7 @@
 		<title>Perfectæ Caritate</title>
 		<subtitle>Décret sur la rénovation et l’adaptation de la vie religieuse</subtitle>
 		<author>Concile Vatican II</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="vat-ii_decree_1965-10-28_perfectae-caritatis_fr"/>
 	</info>
 	<chapter>
 		<title>PERFECTÆ CARITATE</title>

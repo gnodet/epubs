@@ -10,18 +10,14 @@
 
 		<author>François</author>
 
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="dis_2014-11-25_hf_francesco_conseil-de-l-europe"/>
 	</info>
 
     <chapter>
         <title>Discours du Pape François au Conseil de l’Europe</title>
         <mediaobject>
             <imageobject>
-                <imagedata align="center" fileref="image.svg" format="SVG"/>
+                <imagedata align="center" fileref="svgs/dis_2014-11-25_hf_francesco_conseil-de-l-europe_coa-bw.svg" format="SVG"/>
             </imageobject>
         </mediaobject>
         <section>

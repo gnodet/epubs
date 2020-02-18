@@ -7,11 +7,7 @@
 		<title>Redemptoris missio</title>
 		<subtitle>La mission du Rédempteur</subtitle>
 		<author>Jean-Paul II</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1990-12-07_hf_john-paul-ii_redemptoris-missio"/>
 	</info>
 	<chapter>
 		<title>REDEMPTORIS MISSIO</title>
@@ -23,7 +19,7 @@
 			</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_1990-12-07_hf_john-paul-ii_redemptoris-missio_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 		<p class="center"><b>Bénédiction</b></p>

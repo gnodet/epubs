@@ -7,11 +7,7 @@
 		<title>Centesimus Annus</title>
 		<subtitle>La centième année</subtitle>
 		<author>Jean-Paul II</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1991-05-01_hf_john-paul-ii_centesimus-annus"/>
 	</info>
 	<chapter>
 		<title>CENTESIMUS ANNUS</title>
@@ -32,7 +28,7 @@
 			</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_1991-05-01_hf_john-paul-ii_centesimus-annus_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 		<p>Frères vénérés, <br />chers Fils et Filles, <br />salut et Bénédiction apostolique !</p>

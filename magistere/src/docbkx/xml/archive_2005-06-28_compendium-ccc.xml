@@ -11,11 +11,7 @@
 
         <author>Benoît XVI</author>
 
-        <mediaobject role="cover" xml:id="coverd">
-            <imageobject role="front-large" remap="lrg">
-                <imagedata format="PNG" fileref="cover.png"/>
-            </imageobject>
-        </mediaobject>
+        <cover name="archive_2005-06-28_compendium-ccc" />
     </info>
 
 	<chapter>

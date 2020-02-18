@@ -7,11 +7,7 @@
 		<title>Divini Redemptoris</title>
 		<subtitle>Le communisme athée</subtitle>
 		<author>Pie XI</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1937-03-19_hf_pius-xi_divini-redemptoris"/>
 	</info>
 	<chapter>
 		<title>DIVINI REDEMPTORIS</title>
@@ -19,7 +15,7 @@
 		
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_1937-03-19_hf_pius-xi_divini-redemptoris_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 	<p><np>1</np> La promesse d’un Rédempteur illumine la première page de l’histoire humaine ; aussi, la ferme espérance de jours meilleurs adoucit le regret du paradis perdu et soutint le genre humain cheminant au milieu des tribulations ; mais, quand fut venue la plénitude des temps, le Sauveur du monde, par son apparition sur terre, combla l’attente et inaugura, dans tout l’univers, une nouvelle civilisation, la civilisation chrétienne, autrement plus parfaite que tous les progrès réalisés jusque-là, au prix de tant d’efforts, chez certains peuples privilégiés.</p>

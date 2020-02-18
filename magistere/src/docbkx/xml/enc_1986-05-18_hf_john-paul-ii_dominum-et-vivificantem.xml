@@ -9,11 +9,7 @@
         <title>Dominum et Vivificantem</title>
         <subtitle>Il est Seigneur et il donne la vie</subtitle>
         <author>Jean-Paul II</author>
-        <mediaobject role="cover" xml:id="coverd">
-            <imageobject role="front-large" remap="lrg">
-                <imagedata format="PNG" fileref="cover.png"/>
-            </imageobject>
-        </mediaobject>
+        <cover name="enc_1986-05-18_hf_john-paul-ii_dominum-et-vivificantem"/>
     </info>
 
     <chapter>
@@ -23,7 +19,7 @@
 
         <mediaobject>
             <imageobject>
-                <imagedata align="center" fileref="image.svg" format="SVG"/>
+                <imagedata align="center" fileref="svgs/enc_1986-05-18_hf_john-paul-ii_dominum-et-vivificantem_coa-bw.svg" format="SVG"/>
             </imageobject>
         </mediaobject>
 

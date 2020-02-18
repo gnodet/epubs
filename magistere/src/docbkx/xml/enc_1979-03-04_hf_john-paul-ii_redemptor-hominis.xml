@@ -7,11 +7,7 @@
 		<title>Redemptor Hominis</title>
 		<subtitle>Le Rédempteur de l’homme</subtitle>
 		<author>Jean-Paul II</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1979-03-04_hf_john-paul-ii_redemptor-hominis"/>
 	</info>
 	<chapter>
 		<title>REDEMPTOR HOMINIS</title>
@@ -28,7 +24,7 @@
 		
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_1979-03-04_hf_john-paul-ii_redemptor-hominis_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 

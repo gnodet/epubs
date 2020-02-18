@@ -7,18 +7,14 @@
 		<title>Redemptoris Mater</title>
 		<subtitle>La mère du Rédempteur</subtitle>
 		<author>Jean-Paul II</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1987-03-25_hf_john-paul-ii_redemptoris-mater"/>
 	</info>
 	<chapter>
 		<title>REDEMPTORIS MATER</title>
 		<subtitle>LETTRE ENCYCLIQUE<br/>DU SOUVERAIN PONTIFE JEAN-PAUL II<br/>SUR LA BIENHEUREUSE VIERGE MARIE DANS LA VIE DE L’ÉGLISE EN MARCHE</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_1987-03-25_hf_john-paul-ii_redemptoris-mater_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 		<p class="center"><b>Bénédiction</b></p>

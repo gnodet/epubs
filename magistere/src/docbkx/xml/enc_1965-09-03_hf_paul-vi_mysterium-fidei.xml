@@ -7,11 +7,7 @@
 		<title>Mysterium Fidei</title>
 		<subtitle>Mystère de la foi</subtitle>
 		<author>Paul VI</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1965-09-03_hf_paul-vi_mysterium-fidei"/>
 	</info>
 	<chapter>
 		<title>MYSTERIUM FIDEI</title>
@@ -19,7 +15,7 @@
 		
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_1965-09-03_hf_paul-vi_mysterium-fidei_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 		<p><i>À Nos Vénérables Frères les Patriarches, Primats, Archevêques, Évêques et autres Ordinaires des lieux, au clergé et aux fidèles du monde entier</i></p>

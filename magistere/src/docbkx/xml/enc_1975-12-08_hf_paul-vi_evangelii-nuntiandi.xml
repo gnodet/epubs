@@ -7,18 +7,14 @@
 		<title>Evangelii Nuntiandi</title>
 		<subtitle>Mystère de la foi</subtitle>
 		<author>Paul VI</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1975-12-08_hf_paul-vi_evangelii-nuntiandi"/>
 	</info>
 	<chapter>
 		<title>EVANGELII NUNTIANDI</title>
 		<subtitle>LETTRE ENCYCLIQUE<br/>DE SA SAINTETÉ LE PAPE PAUL VI</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_1975-12-08_hf_paul-vi_evangelii-nuntiandi_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 		<section>

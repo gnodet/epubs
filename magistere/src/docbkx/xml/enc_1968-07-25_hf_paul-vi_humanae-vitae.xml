@@ -7,11 +7,7 @@
 		<title>Humanæ Vitæ</title>
 		<subtitle>La vie humaine</subtitle>
 		<author>Paul VI</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1968-07-25_hf_paul-vi_humanae-vitae"/>
 	</info>
 	<chapter>
 		<title>HUMANÆ VITÆ</title>
@@ -19,7 +15,7 @@
 		
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_1968-07-25_hf_paul-vi_humanae-vitae_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 

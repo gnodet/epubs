@@ -9,11 +9,7 @@
         <title>Slavorum Apostoli</title>
         <subtitle>Apôtres des Slaves</subtitle>
         <author>Jean-Paul II</author>
-        <mediaobject role="cover" xml:id="coverd">
-            <imageobject role="front-large" remap="lrg">
-                <imagedata format="PNG" fileref="cover.png"/>
-            </imageobject>
-        </mediaobject>
+        <cover name="enc_1985-06-02_hf_john-paul-ii_slavorum-apostoli"/>
     </info>
 
     <chapter>
@@ -31,7 +27,7 @@
 
         <mediaobject>
             <imageobject>
-                <imagedata align="center" fileref="image.svg" format="SVG"/>
+                <imagedata align="center" fileref="svgs/enc_1985-06-02_hf_john-paul-ii_slavorum-apostoli_coa-bw.svg" format="SVG"/>
             </imageobject>
         </mediaobject>
 

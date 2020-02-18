@@ -7,11 +7,7 @@
 		<title>Sacrosanctum Concilium</title>
 		<subtitle>Constitution sur la sainte liturgie</subtitle>
 		<author>Concile Vatican II</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="vat-ii_const_1963-12-04_sacrosanctum-concilium_fr"/>
 	</info>
 	<chapter>
 		<title>SACROSANCTUM CONCILIUM</title>

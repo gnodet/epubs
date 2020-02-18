@@ -9,11 +9,7 @@
         <title>Familiaris Consortio</title>
         <subtitle>Les tâches de la famille chrétienne</subtitle>
         <author>Jean-Paul II</author>
-        <mediaobject role="cover" xml:id="coverd">
-            <imageobject role="front-large" remap="lrg">
-                <imagedata format="PNG" fileref="cover.png"/>
-            </imageobject>
-        </mediaobject>
+        <cover name="exh_1981-11-22_hf_john-paul-ii_familiaris-consortio" />
     </info>
 
     <chapter>
@@ -28,7 +24,7 @@
 		DANS LE MONDE D’AUJOURD’HUI</subtitle>
         <mediaobject>
             <imageobject>
-                <imagedata align="center" fileref="image.svg" format="SVG"/>
+                <imagedata format="SVG" align="center" fileref="svgs/exh_1981-11-22_hf_john-paul-ii_familiaris-consortio-coa-bw/svg"/>
             </imageobject>
         </mediaobject>
 		<section>

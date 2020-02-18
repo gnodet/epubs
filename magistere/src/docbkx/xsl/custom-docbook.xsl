@@ -7,6 +7,9 @@
 		exclude-result-prefixes='xsl xi fn'
 		version="1.0">
 
+	<xsl:param name="output"/>
+	<xsl:param name="siteDirectory"/>
+
 	<xsl:template match="gn:a">
 		<xsl:apply-templates/>
 	</xsl:template>
@@ -17,21 +20,21 @@
 			</xsl:element>
 		</xsl:element>
 	</xsl:template>
-	<xsl:template match="gn:ns">
-		<xsl:element name="phrase">
-			<xsl:attribute name="role">
-				<xsl:value-of select="'numsection'"/>
-			</xsl:attribute>
-			<xsl:value-of select="text()"/>
-		</xsl:element>
-		<xsl:value-of select="' '"/>
-	</xsl:template>
 	<xsl:template match="gn:np">
 		<xsl:element name="phrase">
 			<xsl:attribute name="role">
 				<xsl:value-of select="'numpara'"/>
 			</xsl:attribute>
 			<xsl:value-of select="concat(text(), '.')"/>
+		</xsl:element>
+		<xsl:value-of select="' '"/>
+	</xsl:template>
+	<xsl:template match="gn:ns">
+		<xsl:element name="phrase">
+			<xsl:attribute name="role">
+				<xsl:value-of select="'numsection'"/>
+			</xsl:attribute>
+			<xsl:value-of select="concat(text(), ' : ')"/>
 		</xsl:element>
 		<xsl:value-of select="' '"/>
 	</xsl:template>
@@ -114,6 +117,12 @@
 		<xsl:element name="phrase">
 			<xsl:attribute name="role">ssv</xsl:attribute>
 			<xsl:apply-templates/>
+		</xsl:element>
+	</xsl:template>
+	<xsl:template match="gn:pa">
+		<xsl:element name="phrase">
+			<xsl:attribute name="role">spa</xsl:attribute>
+			<xsl:value-of select="'('"/><xsl:apply-templates/><xsl:value-of select="')'"/>
 		</xsl:element>
 	</xsl:template>
 	<xsl:template match="gn:phrase[@*[local-name()='href' and not(starts-with(., '#'))]]">
@@ -317,6 +326,47 @@
 		</xsl:element>
 	</xsl:template>
 	-->
+
+	<xsl:template match="gn:cover">
+		<xsl:if test="$output = 'epub3'">
+			<xsl:element name="mediaobject">
+				<xsl:attribute name="role">cover</xsl:attribute>
+				<xsl:attribute name="xml:id">coverd</xsl:attribute>
+				<xsl:element name="imageobject">
+					<xsl:attribute name="role">front-large</xsl:attribute>
+					<xsl:attribute name="remap">lrg</xsl:attribute>
+					<xsl:element name="imagedata">
+						<xsl:attribute name="format">PNG</xsl:attribute>
+						<xsl:attribute name="fileref">cover.png</xsl:attribute>
+					</xsl:element>
+				</xsl:element>
+			</xsl:element>
+		</xsl:if>
+		<xsl:if test="$output = 'pdf'">
+			<xsl:element name="mediaobject">
+				<xsl:element name="imageobject">
+					<xsl:element name="imagedata">
+						<xsl:attribute name="format">SVG</xsl:attribute>
+						<xsl:attribute name="fileref"><xsl:value-of select="concat($siteDirectory, 'svgs/', @name, '.svg')"/></xsl:attribute>
+					</xsl:element>
+				</xsl:element>
+			</xsl:element>
+		</xsl:if>
+	</xsl:template>
+
+	<xsl:template match="gn:imagedata">
+		<xsl:element name="imagedata">
+			<xsl:if test="$output = 'epub3'">
+				<xsl:copy-of select="@*[local-name()!='fileref']"/>
+				<xsl:attribute name="fileref">coa-bw.svg</xsl:attribute>
+			</xsl:if>
+			<xsl:if test="$output = 'pdf'">
+				<xsl:copy-of select="@*[local-name()!='fileref']"/>
+				<xsl:attribute name="fileref"><xsl:value-of select="concat($siteDirectory, @fileref)"/></xsl:attribute>
+			</xsl:if>
+		</xsl:element>
+	</xsl:template>
+
 	<xsl:template match="gn:*">
 		<xsl:element name="{local-name()}">
 			<xsl:apply-templates select="@*|node()" />

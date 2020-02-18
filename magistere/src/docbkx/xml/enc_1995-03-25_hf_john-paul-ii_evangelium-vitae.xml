@@ -7,11 +7,7 @@
 		<title>Evangelium vitæ</title>
 		<subtitle>L’Évangile de la vie</subtitle>
 		<author>Jean-Paul II</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1995-03-25_hf_john-paul-ii_evangelium-vitae"/>
 	</info>
 	<chapter>
 		<title>EVANGELIUM VITÆ</title>
@@ -29,7 +25,7 @@
 			</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_1995-03-25_hf_john-paul-ii_evangelium-vitae_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 		<section>

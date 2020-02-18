@@ -7,11 +7,7 @@
 		<title>Ecclesia de Eucharistia</title>
 		<subtitle>L’Église vit de l’Eucharistie</subtitle>
 		<author>Jean-Paul II</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_2003-04-17_hf_john-paul-ii_ecclesia-de-eucharistia"/>
 	</info>
 	<chapter>
 		<title>ECCLESIA DE EUCHARISTIA</title>
@@ -28,7 +24,7 @@
 			</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_2003-04-17_hf_john-paul-ii_ecclesia-de-eucharistia_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 		<section>

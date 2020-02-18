@@ -7,11 +7,7 @@
 		<title>Ad Catholici Sacerdotii</title>
 		<subtitle>Le sacerdoce</subtitle>
 		<author>Pie XI</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1935-12-20_hf_pius-xi_ad-catholici-sacerdotii"/>
 	</info>
 
 	<chapter>
@@ -19,7 +15,7 @@
 		<subtitle>DE SA SAINTETÉ LE PAPE PIE XI<br/>LETTRE ENCYCLIQUE<br/>SUR LE SACERDOCE</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_1935-12-20_hf_pius-xi_ad-catholici-sacerdotii_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 		<p><np>1</np> Depuis que, par un mystérieux dessein de la divine Providence, Nous Nous sommes vu élevé à ce sommet suprême du sacerdoce catholique, Nous n’avons jamais cessé, parmi les innombrables fils que Dieu Nous a donnés, de consacrer Nos soins les plus empressés et les plus affectueux à ceux qui, revêtus du caractère sacerdotal, ont la mission d’être le sel de la terre et la lumière du monde (<bible><ss>Mt</ss> <sc>5</sc>, <sv>13</sv></bible> <bible><ss>Mt</ss> <sc>5</sc>, <sv>14</sv></bible>), et d’une manière encore plus spéciale, à ceux qui sont élevés à l’ombre du sanctuaire et se préparent à cette très noble mission. Déjà dans les premiers mois de Notre Pontificat, avant même d’adresser Notre parole solennelle à tout l’Univers catholique<footnote><p>Cf. Pie XI, Lettre encyclique <i>Ubi arcano</i> du 23 décembre 1922 : AAS XIV (1922) 673-700.</p></footnote>, Nous Nous sommes empressé, par la Lettre apostolique <i>Officiorum omnium</i>, adressée à Notre très cher Fils le Cardinal-Préfet de la Sacrée Congrégation des Séminaires et des Universités<footnote><p>Cf. Pie XI, Lettre apostolique <i>Officiorum omnium</i> du 1er août 1922 : AAS XIV (1922) 449-458.</p></footnote>, de tracer les directives dont doit s’inspirer la formation sacerdotale des jeunes lévites. Et toutes les fois que la sollicitude pastorale Nous pousse à considérer d’une façon plus particulière les intérêts et les besoins de l’Église, Notre attention, avant toute autre chose, se dirige vers les prêtres et les clercs qui forment toujours l’objet principal de Nos soins. De cet intérêt spécial, que Nous portons au sacerdoce, sont la preuve éloquente les nombreux Séminaires que Nous avons érigés, là où ils n’existaient pas encore, ou bien munis, et non sans grande dépense, d’édifices nouveaux et imposants, ou bien mieux pourvus de moyens et de personnes qui leur permettent d’atteindre plus dignement leur but élevé. Si ensuite, à l’occasion de Notre jubilé sacerdotal, Nous avons consenti à ce que l’on fêtât solennellement cet heureux anniversaire, et si, avec une paternelle complaisance, Nous avons secondé les manifestations d’affection filiale qui Nous venaient de toutes les parties du monde, ce fut parce que, plus que comme un hommage à Notre personne, Nous considérions cette célébration comme une juste exaltation de la dignité et du caractère sacerdotal. Et de même, la réforme des études dans les Facultés ecclésiastiques, que Nous avons décrétée par la Constitution apostolique <i>Deus scientiarum Dominus</i> du 24 mai 1931, fut voulue par Nous surtout dans leur but d’accroître et d’élever toujours davantage la culture et la science des prêtres<footnote><p>Cf. Pie XI, Constitution apostolique <i>Deus scientiarum Dominas</i> du 24 mai 1931 : AAS XXIII (1931) 241-262.</p></footnote>.</p>

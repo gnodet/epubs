@@ -9,11 +9,7 @@
         <title>Laborem exercens</title>
         <subtitle>En travaillant</subtitle>
         <author>Jean-Paul II</author>
-        <mediaobject role="cover" xml:id="coverd">
-            <imageobject role="front-large" remap="lrg">
-                <imagedata format="PNG" fileref="cover.png"/>
-            </imageobject>
-        </mediaobject>
+        <cover name="enc_1981-09-14_hf_john-paul-ii_laborem-exercens"/>
     </info>
 
     <chapter>
@@ -33,7 +29,7 @@
 
         <mediaobject>
             <imageobject>
-                <imagedata align="center" fileref="image.svg" format="SVG"/>
+                <imagedata align="center" fileref="svgs/enc_1981-09-14_hf_john-paul-ii_laborem-exercens_coa-bw.svg" format="SVG"/>
             </imageobject>
         </mediaobject>
 

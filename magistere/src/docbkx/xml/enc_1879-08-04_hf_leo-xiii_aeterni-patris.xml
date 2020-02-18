@@ -7,18 +7,14 @@
 		<title>Æterni Patris</title>
 		<subtitle>La philosophie chrétienne</subtitle>
 		<author>Léon XIII</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1879-08-04_hf_leo-xiii_aeterni-patris"/>
 	</info>
 	<chapter>
 		<title>ÆTERNI PATRIS</title>
 		<subtitle>LETTRE ENCYCLIQUE<br/>DE SA SAINTETÉ<br/>LE PAPE LÉON XIII<br/>SUR LA PHILOSOPHIE CHRÉTIENNE</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_1879-08-04_hf_leo-xiii_aeterni-patrisco_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 		<p><i>À tous Nos Vénérables Frères les Patriarches, Primats, Archevêques et Évêques du monde catholique, en grâce et communion avec le Siège Apostolique</i>.</p>

@@ -7,11 +7,7 @@
 		<title>Caritas in veritate</title>
 		<subtitle>L’amour dans la vérité</subtitle>
 		<author>Benoît XVI</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_2009-06-29_hf_benedict-xvi_caritas-in-veritate"/>
 	</info>
 	<chapter>
 		<title>CARITAS IN VERITATE</title>
@@ -31,7 +27,7 @@
 			</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_2009-06-29_hf_benedict-xvi_caritas-in-veritate_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 		<section>

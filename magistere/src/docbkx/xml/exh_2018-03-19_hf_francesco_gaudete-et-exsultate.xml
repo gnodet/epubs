@@ -7,18 +7,14 @@
 		<title>Gaudete et exsultate</title>
 		<subtitle>La joie et l’allégresse</subtitle>
 		<author>François</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="exh_2018-03-19_hf_francesco_gaudete-et-exsultate"/>
 	</info>
 	<chapter>
 		<title>GAUDETE ET EXSULTATE</title>
 		<subtitle>Exhortation apostolique du Saint-Père François sur l’appel à la sainteté dans le monde actuel</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata format="SVG" align="center" fileref="svgs/exh_2018-03-19_hf_francesco_gaudete-et-exsultate_coa-bw.svg"/>
 			</imageobject>
 		</mediaobject>
 

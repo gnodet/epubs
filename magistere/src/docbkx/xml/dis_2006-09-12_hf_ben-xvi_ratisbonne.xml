@@ -10,11 +10,7 @@
 
         <author>Benoît XVI</author>
 
-        <mediaobject role="cover" xml:id="coverd">
-            <imageobject role="front-large" remap="lrg">
-                <imagedata format="PNG" fileref="cover.png"/>
-            </imageobject>
-        </mediaobject>
+        <cover name="dis_2006-09-12_hf_ben-xvi_ratisbonne"/>
     </info>
 
     <chapter>
@@ -22,7 +18,7 @@
         <subtitle>Foi, Raison et Université : souvenirs et réflexions</subtitle>
         <mediaobject>
             <imageobject>
-                <imagedata align="center" fileref="image.svg" format="SVG"/>
+                <imagedata align="center" fileref="svgs/dis_2006-09-12_hf_ben-xvi_ratisbonne_coa-bw.svg" format="SVG"/>
             </imageobject>
         </mediaobject>
         <section>

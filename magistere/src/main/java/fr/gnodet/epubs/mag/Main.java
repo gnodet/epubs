@@ -58,9 +58,10 @@ public class Main {
             }
 
             System.err.println("     Generating " + file + ".png");
-            byte[] coverPngData = Cover.generateCoverPng(
+            int height = 1084;
+            int width = (height * 297) / (210 * 2); // A5 format
+            String coverSvgData = Cover.createCoverSvg(
                     (i * 1.0 / books.getLength()),
-                    title,
                     new Object[] {
                             new Cover.Text(creator.toUpperCase(), new Font(Font.SERIF, Font.PLAIN, 58), 1.0, 0.0),
                             new Cover.Break(),
@@ -68,11 +69,16 @@ public class Main {
                             new Cover.Break(),
                             new Cover.Text(titlefr, new Font(Font.SERIF, Font.ITALIC, 58), 1.0, 0.0)
                     },
-                    Main.class.getResource("coa/" + full + ".svg"));
-            Files.createDirectories(Paths.get("target/site/images"));
+                    Main.class.getResource("coa/" + full + ".svg"), null,
+                    height, width);
+            writeToFile(coverSvgData, "target/site/svgs/" + file + ".svg");
+            byte[] coverPngData = Cover.createCoverPng(
+                    coverSvgData,
+                    height, width);
             writeToFile(coverPngData, "target/site/images/" + file + ".png");
-            Files.createDirectories(Paths.get("target/site/svgs"));
-            Files.copy(Main.class.getResourceAsStream("coa/" + full + "-bw.svg"), Paths.get("target/site/svgs/" + file + ".svg"), StandardCopyOption.REPLACE_EXISTING);
+            Files.copy(Main.class.getResourceAsStream("coa/" + full + "-bw.svg"),
+                       Paths.get("target/site/svgs/" + file + "_coa-bw.svg"),
+                       StandardCopyOption.REPLACE_EXISTING);
 
             if (i % nbColumns == 0) {
                 indexHtml.append("          <tr>\n");
@@ -80,6 +86,7 @@ public class Main {
             indexHtml.append("            <td><center>")
                     .append("<a href='epub/").append(file).append(".epub'><img src='images/").append(file).append(".png'/></a>")
                     .append("<br/><a href='readium-js-viewer/index.html?epub=../library/").append(file).append("'>Lecture</a>")
+                    .append(" <a href='pdf/").append(file).append(".pdf'>(PDF)</a>")
                     .append("</center></td>\n");
             if ((i + 1) % nbColumns == 0 || i == books.getLength() - 1) {
                 indexHtml.append("          </tr>\n");

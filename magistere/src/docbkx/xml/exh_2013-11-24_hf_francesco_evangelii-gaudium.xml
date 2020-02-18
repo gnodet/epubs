@@ -6,12 +6,8 @@
 		<productnumber><?eval ${project.version}?></productnumber>
 		<title>Evangelii Gaudium</title>
 		<subtitle>La joie de l’Évangile</subtitle>
-        <author>François</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+    <author>François</author>
+		<cover name="exh_2013-11-24_hf_francesco_evangelii-gaudium" />
 	</info>
 	<chapter>
 		<title>EVANGELII GAUDIUM</title>
@@ -21,7 +17,7 @@
 				<br />SUR L’ANNONCE DE L’ÉVANGILE DANS LE MONDE D’AUJOURD’HUI</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata format="SVG" align="center" fileref="svgs/exh_2013-11-24_hf_francesco_evangelii-gaudium_coa-bw.svg"/>
 			</imageobject>
 		</mediaobject>
 		<p><np>1</np> <a name="lajoiedelevangile">La joie de l’Évangile</a> remplit le cœur et toute la vie de ceux qui rencontrent Jésus. Ceux qui se laissent sauver par lui sont libérés du péché, de la tristesse, du vide intérieur, de l’isolement. Avec Jésus Christ la joie naît et renaît toujours. Dans cette Exhortation je désire m’adresser aux fidèles chrétiens, pour les inviter à une nouvelle étape évangélisatrice marquée par cette joie et indiquer des voies pour la marche de l’Église dans les prochaines années.</p>

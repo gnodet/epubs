@@ -7,11 +7,7 @@
 		<title>Ad Beatissimi Apostolorum Principis</title>
 		<subtitle>Contre les horreurs de la guerre</subtitle>
 		<author>Benoît XV</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1914-11-01_hf_benedict-xv_ad-beatissimi"/>
 	</info>
 
 	<chapter>
@@ -19,7 +15,7 @@
 		<subtitle>LETTRE ENCYCLIQUE<br/>DE SA SAINTETÉ LE PAPE BENOÎT XV</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_1914-11-01_hf_benedict-xv_ad-beatissimi_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 

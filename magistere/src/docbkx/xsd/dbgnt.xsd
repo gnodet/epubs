@@ -21,7 +21,7 @@
                 <xs:element name="title" type="xs:string"/>
                 <xs:element name="subtitle" type="xs:string"/>
                 <xs:element ref="db:author"/>
-                <xs:element ref="db:mediaobject"/>
+                <xs:element ref="db:cover"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -46,6 +46,12 @@
             <xs:sequence>
                 <xs:element name="personname" type="xs:string" minOccurs="0"/>
             </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="cover">
+        <xs:complexType>
+            <xs:attribute name="name" type="xs:string"/>
         </xs:complexType>
     </xs:element>
 

@@ -9,11 +9,7 @@
         <title>Salvifici Doloris</title>
         <subtitle>Le sens chrétien de la souffrance</subtitle>
         <author>Jean-Paul II</author>
-        <mediaobject role="cover" xml:id="coverd">
-            <imageobject role="front-large" remap="lrg">
-                <imagedata format="PNG" fileref="cover.png"/>
-            </imageobject>
-        </mediaobject>
+        <cover name="let_1984-02-11_hf_john-paul-ii_salvifici-doloris"/>
     </info>
 
     <chapter>
@@ -25,7 +21,7 @@
 
         <mediaobject>
             <imageobject>
-                <imagedata align="center" fileref="image.svg" format="SVG"/>
+                <imagedata align="center" fileref="svgs/let_1984-02-11_hf_john-paul-ii_salvifici-doloris_coa-bw.svg" format="SVG"/>
             </imageobject>
         </mediaobject>
 

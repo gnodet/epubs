@@ -33,6 +33,7 @@ import javax.xml.transform.Source;
 import javax.xml.transform.sax.SAXSource;
 import java.io.File;
 import java.io.IOException;
+import java.lang.reflect.Field;
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -43,6 +44,42 @@ import java.net.URL;
  * @author Wilfred Springer
  */
 public abstract class AbstractMojoBase extends AbstractTransformerMojo {
+    @Override
+    protected void setProperty(String propertyname, String value) {
+        try {
+            final Field f = this.getClass().getDeclaredField(propertyname);
+            f.setAccessible(true);
+            if (f.getType().equals(Boolean.class)) {
+                f.set(this, convertBooleanToXsltParam(value));
+            } else {
+                f.set(this, value);
+            }
+        } catch (NoSuchFieldException e) {
+            getLog().warn("Property not found in " + this.getClass().getName(), e);
+        } catch (IllegalAccessException e) {
+            getLog().warn("Unable to set " + propertyname + " value", e);
+        }
+    }
+
+    @Override
+    protected String getProperty(String propertyname) {
+        try {
+            final Field f = this.getClass().getDeclaredField(propertyname);
+            f.setAccessible(true);
+            Object o = f.get(this);
+            if (o == null) {
+                return null;
+            } else {
+                return o.toString();
+            }
+        } catch (NoSuchFieldException e) {
+            getLog().warn("Property not found in " + this.getClass().getName());
+        } catch (IllegalAccessException e) {
+            getLog().warn("Unable to get " + propertyname + " value");
+        }
+        return null;
+    }
+
     /**
      * DOCUMENT ME!
      *

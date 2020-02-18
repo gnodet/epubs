@@ -7,18 +7,14 @@
 		<title>Sapientæ Christianæ</title>
 		<subtitle>Les principaux devoirs des chrétiens</subtitle>
 		<author>Léon XIII</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1890-01-10_hf_leo-xiii_sapientiae-christianae"/>
 	</info>
 	<chapter>
 		<title>SAPIENTÆ CHRISTIANÆ</title>
 		<subtitle>LETTRE ENCYCLIQUE<br/>DE SA SAINTETÉ<br/>LE PAPE LÉON XIII<br/>SUR LES PRINCIPAUX DEVOIRS DES CHRÉTIENS</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_1890-01-10_hf_leo-xiii_sapientiae-christianae_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 		<p><i>À nos Vénérables Frères les Patriarches, Primats, Archevêques, Évêques et autres ordinaires, en paix et en communion avec le Saint Siège Apostolique</i>.</p>

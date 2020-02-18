@@ -7,18 +7,14 @@
 		<title>Rerum Novarum</title>
 		<subtitle>La soif d’innovations</subtitle>
 		<author>Léon XIII</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1891-05-15_hf_leo-xiii_rerum-novarum"/>
 	</info>
 	<chapter>
 	<title>RERUM NOVARUM</title>
 	<subtitle>LETTRE ENCYCLIQUE<br/>DE SA SAINTETÉ<br/>LE PAPE LÉON XIII</subtitle>
 	<mediaobject>
 		<imageobject>
-			<imagedata align="center" fileref="image.svg" format="SVG"/>
+			<imagedata align="center" fileref="svgs/enc_1891-05-15_hf_leo-xiii_rerum-novarum_coa-bw.svg" format="SVG"/>
 		</imageobject>
 	</mediaobject>
 	<p><i>À tous Nos Vénérables Frères, les Patriarches, Primats, Archevêques et Évêques du monde catholique, en grâce et communion avec le Siège Apostolique.</i></p>

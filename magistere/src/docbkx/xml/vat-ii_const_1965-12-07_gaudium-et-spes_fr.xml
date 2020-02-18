@@ -7,11 +7,7 @@
 		<title>Gaudium et Spes</title>
 		<subtitle>Constitution Pastorale sur l’Église dans le monde de ce temps</subtitle>
 		<author>Concile Vatican II</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="vat-ii_const_1965-12-07_gaudium-et-spes_fr"/>
 	</info>
 	<chapter>
 		<title>GAUDIUM ET SPES</title>

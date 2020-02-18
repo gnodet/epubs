@@ -7,11 +7,7 @@
 		<title>Mortalium Animos</title>
 		<subtitle>L’Unité de la Véritable Église</subtitle>
 		<author>Pie XI</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1928-01-06_hf_pius-xi_mortalium-animos"/>
 	</info>
 
 	<chapter>
@@ -19,7 +15,7 @@
 	<subtitle>DE SA SAINTETÉ LE PAPE PIE XI<br/>LETTRE ENCYCLIQUE<br/>SUR L’UNITÉ DE LA VÉRITABLE ÉGLISE.</subtitle>
 	<mediaobject>
 		<imageobject>
-			<imagedata align="center" fileref="image.svg" format="SVG"/>
+			<imagedata align="center" fileref="svgs/enc_1928-01-06_hf_pius-xi_mortalium-animos_coa-bw.svg" format="SVG"/>
 		</imageobject>
 	</mediaobject>
 

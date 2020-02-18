@@ -7,11 +7,7 @@
 		<title>Veritatis splendor</title>
 		<subtitle>La splendeur de la vérité</subtitle>
 		<author>Jean-Paul II</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1993-08-06_hf_john-paul-ii_veritatis-splendor"/>
 	</info>
 	<chapter>
 		<title>VERITATIS SPLENDOR</title>
@@ -26,7 +22,7 @@
 			</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_1993-08-06_hf_john-paul-ii_veritatis-splendor_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 		<p class="center"> <i><b>Bénédiction</b></i></p>

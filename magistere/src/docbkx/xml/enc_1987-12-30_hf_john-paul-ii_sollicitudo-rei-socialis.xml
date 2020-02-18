@@ -7,11 +7,7 @@
 		<title>Sollicitudo rei socialis</title>
 		<subtitle>La prise en charge du social</subtitle>
 		<author>Jean-Paul II</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1987-12-30_hf_john-paul-ii_sollicitudo-rei-socialis"/>
 	</info>
 	<chapter>
 		<title>SOLLICITUDO REI SOCIALIS</title>
@@ -29,7 +25,7 @@
 			</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_1987-12-30_hf_john-paul-ii_sollicitudo-rei-socialis_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 		<p class="center"><b>Bénédiction</b></p>

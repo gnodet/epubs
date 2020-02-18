@@ -89,8 +89,45 @@ public class Cover {
                                           URL svg,
                                           URL photo) throws IOException, TranscoderException {
 
-        int width = 711;
         int height = 1084;
+        int width = (height * 297) / (210 * 2); // A5 format
+
+        String sb = createCoverSvg(hue, textParts, svg, photo, height, width);
+
+
+        new File("target/svgs").mkdirs();
+        writeToFile(sb, "target/svgs/" + pad(Long.toString((long) (hue * 100)), 2, "0") + " - " + title + ".svg");
+        byte[] ostream = createCoverPng(sb, height, width);
+
+        writeToFile(ostream, "target/pngs/" + pad(Long.toString((long) (hue * 100)), 2, "0") + " - " + title + ".png");
+
+        return ostream;
+    }
+
+    public static byte[] createCoverPng(String svg, int height, int width) throws TranscoderException, IOException {
+        // Create a JPEG transcoder
+        PNGTranscoder t = new PNGTranscoder();
+        // Set the transcoding hints.
+        t.addTranscodingHint(PNGTranscoder.KEY_HEIGHT, (float) height);
+        t.addTranscodingHint(PNGTranscoder.KEY_WIDTH, (float) width);
+        t.addTranscodingHint(PNGTranscoder.KEY_AOI, new Rectangle(width, height));
+        // Create the transcoder input.
+        TranscoderInput input = new TranscoderInput(new StringReader(svg.toString()));
+        // Create the transcoder output.
+        ByteArrayOutputStream ostream = new ByteArrayOutputStream();
+        TranscoderOutput output = new TranscoderOutput(ostream);
+
+        // Save the image.
+        t.transcode(input, output);
+
+        // Flush and close the stream.
+        ostream.flush();
+        ostream.close();
+
+        return ostream.toByteArray();
+    }
+
+    public static String createCoverSvg(double hue, Object[] textParts, URL svg, URL photo, int height, int width) throws IOException {
         int borderOut = 40;
         int borderIn = 55;
 
@@ -120,9 +157,14 @@ public class Cover {
         sb.append("<rect x=\"" + borderInRect.getX() + "\" y=\"" + borderInRect.getY() + "\" " +
                          "width=\"" + borderInRect.getWidth() + "\" height=\"" + borderInRect.getHeight() + "\" " +
                          "fill=\"").append("white").append("\"/>\n");
-
+        sb.append("<defs>" +
+                    "<clipPath id=\"full-rect\">" +
+                      "<rect x=\"" + bounds.getX() + "\" y=\"" + bounds.getY() + "\" " +
+                            "width=\"" + bounds.getWidth() + "\" height=\"" + bounds.getHeight() + "\"/>" +
+                    "</clipPath>" +
+                  "</defs>");
         if (radius > 0.0) {
-            sb.append("<g fill=\"").append(borderColor).append("\">");
+            sb.append("<g fill=\"").append(borderColor).append("\" clip-path=\"url(#full-rect)\">");
             sb.append("<circle cx=\"" + borderOutRect.getX() + "\" cy=\"" + borderOutRect.getY() + "\" r=\"" + (radius + borderIn - borderOut) + "\" />");
             sb.append("<circle cx=\"" + borderOutRect.getMaxX() + "\" cy=\"" + borderOutRect.getY() + "\" r=\"" + (radius + borderIn - borderOut) + "\" />");
             sb.append("<circle cx=\"" + borderOutRect.getMaxX() + "\" cy=\"" + borderOutRect.getMaxY() + "\" r=\"" + (radius + borderIn - borderOut) + "\" />");
@@ -249,33 +291,7 @@ public class Cover {
                     .append("\"/>");
         }
         sb.append("</svg>");
-
-
-        new File("target/svgs").mkdirs();
-        writeToFile(sb.toString(), "target/svgs/" + pad(Long.toString((long) (hue * 100)), 2, "0") + " - " + title + ".svg");
-
-        // Create a JPEG transcoder
-        PNGTranscoder t = new PNGTranscoder();
-        // Set the transcoding hints.
-        t.addTranscodingHint(PNGTranscoder.KEY_HEIGHT, (float) height);
-        t.addTranscodingHint(PNGTranscoder.KEY_WIDTH, (float) width);
-        t.addTranscodingHint(PNGTranscoder.KEY_AOI, new Rectangle(width, height));
-        // Create the transcoder input.
-        TranscoderInput input = new TranscoderInput(new StringReader(sb.toString()));
-        // Create the transcoder output.
-        ByteArrayOutputStream ostream = new ByteArrayOutputStream();
-        TranscoderOutput output = new TranscoderOutput(ostream);
-
-        // Save the image.
-        t.transcode(input, output);
-
-        // Flush and close the stream.
-        ostream.flush();
-        ostream.close();
-
-        writeToFile(ostream.toByteArray(), "target/pngs/" + pad(Long.toString((long) (hue * 100)), 2, "0") + " - " + title + ".png");
-
-        return ostream.toByteArray();
+        return sb.toString();
     }
 
     private static String pad(String str, int length, String chr) {

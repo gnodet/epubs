@@ -7,18 +7,14 @@
 		<title>Mystici corporis Christi</title>
 		<subtitle>Le corps mystique de Jésus-Christ</subtitle>
 		<author>Pie XII</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1943-06-29_hf_pius-xii_mystici-corporis-christi"/>
 	</info>
 	<chapter>
 		<title>MYSTICI CORPORIS CHRISTI</title>
 		<subtitle>LETTRE ENCYCLIQUE<br/>DE SA SAINTETÉ LE PAPE PIE XII<br/>SUR LE CORPS MYSTIQUE DE JÉSUS-CHRIST<br/>ET SUR NOTRE UNION EN LUI AVEC LE CHRIST</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_1943-06-29_hf_pius-xii_mystici-corporis-christi_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 		<p><i>À nos Vénérables Frères les Patriarches, Primats, Archevêques, Évêques et autres ordinaires de lieux en paix et communion avec le Siège Apostolique</i></p>

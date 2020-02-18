@@ -7,11 +7,7 @@
 		<title>Amoris lætitia</title>
 		<subtitle>La joie de l’Amour</subtitle>
 		<author>François</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="exh_2016-03-19_hf_francesco_amoris-laetitia"/>
 	</info>
 	<chapter>
 		<title>AMORIS LÆTITIA</title>
@@ -21,7 +17,7 @@
 				<br />SUR L’AMOUR DANS LA FAMILLE</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata format="SVG" align="center" fileref="svgs/exh_2016-03-19_hf_francesco_amoris-laetitia_coa-bw.svg" />
 			</imageobject>
 		</mediaobject>
 		<p><np>1</np> La joie de l’amour qui est vécue dans les familles est aussi la joie de l’Église. Comme l’ont indiqué les Pères synodaux, malgré les nombreux signes de crise du mariage, « le désir de famille reste vif, spécialement chez les jeunes, et motive l’Église »<footnote><p>IIIe Assemblée Générale Extraordinaire du Synode des Évêques, <i><a href="http://www.vatican.va/roman_curia/synod/documents/rc_synod_doc_20141018_relatio-synodi-familia_fr.html">Relatio Synodi</a></i>, 18 octobre 2014, n. 2.</p></footnote>. Comme réponse à cette aspiration, « l’annonce chrétienne qui concerne la famille est vraiment une bonne nouvelle »<footnote><p>XIVe Assemblée Générale Ordinaire du Synode des Évêques, <i><a href="http://www.vatican.va/roman_curia/synod/documents/rc_synod_doc_20151026_relazione-finale-xiv-assemblea_fr.html">Relatio finalis</a></i>, 24 octobre 2015, n. 3.</p></footnote>.</p>

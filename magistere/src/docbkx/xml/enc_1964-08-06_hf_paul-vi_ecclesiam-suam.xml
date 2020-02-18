@@ -7,11 +7,7 @@
 		<title>Ecclesiam Suam</title>
 		<subtitle>Son Église</subtitle>
 		<author>Paul VI</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1964-08-06_hf_paul-vi_ecclesiam-suam"/>
 	</info>
 	<chapter>
 		<title>ECCLESIAM SUAM</title>
@@ -19,7 +15,7 @@
 		
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_1964-08-06_hf_paul-vi_ecclesiam-suam_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 		<p>À NOS VÉNÉRABLES FRÈRES PATRIARCHES, PRIMATS, ARCHEVÊQUES ÉVÊQUES ET AUTRES ORDINAIRES, EN PAIX ET COMMUNION AVEC LE SIÈGE APOSTOLIQUE, AU CLERGÉ ET AUX FIDÈLES DE L’UNIVERS, AINSI QU’À TOUS LES HOMMES DE BONNE VOLONTÉ</p>

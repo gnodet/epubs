@@ -7,11 +7,7 @@
 		<title>Optatam Totius</title>
 		<subtitle>Décret sur la formation des prêtres</subtitle>
 		<author>Concile Vatican II</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="vat-ii_decree_1965-10-28_optatam-totius_fr"/>
 	</info>
 	<chapter>
 		<title>OPTATAM TOTIUS ECCLESIÆ RENOVATIONEM</title>

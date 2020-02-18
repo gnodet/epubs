@@ -8,11 +8,7 @@
         <title>NOTE DOCTRINALE</title>
         <subtitle>Note doctrinale concernant certaines questions sur l’engagement et le comportement des catholiques dans la vie politique</subtitle>
         <author>Congrégation pour la Doctrine de la Foi</author>
-        <mediaobject role="cover" xml:id="coverd">
-            <imageobject role="front-large" remap="lrg">
-                <imagedata format="PNG" fileref="cover.png"/>
-            </imageobject>
-        </mediaobject>
+        <cover name="rc_2002-11-24_con-cfaith-doc_politica"/>
     </info>
     <chapter>
         <title>NOTE DOCTRINALE</title>

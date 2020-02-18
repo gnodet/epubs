@@ -7,11 +7,7 @@
 		<title>Nostra AÉtate</title>
 		<subtitle>Déclaration sur les relations de l’Église avec les religions non chrétiennes</subtitle>
 		<author>Concile Vatican II</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="vat-ii_decl_1965-10-28_nostra-aetate_fr"/>
 	</info>
 	<chapter>
 		<title>NOSTRA ÆTATE</title>

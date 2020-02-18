@@ -5107,7 +5107,7 @@ public class DocbkxEpub3Mojo
                     Files.copy(css, tgt.resolve(css.getFileName()));
                 }
                 if (svg != null) {
-                    Path tsvg = svg.resolve(xml.getFileName().toString().replace(".xml", ".svg"));
+                    Path tsvg = svg.resolve(xml.getFileName().toString().replace(".xml", "_coa-bw.svg"));
                     if (Files.exists(tsvg)) {
                         Files.copy(tsvg, tgt.resolve(svgName));
                     }

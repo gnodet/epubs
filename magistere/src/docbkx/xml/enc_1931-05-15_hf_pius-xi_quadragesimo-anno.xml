@@ -7,11 +7,7 @@
 		<title>Quadragesimo anno</title>
 		<subtitle>Sur l’instauration de l’ordre social</subtitle>
 		<author>Pie XI</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1931-05-15_hf_pius-xi_quadragesimo-anno"/>
 	</info>
 	<chapter>
 		<title>QUADRAGESIMO ANNO</title>
@@ -19,7 +15,7 @@
 		
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_1931-05-15_hf_pius-xi_quadragesimo-anno_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 		

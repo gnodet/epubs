@@ -7,11 +7,7 @@
 		<title>Gravissimum Educationis</title>
 		<subtitle>Déclaration sur l’éducation chrétienne</subtitle>
 		<author>Concile Vatican II</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="vat-ii_decl_1965-10-28_gravissimum-educationis_fr"/>
 	</info>
 	<chapter>
 		<title>GRAVISSIMUM EDUCATIONIS</title>

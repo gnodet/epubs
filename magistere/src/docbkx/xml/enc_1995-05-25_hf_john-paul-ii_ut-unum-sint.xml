@@ -7,11 +7,7 @@
 		<title>Ut unum sint</title>
 		<subtitle>Qu’ils soient un</subtitle>
 		<author>Jean-Paul II</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1995-05-25_hf_john-paul-ii_ut-unum-sint"/>
 	</info>
 	<chapter>
 		<title>UT UNUM SINT</title>
@@ -22,7 +18,7 @@
 			</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_1995-05-25_hf_john-paul-ii_ut-unum-sint_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 		<section>

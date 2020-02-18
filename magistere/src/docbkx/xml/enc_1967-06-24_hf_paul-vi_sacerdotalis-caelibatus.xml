@@ -7,11 +7,7 @@
 		<title>Sacerdotalis Cælibatus</title>
 		<subtitle>Le célibat sacerdotal</subtitle>
 		<author>Paul VI</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1967-06-24_hf_paul-vi_sacerdotalis-caelibatus"/>
 	</info>
 	<chapter>
 		<title>SACERDOTALIS CÆLIBATUS</title>
@@ -19,7 +15,7 @@
 		
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="paul-iv-bw.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_1967-06-24_hf_paul-vi_sacerdotalis-caelibatus_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 

@@ -7,11 +7,7 @@
 		<title>Orientalium Ecclesiarum</title>
 		<subtitle>Décret sur les Églises orientales catholiques</subtitle>
 		<author>Concile Vatican II</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="vat-ii_decree_1964-11-21_orientalium-ecclesiarum_fr"/>
 	</info>
 	<chapter>
 		<title>ORIENTALIUM ECCLESIARUM</title>

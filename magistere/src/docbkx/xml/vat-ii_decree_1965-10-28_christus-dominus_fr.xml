@@ -7,11 +7,7 @@
 		<title>Christus Dominus</title>
 		<subtitle>Décret sur la charge pastorale des Évêques dans l’Église</subtitle>
 		<author>Concile Vatican II</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="vat-ii_decree_1965-10-28_christus-dominus_fr"/>
 	</info>
 	<chapter>
 		<title>CHRISTUS DOMINUS</title>

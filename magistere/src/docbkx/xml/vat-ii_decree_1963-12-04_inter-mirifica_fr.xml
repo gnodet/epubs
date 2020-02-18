@@ -7,11 +7,7 @@
 		<title>Inter Mirifica</title>
 		<subtitle>Décret sur les moyens de communication sociale</subtitle>
 		<author>Concile Vatican II</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="vat-ii_decree_1963-12-04_inter-mirifica_fr"/>
 	</info>
 	<chapter>
 		<title>INTER MIRIFICA</title>

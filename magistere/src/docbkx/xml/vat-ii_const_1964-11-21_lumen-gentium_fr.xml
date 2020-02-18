@@ -7,11 +7,7 @@
 		<title>Lumen Gentium</title>
 		<subtitle>Constitution Dogmatique sur l’Église</subtitle>
 		<author>Concile Vatican II</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="vat-ii_const_1964-11-21_lumen-gentium_fr"/>
 	</info>
 	<chapter>
 		<title>LUMEN GENTIUM</title>

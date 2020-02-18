@@ -7,11 +7,7 @@
 		<title>Casti Connubii</title>
 		<subtitle>Le sacrement de mariage et la chasteté de l’union conjugale</subtitle>
 		<author>Pie XI</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1930-12-31_hf_pius-xi_casti-connubii"/>
 	</info>
 
 	<chapter>
@@ -19,7 +15,7 @@
 		<subtitle>DE SA SAINTETÉ LE PAPE PIE XI<br/>LETTRE ENCYCLIQUE</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_1930-12-31_hf_pius-xi_casti-connubii_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 

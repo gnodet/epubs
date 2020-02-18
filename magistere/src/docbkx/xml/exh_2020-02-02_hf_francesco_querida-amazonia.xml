@@ -7,11 +7,7 @@
         <title>Christus Vivit</title>
         <subtitle>Il vit, le Christ</subtitle>
         <author>François</author>
-        <mediaobject role="cover" xml:id="coverd">
-            <imageobject role="front-large" remap="lrg">
-                <imagedata format="PNG" fileref="cover.png"/>
-            </imageobject>
-        </mediaobject>
+        <cover name="exh_2020-02-02_hf_francesco_querida-amazonia" />
     </info>
     <chapter>
         <title>QUERIDA AMAZONIA</title>
@@ -19,7 +15,7 @@
             François au peuple de Dieu et à toutes les personnes de bonne volonté</subtitle>
         <mediaobject>
             <imageobject>
-                <imagedata align="center" fileref="image.svg" format="SVG"/>
+                <imagedata format="SVG" align="center" fileref="svgs/exh_2020-02-02_hf_francesco_querida-amazonia_coa-bw.svg"/>
             </imageobject>
         </mediaobject>
 

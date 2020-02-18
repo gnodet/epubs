@@ -7,18 +7,14 @@
 		<title>Populorum Progressio</title>
 		<subtitle>Le développement des peuples</subtitle>
 		<author>Paul VI</author>
-		<mediaobject role="cover" xml:id="coverd">
-			<imageobject role="front-large" remap="lrg">
-				<imagedata format="PNG" fileref="cover.png"/>
-			</imageobject>
-		</mediaobject>
+		<cover name="enc_1967-03-26_hf_paul-vi_populorum-progressio"/>
 	</info>
 	<chapter>
 		<title>POPULORUM PROGRESSION</title>
 		<subtitle>LETTRE ENCYCLIQUE<br/>DE SA SAINTETÉ LE PAPE PAUL VI<br/>SUR LE DÉVELOPPEMENT DES PEUPLES</subtitle>
 		<mediaobject>
 			<imageobject>
-				<imagedata align="center" fileref="image.svg" format="SVG"/>
+				<imagedata align="center" fileref="svgs/enc_1967-03-26_hf_paul-vi_populorum-progressio_coa-bw.svg" format="SVG"/>
 			</imageobject>
 		</mediaobject>
 		<section>
