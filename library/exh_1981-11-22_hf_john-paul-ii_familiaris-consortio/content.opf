@@ -7,7 +7,7 @@
       <meta property="dcterms:title" id="meta-title">Familiaris Consortio</meta>
       <dc:language id="pub-language">fr</dc:language>
       <meta property="dcterms:language" id="meta-language">fr</meta>
-      <meta property="dcterms:modified">2018-04-12T09:19:00Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
+      <meta property="dcterms:modified">2020-02-18T18:11:46Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
       <meta content="cover-image" name="cover"/>
       <meta id="meta-creator4" property="dcterms:creator">Jean-Paul II</meta>
       <dc:creator id="pub-creator4">Jean-Paul II</dc:creator>
@@ -26,7 +26,7 @@
       <item id="id-d5e314" href="ch01s04.xhtml" media-type="application/xhtml+xml"/>
       <item id="id-d5e1196" href="ch01s05.xhtml" media-type="application/xhtml+xml"/>
       <item id="id-d5e1433" href="ch01s06.xhtml" media-type="application/xhtml+xml"/>
-      <item id="d847e1" href="image.svg" media-type="image/svg+xml"/>
+      <item id="d847e1" href="coa-bw.svg" media-type="image/svg+xml"/>
    </manifest>
    <spine toc="ncx">
       <itemref idref="cover" linear="no"/>

@@ -7,7 +7,7 @@
       <meta property="dcterms:title" id="meta-title">Mortalium Animos</meta>
       <dc:language id="pub-language">fr</dc:language>
       <meta property="dcterms:language" id="meta-language">fr</meta>
-      <meta property="dcterms:modified">2018-04-12T09:18:19Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
+      <meta property="dcterms:modified">2020-02-18T18:10:56Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
       <meta content="cover-image" name="cover"/>
       <meta id="meta-creator4" property="dcterms:creator">Pie XI</meta>
       <dc:creator id="pub-creator4">Pie XI</dc:creator>
@@ -21,7 +21,7 @@
       <item id="cover-image" properties="cover-image" href="cover.png" media-type="image/png"/>
       <item id="id-d5e1" href="enc_1928-01-06_hf_pius-xi_mortalium-animos.xhtml" media-type="application/xhtml+xml"/>
       <item id="id-d5e11" href="ch01.xhtml" media-type="application/xhtml+xml"/>
-      <item id="d106e1" href="image.svg" media-type="image/svg+xml"/>
+      <item id="d106e1" href="coa-bw.svg" media-type="image/svg+xml"/>
    </manifest>
    <spine toc="ncx">
       <itemref idref="cover" linear="no"/>

@@ -7,7 +7,7 @@
       <meta property="dcterms:title" id="meta-title">Ad Beatissimi Apostolorum Principis</meta>
       <dc:language id="pub-language">fr</dc:language>
       <meta property="dcterms:language" id="meta-language">fr</meta>
-      <meta property="dcterms:modified">2018-04-12T09:19:05Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
+      <meta property="dcterms:modified">2020-02-18T18:11:53Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
       <meta content="cover-image" name="cover"/>
       <meta id="meta-creator4" property="dcterms:creator">Benoît XV</meta>
       <dc:creator id="pub-creator4">Benoît XV</dc:creator>
@@ -21,7 +21,7 @@
       <item id="cover-image" properties="cover-image" href="cover.png" media-type="image/png"/>
       <item id="id-d5e1" href="enc_1914-11-01_hf_benedict-xv_ad-beatissimi.xhtml" media-type="application/xhtml+xml"/>
       <item id="id-d5e11" href="ch01.xhtml" media-type="application/xhtml+xml"/>
-      <item id="d67e1" href="image.svg" media-type="image/svg+xml"/>
+      <item id="d67e1" href="coa-bw.svg" media-type="image/svg+xml"/>
    </manifest>
    <spine toc="ncx">
       <itemref idref="cover" linear="no"/>

@@ -11,7 +11,7 @@
       <meta property="dcterms:title" id="meta-title">L’Antéchrist</meta>
       <dc:language id="pub-language">fr</dc:language>
       <meta property="dcterms:language" id="meta-language">fr</meta>
-      <meta property="dcterms:modified">2018-04-12T09:19:18Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
+      <meta property="dcterms:modified">2020-02-18T18:13:47Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
       <meta content="cover-image" name="cover"/>
       <meta id="meta-creator3" property="dcterms:creator">Vladimir Soloviev</meta>
       <dc:creator id="pub-creator3">Vladimir Soloviev</dc:creator>

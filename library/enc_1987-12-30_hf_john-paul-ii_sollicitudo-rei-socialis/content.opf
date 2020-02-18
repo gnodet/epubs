@@ -7,7 +7,7 @@
       <meta property="dcterms:title" id="meta-title">Sollicitudo rei socialis</meta>
       <dc:language id="pub-language">fr</dc:language>
       <meta property="dcterms:language" id="meta-language">fr</meta>
-      <meta property="dcterms:modified">2018-04-12T09:18:16Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
+      <meta property="dcterms:modified">2020-02-18T18:10:51Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
       <meta content="cover-image" name="cover"/>
       <meta id="meta-creator4" property="dcterms:creator">Jean-Paul II</meta>
       <dc:creator id="pub-creator4">Jean-Paul II</dc:creator>
@@ -28,7 +28,7 @@
       <item id="id-d5e986" href="ch01s06.xhtml" media-type="application/xhtml+xml"/>
       <item id="id-d5e1127" href="ch01s07.xhtml" media-type="application/xhtml+xml"/>
       <item id="id-d5e1291" href="ch02.xhtml" media-type="application/xhtml+xml"/>
-      <item id="d411e1" href="image.svg" media-type="image/svg+xml"/>
+      <item id="d411e1" href="coa-bw.svg" media-type="image/svg+xml"/>
    </manifest>
    <spine toc="ncx">
       <itemref idref="cover" linear="no"/>

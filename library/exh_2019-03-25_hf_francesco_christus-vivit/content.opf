@@ -7,7 +7,7 @@
       <meta property="dcterms:title" id="meta-title">Christus Vivit</meta>
       <dc:language id="pub-language">fr</dc:language>
       <meta property="dcterms:language" id="meta-language">fr</meta>
-      <meta property="dcterms:modified">2020-02-14T22:59:33Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
+      <meta property="dcterms:modified">2020-02-18T18:11:48Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
       <meta content="cover-image" name="cover"/>
       <meta id="meta-creator4" property="dcterms:creator">François</meta>
       <dc:creator id="pub-creator4">François</dc:creator>
@@ -21,29 +21,29 @@
       <item id="cover-image" properties="cover-image" href="cover.png" media-type="image/png"/>
       <item id="id-d5e1" href="exh_2019-03-25_hf_francesco_christus-vivit.xhtml" media-type="application/xhtml+xml"/>
       <item id="id-d5e11" href="ch01.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d5e203" href="ch01s02.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d5e539" href="ch01s03.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d5e818" href="ch01s04.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d5e1013" href="ch01s05.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d5e1356" href="ch01s06.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d5e1514" href="ch01s07.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d5e1766" href="ch01s08.xhtml" media-type="application/xhtml+xml"/>
-      <item id="id-d5e1925" href="ch01s09.xhtml" media-type="application/xhtml+xml"/>
-      <item id="d752e1" href="image.svg" media-type="image/svg+xml"/>
+      <item id="id-d5e241" href="ch01s02.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e583" href="ch01s03.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e861" href="ch01s04.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e1059" href="ch01s05.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e1402" href="ch01s06.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e1560" href="ch01s07.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e1812" href="ch01s08.xhtml" media-type="application/xhtml+xml"/>
+      <item id="id-d5e1971" href="ch01s09.xhtml" media-type="application/xhtml+xml"/>
+      <item id="d752e1" href="coa-bw.svg" media-type="image/svg+xml"/>
    </manifest>
    <spine toc="ncx">
       <itemref idref="cover" linear="no"/>
       <itemref idref="htmltoc" linear="yes"/>
       <itemref idref="id-d5e1"/>
       <itemref idref="id-d5e11"/>
-      <itemref idref="id-d5e203"/>
-      <itemref idref="id-d5e539"/>
-      <itemref idref="id-d5e818"/>
-      <itemref idref="id-d5e1013"/>
-      <itemref idref="id-d5e1356"/>
-      <itemref idref="id-d5e1514"/>
-      <itemref idref="id-d5e1766"/>
-      <itemref idref="id-d5e1925"/>
+      <itemref idref="id-d5e241"/>
+      <itemref idref="id-d5e583"/>
+      <itemref idref="id-d5e861"/>
+      <itemref idref="id-d5e1059"/>
+      <itemref idref="id-d5e1402"/>
+      <itemref idref="id-d5e1560"/>
+      <itemref idref="id-d5e1812"/>
+      <itemref idref="id-d5e1971"/>
    </spine>
    <guide>
       <reference href="cover.xhtml" type="cover" title="Cover"/>

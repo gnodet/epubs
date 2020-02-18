@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="Église Catholique" opf:role="aut">Église Catholique</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">f39ffc0d-ff5f-4b9f-8050-ebffb1c7366c</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">b0d849c9-b1d4-480f-90d0-7335c7498ee1</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/_INDEX.HTM" />

@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="P. Marie-Eugène de l'Enfant-Jésus O.C.D." opf:role="aut">P. Marie-Eugène de l'Enfant-Jésus O.C.D.</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">3fd74ef5-b3a8-4df6-992a-53fc1102c654</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">61cf022e-c5cf-4643-bcb5-36a8b15fcb2d</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/les-oraisons-des-debutants.html" />

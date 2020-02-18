@@ -5,7 +5,7 @@
     <dc:language>fr</dc:language>
     <dc:creator opf:file-as="Louis-Claude Fillion" opf:role="aut">Louis-Claude Fillion</dc:creator>
     <meta name="cover" content="cover-image"/>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">3047c442-c614-40d8-860f-b18e2be1c332</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">750b1065-201f-41ab-b7b5-44b4f675fa77</dc:identifier>
   </metadata>
   <manifest>
     <item id="s0" media-type="application/xhtml+xml" href="OEBPS/index.xhtml" />

@@ -11,7 +11,7 @@
       <meta property="dcterms:title" id="meta-title">Discours du Pape François au Conseil de l’Europe</meta>
       <dc:language id="pub-language">fr</dc:language>
       <meta property="dcterms:language" id="meta-language">fr</meta>
-      <meta property="dcterms:modified">2018-04-12T09:18:51Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
+      <meta property="dcterms:modified">2020-02-18T18:11:31Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
       <meta content="cover-image" name="cover"/>
       <meta id="meta-creator3" property="dcterms:creator">François</meta>
       <dc:creator id="pub-creator3">François</dc:creator>
@@ -25,7 +25,7 @@
       <item id="cover-image" properties="cover-image" href="cover.png" media-type="image/png"/>
       <item id="id-d5e1" href="dis_2014-11-25_hf_francesco_conseil-de-l-europe.xhtml" media-type="application/xhtml+xml"/>
       <item id="id-d5e10" href="ch01.xhtml" media-type="application/xhtml+xml"/>
-      <item id="d86e1" href="image.svg" media-type="image/svg+xml"/>
+      <item id="d86e1" href="coa-bw.svg" media-type="image/svg+xml"/>
    </manifest>
    <spine toc="ncx">
       <itemref idref="cover" linear="no"/>

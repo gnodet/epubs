@@ -7,7 +7,7 @@
       <meta property="dcterms:title" id="meta-title">La Sainte Bible</meta>
       <dc:language id="pub-language">en</dc:language>
       <meta property="dcterms:language" id="meta-language">en</meta>
-      <meta property="dcterms:modified">2018-04-12T09:20:50Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
+      <meta property="dcterms:modified">2020-02-18T18:15:07Z</meta><!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
    </metadata>
    <manifest>
       <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>

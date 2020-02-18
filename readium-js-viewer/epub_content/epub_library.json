@@ -323,6 +323,13 @@
   },
   {
     "title" : "",
+    "author" : "Jean-Paul II",
+    "coverHref" : "../library/exh_1989-08-15_hf_john-paul-ii_redemptoris-custos/OEBPS/img/cover.png",
+    "packagePath" : "../library/exh_1989-08-15_hf_john-paul-ii_redemptoris-custos/content.opf",
+    "rootUrl": "../library/exh_1989-08-15_hf_john-paul-ii_redemptoris-custos"
+  },
+  {
+    "title" : "",
     "author" : "François",
     "coverHref" : "../library/exh_2013-11-24_hf_francesco_evangelii-gaudium/OEBPS/img/cover.png",
     "packagePath" : "../library/exh_2013-11-24_hf_francesco_evangelii-gaudium/content.opf",
@@ -341,6 +348,20 @@
     "coverHref" : "../library/exh_2018-03-19_hf_francesco_gaudete-et-exsultate/OEBPS/img/cover.png",
     "packagePath" : "../library/exh_2018-03-19_hf_francesco_gaudete-et-exsultate/content.opf",
     "rootUrl": "../library/exh_2018-03-19_hf_francesco_gaudete-et-exsultate"
+  },
+  {
+    "title" : "",
+    "author" : "François",
+    "coverHref" : "../library/exh_2019-03-25_hf_francesco_christus-vivit/OEBPS/img/cover.png",
+    "packagePath" : "../library/exh_2019-03-25_hf_francesco_christus-vivit/content.opf",
+    "rootUrl": "../library/exh_2019-03-25_hf_francesco_christus-vivit"
+  },
+  {
+    "title" : "",
+    "author" : "François",
+    "coverHref" : "../library/exh_2020-02-02_hf_francesco_querida-amazonia/OEBPS/img/cover.png",
+    "packagePath" : "../library/exh_2020-02-02_hf_francesco_querida-amazonia/content.opf",
+    "rootUrl": "../library/exh_2020-02-02_hf_francesco_querida-amazonia"
   },
   {
     "title" : "Bible",
