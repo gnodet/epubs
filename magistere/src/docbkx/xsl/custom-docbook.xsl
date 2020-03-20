@@ -62,6 +62,12 @@
 			<xsl:apply-templates/>
 		</xsl:element>
 	</xsl:template>
+	<xsl:template match="gn:smc">
+		<xsl:element name="phrase">
+			<xsl:attribute name="role">smallcaps</xsl:attribute>
+			<xsl:apply-templates/>
+		</xsl:element>
+	</xsl:template>
 	<xsl:template match="gn:br">
 		<xsl:processing-instruction name="linebreak"/>
 	</xsl:template>

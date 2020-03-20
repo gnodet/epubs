@@ -30,6 +30,7 @@
 						#notes p { margin: 0 2em; text-indent: 0; }
 						sup { position: relative; top: -0.25em; font-size: 60%; }
 						.sign { text-align: center; font-style: italic; font-size: bigger; font-weight: bolder; }
+						.smallcaps { font-variant:small-caps; }
 					</style>
 				</head>
 				<body>
