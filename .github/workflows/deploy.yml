@@ -30,7 +30,7 @@ jobs:
           cache: maven
 
       - name: Build (EPUBs + HTML, skip PDF)
-        run: ./mvnw clean install -B -Ddocbkx.skip=true
+        run: ./mvnw clean install -B -Dpdf.build.phase=none
 
       - name: Restore PDFs from previous gh-pages
         run: |
