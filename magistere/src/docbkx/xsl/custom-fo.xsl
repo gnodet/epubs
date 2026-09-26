@@ -187,11 +187,11 @@
     <fo:block/>
   </xsl:template>
 
-  <!-- FOP: fo:block is invalid inside fo:footnote/fo:inline; render para as inline -->
+  <!-- FOP: para in footnote must be fo:block (fo:footnote-body requires block children) -->
   <xsl:template match="db:para[ancestor::db:footnote]">
-    <fo:inline>
+    <fo:block>
       <xsl:apply-templates/>
-    </fo:inline>
+    </fo:block>
   </xsl:template>
   <xsl:template match="db:phrase[@*[local-name()='role' and (.='numpara')]]">
     <fo:inline font-family="Verdana" font-size="smaller"
