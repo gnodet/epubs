@@ -85,7 +85,7 @@ public class Main {
             }
             indexHtml.append("            <td><center>")
                     .append("<a href='epub/").append(file).append(".epub'><img src='images/").append(file).append(".png'/></a>")
-                    .append("<br/><a href='readium-js-viewer/index.html?epub=../library/").append(file).append("'>Lecture</a>")
+                    .append("<br/><a href='readium-js-viewer/index.html?epub=../epub/").append(file).append(".epub'>Lecture</a>")
                     .append(" <a href='pdf/").append(file).append(".pdf'>(PDF)</a>")
                     .append("</center></td>\n");
             if ((i + 1) % nbColumns == 0 || i == books.getLength() - 1) {
