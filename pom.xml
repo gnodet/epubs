@@ -129,6 +129,8 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<!-- Set to 'none' to skip PDF generation (e.g. in CI): -Dpdf.build.phase=none -->
+		<pdf.build.phase>package</pdf.build.phase>
 	</properties>
 
 	<build>
