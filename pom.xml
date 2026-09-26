@@ -172,8 +172,8 @@
 			<url>https://svn.apache.org/repos/asf/servicemix/m2-repo</url>
 		</repository>
 		<repository>
-			<id>dren-dk-hunspell</id>
-			<url>https://dl.bintray.com/dren-dk/hunspell/</url>
+			<id>liferay-public</id>
+			<url>https://repository-cdn.liferay.com/nexus/content/repositories/gradle-plugins/</url>
 		</repository>
 	</repositories>
 
