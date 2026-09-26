@@ -30,7 +30,10 @@ jobs:
           cache: maven
 
       - name: Build (EPUBs + HTML, skip PDF)
-        run: ./mvnw clean install -B -Dpdf.build.phase=none
+        run: |
+          ./mvnw clean install -B -Dpdf.build.phase=none
+          # Copy static site assets
+          cp src/site/index.html target/site/index.html
 
       - name: Restore PDFs and static assets from previous gh-pages
         run: |
