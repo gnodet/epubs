@@ -13,18 +13,34 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout source
         uses: actions/checkout@v4
 
+      - name: Checkout existing gh-pages (to preserve PDFs)
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: gh-pages-current
+
       - name: Set up JDK 8
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           java-version: '8'
           distribution: 'temurin'
           cache: maven
 
-      - name: Build
-        run: ./mvnw clean install -B
+      - name: Build (EPUBs + HTML, skip PDF)
+        run: ./mvnw clean install -B -Ddocbkx.skip=true
+
+      - name: Restore PDFs from previous gh-pages
+        run: |
+          if [ -d gh-pages-current/pdf ]; then
+            mkdir -p target/site/pdf
+            cp -r gh-pages-current/pdf/. target/site/pdf/
+            echo "PDFs restored from gh-pages"
+          else
+            echo "No existing PDFs found"
+          fi
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

@@ -140,11 +140,4 @@
 		</fo:inline>
 	</xsl:template>
 
-	<!-- FOP: para in footnote must be fo:block (fo:footnote-body requires block children) -->
-	<xsl:template match="db:para[ancestor::db:footnote]">
-		<fo:block>
-			<xsl:apply-templates/>
-		</fo:block>
-	</xsl:template>
-
 </xsl:stylesheet>

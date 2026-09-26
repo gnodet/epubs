@@ -186,13 +186,6 @@
   <xsl:template match="processing-instruction('linebreak')">
     <fo:block/>
   </xsl:template>
-
-  <!-- FOP: para in footnote must be fo:block (fo:footnote-body requires block children) -->
-  <xsl:template match="db:para[ancestor::db:footnote]">
-    <fo:block>
-      <xsl:apply-templates/>
-    </fo:block>
-  </xsl:template>
   <xsl:template match="db:phrase[@*[local-name()='role' and (.='numpara')]]">
     <fo:inline font-family="Verdana" font-size="smaller"
                font-weight="bold" color="#6495ed">
