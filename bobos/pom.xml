@@ -129,7 +129,7 @@
 						<goals>
 							<goal>generate-pdf</goal>
 						</goals>
-						<phase>package</phase>
+						<phase>${pdf.build.phase}</phase>
 						<configuration>
 							<hyphenate>false</hyphenate>
 							<chapterAutolabel>0</chapterAutolabel>

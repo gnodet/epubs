@@ -3,7 +3,9 @@ epubs
 
 Textes catholiques au format EPUB.
 
-Site web [http://gnodet.github.io/epubs/]
+Site web [https://gnodet.github.io/epubs/]
+
+[![Build](https://github.com/gnodet/epubs/actions/workflows/build.yml/badge.svg)](https://github.com/gnodet/epubs/actions/workflows/build.yml)
 
 # Génération des EPUBs
 

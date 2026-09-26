@@ -140,11 +140,4 @@
 		</fo:inline>
 	</xsl:template>
 
-	<!-- FOP: fo:block is invalid inside fo:footnote/fo:inline; render para as inline -->
-	<xsl:template match="db:para[ancestor::db:footnote]">
-		<fo:inline>
-			<xsl:apply-templates/>
-		</fo:inline>
-	</xsl:template>
-
 </xsl:stylesheet>
