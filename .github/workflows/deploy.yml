@@ -32,8 +32,8 @@ jobs:
       - name: Build (EPUBs + HTML, skip PDF)
         run: |
           ./mvnw clean install -B -Dpdf.build.phase=none
-          # Copy static site assets
-          cp src/site/index.html target/site/index.html
+          # Copy static site assets (index.html, CSS, JS)
+          cp -r src/site/. target/site/
 
       - name: Restore PDFs and static assets from previous gh-pages
         run: |
