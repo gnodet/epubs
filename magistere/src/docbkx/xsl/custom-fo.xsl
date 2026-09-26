@@ -184,7 +184,14 @@
     </fo:inline>
   </xsl:template>
   <xsl:template match="processing-instruction('linebreak')">
-    <xsl:value-of select="'&#x2028;'"/>
+    <fo:block/>
+  </xsl:template>
+
+  <!-- FOP: fo:block is invalid inside fo:footnote/fo:inline; render para as inline -->
+  <xsl:template match="db:para[ancestor::db:footnote]">
+    <fo:inline>
+      <xsl:apply-templates/>
+    </fo:inline>
   </xsl:template>
   <xsl:template match="db:phrase[@*[local-name()='role' and (.='numpara')]]">
     <fo:inline font-family="Verdana" font-size="smaller"
