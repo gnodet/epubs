@@ -42,37 +42,37 @@
 			<dependency>
 				<groupId>org.apache.xmlgraphics</groupId>
 				<artifactId>batik-all</artifactId>
-				<version>1.9.1</version>
+				<version>${batik.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.xmlgraphics</groupId>
 				<artifactId>batik-svg-dom</artifactId>
-				<version>1.19</version>
+				<version>${batik.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.xmlgraphics</groupId>
 				<artifactId>batik-bridge</artifactId>
-				<version>1.19</version>
+				<version>${batik.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.xmlgraphics</groupId>
 				<artifactId>batik-extension</artifactId>
-				<version>1.19</version>
+				<version>${batik.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.xmlgraphics</groupId>
 				<artifactId>batik-ext</artifactId>
-				<version>1.9.1</version>
+				<version>${batik.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.xmlgraphics</groupId>
 				<artifactId>batik-awt-util</artifactId>
-				<version>1.9.1</version>
+				<version>${batik.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.xmlgraphics</groupId>
 				<artifactId>batik-gvt</artifactId>
-				<version>1.9.1</version>
+				<version>${batik.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.gnodet.epubs</groupId>
@@ -131,6 +131,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<!-- Set to 'none' to skip PDF generation (e.g. in CI): -Dpdf.build.phase=none -->
 		<pdf.build.phase>package</pdf.build.phase>
+		<batik.version>1.19</batik.version>
 	</properties>
 
 	<build>
