@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
 <books type="enc" title="Lettres encycliques" file="encycliques">
 
+    <book date="2026-05-15" creator="Léon XIV" title="Magnifica Humanitas" title-fr="La protection de la personne humaine à l'ère de l'IA" />
+
+    <book date="2024-10-24" creator="François" title="Dilexit Nos" title-fr="L'amour humain et divin du Cœur de Jésus-Christ" />
+    <book date="2020-10-03" creator="François" title="Fratelli Tutti" title-fr="La fraternité et l'amitié sociale" />
     <book date="2015-05-24" creator="François" title="Lodato si’" title-fr="La sauvegarde de la maison commune" file="enc_2015-05-24_hf_francesco_laudato-si"/>
     <book date="2013-06-29" creator="François" title="Lumen Fidei" title-fr="La lumière de la foi" />
 
@@ -31,6 +35,9 @@
     <book date="1965-09-03" creator="Paul VI" title="Mysterium Fidei" title-fr="Mystère de la foi" />
     <book date="1965-04-29" creator="Paul VI" title="Mense Maio" title-fr="Le mois de mai" />
     <book date="1964-08-06" creator="Paul VI" title="Ecclesiam Suam" title-fr="Son Église" />
+
+    <book date="1963-04-11" creator="Jean XXIII" title="Pacem in Terris" title-fr="La paix entre toutes les nations" />
+    <book date="1961-05-15" creator="Jean XXIII" title="Mater et Magistra" title-fr="La nouvelle question sociale" />
 
     <book date="1943-06-29" creator="Pie XII" title="Mystici Corporis Christi" title-fr="Le corps mystique de Jésus-Christ" />
     <book date="1939-10-20" creator="Pie XII" title="Summi Pontificus" title-fr="De l’unité du genre humain" />
