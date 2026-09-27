@@ -42,8 +42,8 @@ jobs:
 
       - name: Restore large assets from previous gh-pages
         run: |
-          # Restore only large binary assets not in src/site/ (readium viewer, archives)
-          for f in readium-js-viewer archives; do
+          # Restore only large binary assets not in src/site/ (readium viewer)
+          for f in readium-js-viewer; do
             if [ -e "gh-pages-current/$f" ] && [ ! -e "target/site/$f" ]; then
               cp -r "gh-pages-current/$f" "target/site/$f"
               echo "Restored: $f"
