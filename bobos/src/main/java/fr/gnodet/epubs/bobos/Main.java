@@ -10,6 +10,7 @@ import java.util.List;
 
 import com.google.common.io.Files;
 import fr.gnodet.epubs.core.Cover;
+import org.apache.pdfbox.Loader;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.pdmodel.PDPageTree;
@@ -30,7 +31,7 @@ public class Main {
             }
         });
         for (File file : pdfs) {
-            PDDocument pdf = PDDocument.load(file, "");
+            PDDocument pdf = Loader.loadPDF(file);
             PDFText2HTML stripper = new PDFText2HTML();
             String txt = stripper.getText(pdf);
             Files.write(txt, new File(file.toString() + ".html"), Charset.defaultCharset());
