@@ -104,12 +104,16 @@ public class Main {
             return "benedict-xvi";
         } else if ("Benoît XV".equals(name)) {
              return "benedict-xv";
+        } else if ("Jean XXIII".equals(name)) {
+            return "john-xxiii";
         } else if ("Jean-Paul II".equals(name)) {
             return "john-paul-ii";
         } else if ("Paul VI".equals(name)) {
             return "paul-vi";
         } else if ("François".equals(name)) {
             return "francesco";
+        } else if ("Léon XIV".equals(name)) {
+            return "leo-xiv";
         } else if ("Léon XIII".equals(name)) {
             return "leo-xiii";
         } else if ("Pie XI".equals(name)) {

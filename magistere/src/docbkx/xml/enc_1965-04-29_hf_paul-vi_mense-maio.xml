@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="preview.xsl"?>
+<book xmlns="http://gnodet.fr/ns/docbook"
+	  xml:id="enc_1965-04-29_hf_paul-vi_mense-maio" xml:lang="fr">
+	<info>
+		<productnumber><?eval ${project.version}?></productnumber>
+		<title>Mense Maio</title>
+		<subtitle>Le mois de mai</subtitle>
+		<author>Paul VI</author>
+		<cover name="enc_1965-04-29_hf_paul-vi_mense-maio"/>
+	</info>
+	<chapter>
+		<title>MENSE MAIO</title>
+	</chapter>
+</book>
