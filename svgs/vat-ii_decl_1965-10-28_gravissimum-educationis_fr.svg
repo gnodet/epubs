@@ -108,7 +108,7 @@
 	<g transform="translate(-170.94918,905.427)" id="g3012"/>
 	<rect width="0" height="0" x="-60.517925" y="994.35181" transform="scale(-1,1)" style="font-size:12px;fill:#c0c0c0;fill-rule:evenodd;stroke-width:1pt" id="rect1788"/>
 	<rect width="0" height="0" x="56.213161" y="1107.6851" style="font-size:12px;fill:#c0c0c0;fill-rule:evenodd;stroke-width:1pt" id="rect4458"/>
-	<g style="fill-rule:evenodd" id="Layer 2" transform="matrix(1.12205,0,0,1.12205,-16653.573,-3517.6545)"/>
+	<g style="fill-rule:evenodd" id="layer-2" transform="matrix(1.12205,0,0,1.12205,-16653.573,-3517.6545)"/>
 	<g style="fill-rule:evenodd" id="g22906" transform="matrix(26.40912,0,0,27.77001,-39809.763,-7576.3385)">
 		<defs id="defs22908">
 			<polygon id="XMLID_5_" points="469.75879,342.92773 529.12402,342.16113 529.12402,440.2207 469.75879,440.2207 469.75879,342.92773 "/>

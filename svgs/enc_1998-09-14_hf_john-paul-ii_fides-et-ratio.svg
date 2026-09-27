@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid meet" viewBox="0.0 0.0 766.0 1084.0">
-<rect x="0.0" y="0.0" width="766.0" height="1084.0" fill="#f2e00c"/>
-<rect x="40.0" y="40.0" width="686.0" height="1004.0" fill="#fbf5b6"/>
+<rect x="0.0" y="0.0" width="766.0" height="1084.0" fill="#bef20c"/>
+<rect x="40.0" y="40.0" width="686.0" height="1004.0" fill="#ebfbb6"/>
 <rect x="55.0" y="55.0" width="656.0" height="974.0" fill="white"/>
-<defs><clipPath id="full-rect"><rect x="0.0" y="0.0" width="766.0" height="1084.0"/></clipPath></defs><g fill="#fbf5b6" clip-path="url(#full-rect)"><circle cx="40.0" cy="40.0" r="50.0" /><circle cx="726.0" cy="40.0" r="50.0" /><circle cx="726.0" cy="1044.0" r="50.0" /><circle cx="40.0" cy="1044.0" r="50.0" /></g><g fill="#f2e00c"><circle cx="40.0" cy="40.0" r="35.0" /><circle cx="726.0" cy="40.0" r="35.0" /><circle cx="726.0" cy="1044.0" r="35.0" /><circle cx="40.0" cy="1044.0" r="35.0" /></g><g fill="#f2e00c"><rect x="0.0" y="0.0" width="766.0" height="40.0" />
+<defs><clipPath id="full-rect"><rect x="0.0" y="0.0" width="766.0" height="1084.0"/></clipPath></defs><g fill="#ebfbb6" clip-path="url(#full-rect)"><circle cx="40.0" cy="40.0" r="50.0" /><circle cx="726.0" cy="40.0" r="50.0" /><circle cx="726.0" cy="1044.0" r="50.0" /><circle cx="40.0" cy="1044.0" r="50.0" /></g><g fill="#bef20c"><circle cx="40.0" cy="40.0" r="35.0" /><circle cx="726.0" cy="40.0" r="35.0" /><circle cx="726.0" cy="1044.0" r="35.0" /><circle cx="40.0" cy="1044.0" r="35.0" /></g><g fill="#bef20c"><rect x="0.0" y="0.0" width="766.0" height="40.0" />
 <rect x="0.0" y="1044.0" width="766.0" height="40.0" />
 <rect x="0.0" y="40.0" width="40.0" height="1004.0" />
 <rect x="726.0" y="40.0" width="40.0" height="1004.0" />
 </g><g font-family="serif" font-size="58" fill="#000000" text-anchor="middle" transform="scale(1.0 1.0) translate(383.0, 138.0)"><text x="0" y="0">JEAN-PAUL II</text>
-</g><g font-family="serif" font-size="96" fill="#797006" text-anchor="middle" transform="scale(0.8333333333333334 1.0) translate(459.59999999999997, 357.0)"><text x="0" y="0">FIDES ET</text>
+</g><g font-family="serif" font-size="96" fill="#5f7906" text-anchor="middle" transform="scale(0.8333333333333334 1.0) translate(459.59999999999997, 357.0)"><text x="0" y="0">FIDES ET</text>
 <text x="0" y="96">RATIO</text>
 </g><g font-family="serif" font-size="58" fill="#000000" text-anchor="middle" font-style="italic" transform="scale(1.0 1.0) translate(383.0, 634.0)"><text x="0" y="0">La foi et la raison</text>
 </g><svg y="658.0" x="249.188" height="324.0" >

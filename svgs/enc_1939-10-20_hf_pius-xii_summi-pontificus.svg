@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid meet" viewBox="0.0 0.0 766.0 1084.0">
-<rect x="0.0" y="0.0" width="766.0" height="1084.0" fill="#530cf2"/>
-<rect x="40.0" y="40.0" width="686.0" height="1004.0" fill="#cbb6fb"/>
+<rect x="0.0" y="0.0" width="766.0" height="1084.0" fill="#7f0cf2"/>
+<rect x="40.0" y="40.0" width="686.0" height="1004.0" fill="#d8b6fb"/>
 <rect x="55.0" y="55.0" width="656.0" height="974.0" fill="white"/>
-<defs><clipPath id="full-rect"><rect x="0.0" y="0.0" width="766.0" height="1084.0"/></clipPath></defs><g fill="#cbb6fb" clip-path="url(#full-rect)"><circle cx="40.0" cy="40.0" r="50.0" /><circle cx="726.0" cy="40.0" r="50.0" /><circle cx="726.0" cy="1044.0" r="50.0" /><circle cx="40.0" cy="1044.0" r="50.0" /></g><g fill="#530cf2"><circle cx="40.0" cy="40.0" r="35.0" /><circle cx="726.0" cy="40.0" r="35.0" /><circle cx="726.0" cy="1044.0" r="35.0" /><circle cx="40.0" cy="1044.0" r="35.0" /></g><g fill="#530cf2"><rect x="0.0" y="0.0" width="766.0" height="40.0" />
+<defs><clipPath id="full-rect"><rect x="0.0" y="0.0" width="766.0" height="1084.0"/></clipPath></defs><g fill="#d8b6fb" clip-path="url(#full-rect)"><circle cx="40.0" cy="40.0" r="50.0" /><circle cx="726.0" cy="40.0" r="50.0" /><circle cx="726.0" cy="1044.0" r="50.0" /><circle cx="40.0" cy="1044.0" r="50.0" /></g><g fill="#7f0cf2"><circle cx="40.0" cy="40.0" r="35.0" /><circle cx="726.0" cy="40.0" r="35.0" /><circle cx="726.0" cy="1044.0" r="35.0" /><circle cx="40.0" cy="1044.0" r="35.0" /></g><g fill="#7f0cf2"><rect x="0.0" y="0.0" width="766.0" height="40.0" />
 <rect x="0.0" y="1044.0" width="766.0" height="40.0" />
 <rect x="0.0" y="40.0" width="40.0" height="1004.0" />
 <rect x="726.0" y="40.0" width="40.0" height="1004.0" />
 </g><g font-family="serif" font-size="58" fill="#000000" text-anchor="middle" transform="scale(1.0 1.0) translate(383.0, 138.0)"><text x="0" y="0">PIE XII</text>
-</g><g font-family="serif" font-size="96" fill="#290679" text-anchor="middle" transform="scale(0.8333333333333334 1.0) translate(459.59999999999997, 328.0)"><text x="0" y="0">SUMMI</text>
+</g><g font-family="serif" font-size="96" fill="#3f0679" text-anchor="middle" transform="scale(0.8333333333333334 1.0) translate(459.59999999999997, 328.0)"><text x="0" y="0">SUMMI</text>
 <text x="0" y="96">PONTIFICUS</text>
 </g><g font-family="serif" font-size="58" fill="#000000" text-anchor="middle" font-style="italic" transform="scale(1.0 1.0) translate(383.0, 576.0)"><text x="0" y="0">De l’unité du</text>
 <text x="0" y="58">genre humain</text>
@@ -109,7 +109,7 @@
 	<g transform="translate(-170.94918,905.427)" id="g3012"/>
 	<rect width="0" height="0" x="-60.517925" y="994.35181" transform="scale(-1,1)" style="font-size:12px;fill:#c0c0c0;fill-rule:evenodd;stroke-width:1pt" id="rect1788"/>
 	<rect width="0" height="0" x="56.213161" y="1107.6851" style="font-size:12px;fill:#c0c0c0;fill-rule:evenodd;stroke-width:1pt" id="rect4458"/>
-	<g style="fill-rule:evenodd" id="Layer 2" transform="matrix(1.12205,0,0,1.12205,-16653.573,-3517.6545)"/>
+	<g style="fill-rule:evenodd" id="layer-2" transform="matrix(1.12205,0,0,1.12205,-16653.573,-3517.6545)"/>
 	<g style="fill-rule:evenodd" id="g22906" transform="matrix(26.40912,0,0,27.77001,-39809.763,-7576.3385)">
 		<defs id="defs22908">
 			<polygon id="XMLID_5_" points="469.75879,342.92773 529.12402,342.16113 529.12402,440.2207 469.75879,440.2207 469.75879,342.92773 "/>
