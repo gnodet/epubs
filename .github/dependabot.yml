@@ -1,0 +1,17 @@
+version: 2
+updates:
+  - package-ecosystem: "maven"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    ignore:
+      # log4j 1.x is EOL — 1.2.17 is the last release; no non-vulnerable version exists
+      - dependency-name: "log4j:log4j"
+
+  - package-ecosystem: "maven"
+    directory: "/epub-maven-plugin"
+    schedule:
+      interval: "weekly"
+    ignore:
+      # log4j 1.x is EOL — 1.2.17 is the last release; no non-vulnerable version exists
+      - dependency-name: "log4j:log4j"
