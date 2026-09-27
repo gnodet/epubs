@@ -112,7 +112,11 @@ public class Cover {
         t.addTranscodingHint(PNGTranscoder.KEY_WIDTH, (float) width);
         t.addTranscodingHint(PNGTranscoder.KEY_AOI, new Rectangle(width, height));
         // Create the transcoder input.
+        // Set a document URI so Batik 1.17+ can resolve external resources (images)
+        // referenced from the in-memory SVG. The URI doesn't need to point to a real
+        // file; it just needs to be non-null so the security policy allows absolute URLs.
         TranscoderInput input = new TranscoderInput(new StringReader(svg.toString()));
+        input.setURI("file:///");
         // Create the transcoder output.
         ByteArrayOutputStream ostream = new ByteArrayOutputStream();
         TranscoderOutput output = new TranscoderOutput(ostream);
