@@ -115,6 +115,7 @@
             <phase>package</phase>
             <configuration>
               <epubOebpsDir>./</epubOebpsDir>
+              <epubCoverLinear>1</epubCoverLinear>
               <xincludeSupported>true</xincludeSupported>
               <calloutUnicodeFont>Times</calloutUnicodeFont>
               <chapterAutolabel>0</chapterAutolabel>
