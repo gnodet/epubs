@@ -15,3 +15,5 @@ updates:
     ignore:
       # log4j 1.x is EOL — 1.2.17 is the last release; no non-vulnerable version exists
       - dependency-name: "log4j:log4j"
+      # maven-plugin-plugin ≥ 3.6.0 requires Maven ≥ 3.6.3; upgrade together with Maven wrapper bump
+      - dependency-name: "org.apache.maven.plugins:maven-plugin-plugin"
