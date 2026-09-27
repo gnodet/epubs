@@ -131,6 +131,12 @@
 			<xsl:value-of select="'('"/><xsl:apply-templates/><xsl:value-of select="')'"/>
 		</xsl:element>
 	</xsl:template>
+	<xsl:template match="gn:ap">
+		<xsl:element name="phrase">
+			<xsl:attribute name="role">spa</xsl:attribute>
+			<xsl:value-of select="'('"/><xsl:apply-templates/><xsl:value-of select="')'"/>
+		</xsl:element>
+	</xsl:template>
 	<xsl:template match="gn:phrase[@*[local-name()='href' and not(starts-with(., '#'))]]">
 		<xsl:apply-templates />
 	</xsl:template>
