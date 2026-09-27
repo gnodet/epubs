@@ -50,6 +50,13 @@ jobs:
             fi
           done
 
+      - name: Generate archives/epubs.zip (all EPUBs + PDFs)
+        run: |
+          mkdir -p target/site/archives
+          cd target/site
+          zip -j archives/epubs.zip epub/*.epub pdf/*.pdf
+          echo "Archive size: $(du -sh archives/epubs.zip | cut -f1)"
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
