@@ -188,7 +188,11 @@ def run_epubcheck(epub_path: Path, classpath: str, java: str) -> dict:
         )
         if json_out.exists():
             with open(json_out, encoding="utf-8") as f:
-                return json.load(f)
+                content = f.read()
+            if content.strip():
+                return json.loads(content)
+    except (json.JSONDecodeError, OSError) as e:
+        print(f"[warn] epubcheck JSON parse error for {epub_path.name}: {e}", file=sys.stderr)
     finally:
         if json_out.exists():
             json_out.unlink()
