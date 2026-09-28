@@ -1,13 +1,52 @@
 <?xml version="1.0"?>
 <books type="exh" title="Exhortations apostolique" file="exhortations">
 
-    <book date="2020-02-02" creator="François" title="Querida Amazonia" title-fr="L’Amazonie bien-aimée" />
+    <book date="2023-10-15" creator="François" title="C'est la confiance" title-fr="Sur la confiance en l'amour miséricordieux de Dieu"
+          file="exh_2023-10-15_hf_francesco_cest-la-confiance"/>
+    <book date="2023-10-04" creator="François" title="Laudate Deum" title-fr="Sur la crise climatique"
+          file="exh_2023-10-04_hf_francesco_laudate-deum"/>
+    <book date="2020-02-02" creator="François" title="Querida Amazonia" title-fr="L'Amazonie bien-aimée" />
     <book date="2019-03-25" creator="François" title="Christus Vivit" title-fr="Il vit, le Christ" />
-    <book date="2018-03-19" creator="François" title="Gaudete et exsultate" title-fr="La joie et l’allégresse" />
-    <book date="2016-03-19" creator="François" title="Amoris Laetitia" title-fr="La joie de l’amour" />
-    <book date="2013-11-24" creator="François" title="Evangelii Gaudium" title-fr="La joie de l’Évangile" />
+    <book date="2018-03-19" creator="François" title="Gaudete et exsultate" title-fr="La joie et l'allégresse" />
+    <book date="2016-03-19" creator="François" title="Amoris Laetitia" title-fr="La joie de l'amour" />
+    <book date="2013-11-24" creator="François" title="Evangelii Gaudium" title-fr="La joie de l'Évangile" />
 
+    <book date="2012-09-14" creator="Benoît XVI" title="Ecclesia in Medio Oriente" title-fr="Communion et témoignage"
+          file="exh_2012-09-14_hf_benedict-xvi_ecclesia-in-medio-oriente"/>
+    <book date="2011-11-19" creator="Benoît XVI" title="Africae Munus" title-fr="L'Église en Afrique au service de la réconciliation, de la justice et de la paix"
+          file="exh_2011-11-19_hf_benedict-xvi_africae-munus"/>
+    <book date="2010-09-30" creator="Benoît XVI" title="Verbum Domini" title-fr="La Parole de Dieu dans la vie et dans la mission de l'Église"
+          file="exh_2010-09-30_hf_benedict-xvi_verbum-domini"/>
+    <book date="2007-02-22" creator="Benoît XVI" title="Sacramentum Caritatis" title-fr="L'Eucharistie, source et sommet de la vie et de la mission de l'Église"
+          file="exh_2007-02-22_hf_benedict-xvi_sacramentum-caritatis"/>
+
+    <book date="2003-10-16" creator="Jean-Paul II" title="Pastores Gregis" title-fr="L'évêque, serviteur de l'Évangile de Jésus-Christ pour l'espérance du monde"
+          file="exh_2003-10-16_hf_john-paul-ii_pastores-gregis"/>
+    <book date="2003-06-28" creator="Jean-Paul II" title="Ecclesia in Europa" title-fr="Jésus-Christ, vivant dans son Église, source d'espérance pour l'Europe"
+          file="exh_2003-06-28_hf_john-paul-ii_ecclesia-in-europa"/>
+    <book date="2001-11-22" creator="Jean-Paul II" title="Ecclesia in Oceania" title-fr="Jésus-Christ et les peuples de l'Océanie"
+          file="exh_2001-11-22_hf_john-paul-ii_ecclesia-in-oceania"/>
+    <book date="1999-11-06" creator="Jean-Paul II" title="Ecclesia in Asia" title-fr="Jésus-Christ le Sauveur et sa mission d'amour et de service en Asie"
+          file="exh_1999-11-06_hf_john-paul-ii_ecclesia-in-asia"/>
+    <book date="1999-01-22" creator="Jean-Paul II" title="Ecclesia in America" title-fr="La rencontre avec le Christ Vivant, chemin vers la conversion"
+          file="exh_1999-01-22_hf_john-paul-ii_ecclesia-in-america"/>
+    <book date="1997-05-10" creator="Jean-Paul II" title="Une espérance nouvelle pour le Liban" title-fr="Une espérance nouvelle pour le Liban"
+          file="exh_1997-05-10_hf_john-paul-ii_une-esperance-nouvelle-pour-le-liban"/>
+    <book date="1996-03-25" creator="Jean-Paul II" title="Vita Consecrata" title-fr="La vie consacrée et sa mission dans l'Église et dans le monde"
+          file="exh_1996-03-25_hf_john-paul-ii_vita-consecrata"/>
+    <book date="1995-09-14" creator="Jean-Paul II" title="Ecclesia in Africa" title-fr="L'Église en Afrique et sa mission évangélisatrice"
+          file="exh_1995-09-14_hf_john-paul-ii_ecclesia-in-africa"/>
+    <book date="1992-03-25" creator="Jean-Paul II" title="Pastores Dabo Vobis" title-fr="La formation des prêtres dans les circonstances actuelles"
+          file="exh_1992-03-25_hf_john-paul-ii_pastores-dabo-vobis"/>
     <book date="1989-08-15" creator="Jean-Paul II" title="Redemptoris Custos" title-fr="Saint Joseph, Gardien du Rédempteur" />
+    <book date="1988-12-30" creator="Jean-Paul II" title="Christifideles Laici" title-fr="La vocation et la mission des laïcs dans l'Église et dans le monde"
+          file="exh_1988-12-30_hf_john-paul-ii_christifideles-laici"/>
+    <book date="1984-12-02" creator="Jean-Paul II" title="Reconciliatio et Paenitentia" title-fr="La réconciliation et la pénitence dans la mission de l'Église"
+          file="exh_1984-12-02_hf_john-paul-ii_reconciliatio-et-paenitentia"/>
+    <book date="1984-03-25" creator="Jean-Paul II" title="Redemptionis Donum" title-fr="La consécration religieuse à la lumière du mystère de la Rédemption"
+          file="exh_1984-03-25_hf_john-paul-ii_redemptionis-donum"/>
     <book date="1981-11-22" creator="Jean-Paul II" title="Familiaris Consortio" title-fr="Les tâches de la famille chrétienne" />
+    <book date="1979-10-16" creator="Jean-Paul II" title="Catechesi Tradendae" title-fr="La catéchèse en notre temps"
+          file="exh_1979-10-16_hf_john-paul-ii_catechesi-tradendae"/>
 
 </books>
